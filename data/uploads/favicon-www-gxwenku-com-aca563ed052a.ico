@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+<title>&#x5317;&#x4EAC;&#x9A9A;&#x5973;&#x4EBA;&#x4E45;&#x4E45;&#x516D;&#x533A;&#x30B8;&#x30F3;&#x30B3;&#x30A6;&#x30E2;&#x30C7;&#x30EB;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x5F;&#x48;&#x44;&#x624B;&#x673A;&#x89C2;&#x770B;&#x2D;&#x9999;&#x74DC;&#x41;&#x56;</title>
+<meta name="keywords" content="&#x5317;&#x4EAC;&#x9A9A;&#x5973;&#x4EBA;&#x4E45;&#x4E45;&#x516D;&#x533A;&#x30B8;&#x30F3;&#x30B3;&#x30A6;&#x30E2;&#x30C7;&#x30EB;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x2C;&#x5317;&#x4EAC;&#x9A9A;&#x5973;&#x4EBA;&#x4E45;&#x4E45;&#x516D;&#x533A;&#x30B8;&#x30F3;&#x30B3;&#x30A6;&#x30E2;&#x30C7;&#x30EB;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x5728;&#x7EBF;&#x89C2;&#x770B;">
+<meta name="description" content="&#x5317;&#x4EAC;&#x9A9A;&#x5973;&#x4EBA;&#x4E45;&#x4E45;&#x516D;&#x533A;&#x30B8;&#x30F3;&#x30B3;&#x30A6;&#x30E2;&#x30C7;&#x30EB;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x662F;&#x4E00;&#x90E8;&#x48;&#x44;&#x624B;&#x673A;&#x89C2;&#x770B;&#x7684;&#x5F71;&#x89C6;&#x89C6;&#x9891;&#xFF0C;&#x7531;&#x9999;&#x74DC;&#x41;&#x56;&#x63D0;&#x4F9B;&#x9AD8;&#x6E05;&#x8D44;&#x6E90;&#x5728;&#x7EBF;&#x89C2;&#x770B;">
+<meta name="robots" content="index, follow">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-title" content="&#x9999;&#x74DC;&#x41;&#x56;">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Cache-Control" content="no-cache" />
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+<link rel="icon" href="/assets/favicon.ico" />
+<link rel="stylesheet" href="/assets/css/light-ui.css">
+<style type="text/css"> :root {--accent-cyan:#FFEB3B;--accent-magenta:#ff5722;--accent-lime:#9e9e9e} </style>
+<script rel="nofollow" type="text/javascript" src="/assets/lay_other.script?v=879487"></script>
+</head>
+<body>
+<div class="mobile-bar">
+    <a href="/" class="brand" data-type="i136b3f"><img src="/assets/logo/香瓜AV.png" alt="&#x9999;&#x74DC;&#x41;&#x56;" /></a>
+    <button class="menu-toggle" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+    </button>
+</div>
+<header class="site-header">
+    <a href="/" class="brand obj-hidden" id="ff33583"><img src="/assets/logo/香瓜AV.png" alt="&#x9999;&#x74DC;&#x41;&#x56;" /></a>
+    <div class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="search" class="search-input" placeholder="输入影片名或明星">
+    </div>
+    <nav class="main-nav">
+        <a href="/" class="nav-link" data-seed="f81846">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+            首页
+        </a>
+        <a href="/menu-clss/" class="nav-link" data-index="e03eba">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            &#x79C1;&#x623F;&#x5B9E;&#x5F55;        </a>
+        <a href="/menu-noi/" class="nav-link" dir="d179771">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            &#x5996;&#x9A9A;&#x8BF1;&#x60D1;        </a>
+        <a href="/menu-drma/" class="nav-link" data-group="a542e80">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            &#x56FD;&#x4EA7;&#x539F;&#x521B;        </a>
+        <a href="/menu-doc/" class="nav-link" data-type="eec50b">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            &#x7247;&#x5546;&#x7CBE;&#x9009;        </a>
+        <a href="/menu-fit/" class="nav-link" id="f4473c">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            &#x41;&#x56;&#x89E3;&#x8BF4;        </a>
+        <a href="/menu-var/" class="nav-link" data-seed="f3b9baa">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            &#x677E;&#x672C;&#x4E00;&#x9999;        </a>
+    </nav>
+</header>
+<main class="site-main">
+    <div class="all-beta-box"></div>
+    <section class="watch-stage">
+        <div class="player-frame">
+            <iframe width="100%" height="100%" src="/assets/player.html?url=aHR0cHM6Ly9tOS50aWFuZW43MC5jb20vbTN1OC82YWMzLzZhYzM4OTVkMmVkYWIxMzE2MjAwLm0zdTg=&json=" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" security="restricted" sandbox="allow-same-origin allow-forms allow-scripts allow-popups allow-presentation allow-top-navigation" ></iframe>
+        </div>
+    </section>
+    <article class="detail-panel">
+        <h1 class="detail-title">&#x5317;&#x4EAC;&#x9A9A;&#x5973;&#x4EBA;&#x4E45;&#x4E45;&#x516D;&#x533A;&#x30B8;&#x30F3;&#x30B3;&#x30A6;&#x30E2;&#x30C7;&#x30EB;&#x30B7;&#x30B9;&#x30C6;&#x30E0;-&#x48;&#x44;&#x624B;&#x673A;&#x89C2;&#x770B;</h1>
+        <div class="media-meta">
+            <span>片長：19分钟</span>
+            <span class="meta-dot"></span>
+            <span>更新时间：2025-11-03</span>
+        </div>
+        <div class="genre-bar">
+            <div class="obj-label mb0">類別：</div>
+            <a href="/menu-west/" data-index="fd2eee4">&#x6296;&#x97F3;&#x77ED;&#x7247;</a>
+        </div>
+        <div class="action-bar">
+            <div class="url-display">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                <span id="current-url">https://www.gxwenku.com/favicon.ico</span>
+            </div>
+            <button class="share-btn" type="button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                分享链接
+            </button>
+        </div>
+    </article>
+    <section class="section recommendation-section">
+        <div class="section-header">
+            <div class="section-title">可能想看</div>
+            <a href="/menu-west/" class="view-more" dir="a45c52">
+                查看全部
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+        </div>
+        <div class="video-grid">
+            <div class="play-beta-box"></div>
+<div>
+            <a href="/allplay/68430405k1.html" class="video-card" title="&#x767D;&#x864E;&#x7A74;&#49;&#53;&#x5B69;&#x5C81;&#x5973;&#x1F21A;&#x7801;&#x7535;&#x5F71;" data-group="acd1ed">
+                <div class="video-cover">
+                    <img src="/assets/img/loading.png" data-src="https://v2.colbizy95.com/upload/vod/41/41f22a95ce727392eab8a729544d70eb.webp" class="lazy" alt="&#x767D;&#x864E;&#x7A74;&#49;&#53;&#x5B69;&#x5C81;&#x5973;&#x1F21A;&#x7801;&#x7535;&#x5F71;">
+                    <span class="video-updatedAt">2026-05-18</span>
+                    <span class="play-overlay"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">&#x767D;&#x864E;&#x7A74;&#49;&#53;&#x5B69;&#x5C81;&#x5973;&#x1F21A;&#x7801;&#x7535;&#x5F71;</div>
+                </div>
+            </a>
+</div>
+<div>
+            <a href="/allplay/23026702k1.html" class="video-card" title="&#x5F88;&#x7D27;&#x7684;&#x6606;&#x660E;&#x88F8;&#x5973;&#x79;&#x79;&#55;&#48;&#56;&#48;" data-type="ie78e3">
+                <div class="video-cover">
+                    <img src="/assets/img/loading.png" data-src="https://v2.colbizy95.com/upload/vod/94/94110ac4f451307d838dfddfd8677531.webp" class="lazy" alt="&#x5F88;&#x7D27;&#x7684;&#x6606;&#x660E;&#x88F8;&#x5973;&#x79;&#x79;&#55;&#48;&#56;&#48;">
+                    <span class="video-updatedAt">2026-04-15</span>
+                    <span class="play-overlay"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">&#x5F88;&#x7D27;&#x7684;&#x6606;&#x660E;&#x88F8;&#x5973;&#x79;&#x79;&#55;&#48;&#56;&#48;</div>
+                </div>
+            </a>
+</div>
+<div>
+            <a href="/allplay/77571000k1.html" class="video-card" title="&#x8089;&#x78;&#x78;&#x78;&#x78;&#x6027;&#x8273;&#x53F2;" id="if46439">
+                <div class="video-cover">
+                    <img src="/assets/img/loading.png" data-src="https://v1.colbizy95.com/upload/vod/62/62526637901b47dce9cc6fb04b9330cd.webp" class="lazy" alt="&#x8089;&#x78;&#x78;&#x78;&#x78;&#x6027;&#x8273;&#x53F2;">
+                    <span class="video-updatedAt">2026-02-06</span>
+                    <span class="play-overlay"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">&#x8089;&#x78;&#x78;&#x78;&#x78;&#x6027;&#x8273;&#x53F2;</div>
+                </div>
+            </a>
+</div>
+<div>
+            <a href="/allplay/32167297k1.html" class="video-card" title="&#x91D1;&#x5C71;&#x7F8E;&#x7531;&#x4F5C;&#x54C1;&#x756A;&#x53F7;" data-seed="f7a9822">
+                <div class="video-cover">
+                    <img src="/assets/img/loading.png" data-src="https://v2.colbizy95.com/upload/vod/7e/7ed23b911580546213117de8329a527c.webp" class="lazy" alt="&#x91D1;&#x5C71;&#x7F8E;&#x7531;&#x4F5C;&#x54C1;&#x756A;&#x53F7;">
+                    <span class="video-updatedAt">2026-06-15</span>
+                    <span class="play-overlay"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">&#x91D1;&#x5C71;&#x7F8E;&#x7531;&#x4F5C;&#x54C1;&#x756A;&#x53F7;</div>
+                </div>
+            </a>
+</div>
+<div>
+            <a href="/allplay/86711595k1.html" class="video-card" title="&#x6027;&#x723D;&#x6D53;&#x5BC6;&#x5A07;&#x59BB;" data-index="g01549">
+                <div class="video-cover">
+                    <img src="/assets/img/loading.png" data-src="https://v1.colbizy95.com/upload/vod/f7/f773a176c9db367f7ffc658a7203b0e2.webp" class="lazy" alt="&#x6027;&#x723D;&#x6D53;&#x5BC6;&#x5A07;&#x59BB;">
+                    <span class="video-updatedAt">2026-03-07</span>
+                    <span class="play-overlay"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">&#x6027;&#x723D;&#x6D53;&#x5BC6;&#x5A07;&#x59BB;</div>
+                </div>
+            </a>
+</div>
+<div>
+            <a href="/allplay/41307892k1.html" class="video-card" title="&#x5931;&#x63A7;&#x9AA8;&#x79D1;&#x7279;&#x5199;&#x9AD8;&#x68;&#x7F05;&#x7538;&#x5C11;&#x5987;" dir="db6354d">
+                <div class="video-cover">
+                    <img src="/assets/img/loading.png" data-src="https://v1.colbizy95.com/upload/vod/db/dbb9d553d16cb3882a858427223e0153.webp" class="lazy" alt="&#x5931;&#x63A7;&#x9AA8;&#x79D1;&#x7279;&#x5199;&#x9AD8;&#x68;&#x7F05;&#x7538;&#x5C11;&#x5987;">
+                    <span class="video-updatedAt">2026-06-30</span>
+                    <span class="play-overlay"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">&#x5931;&#x63A7;&#x9AA8;&#x79D1;&#x7279;&#x5199;&#x9AD8;&#x68;&#x7F05;&#x7538;&#x5C11;&#x5987;</div>
+                </div>
+            </a>
+</div>
+<div>
+            <a href="/allplay/95852190k1.html" class="video-card" title="&#x61;&#x76;&#x559C;&#x6B22;&#x53E3;&#x2169;&#x2169;&#x58;&#48;&#48;&#48;&#x41;&#x7247;&#x61;&#x76;&#x9732;&#x8138;&#49;&#48;&#48;&#x6210;&#x5E74;&#x4EBA;" data-group="e2db0f">
+                <div class="video-cover">
+                    <img src="/assets/img/loading.png" data-src="https://v2.colbizy95.com/upload/vod/6e/6e2244e40692a69a06553892c73eee9c.webp" class="lazy" alt="&#x61;&#x76;&#x559C;&#x6B22;&#x53E3;&#x2169;&#x2169;&#x58;&#48;&#48;&#48;&#x41;&#x7247;&#x61;&#x76;&#x9732;&#x8138;&#49;&#48;&#48;&#x6210;&#x5E74;&#x4EBA;">
+                    <span class="video-updatedAt">2026-01-29</span>
+                    <span class="play-overlay"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">&#x61;&#x76;&#x559C;&#x6B22;&#x53E3;&#x2169;&#x2169;&#x58;&#48;&#48;&#48;&#x41;&#x7247;&#x61;&#x76;&#x9732;&#x8138;&#49;&#48;&#48;&#x6210;&#x5E74;&#x4EBA;</div>
+                </div>
+            </a>
+</div>
+<div>
+            <a href="/allplay/50448487k1.html" class="video-card" title="&#x963F;&#x8870;&#50;&#48;&#50;&#51;&#x4E2D;&#x975E;&#x81EA;&#x62CD;&#x8273;&#x8273;&#x4E61;&#x6751;" data-type="ec86e4">
+                <div class="video-cover">
+                    <img src="/assets/img/loading.png" data-src="https://v2.colbizy95.com/upload/vod/64/643540dbe377e73bdb86bbe83929065a.webp" class="lazy" alt="&#x963F;&#x8870;&#50;&#48;&#50;&#51;&#x4E2D;&#x975E;&#x81EA;&#x62CD;&#x8273;&#x8273;&#x4E61;&#x6751;">
+                    <span class="video-updatedAt">2025-10-05</span>
+                    <span class="play-overlay"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">&#x963F;&#x8870;&#50;&#48;&#50;&#51;&#x4E2D;&#x975E;&#x81EA;&#x62CD;&#x8273;&#x8273;&#x4E61;&#x6751;</div>
+                </div>
+            </a>
+</div>
+<div>
+            <a href="/allplay/5044784k1.html" class="video-card" title="&#x6D59;&#x6C5F;&#x6DEB;&#x5973;&#x6A31;&#x6843;&#x61;&#x76;" id="b2ac66">
+                <div class="video-cover">
+                    <img src="/assets/img/loading.png" data-src="https://v1.colbizy95.com/upload/vod/a3/a3b181e468701ab5cef23cdc8073a148.webp" class="lazy" alt="&#x6D59;&#x6C5F;&#x6DEB;&#x5973;&#x6A31;&#x6843;&#x61;&#x76;">
+                    <span class="video-updatedAt">2026-06-28</span>
+                    <span class="play-overlay"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">&#x6D59;&#x6C5F;&#x6DEB;&#x5973;&#x6A31;&#x6843;&#x61;&#x76;</div>
+                </div>
+            </a>
+</div>
+<div>
+            <a href="/allplay/59589082k1.html" class="video-card" title="&#x798F;&#x5DDE;&#x6D6A;&#x5987;&#x4E00;&#x533A;&#x4E8C;&#x533A;&#x4E09;&#x533A;" data-seed="f2d724">
+                <div class="video-cover">
+                    <img src="/assets/img/loading.png" data-src="https://v1.colbizy95.com/upload/vod/b2/b2857f88993fc26a8654c23ccbebbc6a.webp" class="lazy" alt="&#x798F;&#x5DDE;&#x6D6A;&#x5987;&#x4E00;&#x533A;&#x4E8C;&#x533A;&#x4E09;&#x533A;">
+                    <span class="video-updatedAt">2025-08-27</span>
+                    <span class="play-overlay"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">&#x798F;&#x5DDE;&#x6D6A;&#x5987;&#x4E00;&#x533A;&#x4E8C;&#x533A;&#x4E09;&#x533A;</div>
+                </div>
+            </a>
+</div>
+        </div>
+    </section>
+<footer class="site-footer">
+    <p>Copyright &copy; 2026 &#x77;&#x77;&#x77;&#x2E;&#x67;&#x78;&#x77;&#x65;&#x6E;&#x6B;&#x75;&#x2E;&#x63;&#x6F;&#x6D;. All rights reserved.</p>
+    <p class="site-footer-xml"><a href="/sitemap.xml" target="_blank" data-index="i6369e">網站地圖</a></p>
+</footer>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<script src="/assets/js/doth-core.js" defer></script>
+<script>
+var _czc = _czc || [];
+(function () {
+	var um = document.createElement("script");
+	um.src = "https://s9.cnzz.com/z.js?id=1281455819&async=1";
+	var s = document.getElementsByTagName("script")[0];
+	s.parentNode.insertBefore(um, s);
+})();
+</script>
+</main>
+</body>
+</html>

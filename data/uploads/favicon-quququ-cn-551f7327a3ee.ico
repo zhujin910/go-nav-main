@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX4EC4CNMR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-ZX4EC4CNMR')
+    </script>
+    <meta charset="UTF-8" />
+    <!-- 预加载首页用到的字体和gif -->
+    <link
+      rel="preload"
+      as="image"
+      href="https://leqi-watermark.oss-cn-shanghai.aliyuncs.com/elf/static/web/image/home-bg.gif"
+    />
+    <link
+      rel="preload"
+      as="font"
+      crossorigin
+      href="https://leqi-watermark.oss-cn-shanghai.aliyuncs.com/elf/static/font/web/YSBT-Hei.ttf"
+    />
+    <link
+      rel="preload"
+      as="font"
+      crossorigin
+      href="https://leqi-watermark.oss-cn-shanghai.aliyuncs.com/elf/static/font/web/YSBT-Yuan.otf"
+    />
+    <link rel="icon" href="https://quququ.cn/icon.png" />
+    <link rel="canonical" href="https://quququ.cn/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta
+      name="description"
+      content="一款智能AI图像处理网站,支持在线去水印、自动抠图、模糊照片变清晰等功能,一键就能制作出精美图片,提高图片编辑效率。使用人工智能技术，支持批量去除图片中的文字、标志，多余物体等多种水印，去水印不留痕，不压画质， 高质不糊图！"
+    />
+    <title>水印一键去去去—免费在线去水印精灵，一键涂抹，轻松去除，无痕图片去水印，在线抠图去背景</title>
+    <script>
+      var tJuHtye1 = tJuHtye1 || []
+      ;(function () {
+        var DSIqPKf2 =
+          window['\x64\x6f\x63\x75\x6d\x65\x6e\x74']['\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74'](
+            '\x73\x63\x72\x69\x70\x74'
+          )
+        DSIqPKf2['\x73\x72\x63'] =
+          '\x68\x74\x74\x70\x73\x3a\x2f\x2f\x68\x6d\x2e\x62\x61\x69\x64\x75\x2e\x63\x6f\x6d\x2f\x68\x6d\x2e\x6a\x73\x3f\x61\x34\x38\x66\x30\x36\x35\x38\x63\x61\x30\x38\x32\x61\x62\x39\x33\x38\x62\x39\x66\x65\x61\x61\x33\x36\x37\x66\x38\x36\x37\x37'
+        var LwQNMW3 =
+          window['\x64\x6f\x63\x75\x6d\x65\x6e\x74'][
+            '\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x73\x42\x79\x54\x61\x67\x4e\x61\x6d\x65'
+          ]('\x73\x63\x72\x69\x70\x74')[0]
+        LwQNMW3['\x70\x61\x72\x65\x6e\x74\x4e\x6f\x64\x65']['\x69\x6e\x73\x65\x72\x74\x42\x65\x66\x6f\x72\x65'](
+          DSIqPKf2,
+          LwQNMW3
+        )
+      })()
+    </script>
+    <script type="text/javascript">
+      ;(function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            ;(c[a].q = c[a].q || []).push(arguments)
+          }
+        t = l.createElement(r)
+        t.async = 1
+        t.src = 'https://www.clarity.ms/tag/' + i
+        y = l.getElementsByTagName(r)[0]
+        y.parentNode.insertBefore(t, y)
+      })(window, document, 'clarity', 'script', 'hh1zh8xkuu')
+    </script>
+    <!-- <script type="text/javascript" charset="UTF-8" src="https://cdn.wwads.cn/js/makemoney.js" async></script> -->
+    <script src="https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+    <script type="module" crossorigin src="https://quququ.cn/assets/index.e731fb33.js"></script>
+    <link rel="stylesheet" href="https://quququ.cn/assets/index.f7bca144.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+    <script>
+      //解决部分浏览器报错 globalThis is not defined
+      this.globalThis || (this.globalThis = this)
+    </script>
+  </body>
+</html>

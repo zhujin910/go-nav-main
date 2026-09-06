@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="NOISE盘搜">
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8bd5a" />
+      <stop offset="1" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1e5d3" />
+      <stop offset="1" stop-color="#e7d5bd" />
+    </linearGradient>
+  </defs>
+
+  <rect x="10" y="14" width="108" height="104" rx="30" fill="url(#shell)" />
+
+  <path d="M64 14 L75 6" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" />
+  <path d="M64 14 L53 6" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" />
+
+  <rect x="28" y="40" width="72" height="48" rx="18" fill="url(#panel)" />
+
+  <g stroke="#1f2937" stroke-width="4" stroke-linecap="round">
+    <line x1="52" y1="58" x2="52" y2="70" />
+    <line x1="60" y1="56" x2="60" y2="72" />
+    <line x1="68" y1="54" x2="68" y2="74" />
+    <line x1="76" y1="56" x2="76" y2="72" />
+  </g>
+
+  <polygon points="86,64 77,59 77,69" fill="#1f2937" />
+</svg>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+	    <link rel="icon" href="/img/favicon.png">
+    <link rel="shortcut icon" href="/img/favicon.png">	
+	<link rel="stylesheet" href="/css/bmain.min.css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-391393-31"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-391393-31');
+</script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7345961049612122"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="bheader">
+	<div class="brow">
+		<a href="/" title="Split Video Online - Split video in a browser(Free & Secure)">
+			<img class="brand" src="/img/logo.png" alt="Split video"/> 
+		</a>
+		<div id="blanguage">
+					<style>
+			.langImg {
+				background-image: url(/lang/langImg.png);
+				background-repeat: no-repeat;
+				display: block;
+				float: left;
+			}
+			#languagebar img,span
+			{
+				vertical-align: middle;
+			}
+			.languagecur
+			{
+			    cursor: pointer;
+				border-color: #e2e2ea;
+				border-width: 1px;
+				border-style: solid;
+				padding: 3px;
+				border-radius: 5px;
+			}
+			#menu i { margin-right: 2px;} 
+			#menu ul { margin: 0; padding: 0; list-style: none; } 
+			#menu ul li { display: block;   position: relative;   float: left; } 
+			#menu li ul { display: none; } 
+			#menu ul li a { display: block;   text-decoration: none;   color: #ffffff;   border-top: 1px solid #ffffff;   padding: 5px 15px 5px 15px;   background: #f0f0f9;   margin-left: 1px;   white-space: nowrap; } 
+			#menu ul li a:hover { background: #e2e2ea; } 
+			#menu li:hover ul {display: block;   position: absolute; } 
+			#menu li:hover li {float: none;} 
+			#menu li:hover a {background: #b9b9b9; } 
+			#menu li:hover li a:hover { background: #e2e2ea; }
+			#menu ul li {
+			  list-style-position: inside;
+			  -webkit-column-break-inside: avoid;
+						page-break-inside: avoid;
+							 break-inside: avoid;
+							  height:30px;
+			}
+		</style>
+		
+		<div id="menu">
+			<ul>
+				<li>
+					<div class="languagecur">
+						<img style="vertical-align: middle;" width="20px" height="20px" src="/lang/en.png"/>
+						<span style="vertical-align: middle;" >Language<i class="fa fa-down-dir"></i></span>
+					</div>
+					<ul style="margin-left:-150px;columns:2;-webkit-columns: 2;-moz-columns: 2;column-gap:0;">
+						<li><a href="/ar/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -0px;"></i></span> العربية</a></li><li><a href="/cs/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -24px;"></i></span> český</a></li><li><a href="/de/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -48px;"></i></span> Deutsch</a></li><li><a href="/dk/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -72px;"></i></span> Dansk</a></li><li><a href="/fi/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -120px;"></i></span> Suomalainen</a></li><li><a href="/fr/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -144px;"></i></span> Français</a></li><li><a href="/hu/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -168px;"></i></span> Magyar</a></li><li><a href="/it/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -192px;"></i></span> Italiano</a></li><li><a href="/jp/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -216px;"></i></span> 日本の</a></li><li><a href="/nl/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -240px;"></i></span> Nederlands</a></li><li><a href="/no/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -264px;"></i></span> Norsk</a></li><li><a href="/pl/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -288px;"></i></span> Polski</a></li><li><a href="/pt/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -312px;"></i></span> Português</a></li><li><a href="/ru/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -336px;"></i></span> Pусский</a></li><li><a href="/se/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -360px;"></i></span> Svenska</a></li><li><a href="/sp/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -384px;"></i></span> Español</a></li><li><a href="/zh/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -408px;"></i></span> 中文(简体)</a></li><li><a href="/in/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -432px;"></i></span> हिन्दी</a></li><li><a href="/id/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -456px;"></i></span> Indonesia</a></li><li><a href="/pk/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -480px;"></i></span> اردو</a></li><li><a href="/bd/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -504px;"></i></span> বাংলা ভাষার</a></li><li><a href="/ph/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -528px;"></i></span> Pilipino</a></li><li><a href="/vn/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -552px;"></i></span> Tiếng Việt</a></li><li><a href="/tr/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -576px;"></i></span> Türkçe</a></li><li><a href="/th/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -600px;"></i></span> ไทย</a></li><li><a href="/kr/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -624px;"></i></span> 한국어</a></li><li><a href="/tw/favicon.ico"><span><i class="langImg" style="width: 24px; height: 24px; background-position: 0px -648px;"></i></span> 繁體中文</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>		</div>
+	</div>
+</div>
+<div id="bbody">	
+	
+</div>
+<div id="bfooter">
+	<div class="brow">
+		<div class="bcontent bcenter bshare">
+					<!-- Facebook -->
+		<a href="https://www.facebook.com/sharer/sharer.php?u=https://split-video.com/favicon.ico" title="Share on Facebook" target="_blank" class="btnSocial btnSocial_fb"><i class="fa fa-2x fa-facebook"></i></a>
+        <!-- Twitter -->
+		<a href="https://twitter.com/home?status= with https://split-video.com/favicon.ico" title="Share on Twitter" target="_blank" class="btnSocial btnSocial_tw"><i class="fa fa-2x fa-twitter"></i></a>
+		<!-- Google+ -->
+		<a href="https://plus.google.com/share?url=https://split-video.com/favicon.ico" title="Share on Google+" target="_blank" class="btnSocial btnSocial_gplus"><i class="fa fa-2x fa-google-plus"></i></a>
+		<!-- LinkedIn --> 
+		<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://split-video.com/favicon.ico&amp;title=" title="Share on LinkedIn" target="_blank" class="btnSocial btnSocial_linkD"><i class="fa fa-2x fa-linkedin"></i></a>
+		<!-- StumbleUpon -->
+		<a href="https://www.stumbleupon.com/submit?url=https://split-video.com/favicon.ico" title="Share on StumbleUpon" target="_blank" data-placement="top" class="btnSocial btnSocial_stu"><i class="fa fa-2x fa-stumbleupon"></i></a>		</div>
+	</div>
+	<div class="brow">
+		<div class="bcontent bcenter">
+			<span><a href="/" style="text-decoration: none;" >Video Splitter</a> © 2020</span> | 
+			<span><a href="/privacy">Privacy Policy</a></span> | 
+			<span>Support: support@epub-to-pdf.com</span>
+		</div>
+	</div>
+</div>
+
+<!-------------cookie alert----------->
+<style>
+.cookie-alert{
+    background-color:rgba(24,24,24,0.8);
+    color:#e2e2ea;
+    font-size:12px;
+    min-height:48px;
+    padding:18px;
+    position:fixed;
+    left:0;
+    right:0;
+    z-index:1021
+}
+.cookie-alert a{
+    color:#fff;
+    font-weight:bold
+}
+.cookie-alert-fixed-bottom{
+    bottom:0
+}
+.cookie-alert-close{
+    font-size:30px;
+    position:absolute;
+    right:9px;
+    top:9px
+}
+.cookie-alert-close-button{
+    background-color:transparent;
+    border:transparent;
+    padding:0
+}
+.cookie-alert-body{
+    padding-right:24px
+}
+.cookie-alert a {
+    color: #fff;
+    font-weight: bold;
+}
+.cookie-alert-hide {
+    display: none!important;
+}
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+pre a {
+    color: blue !important;
+    text-decoration: underline !important;
+}
+</style>
+<div class="cookie-alert cookie-alert-fixed-bottom cookie-alert-hide cookie-policy-banner">
+	<div class="cookie-alert-close">
+		<button type="button" class="cookie-alert-close-button js-close" aria-label="Close"><span aria-hidden="true" style="font-size:30px;cursor: pointer;">×</span></button>
+	</div>
+	<div class="cookie-alert-body">
+		We use cookies to offer you a better browsing experience, analyze site traffic, personalize content, and serve targeted advertisements. Read about how we use cookies and how you can control them on our <a href="/privacy">Privacy Policy</a>. If you continue to use this site, you consent to our use of cookies.
+	</div>
+</div>
+<script type="text/javascript">
+	function cookie_setCookie(name,value){
+		var Days=365;
+		var date=new Date(); 
+		date.setTime(date.getTime()+Days*24*60*60*1000);
+		document.cookie=name+"="+escape(value)+";expires="+date.toGMTString();
+	}
+
+	function cookie_getCookie(name){
+		var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+		if(arr=document.cookie.match(reg)){
+			return unescape(arr[2]);
+		}
+		else{
+			return null;
+		}
+	}
+	function CookiedAlert() 
+	{
+		var arr = document.getElementsByClassName('cookie-policy-banner');
+		var cookieme = arr[0];
+		arr = document.getElementsByClassName('js-close'); 
+		var closebutton = arr[0];
+		var cookieKey = "gdpr_split-video.com";
+		hasBeenDismissed = cookie_getCookie(cookieKey) === '1';
+		if (!hasBeenDismissed) {
+			cookieme.classList.remove('cookie-alert-hide');
+			closebutton.onclick = function() {
+				cookieme.style.display = 'none';
+				cookie_setCookie(cookieKey, '1');
+			}
+		}
+	}
+	CookiedAlert();
+</script>
+<!------------------------------------->
+
+</body>
+</html>

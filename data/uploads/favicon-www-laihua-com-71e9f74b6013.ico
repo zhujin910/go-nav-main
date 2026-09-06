@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png?v=shared-brand-icon-2" />
+    <title>来画</title>
+    <style>
+      html.vina-claw-boot,
+      html.vina-claw-boot body,
+      html.vina-claw-boot #app {
+        background: #fff;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-CpnPkabQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-lCvsMi66.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      ;(function () {
+        if (window.location.pathname === '/claw') {
+          document.documentElement.className += ' vina-claw-boot'
+          document.body.className += ' vina-claw-page'
+        }
+      })()
+    </script>
+    <script>
+      // 在应用加载前处理来画国内站点的历史分享入口。
+      ;(function () {
+        var hostname = window.location.hostname
+
+        if (hostname !== 'beta.laihua.com' && hostname !== 'www.laihua.com') {
+          return
+        }
+
+        var origin = window.location.origin
+        var pathname = window.location.pathname
+        var search = window.location.search
+        var hash = window.location.hash
+
+        function replaceIfNeeded(targetPath) {
+          var targetUrl = origin + targetPath + search + hash
+          if (window.location.href === targetUrl) {
+            return
+          }
+
+          window.location.replace(targetUrl)
+        }
+
+        if (pathname === '/ishare') {
+          replaceIfNeeded('/mobile/ishare')
+          return
+        }
+
+        var legacyPathPrefixes = [
+          '/workplace',
+          '/tool',
+          '/newtool',
+          '/broadcasttool',
+          '/laipicai',
+          '/removebg',
+          '/mobile',
+          '/app',
+          '/draftpreview',
+          '/doratoon-preview',
+          '/chatsdk',
+          '/workspace',
+          '/vinaagent',
+          '/laihua',
+          '/ishare',
+          '/laiiva-share',
+          '/toolKit',
+          '/draftshare',
+          '/laiiva/designTool',
+          '/meta/laiiva',
+          '/meta/card',
+          '/unity-preview',
+          '/openapi',
+          '/hengqin',
+          '/hengqin/authLogin',
+          '/anime',
+          '/claw',
+          '/home',
+        ]
+        var isLegacyPath = legacyPathPrefixes.some(function (path) {
+          return pathname.indexOf(path) === 0
+        })
+
+        if (isLegacyPath) {
+          return
+        }
+      })()
+    </script>
+  </body>
+</html>

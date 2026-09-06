@@ -1,0 +1,3023 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <link rel="icon" href="/uploads/image/20260320/8288c3b00b2317048181829125d56bd4.png" />
+        <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1.0">
+    <title>许搜 - 全网影视资源 - 网盘资源搜索神器</title>
+    <meta name="keywords" content="许搜,网盘搜索,百度网盘搜索,百度云搜索,夸克网盘搜索,迅雷网盘搜索" />
+    <meta name="description" content="支持百度网盘，夸克网盘，阿里云盘，UC网盘，迅雷云盘等搜索服务，是您工作、学习、娱乐的网盘搜索神器。" />
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="/views/index/news/common/static/css/index.min.css">
+    <link rel="stylesheet" href="/views/index/news/common/static/css/app.css">
+    <link rel="stylesheet" href="/views/index/news/common/static/css/m.css">
+    
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"L80XLERTonR0h86J",ck:"L80XLERTonR0h86J"})</script>    
+    <style>
+        :root {
+            --theme-color: #000000;
+            --theme-theme: #133ab3;
+            --theme-background: #fafafa;
+            --theme-other_background: #ffffff;
+        }
+            </style>
+    <meta name="referrer" content="never">
+    <style>
+        /* 首页 logo/标题/副标题 紧凑化（只作用于 .homeBox 内，不影响顶部 header） */
+        .homeBox.searchBox .logoBox {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .homeBox.searchBox .logoBox .title {
+            margin: 0 6px;
+        }
+        .homeBox.searchBox .subTitle {
+            padding: 4px 0 2px;
+            margin: 0;
+        }
+
+        /* 新增样式：搜索按钮组 */
+        .search-buttons-group {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin: 6px auto 10px;
+            flex-wrap: nowrap;
+            width: 90%;
+            max-width: 600px;
+        }
+        
+        .search-action-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 8px 14px;
+            border-radius: 12px;
+            font-size: 19px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            border: 2px solid transparent;
+            white-space: nowrap;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+            flex: 1;
+            min-width: 120px;
+            height: 40px;
+        }
+        
+        .search-movie-btn {
+            background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+            color: white;
+            box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
+        }
+        
+        .search-movie-btn:hover {
+            background: linear-gradient(135deg, #ff5252, #ff7b39);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(255, 107, 107, 0.4);
+        }
+        
+        .search-novel-btn {
+            background: linear-gradient(135deg, #4dabf7, #339af0);
+            color: white;
+            box-shadow: 0 8px 25px rgba(51, 154, 240, 0.3);
+        }
+        
+        .search-novel-btn:hover {
+            background: linear-gradient(135deg, #339af0, #228be6);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(51, 154, 240, 0.4);
+        }
+        
+        .search-buttons-group i {
+            font-size: 18px;
+        }
+        
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+            .search-buttons-group {
+                gap: 10px;
+                margin: 5px auto 8px;
+                flex-wrap: nowrap;
+                width: 95%;
+                max-width: 500px;
+            }
+            
+            .search-action-btn {
+                padding: 7px 12px;
+                font-size: 20px;
+                flex: 1;
+                min-width: 110px;
+                height: 36px;
+                border-radius: 10px;
+            }
+            
+            .search-buttons-group i {
+                font-size: 16px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .search-buttons-group {
+                gap: 8px;
+                width: 95%;
+                max-width: 400px;
+            }
+            
+            .search-action-btn {
+                padding: 6px 10px;
+                font-size: 18px;
+                flex: 1;
+                min-width: 100px;
+                height: 32px;
+                border-radius: 8px;
+            }
+            
+            .search-buttons-group i {
+                font-size: 14px;
+            }
+        }
+        
+        /* 搜索框样式 */
+        .search {
+            position: relative;
+            width: 90%;
+            max-width: 600px;
+            margin: 10px auto;
+            height: 52px;
+            border-radius: 26px;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+        
+        .search:hover {
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            border-color: #ff6b6b;
+        }
+        
+        .search input {
+            flex: 1;
+            height: 100%;
+            padding: 0 24px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            color: #333;
+            background: transparent;
+        }
+        
+        .search input::placeholder {
+            color: #999;
+            font-size: 15px;
+        }
+        
+        .search .btn {
+            width: 60px;
+            height: 100%;
+            background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .search .btn i {
+            font-size: 20px;
+        }
+        
+        /* 搜索类型提示 */
+        .search-type-hint {
+            text-align: center;
+            color: #ff6b6b;
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 2px;
+            margin-bottom: 4px;
+            padding: 3px 10px;
+            background: rgba(255, 107, 107, 0.1);
+            border-radius: 14px;
+            display: inline-block;
+            transform: translateY(0);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 微信/QQ浏览器防红提示 -->
+    <div id="wechat-redirect-modal" class="wechat-redirect-modal" style="display: none;">
+        <div class="redirect-modal-content">
+            <div class="redirect-modal-icon">
+                <i class="iconfont icon-jinggao"></i>
+            </div>
+            <div class="redirect-modal-title">温馨提示</div>
+            <div class="redirect-modal-text">
+                由于微信/QQ限制，网页可能无法正常访问
+                <br>
+                请复制下方链接，然后在手机浏览器中打开
+            </div>
+            <div class="redirect-link-container">
+                <input type="text" readonly id="redirect-link" value="https://xusou.cn/" class="redirect-link-input">
+                <button class="redirect-copy-btn" onclick="copyRedirectLink()">复制链接</button>
+            </div>
+            <div class="redirect-steps">
+                <div class="redirect-step">
+                    <span class="step-number">1</span>
+                    <span class="step-text">点击上方"复制链接"按钮</span>
+                </div>
+                <div class="redirect-step">
+                    <span class="step-number">2</span>
+                    <span class="step-text">打开手机浏览器（如Safari、Chrome、夸克、百度浏览器等等）</span>
+                </div>
+                <div class="redirect-step">
+                    <span class="step-number">3</span>
+                    <span class="step-text">粘贴链接并访问</span>
+                </div>
+            </div>
+            <div class="redirect-browser-tips">
+                <i class="iconfont icon-tips"></i>
+                推荐使用系统自带浏览器访问，体验更佳
+            </div>
+        </div>
+    </div>
+
+    <!-- 弹窗通知 -->
+    <div id="welcome-modal" class="welcome-modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-close" onclick="closeWelcomeModal()">×</div>
+            <div class="modal-img-container">
+                <div class="modal-title">防失联微信群</div>
+                <!-- 修改这里：图片宽度从70%改为85% -->
+                <img src="https://junso.top/uploads/image/20260210/a6a9d5f5eae9b9f6372e3897b6323cf6.jpg" alt="欢迎使用" class="modal-img" style="width: 85%;">
+            </div>
+            <button class="modal-btn" onclick="closeWelcomeModal()">我已看完，开始使用</button>
+        </div>
+    </div>
+
+    <div class="headBg" style="background-image: url();"></div>
+    <div id="app" v-cloak>
+        <div class="headerBox">
+    <div class="bg" :style="{ opacity: elementOpacity }" ></div>
+    <div class="box">
+        <a href="/" class="logoBox" :style="{ opacity: elementOpacity }" >
+                        <div class="title">许搜 - 全网影视资源</div>
+                    </a>
+        <div class="search" :style="{ opacity: elementOpacity }" >
+            <input type="text" v-model="keyword" placeholder="输入关键字进行搜索" @keyup.enter="searchBtn" confirm-type="search"
+                @confirm="searchBtn">
+            <div class="btn" @click="searchBtn">
+                <i class="iconfont icon-sousuo"></i>
+            </div>
+        </div>
+        <div class="navs">
+                        <div class="item" @click="layerVisible = true">提交需求</div>
+                        <div class="btns" v-html="`&lt;a href=&quot;https://www.kdocs.cn/l/cadPtljpSEPk&quot; target=&quot;_blank&quot;&gt;加入群聊&lt;/a&gt;`"></div>
+
+            <div class="iconfont icon-caidan" @click="drawer = true"></div>
+        </div>
+    </div>
+</div>
+<div class="headerKox"></div>
+
+
+<el-dialog v-model="qcodeVisible" width="300">
+    <img src="" style="width: 100%" />
+</el-dialog>
+
+<el-dialog v-model="layerVisible" width="300">
+    <div class="layerBox">
+        <div class="vname">提交需求</div>
+        <el-input v-model="content" placeholder="请输入你想看的资源信息~" type="textarea" resize='none'></el-input>
+        <div class="vbtn" @click="saveBtn">提交</div>
+    </div>
+</el-dialog>
+
+<el-dialog v-model="drawer" width="300" center>
+    <div class="drawer">
+                <div class="item" @click="layerVisible = true">提交需求</div>
+                <div class="btns" v-html="`&lt;a href=&quot;https://www.kdocs.cn/l/cadPtljpSEPk&quot; target=&quot;_blank&quot;&gt;加入群聊&lt;/a&gt;`"></div>
+    </div>
+</el-dialog>
+
+<el-dialog title="" v-model="dialogUrl" class="dialogUrlBox" :close-on-click-modal="false">
+    <div v-loading="dialogLoading" class="dialogUrl" v-if="dialogUrl">
+        <!-- 本地资源直接显示 -->
+        <div v-if="dialogItem.is_local">
+            <div class="title" style="color: #67C23A;"><span>本地资源</span> - 直接访问</div>
+            <div class="tips" style="color: #67C23A;">本站提供的资源，无需转存，直接访问</div>
+            <div class="nav" style="margin-top: 20px;">
+                <div class="item">
+                    <span class="t">{{dialogItem.title}}</span>
+                </div>
+                <div v-if="dialogItem.extract_code" class="item" style="color: #FF3F3D; font-weight: bold;">
+                    <span>提取码：</span>
+                    <span>{{dialogItem.extract_code}}</span>
+                </div>
+                <div class="item" v-show="pc_type!=2">
+                    <span>资源地址：</span>
+                    <a :href="dialogItem.showUrl" target="_blank" rel="noopener noreferrer" style="color: #67C23A; font-weight: bold;">{{dialogItem.showUrl}}</a>
+                </div>
+            </div>
+            <div v-show="pc_type!=1" style="margin-top: 20px; text-align: center;">
+                <div style="font-size: 14px; color: #666; margin-bottom: 10px;">扫码直接访问</div>
+                <div class="qrcode" id="qrcode"></div>
+            </div>
+        </div>
+        <!-- API资源需要转存 -->
+        <div v-else-if="dialogItem.showUrl">
+            <block v-show="pc_type!=1">
+                <block v-if="dialogItem.is_type==0">
+                    <div class="title">请使用 <span>夸克APP</span> 扫码获取</div>
+                    <div class="tips">打开夸克APP- 点击搜索框中的相机 - 点击扫码</div>
+                </block>
+                <block v-else-if="dialogItem.is_type==3">
+                    <div class="title">请使用 <span>UC浏览器</span> 扫码获取</div>
+                    <div class="tips">打开UC浏览器- 点击搜索框中的相机 - 点击扫码</div>
+                </block>
+                <block v-else>
+                    <div class="title">请使用 <span>手机扫码</span> 获取</div>
+                    <div class="tips">打开微信APP- 点击右上角 - 选择扫一扫</div>
+                </block>
+                <div class="qrcode" id="qrcode"></div>
+            </block>
+            <div class="nav">
+                <div class="item">
+                    <span class="t">{{dialogItem.title}}</span>
+                </div>
+                <div class="item" v-show="pc_type!=2">
+                    <span>资源地址：</span>
+                    <a :href="dialogItem.showUrl" target="_blank" rel="noopener noreferrer">{{dialogItem.showUrl}}</a>
+                </div>
+                <div class="item" v-show="pc_type!=2" style="margin-top: 10px;">
+                    <a :href="dialogItem.showUrl" target="_blank" rel="noopener noreferrer" style="margin-right: 10px; padding: 5px 10px; background-color: #409EFF; color: white; text-decoration: none; border-radius: 4px;">打开链接</a>
+                    <a href="javascript:;" @click="copyLink(dialogItem.showUrl)" style="padding: 5px 10px; background-color: #67C23A; color: white; text-decoration: none; border-radius: 4px;">复制链接</a>
+                </div>
+            </div>
+        </div>
+        <!-- 失效资源：跳转引导（仅首页最新列表来源） -->
+        <div v-else-if="dialogItem.is_invalid && dialogItem.fromNewList">
+            <div class="title" style="color: #FF3F3D;"><span>资源可能已失效</span></div>
+            <div class="tips" style="color: #FF3F3D; line-height: 1.6;">该资源可能已失效，建议前往全网搜索获取更多可用资源。</div>
+            <div style="margin-top: 18px; text-align: center;">
+                <a :href="goAllSearchHref(dialogItem)" style="display: inline-block; padding: 10px 28px; background: linear-gradient(135deg, #ff6b6b, #c84ad8); color: #fff; text-decoration: none; border-radius: 999px; font-size: 15px; font-weight: 600; box-shadow: 0 4px 12px rgba(200,74,216,.25); transition: transform .15s, box-shadow .15s;">前往全网搜索</a>
+            </div>
+        </div>
+        <div v-else-if="!dialogLoading">
+            <div class="title">获取失败</div>
+            <div class="tips" style="color: #FF3F3D;">{{dialogItem.message}}</div>
+        </div>
+<div class="statement" v-if="!dialogItem.is_local">
+    <div class="content" style="color: #FF3F3D; font-weight: bold; line-height: 1.3; margin: 0;">
+        注：如果百度网盘链接打开提示提取码错误，请直接复制链接打开百度网盘提取即可。默认提取码6666<br />
+<br />
+注：夸克网盘无文件、缺集就是被和谐了，换其他网盘<br />
+注：试看2分钟是因为没转存到网盘        <hr>
+                <div style="color: darkred; margin-bottom: 15px;">
+            进 群：<a href="https://www.kdocs.cn/l/cadPtljpSEPk" target="_blank" style="color: darkred; border: 2px solid darkred; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-weight: bold; display: inline-block; background-color: rgba(139, 0, 0, 0.1); transition: all 0.3s;">点我进群【防失联】</a>
+        </div>
+                <div style="color: darkred;">
+            教 程：<a href="https://junso.top/views/index/news/common/jc.mp4" target="_blank" style="color: darkred; border: 2px solid darkred; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-weight: bold; display: inline-block; background-color: rgba(139, 0, 0, 0.1); transition: all 0.3s;">点我看教程 ~ 使用超简单！</a>
+        </div>
+            </div>
+</div>
+    </div>
+</el-dialog>
+        <div class="homeBox searchBox">
+            <div class="box">
+                <div class="logoBox">
+                                        <span class="title">许搜 - 全网影视资源</span>
+                                    </div>
+                                
+                <!-- 欢迎提示 -->
+                <div class="welcome-text">
+                    电影｜电视剧｜动漫｜短剧 | 广播剧 都在持续更新～                </div>
+                
+                <div class="search">
+                    <div class="btn">
+                        <i class="iconfont icon-sousuo"></i>
+                    </div>
+                    <input type="text" v-model="keyword" placeholder="请在此输入搜索关键词">
+                </div>
+                
+                <!-- 搜索类型提示 -->
+                                
+                <!-- 新增：搜索按钮组 -->
+                <div class="search-buttons-group">
+                    <button class="search-action-btn search-movie-btn" onclick="searchMovie()">
+                        <i class="iconfont icon-video"></i>
+                        搜索影视
+                    </button>
+                                    </div>
+                
+                <!-- 温馨提示：当后台配置为"无"/空/null 时整块隐藏，不留占位 -->
+                                <div class="tips-container">
+                                        <div class="tip-item">
+                        <i class="iconfont icon-tips"></i>
+                        搜索框内输入连续的2-3个关键字，剧名要正确！
+不要错别字，不要有第几部、第几季、第几集等无关字！
+如果没搜到你想要的剧，可以尝试缩短关键字再进行搜索～                    </div>
+                                    </div>
+                            </div>
+            <div class="home ">
+                                <div class="block new-list-block">
+                    <div class="nav">
+                                                🔥🔥🔥每日更新专区
+                    </div>
+                    <!-- 分类 Tab -->
+                    <div class="new-list-tabs">
+                        <span class="new-tab active" data-cat="yingshi">电视剧</span>
+                        <span class="new-tab" data-cat="dianying">电影</span>
+                        <span class="new-tab" data-cat="qita">其他</span>
+                    </div>
+                    <div class="content new-list-content">
+                        <div class="new-list-loading">加载中...</div>
+                    </div>
+                    <!-- 分页 -->
+                    <div class="new-list-pager"></div>
+                    <!-- 查看更多 -->
+                    <div class="new-list-more" style="text-align: center; padding: 15px;">
+                        <a href="/views/index/news/resources.html" class="new-list-more-btn" style="display: inline-block; padding: 12px 40px; background: linear-gradient(135deg, #ff6b6b, #ff8e53); color: #fff; border-radius: 25px; font-weight: 600; text-decoration: none; font-size: 16px;">
+                            🔥 查看更多资源
+                        </a>
+                    </div>
+                </div>
+                                <div class="block">
+                    <div class="nav">
+                                                电视剧                    </div>
+                    <div class="content">
+                                                <div class="list">
+                             <a
+                                href="/s/九门.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDQ4ODU2Ni53ZWJw&amp;sign=yx:vJShrjJHngOEEyf0QA7x4rnqHI8=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="九门" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>九门</p>
+                                </a>
+                                                                 <a
+                                href="/s/唐朝诡事录.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg4Mzk5NTY2Ny53ZWJw&amp;sign=yx:D1_XANDzmNL5F8xbqnNNBiQQvXg=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="唐朝诡事录" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>唐朝诡事录</p>
+                                </a>
+                                                                 <a
+                                href="/s/南部档案.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkxNTc3OTMzMy53ZWJw&amp;sign=yx:INLm6wZ92l22YEZjHjfJfyXRekw=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="南部档案" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>南部档案</p>
+                                </a>
+                                                                 <a
+                                href="/s/花开锦绣.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDcxODU5My53ZWJw&amp;sign=yx:YecjdJPk6vT321x1JJk0Vtw0vps=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="花开锦绣" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>花开锦绣</p>
+                                </a>
+                                                                 <a
+                                href="/s/师兄太稳健.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDU0MTA1MC53ZWJw&amp;sign=yx:84o0oW6LSiM6IxvIA8YSTWGuIE4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=382" alt="师兄太稳健" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>师兄太稳健</p>
+                                </a>
+                                                                 <a
+                                href="/s/人鱼.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDU5NTgzNi53ZWJw&amp;sign=yx:pbv1cVvmF3iRKVdm3I8Y1laaRYo=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="人鱼" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>人鱼</p>
+                                </a>
+                                                                 <a
+                                href="/s/御廷谣.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDQ3MTg3OS53ZWJw&amp;sign=yx:wspQh--WAlDA-1lovEFvRwMwBw4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="御廷谣" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>御廷谣</p>
+                                </a>
+                                                                 <a
+                                href="/s/兵自风中来.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg5NzU1NjcyMC53ZWJw&amp;sign=yx:uHR50DWkfBf2AEh3gN1eLVC07oQ=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="兵自风中来" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>兵自风中来</p>
+                                </a>
+                                                                 <a
+                                href="/s/入青云.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyNTY3NzkxNS53ZWJw&amp;sign=yx:erGIaaCsXZFqQp___YbmGrUWKgU=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="入青云" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>入青云</p>
+                                </a>
+                                                                 <a
+                                href="/s/寒阳风起春山境.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzAwODU0NS53ZWJw&amp;sign=yx:lRSpmDBnO6_dmIuBZl8yE-P2MN4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=360" alt="寒阳风起春山境" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>寒阳风起春山境</p>
+                                </a>
+                                                                 <a
+                                href="/s/藏锋.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDk2MDQwOS53ZWJw&amp;sign=yx:_vnUVdbOeaz4O6QhY9Vf03Nm1IE=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="藏锋" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>藏锋</p>
+                                </a>
+                                                                 <a
+                                href="/s/凛冬下的罪恶.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDY3NTM1OS53ZWJw&amp;sign=yx:CP6657smvAspcR0N-Of0HxK2ka8=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="凛冬下的罪恶" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>凛冬下的罪恶</p>
+                                </a>
+                                                                 <a
+                                href="/s/问心2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzQwMTk0Ni53ZWJw&amp;sign=yx:pKlWaZAaFKvoEVoJ2UwoeG7eSRY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="问心2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>问心2</p>
+                                </a>
+                                                                 <a
+                                href="/s/人浮于爱.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcyLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyNDcwNzU3MS53ZWJw&amp;sign=yx:7r52JsThpUDc7mSZZ2dU6EKDcLY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=389" alt="人浮于爱" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>人浮于爱</p>
+                                </a>
+                                                                 <a
+                                href="/s/天才，女友.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcyLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDUyMTI4MS53ZWJw&amp;sign=yx:W8-7QBnAwiSAAZe4AGEoj7Lsb9I=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="天才，女友" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>天才，女友</p>
+                                </a>
+                                                                 <a
+                                href="/s/许你十年.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyOTUzODM3NC53ZWJw&amp;sign=yx:Mm9Hjg2pPPne5siA1JZyI7OLUik=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="许你十年" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>许你十年</p>
+                                </a>
+                                                                                        </div>
+                        
+                    </div>
+                </div>
+                                <div class="block">
+                    <div class="nav">
+                                                短剧                    </div>
+                    <div class="content">
+                                                <div class="list">
+                             <a
+                                href="/s/双向欲臣.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/07/30/393cfd6917a22fdd87751ac43e00ebf4.png" alt="双向欲臣" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>双向欲臣</p>
+                                </a>
+                                                                 <a
+                                href="/s/家里家外.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/03/14/30104a2695de2b94c1e653efcb337b0b.png" alt="家里家外" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>家里家外</p>
+                                </a>
+                                                                 <a
+                                href="/s/花朝.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://image.uc.cn/s/ulive_fe/s/upload/2024/161f7cd63537f71de822ad7755ab588d.png" alt="花朝" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>花朝</p>
+                                </a>
+                                                                 <a
+                                href="/s/前妻请放手我们已离婚.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/24/10/16/0a761f1b62ae93356025d50b699e588c.jpg" alt="前妻请放手我们已离婚" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>前妻请放手我们已离婚</p>
+                                </a>
+                                                                 <a
+                                href="/s/她唇之下.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://image.uc.cn/s/wemedia/s/upload/2025/b2d7747a570c6a661d52b4fd4b8025e7.png" alt="她唇之下" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>她唇之下</p>
+                                </a>
+                                                                 <a
+                                href="/s/是离婚的关系.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/26/02/24/4ccadabb07a2a04a35acca191eed2bb5.jpg" alt="是离婚的关系" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>是离婚的关系</p>
+                                </a>
+                                                                 <a
+                                href="/s/天降太奶奶是修仙老祖.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/10/25/0580bb20c3bd5bb3bcd5d9f6714c29d8.png" alt="天降太奶奶是修仙老祖" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>天降太奶奶是修仙老祖</p>
+                                </a>
+                                                                 <a
+                                href="/s/十八岁太奶奶驾到，重整家族荣耀.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/06/06/6da8c98ab171a07572b3d0c03a011234.png" alt="十八岁太奶奶驾到，重整家族荣耀" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>十八岁太奶奶驾到，重整家族荣耀</p>
+                                </a>
+                                                                 <a
+                                href="/s/盛夏芬德拉.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/09/20/77004d54701632b9725d6784a49e322e.png" alt="盛夏芬德拉" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>盛夏芬德拉</p>
+                                </a>
+                                                                 <a
+                                href="/s/栀栀复栀栀.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/05/02/f1fc62ee94fb083835a6231421a1b6d1.png" alt="栀栀复栀栀" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>栀栀复栀栀</p>
+                                </a>
+                                                                 <a
+                                href="/s/装穷爸妈送养子珍宝.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/10/23/b6a8ce9ee23165812980bfdb23aadc60.png" alt="装穷爸妈送养子珍宝" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>装穷爸妈送养子珍宝</p>
+                                </a>
+                                                                 <a
+                                href="/s/入夜对她上瘾.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/24/10/06/126df261382aa79ba101ee6c3c8dac50.jpg" alt="入夜对她上瘾" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>入夜对她上瘾</p>
+                                </a>
+                                                                 <a
+                                href="/s/纵她入骨.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/26/02/24/f7342b83c8b0d72342182e4f75c1518f.jpg" alt="纵她入骨" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>纵她入骨</p>
+                                </a>
+                                                                 <a
+                                href="/s/曼陀罗.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/26/03/16/8aa24581a7c417fca92527cc0853b18b.jpg" alt="曼陀罗" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>曼陀罗</p>
+                                </a>
+                                                                 <a
+                                href="/s/回到70年代霸道婆婆带我飞.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/10/13/e192cb5d164dfd6140351f28fe723c71.png" alt="回到70年代霸道婆婆带我飞" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>回到70年代霸道婆婆带我飞</p>
+                                </a>
+                                                                 <a
+                                href="/s/天赐的声音.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://image.uc.cn/s/ulive_fe/s/upload/2024/db78a9f38278a5e0e7afcb82933c4322.jpg" alt="天赐的声音" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>天赐的声音</p>
+                                </a>
+                                                                                        </div>
+                        
+                    </div>
+                </div>
+                                <div class="block">
+                    <div class="nav">
+                                                动漫                    </div>
+                    <div class="content">
+                                                <div class="list">
+                             <a
+                                href="/s/吞噬星空 第4季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg4OTE5MzEzNC53ZWJw&amp;sign=yx:MGcl9kpd-O0OGVZs8VquHN4Oyfs=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=378" alt="吞噬星空 第4季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>吞噬星空 第4季</p>
+                                </a>
+                                                                 <a
+                                href="/s/光阴之外.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMjgwNTEwMy53ZWJw&amp;sign=yx:lNffFluJAJIi-K4WF3wuryy0gIw=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="光阴之外" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>光阴之外</p>
+                                </a>
+                                                                 <a
+                                href="/s/茶啊二中 第六季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzk2NzMyNS53ZWJw&amp;sign=yx:UVlmdX-QoA4Ch8XjUfl22kzSFRk=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="茶啊二中 第六季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>茶啊二中 第六季</p>
+                                </a>
+                                                                 <a
+                                href="/s/斗破苍穹 年番2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcyLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkxMTIyMzEyMS53ZWJw&amp;sign=yx:pwDm2pPhwKdminsaodklDK2bGVc=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="斗破苍穹 年番2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>斗破苍穹 年番2</p>
+                                </a>
+                                                                 <a
+                                href="/s/沧元图.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg5NTMwNzU2OC53ZWJw&amp;sign=yx:DM18WuM5MzE90qSWlS23eTYx2eY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="沧元图" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>沧元图</p>
+                                </a>
+                                                                 <a
+                                href="/s/游戏BUG修复中.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzM2NTMyNS53ZWJw&amp;sign=yx:9mb2W77GHdUOiUhbJUd66TL2Cmo=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="游戏BUG修复中" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>游戏BUG修复中</p>
+                                </a>
+                                                                 <a
+                                href="/s/东大高武学院.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzY0ODcxNi53ZWJw&amp;sign=yx:fB2XVSlDZuupa3KUD9EJt2_axMo=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="东大高武学院" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>东大高武学院</p>
+                                </a>
+                                                                 <a
+                                href="/s/吞噬星空 第5季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkxMTYyMTQ4My53ZWJw&amp;sign=yx:ci1YitbBfLKkbpQy7bMyyihrAkY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=378" alt="吞噬星空 第5季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>吞噬星空 第5季</p>
+                                </a>
+                                                                 <a
+                                href="/s/一斩苍穹.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDQ4MTgzMC53ZWJw&amp;sign=yx:1tTNx1DexZlimp3G5UaECGGbXMY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="一斩苍穹" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>一斩苍穹</p>
+                                </a>
+                                                                 <a
+                                href="/s/李熊猫.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDQ4NDI4OS53ZWJw&amp;sign=yx:LFYpV6Z4O6GBKi7D72dJ6hmTLPE=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="李熊猫" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>李熊猫</p>
+                                </a>
+                                                                 <a
+                                href="/s/沧元图2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyMjU1MjU1My53ZWJw&amp;sign=yx:Gafu-7RCjYO-a7Uoy-wwerYHd6M=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="沧元图2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>沧元图2</p>
+                                </a>
+                                                                 <a
+                                href="/s/喜羊羊与灰太狼之破界山海诀.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzIwNzU0My53ZWJw&amp;sign=yx:YwAVt5G_iEaDqi6IAsJOQh-loOI=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="喜羊羊与灰太狼之破界山海诀" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>喜羊羊与灰太狼之破界山海诀</p>
+                                </a>
+                                                                 <a
+                                href="/s/梦塔&middot;雪谜城.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjUyNDk3MTI1Mi53ZWJw&amp;sign=yx:9crXeJHZ3gp3jDrHsbmsVYuO46E=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=357" alt="梦塔&middot;雪谜城" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>梦塔&middot;雪谜城</p>
+                                </a>
+                                                                 <a
+                                href="/s/择天记.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMjUwMTcxMi53ZWJw&amp;sign=yx:YLS_sxZP9boL7kSbXovLv6-sDiI=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="择天记" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>择天记</p>
+                                </a>
+                                                                 <a
+                                href="/s/仙武传 第二季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg5ODMzMDgzNy53ZWJw&amp;sign=yx:pFPo8nYsBpYs4XSHUoU6NhPWLZc=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="仙武传 第二季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>仙武传 第二季</p>
+                                </a>
+                                                                 <a
+                                href="/s/咱家剑宗团宠小师妹.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDA3NzM0Mi53ZWJw&amp;sign=yx:l8tfUqDpy2ih30Snaakzbdd8h2w=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=386" alt="咱家剑宗团宠小师妹" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>咱家剑宗团宠小师妹</p>
+                                </a>
+                                                                                        </div>
+                        
+                    </div>
+                </div>
+                                <div class="block">
+                    <div class="nav">
+                                                电影                    </div>
+                    <div class="content">
+                                                <div class="list">
+                             <a
+                                href="/s/欢迎来龙餐馆.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNTEwOTMxMi53ZWJw&amp;sign=yx:dNQZzE4WtCf4um0mbEVAEkuAAIk=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=378" alt="欢迎来龙餐馆" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>欢迎来龙餐馆</p>
+                                </a>
+                                                                 <a
+                                href="/s/欢迎再次登录.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDg4Nzc4Ni53ZWJw&amp;sign=yx:4wdOE-kkAQ66ttbPP6vbWJDA75g=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="欢迎再次登录" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>欢迎再次登录</p>
+                                </a>
+                                                                 <a
+                                href="/s/给阿嬷的情书.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMTg1MTQzMC53ZWJw&amp;sign=yx:LRXo_uLrhkFwInbXstAJi3jh9hM=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="给阿嬷的情书" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>给阿嬷的情书</p>
+                                </a>
+                                                                 <a
+                                href="/s/完美世界剧场版 九劫焚天.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDc2NzE3OS53ZWJw&amp;sign=yx:XFpHD9DSAAstIi8eNkasx2TJUcU=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=378" alt="完美世界剧场版 九劫焚天" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>完美世界剧场版 九劫焚天</p>
+                                </a>
+                                                                 <a
+                                href="/s/八仙！.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDA3NDU2Ni53ZWJw&amp;sign=yx:8p6boFN94JbVsIJYDt0I9yJVxN4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=389" alt="八仙！" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>八仙！</p>
+                                </a>
+                                                                 <a
+                                href="/s/牛来.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDk0NTYwMC53ZWJw&amp;sign=yx:_zdrUKugBsXODLsqvC3tskBelGs=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=381" alt="牛来" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>牛来</p>
+                                </a>
+                                                                 <a
+                                href="/s/年会不能停！2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDU4MzQyNS53ZWJw&amp;sign=yx:-RVa9VTucFaN7bRYilEWKpobFYk=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="年会不能停！2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>年会不能停！2</p>
+                                </a>
+                                                                 <a
+                                href="/s/封神第二部：战火西岐.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkxNzU1OTM5Mi53ZWJw&amp;sign=yx:d_Z6wuDzH8o2eX0-ZyzXtNho75o=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=399" alt="封神第二部：战火西岐" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>封神第二部：战火西岐</p>
+                                </a>
+                                                                 <a
+                                href="/s/手遮天.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyODcyNjk3OS53ZWJw&amp;sign=yx:q_hxMwUDZgQK6j9h4qQeFl4FNgg=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="手遮天" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>手遮天</p>
+                                </a>
+                                                                 <a
+                                href="/s/熊出没&middot;年年有熊.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcyLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMDAyOTUzMS53ZWJw&amp;sign=yx:kjbO6KG9gEWLHnlxJOcgg04IpfU=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=403" alt="熊出没&middot;年年有熊" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>熊出没&middot;年年有熊</p>
+                                </a>
+                                                                 <a
+                                href="/s/角头：斗阵欸.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyNDQwMTkwMi53ZWJw&amp;sign=yx:55igo0mLb3tvna6a-63vLfvJjjY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=391" alt="角头：斗阵欸" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>角头：斗阵欸</p>
+                                </a>
+                                                                 <a
+                                href="/s/夜色撩人.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjQyOTQ2NjUzMy5qcGc=&amp;sign=yx:ilAkn6IEmvFLekGxfOTx04DQu44=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=385" alt="夜色撩人" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>夜色撩人</p>
+                                </a>
+                                                                 <a
+                                href="/s/恶女.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg5NzQzNTkyOC5qcGc=&amp;sign=yx:-Dsg4k0V4jEpi3vpxs3NHs4goG0=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=383" alt="恶女" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>恶女</p>
+                                </a>
+                                                                 <a
+                                href="/s/九门.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjY1MjA0NDM1NC53ZWJw&amp;sign=yx:80SC93gBibX-22QkpfwtZplj0S8=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="九门" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>九门</p>
+                                </a>
+                                                                 <a
+                                href="/s/唐人街探案2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjUxMjcxNzUxOS53ZWJw&amp;sign=yx:jhcMObv_DNcFBqE1NrouUo_xuP0=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=378" alt="唐人街探案2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>唐人街探案2</p>
+                                </a>
+                                                                 <a
+                                href="/s/小蓝.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg3NDQ0NTg3Ni53ZWJw&amp;sign=yx:ETtDml7gWSMnhGW_r21Da1np0CA=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=360" alt="小蓝" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>小蓝</p>
+                                </a>
+                                                                                        </div>
+                        
+                    </div>
+                </div>
+                                <div class="block">
+                    <div class="nav">
+                                                综艺                    </div>
+                    <div class="content">
+                                                <div class="list">
+                             <a
+                                href="/s/喜欢你我也是 第六季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzE2NTEzMy53ZWJw&amp;sign=yx:nxZ2DDaZSA7VoghJBnixTIZhqkg=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="喜欢你我也是 第六季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>喜欢你我也是 第六季</p>
+                                </a>
+                                                                 <a
+                                href="/s/一路向海的少年.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDUxNDcwMy53ZWJw&amp;sign=yx:KJVPFgnkXrJCTZNxVWPcrWFmzCU=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="一路向海的少年" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>一路向海的少年</p>
+                                </a>
+                                                                 <a
+                                href="/s/半熟恋人 第五季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMjY3ODI5Mi53ZWJw&amp;sign=yx:9SoGQeRSxG1ltNKaSySClx2-KG0=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="半熟恋人 第五季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>半熟恋人 第五季</p>
+                                </a>
+                                                                 <a
+                                href="/s/中餐厅 第十季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzQyMDk4OS53ZWJw&amp;sign=yx:IaohY3pk_WAw6c_ooV4zDToilro=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="中餐厅 第十季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>中餐厅 第十季</p>
+                                </a>
+                                                                 <a
+                                href="/s/你好，星期六.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg5Nzc1MzIxMC53ZWJw&amp;sign=yx:g-TnHRAYMOKOKPn_g1Vo1--hJlU=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="你好，星期六" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>你好，星期六</p>
+                                </a>
+                                                                 <a
+                                href="/s/大哥小助理.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDk0MzM1My53ZWJw&amp;sign=yx:8PaXozoZBl6D2RCgQZEm6IcNVz4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="大哥小助理" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>大哥小助理</p>
+                                </a>
+                                                                 <a
+                                href="/s/当家爸爸的聚会2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyNjY3MzQ0NC53ZWJw&amp;sign=yx:Q29GQhZbxMOJvp1hDsu060R0LK4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=283" alt="当家爸爸的聚会2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>当家爸爸的聚会2</p>
+                                </a>
+                                                                 <a
+                                href="/s/忙忙碌碌寻宝藏2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzQ0NzEzMy53ZWJw&amp;sign=yx:mDqXNFDi-oL2CXVMFXHtQXmcDDs=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="忙忙碌碌寻宝藏2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>忙忙碌碌寻宝藏2</p>
+                                </a>
+                                                                 <a
+                                href="/s/哈哈哈哈哈 第五季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkxODM4NTg5OS53ZWJw&amp;sign=yx:pVFBidBsKNTHKK0AFjiVhbMjMCE=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="哈哈哈哈哈 第五季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>哈哈哈哈哈 第五季</p>
+                                </a>
+                                                                 <a
+                                href="/s/脱口秀和Ta的朋友们 第三季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzQ5NDM5MC53ZWJw&amp;sign=yx:kHpaX4gfQuwTg2dNA6uLvAKxuLM=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="脱口秀和Ta的朋友们 第三季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>脱口秀和Ta的朋友们 第三季</p>
+                                </a>
+                                                                 <a
+                                href="/s/声生不息&middot;宝岛季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg4OTIxMTk2My53ZWJw&amp;sign=yx:RZtTMFEXFf5OiGeROdFH3R9Avb4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="声生不息&middot;宝岛季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>声生不息&middot;宝岛季</p>
+                                </a>
+                                                                 <a
+                                href="/s/一年一度喜剧大赛.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjcwMTEwNTgzOS53ZWJw&amp;sign=yx:zlfkRppmY7EHi2YsDzi74b6d40E=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="一年一度喜剧大赛" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>一年一度喜剧大赛</p>
+                                </a>
+                                                                 <a
+                                href="/s/密室大逃脱 第六季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcyLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkxMDkyODQzMS53ZWJw&amp;sign=yx:or84WbI7qbIsmdLTB33kJcjopE0=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=376" alt="密室大逃脱 第六季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>密室大逃脱 第六季</p>
+                                </a>
+                                                                 <a
+                                href="/s/旅行任意门.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkwODk2NjEwNy53ZWJw&amp;sign=yx:mdrf2IfgX9-Gmd7g_trS31tNPWo=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="旅行任意门" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>旅行任意门</p>
+                                </a>
+                                                                 <a
+                                href="/s/周五晚高疯.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyOTkxMjU5Mi53ZWJw&amp;sign=yx:biZQD7FJlhcAmeYQ-pwVET7CfZ4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="周五晚高疯" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>周五晚高疯</p>
+                                </a>
+                                                                 <a
+                                href="/s/喜剧之王单口季 第三季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzcyNjc1NC53ZWJw&amp;sign=yx:mAEJTUnT-BDqIPIGl9fAxkEx1fw=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="喜剧之王单口季 第三季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>喜剧之王单口季 第三季</p>
+                                </a>
+                                                                                        </div>
+                        
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="footerBox">
+    <div class="box">
+        <p>声明：本站是网盘索引系统,所有内容均来自互联网所提供的公开引用资源，未提供资源上传、存储服务。</p>
+        <p>
+            © 2024 许搜网盘 Powered by <a href="https://www.xusou.top/" target="_blank">许搜网盘</a>            <a href="/sitemap.xml" target="_blank">网站地图</a>
+        </p>
+    </div>
+</div>
+    </div>
+    <script src="/views/index/news/common/static/js/vue.global.min.js"></script>
+<script src="/views/index/news/common/static/js/index.full.min.js"></script>
+<script src="/views/index/news/common/static/js/axios.min.js"></script>
+<script src="/views/index/news/common/static/js/qrcanvas@3.js"></script>
+<script>
+    const { createApp, ref, onMounted, onUnmounted } = Vue;
+    const { ElButton, ElMessage  } = ElementPlus;
+    const app = createApp({
+        setup() {
+            // 定义响应式数据
+            const elementOpacity = ref(0);
+            const scrollThreshold = ref(150); // 动态设置的滚动阈值
+            const keyword = ref('');
+            const qcodeVisible = ref(false);
+            const layerVisible = ref(false);
+            const content = ref('');
+            const load = ref(false)
+            const drawer = ref(false)
+            const rankList = ref([]);
+            const rankDj = ref([]);
+            const is_m = ref(0);
+            const newList = ref([]);
+            const QList = ref([]);
+            const QLoading = ref(false);
+            const total_result = ref(0);
+            const currentSource = ref(0);
+            const dialogUrl = ref(false);
+            const dialogLoading = ref(false);
+            const dialogItem = ref({});
+            const is_type = ref(0);
+            const pc_type = ref(0);
+            
+            
+            // 公共消息方法
+            const showMessage = (message, type = 'info') => {
+                ElMessage({
+                    message,
+                    type,
+                    plain: true,
+                });
+            };
+
+
+             // 滚动监听方法
+            const handleScroll = () => {
+                const scrollTop = window.scrollY || document.documentElement.scrollTop;
+                elementOpacity.value = scrollTop >= scrollThreshold.value
+                    ? Math.min((scrollTop - scrollThreshold.value) / 100, 1)
+                    : Math.max(1 - (scrollThreshold.value - scrollTop) / 100, 0);
+    
+                const boxElement = document.querySelector('.listBox .screen .fixed .box');
+                if (boxElement.style.display === 'block' && is_m.value) {
+                    boxElement.style.display = 'none'; // 隐藏元素
+                }
+            };
+
+            // 搜索按钮点击事件
+            // 从「全网搜」简化版（URL 带 ?from=newlist）点击搜索时，必须跳到正常的搜索结果页
+            // 所以 targetUrl 显式不携带 from 参数，确保跳转到 list.html 完整版
+            const searchBtn = () => {
+                if (!keyword.value) {
+                    return showMessage('请输入你要搜索的内容~', 'error');
+                }
+                const currentUrl = window.location.href;
+                const targetUrl = `/s/${keyword.value}.html`;
+                if (currentUrl.includes('/s/') || currentUrl.includes('/d/')) {
+                    window.location.href = targetUrl;
+                } else {
+                    window.open(targetUrl, '_blank');
+                }
+            };
+            
+            // 保存按钮点击事件
+            const saveBtn = async () => {
+                if (!content.value) {
+                    return showMessage('请输入你想看的资源信息~', 'error');
+                }
+                if (load.value) return;
+    
+                load.value = true;
+                try {
+                    const response = await axios.post('/api/tool/feedback', { content: content.value });
+                    showMessage(response.data.message, response.data.code === 200 ? 'success' : 'error');
+                    if (response.data.code === 200) {
+                        layerVisible.value = false;
+                        content.value = '';
+                    }
+                } finally {
+                    load.value = false;
+                }
+            };
+            
+            const setnum = (num) => (num / 10000).toFixed(2) + 'W';
+            
+            const goLink = (event,id) => {
+                event.preventDefault();
+                window.location.href = `/d/${id}.html`;
+            }
+            
+            const changeBtn = (e) => {
+                const category_id = `0`;
+                if(category_id){
+                    window.location.href = `/s/${keyword.value}-${e}-${category_id}.html`;
+                }else{
+                    window.location.href = `/s/${keyword.value}-${e}.html`;
+                }
+            };
+            
+            const copyText = async(event,title,url,code) => {
+                event.preventDefault();
+                var text = '标题：'+title+'\n链接：'+url
+                if (code) text += `\n提取码：${code}`;
+                text += `\n由【${'许搜 - 全网影视资源'}${window.location.hostname}】提供网盘分享链接`;
+                
+                
+                try {
+                    // 优先使用 navigator.clipboard
+                    await navigator.clipboard.writeText(text);
+                    showMessage('复制成功', 'success');
+                } catch (err) {
+                    // 如果 navigator.clipboard 失败，使用 document.execCommand 作为回退
+                    const textArea = document.createElement('textarea');
+                    textArea.value = text;
+                    textArea.style.position = 'fixed';  // 避免滚动
+                    textArea.style.opacity = 0;
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+            
+                    try {
+                        const successful = document.execCommand('copy');
+                        if (successful) {
+                            showMessage('复制成功', 'success');
+                        } else {
+                            throw new Error('复制失败');
+                        }
+                    } catch (err) {
+                        showMessage('复制失败，请手动复制', 'error');
+                    }
+            
+                    document.body.removeChild(textArea);
+                }
+            }
+            
+            const copyLink = async(link) => {
+                try {
+                    // 优先使用 navigator.clipboard
+                    await navigator.clipboard.writeText(link);
+                    showMessage('链接复制成功', 'success');
+                } catch (err) {
+                    // 如果 navigator.clipboard 失败，使用 document.execCommand 作为回退
+                    const textArea = document.createElement('textarea');
+                    textArea.value = link;
+                    textArea.style.position = 'fixed';  // 避免滚动
+                    textArea.style.opacity = 0;
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+            
+                    try {
+                        const successful = document.execCommand('copy');
+                        if (successful) {
+                            showMessage('链接复制成功', 'success');
+                        } else {
+                            throw new Error('复制失败');
+                        }
+                    } catch (err) {
+                        showMessage('复制失败，请手动复制', 'error');
+                    }
+            
+                    document.body.removeChild(textArea);
+                }
+            }
+            
+            const selectBtn = () => {
+                if(!is_m.value) return;
+                const boxElement = document.querySelector('.listBox .screen .fixed .box');
+                // 切换 display 属性，显示或隐藏
+                if (boxElement.style.display === 'none' || boxElement.style.display === '') {
+                    boxElement.style.display = 'block'; // 显示
+                } else {
+                    boxElement.style.display = ''; // 隐藏
+                }
+            }
+
+            // ========= 失效后跳转全网搜：清洗资源名 =========
+            // 去掉「第X部/季/集/期」、画质标签、方括号内容、标点符号、年份、地区、类型标签等
+            // 保留剧名主标题（汉字/英文/数字），用作搜索关键词
+            const cleanTitleForSearch = (raw) => {
+                if (!raw) return '';
+                let s = String(raw);
+
+                // 0) 优先提取「」或『』内的内容作为基础标题（外站常用「」包围剧名）
+                //    出现多个「」时取第一个最长的匹配
+                const quoteMatch = s.match(/[「『]([^」』]+)[」』]/);
+                if (quoteMatch) {
+                    s = quoteMatch[1].trim();
+                }
+
+                // 1) 移除所有成对包裹的方括号/书名号/尖括号/小括号/【】等
+                //    （「」已被步骤 0 提取，剩下的【】等通常是标签性内容）
+                s = s.replace(/[\[【〔（(<].*?[\]】〕）)>]/g, ' ');
+
+                // 2) 移除「第X部/季/集/期/章/回/话」及变体（X 可为中文数字/阿拉伯数字/无）
+                s = s.replace(/第[\s\S]{0,8}?(部|季|集|期|章|回|话)/g, ' ');
+                s = s.replace(/(部|季|集|期|章|回|话)\s*\d{1,4}/g, ' ');
+                s = s.replace(/\d{1,4}\s*(部|季|集|期|章|回|话)/g, ' ');
+
+                // 3) 移除画质/格式/来源/版本/字幕等标签
+                s = s.replace(/(4K|2K|8K|1080[Pp]|720[Pp]|2160[Pp]|1440[Pp]|HD|FHD|UHD|HDR|BD|BluRay|Blu-?ray|DVD|WEB[- ]?DL|WEBRip|HDTV|REMUX|H\.?264|H\.?265|HEVC|AVC|x26[45]|xvid|mp4|mkv|avi|ts|m3u8)/gi, ' ');
+
+                // 4) 移除常见电影/电视剧类型标签
+                s = s.replace(/(动作|惊悚|剧情|爱情|喜剧|科幻|战争|悬疑|犯罪|恐怖|纪录|动画|冒险|奇幻|历史|传记|音乐|家庭|武侠|古装|青春|校园|竞技|体育|短片|短剧|综艺|真人秀|脱口秀|纪录片|动漫|电视剧|电影|连续剧)/g, ' ');
+
+                // 5) 移除国家/地区名
+                s = s.replace(/(中国大陆|中国|香港|台湾|澳门|美国|英国|法国|德国|意大利|西班牙|葡萄牙|俄罗斯|苏联|日本|韩国|朝鲜|泰国|印度|越南|新加坡|马来西亚|印尼|菲律宾|澳大利亚|新西兰|加拿大|墨西哥|巴西|阿根廷|冰岛|挪威|瑞典|芬兰|丹麦|荷兰|比利时|瑞士|奥地利|爱尔兰|波兰|捷克|匈牙利|希腊|土耳其|以色列|阿联酋|南非|埃及)/g, ' ');
+
+                // 6) 移除 4 位年份（1900-2099）
+                s = s.replace(/\b(19|20)\d{2}\b/g, ' ');
+
+                // 7) 移除常见的"自压/官方/中字/中英字幕/双语"等修饰词
+                s = s.replace(/(自压|官方|原版|加长|未删减|完整|抢先|抢先版|抢先看|院线|公映|修复|重制|高码率|高码|高画质|低码|中字|中英|双语|国语|粤语|英语|日语|韩语|法语|德语|西班牙语|字幕|内嵌|外挂)/g, ' ');
+
+                // ========= 新增规则：覆盖综艺/短剧/动漫/季播节目常见标记 =========
+                // 8) 移除剧种标识（处理"日漫""美剧"等剩余）
+                s = s.replace(/(日漫|美漫|韩漫|国漫|港漫|台漫|德剧|美剧|英剧|韩剧|日剧|泰剧|印剧|国产剧|内地剧|港剧|台剧|新加坡剧|网剧|连续剧|电视剧|电影|动漫|番剧|新番|综艺|真人秀|纪录片|短剧|小品)/g, ' ');
+
+                // 9) 移除"完结/超前完结/超前/大结局"等结束标记
+                s = s.replace(/(超前完结|超前|大结局|完结)/g, ' ');
+
+                // 10) 移除"含付费超点/加更/加更版"等
+                s = s.replace(/(含付费超点|付费超点|含超点|加更|加更版|抢先看|加长版|未删|未删减|修复版|重制版|高燃|超前点映)/g, ' ');
+
+                // 11) 移除"全 N 集/期"形式的总集数标记
+                s = s.replace(/全\s*\d{1,4}\s*(集|期|话|回|章|话|篇|部)/g, ' ');
+
+                // 12) 移除"更新 X/Y [集/期]"形式的更新进度标记
+                s = s.replace(/更新?\s*\d{1,4}\s*[\/／]\s*\d{1,4}\s*(集|期|话|回|章|篇|部)?/g, ' ');
+
+                // 13) 移除"附X季/集/期"（如"附前8季""附第一季""附前 1 季"）
+                s = s.replace(/附[前后上下]?\s*\d{1,4}\s*(季|集|期|部|话|回|章|篇)/g, ' ');
+                s = s.replace(/附[前后上下]?\s*第?\s*[一二三四五六七八九十百千零\d]{1,4}\s*(季|集|期|部|话|回|章|篇)/g, ' ');
+
+                // 14) 移除"豆瓣评分"（如"豆瓣9.6分""豆瓣 9 分"）
+                s = s.replace(/豆瓣\s*\d+(\.\d+)?\s*分?/g, ' ');
+
+                // 15) 移除"更"系列更新标记
+                //    更200 / 更 200 / 更6.6 / 更 5.31期 / 更5.31期 / 更 第 12 期
+                s = s.replace(/更\s*第?\s*\d{1,4}(\.\d+)?\s*期?/g, ' ');
+
+                // 16) 移除单独的"X期" / "X集" / "X话" / "X回"（无"第"字）
+                s = s.replace(/(^|\s)\d{1,4}(\.\d+)?\s*期/g, ' ');
+                s = s.replace(/(^|\s)\d{1,4}\s*集/g, ' ');
+                s = s.replace(/(^|\s)\d{1,4}\s*话/g, ' ');
+                s = s.replace(/(^|\s)\d{1,4}\s*回/g, ' ');
+                s = s.replace(/(^|\s)\d{1,4}\s*章/g, ' ');
+
+                // 17) 移除"X部"（"第3部" / "第三部"）
+                s = s.replace(/第\s*[一二三四五六七八九十百千零\d]{1,4}\s*部/g, ' ');
+
+                // 18) 移除多余的"/ \ | , ， 、 ; ； . 。 - — _ · •"等分隔符
+                s = s.replace(/[\/\\|,，、;；。·•\.——\-_]+/g, ' ');
+
+                // 19) 移除所有剩余标点符号（保留汉字、英文、数字、空格）
+                s = s.replace(/[^\w\s\u4e00-\u9fa5]/g, ' ');
+
+                // 20) 多空格合并 + 去首尾
+                s = s.replace(/\s+/g, ' ').trim();
+
+                return s;
+            };
+
+            // 失效弹窗 → 前往全网搜索 的目标 URL
+            // 仅在 dialogItem.fromNewList（即首页最新列表）下生效
+            // ?from=newlist 用来让 list.html 切换为简化版（标题"全网搜"+只显示输入框/按钮/温馨提示）
+            // URL 不携带清洗后的名字，让用户自己输入关键词
+            const goAllSearchHref = (item) => {
+                return '/s/?from=newlist';
+            };
+            
+            const handleDeviceType = () => {
+                const isMobile = window.matchMedia('(max-width: 768px)').matches;
+                if (isMobile) {
+                    // 手机端的逻辑
+                    is_m.value = 1
+                    pc_type.value = 1
+                } else {
+                    // 电脑端的逻辑
+                    is_m.value = 0
+                    pc_type.value = '0';
+                }
+            };
+
+
+            // 组件挂载时添加滚动监听
+            onMounted(() => {
+                handleDeviceType();
+                
+                window.addEventListener('scroll', handleScroll);
+                window.addEventListener('resize', handleDeviceType);
+            });
+
+            // 组件卸载时移除滚动监听
+            onUnmounted(() => {
+                window.removeEventListener('scroll', handleScroll);
+                window.removeEventListener('resize', handleDeviceType);
+            });
+
+            // 返回数据和方法
+            return { elementOpacity, scrollThreshold, keyword, searchBtn, rankList,newList, setnum, qcodeVisible, layerVisible, content, saveBtn, rankDj,goLink,changeBtn,copyText,copyLink,drawer,selectBtn,is_m,QList,QLoading,total_result,currentSource,dialogUrl,dialogLoading,dialogItem,is_type,pc_type, cleanTitleForSearch, goAllSearchHref };
+        }
+    })
+    .use(ElementPlus) // 使用 Element Plus
+    .mount('#app'); // 挂载 Vue 实例
+</script>
+    <script type="text/javascript" charset="utf-8">
+        app.rankList = JSON.parse('[{"source_category_id":3,"name":"电视剧","image":"","is_sys":1,"is_type":0},{"source_category_id":1,"name":"短剧","image":"","is_sys":1,"is_type":0},{"source_category_id":4,"name":"动漫","image":"","is_sys":1,"is_type":0},{"source_category_id":2,"name":"电影","image":"","is_sys":1,"is_type":0},{"source_category_id":5,"name":"综艺","image":"","is_sys":1,"is_type":0}]');
+
+        // 检测是否在微信/QQ内置浏览器中
+        function isWeChatOrQQBrowser() {
+            var ua = navigator.userAgent.toLowerCase();
+            return ua.indexOf('micromessenger') !== -1 || ua.indexOf('qq/') !== -1;
+        }
+        
+        // 复制链接到剪贴板
+        function copyRedirectLink() {
+            var linkInput = document.getElementById('redirect-link');
+            linkInput.select();
+            linkInput.setSelectionRange(0, 99999); // 移动设备兼容
+            
+            try {
+                var successful = document.execCommand('copy');
+                if (successful) {
+                    alert('链接已复制到剪贴板！请打开浏览器粘贴访问。');
+                } else {
+                    alert('复制失败，请手动选择并复制链接。');
+                }
+            } catch (err) {
+                alert('复制失败，请手动选择并复制链接。');
+            }
+        }
+        
+        // 关闭微信/QQ防红提示
+        function closeWechatRedirectModal() {
+            document.getElementById('wechat-redirect-modal').style.display = 'none';
+        }
+        
+        // 弹窗相关函数
+        function closeWelcomeModal() {
+            document.getElementById('welcome-modal').style.display = 'none';
+        }
+        
+        // 搜索影视函数（跳转到影视搜索结果页）
+        function searchMovie() {
+            const keyword = app.keyword || '';
+            if (!keyword.trim()) {
+                alert('请输入搜索关键词！');
+                return;
+            }
+            
+            // 跳转到影视搜索结果页，保持原逻辑
+            // 注意：这里的跳转路径需要根据实际路由调整
+            window.location.href = `/s/${encodeURIComponent(keyword)}.html`;
+        }
+        
+        // 搜索小说函数（跳转到蓝奏云搜索页）
+        function searchNovel() {
+            const keyword = app.keyword || '';
+            if (!keyword.trim()) {
+                alert('请输入搜索关键词！');
+                return;
+            }
+            
+            // 跳转到蓝奏云搜索页面，传递关键词参数
+            // 从配置中读取跳转地址
+            const novelUrl = 'https://junxs.top/';
+            window.location.href = `${novelUrl}?keyword=${encodeURIComponent(keyword)}`;
+        }
+        
+        // 修改原搜索按钮功能，默认为搜索影视
+        app.searchBtn = function() {
+            searchMovie();
+        };
+        
+        // 页面加载完成后检测浏览器环境
+        document.addEventListener('DOMContentLoaded', function() {
+            // 从URL参数中获取关键词（如果有的话）
+            const urlParams = new URLSearchParams(window.location.search);
+            const keywordFromUrl = urlParams.get('keyword');
+            if (keywordFromUrl && app) {
+                app.keyword = decodeURIComponent(keywordFromUrl);
+            }
+            
+            // 从配置中读取防红和弹窗开关
+            const antiRedEnable = parseInt('1');
+            const popupEnable = parseInt('0');
+            
+            // 详细的浏览器检测
+            function isWeChatOrQQBrowser() {
+                var ua = navigator.userAgent.toLowerCase();
+                // 严格检测：只匹配微信和QQ内置浏览器
+                return ua.indexOf('micromessenger') !== -1 || 
+                       (ua.indexOf('qq/') !== -1 && ua.indexOf('mqqbrowser') !== -1);
+            }
+            
+            if (isWeChatOrQQBrowser() && antiRedEnable === 1) {
+                // 在微信/QQ中，显示防红提示，不显示欢迎弹窗
+                document.getElementById('wechat-redirect-modal').style.display = 'flex';
+                document.body.style.overflow = 'hidden'; // 禁止页面滚动
+                // 阻止所有点击事件，防止用户关闭提示
+                document.getElementById('wechat-redirect-modal').addEventListener('click', function(e) {
+                    e.stopPropagation();
+                });
+            } else if (popupEnable === 1) {
+                // 不在微信/QQ中，显示欢迎弹窗
+                setTimeout(function() {
+                    document.getElementById('welcome-modal').style.display = 'flex';
+                }, 500);
+            }
+        });
+    </script>
+    
+    <style>
+        /* 微信/QQ防红提示样式 */
+        .wechat-redirect-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            z-index: 99999;
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .redirect-modal-content {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+            width: 85%;
+            max-width: 400px;
+            border: 2px solid #ff6b6b;
+        }
+        
+        .redirect-modal-icon {
+            font-size: 60px;
+            color: #ff6b6b;
+            margin-bottom: 15px;
+        }
+        
+        .redirect-modal-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ff6b6b;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .redirect-modal-text {
+            font-size: 16px;
+            color: #666;
+            text-align: center;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .redirect-link-container {
+            display: flex;
+            width: 100%;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .redirect-link-input {
+            flex: 1;
+            padding: 12px 15px;
+            border: none;
+            background: #f9f9f9;
+            font-size: 14px;
+            color: #333;
+            outline: none;
+        }
+        
+        .redirect-copy-btn {
+            background: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .redirect-copy-btn:hover {
+            background: #ff5252;
+        }
+        
+        .redirect-steps {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .redirect-step {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 14px;
+            color: #555;
+        }
+        
+        .step-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            background: #ff6b6b;
+            color: white;
+            border-radius: 50%;
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+        
+        .redirect-browser-tips {
+            background: #fff5f5;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid #ffcdd2;
+        }
+        
+        .redirect-browser-tips i {
+            margin-right: 8px;
+        }
+        
+        .redirect-understood-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #4dabf7, #339af0);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .redirect-understood-btn:hover {
+            background: linear-gradient(135deg, #339af0, #228be6);
+        }
+        
+        /* 弹窗样式 */
+        .welcome-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .modal-content {
+            background: white;
+            border-radius: 12px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            width: 70%;
+            max-width: 400px;
+            max-height: 90vh;
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 28px;
+            color: #666;
+            cursor: pointer;
+            z-index: 10;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .modal-close:hover {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        
+        .modal-img-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+        }
+        
+        .modal-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff6b6b;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        /* 移除原来的.modal-img样式，因为我们在HTML中直接设置了style */
+        
+        .modal-btn {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+            color: white;
+            border: none;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 25px;
+        }
+        
+        .modal-btn:hover {
+            background: linear-gradient(135deg, #ff5252, #ff7b39);
+        }
+        
+        /* 欢迎文字样式 */
+        .welcome-text {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff6b6b;
+            margin: 8px 0 6px;
+            padding: 8px 10px;
+            background: linear-gradient(45deg, #fff5f5, #fff);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 107, 107, 0.1);
+            animation: pulse 2s infinite;
+        }
+        
+        /* 温馨提示样式 */
+        .tips-container {
+            margin: 8px 0;
+            padding: 10px 12px;
+            background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+            border-radius: 12px;
+            border-left: 5px solid #ff6b6b;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        
+        .tip-item {
+            margin: 4px 0;
+            padding: 7px 10px;
+            color: #d32f2f;
+            font-size: 14px;
+            line-height: 1.6;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 8px;
+            border: 1px solid #ffcdd2;
+        }
+        
+        .tip-item i.iconfont {
+            color: #ff6b6b;
+            margin-right: 8px;
+            font-size: 16px;
+        }
+        
+        /* 动画效果 */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        /* 搜索框响应式调整 */
+        @media (max-width: 768px) {
+            .search {
+                width: 95%;
+                max-width: 500px;
+                height: 48px;
+                border-radius: 24px;
+                margin: 8px auto;
+            }
+            
+            .search input {
+                padding: 0 18px;
+                font-size: 15px;
+            }
+            
+            .search input::placeholder {
+                font-size: 14px;
+            }
+            
+            .search .btn {
+                width: 52px;
+            }
+            
+            .search .btn i {
+                font-size: 18px;
+            }
+            
+            .search-type-hint {
+                font-size: 12px;
+                padding: 2px 9px;
+                margin-top: 2px;
+                margin-bottom: 4px;
+                border-radius: 12px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .search {
+                width: 95%;
+                max-width: 400px;
+                height: 44px;
+                border-radius: 22px;
+                margin: 6px auto;
+            }
+            
+            .search input {
+                padding: 0 16px;
+                font-size: 14px;
+            }
+            
+            .search input::placeholder {
+                font-size: 13px;
+            }
+            
+            .search .btn {
+                width: 48px;
+            }
+            
+            .search .btn i {
+                font-size: 16px;
+            }
+            
+            .search-type-hint {
+                font-size: 14px;
+                padding: 4px 10px;
+                margin-top: 4px;
+                margin-bottom: 6px;
+            }
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .welcome-text {
+                font-size: 20px;
+                margin: 6px 0 4px;
+                padding: 6px 8px;
+            }
+            
+            .modal-content,
+            .redirect-modal-content {
+                width: 85%;
+                max-width: 350px;
+            }
+            
+            .modal-title,
+            .redirect-modal-title {
+                font-size: 20px;
+                margin-bottom: 12px;
+            }
+            
+            .redirect-modal-icon {
+                font-size: 50px;
+            }
+            
+            .modal-btn,
+            .redirect-understood-btn {
+                padding: 14px;
+                font-size: 16px;
+                margin-top: 20px;
+            }
+            
+            .redirect-modal-text {
+                font-size: 15px;
+            }
+            
+            .tips-container {
+                padding: 8px 10px;
+                margin: 6px 0;
+            }
+            
+            .tip-item {
+                font-size: 13px;
+                padding: 5px 8px;
+                margin: 3px 0;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .welcome-text {
+                font-size: 18px;
+                padding: 5px 6px;
+                margin: 4px 0;
+            }
+            
+            .modal-content,
+            .redirect-modal-content {
+                width: 90%;
+                max-width: 300px;
+                padding: 20px;
+            }
+            
+            .modal-title {
+                font-size: 18px;
+            }
+            
+            .redirect-modal-title {
+                font-size: 19px;
+            }
+            
+            .redirect-modal-icon {
+                font-size: 45px;
+            }
+            
+            .modal-btn,
+            .redirect-understood-btn {
+                padding: 12px;
+                font-size: 16px;
+                margin-top: 15px;
+            }
+            
+            .redirect-modal-text {
+                font-size: 14px;
+            }
+            
+            .redirect-link-input,
+            .redirect-copy-btn {
+                padding: 10px;
+                font-size: 13px;
+            }
+        }
+
+        /* ===== 最新更新 Tab + 分页样式 ===== */
+        .new-list-block .new-list-tabs {
+            display: flex;
+            gap: 8px;
+            padding: 0 12px 10px;
+            flex-wrap: wrap;
+        }
+        .new-list-block .new-tab {
+            padding: 6px 14px;
+            font-size: 14px;
+            color: #555;
+            background: #f3f3f3;
+            border-radius: 18px;
+            cursor: pointer;
+            transition: all .2s;
+            user-select: none;
+        }
+        .new-list-block .new-tab:hover {
+            background: #ffe1dc;
+            color: #ff6b6b;
+        }
+        .new-list-block .new-tab.active {
+            background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+            color: #fff;
+            font-weight: 600;
+        }
+        .new-list-content {
+            padding: 4px 12px 8px;
+        }
+        .new-list-loading,
+        .new-list-empty {
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+            padding: 18px 0;
+        }
+        /* 分页加载小提示（不遮挡原列表） */
+        .new-list-loading-inline {
+            display: inline-block;
+            margin-left: 8px;
+            font-size: 12px;
+            color: #ff8e53;
+            vertical-align: middle;
+        }
+        .new-list-loading-inline::before {
+            content: '';
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin-right: 4px;
+            border: 2px solid #ff8e53;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: newListSpin .8s linear infinite;
+            vertical-align: middle;
+        }
+        @keyframes newListSpin {
+            to { transform: rotate(360deg); }
+        }
+        .new-list-item {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            padding: 10px 6px;
+            border-bottom: 1px dashed #eee;
+            gap: 8px 10px;
+        }
+        .new-list-item:last-child { border-bottom: none; }
+        .new-list-main {
+            flex: 1 1 auto;
+            min-width: 0;
+        }
+        .new-list-title {
+            font-size: 15px;
+            color: #333;
+            line-height: 1.5;
+            word-break: break-word;
+        }
+        .new-list-date {
+            font-size: 12px;
+            color: #999;
+            margin-top: 4px;
+            line-height: 1.4;
+        }
+        .new-list-tags {
+            display: inline-flex;
+            gap: 4px;
+            flex: 0 0 auto;
+            margin-left: auto;
+            align-self: flex-end;
+        }
+        .new-list-tag {
+            flex-shrink: 0;
+            display: inline-block;
+            padding: 3px 10px;
+            font-size: 12px;
+            border-radius: 12px;
+            color: #fff;
+            line-height: 1.4;
+            text-decoration: none;
+            transition: opacity .15s;
+            white-space: nowrap;
+        }
+        .new-list-tag:hover { opacity: .8; color: #fff; }
+        .new-list-tag.kuake { background: #4dabf7; }
+        .new-list-tag.baidu  { background: #ff6b6b; }
+        .new-list-tag.xunlei { background: #845ef7; }
+        /* ========= 失效态：与 list.html 同步 ========= */
+        .new-list-item.new-list-item-invalid {
+            border-left: 3px solid #ff4d4f;
+            padding-left: 10px;
+            background: #fff8f8;
+        }
+        .new-list-item.new-list-item-invalid .new-list-title {
+            color: #ff4d4f;
+        }
+        .new-list-invalid-tag {
+            display: inline-block;
+            color: #ff4d4f;
+            font-weight: bold;
+            margin-right: 4px;
+        }
+        .new-list-tag.new-list-tag-disabled {
+            background: #ccc !important;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .new-list-tag.new-list-tag-disabled:hover { opacity: .85; color: #fff; }
+        /* 移动端：标题占满宽度、字号略小，确保长名字不裁切 */
+        @media (max-width: 480px) {
+            .new-list-block .new-list-item {
+                padding: 12px 6px;
+                gap: 8px 8px;
+            }
+            .new-list-block .new-list-title {
+                font-size: 14px;
+                line-height: 1.55;
+            }
+            .new-list-block .new-list-date {
+                font-size: 11px;
+                margin-top: 3px;
+            }
+            .new-list-block .new-list-tag {
+                padding: 3px 9px;
+                font-size: 12px;
+            }
+        }
+        .new-list-pager {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 8px 14px;
+            flex-wrap: wrap;
+        }
+        .new-list-pager .pg-btn {
+            min-width: 32px;
+            height: 30px;
+            padding: 0 8px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+            background: #fff;
+            color: #555;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all .15s;
+        }
+        .new-list-pager .pg-btn:hover {
+            border-color: #ff6b6b;
+            color: #ff6b6b;
+        }
+        .new-list-pager .pg-btn.active {
+            background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+            border-color: #ff6b6b;
+            color: #fff;
+        }
+        .new-list-pager .pg-btn[disabled] {
+            opacity: .45;
+            cursor: not-allowed;
+        }
+        .new-list-pager .pg-info {
+            font-size: 12px;
+            color: #999;
+            margin: 0 4px;
+        }
+    </style>
+
+    <script>
+    (function () {
+        var block = document.querySelector('.new-list-block');
+        if (!block) { return; }
+
+        var contentEl = block.querySelector('.new-list-content');
+        var pagerEl   = block.querySelector('.new-list-pager');
+        var tabEls    = block.querySelectorAll('.new-tab');
+        var pageSize  = 20;
+        var state = {
+            cat: 'yingshi',
+            page: 1,
+            data: null,
+            hasContent: false   // 是否已有数据，用于判断加载时是否清空
+        };
+
+        // API 基础地址：新资源管理系统API
+        var API_BASE = 'https://zjsc.jnnsou.com/api/resources.php';
+
+        // 调试模式：控制台打印请求 URL，方便排查 404 等问题
+        var DEBUG = false;
+
+        // HTML 转义
+        function esc(s) {
+            return String(s == null ? '' : s)
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        // 合并 baidu / kuake / xunlei 三个数组：按剧名 name 分组合并，
+        // 同一剧名只占一行，每行展示该剧名可用的所有平台标签
+        function mergeData(data) {
+            var map = new Map();
+            function add(type, it) {
+                if (!it || !it.name) return;
+                var link = it[type];
+                if (!link) return;
+                var entry = map.get(it.name);
+                if (!entry) {
+                    entry = { name: it.name, date: it.last_update || '', baidu: '', kuake: '', xunlei: '' };
+                    map.set(it.name, entry);
+                }
+                // 同平台已有链接就不覆盖（保留第一条）
+                if (!entry[type]) entry[type] = link;
+            }
+            (data && data.baidu  || []).forEach(function (it) { add('baidu',  it); });
+            (data && data.kuake  || []).forEach(function (it) { add('kuake',  it); });
+            (data && data.xunlei || []).forEach(function (it) { add('xunlei', it); });
+            return Array.from(map.values());
+        }
+
+        // 类型映射：网盘类型 → is_type（用于弹窗显示）
+        var TYPE_MAP = { baidu: 2, kuake: 0, xunlei: 4 };
+
+        // 弹窗中渲染 QR 码
+        function renderQrCode(data) {
+            if (!data || typeof qrcanvas === 'undefined') { return; }
+            setTimeout(function () {
+                var el = document.getElementById('qrcode');
+                if (!el) { return; }
+                el.innerHTML = '';
+                try {
+                    var canvas = qrcanvas.qrcanvas({ data: data, size: 120 });
+                    el.appendChild(canvas);
+                } catch (e) {
+                    console.warn('[NewList] QR 渲染失败', e);
+                }
+            }, 200);
+        }
+
+        // 失效关键词（与 list.html 保持一致）
+        var INVALID_KEYWORDS = [
+            '可能因为涉及侵权',
+            '分享者用户封禁链接查看受限',
+            '已取消',
+            '过期',
+            '分享已删除',
+            '文件涉及违规内容',
+            '链接不存在或提取码错误',
+            '链接失效或缺少提取码或访问频繁风控',
+            '分享地址已失效',
+            '好友已取消了分享'
+        ];
+
+        // 转存/分享：最多重试 3 次「转存失败，请重新获取」（百度网盘接口偶发）
+        var TRANSFER_RETRY_KEYWORDS = ['转存失败，请重新获取'];
+        var TRANSFER_MAX_RETRY = 3;
+
+        // ========= 失效链接服务端存储（所有用户共享，仅用 qf_invalid_resources 表） =========
+        // 页面加载时调用 GET /api/other/get_invalid_urls 拉取所有用户上报的失效 URL
+        // 这样每个用户都能看到其他人标记过的失效资源
+        var invalidUrlsFromServer = {};  // { url: true, ... }
+        var invalidUrlsServerLoaded = false;  // 是否已加载完
+
+        function loadInvalidUrlsFromServer() {
+            try {
+                axios.get('/api/other/get_invalid_urls').then(function (res) {
+                    if (res.data && res.data.code == 200 && Array.isArray(res.data.data)) {
+                        invalidUrlsFromServer = {};
+                        for (var i = 0; i < res.data.data.length; i++) {
+                            var it = res.data.data[i];
+                            // API优化后返回简单字符串数组，直接使用
+                            if (it) { invalidUrlsFromServer[it] = true; }
+                        }
+                        invalidUrlsServerLoaded = true;
+                        if (DEBUG) {
+                            console.log('[NewList] 已从服务端拉取失效链接', Object.keys(invalidUrlsFromServer).length, '条');
+                        }
+                        // 如果首页数据已加载，重新应用失效标记 + 重新渲染
+                        if (state && state.data && state.data.length) {
+                            applyInvalidFromStore(state.data);
+                            applyState();
+                        }
+                    }
+                }).catch(function (err) {
+                    if (DEBUG) console.warn('[NewList] 拉取服务端失效链接失败', err);
+                });
+            } catch (e) { /* 忽略 */ }
+        }
+
+        // 把已知的失效 URL 应用到当前数据：自动打 invalid_<type> 标记
+        // 失效来源：服务端 qf_invalid_resources 表（所有用户共享，不再使用 localStorage）
+        function applyInvalidFromStore(list) {
+            if (!list || !list.length) { return list; }
+            var has = function (u) {
+                return !!(u && invalidUrlsFromServer[u]);
+            };
+            for (var i = 0; i < list.length; i++) {
+                var it = list[i];
+                var types = ['baidu', 'kuake', 'xunlei'];
+                var allInvalid = true;
+                var hasAny = false;
+                for (var j = 0; j < types.length; j++) {
+                    var t = types[j];
+                    if (!it[t]) { continue; }
+                    hasAny = true;
+                    if (has(it[t])) {
+                        it['invalid_' + t] = true;
+                    } else {
+                        allInvalid = false;
+                    }
+                }
+                if (hasAny && allInvalid) { it.is_invalid = true; }
+            }
+            return list;
+        }
+
+        function getResourceUrl(name, type, url) {
+            // 走 /api/other/save_url 转存/分享，复用 list.html 同一套对话框
+            if (typeof app === 'undefined' || !app) {
+                window.open(url, '_blank');
+                return;
+            }
+
+            // 把原始 URL 放进 dialogItem 备用
+            app.dialogItem = {
+                title: name,
+                url: url,
+                is_type: TYPE_MAP[type] || 0,
+                showUrl: '',
+                message: '',
+                is_local: false,
+                is_invalid: false,
+                fromNewList: true   // 标记来源：首页最新列表（弹窗据此判断是否显示「前往全网搜索」）
+            };
+            app.dialogLoading = true;
+            app.dialogUrl = true;
+
+            // 走带重试的转存流程（首次）
+            tryTransferResource(name, type, url, 1);
+        }
+
+        // 带重试的转存分享
+        // 命中 TRANSFER_RETRY_KEYWORDS 时自动重试（最多 TRANSFER_MAX_RETRY 次）
+        // 重试期间保持 dialogLoading=true，对用户透明
+        function tryTransferResource(name, type, url, attempt) {
+            app.dialogLoading = true;
+            axios.post('/api/other/save_url', {
+                url: encodeURIComponent(url || ''),
+                title: name || ''
+            }).then(function (res) {
+                if (res.data && res.data.code == 200) {
+                    app.dialogItem.url = res.data.data.url;
+                    app.dialogItem.showUrl = res.data.data.url;
+                    app.dialogLoading = false;
+                    renderQrCode(res.data.data.url);
+                    return;
+                }
+
+                var message = (res.data && res.data.message) || '转存失败';
+                // 命中「转存失败，请重新获取」且未到上限 → 静默重试
+                var isRetryable = TRANSFER_RETRY_KEYWORDS.some(function (k) { return message.indexOf(k) !== -1; });
+                if (isRetryable && attempt < TRANSFER_MAX_RETRY) {
+                    if (DEBUG) {
+                        console.log('[NewList][转存] 第 ' + attempt + ' 次返回：' + message + '，准备第 ' + (attempt + 1) + ' 次重试');
+                    }
+                    setTimeout(function () { tryTransferResource(name, type, url, attempt + 1); }, 600);
+                    return;
+                }
+
+                // 重试耗尽 或 其他错误 → 显示真实结果
+                app.dialogItem.showUrl = '';
+                app.dialogItem.message = message;
+
+                // 与 list.html 一致：检测失效关键词
+                var isInvalid = INVALID_KEYWORDS.some(function (k) { return message.indexOf(k) !== -1; });
+                // 额外：服务器偶尔只返回纯字符串"转存失败"，也判定为失效
+                if (!isInvalid && message === '转存失败') {
+                    isInvalid = true;
+                }
+                if (isInvalid) {
+                    app.dialogItem.is_invalid = true;
+                    markItemInvalid(name, type);
+                }
+                app.dialogLoading = false;
+            }).catch(function (err) {
+                app.dialogLoading = false;
+                app.dialogItem.showUrl = '';
+                app.dialogItem.message = '网络错误，请重试';
+            });
+        }
+
+        // 把 state.data 中 (name, type) 标记为失效，并刷新列表
+        function markItemInvalid(name, type) {
+            if (!state.data) { return; }
+            var item = null;
+            for (var i = 0; i < state.data.length; i++) {
+                if (state.data[i].name === name) { item = state.data[i]; break; }
+            }
+            if (!item) { return; }
+            item['invalid_' + type] = true;
+            // ① 本会话内立刻把 URL 加入服务端内存集合（刷新前立即生效）
+            if (item[type]) { invalidUrlsFromServer[item[type]] = true; }
+            // 整行失效判断：所有平台都失效了
+            var types = ['baidu', 'kuake', 'xunlei'];
+            var allInvalid = types.every(function (t) {
+                return !item[t] || item['invalid_' + t];
+            });
+            if (allInvalid) { item.is_invalid = true; }
+            // 走 applyState() 保持分页 + 排序一致
+            applyState();
+            // ② 持久化到服务器 qf_invalid_resources 表（所有用户共享）
+            axios.post('/api/other/save_invalid_url', {
+                url: item[type] || '',
+                title: name || '',
+                is_type: TYPE_MAP[type] || 0
+            }).catch(function () { /* 静默 */ });
+        }
+
+        // 把 "2026-06-05 22:48:26" 或 Date 转成时间戳（用于排序）
+        function toTs(s) {
+            if (!s) return 0;
+            var t = Date.parse(String(s).replace(/-/g, '/'));
+            return isNaN(t) ? 0 : t;
+        }
+
+        // 把 "2026-06-05 14:30:26" 转成 "06月05日 14:30"
+        // 没时间就只显示 "06月05日"
+        function formatDate(d) {
+            if (!d) return '';
+            var str = String(d);
+            var m = str.match(/(\d{4})-(\d{2})-(\d{2})(?:[\sT](\d{1,2}):(\d{1,2})(?::\d{1,2})?)?/);
+            if (!m) return '';
+            var out = m[2] + '月' + m[3] + '日';
+            if (m[4] != null && m[5] != null) {
+                // 补零
+                var hh = ('0' + m[4]).slice(-2);
+                var mm = ('0' + m[5]).slice(-2);
+                out += ' ' + hh + ':' + mm;
+            }
+            return out;
+        }
+
+        // 统一处理：排序 + 分页 + 渲染列表 + 渲染分页器
+        // 所有数据状态变更（首次加载 / 翻页 / 失效标记）都走这里
+        function applyState() {
+            if (!state.data) { return; }
+            // 最新更新时间排最上方（降序）
+            var sorted = state.data.slice().sort(function (a, b) {
+                return toTs(b.date) - toTs(a.date);
+            });
+            var start = (state.page - 1) * pageSize;
+            var pageList = sorted.slice(start, start + pageSize);
+            renderList(pageList);
+            renderPager(sorted.length, state.page);
+        }
+
+        function renderList(list) {
+            if (!list.length) {
+                contentEl.innerHTML = '<div class="new-list-empty">暂无数据</div>';
+                return;
+            }
+            var typeMap = { baidu: '获取百度', kuake: '获取夸克', xunlei: '获取迅雷' };
+            var invalidTypeMap = { baidu: '百度', kuake: '夸克', xunlei: '迅雷' };
+            var html = list.map(function (it) {
+                var dateStr = formatDate(it.date);
+                var dateHtml = dateStr
+                    ? '<div class="new-list-date">更新时间：' + esc(dateStr) + '</div>'
+                    : '';
+                // 整行失效：标题前加红色 [失效] 标签
+                var invalidPrefix = it.is_invalid
+                    ? '<span class="new-list-invalid-tag">[失效]</span> '
+                    : '';
+                var itemClass = 'new-list-item' + (it.is_invalid ? ' new-list-item-invalid' : '');
+                var tags = [];
+                ['baidu', 'kuake', 'xunlei'].forEach(function (t) {
+                    if (!it[t]) { return; }
+                    if (it['invalid_' + t]) {
+                        // 单个平台失效：渲染为可点击链接（点击后弹出失效提示 + 前往全网搜索）
+                        tags.push(
+                            '<a class="new-list-tag new-list-tag-disabled ' + t + '" ' +
+                            'data-url="' + esc(it[t]) + '" ' +
+                            'data-type="' + t + '" ' +
+                            'data-name="' + esc(it.name) + '" ' +
+                            'data-invalid="1" ' +
+                            'href="javascript:void(0);" rel="nofollow">' +
+                            invalidTypeMap[t] + '已失效</a>'
+                        );
+                    } else {
+                        tags.push(
+                            '<a class="new-list-tag ' + t + '" data-url="' + esc(it[t]) +
+                            '" data-type="' + t + '" data-name="' + esc(it.name) +
+                            '" href="javascript:void(0);" rel="nofollow">' + typeMap[t] + '</a>'
+                        );
+                    }
+                });
+                return ''
+                    + '<div class="' + itemClass + '">'
+                    +   '<div class="new-list-main">'
+                    +     '<div class="new-list-title">' + invalidPrefix + esc(it.name) + '</div>'
+                    +     dateHtml
+                    +   '</div>'
+                    +   '<span class="new-list-tags">' + tags.join('') + '</span>'
+                    + '</div>';
+            }).join('');
+            contentEl.innerHTML = html;
+        }
+
+        function renderPager(total, page, opts) {
+            var totalPages = Math.max(1, Math.ceil(total / pageSize));
+            var loadingHtml = (opts && opts.loading)
+                ? '<span class="new-list-loading-inline">加载中</span>'
+                : '';
+            if (totalPages <= 1) {
+                pagerEl.innerHTML = loadingHtml;
+                return;
+            }
+            var html = loadingHtml;
+            html += '<button class="pg-btn" data-pg="' + (page - 1) + '" ' + (page <= 1 ? 'disabled' : '') + '>上一页</button>';
+            // 最多显示 7 个页码
+            var start = Math.max(1, page - 3);
+            var end   = Math.min(totalPages, start + 6);
+            start = Math.max(1, end - 6);
+            if (start > 1) {
+                html += '<button class="pg-btn" data-pg="1">1</button>';
+                if (start > 2) html += '<span class="pg-info">…</span>';
+            }
+            for (var i = start; i <= end; i++) {
+                html += '<button class="pg-btn ' + (i === page ? 'active' : '') + '" data-pg="' + i + '">' + i + '</button>';
+            }
+            if (end < totalPages) {
+                if (end < totalPages - 1) html += '<span class="pg-info">…</span>';
+                html += '<button class="pg-btn" data-pg="' + totalPages + '">' + totalPages + '</button>';
+            }
+            html += '<button class="pg-btn" data-pg="' + (page + 1) + '" ' + (page >= totalPages ? 'disabled' : '') + '>下一页</button>';
+            html += '<span class="pg-info">共 ' + total + ' 条</span>';
+            pagerEl.innerHTML = html;
+        }
+
+        function load(cat, page) {
+            state.cat = cat;
+            state.page = page;
+
+            // 区分首次加载 / 切换分类 vs 翻页
+            // 翻页时保留原列表内容，只在分页区显示小加载提示，避免闪白
+            var isFirst = !state.hasContent;
+
+            if (isFirst) {
+                contentEl.innerHTML = '<div class="new-list-loading">加载中...</div>';
+                pagerEl.innerHTML = '';
+            } else {
+                // 翻页：保留旧数据，分页区显示「加载中」小转圈
+                renderPager(state.data ? state.data.length : 0, page, { loading: true });
+            }
+
+            // 优先请求所有资源（?all=1），接口不支持时回退到最近 3 天
+            // 新API格式: ?all=1&type=tv&page=1&per_page=60
+            // 类型映射: yingshi→tv, dianying→movie, qita→other
+            var typeParam = cat === 'yingshi' ? 'tv' : (cat === 'dianying' ? 'movie' : 'other');
+            var url = API_BASE + '?all=1&type=' + encodeURIComponent(typeParam) + '&page=1&per_page=60&_t=' + Date.now();
+            if (DEBUG) { console.log('[NewList] GET', url); }
+
+            function fetchData(u) {
+                var p = (typeof fetch === 'function')
+                    ? fetch(u, { method: 'GET', mode: 'cors', credentials: 'omit' })
+                        .then(function (r) {
+                            if (!r.ok) { throw new Error('HTTP ' + r.status); }
+                            return r.json();
+                        })
+                    : axios.get(u).then(function (r) { return r.data; });
+                return p;
+            }
+
+            fetchData(url)
+                .then(function (data) {
+                    // 新API数据格式: { data: [...] } 直接是数组
+                    var resources = (data && data.data) || [];
+                    // 转换为旧格式以兼容现有渲染逻辑
+                    var d = { baidu: [], kuake: [], xunlei: [] };
+                    resources.forEach(function (it) {
+                        var links = it.links || {};
+                        if (links.baidu && links.baidu.url) {
+                            d.baidu.push({ name: it.name, baidu: links.baidu.url, last_update: it.updated_at });
+                        }
+                        if (links.quark && links.quark.url) {
+                            d.kuake.push({ name: it.name, kuake: links.quark.url, last_update: it.updated_at });
+                        }
+                        if (links.xunlei && links.xunlei.url) {
+                            d.xunlei.push({ name: it.name, xunlei: links.xunlei.url, last_update: it.updated_at });
+                        }
+                    });
+                    var merged = mergeData(d);
+                    applyInvalidFromStore(merged);
+                    state.data = merged;
+                    state.hasContent = true;
+                    applyState();
+                })
+                .catch(function (err) {
+                    if (DEBUG) { console.warn('[NewList] all 失败，回退 recent', err); }
+                    // 回退到最近 3 天
+                    var url2 = API_BASE + '?recent=3&type=' + encodeURIComponent(typeParam) + '&_t=' + Date.now();
+                    fetchData(url2)
+                        .then(function (data) {
+                            var resources = (data && data.data) || [];
+                            var d = { baidu: [], kuake: [], xunlei: [] };
+                            resources.forEach(function (it) {
+                                var links = it.links || {};
+                                if (links.baidu && links.baidu.url) {
+                                    d.baidu.push({ name: it.name, baidu: links.baidu.url, last_update: it.updated_at });
+                                }
+                                if (links.quark && links.quark.url) {
+                                    d.kuake.push({ name: it.name, kuake: links.quark.url, last_update: it.updated_at });
+                                }
+                                if (links.xunlei && links.xunlei.url) {
+                                    d.xunlei.push({ name: it.name, xunlei: links.xunlei.url, last_update: it.updated_at });
+                                }
+                            });
+                            var merged = mergeData(d);
+                            applyInvalidFromStore(merged);
+                            state.data = merged;
+                            state.hasContent = true;
+                            applyState();
+                        })
+                        .catch(function (err2) {
+                            if (DEBUG) { console.error('[NewList] 失败', err2); }
+                            var msg = err2 && err2.message ? err2.message : (err2 || '网络错误');
+                            contentEl.innerHTML = '<div class="new-list-empty">加载失败：' + esc(msg) + '</div>';
+                            state.hasContent = false;
+                        });
+                });
+        }
+
+        // Tab 点击
+        tabEls.forEach(function (el) {
+            el.addEventListener('click', function () {
+                tabEls.forEach(function (t) { t.classList.remove('active'); });
+                el.classList.add('active');
+                // 切换分类视为首次加载（清空 + 居中加载中）
+                state.hasContent = false;
+                load(el.getAttribute('data-cat'), 1);
+            });
+        });
+
+        // 分页点击
+        pagerEl.addEventListener('click', function (e) {
+            var btn = e.target.closest('.pg-btn');
+            if (!btn || btn.disabled) { return; }
+            var p = parseInt(btn.getAttribute('data-pg'), 10);
+            if (!p || p < 1) { return; }
+            load(state.cat, p);
+        });
+
+        // 标签点击（事件委托）：调 /api/other/save_url 转存后弹出分享对话框
+        // 失效标签（data-invalid="1"）：直接弹出失效提示弹窗 + 「前往全网搜索」
+        contentEl.addEventListener('click', function (e) {
+            var tag = e.target.closest('.new-list-tag');
+            if (!tag) { return; }
+            e.preventDefault();
+            var item = tag.closest('.new-list-item');
+            if (!item) { return; }
+            var titleEl = item.querySelector('.new-list-title');
+            var name = titleEl ? titleEl.textContent : '';
+            var url = tag.getAttribute('data-url') || '';
+            var type = tag.getAttribute('data-type') || '';
+            var isInvalid = tag.getAttribute('data-invalid') === '1';
+
+            if (isInvalid) {
+                // 失效资源：跳过转存，直接显示失效提示 + 前往全网搜索
+                showNewListInvalidDialog(name, type, url);
+            } else {
+                getResourceUrl(name, type, url);
+            }
+        });
+
+        // 首页失效标签：弹出失效提示（与「前往全网搜索」共用弹窗）
+        function showNewListInvalidDialog(name, type, url) {
+            // type 可能是 baidu/kuake/xunlei，转成 is_type 数值（与 list.html 对齐：0夸克/2百度/4迅雷）
+            var typeNum = 0;
+            if (type === 'baidu')  { typeNum = 2; }
+            else if (type === 'kuake')  { typeNum = 0; }
+            else if (type === 'xunlei') { typeNum = 4; }
+
+            app.dialogItem = {
+                title: name,
+                name: name,
+                url: url || '',
+                is_type: typeNum,
+                showUrl: '',
+                message: '该资源可能已失效',
+                is_local: false,
+                is_invalid: true,
+                fromNewList: true
+            };
+            app.dialogLoading = false;
+            app.dialogUrl = true;
+        }
+
+        // 拉取服务端共享的失效链接（所有用户都能看到其他人标记过的失效资源）
+        // 必须在 IIFE 内部调用，依赖 IIFE 内的 state/applyInvalidFromStore
+        loadInvalidUrlsFromServer();
+
+        // 首次加载
+        load('yingshi', 1);
+    })();
+    </script>
+
+<script type='text/javascript'>
+console.group('基本');
+console.log("\u8bf7\u6c42\u4fe1\u606f 2026-08-23 02:48:26 HTTP\/1.1 GET : https:\/\/xusou.cn\/");
+console.log("\u8fd0\u884c\u65f6\u95f4 0.036332s [ \u541e\u5410\u7387\uff1a27.52req\/s ] \u5185\u5b58\u6d88\u8017\uff1a4,543.13kb \u6587\u4ef6\u52a0\u8f7d\uff1a170");
+console.log("\u67e5\u8be2\u4fe1\u606f 5 queries");
+console.log("\u7f13\u5b58\u4fe1\u606f 1 reads,0 writes");
+console.log("\u4f1a\u8bdd\u4fe1\u606f SESSION_ID=d65ffe764b78d659f4e44b50a01431d1");
+console.groupEnd();console.groupCollapsed('文件');
+console.log("1 \/www\/wwwroot\/xusou.cn\/public\/index.php ( 1.47 KB )");
+console.log("2 \/www\/wwwroot\/xusou.cn\/vendor\/autoload.php ( 0.17 KB )");
+console.log("3 \/www\/wwwroot\/xusou.cn\/vendor\/composer\/autoload_real.php ( 2.49 KB )");
+console.log("4 \/www\/wwwroot\/xusou.cn\/vendor\/composer\/platform_check.php ( 0.90 KB )");
+console.log("5 \/www\/wwwroot\/xusou.cn\/vendor\/composer\/ClassLoader.php ( 14.03 KB )");
+console.log("6 \/www\/wwwroot\/xusou.cn\/vendor\/composer\/autoload_static.php ( 14.94 KB )");
+console.log("7 \/www\/wwwroot\/xusou.cn\/vendor\/symfony\/polyfill-php80\/bootstrap.php ( 1.50 KB )");
+console.log("8 \/www\/wwwroot\/xusou.cn\/vendor\/symfony\/deprecation-contracts\/function.php ( 0.98 KB )");
+console.log("9 \/www\/wwwroot\/xusou.cn\/vendor\/symfony\/polyfill-mbstring\/bootstrap.php ( 7.33 KB )");
+console.log("10 \/www\/wwwroot\/xusou.cn\/vendor\/symfony\/polyfill-php72\/bootstrap.php ( 1.89 KB )");
+console.log("11 \/www\/wwwroot\/xusou.cn\/vendor\/symfony\/var-dumper\/Resources\/functions\/dump.php ( 0.79 KB )");
+console.log("12 \/www\/wwwroot\/xusou.cn\/vendor\/ralouphie\/getallheaders\/src\/getallheaders.php ( 1.60 KB )");
+console.log("13 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-helper\/src\/helper.php ( 7.35 KB )");
+console.log("14 \/www\/wwwroot\/xusou.cn\/vendor\/symfony\/polyfill-php73\/bootstrap.php ( 0.99 KB )");
+console.log("15 \/www\/wwwroot\/xusou.cn\/vendor\/symfony\/polyfill-php73\/Php73.php ( 0.85 KB )");
+console.log("16 \/www\/wwwroot\/xusou.cn\/vendor\/guzzlehttp\/guzzle\/src\/functions_include.php ( 0.16 KB )");
+console.log("17 \/www\/wwwroot\/xusou.cn\/vendor\/guzzlehttp\/guzzle\/src\/functions.php ( 5.55 KB )");
+console.log("18 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/stubs\/load_stubs.php ( 0.16 KB )");
+console.log("19 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Exception.php ( 1.69 KB )");
+console.log("20 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Facade.php ( 2.71 KB )");
+console.log("21 \/www\/wwwroot\/xusou.cn\/vendor\/symfony\/translation\/Resources\/functions.php ( 0.55 KB )");
+console.log("22 \/www\/wwwroot\/xusou.cn\/vendor\/adbario\/php-dot-notation\/src\/helpers.php ( 0.57 KB )");
+console.log("23 \/www\/wwwroot\/xusou.cn\/vendor\/mtdowling\/jmespath.php\/src\/JmesPath.php ( 0.36 KB )");
+console.log("24 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Support\/helpers.php ( 4.01 KB )");
+console.log("25 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Support\/alias.php ( 1.49 KB )");
+console.log("26 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Contracts\/Support\/Arrayable.php ( 0.19 KB )");
+console.log("27 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Contracts\/Support\/Jsonable.php ( 0.24 KB )");
+console.log("28 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Contracts\/Support\/Htmlable.php ( 0.19 KB )");
+console.log("29 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Contracts\/Support\/CanBeEscapedWhenCastToString.php ( 0.33 KB )");
+console.log("30 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Support\/Arr.php ( 17.85 KB )");
+console.log("31 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Support\/Traits\/Macroable.php ( 2.79 KB )");
+console.log("32 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Support\/Collection.php ( 38.28 KB )");
+console.log("33 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Support\/Traits\/EnumeratesValues.php ( 27.25 KB )");
+console.log("34 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Support\/Enumerable.php ( 23.83 KB )");
+console.log("35 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Support\/HigherOrderCollectionProxy.php ( 1.40 KB )");
+console.log("36 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Support\/HigherOrderWhenProxy.php ( 1.30 KB )");
+console.log("37 \/www\/wwwroot\/xusou.cn\/vendor\/tightenco\/collect\/src\/Collect\/Support\/LazyCollection.php ( 38.00 KB )");
+console.log("38 \/www\/wwwroot\/xusou.cn\/vendor\/alibabacloud\/client\/src\/Functions.php ( 5.33 KB )");
+console.log("39 \/www\/wwwroot\/xusou.cn\/vendor\/overtrue\/wechat\/src\/Kernel\/Support\/Helpers.php ( 2.54 KB )");
+console.log("40 \/www\/wwwroot\/xusou.cn\/vendor\/overtrue\/wechat\/src\/Kernel\/Helpers.php ( 1.89 KB )");
+console.log("41 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-queue\/src\/common.php ( 1.01 KB )");
+console.log("42 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/App.php ( 14.17 KB )");
+console.log("43 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Container.php ( 15.38 KB )");
+console.log("44 \/www\/wwwroot\/xusou.cn\/vendor\/psr\/container\/src\/ContainerInterface.php ( 1.02 KB )");
+console.log("45 \/www\/wwwroot\/xusou.cn\/app\/provider.php ( 0.19 KB )");
+console.log("46 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Http.php ( 6.12 KB )");
+console.log("47 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-helper\/src\/helper\/Str.php ( 7.28 KB )");
+console.log("48 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Env.php ( 4.64 KB )");
+console.log("49 \/www\/wwwroot\/xusou.cn\/app\/common.php ( 31.51 KB )");
+console.log("50 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/helper.php ( 18.44 KB )");
+console.log("51 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Config.php ( 5.03 KB )");
+console.log("52 \/www\/wwwroot\/xusou.cn\/config\/app.php ( 1.13 KB )");
+console.log("53 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/facade\/Env.php ( 1.67 KB )");
+console.log("54 \/www\/wwwroot\/xusou.cn\/config\/cache.php ( 0.80 KB )");
+console.log("55 \/www\/wwwroot\/xusou.cn\/config\/console.php ( 0.19 KB )");
+console.log("56 \/www\/wwwroot\/xusou.cn\/config\/cookie.php ( 0.49 KB )");
+console.log("57 \/www\/wwwroot\/xusou.cn\/config\/database.php ( 2.28 KB )");
+console.log("58 \/www\/wwwroot\/xusou.cn\/config\/filesystem.php ( 0.21 KB )");
+console.log("59 \/www\/wwwroot\/xusou.cn\/config\/lang.php ( 0.75 KB )");
+console.log("60 \/www\/wwwroot\/xusou.cn\/config\/log.php ( 1.37 KB )");
+console.log("61 \/www\/wwwroot\/xusou.cn\/config\/middleware.php ( 0.19 KB )");
+console.log("62 \/www\/wwwroot\/xusou.cn\/config\/queue.php ( 1.05 KB )");
+console.log("63 \/www\/wwwroot\/xusou.cn\/config\/route.php ( 1.58 KB )");
+console.log("64 \/www\/wwwroot\/xusou.cn\/config\/session.php ( 0.57 KB )");
+console.log("65 \/www\/wwwroot\/xusou.cn\/config\/trace.php ( 0.34 KB )");
+console.log("66 \/www\/wwwroot\/xusou.cn\/config\/view.php ( 0.90 KB )");
+console.log("67 \/www\/wwwroot\/xusou.cn\/app\/event.php ( 0.25 KB )");
+console.log("68 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Event.php ( 6.96 KB )");
+console.log("69 \/www\/wwwroot\/xusou.cn\/app\/service.php ( 0.13 KB )");
+console.log("70 \/www\/wwwroot\/xusou.cn\/app\/AppService.php ( 0.26 KB )");
+console.log("71 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Service.php ( 1.67 KB )");
+console.log("72 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Lang.php ( 7.60 KB )");
+console.log("73 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/lang\/zh-cn.php ( 12.88 KB )");
+console.log("74 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/initializer\/Error.php ( 3.27 KB )");
+console.log("75 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/initializer\/RegisterService.php ( 1.33 KB )");
+console.log("76 \/www\/wwwroot\/xusou.cn\/vendor\/services.php ( 0.20 KB )");
+console.log("77 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/service\/PaginatorService.php ( 1.52 KB )");
+console.log("78 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/service\/ValidateService.php ( 0.99 KB )");
+console.log("79 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/service\/ModelService.php ( 1.76 KB )");
+console.log("80 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-multi-app\/src\/Service.php ( 1.05 KB )");
+console.log("81 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-queue\/src\/queue\/Service.php ( 1.24 KB )");
+console.log("82 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-trace\/src\/Service.php ( 0.77 KB )");
+console.log("83 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Middleware.php ( 6.78 KB )");
+console.log("84 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/initializer\/BootService.php ( 0.77 KB )");
+console.log("85 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/Paginator.php ( 11.80 KB )");
+console.log("86 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Validate.php ( 46.10 KB )");
+console.log("87 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/Model.php ( 25.28 KB )");
+console.log("88 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/model\/concern\/Attribute.php ( 17.61 KB )");
+console.log("89 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/model\/concern\/RelationShip.php ( 26.12 KB )");
+console.log("90 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/model\/concern\/ModelEvent.php ( 2.27 KB )");
+console.log("91 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/model\/concern\/TimeStamp.php ( 5.70 KB )");
+console.log("92 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/model\/concern\/Conversion.php ( 10.41 KB )");
+console.log("93 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-helper\/src\/contract\/Arrayable.php ( 0.09 KB )");
+console.log("94 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-helper\/src\/contract\/Jsonable.php ( 0.13 KB )");
+console.log("95 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Db.php ( 2.87 KB )");
+console.log("96 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/DbManager.php ( 8.49 KB )");
+console.log("97 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Log.php ( 8.50 KB )");
+console.log("98 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Manager.php ( 3.98 KB )");
+console.log("99 \/www\/wwwroot\/xusou.cn\/vendor\/psr\/log\/Psr\/Log\/LoggerInterface.php ( 3.04 KB )");
+console.log("100 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Cache.php ( 4.79 KB )");
+console.log("101 \/www\/wwwroot\/xusou.cn\/vendor\/psr\/simple-cache\/src\/CacheInterface.php ( 4.50 KB )");
+console.log("102 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-helper\/src\/helper\/Arr.php ( 15.54 KB )");
+console.log("103 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/cache\/driver\/File.php ( 7.42 KB )");
+console.log("104 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/cache\/Driver.php ( 8.06 KB )");
+console.log("105 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/contract\/CacheHandlerInterface.php ( 2.25 KB )");
+console.log("106 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Console.php ( 22.65 KB )");
+console.log("107 \/www\/wwwroot\/xusou.cn\/app\/Request.php ( 0.09 KB )");
+console.log("108 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Request.php ( 54.04 KB )");
+console.log("109 \/www\/wwwroot\/xusou.cn\/app\/middleware.php ( 0.33 KB )");
+console.log("110 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Pipeline.php ( 2.61 KB )");
+console.log("111 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-trace\/src\/TraceDebug.php ( 2.94 KB )");
+console.log("112 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/middleware\/AllowCrossDomain.php ( 2.08 KB )");
+console.log("113 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/middleware\/SessionInit.php ( 2.06 KB )");
+console.log("114 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Session.php ( 1.80 KB )");
+console.log("115 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/session\/driver\/File.php ( 6.28 KB )");
+console.log("116 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/contract\/SessionHandlerInterface.php ( 0.87 KB )");
+console.log("117 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/session\/Store.php ( 7.26 KB )");
+console.log("118 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-multi-app\/src\/MultiApp.php ( 7.07 KB )");
+console.log("119 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Route.php ( 23.96 KB )");
+console.log("120 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/route\/RuleName.php ( 5.33 KB )");
+console.log("121 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/route\/Domain.php ( 5.55 KB )");
+console.log("122 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/route\/RuleGroup.php ( 13.61 KB )");
+console.log("123 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/route\/Rule.php ( 22.85 KB )");
+console.log("124 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/route\/RuleItem.php ( 8.81 KB )");
+console.log("125 \/www\/wwwroot\/xusou.cn\/app\/index\/route\/index.php ( 0.25 KB )");
+console.log("126 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/facade\/Route.php ( 4.88 KB )");
+console.log("127 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/route\/dispatch\/Url.php ( 3.42 KB )");
+console.log("128 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/route\/dispatch\/Controller.php ( 6.61 KB )");
+console.log("129 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/route\/Dispatch.php ( 6.49 KB )");
+console.log("130 \/www\/wwwroot\/xusou.cn\/app\/index\/controller\/Index.php ( 13.80 KB )");
+console.log("131 \/www\/wwwroot\/xusou.cn\/app\/index\/QfShop.php ( 1.37 KB )");
+console.log("132 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/facade\/Cache.php ( 2.02 KB )");
+console.log("133 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/facade\/Config.php ( 1.37 KB )");
+console.log("134 \/www\/wwwroot\/xusou.cn\/app\/model\/Source.php ( 14.50 KB )");
+console.log("135 \/www\/wwwroot\/xusou.cn\/app\/model\/QfShop.php ( 5.90 KB )");
+console.log("136 \/www\/wwwroot\/xusou.cn\/app\/model\/SourceCategory.php ( 0.45 KB )");
+console.log("137 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/connector\/Mysql.php ( 4.39 KB )");
+console.log("138 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/PDOConnection.php ( 52.45 KB )");
+console.log("139 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/Connection.php ( 7.67 KB )");
+console.log("140 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/ConnectionInterface.php ( 4.56 KB )");
+console.log("141 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/builder\/Mysql.php ( 15.93 KB )");
+console.log("142 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/Builder.php ( 41.58 KB )");
+console.log("143 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/Query.php ( 10.64 KB )");
+console.log("144 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/BaseQuery.php ( 36.47 KB )");
+console.log("145 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/concern\/TimeFieldQuery.php ( 7.50 KB )");
+console.log("146 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/concern\/AggregateQuery.php ( 3.26 KB )");
+console.log("147 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/concern\/ModelRelationQuery.php ( 16.06 KB )");
+console.log("148 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/concern\/ResultOperation.php ( 6.29 KB )");
+console.log("149 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/concern\/Transaction.php ( 2.85 KB )");
+console.log("150 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/concern\/WhereQuery.php ( 16.22 KB )");
+console.log("151 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/concern\/JoinAndViewQuery.php ( 6.86 KB )");
+console.log("152 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/concern\/ParamsBind.php ( 3.36 KB )");
+console.log("153 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/db\/concern\/TableFieldInfo.php ( 2.51 KB )");
+console.log("154 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/log\/driver\/File.php ( 6.17 KB )");
+console.log("155 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/contract\/LogHandlerInterface.php ( 0.86 KB )");
+console.log("156 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/log\/Channel.php ( 6.54 KB )");
+console.log("157 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/event\/LogRecord.php ( 0.86 KB )");
+console.log("158 \/www\/wwwroot\/xusou.cn\/app\/model\/ApiList.php ( 0.08 KB )");
+console.log("159 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-orm\/src\/model\/Collection.php ( 6.78 KB )");
+console.log("160 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-helper\/src\/Collection.php ( 16.10 KB )");
+console.log("161 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/facade\/View.php ( 1.71 KB )");
+console.log("162 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/View.php ( 4.41 KB )");
+console.log("163 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-view\/src\/Think.php ( 8.42 KB )");
+console.log("164 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-template\/src\/Template.php ( 46.85 KB )");
+console.log("165 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-template\/src\/template\/driver\/File.php ( 2.33 KB )");
+console.log("166 \/www\/wwwroot\/xusou.cn\/runtime\/index\/temp\/cb8a1b4fd388a78a591169dd6954a278.php ( 93.23 KB )");
+console.log("167 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Response.php ( 8.60 KB )");
+console.log("168 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/response\/Html.php ( 0.98 KB )");
+console.log("169 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/framework\/src\/think\/Cookie.php ( 6.28 KB )");
+console.log("170 \/www\/wwwroot\/xusou.cn\/vendor\/topthink\/think-trace\/src\/Console.php ( 6.12 KB )");
+console.groupEnd();console.groupCollapsed('流程');
+console.groupEnd();console.group('错误');
+console.groupEnd();console.groupCollapsed('sql');
+console.log("%cCONNECT:[ UseTime:0.000295s ] mysql:host=127.0.0.1;port=3306;dbname=xusou111;charset=utf8mb4", "color:#009bb4;");
+console.log("%cSHOW FULL COLUMNS FROM `qf_source_category` [ RunTime:0.000495s ]", "color:#009bb4;");
+console.log("%cSHOW FULL COLUMNS FROM `qf_api_list` [ RunTime:0.000413s ]", "color:#009bb4;");
+console.log("%cSELECT `source_category_id`,`name`,`image`,`is_sys`,`is_type` FROM `qf_source_category` WHERE  `status` = 0 ORDER BY `sort` DESC [ RunTime:0.000264s ]", "color:#009bb4;");
+console.log("%cSHOW FULL COLUMNS FROM `qf_source` [ RunTime:0.000417s ]", "color:#009bb4;");
+console.log("%cSELECT `title`,create_time as time,source_id as id FROM `qf_source` WHERE  `status` = 1  AND `is_time` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 16 [ RunTime:0.000243s ]", "color:#009bb4;");
+console.groupEnd();console.group('调试');
+console.groupEnd();
+</script></body>
+</html>

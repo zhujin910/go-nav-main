@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>shici.store mark</title>
+  <rect width="64" height="64" rx="8" fill="#f5f3ec"/>
+  <path d="M14 20c10-8 24-8 36 0M12 33c13-8 27-8 40 0M16 46c9-5 20-5 32 0" fill="none" stroke="#355579" stroke-width="3" stroke-linecap="round"/>
+  <path d="M47 13v16" stroke="#a35a4e" stroke-width="3" stroke-linecap="round"/>
+</svg>

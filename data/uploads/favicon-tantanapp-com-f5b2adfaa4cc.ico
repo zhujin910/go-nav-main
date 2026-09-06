@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=no" />
+    <link rel="canonical" href="https://tantanapp.com/" />
+    <meta name="baidu-site-verification" content="code-myF3AFXQBF" />
+    <title>探探|探探官网</title>
+    <meta name="keywords" content="探探,探探官网" />
+    <meta
+      name="description"
+      content="探探是一个基于大数据智能推荐、全新互动模式的社交App，根据用户的个人资料、位置、兴趣爱好等信息，计算并推送身边与你匹配的人，帮助用户结识互有好感的新朋友。"
+    />
+    <link rel="icon" type="image/x-icon" href="img/v139.favicon.ico" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:description"
+      content="探探是一个基于大数据智能推荐、全新互动模式的社交App，根据用户的个人资料、位置、兴趣爱好等信息，计算并推送身边与你匹配的人，帮助用户结识互有好感的新朋友。"
+    />
+    <meta
+      name="twitter:image"
+      content="https://tantanapp.com/assets/d1ebc7c5.shared.jpg"
+    />
+    <meta property="og:title" content="探探|探探官网" />
+    <meta
+      property="og:description"
+      content="探探是一个基于大数据智能推荐、全新互动模式的社交App，根据用户的个人资料、位置、兴趣爱好等信息，计算并推送身边与你匹配的人，帮助用户结识互有好感的新朋友。"
+    />
+    <meta
+      property="og:image"
+      content="https://tantanapp.com/assets/d1ebc7c5.shared.jpg"
+    />
+    <meta property="og:product" content="探探|探探官网:product" />
+    <link type="text/css" href="css/index.css?version=3" rel="stylesheet" />
+    <link type="text/css" href="css/common.css?version=3" rel="stylesheet" />
+    <link type="text/css" href="css/normalize.css?version=1" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js?version=1" defer></script>
+    <script type="text/javascript" src="js/common.js?version=1" defer></script>
+    <script>
+      $(function () {
+        if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+          window.location.href = "mob/zh_sy.html";
+        } else {
+          var today = new Date();
+          if (
+            today.getTime() / 1000 > 1585929600 &&
+            today.getTime() / 1000 < 1586016000
+          ) {
+            var css = {
+              filter: "grayscale(100%)",
+              "-webkit-filter": "grayscale(100%)",
+              "-moz-filter": "grayscale(100%)",
+              "-ms-filter": "grayscale(100%)",
+              "-o-filter": "grayscale(100%)",
+              filter:
+                "progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)",
+              "-webkit-filter": "grayscale(1)",
+            };
+            $("html").css(css);
+          }
+        }
+        var u = navigator.userAgent;
+        if (u.indexOf("Android") > -1 || u.indexOf("Adr") > -1) {
+          $("#privacy").attr({
+            href: "https://lp.tantanapp.com/and_play/?id=17",
+          });
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_icon_container">
+        <img class="header_icon" src="img/logo_new.png" alt="" />
+        <img class="header_icon_text" src="img/logo_new_text.png" alt="" />
+      </div>
+      <div class="header-tabs-wrapper">
+        <div>
+          <span class="header_tab header_tab_active">首页</span>
+          <a class="header_tab" href="./aboutus.html">关于探探</a>
+          <a
+            class="header_tab"
+            href="https://www.lagou.com/gongsi/26782.html"
+            target="_blank"
+            >加入我们</a
+          >
+          <a class="header_tab" href="./contact.html">联系我们</a>
+          <a class="header_tab header-download hide_dom" href="./index.html"
+            >下载探探</a
+          >
+        </div>
+        <div class="header-voice"></div>
+      </div>
+      <!-- <span class="header_download hide_dom"> 下载探探 </span> -->
+      <div class="switch-language">
+        <span class="switch-language-title">简体中文</span>
+        <!-- <span class="switch-language-subtitle">其他语种</span> -->
+        <img class="arrow-down" src="img/arrow_down.png" alt="" />
+        <div class="switch-language-drop-down">
+          <div class="languages-list">
+            <a class="language-link" href="https://thetantanapp.com">
+              <span class="language-name">English</span>
+            </a>
+            <a class="language-link" href="https://ja.thetantanapp.com">
+              <span class="language-name">日本語</span>
+            </a>
+            <a class="language-link" href="https://ko.thetantanapp.com">
+              <span class="language-name">한국어</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul class="indicator-container">
+      <li class="indicator1 indicator-active"></li>
+      <li class="indicator2"></li>
+      <li class="indicator3"></li>
+      <li class="indicator4"></li>
+      <li class="indicator5"></li>
+      <li class="indicator6"></li>
+    </ul>
+    <div class="page1">
+      <video
+        class="home-video"
+        poster="https://fe-static.tancdn.com/v1/images/eyJpZCI6IkVJVlpTREI3RlAyTUdBUVNOV1NOTTIyQ1NZT0NUVTE0IiwidyI6MjE4MCwiaCI6MTA4MCwiZCI6MCwibXQiOiJpbWFnZS9qcGVnIiwiZGgiOjEwNzQ3Mzc4Mjc1MTEyMTExOTU5fQ.jpg"
+        src="https://fe-static.tancdn.com/v1/raw/eb372528-a461-41ba-90aa-0c88970f3459.mp4"
+        autoplay
+        loop
+        muted
+        preload="none"
+      ></video>
+      <div class="page1_content">
+        <p id="counter" class="count_container_number"></p>
+        <p class="count_container_desc">一见钟情已在探探相遇，记录刷新中</p>
+      </div>
+      <div>
+        <a
+          class="download_container"
+          href="https://itunes.apple.com/cn/app/tantan/id861891048?mt=8"
+          target="_blank"
+        >
+          <img class="download_img" alt="探探" src="img/ios_icon.png" alt="" />
+          苹果客户端下载
+          <img class="download-qr" src="img/download_qr.png" alt="" />
+        </a>
+        <a
+          class="download_container"
+          href="https://tantanapp.com/tantan_GuanwangSelf01.apk"
+        >
+          <img
+            class="download_img"
+            alt="探探"
+            src="img/android_icon.png"
+            alt=""
+          />
+          安卓客户端下载
+          <img class="download-qr" src="img/download_qr.png" alt="" />
+        </a>
+      </div>
+    </div>
+    <div class="page2 hide_dom">
+      <p class="page2_title page2_animation">向左向右滑</p>
+      <p class="page2_subtitle page2_animation">
+        探探会根据你的当前位置，地理距离，性别偏好，为你实时推送周边有趣的人。<br />你需要做的就是——滑滑滑！向右滑喜欢，向左滑无感，不能更简单。
+      </p>
+      <img
+        class="page2_img page2_animation"
+        src="https://static.tancdn.com/pe-webplatform/7GoUBNUgYZLB-C8sJFWh7Ksp.png"
+        alt=""
+      />
+    </div>
+    <div class="page3 hide_dom">
+      <div class="page3_left">
+        <p class="page3_title page3_animation">见证温暖的时刻</p>
+        <p class="page3_subtitle page3_animation">
+          如果你喜欢的人也喜欢了你，太棒了！<br />
+          不过不用担心，探探只在成功配对时发送通知，<br />
+          而不会通知被pass掉的人。<br />
+          告白失败？十动然拒？这里绝不会发生！
+        </p>
+      </div>
+      <img
+        class="page3-card-info page3_animation"
+        src="https://static.tancdn.com/pe-webplatform/L8b7Psynj7k7exTbllRszK6V.png"
+        alt=""
+      />
+    </div>
+    <div class="page4 hide_dom">
+      <p class="page4_title page4_animation">
+        我的人生<br />
+        我的选择
+      </p>
+      <video
+        class="page4_video page4_animation"
+        poster="https://fe-static.tancdn.com/v1/images/eyJpZCI6IjNGQ1lNRkNPNVBDRVZLSEw1WjU2WDc2N0lBQkxFMzE0IiwidyI6MTA4MCwiaCI6MjMzNiwiZCI6MCwibXQiOiJpbWFnZS9qcGVnIiwiZGgiOjY5Mzg5ODAyMTA0NDIyMTczNTF9.jpg"
+        src="https://fe-static.tancdn.com/v1/raw/da82b647-a2ed-446b-89ed-2aefdb84ce36.mp4"
+        autoplay
+        loop
+        muted
+        preload="none"
+      ></video>
+      <p class="page4_desc page4_animation">
+        在探探，只有相互喜欢的人才能聊天，<br />
+        永远不用担心收到陌生人的骚扰信息。<br />
+        就算事情发展得不顺利，<br />
+        也可以随时屏蔽或举报。
+      </p>
+    </div>
+    <div class="page5 hide_dom">
+      <p class="page5_title page5_animation">
+        万人广场<br />
+        实时在线
+      </p>
+      <video
+        class="page5_video page5_animation"
+        poster="https://fe-static.tancdn.com/v1/images/eyJpZCI6Ik9BVEVUSDJDVTZYN1hVWktCRE5VWFo1VUFPWkJBNzE0IiwidyI6MTA4MCwiaCI6MjMzNiwiZCI6MCwibXQiOiJpbWFnZS9qcGVnIiwiZGgiOjY1ODc0NzQ0MzQzMTMxNzM5Mjd9.jpg"
+        src="https://fe-static.tancdn.com/v1/raw/a17dda3a-73eb-4dea-bb87-38b5d4fc3e21.mp4"
+        autoplay
+        loop
+        muted
+        preload="none"
+      ></video>
+      <p class="page5_desc page5_animation">
+        随意打招呼 会有人秒回你的消息<br />
+        真正的快速交友<br />
+        闪聊匹配到你的意中人
+      </p>
+    </div>
+    <div class="page6 hide_dom">
+      <div class="page-content">
+        <p class="desc page6_animation">可以在这里找到我们</p>
+        <div class="social_media_container page6_animation">
+          <a
+            class="social_media_item"
+            href="https://weibo.com/u/5262441113"
+            target="_blank"
+          >
+            <img
+              class="social_media_img social-media-img-border"
+              src="img/weibo.png"
+              alt=""
+            />
+            <p class="social_media_text">微博</p>
+          </a>
+          <div class="social_media_item">
+            <img
+              class="social_media_img social-media-img-border"
+              src="img/gongzhonghao.png"
+              alt=""
+            />
+            <p class="social_media_text">公众号</p>
+          </div>
+          <a
+            class="social_media_item"
+            href="https://www.douyin.com/user/MS4wLjABAAAAiWqyUfFpQ4oOVPT3EK_hi1rTLffBdQL4jMutRiZmvHk"
+            target="_blank"
+          >
+            <img class="social_media_img" src="img/douyin.png" alt="" />
+            <p class="social_media_text">抖音</p>
+          </a>
+          <a
+            class="social_media_item"
+            href="https://www.xiaohongshu.com/user/profile/5fd4561a0000000001003745?xhsshare=CopyLink&appuid=5a7271a94eacab4e0be4aea5&apptime=1698916296"
+            target="_blank"
+          >
+            <img class="social_media_img" src="img/xiaohongshu.png" alt="" />
+            <p class="social_media_text">小红书</p>
+          </a>
+        </div>
+      </div>
+      <footer class="footer page6-footer-container">
+        <div class="footer-row">
+          <a
+            class="footer-group"
+            href="https://www.hellogroup.com"
+            rel="external nofollow"
+            target="_blank"
+            >Hello Group Inc.</a
+          >
+          <a class="footer-about" href="aboutus.html">关于探探</a>
+          <a class="footer-contact" href="contact.html">联系我们</a>
+          <a
+            class="footer-download"
+            href="https://static.tancdn.com/tantanapp/探探标志.zip"
+            >探探标志下载</a
+          >
+          <!-- <a id="footer-language" href="#">
+            <img
+              alt="探探"
+              class="footer-flag"
+              src="img/ad02c95a.cn.png"
+              srcset="../img/c84acf38.cn@2x.png 2x"
+            />
+            <span class="footer-name">中文</span>
+          </a> -->
+        </div>
+        <div class="footer-row">
+          <div>
+            <span>客服热线：028-63256488&nbsp;&nbsp;</span>
+            <span>违法和不良信息举报电话：028-63239000&nbsp;&nbsp;</span>
+            <span>青少年守护专线：028-63239000</span>
+            <a href="mailto:tantan-support@hellogroup.com"
+              >客服帮助：tantan-support@hellogroup.com</a
+            >
+          </div>
+
+          <div>
+            <span>@2017 探探 </span>
+            <span>探探文化发展（北京）有限公司</span>
+            <a
+              class="footer-icp"
+              href="https://beian.miit.gov.cn/"
+              rel="external nofollow"
+              target="_blank"
+              >京ICP备15007231号
+            </a>
+            <a
+              class=""
+              href="https://www.beian.gov.cn/portal/registerSystemInfo?spm=a2hja.14919748_WEBHOME_NEW.footer-container.5~5~5~5!4~5~A&recordcode=11010502030901"
+              rel="external nofollow"
+              target="_blank"
+              >京公网安备 11010502030901号
+            </a>
+            <span> 北京市朝阳区酒仙桥北路甲10号院203号楼 </span>
+          </div>
+          <div>
+            <a
+              href="https://m.tantanapp.com/middle-platform/bussiness_license?rid=1"
+              rel="external nofollow"
+              target="_blank"
+            >
+              营业执照：91110105327178273U</a
+            >
+            <a
+              href="https://m.tantanapp.com/middle-platform/bussiness_license?rid=4"
+              rel="external nofollow"
+              target="_blank"
+            >
+              网络文化经营许可证：京网文（2025）0522-161号</a
+            >
+            <a
+              href="https://m.tantanapp.com/middle-platform/bussiness_license?rid=2"
+              rel="external nofollow"
+              target="_blank"
+            >
+              增值电信业务经营许可证：京ICP证160563号</a
+            >
+            <a
+              href="https://m.tantanapp.com/middle-platform/bussiness_license?rid=3"
+              rel="external nofollow"
+              target="_blank"
+            >
+              广播电视节目制作经营许可证：（京）字第14237号</a
+            >
+          </div>
+        </div>
+        <div class="footer-row">
+          <a href="authority.html" rel="external nofollow" target="_blank">
+            权限列表以及用途</a
+          >&nbsp;&nbsp;
+          <a
+            href="https://lp.tantanapp.com/ios_play/?id=17"
+            rel="external nofollow"
+            target="_blank"
+            id="privacy"
+          >
+            隐私协议</a
+          >&nbsp;&nbsp;
+          <span> 版本信息：5.0</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

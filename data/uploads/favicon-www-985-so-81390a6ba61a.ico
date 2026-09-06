@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Language" content="zh-CN">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv=”Cache-Control” content=”no-transform” />
+		<meta http-equiv=”Cache-Control” content=”no-siteapp” />
+		<title>短网址,短网址生成,短链接,飞天天网,网址缩短_ft12.com短网址</title>
+		<META NAME="Description" CONTENT="www.ft12.com为您提供: ,短网址程序,短网址服务,短网址转换,短网址API接口,短链接生成器,批量生成短链接,短网址生成,压缩所有网址包括图片、flash、mp3、rar等所有互联网地址, 专业的网址缩短网站！。"/>
+		<meta name="keywords" content="短网址,短网址生成,短链接,网址缩短,短链接生成器,新浪短网址,长网址变短网址,t.cn,域名缩短"/>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="format-detection" content="telephone=no,email=no">
+		<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+		<link href="//statics.985dh.com/dwzs/index/ft12.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<br/>
+		<div class="section">
+			<li class="logo" onClick="window.location.reload();"> </li> 
+			<ul id="nav">		
+				<li><a  style="display:none" id="index-login-reg" href="/user/login.html" style="padding:0 10px;">登录/注册</a></li>
+				<li><a style="display:none" id="index-user1" href="/user/admin.html" target="blank">个人中心</a></li>
+				<li class="user" style="display:none" id="index-user2" onclick="javascript:window.open('/user/admin.html');"></li>
+				<li><a href="/tj.html" class="tongji" target="_blank">统计</a></li>
+				<li><a style="padding:0 10px;" class="jiamisu jiamisuBtn"onmouseover="this.style.cursor='hand'">加密短网址</a></li>
+				<li ><a style="display:none" id='wap' href="/" style="padding:0 10px;">首 页</a></li>		
+			</ul>
+			<script src="//statics.985dh.com/dwzs/index/index-verify.js?v=0.2"></script>
+			<br/><br/>
+			<form>
+				<div style="position:relative;">
+					<p class="p1">输入将要缩短的长网址:</p>
+					<textarea class="text" placeholder="每行一个长网址, 支持一次缩短100条短网址" id="multiurl" name="multiurl"></textarea>
+					<div class="alias">
+						<label style="display:none"><input type="radio" name="type" value="1@hk" checked="checked">2号<a style="color:red;font-size:13px;">(2号可在微信和QQ直接访问)</a></label>
+					</div>
+					<div class="shorten">
+						<button type="button" onclick="form_submit(this)">生 成</button>
+						<button type="button" onclick="form_clear()">重 置</button>
+					</div>
+				</div>
+				<div id="qrcode" style="display: none">
+					<p><a style="font-size:16px;">短链接二维码见下图, 访问数据见右上角</a></p>
+					<img src="" class="dwz-qrcode" alt="二维码"style="border: 6px solid #FFF;margin-bottom:70px">
+				</div>
+			
+				<br/><br/>
+				<div class="warp">
+						<p><strong>TXT格式API接口&nbsp;&nbsp;&nbsp;<a href="/desktop.php" id='wap' style="color:blue">【短链接生成器下载】</a></strong></p>
+						<p>接口: http://api.ft12.com/api.php?url=urlencode('要缩短的网址')&apikey=yourkey</p>
+						<p>例如: http://api.ft12.com/api.php?url=http%3a%2f%2fwww.baidu.com&apikey=yourkey</p>
+						<p>返回: http://8cc7.com/baidu</p>
+						<p>短链接api请求频次限制: <4次/秒</p><p id='apikey'></p><p>使用问题和建议, 请联系aiqing174@qq.com</p>
+						<p><strong>JSON格式短网址API接口</strong></p><p>说明: format为json</p><p>例如: http://api.ft12.com/api.php?format=json&url=http%3a%2f%2fwww.baidu.com&apikey=yourkey</p><p>返回: {"url":"http://8cc7.com/baidu","err":""}</p>
+						<p><strong>JSONP格式短网址API接口</strong></p><p>说明: format为jsonp</p><p>例如: http://api.ft12.com/api.php?format=jsonp&url=http%3a%2f%2fbaidu.com&callback=callbackname&apikey=yourkey</p><p>返回: callbackname({"url":"http://8cc7.com/baidu","err":""})</p>
+				</div>
+			</form>
+
+			<div class="jiami">
+				<div class="pop_body">
+					<div class="closeBtn"></div>
+					<div class="content_box">
+						<div class="begin">
+							<h4 class="tit"><span style="color:#D55336;">*</span>加密短网址必须输入密码才能访问；您可将需要付费内容加密传播, 以保证自身利益</h4>
+							<center>
+							<label style="display:none"><input type="radio" name="typemima" value="1@hk" checked="checked">1号<a style="color:red;font-size:13px;">(2号仅限微信和QQ中访问)</a></label>
+							</center>
+							<br/></br/>
+							<div><span>原网址</span><input class="sujm orign-url" type="text" placeholder="请输入要加密的原网址"></div>
+							<div><span>访问密码</span><input class="urlpwd visit-pwd" type="text" placeholder="请输入4-16位字母数字组合的密码, 不支持查询和修改, 请牢记。"></div>
+							<button class="btn done" type="button">生成加密短网址</button>
+						</div>
+						<div class="result">
+							<p class="tit" id="tit"></p>
+							<div class="jiamiqrcode"><img src=""></div>
+							<div class="visitPassword">访问密码: <span></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="wap" class="warp">
+				<p><strong>短网址专栏: 热门精选</strong></p>
+				<p>2019-04-14&nbsp;<a style='color:black;' href='/article_552.html'target='_blank'>关于短网址api接口增加apikey认证的说明</a></p>
+				<p>2018-12-22&nbsp;<a style='color:black;' href='/article_551.html'target='_blank'>FT12短网址新增统计和加密功能, 访问数据实时查看</a></p>
+				<p>2017-08-22&nbsp;<a style='color:black;' href='/article_418.html'target='_blank'>FT12短网址改版说明: 一次被迫的改版</a></p>
+				<p>2017-06-04&nbsp;<a style='color:black;' href='/article_170.html'target='_blank'>涨姿势: 在线黑科技小工具, 方便快捷</a></p>
+				<p>2017-05-22&nbsp;<a style='color:black;' href='/article_127.html'target='_blank'>短网址网站对每条短链接安全性的检测方法</a></p>
+				<p>2017-08-28&nbsp;<a style='color:black;' href='/article_447.html'target='_blank'>短网址服务开发关键问题与解决方案</a></p>
+				<p>2017-05-01&nbsp;<a style='color:black;' href='/article_22.html'target='_blank'>短网址网站开发运维的经验分享与总结</a></p>
+				<p>2017-05-24&nbsp;<a style='color:black;' href='/article_139.html'target='_blank'>类似http://t.cn/xxxxx的短链接如何生成？</a></p>
+			</div>
+			<div class="foot">©2026
+				<a href="/" target="_blank">短网址生成</a> -
+                <a id="wap" href="/" target="_blank">域名缩短</a><a id="wap"> - </a>
+                <a id="wap" href="/" target="_blank">t.cn</a><a id="wap"> - </a>
+                <a id="wap" href="/" target="_blank">短链接</a><a id="wap"> - </a>
+                <a id="wap" href="/" target="_blank">在线生成</a><a id="wap"> - </a>
+                <a id="wap" href="/list1.html" target="_blank">短网址资讯</a><a id="wap"> - </a>
+                <a href="https://beian.miit.gov.cn/"target="_balnk">沪ICP备12047714号-2</a>
+				<p id="wap">FT12短网址快速、稳定、永久有效, 免费开放API接口, QQ防红</p>
+				<p id="wap">支持批量生成短网址、短链接, 不限制短网址接口请求数, 做最好的网址缩短服务！</p>
+			</div>
+			<br/>
+		</div>
+		<script src="//statics.985dh.com/dwzs/index/jquery.min.js?v=1.0"></script>
+		<script src="//statics.985dh.com/dwzs/index/jquery.qrcode.min.js?v=1.0"></script>
+		<script src="//statics.985dh.com/dwzs/index/dialog.js?v=1.0"></script>
+		<script src="//statics.985dh.com/dwzs/index/bujiami.js?v=0.13"></script>
+		<script>if(localStorage.getItem("token")!=null){document.getElementById("apikey").innerText = '短链接apikey:'+localStorage.getItem("token");}else{document.getElementById("apikey").innerText = '短链接apikey: 请登录后查看';}</script>
+	</body>
+	<div style="display:none">
+		<script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?be83c4c98bd599b8b8d237723a429d18";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s);})();</script>
+	</div>
+	<!--<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"短网址（FT12.COM）致力于提供最专业、最稳定、最安全、最快速、最便捷的短网址服务。短网址服务可以帮助你把一个长网址缩短, 方便你在各种社交、微博、应用、腾讯上使用.","bdMini":"2","bdMiniList":false,"bdPic":"//www.ft12.com/urlshort/sitelogo.png","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>-->
+</html>

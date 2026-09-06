@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><script src="s/header.js"></script></head>
+<body>
+<script> titleOut("false", "");</script>
+<script>
+    function bt_submit_onclick() {
+        document.getElementById("txt").value = $("#content").html();
+        document.form1.submit();
+    }
+</script>
+<div class="wrap">
+    <form name="form1" action="./" method="post">
+        <div class="content" id="top">
+            
+            <div class="tips" id="tip">在下方的编辑框内，您可以粘贴（或者手动输入）您需要暂存的内容，点击“提交”后。本站会生成一个很短的链接地址来暂存您的内容。</div>
+        </div>
+        <div class="test_box" id="content" contenteditable="true"></div>
+        <input type=hidden id="txt" name="txt">
+        <input class="btn page-btn" type="button" value="提交" onClick="bt_submit_onclick()"><br>
+    </form>
+</div>
+</body>
+
+</html>

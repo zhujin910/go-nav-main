@@ -1,0 +1,70 @@
+{
+  "clickRecords": [
+    {
+      "websiteId": "https://www.rjsos.com/",
+      "count": 1
+    },
+    {
+      "websiteId": "https://www.ossnav.com/",
+      "count": 1
+    },
+    {
+      "websiteId": "https://www.yxssp.com/",
+      "count": 1
+    },
+    {
+      "websiteId": "https://qx.oovc.cc/",
+      "count": 1
+    },
+    {
+      "websiteId": "https://www.eyunsou.com/",
+      "count": 1
+    },
+    {
+      "websiteId": "https://kuafzys.cn/",
+      "count": 1
+    }
+  ],
+  "visitRecords": [
+    {
+      "date": "2026-08-23",
+      "visit": 3
+    },
+    {
+      "date": "2026-08-24",
+      "visit": 1
+    },
+    {
+      "date": "2026-08-26",
+      "visit": 1
+    },
+    {
+      "date": "2026-08-29",
+      "visit": 1
+    },
+    {
+      "date": "2026-09-01",
+      "visit": 1
+    },
+    {
+      "date": "2026-09-02",
+      "visit": 1
+    },
+    {
+      "date": "2026-09-03",
+      "visit": 1
+    },
+    {
+      "date": "2026-09-04",
+      "visit": 1
+    },
+    {
+      "date": "2026-09-05",
+      "visit": 1
+    },
+    {
+      "date": "2026-09-06",
+      "visit": 2
+    }
+  ]
+}

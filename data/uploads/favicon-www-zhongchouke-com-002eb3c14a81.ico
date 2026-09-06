@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>众筹客 - 专注于吃喝玩乐的同城网站</title>
+    <meta name="keywords" content="非公开股权" />
+    <meta name="description" content="众筹客（zhongchouke.com）专注于吃喝玩乐的同城网站，立足于为投资人找到身边优质的股权品牌商家，让投资人在众筹平台轻松参与店铺监督，投资实体店铺，享受分红收益，合伙创业乐享股东特权，让您轻轻松松当老板。" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1280" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no, address=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-page-mode" content="app">
+    <meta name="baidu-site-verification" content="4eRNN4YHIO" />
+    <link rel="shortcut icon" type="image/x-icon" href= "/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/static/css/iconfont.css?s5ge" />
+    <link rel="stylesheet" type="text/css" href="/static/css/common.css?23a" />
+    <link rel="stylesheet" type="text/css" href="/static/css/main_n.css?s5ge" />
+    <link rel="stylesheet" type="text/css" href="/static/css/swiper.min.css?123" />
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="logo"><a href="/"><img src="/static/img/logo.png"></a></div>
+            <div class="menu">
+                <span><a href="/index-index.htm">首页</a></span>
+                <span><a href="">全部项目</a></span>
+                <!--                <span><a href="/collect-index.htm">发起众筹</a></span>-->
+                <span><a href="/help-guide.htm">新手指南</a></span>
+                <span><a href="">APP下载</a></span>
+                <span style="position: relative; margin-left:40px;">
+                    <input type="text" class="blue" placeholder="项目搜索" style="width:240px;" value="" id="search_btn">
+                    <span style="position: absolute; right:-14px; top:12px; cursor: pointer;"><img src="/static/img/search_icon.png" width="18" height="18" onclick="search();"></span>
+                </span> 
+            </div>
+                            <div class="btns">
+                    <a href="/user-login.htm"><button class="white small">登录</button></a>
+                    <a href="/user-register.htm"><button class="blue small ml20 mr20">注册</button></a>
+                </div>
+                    </div>
+
+    </div>
+
+<style type="text/css">
+    .circle {
+        margin-top:10px;
+        width: 110px;
+        height: 110px;
+        position: relative;
+        border-radius: 50%;
+        background: #14364e;
+    }
+    .pie_left, .pie_right {
+        width:110px;
+        height:110px;
+        position: absolute;
+        top: 0;left: 0;
+    }
+    .p_left, .p_right {
+        width:110px;
+        height:110px;
+        background:#d6d6db;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .pie_right, .p_right {
+        clip:rect(0,auto,auto,55px);
+    }
+    .pie_left, .p_left {
+        clip:rect(0,55px,auto,0);
+    }
+    .mask {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        left: 10px;
+        top: 10px;
+        background: #FFF;
+        position: absolute;
+        text-align: center;
+        line-height: 48px;
+        font-size: 24px;
+        color: #4e4e4e;
+        padding-top:20px;
+    }
+    .mask >div{position: absolute; top:30px; left:6px; font-size:10px;}
+        .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .circle160 {
+        width: 160px;
+        height: 160px;
+        position: relative;
+        border-radius: 50%;
+        background: #14364e;
+    }
+    .circle160 .pie_left, .circle160 .pie_right {
+        width:160px;
+        height:160px;
+        position: absolute;
+        top: 0;left: 0;
+    }
+    .circle160 .p_left, .circle160 .p_right {
+        width:160px;
+        height:160px;
+        background:#d6d6db;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .circle160 .pie_right, .circle160 .p_right {
+        clip:rect(0,auto,auto,80px);
+    }
+    .circle160 .pie_left, .circle160 .p_left {
+        clip:rect(0,80px,auto,0);
+    }
+    .circle160 .mask {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        left: 14px;
+        top: 14px;
+        background: #FFF;
+        position: absolute;
+        text-align: center;
+        line-height: 88px;
+        font-size: 24px;
+        color: #4e4e4e;
+        padding-top:20px;
+    }
+    .circle160 .mask >div{position: absolute; top:30px; left:6px; font-size:10px;}
+        .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .swiper-container {
+        width: 100%;
+        height: 482px;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+</style>
+<div class="swiper-container" style="position: relative; min-width:1160px;">
+        <div class="swiper-wrapper">
+                                            <div class="swiper-slide" style="text-align:center; margin:0px auto; overflow: hidden">
+                    <a href="http://www.zhongchouke.com/article-index-34.htm" target="_blank">
+                    <img src="upload/focusimgs/20200119/f1579402406.jpg">
+                    </a>
+                </div>
+                                            <div class="swiper-slide" style="text-align:center; margin:0px auto; overflow: hidden">
+                    <a href="http://www.zhongchouke.com/index-detail-917.htm" target="_blank">
+                    <img src="upload/focusimgs/20191014/f1571032694.jpg">
+                    </a>
+                </div>
+            <!--            <div class="swiper-slide" style="text-align:center; margin:0px auto; overflow: hidden"><a href="http://www.zhongchouke.com/index-detail-823.htm" target="_blank"><img src="/static/img/ad20170922.jpg?73"></a></div>
+            <div class="swiper-slide" style="text-align:center; margin:0px auto; overflow: hidden"><a href="http://www.zhongchouke.com/index-detail-821.htm" target="_blank"><img src="/static/img/ad20170914.jpg?573"></a></div>
+            <div class="swiper-slide" style="text-align:center; margin:0px auto; overflow: hidden"><img src="/static/img/ad20170915.jpg?573"></div>
+            <div class="swiper-slide" style="text-align:center; margin:0px auto; overflow: hidden"><img src="/static/img/ad20170911.jpg?125"></div>-->
+            <!--<div class="swiper-slide" style="background:url(/static/img/pd-t-img.jpg) no-repeat; background-size:100%;"></div>-->
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+</div>
+<!--<div class="totalmsg">
+    <span>
+        <span>264</span>
+        <span class="fs14">已上线项目</span>
+    </span>
+    <span>
+        <span>42,521</span>
+        <span class="fs14">参与人数</span>
+    </span>
+    <span>
+        <span>851,304,438.55</span>
+        <span class="fs14">总投资额</span>
+    </span>
+    <span>
+        <span>207,738,562.00</span>
+        <span class="fs14">总融资额</span>
+    </span>
+    <span>
+        <span>159,965,484.24</span>
+        <span class="fs14">用户分红</span>
+    </span>
+</div>-->
+<div class="container">
+</div>
+<!--<div class="container tc mt40">
+    <div class="fs24">投资流程</div>
+    <div class="mt20"><img src="/static/img/tzlc.jpg"></div>
+</div>-->
+
+<div class="container tc" style="margin-top:80px;">
+    <div class="fs24">合作机构</div>
+    <ul class="index-hzhb tc mt20">
+        <li><a href="http://www.yeepay.com" target="_blank" rel="nofollow"><img src="/static/img/hz5.png"></a></li>
+        <li><a href="http://www.zczj.com" target="_blank"><img src="/static/img/hz3.jpg"></a></li>
+        <li><a href="http://www.zhongchoujia.com" target="_blank"><img src="/static/img/hz4.png"></a></li>
+        <li><a href="http://www.touyouh.com" target="_blank"><img src="/static/img/hz1.png"></a></li>
+        <li><a href="http://www.zhitouwang.cn" target="_blank"><img src="/static/img/hz6.jpg"></a></li>
+        <div class="clear-fix"></div>
+    </ul>
+
+</div>
+<script src="/static/js/swiper.min.js"></script>
+<div class="clear-fix"></div>
+<div class="footer mt40">
+	<div class="container">
+		<div class="tc fl">
+			<img src="/static/img/b_logo.jpg">
+			<div class="fs14 mt40">众筹有风险，投资需谨慎</div>
+		</div>
+
+		<div class="fl" style="margin-left:80px;">
+                    <p><a href="/help-guide.htm" style="margin-top:0px!important;">新手指南</a></p>
+			<p class="mt10"><a href="/help-center.htm">常见问题</a></p>
+            <p class="mt10"><a href="/help-agreement.htm">注册协议</a></p>
+			<p class="mt10"><a href="/help-know.htm">了解众筹</a></p>
+		</div>
+        <div class="fl">
+            <p style="margin-top:0px!important;"><a href="/help-contact.htm">联系我们</a><span class="ml10">010-83735997</span></p>
+            <p class="mt10"><a href="/help-about.htm">关于我们</a></p>
+            <p class="mt10"><a href="/help-risk.htm">风险提示</a></p>
+            <p class="mt10"><a href="/help-jionus.htm">加入我们</a></p>
+        </div>
+        <div class="fr mt10" style="width:380px;">
+            <div class="fl tc" style="width:110px;"><img src="/static/img/wxkefunew.png" width="102"><p>联系客服</p></div>
+            <div class="fl tc ml20" style="width:110px;"><img src="/static/img/wx_qrcode.jpg" width="102"><p>关注微信公众号</p></div>
+            <!--<div class="fl tc ml20" style="width:110px;"><img src="/static/img/wxapp.png" width="102"><p>众筹客APP下载</p></div>-->
+        </div>
+		<div class="clear-fix"></div>
+	</div>
+    <div style="width:1160px;margin:20px auto 10px auto;text-align:center;">©2015众筹客 zhongchouke.com <a href="http://beian.miit.gov.cn">京ICP备15012734号-1</a> 北京众筹客网络技术有限公司</div>
+</div>
+        <style type="text/css">
+            .sidebar {position: fixed; top:50%; right:2%; z-index: 999;}
+            .sidebar a {display:block; width:42px; height:42px; border-radius: 3px; margin-top:4px; transition: all 0.2s ease 0s; position: relative}
+            .sidebar .wechat, .sidebar .tel, .sidebar .service, .sidebar .backtop, .sidebar .sina, .sidebar .licai {background:url(/static/img/sidebar.png?123) no-repeat;}
+            .sidebar .tel{background-position: 0px -44px;}
+            .sidebar .service{background-position: 0px -88px;}
+            .sidebar .backtop{background-position: 0px -132px;}
+            .sidebar .sina{background-position: 0px -176px;}
+            .sidebar .licai{background-position: 0px -220px;}
+            .wechat >div, .tel >div {position: absolute; width:1px; height:1px; opacity: 0; transition: opacity 0.2s ease 0s;}
+            .wechat >div {left:-200px; top:-148px;  background:url(/static/img/wechat_vip.png) no-repeat center; }
+            .tel >div {left:-180px; top:-106px; background:url(/static/img/call.png?123) no-repeat center; }
+            .service >div {left:-210px; top:-106px; border-radius: 3px; background:black;}
+            .service > div{display:none;}
+        </style>
+<div class="sidebar">
+    <a class="wechat" target="_blank" href=""><div></div></a>
+    <a class="licai" target="_blank" href="" style="display:none;"></a>
+    <a class="tel" target="_blank" href=""><div></div></a>
+    <a class="service" target="_blank" href="">
+        <div>
+        </div>
+    </a>
+    <a class="backtop" target="_blank" href=""></a>
+</div>
+
+
+<script src="/static/js/jquery-1.10.2.min.js"></script>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/xxx.js?11"></script>
+<script language="javascript">
+
+var _umenu = $('.u_menu');
+var _indexu = $('.index-u');
+var _s;
+var node_1 = new Array('-0px 0px', '-0px -220px', '0px -44px', '0px -88px', '0px -132px', '0px -176px');
+var node_2 = new Array('-42px 0px', '-42px -220px', '-42px -44px', '-42px -88px', '-42px -132px');
+_indexu.on('click', function () {
+	menuview(true);
+});
+
+_umenu.on('mouseover', function () {
+	menuview(true);
+});
+
+_umenu.on('mouseout', function () {
+	menuview(false);
+});
+function menuview (s) {
+	if(s) {
+		_s && clearTimeout(_s);
+		_umenu.show();
+
+	} else {
+		_s = setTimeout(function () {
+			_umenu.hide();
+		}, 300);
+	}
+}
+
+
+$('.sidebar a').on('mouseover', function () {
+    var _this = $(this);
+    animation(_this, -1);
+    if(_this.attr('class') == 'wechat') {
+        _this.find('div').css({
+            "width":'200px',
+            "height":'200px',
+            "opacity":'1'
+        })
+    }else if(_this.attr('class') == 'tel'){
+        _this.find('div').css({
+            "width":'200px',
+            "height":'200px',
+            "opacity":'1'
+        })
+    } else if(_this.attr('class') == 'service'){
+        _this.find('div').css({
+            "width":'200px',
+            "height":'200px',
+            "opacity":'1'
+        })
+        _this.find('a').show();
+    }
+
+});
+
+$('.sidebar a').on('mouseout', function () {
+    var _this = $(this);
+    animation(_this, 1);
+    _this.cancelBubble=true;
+    _this.find('div').css({
+        "opacity":'0',
+        "width":'0px',
+        "height":'0px'
+
+    })
+
+});
+$('.sidebar a').on('click', function () {
+    var _this = $(this);
+    if(_this.attr('class') == 'backtop') {
+        pageScroll();
+    } else if(_this.attr('class') == 'licai') {
+        window.open('/help-contrast.htm');
+    } else if(_this.attr('class') == 'service') {
+        //window.open('tencent://message/?uin=215151039&Site=qq&Menu=yes');
+        javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=2230266396&site=qq&menu=yes', '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');
+    }
+    return false;
+});
+function animation (obj, stat) {
+    if (stat > 0) {
+        obj.css('background-position',node_1[obj.index()]);
+    } else {
+        obj.css('background-position',node_2[obj.index()]);
+    }
+
+}
+function search() {
+    var keyword = $("#search_btn").val();
+    if(!keyword || keyword == undefined) return;
+    window.location = "/index-list----"+xn_urlencode(keyword)+"-.htm";
+}
+function pageScroll(){
+    window.scrollBy(0,-100);
+    scrolldelay = setTimeout('pageScroll()',10);
+    var sTop=document.documentElement.scrollTop+document.body.scrollTop;
+    if(sTop==0) clearTimeout(scrolldelay);
+}
+
+$(document).on("keydown", '#search_btn', function(e){
+    if(e.keyCode == 13) {
+        search();
+    }
+});
+$.getUrlParam = function (name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]); return null;
+}
+
+var _fcode = $.getUrlParam('fcode')
+if(_fcode != null) {
+    $.pdata('fcode', _fcode);
+}
+
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a67b2e336275760df52f9abb3756b665";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script language="javascript">
+    
+    
+    
+    $(function () {
+        $('.index-p-hot').on('mouseover', function () {
+            $(this).find('.hot-menu').css('transform','translate(0%, -100%)');
+        });
+
+        $('.index-p-hot').on('mouseout', function () {
+            $(this).find('.hot-menu').css('transform','translate(0%, 100%)');
+        });
+        $(".rec-project").on('mouseover', function () {
+            $(this).find('.img-scale img').css('transform','scale(1.05)');
+        });
+
+
+        $(".rec-project").on('mouseout', function () {
+            $(this).find('.img-scale img').css('transform','scale(1)');
+        });
+        $(".p-mod").find('li').on('mouseover', function () {
+            $(this).find('.img-scale img').css('transform','scale(1.05)');
+        });
+
+
+        $(".p-mod").find('li').on('mouseout', function () {
+            $(this).find('.img-scale img').css('transform','scale(1)');
+        });
+
+    });
+    $('.circle').each(function(index, el) {
+
+        var num = $(this).find('span').text() * 3.6;
+        if (num <= 180) {
+            $(this).find('.p_right').css('transform', "rotate(" + num + "deg)");
+        } else if(num >360) {
+            $(this).find('.p_right').css('transform', "rotate(180deg)");
+            $(this).find('.p_left').css('transform', "rotate(" + (180) + "deg)");
+
+        } else {
+            $(this).find('.p_right').css('transform', "rotate(180deg)");
+            $(this).find('.p_left').css('transform', "rotate(" + (num - 180) + "deg)");
+        };
+    });
+    var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30,
+            loop: true,
+            autoplay:3000,
+            speed:800
+
+        });
+</script>
+</body>
+</html>

@@ -1,0 +1,2182 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="baidu-site-verification" content="7uCVhIaDKW" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="keywords"
+        content="到位,到家服务,上门服务,北京家政服务,北京上门维修,北京上门按摩,北京保洁,北京搬家,北京家电清洗,北京家电维修,北京管道疏通" />
+    <meta name="description"
+        content="到位是中国领先的O2O上门服务平台，汇聚数万种高品质到家服务。家政保洁，维修安装，上门按摩，搬家拉货，家电清洗，洗衣洗鞋…一站直约，极速上门，全程保障，安全可靠。现已覆盖北京、上海、深圳、广州、杭州等300多个城市。" />
+    <title>到位APP-上门服务大平台,家政保洁,维修安装,按摩美业,搬家拉货-邻家科技官网</title>
+    <link rel="shortcut icon" href="https://www.daoway.cn/images/favicon.png">
+    <link href="https://image.daoway.cn/img/static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://image.daoway.cn/img/static/css/style.css' />
+    <link rel='stylesheet' href='https://image.daoway.cn/img/static/css/footer.css' />
+    <script src="https://image.daoway.cn/img/static/js/jquery.min.js"></script>
+    <script src="https://image.daoway.cn/img/static/js/index.js"></script>
+    
+<header id="header" class="transparent">
+    <div class="sticky-wrapper">
+        <nav class="navbar navbar-default navbar-transparent" role="navigation">
+            <div style="background: #CA3544">
+                <div class="container" style="position:relative; padding-right: 0;">
+                    <div class="collapse navbar-collapse navbar-right" id="main-menu">
+                        <ul class="nav navbar-nav" id="navbar-nav">
+                            <li id="position" style="position:absolute;left:40px">
+                                <a onclick="topagge('position')">
+                                    <img src="https://image.daoway.cn/img/static/img/citypoint2.png" width="16" height="auto"><i id="showCity"
+                                        style="margin-right:5px;color:#fff; font-size: 20px; margin: 0 5px;">
+                                        <i id="manualCity">北京</i>
+                                    </i><i id="city"
+                                        style="color:#F8E7E9; background-color: rgba(255, 255, 255, 0.15); width: 55px; height: 18px; line-height: 18px; display: inline-block; font-size: 10px; border-radius: 2px; text-align: center; vertical-align: middle; font-weight: normal;">切换城市</i>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a onclick="topagge('index')">
+                                    首页
+                                </a>
+                            </li>
+                            <li class="">
+                                <a onclick="topagge('aboutus')">
+                                    关于我们
+                                </a>
+                            </li>
+                            
+                            <li class="">
+                                <a onclick="topagge('information')">商家入驻</a>
+                            </li>
+                            <li class="">
+                                <a onclick="topagge('ruzhu')">技师入驻</a>
+                            </li>
+                            <li id="totxt">
+                                <a>
+                                    接口文档
+                                </a>
+                                <ul class="txtlist">
+                                    <li><a href="https://doc.daoway.cn/docs/business/#/" target="_blank">合作商户接口文档</a>
+                                    </li>
+                                    <li><a href="https://doc.daoway.cn/docs/channel/#/" target="_blank">合作渠道接口文档</a></li>
+                                    <li><a href="https://doc.daoway.cn/docs/open/#/" target="_blank">开放平台接口文档</a></li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a onclick="topagge('downloadAPP')">
+                                    到位APP
+                                </a>
+                            </li>
+                            <li>
+                                <a style="padding: 5px 6px; background-image: linear-gradient(#fff, #F0C7CB); font-size: 16px; color: #CA3544; border-radius: 5px; margin-top: 10px;"
+                                    target="_blank" href="https://www.daoway.cn/dian/">商家登录</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="position: relative; height: 159px;">
+                <div class="navbar-header">
+                    <a class="navbar-brand navbar-brand-img" href="/index">
+                        <img src="https://image.daoway.cn/img/static/img/logo3.png" class="img-responsive logo-white" alt="logo" width="100"
+                            height="auto">
+                        <div style="color: #333333; font-size: 18px; margin-top: 10px;">高品质上门服务直约平台</div>
+                        
+                    </a>
+                </div>
+                <div class="search">
+                    <img src="https://image.daoway.cn/img/static/img/searchicon.png" width="30" height="auto"
+                        style="margin-left: 10px; margin-bottom: 5px;">
+                    <input id="searchInput" type="text" placeholder="输入关键词搜索服务商、服务项目" />
+                    <span class="searchbtn">搜服务</span>
+                </div>
+                <div class="erweimabg">
+                    <div class="erweimabg1">
+                        <img class="triangle1" src="https://image.daoway.cn/img/static/img/top.png" width="14" height="auto">
+                        <img src="https://image.daoway.cn/img/static/img/daoway1.png" width="110px" height="auto"
+                            style="border:1px solid #ccc;position:relative;z-index:1" />
+                        <div id="showall"
+                            style="color: #fff; font-size: 14px; text-align: center; height: 20px; line-height: 22px; cursor: pointer;">
+                            旗下所有APP<img style="margin-left: 5px;" src="https://image.daoway.cn/img/static/img/sanjiao.png" width="8" height="auto">
+                        </div>
+                    </div>
+                    <div class="erweimabg2" style="display: none;">
+                        <img class="triangle2" src="https://image.daoway.cn/img/static/img/top.png" width="14" height="auto">
+                        <dl style="border-radius: 2px 2px 0 0;">
+                            <dt><img src="https://image.daoway.cn/img/static/img/daoway1.png" width="80" height="auto"></dt>
+                            <dd>
+                                <p class="p1">到位APP</p>
+                                <p class="p2">注册送50元礼包</p>
+                                <p class="p3"><img src="https://image.daoway.cn/img/static/img/and2.png" width="24" height="auto"><img
+                                        src="https://image.daoway.cn/img/static/img/ios.png" width="24" height="auto"></p>
+                            </dd>
+                        </dl>
+                        <dl style="border-radius: 2px 2px 0 0;">
+                            <dt><img src="https://image.daoway.cn/img/static/img/daoway2.png" width="80" height="auto"></dt>
+                            <dd>
+                                <p class="p1">到位商家版</p>
+                                <p class="p2">快速入驻开店</p>
+                                <p class="p3"><img src="https://image.daoway.cn/img/static/img/and2.png" width="24" height="auto"><img
+                                        src="https://image.daoway.cn/img/static/img/ios.png" width="24" height="auto"></p>
+                            </dd>
+                        </dl>
+                        <dl style="border-radius: 2px 2px 0 0;">
+                            <dt><img src="https://image.daoway.cn/img/static/img/daoway3.png" width="80" height="auto"></dt>
+                            <dd>
+                                <p class="p1">上单APP</p>
+                                <p class="p2">技师注册接单</p>
+                                <p class="p3"><img src="https://image.daoway.cn/img/static/img/and2.png" width="24" height="auto"><img
+                                        src="https://image.daoway.cn/img/static/img/ios.png" width="24" height="auto"></p>
+                            </dd>
+                        </dl>
+                        
+                    </div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<script type="text/javascript">
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    $(document).on('mouseover', '#totxt', function () {
+        var _this = $(this);
+        _this.find('ul').show();
+    });
+    $(document).on('mouseout', '.txtlist,#totxt', function () {
+        var _this = $(this);
+        $('.txtlist').hide();
+    });
+    function topagge(page) {
+        var url = '';
+        var locl = window.location.href;
+        var page = '/' + page;
+        if (page == '/position') {
+            page += '?pages=' + encodeURIComponent(locl);
+        }
+        window.location.href = page;
+    }
+    $(document).on('click', '#showall', function () {
+        var _this = $(this);
+        $(".erweimabg2").show().addClass('block');
+        $(".erweimabg1").hide()
+        $('.erweimabg').css({ 'right': '10px' })
+    })
+    $(document).on('click', 'body', function (e) {
+        if (e.target.id != 'showall') {
+            var has = $(".erweimabg2").attr('class');
+            if (has.indexOf('block') > -1) {
+                
+                $(".erweimabg2").hide();
+                $(".erweimabg1").show();
+                $('.erweimabg').css({ 'right': '86px' })
+            }
+        }
+    })
+
+    $(document).on("click", ".searchbtn", function () {
+        var value = $("#searchInput").val();
+        if (value) {
+           
+           window.location.href = "/searchfuwu?text=" + value;
+        }
+    });
+    $("input").keyup(function (e) {
+        var code = e.keyCode || e.charCode;
+        if (code === 13) {
+            var value = $("#searchInput").val();
+            if (value) {
+                
+                window.location.href = "/searchfuwu?text=" + value;
+            }
+        }
+    });
+
+</script>
+
+    <script>
+        if (/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (
+            /daoway|MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/
+        ).test(navigator.userAgent)) {
+            window.location.href = "https://www.daoway.cn/newh5/";
+        }
+         
+    </script>
+</head>
+
+<body style="background: #f8f8f8">
+    <div id="carousel-example-generic" class="carousel slide" style="background:#fff">
+        <div class="flicker-example">
+            <div class="full_banner">
+                <div class="bd">
+                    <ul>
+                        <li style="background:url('https://image.daoway.cn/img/static/img/banner4.jpg')center no-repeat;"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner-nav">
+                <div style="width: 180px; position: absolute; left: -500px;top:-302px">
+                    <ul>
+                        
+                        <li class="navname" style="position: relative"><a
+                                style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0"
+                                href="/fuwu??category=20&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81" target="_blank"></a><i>
+                                家庭保洁
+                            </i><img src="https://image.daoway.cn/img/static/img/right.png" width="6" height="11" style="margin-left: 20px;">
+                            <ul style="display: none;">
+                                
+                                
+                                <li><a title="日常保洁"
+                                        href="/fuwu?category=20&sub_category=%e6%97%a5%e5%b8%b8%e4%bf%9d%e6%b4%81&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81"
+                                        target="_blank">
+                                        日常保洁
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="深度保洁"
+                                        href="/fuwu?category=20&sub_category=%e6%b7%b1%e5%ba%a6%e4%bf%9d%e6%b4%81&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81"
+                                        target="_blank">
+                                        深度保洁
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="开荒保洁"
+                                        href="/fuwu?category=20&sub_category=%e5%bc%80%e8%8d%92%e4%bf%9d%e6%b4%81&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81"
+                                        target="_blank">
+                                        开荒保洁
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="擦玻璃"
+                                        href="/fuwu?category=20&sub_category=%e6%93%a6%e7%8e%bb%e7%92%83&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81"
+                                        target="_blank">
+                                        擦玻璃
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="家电清洗"
+                                        href="/fuwu?category=20&sub_category=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81"
+                                        target="_blank">
+                                        家电清洗
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="家居养护"
+                                        href="/fuwu?category=20&sub_category=%e5%ae%b6%e5%b1%85%e5%85%bb%e6%8a%a4&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81"
+                                        target="_blank">
+                                        家居养护
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="收纳整理"
+                                        href="/fuwu?category=20&sub_category=%e6%94%b6%e7%ba%b3%e6%95%b4%e7%90%86&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81"
+                                        target="_blank">
+                                        收纳整理
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="杀虫消毒"
+                                        href="/fuwu?category=20&sub_category=%e6%9d%80%e8%99%ab%e6%b6%88%e6%af%92&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81"
+                                        target="_blank">
+                                        杀虫消毒
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="除甲醛"
+                                        href="/fuwu?category=20&sub_category=%e9%99%a4%e7%94%b2%e9%86%9b&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81"
+                                        target="_blank">
+                                        除甲醛
+                                    </a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        <li class="navname" style="position: relative"><a
+                                style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0"
+                                href="/fuwu??category=36&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae" target="_blank"></a><i>
+                                上门维修
+                            </i><img src="https://image.daoway.cn/img/static/img/right.png" width="6" height="11" style="margin-left: 20px;">
+                            <ul style="display: none;">
+                                
+                                
+                                <li><a title="房屋维修"
+                                        href="/fuwu?category=36&sub_category=%e6%88%bf%e5%b1%8b%e7%bb%b4%e4%bf%ae&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae"
+                                        target="_blank">
+                                        房屋维修
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="家电维修"
+                                        href="/fuwu?category=36&sub_category=%e5%ae%b6%e7%94%b5%e7%bb%b4%e4%bf%ae&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae"
+                                        target="_blank">
+                                        家电维修
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="管道疏通"
+                                        href="/fuwu?category=36&sub_category=%e7%ae%a1%e9%81%93%e7%96%8f%e9%80%9a&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae"
+                                        target="_blank">
+                                        管道疏通
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="开锁换锁"
+                                        href="/fuwu?category=36&sub_category=%e5%bc%80%e9%94%81%e6%8d%a2%e9%94%81&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae"
+                                        target="_blank">
+                                        开锁换锁
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="电脑维修"
+                                        href="/fuwu?category=36&sub_category=%e7%94%b5%e8%84%91%e7%bb%b4%e4%bf%ae&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae"
+                                        target="_blank">
+                                        电脑维修
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="手机维修"
+                                        href="/fuwu?category=36&sub_category=%e6%89%8b%e6%9c%ba%e7%bb%b4%e4%bf%ae&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae"
+                                        target="_blank">
+                                        手机维修
+                                    </a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        <li class="navname" style="position: relative"><a
+                                style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0"
+                                href="/fuwu??category=22&category_view=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9" target="_blank"></a><i>
+                                上门按摩
+                            </i><img src="https://image.daoway.cn/img/static/img/right.png" width="6" height="11" style="margin-left: 20px;">
+                            <ul style="display: none;">
+                                
+                                
+                                <li><a title="中式推拿"
+                                        href="/fuwu?category=22&sub_category=%e4%b8%ad%e5%bc%8f%e6%8e%a8%e6%8b%bf&category_view=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9"
+                                        target="_blank">
+                                        中式推拿
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="油压SPA"
+                                        href="/fuwu?category=22&sub_category=%e6%b2%b9%e5%8e%8bSPA&category_view=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9"
+                                        target="_blank">
+                                        油压SPA
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="局部理疗"
+                                        href="/fuwu?category=22&sub_category=%e5%b1%80%e9%83%a8%e7%90%86%e7%96%97&category_view=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9"
+                                        target="_blank">
+                                        局部理疗
+                                    </a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        <li class="navname" style="position: relative"><a
+                                style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0"
+                                href="/fuwu??category=26&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4" target="_blank"></a><i>
+                                衣物洗护
+                            </i><img src="https://image.daoway.cn/img/static/img/right.png" width="6" height="11" style="margin-left: 20px;">
+                            <ul style="display: none;">
+                                
+                                
+                                <li><a title="洗衣"
+                                        href="/fuwu?category=26&sub_category=%e6%b4%97%e8%a1%a3&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4"
+                                        target="_blank">
+                                        洗衣
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="洗鞋修鞋"
+                                        href="/fuwu?category=26&sub_category=%e6%b4%97%e9%9e%8b%e4%bf%ae%e9%9e%8b&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4"
+                                        target="_blank">
+                                        洗鞋修鞋
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="家纺清洗"
+                                        href="/fuwu?category=26&sub_category=%e5%ae%b6%e7%ba%ba%e6%b8%85%e6%b4%97&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4"
+                                        target="_blank">
+                                        家纺清洗
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="箱包洗护"
+                                        href="/fuwu?category=26&sub_category=%e7%ae%b1%e5%8c%85%e6%b4%97%e6%8a%a4&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4"
+                                        target="_blank">
+                                        箱包洗护
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="裁缝改衣"
+                                        href="/fuwu?category=26&sub_category=%e8%a3%81%e7%bc%9d%e6%94%b9%e8%a1%a3&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4"
+                                        target="_blank">
+                                        裁缝改衣
+                                    </a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        <li class="navname" style="position: relative"><a
+                                style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0"
+                                href="/fuwu??category=35&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7" target="_blank"></a><i>
+                                搬家拉货
+                            </i><img src="https://image.daoway.cn/img/static/img/right.png" width="6" height="11" style="margin-left: 20px;">
+                            <ul style="display: none;">
+                                
+                                
+                                <li><a title="搬家专车"
+                                        href="/fuwu?category=35&sub_category=%e6%90%ac%e5%ae%b6%e4%b8%93%e8%bd%a6&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7"
+                                        target="_blank">
+                                        搬家专车
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="运输拉货"
+                                        href="/fuwu?category=35&sub_category=%e8%bf%90%e8%be%93%e6%8b%89%e8%b4%a7&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7"
+                                        target="_blank">
+                                        运输拉货
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="拆装搬运"
+                                        href="/fuwu?category=35&sub_category=%e6%8b%86%e8%a3%85%e6%90%ac%e8%bf%90&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7"
+                                        target="_blank">
+                                        拆装搬运
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="日式搬家"
+                                        href="/fuwu?category=35&sub_category=%e6%97%a5%e5%bc%8f%e6%90%ac%e5%ae%b6&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7"
+                                        target="_blank">
+                                        日式搬家
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="仓储寄存"
+                                        href="/fuwu?category=35&sub_category=%e4%bb%93%e5%82%a8%e5%af%84%e5%ad%98&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7"
+                                        target="_blank">
+                                        仓储寄存
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="企业搬迁"
+                                        href="/fuwu?category=35&sub_category=%e4%bc%81%e4%b8%9a%e6%90%ac%e8%bf%81&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7"
+                                        target="_blank">
+                                        企业搬迁
+                                    </a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        <li class="navname" style="position: relative"><a
+                                style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0"
+                                href="/fuwu??category=21&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97" target="_blank"></a><i>
+                                家电清洗
+                            </i><img src="https://image.daoway.cn/img/static/img/right.png" width="6" height="11" style="margin-left: 20px;">
+                            <ul style="display: none;">
+                                
+                                
+                                <li><a title="空调清洗"
+                                        href="/fuwu?category=21&sub_category=%e7%a9%ba%e8%b0%83%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97"
+                                        target="_blank">
+                                        空调清洗
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="油烟机清洗"
+                                        href="/fuwu?category=21&sub_category=%e6%b2%b9%e7%83%9f%e6%9c%ba%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97"
+                                        target="_blank">
+                                        油烟机清洗
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="洗衣机清洗"
+                                        href="/fuwu?category=21&sub_category=%e6%b4%97%e8%a1%a3%e6%9c%ba%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97"
+                                        target="_blank">
+                                        洗衣机清洗
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="冰箱清洗"
+                                        href="/fuwu?category=21&sub_category=%e5%86%b0%e7%ae%b1%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97"
+                                        target="_blank">
+                                        冰箱清洗
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="热水器清洗"
+                                        href="/fuwu?category=21&sub_category=%e7%83%ad%e6%b0%b4%e5%99%a8%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97"
+                                        target="_blank">
+                                        热水器清洗
+                                    </a></li>
+                                
+                                
+                                
+                                <li class="gray"><img src="https://image.daoway.cn/img/static/img/icon1.png" width="7" height="14">
+                                    燃气灶清洗
+                                </li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        <li class="navname" style="position: relative"><a
+                                style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0"
+                                href="/fuwu??category=150&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85" target="_blank"></a><i>
+                                上门安装
+                            </i><img src="https://image.daoway.cn/img/static/img/right.png" width="6" height="11" style="margin-left: 20px;">
+                            <ul style="display: none;">
+                                
+                                
+                                <li><a title="家电安装"
+                                        href="/fuwu?category=150&sub_category=%e5%ae%b6%e7%94%b5%e5%ae%89%e8%a3%85&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85"
+                                        target="_blank">
+                                        家电安装
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="家具安装"
+                                        href="/fuwu?category=150&sub_category=%e5%ae%b6%e5%85%b7%e5%ae%89%e8%a3%85&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85"
+                                        target="_blank">
+                                        家具安装
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="挂件安装"
+                                        href="/fuwu?category=150&sub_category=%e6%8c%82%e4%bb%b6%e5%ae%89%e8%a3%85&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85"
+                                        target="_blank">
+                                        挂件安装
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="灯具安装"
+                                        href="/fuwu?category=150&sub_category=%e7%81%af%e5%85%b7%e5%ae%89%e8%a3%85&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85"
+                                        target="_blank">
+                                        灯具安装
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="洁具安装"
+                                        href="/fuwu?category=150&sub_category=%e6%b4%81%e5%85%b7%e5%ae%89%e8%a3%85&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85"
+                                        target="_blank">
+                                        洁具安装
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="安装打孔"
+                                        href="/fuwu?category=150&sub_category=%e5%ae%89%e8%a3%85%e6%89%93%e5%ad%94&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85"
+                                        target="_blank">
+                                        安装打孔
+                                    </a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        <li class="navname" style="position: relative"><a
+                                style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0"
+                                href="/fuwu??category=110&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a" target="_blank"></a><i>
+                                上门美业
+                            </i><img src="https://image.daoway.cn/img/static/img/right.png" width="6" height="11" style="margin-left: 20px;">
+                            <ul style="display: none;">
+                                
+                                
+                                <li><a title="上门美甲"
+                                        href="/fuwu?category=110&sub_category=%e4%b8%8a%e9%97%a8%e7%be%8e%e7%94%b2&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a"
+                                        target="_blank">
+                                        上门美甲
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="上门美睫"
+                                        href="/fuwu?category=110&sub_category=%e4%b8%8a%e9%97%a8%e7%be%8e%e7%9d%ab&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a"
+                                        target="_blank">
+                                        上门美睫
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="上门美容"
+                                        href="/fuwu?category=110&sub_category=%e4%b8%8a%e9%97%a8%e7%be%8e%e5%ae%b9&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a"
+                                        target="_blank">
+                                        上门美容
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="化妆造型"
+                                        href="/fuwu?category=110&sub_category=%e5%8c%96%e5%a6%86%e9%80%a0%e5%9e%8b&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a"
+                                        target="_blank">
+                                        化妆造型
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="健身私教"
+                                        href="/fuwu?category=110&sub_category=%e5%81%a5%e8%ba%ab%e7%a7%81%e6%95%99&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a"
+                                        target="_blank">
+                                        健身私教
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="产后修复"
+                                        href="/fuwu?category=110&sub_category=%e4%ba%a7%e5%90%8e%e4%bf%ae%e5%a4%8d&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a"
+                                        target="_blank">
+                                        产后修复
+                                    </a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        <li class="navname" style="position: relative"><a
+                                style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0"
+                                href="/fuwu??category=70&category_view=%e4%bf%9d%e5%a7%86%e6%9c%88%e5%ab%82" target="_blank"></a><i>
+                                保姆月嫂
+                            </i><img src="https://image.daoway.cn/img/static/img/right.png" width="6" height="11" style="margin-left: 20px;">
+                            <ul style="display: none;">
+                                
+                                
+                                <li><a title="家务保姆"
+                                        href="/fuwu?category=70&sub_category=%e5%ae%b6%e5%8a%a1%e4%bf%9d%e5%a7%86&category_view=%e4%bf%9d%e5%a7%86%e6%9c%88%e5%ab%82"
+                                        target="_blank">
+                                        家务保姆
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="月嫂"
+                                        href="/fuwu?category=70&sub_category=%e6%9c%88%e5%ab%82&category_view=%e4%bf%9d%e5%a7%86%e6%9c%88%e5%ab%82"
+                                        target="_blank">
+                                        月嫂
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="育儿嫂"
+                                        href="/fuwu?category=70&sub_category=%e8%82%b2%e5%84%bf%e5%ab%82&category_view=%e4%bf%9d%e5%a7%86%e6%9c%88%e5%ab%82"
+                                        target="_blank">
+                                        育儿嫂
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="护老保姆"
+                                        href="/fuwu?category=70&sub_category=%e6%8a%a4%e8%80%81%e4%bf%9d%e5%a7%86&category_view=%e4%bf%9d%e5%a7%86%e6%9c%88%e5%ab%82"
+                                        target="_blank">
+                                        护老保姆
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="做饭阿姨"
+                                        href="/fuwu?category=70&sub_category=%e5%81%9a%e9%a5%ad%e9%98%bf%e5%a7%a8&category_view=%e4%bf%9d%e5%a7%86%e6%9c%88%e5%ab%82"
+                                        target="_blank">
+                                        做饭阿姨
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="包月小时工"
+                                        href="/fuwu?category=70&sub_category=%e5%8c%85%e6%9c%88%e5%b0%8f%e6%97%b6%e5%b7%a5&category_view=%e4%bf%9d%e5%a7%86%e6%9c%88%e5%ab%82"
+                                        target="_blank">
+                                        包月小时工
+                                    </a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                        <li class="navname" style="position: relative"><a
+                                style="position: absolute;display: block; width: 100%; height: 100%; top: 0; left: 0"
+                                href="/fuwu??category=80&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86" target="_blank"></a><i>
+                                康养护理
+                            </i><img src="https://image.daoway.cn/img/static/img/right.png" width="6" height="11" style="margin-left: 20px;">
+                            <ul style="display: none;">
+                                
+                                
+                                <li><a title="护士上门"
+                                        href="/fuwu?category=80&sub_category=%e6%8a%a4%e5%a3%ab%e4%b8%8a%e9%97%a8&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86"
+                                        target="_blank">
+                                        护士上门
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="居家照护"
+                                        href="/fuwu?category=80&sub_category=%e5%b1%85%e5%ae%b6%e7%85%a7%e6%8a%a4&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86"
+                                        target="_blank">
+                                        居家照护
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="住院陪护"
+                                        href="/fuwu?category=80&sub_category=%e4%bd%8f%e9%99%a2%e9%99%aa%e6%8a%a4&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86"
+                                        target="_blank">
+                                        住院陪护
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="养老护理"
+                                        href="/fuwu?category=80&sub_category=%e5%85%bb%e8%80%81%e6%8a%a4%e7%90%86&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86"
+                                        target="_blank">
+                                        养老护理
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="康复护理"
+                                        href="/fuwu?category=80&sub_category=%e5%ba%b7%e5%a4%8d%e6%8a%a4%e7%90%86&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86"
+                                        target="_blank">
+                                        康复护理
+                                    </a></li>
+                                
+                                
+                                
+                                <li><a title="就医陪诊"
+                                        href="/fuwu?category=80&sub_category=%e5%b0%b1%e5%8c%bb%e9%99%aa%e8%af%8a&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86"
+                                        target="_blank">
+                                        就医陪诊
+                                    </a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="box1">
+        <div class="fff">
+            <div class="servicebody">
+                <div class="navigation"><span class="serviceIndex">
+                        家庭保洁
+                    </span>
+                    <span class="serviceType">
+                        
+                        <a title="日常保洁"
+                            href="/fuwu?category=20&sub_category=%e6%97%a5%e5%b8%b8%e4%bf%9d%e6%b4%81&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">日常保洁
+                        </a>
+                        
+                        <a title="深度保洁"
+                            href="/fuwu?category=20&sub_category=%e6%b7%b1%e5%ba%a6%e4%bf%9d%e6%b4%81&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">深度保洁
+                        </a>
+                        
+                        <a title="开荒保洁"
+                            href="/fuwu?category=20&sub_category=%e5%bc%80%e8%8d%92%e4%bf%9d%e6%b4%81&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">开荒保洁
+                        </a>
+                        
+                        <a title="擦玻璃"
+                            href="/fuwu?category=20&sub_category=%e6%93%a6%e7%8e%bb%e7%92%83&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">擦玻璃
+                        </a>
+                        
+                        <a title="家电清洗"
+                            href="/fuwu?category=20&sub_category=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">家电清洗
+                        </a>
+                        
+                        <a title="家居养护"
+                            href="/fuwu?category=20&sub_category=%e5%ae%b6%e5%b1%85%e5%85%bb%e6%8a%a4&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">家居养护
+                        </a>
+                        
+                        <a title="收纳整理"
+                            href="/fuwu?category=20&sub_category=%e6%94%b6%e7%ba%b3%e6%95%b4%e7%90%86&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">收纳整理
+                        </a>
+                        
+                        <a title="杀虫消毒"
+                            href="/fuwu?category=20&sub_category=%e6%9d%80%e8%99%ab%e6%b6%88%e6%af%92&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">杀虫消毒
+                        </a>
+                        
+                        <a title="除甲醛"
+                            href="/fuwu?category=20&sub_category=%e9%99%a4%e7%94%b2%e9%86%9b&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">除甲醛
+                        </a>
+                        
+                    </span>
+                </div>
+                <div class="servicetags">
+                    <div class="tagsListHeader"><span class="lookMore"><a
+                                href="/fuwu?category=20&category_view=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81"
+                                style="font-size: 18px">更多服务<img
+                                    style="margin-left:5px; position: relative; bottom:2px;"
+                                    src="https://image.daoway.cn/img/static/img/toright.jpg" width="7" height="auto"></a></span>
+                    </div>
+                    <div class="row">
+                        
+                        <a class="form-group shopList" title="日常保洁"
+                            href="/detail?detailId=2581706&CNtag=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/01/03/2581706_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    日常保洁
+                                </div>
+                                <div class="description">
+                                    保洁师带基础清洁工具上门，不带吸尘器等特殊工具 服务内容：
+1. 参考时长：房屋...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        98
+                                    </span>
+                                    元/2小时<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="深度保洁"
+                            href="/detail?detailId=2654032&CNtag=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/02/18/2654032_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    深度保洁
+                                </div>
+                                <div class="description">
+                                    保洁师携带专业清洁工具上门，全屋深度清洁；
+适合长时间未彻底打扫的住宅，让家洁净...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        188
+                                    </span>
+                                    元/3小时<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="擦玻璃"
+                            href="/detail?detailId=2675000&CNtag=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/02/18/2675000_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    擦玻璃
+                                </div>
+                                <div class="description">
+                                    保洁师携专业清洁工具上门，内外双面精细擦窗 服务内容：
+室内外玻璃双面清洁，10...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        13
+                                    </span>
+                                    元/平米<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="开荒保洁"
+                            href="/detail?detailId=2570768&CNtag=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/01/03/2570768_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    开荒保洁
+                                </div>
+                                <div class="description">
+                                    保洁师带专业清洁工具上门，清除装修痕迹&#43;全屋深度清洁&#43;擦玻璃；
+适用于装修后未入...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        6.5
+                                    </span>
+                                    元/平米<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="全屋保洁&#43;擦玻璃"
+                            href="/detail?detailId=2655251&CNtag=%e5%ae%b6%e5%ba%ad%e4%bf%9d%e6%b4%81">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/02/18/2655251_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    全屋保洁&#43;擦玻璃
+                                </div>
+                                <div class="description">
+                                    保洁师带专业清洁工具上门，日常保洁&#43;双面精细擦玻璃 如有以下需求请在备注中说明：...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        178
+                                    </span>
+                                    元/3小时<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="box1">
+        <div class="fff">
+            <div class="servicebody">
+                <div class="navigation"><span class="serviceIndex">
+                        上门按摩
+                    </span>
+                    <span class="serviceType">
+                        
+                        <a title="中式推拿"
+                            href="/fuwu?category=22&sub_category=%e4%b8%ad%e5%bc%8f%e6%8e%a8%e6%8b%bf&category_view=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9">中式推拿
+                        </a>
+                        
+                        <a title="油压SPA"
+                            href="/fuwu?category=22&sub_category=%e6%b2%b9%e5%8e%8bSPA&category_view=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9">油压SPA
+                        </a>
+                        
+                        <a title="局部理疗"
+                            href="/fuwu?category=22&sub_category=%e5%b1%80%e9%83%a8%e7%90%86%e7%96%97&category_view=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9">局部理疗
+                        </a>
+                        
+                    </span>
+                </div>
+                <div class="servicetags">
+                    <div class="tagsListHeader"><span class="lookMore"><a
+                                href="/fuwu?category=22&category_view=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9"
+                                style="font-size: 18px">更多服务<img
+                                    style="margin-left:5px; position: relative; bottom:2px;"
+                                    src="https://image.daoway.cn/img/static/img/toright.jpg" width="7" height="auto"></a></span>
+                    </div>
+                    <div class="row">
+                        
+                        <a class="form-group shopList" title="全身推拿"
+                            href="/detail?detailId=2574959&CNtag=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/02/18/2574959_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    全身推拿
+                                </div>
+                                <div class="description">
+                                    服务时长：70分钟 理疗流程：
+仰/俯卧位(头部、肩颈、腹部、腰背、四肢按摩) ...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        218
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="芳香精油SPA"
+                            href="/detail?detailId=2660026&CNtag=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/02/18/2660026_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    芳香精油SPA
+                                </div>
+                                <div class="description">
+                                    服务时长：70分钟 理疗流程：仰/俯卧位(肩颈、腹部、腰背、四肢按摩) 功效及适...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        268
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="中式推拿 随缘特惠"
+                            href="/detail?detailId=2673687&CNtag=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/12/25/2673687_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    中式推拿 随缘特惠
+                                </div>
+                                <div class="description">
+                                    服务时长：60分钟 理疗流程：
+仰/俯卧位(头部、肩颈、腹部、腰背、四肢按摩) ...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        168
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="精油开背 随缘特惠"
+                            href="/detail?detailId=2689608&CNtag=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2026/06/03/2689608_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    精油开背 随缘特惠
+                                </div>
+                                <div class="description">
+                                    服务时长：60分钟 理疗流程：仰/俯卧位(肩颈、腹部、腰背按摩) 功效及适宜人群...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        198
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="泰式SPA"
+                            href="/detail?detailId=2577328&CNtag=%e4%b8%8a%e9%97%a8%e6%8c%89%e6%91%a9">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/12/31/2577328_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    泰式SPA
+                                </div>
+                                <div class="description">
+                                    服务时长：90分钟 服务流程：
+1.肩颈腰及四肢按摩 2.全身拉伸放松
+3.头部...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        368
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="box1">
+        <div class="fff">
+            <div class="servicebody">
+                <div class="navigation"><span class="serviceIndex">
+                        上门维修
+                    </span>
+                    <span class="serviceType">
+                        
+                        <a title="房屋维修"
+                            href="/fuwu?category=36&sub_category=%e6%88%bf%e5%b1%8b%e7%bb%b4%e4%bf%ae&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae">房屋维修
+                        </a>
+                        
+                        <a title="家电维修"
+                            href="/fuwu?category=36&sub_category=%e5%ae%b6%e7%94%b5%e7%bb%b4%e4%bf%ae&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae">家电维修
+                        </a>
+                        
+                        <a title="管道疏通"
+                            href="/fuwu?category=36&sub_category=%e7%ae%a1%e9%81%93%e7%96%8f%e9%80%9a&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae">管道疏通
+                        </a>
+                        
+                        <a title="开锁换锁"
+                            href="/fuwu?category=36&sub_category=%e5%bc%80%e9%94%81%e6%8d%a2%e9%94%81&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae">开锁换锁
+                        </a>
+                        
+                        <a title="电脑维修"
+                            href="/fuwu?category=36&sub_category=%e7%94%b5%e8%84%91%e7%bb%b4%e4%bf%ae&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae">电脑维修
+                        </a>
+                        
+                        <a title="手机维修"
+                            href="/fuwu?category=36&sub_category=%e6%89%8b%e6%9c%ba%e7%bb%b4%e4%bf%ae&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae">手机维修
+                        </a>
+                        
+                    </span>
+                </div>
+                <div class="servicetags">
+                    <div class="tagsListHeader"><span class="lookMore"><a
+                                href="/fuwu?category=36&category_view=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae"
+                                style="font-size: 18px">更多服务<img
+                                    style="margin-left:5px; position: relative; bottom:2px;"
+                                    src="https://image.daoway.cn/img/static/img/toright.jpg" width="7" height="auto"></a></span>
+                    </div>
+                    <div class="row">
+                        
+                        <a class="form-group shopList" title="空调维修"
+                            href="/detail?detailId=2677976&CNtag=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/09/17/2677976_thumb.jpg?v=1758098733703"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    空调维修
+                                </div>
+                                <div class="description">
+                                    此项目标价为上门费&#43;维修费。若师傅上门后，用户放弃维修，仅收取30元上门费，余款...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        129
+                                    </span>
+                                    元/台<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="家电维修"
+                            href="/detail?detailId=2677977&CNtag=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/09/17/2677977_thumb.jpg?v=1758097875355"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    家电维修
+                                </div>
+                                <div class="description">
+                                    此项目标价为上门费&#43;维修费。若师傅上门后，用户放弃维修，仅收取30元上门费，余款...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        129
+                                    </span>
+                                    元/台<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="管道疏通"
+                            href="/detail?detailId=2560298&CNtag=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/09/17/2560298_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    管道疏通
+                                </div>
+                                <div class="description">
+                                    省心一口价，不通不收费，多收包退。 # 收费标准：
+1. ==**服务收费=疏通...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        138
+                                    </span>
+                                    元/洞<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="开锁换锁"
+                            href="/detail?detailId=2560486&CNtag=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/09/17/2560486_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    开锁换锁
+                                </div>
+                                <div class="description">
+                                    开门锁/窗户锁/柜门锁/抽屉锁等锁具，此服务不含配件及更换锁具服务；如需更换锁芯...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        99
+                                    </span>
+                                    元/把<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="锁具安装"
+                            href="/detail?detailId=2654129&CNtag=%e4%b8%8a%e9%97%a8%e7%bb%b4%e4%bf%ae">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/08/19/2654129_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    锁具安装
+                                </div>
+                                <div class="description">
+                                    整套室内门锁/防盗门锁/智能锁安装，含原锁具拆除服务、新锁具安装，不含配件及开锁...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        120
+                                    </span>
+                                    元/把<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="box1">
+        <div class="fff">
+            <div class="servicebody">
+                <div class="navigation"><span class="serviceIndex">
+                        衣物洗护
+                    </span>
+                    <span class="serviceType">
+                        
+                        <a title="洗衣"
+                            href="/fuwu?category=26&sub_category=%e6%b4%97%e8%a1%a3&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4">洗衣
+                        </a>
+                        
+                        <a title="洗鞋修鞋"
+                            href="/fuwu?category=26&sub_category=%e6%b4%97%e9%9e%8b%e4%bf%ae%e9%9e%8b&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4">洗鞋修鞋
+                        </a>
+                        
+                        <a title="家纺清洗"
+                            href="/fuwu?category=26&sub_category=%e5%ae%b6%e7%ba%ba%e6%b8%85%e6%b4%97&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4">家纺清洗
+                        </a>
+                        
+                        <a title="箱包洗护"
+                            href="/fuwu?category=26&sub_category=%e7%ae%b1%e5%8c%85%e6%b4%97%e6%8a%a4&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4">箱包洗护
+                        </a>
+                        
+                        <a title="裁缝改衣"
+                            href="/fuwu?category=26&sub_category=%e8%a3%81%e7%bc%9d%e6%94%b9%e8%a1%a3&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4">裁缝改衣
+                        </a>
+                        
+                    </span>
+                </div>
+                <div class="servicetags">
+                    <div class="tagsListHeader"><span class="lookMore"><a
+                                href="/fuwu?category=26&category_view=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4"
+                                style="font-size: 18px">更多服务<img
+                                    style="margin-left:5px; position: relative; bottom:2px;"
+                                    src="https://image.daoway.cn/img/static/img/toright.jpg" width="7" height="auto"></a></span>
+                    </div>
+                    <div class="row">
+                        
+                        <a class="form-group shopList" title="普通鞋类随心洗"
+                            href="/detail?detailId=2604424&CNtag=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2022/12/27/2604424_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    普通鞋类随心洗
+                                </div>
+                                <div class="description">
+                                    低帮不过脚踝运动鞋5双套餐；例；运动鞋，帆布鞋，休闲鞋，光面皮鞋
+注；（本项目不...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        80
+                                    </span>
+                                    元/5双<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="羽绒服/大衣/运动鞋类"
+                            href="/detail?detailId=2668235&CNtag=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2023/03/30/2668235_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    羽绒服/大衣/运动鞋类
+                                </div>
+                                <div class="description">
+                                    【洗护流程】:
+客户线上下单 → 顺丰/京东取衣 → 中央洗护工厂洗护 → 顺丰...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        39
+                                    </span>
+                                    元/件<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="衣~鞋3件随心洗"
+                            href="/detail?detailId=2604448&CNtag=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/12/02/2604448_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    衣~鞋3件随心洗
+                                </div>
+                                <div class="description">
+                                    鞋衣3件洗护套餐；鞋衣随心组合；衣物种类；例；羽绒服，毛呢大衣，西服，外套，羊毛...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        69
+                                    </span>
+                                    元/3件<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="鞋类清洗"
+                            href="/detail?detailId=2668234&CNtag=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2023/11/08/2668234_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    鞋类清洗
+                                </div>
+                                <div class="description">
+                                    【洗护流程】:
+客户线上下单 → 顺丰/京东取衣 → 中央洗护工厂洗护 → 顺丰...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        29
+                                    </span>
+                                    元/双<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="羽绒被、蚕丝被 洗护"
+                            href="/detail?detailId=2668479&CNtag=%e8%a1%a3%e7%89%a9%e6%b4%97%e6%8a%a4">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2022/11/11/eed6ef81-12ba-4b51-bb27-10aafbbb7635_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    羽绒被、蚕丝被 洗护
+                                </div>
+                                <div class="description">
+                                    【洗护流程】:
+客户线上下单 → 顺丰取衣 → 中央洗护工厂洗护 → 顺丰送衣
+...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        79
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="box1">
+        <div class="fff">
+            <div class="servicebody">
+                <div class="navigation"><span class="serviceIndex">
+                        搬家拉货
+                    </span>
+                    <span class="serviceType">
+                        
+                        <a title="搬家专车"
+                            href="/fuwu?category=35&sub_category=%e6%90%ac%e5%ae%b6%e4%b8%93%e8%bd%a6&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7">搬家专车
+                        </a>
+                        
+                        <a title="运输拉货"
+                            href="/fuwu?category=35&sub_category=%e8%bf%90%e8%be%93%e6%8b%89%e8%b4%a7&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7">运输拉货
+                        </a>
+                        
+                        <a title="拆装搬运"
+                            href="/fuwu?category=35&sub_category=%e6%8b%86%e8%a3%85%e6%90%ac%e8%bf%90&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7">拆装搬运
+                        </a>
+                        
+                        <a title="日式搬家"
+                            href="/fuwu?category=35&sub_category=%e6%97%a5%e5%bc%8f%e6%90%ac%e5%ae%b6&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7">日式搬家
+                        </a>
+                        
+                        <a title="仓储寄存"
+                            href="/fuwu?category=35&sub_category=%e4%bb%93%e5%82%a8%e5%af%84%e5%ad%98&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7">仓储寄存
+                        </a>
+                        
+                        <a title="企业搬迁"
+                            href="/fuwu?category=35&sub_category=%e4%bc%81%e4%b8%9a%e6%90%ac%e8%bf%81&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7">企业搬迁
+                        </a>
+                        
+                    </span>
+                </div>
+                <div class="servicetags">
+                    <div class="tagsListHeader"><span class="lookMore"><a
+                                href="/fuwu?category=35&category_view=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7"
+                                style="font-size: 18px">更多服务<img
+                                    style="margin-left:5px; position: relative; bottom:2px;"
+                                    src="https://image.daoway.cn/img/static/img/toright.jpg" width="7" height="auto"></a></span>
+                    </div>
+                    <div class="row">
+                        
+                        <a class="form-group shopList" title="搬运小时工"
+                            href="/detail?detailId=2667649&CNtag=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/08/29/2667649_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    搬运小时工
+                                </div>
+                                <div class="description">
+                                    重物搬运/拆装/力工，适用于近距离只用人不用车的搬运/拆装服务，或找货拉拉等车辆...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        99
+                                    </span>
+                                    元/小时<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="厢货搬家2-4人 拆装、搬运、打包"
+                            href="/detail?detailId=2555271&CNtag=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/07/05/2555271_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    厢货搬家2-4人 拆装、搬运、打包
+                                </div>
+                                <div class="description">
+                                    全程搬运，收费透明，北京专业搬家公司，培训上岗； 服务内容:居民搬家，家具拆装，...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        260
+                                    </span>
+                                    元/车<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="一站式日式搬家"
+                            href="/detail?detailId=2583155&CNtag=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price/2019/09/20/9137507e-b700-4859-877c-9a222b4f31c8_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    一站式日式搬家
+                                </div>
+                                <div class="description">
+                                    不动手，住新家！
+省时！省力！省心！
+定制服务，当天安心入住！
+一、服务特色
+1...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        218
+                                    </span>
+                                    元/立方米<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="厢式货车含三名人工搬运"
+                            href="/detail?detailId=2689614&CNtag=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2026/06/08/2689614_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    厢式货车含三名人工搬运
+                                </div>
+                                <div class="description">
+                                    明码标价 全程搬运
+厢货长宽高：4.2m×1.9m×1.8m
+服务含10公里运输...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        260
+                                    </span>
+                                    元/辆<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="小型搬家（含1人搬运）一口价"
+                            href="/detail?detailId=2556830&CNtag=%e6%90%ac%e5%ae%b6%e6%8b%89%e8%b4%a7">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2022/05/23/2556830_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    小型搬家（含1人搬运）一口价
+                                </div>
+                                <div class="description">
+                                    车型：金杯车 货厢2.7米长、1.4米宽、1.3米高。 里程：包含10公里，超出...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        260
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="box1">
+        <div class="fff">
+            <div class="servicebody">
+                <div class="navigation"><span class="serviceIndex">
+                        家电清洗
+                    </span>
+                    <span class="serviceType">
+                        
+                        <a title="空调清洗"
+                            href="/fuwu?category=21&sub_category=%e7%a9%ba%e8%b0%83%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97">空调清洗
+                        </a>
+                        
+                        <a title="油烟机清洗"
+                            href="/fuwu?category=21&sub_category=%e6%b2%b9%e7%83%9f%e6%9c%ba%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97">油烟机清洗
+                        </a>
+                        
+                        <a title="洗衣机清洗"
+                            href="/fuwu?category=21&sub_category=%e6%b4%97%e8%a1%a3%e6%9c%ba%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97">洗衣机清洗
+                        </a>
+                        
+                        <a title="冰箱清洗"
+                            href="/fuwu?category=21&sub_category=%e5%86%b0%e7%ae%b1%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97">冰箱清洗
+                        </a>
+                        
+                        <a title="热水器清洗"
+                            href="/fuwu?category=21&sub_category=%e7%83%ad%e6%b0%b4%e5%99%a8%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97">热水器清洗
+                        </a>
+                        
+                        <a title="燃气灶清洗"
+                            href="/fuwu?category=21&sub_category=%e7%87%83%e6%b0%94%e7%81%b6%e6%b8%85%e6%b4%97&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97">燃气灶清洗
+                        </a>
+                        
+                    </span>
+                </div>
+                <div class="servicetags">
+                    <div class="tagsListHeader"><span class="lookMore"><a
+                                href="/fuwu?category=21&category_view=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97"
+                                style="font-size: 18px">更多服务<img
+                                    style="margin-left:5px; position: relative; bottom:2px;"
+                                    src="https://image.daoway.cn/img/static/img/toright.jpg" width="7" height="auto"></a></span>
+                    </div>
+                    <div class="row">
+                        
+                        <a class="form-group shopList" title="空调清洗"
+                            href="/detail?detailId=2575793&CNtag=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2023/07/04/2575793_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    空调清洗
+                                </div>
+                                <div class="description">
+                                    空调室内机(不含外机)清洗、上门服务，高温蒸汽消毒； 清洗部件：过滤网、蒸发器、...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        75
+                                    </span>
+                                    元/台<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="油烟机清洗"
+                            href="/detail?detailId=2575811&CNtag=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2023/07/06/2575811_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    油烟机清洗
+                                </div>
+                                <div class="description">
+                                    中式/欧式/侧吸式油烟机清洗，上门服务一口价，可选免拆清洗、深度拆洗两种规格。 ...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        128
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="洗衣机清洗"
+                            href="/detail?detailId=2575810&CNtag=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2023/07/05/2575810_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    洗衣机清洗
+                                </div>
+                                <div class="description">
+                                    洗衣机清洗上门服务；上开盖为波轮洗衣机，侧面门开为滚筒洗衣机，下单时请根据实际情...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        108
+                                    </span>
+                                    元/台<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="冰箱清洗"
+                            href="/detail?detailId=2575818&CNtag=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/08/19/2575818_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    冰箱清洗
+                                </div>
+                                <div class="description">
+                                    冰箱清洗上门服务，深度去污、除垢除霜、除菌除霉、除异味。 清洗部件：
+隔板、储物...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        108
+                                    </span>
+                                    元/台<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="热水器清洗"
+                            href="/detail?detailId=2575819&CNtag=%e5%ae%b6%e7%94%b5%e6%b8%85%e6%b4%97">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/08/23/2575819_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    热水器清洗
+                                </div>
+                                <div class="description">
+                                    燃气/电热水器清洗上门服务，深度清洗除垢，电热水器可选免拆清洗和深度拆洗两种规格...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        108
+                                    </span>
+                                    元/台<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="box1">
+        <div class="fff">
+            <div class="servicebody">
+                <div class="navigation"><span class="serviceIndex">
+                        上门安装
+                    </span>
+                    <span class="serviceType">
+                        
+                        <a title="家电安装"
+                            href="/fuwu?category=150&sub_category=%e5%ae%b6%e7%94%b5%e5%ae%89%e8%a3%85&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85">家电安装
+                        </a>
+                        
+                        <a title="家具安装"
+                            href="/fuwu?category=150&sub_category=%e5%ae%b6%e5%85%b7%e5%ae%89%e8%a3%85&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85">家具安装
+                        </a>
+                        
+                        <a title="挂件安装"
+                            href="/fuwu?category=150&sub_category=%e6%8c%82%e4%bb%b6%e5%ae%89%e8%a3%85&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85">挂件安装
+                        </a>
+                        
+                        <a title="灯具安装"
+                            href="/fuwu?category=150&sub_category=%e7%81%af%e5%85%b7%e5%ae%89%e8%a3%85&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85">灯具安装
+                        </a>
+                        
+                        <a title="洁具安装"
+                            href="/fuwu?category=150&sub_category=%e6%b4%81%e5%85%b7%e5%ae%89%e8%a3%85&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85">洁具安装
+                        </a>
+                        
+                        <a title="安装打孔"
+                            href="/fuwu?category=150&sub_category=%e5%ae%89%e8%a3%85%e6%89%93%e5%ad%94&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85">安装打孔
+                        </a>
+                        
+                    </span>
+                </div>
+                <div class="servicetags">
+                    <div class="tagsListHeader"><span class="lookMore"><a
+                                href="/fuwu?category=150&category_view=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85"
+                                style="font-size: 18px">更多服务<img
+                                    style="margin-left:5px; position: relative; bottom:2px;"
+                                    src="https://image.daoway.cn/img/static/img/toright.jpg" width="7" height="auto"></a></span>
+                    </div>
+                    <div class="row">
+                        
+                        <a class="form-group shopList" title="家电安装"
+                            href="/detail?detailId=2572836&CNtag=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2023/10/11/2572836_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    家电安装
+                                </div>
+                                <div class="description">
+                                    此服务含装前设计规划、装后调试指导服务、普通墙体打孔，不含安装所需配件(挂架、座...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        119
+                                    </span>
+                                    元/台<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="灯具安装"
+                            href="/detail?detailId=2573681&CNtag=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2025/08/06/2573681_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    灯具安装
+                                </div>
+                                <div class="description">
+                                    此服务包含灯具安装人工费，安装前的组装、接线、打孔费用，不含配件、拆旧及其他额外...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        109
+                                    </span>
+                                    元/个<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="柜子安装"
+                            href="/detail?detailId=2623797&CNtag=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/08/19/2623797_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    柜子安装
+                                </div>
+                                <div class="description">
+                                    斗柜安装费一口价，含装前空间设计规划、装后调试指导服务，不含安前旧物拆卸、安装所...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        129
+                                    </span>
+                                    元/个<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="桌椅安装"
+                            href="/detail?detailId=2606709&CNtag=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/08/19/2606709_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    桌椅安装
+                                </div>
+                                <div class="description">
+                                    此服务含装前空间设计规划、装后调试指导服务，不含安前旧物拆卸、安装所需配件及其他...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        119
+                                    </span>
+                                    元/个<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="床体安装"
+                            href="/detail?detailId=2606723&CNtag=%e4%b8%8a%e9%97%a8%e5%ae%89%e8%a3%85">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/08/19/2606723_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    床体安装
+                                </div>
+                                <div class="description">
+                                    儿童床安装费一口价，安装所需配件请您提前准备好哦～
+安装成品示例图或安装教程可以...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        120
+                                    </span>
+                                    元/个<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="box1">
+        <div class="fff">
+            <div class="servicebody">
+                <div class="navigation"><span class="serviceIndex">
+                        上门美业
+                    </span>
+                    <span class="serviceType">
+                        
+                        <a title="上门美甲"
+                            href="/fuwu?category=110&sub_category=%e4%b8%8a%e9%97%a8%e7%be%8e%e7%94%b2&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a">上门美甲
+                        </a>
+                        
+                        <a title="上门美睫"
+                            href="/fuwu?category=110&sub_category=%e4%b8%8a%e9%97%a8%e7%be%8e%e7%9d%ab&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a">上门美睫
+                        </a>
+                        
+                        <a title="上门美容"
+                            href="/fuwu?category=110&sub_category=%e4%b8%8a%e9%97%a8%e7%be%8e%e5%ae%b9&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a">上门美容
+                        </a>
+                        
+                        <a title="化妆造型"
+                            href="/fuwu?category=110&sub_category=%e5%8c%96%e5%a6%86%e9%80%a0%e5%9e%8b&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a">化妆造型
+                        </a>
+                        
+                        <a title="健身私教"
+                            href="/fuwu?category=110&sub_category=%e5%81%a5%e8%ba%ab%e7%a7%81%e6%95%99&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a">健身私教
+                        </a>
+                        
+                        <a title="产后修复"
+                            href="/fuwu?category=110&sub_category=%e4%ba%a7%e5%90%8e%e4%bf%ae%e5%a4%8d&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a">产后修复
+                        </a>
+                        
+                    </span>
+                </div>
+                <div class="servicetags">
+                    <div class="tagsListHeader"><span class="lookMore"><a
+                                href="/fuwu?category=110&category_view=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a"
+                                style="font-size: 18px">更多服务<img
+                                    style="margin-left:5px; position: relative; bottom:2px;"
+                                    src="https://image.daoway.cn/img/static/img/toright.jpg" width="7" height="auto"></a></span>
+                    </div>
+                    <div class="row">
+                        
+                        <a class="form-group shopList" title="上门美甲 任选纯色"
+                            href="/detail?detailId=2656578&CNtag=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2022/12/23/2656578_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    上门美甲 任选纯色
+                                </div>
+                                <div class="description">
+                                    此服务使用纯植物提取环保甲油胶，包含卸甲油胶、手部精修；不包含粘贴延长甲、卸除光...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        198
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="上门美睫 嫁接睫毛"
+                            href="/detail?detailId=2656579&CNtag=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2022/12/12/2656579_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    上门美睫 嫁接睫毛
+                                </div>
+                                <div class="description">
+                                    服务包含进口睫毛、胶水； 不包含补修睫(零星掉落)。 # 服务内容：
+* 单根自...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        228
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="健身私练 上门授课"
+                            href="/detail?detailId=2668837&CNtag=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2022/12/02/2668837_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    健身私练 上门授课
+                                </div>
+                                <div class="description">
+                                    服务内容：
+体能训练:根据用户需求针对胸、肩、背、臂、腰腹、臀、腿进行局部减脂塑...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        268
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="瑜伽私教 上门授课"
+                            href="/detail?detailId=2668838&CNtag=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2022/12/02/2668838_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    瑜伽私教 上门授课
+                                </div>
+                                <div class="description">
+                                    服务内容：
+基础瑜伽:身体层面调整，把身体关节松散导致的紧张归位，通过体式、冥想...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        298
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="上门美容 面部护理"
+                            href="/detail?detailId=2665996&CNtag=%e4%b8%8a%e9%97%a8%e7%be%8e%e4%b8%9a">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/07/02/2665996_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    上门美容 面部护理
+                                </div>
+                                <div class="description">
+                                     服务时长：70分钟 服务姿势：躺姿 # 适用对象：
+肤色不均、毛孔堵塞、无光泽...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        198
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="box1">
+        <div class="fff">
+            <div class="servicebody">
+                <div class="navigation"><span class="serviceIndex">
+                        康养护理
+                    </span>
+                    <span class="serviceType">
+                        
+                        <a title="护士上门"
+                            href="/fuwu?category=80&sub_category=%e6%8a%a4%e5%a3%ab%e4%b8%8a%e9%97%a8&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86">护士上门
+                        </a>
+                        
+                        <a title="居家照护"
+                            href="/fuwu?category=80&sub_category=%e5%b1%85%e5%ae%b6%e7%85%a7%e6%8a%a4&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86">居家照护
+                        </a>
+                        
+                        <a title="住院陪护"
+                            href="/fuwu?category=80&sub_category=%e4%bd%8f%e9%99%a2%e9%99%aa%e6%8a%a4&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86">住院陪护
+                        </a>
+                        
+                        <a title="养老护理"
+                            href="/fuwu?category=80&sub_category=%e5%85%bb%e8%80%81%e6%8a%a4%e7%90%86&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86">养老护理
+                        </a>
+                        
+                        <a title="康复护理"
+                            href="/fuwu?category=80&sub_category=%e5%ba%b7%e5%a4%8d%e6%8a%a4%e7%90%86&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86">康复护理
+                        </a>
+                        
+                        <a title="就医陪诊"
+                            href="/fuwu?category=80&sub_category=%e5%b0%b1%e5%8c%bb%e9%99%aa%e8%af%8a&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86">就医陪诊
+                        </a>
+                        
+                    </span>
+                </div>
+                <div class="servicetags">
+                    <div class="tagsListHeader"><span class="lookMore"><a
+                                href="/fuwu?category=80&category_view=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86"
+                                style="font-size: 18px">更多服务<img
+                                    style="margin-left:5px; position: relative; bottom:2px;"
+                                    src="https://image.daoway.cn/img/static/img/toright.jpg" width="7" height="auto"></a></span>
+                    </div>
+                    <div class="row">
+                        
+                        <a class="form-group shopList" title="专业医院护工1对1陪护"
+                            href="/detail?detailId=2670421&CNtag=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2023/02/02/2187095e-af59-4e24-ba61-109e8d45ece5_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    专业医院护工1对1陪护
+                                </div>
+                                <div class="description">
+                                    护工邻坊 三大照护 六大保障
+照护好爸妈身体 三大照护 1.生活照护-照护好爸妈...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        280
+                                    </span>
+                                    元/天<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="24小时医院陪护病人"
+                            href="/detail?detailId=2670420&CNtag=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2023/02/02/ea0ca44d-a8ae-40aa-b45a-28b9f075fada_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    24小时医院陪护病人
+                                </div>
+                                <div class="description">
+                                    护工邻坊 三大照护 六大保障
+照护好爸妈身体 三大照护 1.生活照护-照护好爸妈...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        280
+                                    </span>
+                                    元/天<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="护士上门PICC护理"
+                            href="/detail?detailId=2518510&CNtag=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/05/30/2518510_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    护士上门PICC护理
+                                </div>
+                                <div class="description">
+                                    一、服务介绍：
+护士上门提供PICC护理服务，包括对PICC置管的换药和维护服务...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        199
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="外科伤口换药 在职护士上门服务"
+                            href="/detail?detailId=2520338&CNtag=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2024/04/29/2520338_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    外科伤口换药 在职护士上门服务
+                                </div>
+                                <div class="description">
+                                    适用于外科伤口换药的用户人群。
+一、服务介绍：
+护士上门观察伤口情况，作相应处理...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        159
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a class="form-group shopList" title="上门助浴"
+                            href="/detail?detailId=2689803&CNtag=%e5%ba%b7%e5%85%bb%e6%8a%a4%e7%90%86">
+                            <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="https://image.daoway.cn/img/price_head/2026/07/27/2689803_thumb.jpg"
+                                    class="serviceImg" width="210px" height="210px">
+                                <div class="serviceName">
+                                    上门助浴
+                                </div>
+                                <div class="description">
+                                    友情提醒： 仅提供老人和行动不便，意外受伤骨折，手术康复，协助助浴不提供年轻人洗...
+                                </div>
+                                <div class="price"><span style="font-size: 20px">
+                                        398
+                                    </span>
+                                    元/次<span class="btn">查看详情</span>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+<div class="baozhang" id="baozhang">
+    <h2>到位服务保障</h2>
+    <p>到位平台担保交易安全，交易未成功100%退款</p>
+</div>
+<div class="servi">
+    <ul>
+        <li><img src="https://image.daoway.cn/img/static/img/bao1.png" width="60" height="auto">未服务全额退</li>
+        <li><img src="https://image.daoway.cn/img/static/img/bao2.png" width="60" height="auto">爽约包赔</li>
+        <li><img src="https://image.daoway.cn/img/static/img/bao3.png" width="60" height="auto">不满意重服务</li>
+        <li><img src="https://image.daoway.cn/img/static/img/bao4.png" width="60" height="auto">全场保障</li>
+    </ul>
+</div>
+
+    <div style="clear: both;"></div>
+    
+<footer class="footer">
+    <dl>
+        <dt>热门城市</dt>
+        <dd>
+            <a href="http://bj.daoway.cn">北京</a><a href="http://sh.daoway.cn">上海</a><a
+                href="http://gz.daoway.cn">广州</a><a href="http://sz.daoway.cn">深圳</a><a
+                href="http://cd.daoway.cn">成都</a><a href="http://tj.daoway.cn">天津</a><a
+                href="http://nj.daoway.cn">南京</a><a href="http://hz.daoway.cn">杭州</a><a
+                href="http://cq.daoway.cn">重庆</a><a href="http://su.daoway.cn">苏州</a><a
+                href="http://wh.daoway.cn">武汉</a><a href="http://cs.daoway.cn">长沙</a><a
+                href="http://jn.daoway.cn">济南</a><a href="http://zz.daoway.cn">郑州</a><a
+                href="http://xa.daoway.cn">西安</a><a href="http://sy.daoway.cn">沈阳</a><a
+                href="http://fz.daoway.cn">福州</a><a href="http://xm.daoway.cn">厦门</a><a
+                href="http://nc.daoway.cn">南昌</a><a href="http://hf.daoway.cn">合肥</a><a
+                href="http://nb.daoway.cn">宁波</a><a href="http://wx.daoway.cn">无锡</a><a
+                href="http://qd.daoway.cn">青岛</a><a href="http://dl.daoway.cn">大连</a><a
+                href="http://dg.daoway.cn">东莞</a><a href="http://fs.daoway.cn">佛山</a><a
+                href="http://sjz.daoway.cn">石家庄</a><a href="http://hrb.daoway.cn">哈尔滨</a><a
+                href="http://ty.daoway.cn">太原</a><a href="http://km.daoway.cn">昆明</a><a
+                href="http://gy.daoway.cn">贵阳</a><a href="http://nn.daoway.cn">南宁</a><a
+                href="http://wz.daoway.cn">温州</a>
+        </dd>
+    </dl>
+</footer>
+<div class="beian" style="line-height: 40px; padding-top: 0">
+    <p style="width: 1200px; margin: 0 auto;">©2024 版权所有 到位 daoway.com <a
+            style="text-decoration: none; "
+            href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" style="cursor: pointer;">京ICP备15001471号-1</a>
+        北京邻家科技有限公司 <img style="margin-left: 10px; margin-right: 3px"
+            src="https://image.daoway.cn/img/static/img/pol.png"><a target="_blank" style="cursor: pointer; text-decoration: none;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102003774">京公网安备11010102003774号</a>&nbsp;&nbsp;&nbsp;增值电信业务经营许可证：京B2-20221228</p>
+</div>
+
+</body>
+</html>
+<script src="https://image.daoway.cn/img/static/js/main.js"></script>
+<script>
+
+    $(document).on('mouseover', '.navname', function () {
+        var _this = $(this);
+        _this.addClass('navnamebg');
+        var top = 0;
+        if (_this.index() > 0) {
+            top = (_this.index()) * -30;
+        }
+        _this.find('ul').show().css('top', top);
+        _this.find('img').addClass('act')[0].src = 'https://image.daoway.cn/img/static/img/icon1.png';
+    });
+    $(document).on('mouseout', '.navname', function () {
+        var _this = $(this);
+        _this.removeClass('navnamebg');
+        _this.find('ul').hide();
+        _this.find('img').removeClass('act')[0].src = 'https://image.daoway.cn/img/static/img/right.png';
+    });
+
+    $(document).on('mouseover', '.navname li', function () {
+        var _this = $(this);
+        _this.css('background', '#c4333b')
+    });
+    $(document).on('mouseout', '.navname li', function () {
+        var _this = $(this);
+        _this.css('background', '')
+    });
+    $(document).on('click', '.shopList', function () {
+        $('.toast').show();
+        window.setTimeout(function () {
+            $('.toast').hide();
+        }, 2000)
+    });
+</script>

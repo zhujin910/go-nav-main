@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>星岛环球网｜世界华人新闻门户网</title>
+  <meta name="description" content="星岛环球网,星岛新闻集团旗下综合新闻门户网站,整合全球新闻资源,汇集海内外媒体声音,立足湾区,协同港澳台,面向世界,致力于构建连接两岸三地全球华人多元化新媒体平台！"/>
+  <meta name="keywords" content="星岛环球, 星岛环球网, 星岛环球网官网, 星岛大湾区, 香港新闻, 大湾区新闻资讯, 台湾新闻, 国际新闻, 星岛热评"/>
+   <link rel="shortcut icon" href="/assets/theme/image/favicon.ico" />
+
+
+  <link rel="stylesheet" href="/assets/theme/css/stnn_index.css"/>
+</head>
+<body>
+<style> .footer-static-main .s_news05{width: 900px;margin: 0 auto;}</style>
+
+  <link rel="stylesheet" href="/assets/theme/css/stnn_index.css"/>
+  <header>
+    
+
+  <!--
+    测试站点公共导航栏：DOM 对齐源站 stnn.cc 普通栏目页 header .n_top 片段。
+    样式仅依赖源站同名 class；如需独立维护，使用 /assets/theme/css/pc-commonnav.css。
+  -->
+  <div class="n_top">
+    <div class="n_topl">
+      <a href="/" title="星岛环球网-pc站">
+        <img src="/assets/theme/image/logo01.jpg"
+             alt="星岛环球网-pc站">
+      </a>
+    </div>
+    <div class="n_topr">
+      <ul class="n_topr_l">
+        
+  <li>
+    <a href="/xwcx/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/xwcx/" data-menu-name="快讯">快讯</a>
+  </li>
+  <li>
+    <a href="/news/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/news/" data-menu-name="时事">时事</a>
+  </li>
+  <li>
+    <a href="/hk/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/hk/" data-menu-name="香港">香港</a>
+  </li>
+  <li>
+    <a href="/taiwan/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/taiwan/" data-menu-name="台湾">台湾</a>
+  </li>
+  <li>
+    <a href="/global/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/global/" data-menu-name="全球">全球</a>
+  </li>
+  <li>
+    <a href="/finance/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/finance/" data-menu-name="金融">金融</a>
+  </li>
+  <li>
+    <a href="/consume/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/consume/" data-menu-name="消费">消费</a>
+  </li>
+  <li>
+    <a href="/health/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/health/" data-menu-name="健康">健康</a>
+  </li>
+  <li>
+    <a href="/tech/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/tech/" data-menu-name="科技">科技</a>
+  </li>
+  <li>
+    <a href="/energy/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/energy/" data-menu-name="能源">能源</a>
+  </li>
+  <li>
+    <a href="/car/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/car/" data-menu-name="汽车">汽车</a>
+  </li>
+  <li>
+    <a href="/pinglun/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/pinglun/" data-menu-name="评论">评论</a>
+  </li>
+  <li>
+    <a href="/zhuanti/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/zhuanti/" data-menu-name="专题">专题</a>
+  </li>
+  <li>
+    <a href="/sxjy/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/sxjy/" data-menu-name="教育">教育</a>
+  </li>
+  <li>
+    <a href="/ent/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/ent/" data-menu-name="娱乐">娱乐</a>
+  </li>
+  <li>
+    <a href="/video/"
+       target="_blank"
+       data-stat-menu="1" data-menu-id="/video/" data-menu-name="视频">视频</a>
+  </li>
+
+      </ul>
+      <ul style="float:right; width:20px ; height:18px">
+        <li>
+          <a href="/search.html" aria-label="搜索">
+            <img src="/assets/theme/image/ser01.png" alt="搜索">
+          </a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <style> .n_topr_l li {    padding-right: 30px !important;}</style>
+
+  </header>
+
+  <!-- PAGE_SKELETON：copyright 等信息页；declaredRegions 仅 main（SiteSkeletonRegionScanner） -->
+  <main class="region-main-copyright footer-static-main" data-region="main">
+    <div><div class="mj-public-section-list-meta" hidden data-public-list="true" data-section="pc-sec-404" data-section-id="1adc8e68-df22-49d8-ae82-400af384a1a5" data-site-id="26edccc4c65e4bc69fe73282adb95f21" data-list-title="404页面" data-mode="server"></div>
+
+  
+    
+      
+        
+          
+            
+              
+              
+              <style>a.ebtn,a.ebtn:active,a.ebtn:focus,a.ebtn:hover,a.ebtn:visited{border:1px solid #d9d9d9;border-radius:24px;color:#3478f7;text-align:center;width:156px;padding:5px 10px;display:inline-block;text-decoration:none;}</style><div class="main con"><div style="text-align:center"><img src="https://www.sthlstatic.com/sthl/assets/icons/icon-404.svg" alt="404"><p style="font-size:30px;font-weight:bolder">很抱歉，无法显示此页面</p><p style="font-size:20px;line-height:30px">你点击进来的链接可能已失效，或页面可能已被移除<br/>可以到以下网站浏览其他内容。</p><div style="margin:20px auto"><a class="btn ebtn errtitle" href="/">返回主页</a></div></div></div>
+            
+          
+        
+      
+    
+  
+
+</div>
+  </main>
+
+  <div class="foothrbar"></div>
+  
+
+  <!--
+    普通页页脚：DOM 对齐源站 stnn.cc 首页 footer#footer > .footlink + .copyright。
+    数据：commons FOOTER/default + COPYRIGHT/default；缺失时 fallback。
+  -->
+  <footer id="footer" class="pad_top pad_bot">
+    <div class="footlink">
+      
+  <ul>
+    
+      
+        <a href="/copyright/about.html">关于我们</a>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+      
+        <a href="/copyright/sitemap.html">网站地图</a>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+      
+        <a href="/detail/6a292dd7c90959391b22e386.html">诚聘英才</a>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+      
+        <a href="/copyright/lxwm.html">联系方式</a>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+      
+        <a href="/copyright/privacy.html">隐私保护</a>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+      
+        <a href="/copyright/media.html">新媒体矩阵</a>
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+      
+        <a href="mailto:stnn@singtaonewscorp.com">意见反馈</a>
+        
+      
+    
+  </ul>
+
+  
+
+    </div>
+    <div class="clear"></div>
+    <div class="copyright">
+      
+  <ul>
+    <li>本网站内容归星岛新闻集团所有，任何单位以及个人未经许可，不得擅自转载引用。</li>
+    <br>
+    <li>星岛环球网版权所有 Copyright © 2005-2026 Stnn.cc All Rights Reserved.</li>
+  </ul>
+
+    </div>
+  </footer>
+  
+  <!-- 公网站点统计 -->
+  <script>
+    window.__SITE_STAT_API_PREFIX__ = "";
+    window.__SITE_STAT_CONFIG__ = {
+      collectUrl: "\/api\/site-public\/stat\/collect",
+      siteId: "26edccc4c65e4bc69fe73282adb95f21",
+      pageType: "",
+      urlPath: "\/fragments\/common\/foot",
+      columnId: "",
+      articleId: "",
+      tokenUrl: "\/api\/site-public\/stat\/token",
+      collectTokenEnabled: false,
+      tokenRefreshBeforeSeconds: 120, heartbeatMs: 60000 };
+  </script>
+  <script defer src="/assets/theme/js/site-stat-utils.js"></script>
+  <script defer src="/assets/theme/js/site-stat.js"></script>
+
+
+
+  <script src="/assets/theme/js/jquery.min.js"></script>
+  <script src="/assets/theme/js/stnn_web.js"></script>
+</body>
+</html>

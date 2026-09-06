@@ -1,0 +1,240 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no"/>
+    <meta content="yes"
+          name="apple-mobile-web-app-capable"/>
+    <meta content="black"
+          name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="yes"
+          name="apple-mobile-web-app-capable">
+    <meta content="yes"
+          name="apple-touch-fullscreen">
+    <meta content="telephone=no"
+          name="format-detection"/>
+    <title>很抱歉，网站暂时无法访问</title>
+    <script type="text/javascript">
+     //document.write('<scr' + 'ipt lang' + 'uage="javas' + 'cript" src="/config/note_load.asp?hostname=&t=9668.562"></scr' + 'ipt>');
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?19918de54ede6d1b9e818fd6ecf3b08c";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <style type="text/css">
+        <!--
+        html, body, h1, h2, h3, h4, h5, h6, hr, p, iframe, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td, fieldset
+        {
+            margin: 0;
+            padding: 0
+        }
+        
+        ul, ol, dl
+        {
+            list-style-type: none
+        }
+        
+        
+        body, th, td, button, input, select, textarea
+        {
+            font-family: "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, tahoma, arial, Verdana, sans-serif, "WenQuanYi Micro Hei", "\5B8B\4F53";
+            font-size: 16px;
+            color: #666;
+            -webkit-font-smoothing: antialiased;
+            -moz-font-smoothing: antialiased
+        }
+        
+        body
+        {
+            line-height: 1.6;
+            background-color: #fff
+        }
+        
+        h1, h2, h3, h4, h5, h6
+        {
+            font-size: 100%;
+            color: #333
+        }
+        
+        div
+        {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        a
+        {
+            text-decoration: none;
+            color: #1064A0;
+        }
+        
+        a:hover
+        {
+            color: #0078D2;
+        }
+        
+        img
+        {
+            border: none;
+        }
+        
+        h1, h2, h3, h4
+        {
+            /*	display:block;*/
+            margin: 0;
+            font-weight: normal;
+        }
+        
+        h1
+        {
+            font-size: 44px;
+            color: #0188DE;
+            padding: 20px 0px 10px 0px;
+        }
+        
+        h2
+        {
+            color: #0188DE;
+            font-size: 16px;
+            padding: 10px 0px 40px 0px;
+        }
+        
+        #wrapper
+        {
+            width: 100%;
+        }
+        
+        .page
+        {
+            max-width: 910px;
+            padding: 20px 20px 40px 20px;
+            margin-top: 80px;
+            margin-bottom: 20px;
+            border-style: dashed;
+            border-color: #e4e4e4;
+            line-height: 30px;
+            background: url(sorry.png) no-repeat right;
+            font-size: 16px;
+        }
+        
+        .button
+        {
+            width: 180px;
+            height: 28px;
+            margin-left: 0px;
+            margin-top: 10px;
+            background: #009CFF;
+            border-bottom: 4px solid #0188DE;
+            text-align: center;
+            display: inline-flex;
+        }
+        
+        .button a
+        {
+            width: 180px;
+            height: 28px;
+            color: #fff;
+        }
+        
+        .button a:hover
+        {
+            background: #5BBFFF;
+        }
+        
+        .westh5
+        {
+            display: none;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .westpc
+        {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            max-width: 960px;
+        }
+        .westpc img{width: 100%}
+        @media (max-width: 640px)
+        {
+            .page
+            {
+                background: none;
+                margin-top: 10px;
+                font-size: 14px;
+            }
+            
+            .button, .button a
+            {
+                width: 120px;
+            }
+            
+            h1
+            {
+                font-size: 28px;
+            }
+        }
+        
+        @media (max-width: 750px)
+        {
+            .westh5
+            {
+                display: block;
+            }
+            
+            .westh5 img
+            {
+                width: 100%;
+            }
+            
+            .westpc
+            {
+                display: none;
+            }
+        }
+        
+        -->
+    </style>
+    <script>
+        function reloadbt(l) {
+            location.href = "http://" + l + "?r=" + Math.random();
+        }
+    </script>
+</head>
+
+<body>
+<div id="wrapper">
+    <div class="page">
+        <h1>抱歉，网站暂时无法访问</h1>
+        <h2>Sorry, the site now can not be accessed. </h2>
+        <font color="#666666">网站可能因以下原因之一而导致无法访问：</font><br/>
+        域名未绑定、网站过期 以及其他原因（空间超标、流量超标、域名未备案、域名备案被注销等）被系统关闭。<br/>
+        
+        请联系网站管理员，登录<a href="http://www.myhostadmin.net/"
+                      title="登录管理面板查看原因"
+                      target="_blank">控制面板</a>查看详细原因。<br/>
+        <div class="button">
+            <a href="http://www.myhostadmin.net/"
+               title="登录管理面板查看原因"
+               target="_blank">进入控制面板</a>
+        </div>
+        
+        <div class="button">
+            <a href="javascript:void(0)"
+               onclick="reloadbt('')"
+               title="登录管理面板查看原因">刷新查看</a>
+        </div>
+     
+    </div>
+</div>
+</body>
+</html>

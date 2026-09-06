@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><title>地图书 - 人文结构化知识数据库</title><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><meta name=viewport content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width"><link rel=icon type=image/png sizes=16x16 href=https://media.ditushu.com/public/logo_16_16.png><link rel=icon type=image/png sizes=32x32 href=https://media.ditushu.com/public/logo_32_32.png><script src=https://res.wx.qq.com/open/js/jweixin-1.6.0.js></script>  <script type="module" crossorigin src="/static/spa/assets/index-4y2158rc.js"></script>
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/chunk-62oNxeRG.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/runtime-core.esm-bundler-ox0oFBW1.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/runtime-dom.esm-bundler-4H1mBd_Q.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/string-CknAxkX0.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/uid-CahJ0Phf.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/request-CJp4EicQ.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/pinia-CUnzoisV.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/render-Cre135QG.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/Lang-DaiJltEU.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/use-router-link-D_yOmTwu.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/QAvatar-JFJojkGg.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/QSpinner-Ch9gQdG1.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/Ripple-CVGTEpon.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/QBtn-CQgg72KH.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/Platform-C6triFGl.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/symbols-5m9NzWGT.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/debounce-DjePeRgO.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/is-B2c--8BQ.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/nodes-BjKrekZK.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/Notify-B6Ynln83.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/use-dark-e3nbztiy.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/QCardSection-XqCQLSO-.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/private.use-form-BgxNw3L4.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/use-checkbox-C9MyJK-P.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/use-model-toggle-BAKNSI_6.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/focus-manager-CZ2geS8q.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/use-portal-D_f5C_b9.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/use-transition-Xy_goOSl.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/use-tick-zdQENfjs.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/focusout-CeVTuRMB.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/scroll-CUs4D6A-.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/QDialog-CXTsyRyX.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/use-id-Df22BpG7.js">
+  <link rel="modulepreload" crossorigin href="/static/spa/assets/use-field-DC3nwa99.js">
+  <link rel="stylesheet" crossorigin href="/static/spa/assets/index-DAQXuSC8.css">
+</head><body><div id=q-app></div><script>var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src="https://hm.baidu.com/hm.js?d20b25cb3d1ab5d0f5cdc8c1e799756a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();</script></body></html>

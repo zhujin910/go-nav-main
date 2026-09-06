@@ -1,0 +1,404 @@
+<!doctype html>
+<html class="no-js" lang="zh">
+  <head>
+	<meta name="pirate">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=yes">
+    <title>即弃电子邮箱 » 在线接收邮件，保护您的隐私 | mytrashmailer.com</title>
+	<meta name="description" content="使用我们的免费即弃电子邮箱服务，无须设立一个电子邮箱账户就可接收邮件">
+    <meta name="keywords" content="即弃邮箱、即弃电子邮箱、免费即弃邮箱、免费即弃电子邮箱、即弃电子邮箱应用、匿名邮箱">
+	<meta itemprop="name" content="即弃邮箱">
+    <meta itemprop="image" content="https://static.mytrashmailer.com/assets/images/icons/favicons/ipimage.png">
+    <meta itemprop="description" content="使用我们的免费即弃电子邮箱服务，无须设立一个电子邮箱账户就可接收邮件">
+    <meta property="og:title" content="即弃电子邮箱 » 在线接收邮件，保护您的隐私 | mytrashmailer.com"/>
+    <meta property="og:image" content="https://static.mytrashmailer.com/assets/images/icons/favicons/ipimage.png"/>
+    <meta property="og:site_name" content="即弃邮箱"/>
+    <meta property="og:description" content="使用我们的免费即弃电子邮箱服务，无须设立一个电子邮箱账户就可接收邮件"/>
+	<meta name="google-site-verification" content="EgvbHHvRzEFKNV0UWfDWf0Di3sbkyRBUQfhZMLoVJxQ" />
+	<meta name="google-site-verification" content="EgvbHHvRzEFKNV0UWfDWf0Di3sbkyRBUQfhZMLoVJxQ" />
+	
+		<link rel="canonical" href="https://zh.mytrashmailer.com" />
+	
+	<link rel="alternate" hreflang="x-default" href="https://www.mytrashmailer.com" /><link rel="alternate" href="https://www.mytrashmailer.com" hreflang="en" /><link rel="alternate" href="https://ar.mytrashmailer.com" hreflang="ar" /><link rel="alternate" href="https://br.mytrashmailer.com" hreflang="pt-BR" /><link rel="alternate" href="https://de.mytrashmailer.com" hreflang="de" /><link rel="alternate" href="https://el.mytrashmailer.com" hreflang="el" /><link rel="alternate" href="https://es.mytrashmailer.com" hreflang="es" /><link rel="alternate" href="https://fr.mytrashmailer.com" hreflang="fr" /><link rel="alternate" href="https://hu.mytrashmailer.com" hreflang="hu" /><link rel="alternate" href="https://it.mytrashmailer.com" hreflang="it" /><link rel="alternate" href="https://ja.mytrashmailer.com" hreflang="ja" /><link rel="alternate" href="https://ko.mytrashmailer.com" hreflang="ko" /><link rel="alternate" href="https://nl.mytrashmailer.com" hreflang="nl" /><link rel="alternate" href="https://pl.mytrashmailer.com" hreflang="pl" /><link rel="alternate" href="https://pt.mytrashmailer.com" hreflang="pt-PT" /><link rel="alternate" href="https://ru.mytrashmailer.com" hreflang="ru" /><link rel="alternate" href="https://sv.mytrashmailer.com" hreflang="sv" /><link rel="alternate" href="https://th.mytrashmailer.com" hreflang="th" /><link rel="alternate" href="https://tr.mytrashmailer.com" hreflang="tr" /><link rel="alternate" href="https://vi.mytrashmailer.com" hreflang="vi" /><link rel="alternate" href="https://zh.mytrashmailer.com" hreflang="zh" />	
+    <link rel="apple-touch-icon" sizes="57x57" href="https://static.mytrashmailer.com/assets/images/icons/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://static.mytrashmailer.com/assets/images/icons/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://static.mytrashmailer.com/assets/images/icons/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://static.mytrashmailer.com/assets/images/icons/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://static.mytrashmailer.com/assets/images/icons/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://static.mytrashmailer.com/assets/images/icons/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://static.mytrashmailer.com/assets/images/icons/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://static.mytrashmailer.com/assets/images/icons/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://static.mytrashmailer.com/assets/images/icons/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="https://static.mytrashmailer.com/assets/images/icons/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://static.mytrashmailer.com/assets/images/icons/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://static.mytrashmailer.com/assets/images/icons/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://static.mytrashmailer.com/assets/images/icons/favicons/favicon-16x16.png">
+	
+    <link rel="manifest" href="https://static.mytrashmailer.com/assets/images/icons/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#0ca4d9">
+    <meta name="msapplication-TileImage" content="https://static.mytrashmailer.com/assets/images/icons/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#0ca4d9">
+    <link rel="stylesheet" href="https://static.mytrashmailer.com/assets/stylesheets/style-min.css">
+	
+	<!-- JS VARS -->
+	<script>
+		var URL = 'https://zh.mytrashmailer.com';
+		var TPL_URL = 'https://static.mytrashmailer.com';
+		var LANG = 'zh';
+		var FORMAT_DATE = 'Y.m.d';
+		var FORMAT_TIME = 'G:i';
+	</script>
+	
+  </head>
+  <body>
+
+	
+	<header class="frontpage-header">
+	 
+	       <div class="row">
+        <div class="small-16 large-8 columns">
+          <nav>
+            <ul id="main-menu">
+              <li><a href="faq">常见问题</a></li>
+            </ul>
+            <ul id="mobile-menu"></ul>
+          </nav>
+        </div>
+        <div class="small-8 columns">
+          <ul class="language-menu">
+            <li>
+              <a href="javascript:void(0);">
+                <img title="即弃邮箱 Chinese" src="https://static.mytrashmailer.com/assets/images/flags/single/CN.png" alt="即弃邮箱 Chinese" />                <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path fill="#fff" d="M10.017.864c0-.394-.32-.714-.714-.714-.193 0-.367.077-.496.2L5.015 4.142 1.273.4C1.143.246.948.15.73.15.338.15.018.47.018.864c0 .192.076.366.2.494l-.003.002L4.5 5.646c.13.135.312.218.514.218h.002c.203 0 .385-.083.515-.218L9.82 1.36c.124-.128.2-.303.2-.496z"/></svg></span>
+              </a>
+              <ul>
+				<li><a title="即弃邮箱 ‏العربية" href="https://ar.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/AE.png" alt="即弃邮箱 ‏العربية" /></a></li><li><a title="即弃邮箱 Deutsch" href="https://de.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/DE.png" alt="即弃邮箱 Deutsch" /></a></li><li><a title="即弃邮箱 Ελληνικά" href="https://el.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/GR.png" alt="即弃邮箱 Ελληνικά" /></a></li><li><a title="即弃邮箱 English" href="https://mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/US.png" alt="即弃邮箱 English" /></a></li><li><a title="即弃邮箱 Español" href="https://es.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/ES.png" alt="即弃邮箱 Español" /></a></li><li><a title="即弃邮箱 Français (France)" href="https://fr.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/FR.png" alt="即弃邮箱 Français (France)" /></a></li><li><a title="即弃邮箱 Magyar" href="https://hu.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/HU.png" alt="即弃邮箱 Magyar" /></a></li><li><a title="即弃邮箱 Italiano" href="https://it.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/IT.png" alt="即弃邮箱 Italiano" /></a></li><li><a title="即弃邮箱 日本語" href="https://ja.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/JP.png" alt="即弃邮箱 日本語" /></a></li><li><a title="即弃邮箱 한국어" href="https://ko.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/KR.png" alt="即弃邮箱 한국어" /></a></li><li><a title="即弃邮箱 Nederlands" href="https://nl.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/NL.png" alt="即弃邮箱 Nederlands" /></a></li><li><a title="即弃邮箱 Polski" href="https://pl.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/PL.png" alt="即弃邮箱 Polski" /></a></li><li><a title="即弃邮箱 Português (Brasil)" href="https://br.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/BR.png" alt="即弃邮箱 Português (Brasil)" /></a></li><li><a title="即弃邮箱 Português (Portugal) " href="https://pt.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/PT.png" alt="即弃邮箱 Português (Portugal) " /></a></li><li><a title="即弃邮箱 Русский" href="https://ru.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/RU.png" alt="即弃邮箱 Русский" /></a></li><li><a title="即弃邮箱 Svenska" href="https://sv.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/SE.png" alt="即弃邮箱 Svenska" /></a></li><li><a title="即弃邮箱 ภาษาไทย" href="https://th.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/TH.png" alt="即弃邮箱 ภาษาไทย" /></a></li><li><a title="即弃邮箱 Türkçe" href="https://tr.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/TR.png" alt="即弃邮箱 Türkçe" /></a></li><li><a title="即弃邮箱 Tiếng Việt " href="https://vi.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/flags/single/VI.png" alt="即弃邮箱 Tiếng Việt " /></a></li>			  </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+	 	  
+      <div class="row">
+        <div class="small-16 medium-9 columns">
+          <div class="logo logo-2-columns">
+            <a href="https://zh.mytrashmailer.com"><img src="https://static.mytrashmailer.com/assets/images/logos/logo.svg" alt="即弃电子邮箱——免费即弃邮箱服务" /></a>
+          </div>
+          <p class="lead text-left">
+            对要求您提供电子邮箱以便注册的网站厌烦了吗？这都结束了！只需使用我们的免费即弃电子邮箱服务，数秒内就可获得电子邮箱地址！          </p>
+          <a href="javascript:void(0);" id="getstarted" class="header-button left-button">立即开始</a>
+        </div>
+        <div class="small-16 medium-7 columns">
+          <img src="https://static.mytrashmailer.com/assets/images/illustrations/header-trash.png" alt="即弃邮箱" class="main-illustration" />
+        </div>
+      </div>
+    </header>
+
+
+    <section class="number-selection">
+	<a name="getstarted"></a>
+	
+      <div class="row">
+        <div class="small-16 large-12 large-centered columns">
+          <h1 class="text-center">即弃电子邮箱</h1>
+          <p class="text-center">
+            接收任何在线服务的电子邮件消息。          </p>
+		  
+		  <div class="text-center">
+			<ol>
+				<li>选取闪过您脑海并具有我们在此提供的域名后缀的任何电子邮箱地址</li>
+				<li>输入服务所要求的您虚构的电子邮箱地址</li>
+				<li>点击查看收件箱，获取发送至该电子邮箱的消息</li>
+			</ol>
+		  
+        </div>
+
+      </div>
+      <br>
+
+      <div class="row">
+        <div class="small-16 large-12 large-centered columns text-center ">
+
+            <div class="callout">
+    <strong>🔥 Private Sale CRYPTOKING & CRYPTOQUEEN Meme Token</strong>
+    <p>
+        Exclusive early access invitation: Join the Crypto Kingdom!
+    </p>
+    <br>
+    <p>
+        <a target="_blank" href="https://cryptoking.fans">
+        <img src="https://cryptoking.fans/assets/favicons/king-option-03/apple-icon.png" width="50"> CRYPTO KING
+        </a>
+        <br><br>
+
+        <a target="_blank" href="https://cryptoqueen.fans">
+        <img src="https://cryptoqueen.fans/assets/favicons/queen-option-03/apple-icon.png" width="50"> CRYPTO QUEEN
+        </a>
+
+    </p>
+    <br>
+    <p>
+        <strong>Your private invite code</strong><br>
+        <code>$KingTrashMailQueen</code>
+    </p>
+
+    <br>
+    <cite>We are thrilled to extend to you an exclusive, early access opportunity, a testament to your esteemed status in our community. This is your chance to be at the forefront of innovation as an early bird builder in the dynamic world of cryptocurrency.</cite>
+</div>
+        <!--
+          <a href="https://www.spoofbox.com">
+                <img width="250" src="https://www.spoofbox.com/theme/assets/images/ipimage.png" alt="spoofbox">
+                <h3>Spoofbox</h3>
+            </a>
+            <p>
+                Prank your friends with <a href="https://www.spoofbox.com/en/app/spoof-sms">spoof text messages</a>, <a href="https://www.spoofbox.com/en/app/spoof-call">spoof calls</a> or
+                <a href="https://www.spoofbox.com/en/prank/prank-calls">prank calls</a>. We take care of your privacy!
+                With our <a href="https://www.spoofbox.com/en/whats-sim">WhatsSIM</a> you can register with any online service that needs your mobile number.
+                You need a complete private <a href="https://www.spoofbox.com/en/virtual-phone">virtual phone</a>?
+                Get a <a href="https://www.spoofbox.com/en/virtual-number">virtual number</a> for calls and text to communicate safe and secure all around the world.
+            </p>
+            <p>
+                🚀 Need phone numbers for SMS verification such as register accounts on WhatsApp, Facebook, Tinder or any online service but want to keep your privacy?<br>
+                <a title="Buy phone numbers with crypto" href="https://www.getsecondnumber.com/en/faq/buy-phone-number-with-crypto">Buy phone number with CRYPTO</a> to receive text messages and calls.
+                <br><br>
+            <a title="Buy second number" href="https://www.getsecondnumber.com"><img width="150" alt="buy second number" src="https://www.getsecondnumber.com/static/images/logos/app-logo-dark.svg"></a>
+
+            </p>
+         -->
+
+    </div>
+    </div>
+
+      <div class="row">
+        <div class="small-16 large-12 large-centered columns">
+		  
+		  <!-- <form class="mail-selection"> -->
+		  <form role="" class="mail-selection" name="form_receive" id="form_receive" action="https://zh.mytrashmailer.com/ajax.php?task=receive" onsubmit='$.ajax({url: "https://zh.mytrashmailer.com/ajax.php?task=receive", data: $(this.elements).serialize(), success: function(response){$("#ajax_receive").html(response);}, type: "POST", dataType: "html"}); return false;' method="POST"  >		  
+  
+            <div class="input-wrap">
+              <input name="emaillocal" type="text" placeholder="hans.dampf">
+              <select name="emailglobal">
+                <option value="mytrashmailer.com">@mytrashmailer.com</option>
+              </select>
+            </div>
+            <div class="submit-wrap">
+				
+				<!-- Von App -->
+				<input type="hidden" name="osname" value="">
+				<input type="hidden" name="uid" value="">
+				<input type="hidden" name="lang" value="">
+				<input type="hidden" name="appversion" value="">
+				<input type="hidden" name="appident" value="">
+			
+              <input type="submit" onclick="$('#jloaderreceive').show();" value="查看收件箱" class="button button-green uppercase">
+            </div>
+			<div class="clearfix"></div>
+			<br>
+			
+			<center>
+			<strong>Need alternative Trash Mail Domains?</strong><br>
+			Check out our friends at <a href="https://www.spoofbox.com">spoofbox.com</a>
+			</center>
+			
+			
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-16 large-12 large-centered columns">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 891 11" class="divider"><path d="M890.967 8.302c-6.284 1.012-60.07 0-71.098 1.065l-60.44-1.065c1.966.372-7.99.958 1.703 1.065-14.91.053-27.962.106-8.414.64-144.322-2.557-292.688-.108-434.823-1.44-9.586.107-4.048.427-.373.64-26.148-.905-25.03.533-39.355.692l-38.344-1.385c-15.497.372-3.408.8-4.527 1.065-72.533.32-143.2-1.065-201.94-.213-18.64-.533 4.526-1.118-20.184-1.33 12.78.584 5.272.265-7.615.425C6.147 7.77.183 5.266.183 5.266l4.846-.905-.905-.372s9.586-.053 14.485-.107l-5.538-.37c72.958-.96 165.194-.32 240.708-.8l-24.39-.213c11.822.053 50.325-.586 72.213-.053-4.686.053-12.78.16-17.2.16.64.372 9.798.958 27.958 1.065l6.976-.587 7.35.426c27.638 0-8.148-.853 19.543-.853 16.136 1.757 119.13.266 142.988 1.757 18.8-1.225-52.35-.16-31.74-1.33 8.468.212 12.25.425 30.196.53l-6.177-.744c83.716.426 115.668 1.065 190.17.905l-3.035.16c26.574.32 40.847.16 52.72-.48 5.49.373-13.63.533-3.245.853 46.7-1.917 93.352 1.384 121.847.053-3.728 1.492 57.35 2.93 31.896 4.1l19.12-.158z" fill="#e1e8ed" fill-rule="evenodd"/></svg>
+        </div>
+      </div>
+      <div class="row">
+	  
+		<div class="text-center" id="jloaderreceive" style="display:none;"><img width="50" src="https://static.mytrashmailer.com/assets/images/ajax-loader-gears.gif" alt="Loading ..."></div>
+		<div id="ajax_receive"></div>
+	  
+
+      </div>
+    </section>
+	
+	    <section class="features-highlight blue-bg">
+      <div class="row">
+        <div class="small-16 large-12 large-centered columns">
+          <h1 class="text-center">它有何作用？</h1>
+          <p class="text-center">
+            使用我们的免费即弃电子邮箱服务有何作用？对于那些要求您提供电子邮箱地址的任何服务，您可以用来通过验证。无须设立一个电子邮箱账户就可接收邮件消息。保护您的隐私不被第三方获取，使用我们的免费在线验证服务。          </p>
+        </div>
+		
+        <div class="small-up-1 medium-up-3 large-up-3 features" data-equalizer data-equalize-on="medium">
+          <div class="column">
+            <div class="text-center" data-equalizer-watch>
+              <img src="https://static.mytrashmailer.com/assets/images/illustrations/bubble-1@2x.png" alt="隐藏您的电子邮箱" />
+              <h3>隐藏您的电子邮箱</h3>
+              <p>无须设立一个账户就可通过电子邮箱验证。将它用于要求您提供电子邮箱的所有在线服务</p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="text-center" data-equalizer-watch>
+              <img src="https://static.mytrashmailer.com/assets/images/illustrations/bubble-2@2x.png" alt="保护您的电子邮箱安全" />
+              <h3>保护您的电子邮箱安全</h3>
+              <p>发送的所有信息都使用安全 HTTPS（SSL、安全套接字层）协议进行加密</p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="text-center" data-equalizer-watch>
+              <img src="https://static.mytrashmailer.com/assets/images/illustrations/bubble-3@2x.png" alt="保护您真正的移动电子邮箱" />
+              <h3>保护您不受垃圾邮件发送者的骚扰</h3>
+              <p>绝不要再输入您真正的电子邮箱！我们保护您不受任何第三方或垃圾邮件发送者的骚扰</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+		<footer class="main-footer">
+      <div class="row">
+		
+		
+        <div class="small-16 columns">
+          <h3 class="text-center">在您的手机上获取该应用</h3>
+          <!-- <div class="small-up-1 medium-up-2 large-up-4 mobile-apps" data-equalizer data-equalize-on="medium">-->
+		  <div class="small-up-1 medium-up-2 large-up-2 mobile-apps" data-equalizer data-equalize-on="medium">
+            
+			<div class="column">
+              <a href="https://play.google.com/store/apps/details?id=de.rtsmedia.trashmail&hl=zh"><img style="float:right;" class="right" src="https://static.mytrashmailer.com/assets/images/logos/store-google.png" alt="即弃邮箱 App on Google Play" /></a>
+            </div>
+            <div class="column">
+              <a href="https://itunes.apple.com/us/app/trash-mail/id1151045735"><img class="left" style="float:left;" src="https://static.mytrashmailer.com/assets/images/logos/store-apple.png" alt="即弃邮箱 App on Appstore" /></a>
+            </div>
+			
+          </div>
+        </div>
+        <div class="small-16 columns">
+          <hr>
+        </div>
+		<!--
+		
+        <div class="small-16 columns">
+          <h3 class="text-center">Need another verification method? Check out this Apps</h3>
+          <div class="small-up-1 medium-up-2 mobile-apps" data-equalizer data-equalize-on="medium">
+            <div class="column">
+              <a href="#"><img src="https://static.mytrashmailer.com/assets/images/logos/trash-phone-small.png" alt="" /></a>
+            </div>
+            <div class="column">
+              <a href="#"><img src="https://static.mytrashmailer.com/assets/images/logos/trash-small.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-16 columns">
+          <hr>
+        </div>
+
+        <div class="small-16 columns">
+          <h3 class="text-center">Need another verification method? Check out this Apps</h3>
+          <div class="small-up-1 medium-up-2 mobile-apps" data-equalizer data-equalize-on="medium">
+            <div class="column">
+              <a href="#"><img src="https://static.mytrashmailer.com/assets/images/logos/l-p-mytrashmobile.png" alt="" /></a>
+            </div>
+            <div class="column">
+              <a href="#"><img src="https://static.mytrashmailer.com/assets/images/logos/l-p-mytrashphone.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+		
+		
+        <div class="small-16 columns">
+          <hr>
+        </div>
+		-->
+		
+        <!--logos-->
+        <div class="small-16 columns">
+          <h4 class="text-center">查看我们的其它应用</h4>
+		  <p class="text-center">想要改进您的戏弄体验？我们还提供戏弄短信、电话和邮件。</p>
+          <div class="small-up-1 medium-up-2 large-up-4 other-apps" data-equalizer data-equalize-on="medium">
+            <div class="column">
+              <a href="https://zh.fakemysms.com"><img src="https://static.mytrashmailer.com/assets/images/logos/spoof-text.png" alt="虚假短信" /></a>
+            </div>
+            <div class="column">
+              <a href="https://zh.spoofmyemail.com"><img src="https://static.mytrashmailer.com/assets/images/logos/spoof-mail.png" alt="虚假邮件" /></a>
+            </div>
+            <div class="column">
+              <a href="https://www.fakewhats.com"><img src="https://static.mytrashmailer.com/assets/images/logos/spoof-whatsapp.png" alt="虚假 WhatsApp" /></a>
+            </div>
+            <div class="column">
+              <a href="https://zh.spoofmyphone.com"><img src="https://static.mytrashmailer.com/assets/images/logos/spoof-my-phone.png" alt="虚假电话" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-16 columns">
+          <hr>
+        </div>
+        <div class="small-16 columns">
+           <ul class="social">
+            <li><a href="https://www.facebook.com/SpoofMyEmail"><img src="https://static.mytrashmailer.com/assets/images/icons/social-facebook.svg" alt="follow us on Facebook" /></a></li>
+            <li><a href="https://twitter.com/SpoofMyEmail"><img src="https://static.mytrashmailer.com/assets/images/icons/social-twitter.svg" alt="follow us on Twitter" /></a></li>
+			<!--
+            <li><a href="https://plus.google.com/+Spoofmyemail"><img src="https://static.mytrashmailer.com/assets/images/icons/social-google.svg" alt="follow us on Google+" /></a></li>
+			-->
+          </ul>
+        </div>
+        <div class="small-16 columns">
+          <hr class="last-hr">
+        </div>
+		
+        <div class="small-16 large-8 columns">
+          <nav class="bottom-nav">
+            <ul>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
+          </nav>
+        </div>
+		
+        <div class="small-16 large-8 columns">
+          <!-- <p class="copy">Copyright &copy; <span class="date"></span> <a href="javascript:void(0);">mytrashmailer.com</a></p>-->
+		  <p class="copy"> 
+
+		  </p>
+        </div>
+        <img class="hand" src="https://static.mytrashmailer.com/assets/images/illustrations/footer-hand.png" alt="" />
+      </div>
+    </footer>
+	
+    <script src="https://static.mytrashmailer.com/assets/js/app-min.js"></script>
+    <script src="https://static.mytrashmailer.com/assets/js/functions.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	  "palette": {
+		"popup": {
+		  "background": "#f2f2f2",
+		  "text": "#333333"
+		},
+		"button": {
+		  "background": "#0c9fd2",
+		  "text": "#ffffff"
+		}
+	  },
+	  "theme": "classic",
+	  "position": "bottom-right"
+	})});
+	</script>
+	
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-83334737-3', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	
+  <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2f4166bf8a7cb66',t:'MTc4NzQyNDg4Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

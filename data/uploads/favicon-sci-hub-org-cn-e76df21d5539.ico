@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, post-check=0, pre-check=0"/>
+        <meta http-equiv="Connection" content="Close"/>
+        <script type="text/javascript">
+            function AutoJump(){
+            	var now = new Date();
+            	var time = now.getTime();
+            	var refresh = window.localStorage.getItem('refresh');
+            	if (refresh===null || (time-refresh)>60*1000){
+            		window.localStorage.setItem('refresh', time); 
+                	window.location.reload();
+                }
+            }
+        </script>
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?dad9beaf45839ce372642d1247c47d5d";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+            var now = new Date();
+            var time = now.getTime();
+            time += 600 * 1000;
+            now.setTime(time);
+            document.cookie="Hm_vpk_6e1146bfafb0b9620f3d2a54bb0404339533867080917df00ceb4c4f=1787424634;expires="+now.toGMTString()+";path=/;";
+            })();
+        </script>
+        <script>setTimeout("AutoJump()", 20);</script>
+    </head>
+</html>

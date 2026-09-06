@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<!--[if lte IE 7]><html class="ie6 oldie" id="ie6" lang="zh"><![endif]-->
+<!--[if IE 7]><html class="ie7 oldie" id="ie7"  lang="zh"><![endif]-->
+<!--[if IE 8]><html class="ie8 oldie" id="ie8"  lang="zh"><![endif]-->
+<!--[if IE 9]><html class="ie9" lang="zh"><![endif]-->
+<!--[if !(IE)]><!-->
+<html class="notie" lang="zh">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /> -->
+  <meta name="Keywords"
+    content="360公益,360公益,360公益官网,360公益款,360救助官网,360大病互助,360公益是真的,爱心筹,轻松筹,水滴筹,悟空筹,筹款,公益,我筹吧,360筹,大病筹,百姓筹,大病救助,大病筹款" />
+  <meta name="Description" content="360公益官方平台，由360发起，致力于通过科技创新，为网友提供安全、便捷的公益参与平台，推动公益慈善事业发展。" />
+  <meta name="author" content="360公益(https://www.360baobao.com.cn/)" />
+  <meta name="baidu-site-verification" content="ck9m9mHZ4y" />
+  <meta name="copyright" content="Copyright @www.360baobao.com.cn 版权所有" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="renderer" content="webkit" />
+  <link rel="shortcut icon" href="/favicon.png" />
+  <title>360公益</title>
+  <link href="./css/reset.css" rel="stylesheet">
+  <link href="./css/base.css" rel="stylesheet">
+  <link href='./css/components.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./public/swiper/swiper.min.css">
+  <style type="text/css">
+    .chou_pc {
+      width: 100%;
+    }
+
+    .wrapper {
+      width: 100%;
+      position: relative;
+    }
+
+    .content>div {
+      margin: 0 auto;
+    }
+
+    .bind_mobile {
+      width: 360px;
+      background: #fff;
+      position: absolute;
+      top: 15%;
+      right: 10%;
+      z-index: 999;
+    }
+
+    .bind_mobile button {
+      width: 100%;
+      height: 60px;
+      background: linear-gradient(270deg, rgba(15, 181, 118, 1) 0%, rgba(106, 211, 139, 1) 100%);
+      border-radius: 4px;
+      border: none;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .form_text {
+      margin-top: 12px;
+      line-height: 28px;
+    }
+
+    .form_text>li {
+      display: flex;
+      align-items: center;
+    }
+
+    .form_text>li::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      margin-right: 5px;
+      border-radius: 50%;
+      background: #0FB576;
+    }
+
+    .success_img {
+      width: 100%;
+      height: 240px;
+    }
+
+    .job_radius {
+      width: 140px;
+      height: 140px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0FB576;
+    }
+
+    .job_radius img {
+      width: 50%;
+    }
+
+    .job_wrap {
+      justify-content: center;
+    }
+
+    .job_wrap>div {
+      margin-right: 145px;
+    }
+
+    .job_wrap>div:last-child {
+      margin-right: 0;
+    }
+
+    .media {
+      display: flex;
+      justify-content: center;
+    }
+
+    .media_left {
+      width: 520px;
+    }
+
+    .media_left__img {
+      width: 520px;
+      height: 280px;
+    }
+
+    .media_left img {
+      width: 100%;
+      height: 280px;
+    }
+
+    .media_button {
+      cursor: pointer;
+      background: none;
+      display: inline-block;
+      width: 160px;
+      height: 48px;
+      font-size: 16px;
+      text-align: center;
+      line-height: 48px;
+      border: 1px solid #FF1D25;
+      color: #FF1D25;
+      border-radius: 28px;
+    }
+
+    .media_button:hover {
+      background: linear-gradient(90deg, #FF7BAC 0%, #FF1D25 100%);
+      color: #fff;
+    }
+
+    .media_right {
+      width: 498px;
+    }
+
+    .media_right>div {
+      border-bottom: 1px solid #DDDDDD;
+    }
+
+
+    .success_item {
+      width: 350px;
+      height: 460px;
+    }
+
+    .success_content {
+      width: 1100px;
+      margin: 60px auto 0;
+    }
+
+    .text_show2 {
+      text-overflow: -o-ellipsis-lastline;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .succ {
+      top: 50%;
+      left: 50%;
+      z-index: 9999;
+      width: 731px;
+      height: 520px;
+      display: none;
+    }
+
+    .succ .content {
+      padding: 90px 0;
+      box-shadow: 0px 5px 27px 0px rgba(14, 107, 69, 0.12);
+      width: 731px;
+      background: rgba(255, 255, 255, 1);
+      border-radius: 8px;
+      margin-left: -50%;
+      margin-top: -350px;
+    }
+
+    .succ .close {
+      right: 40px;
+      top: 40px;
+    }
+
+    .media_list {
+      border-bottom: 1px solid #DDDDDD;
+    }
+
+    .swiper-container-home {
+      height: 504px;
+      overflow: hidden;
+      background: #f9f9f9;
+    }
+
+    #swiper-wrapper {
+      height: 504px;
+    }
+
+    #swiper-wrapper .swiper-slide,
+    #swiper-wrapper img{
+      height: 100%;
+    }
+
+    .custom-bullet {
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      margin: 0 5px;
+      display: inline-block;
+      background: rgba(0,0,0,.2);
+    }
+    .custom-bullet-active {
+      width: 16px;
+      border-radius: 4px;
+      background: #ff1d25;
+    }
+
+    .projects-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .projects-list__item {
+      width: 100px;
+      transition: 0.3s;
+    }
+
+    .projects-list__item-text {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 15px;
+    }
+
+    .projects-list__item-icon {
+      width: 46px;
+      height: 55px;
+      background: url(https://p2.ssl.qhimg.com/t01dc7950b33268c7c7.png) no-repeat 0 0;
+      background-size: 294px;
+      margin: 0 auto;
+    }
+
+    .projects-list__item:hover {
+      transform: scale(1.2);
+    }
+
+    .projects-list__item-icon.health {
+      width: 52px;
+      background-position: -46px 0;
+    }
+
+    .projects-list__item-icon.edu {
+      width: 49px;
+      background-position: -100px 0;
+    }
+
+    .projects-list__item-icon.difficulty {
+      width: 48px;
+      background-position: -150px 0;
+    }
+
+    .projects-list__item-icon.nature {
+      width: 48px;
+      background-position: -198px 0;
+    }
+
+    .projects-list__item-icon.other {
+      width: 48px;
+      background-position: -246px 0;
+    }
+
+
+    .jigou-honor__content {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: start;
+      margin-top: 60px;
+      height: 360px;
+    }
+
+    .jigou-honor__news {
+      flex: 1;
+      padding-left: 50px;
+      overflow-y: auto;
+      height: 100%;
+      direction: rtl;
+    }
+
+    .jigou-honor__news-item {
+      text-align: left;
+      color: #999;
+      font-size: 24px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      cursor: pointer;
+    }
+
+    .jigou-honor__news-icon__wrap {
+      display: none;
+    }
+
+
+    .jigou-honor__news-item.active {
+      color: #ff1d25;
+    }
+    .jigou-honor__news-item.active .jigou-honor__news-icon__wrap {
+      display: block;
+      overflow: hidden;
+    }
+    .jigou-honor__news-item.active .jigou-honor__news-icon {
+      background: #F2F5F9;
+    }
+
+    .jigou-honor__news-icon {
+      margin-top: 20px;
+      float: left;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #E5E5E5;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .jigou-honor__news-icon::before {
+      content: "";
+      display: block;
+      width: 20px;
+      height: 20px;
+      background: url(https://p2.ssl.qhimg.com/t01461efc6ba8837564.png) no-repeat center;
+      background-size: contain;
+    }
+
+
+    .jigou-honor__img {
+      padding-left: 50px;
+      display: flex;
+      justify-content: end;
+      width: 45%;
+      height: 100%;
+    }
+
+    .jigou-honor__img img {
+      display: none;
+      height: 100%;
+      max-width: 100%;
+      vertical-align: middle;
+    }
+
+    .jigou-honor__img img:nth-child(1) {
+      display: block;
+    }
+
+  </style>
+
+  <script alt="jquery" src="https://ss4.360tres.com/static/92ea5ca69d56c975.js"></script>
+  <!-- js-cookie v3.0.1 -->
+  <script src="https://ss4.360tres.com/static/6d2a1c3c9f338427.js"></script>
+  <script src="./public/env.js"></script>
+  <!-- js报错监控脚本  -->
+  <script src="https://s0.ssl.qhres2.com/static/777ca42b93a8a6e3.js"></script>
+
+</head>
+
+<body style="position:relative">
+  <noscript>您的浏览器不支持javascript</noscript>
+  <div class="chou_pc">
+
+    <div class="wrapper">
+      <div class="header justify ac">
+        <div class="logo">
+          <img src='https://so4.360tres.com/t018d0e83a0811d7ebe.png' alt=''></img>
+        </div>
+        <ul class="justify header-nav">
+          <li class="show_border plr10">首页</li>
+          <li class="ml50 "><a href='./projects.html' class="">公益项目</a></li>
+          <li class="ml50"><a href='./media.html' class="">新闻动态</a></li>
+          <li>
+            <div class="guanyu_my">
+              <span class="c-bg-FFFFFF">关于我们</span>
+              <div class="guanyu_my_list">
+                <div class="tc mt35 pos-r c-262626"><a href='./jiandu.html?page=2'>社会责任</a></div>
+                <div class="tc mt35 pos-r c-262626"><a href='./jiandu.html?page=3'>联系我们</a></div>
+                <div class="tc mt35 pos-r c-262626"><a href='./jiandu.html?page=5'>信息公开</a></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div id="jigouPort"
+              style="display: inline-block; background:#FF1D25;color:#fff;width:104px;height:34px;line-height:34px;">
+              机构入驻</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="swiper-container-home mt80">
+        <div id="swiper-wrapper" class="swiper-wrapper">
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+
+    <!-- 项目列表 -->
+    <div class="projects-list pt90"></div>
+
+
+    <div class="content" id="media-content">
+      <div class="pt90">
+        <div class="tc fs32 c-262626 fw-6">媒体报道</div>
+        <div class="mt60 media">
+          <div class="media_left c-bg-F7F7F7 pb40"></div>
+          <div class="media_right ml80"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tc fs32 c-262626 fw-6 pt90">机构荣誉</div>
+    <div class="jigou-honor__content">
+      <ul class="jigou-honor__news"></ul>
+      <div class="jigou-honor__img"></div>
+    </div>
+  </div>
+
+  <div class="footer c-bg-f3f3f5 mt120 pt40">
+    <div style="width: 560px; margin: 0 auto;">
+      <div class="flex justify_content_between align-top">
+        <div>
+          <div class="fs14 l-h-20"><span class="c-777 ">公司名称：</span>北京奇保信安科技有限公司</div>
+          <div class="fs14 l-h-20 mt15"><span class="c-777 ">公司地址：</span>北京市朝阳区酒仙桥路360总部大厦</div>
+          <div class="fs14 l-h-20 mt15"><span class="c-777 ">友情链接：</span><a href='https://www.360.cn/'
+              target="_blank">360集团</a> | <a href='https://www.360jinrong.net/ ' target="_blank">360数科集团</a>
+          </div>
+        </div>
+
+        <div>
+          <p class="fs14 c-777">邮箱地址:</p>
+          <p class="fs22 mt10">360-gongyi@360.cn</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div style="width: 580px; margin: 0 auto;">
+      <div class="tc pt55">
+        <div class="fs14 l-h-20 pb20 c-999999">360公益致力于用科技力量解决社会问题，不收取公益机构任何费用。</div>
+
+        <a class="c-999999 fs12" href='https://so4.360tres.com/t01bc66671d8e90984d.jpg'>©北京奇保信安科技有限公司
+          信息系统安全等级保护三级
+          信息安全认证 11010513179-20001</a>
+      </div>
+      <div class="tc pt10"><a class="c-999999 fs12"
+          href='https://beian.miit.gov.cn/#/Integrated/index'>京ICP备2024046759号-2</a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ss4.360tres.com/!0b08ed96/radar-analytic-js-sdk.umd.js"></script>
+  <script src="https://ss4.360tres.com/static/e8b9097ed0005195.js"></script>
+  <script src="./public/swiper/swiper.min.js"></script>
+  <script src='./public/header.js'></script>
+  <script src='./public/log.js'></script>
+  <script src="./public/utils.js"></script>
+  <script type="text/javascript">
+    var apiOrigin = 'gy-api'
+
+    //首页轮播图配置
+    var mySwiper_home
+    function initSwiper() {
+      mySwiper_home = new Swiper('.swiper-container-home', {
+        autoHeight: true,
+        direction: 'horizontal',
+        observer: true,
+        observeParents: true,
+        loop: true,
+        speed: 800,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          bulletClass: 'custom-bullet',
+          bulletActiveClass: 'custom-bullet-active'
+        }
+      })
+
+      //新闻页轮播图配置属性
+      mySwiper_home.el.onmouseover = function () { //鼠标放上暂停轮播
+        mySwiper_home.autoplay.stop();
+      }
+
+      mySwiper_home.el.onmouseleave = function () {
+        mySwiper_home.autoplay.start();
+      }
+    }
+
+    // 获取 banner 图
+    getBannerImgs()
+    function getBannerImgs() {
+      $.ajax(
+        apiOrigin + '/home', 
+        { method: 'get', dataType: 'json' }
+      ).done(function(res) {
+        if(res.meta && res.meta.code === 'SUCCESS') {
+          if(!res.data) { return } 
+          generateBannerImgs(res.data.top_list)
+
+          initSwiper()
+        }
+      })
+    }
+
+    function generateBannerImgs(data) {
+      if(!data || !data.length) { return }
+      var ele = []
+
+      if(window.GYCanWebp) {
+        for(var i=0; i<data.length; i++) {
+          var item = data[i]
+          ele.push('<div class="swiper-slide">')
+          ele.push('  <a href="/projectdetail.html?item_uuid='+ item.item_uuid +'">')
+          ele.push('    <img src="'+ window.GYConvertToWebp(item.pc_list_img_id) +'" alt="'+ item.title +'" />')
+          ele.push('  </a>')
+          ele.push('</div>')
+        }        
+      } else {
+        for(var i=0; i<data.length; i++) {
+          var item = data[i]
+          ele.push('<div class="swiper-slide">')
+          ele.push('  <a href="/projectdetail.html?item_uuid='+ item.item_uuid +'">')
+          ele.push('    <img src="'+ item.pc_list_img_id +'" alt="'+ item.title +'" />')
+          ele.push('  </a>')
+          ele.push('</div>')
+        }
+      }
+
+      $('.swiper-wrapper').append(ele.join(''))
+
+    }
+
+
+    // 新闻模块
+    getNews()
+    function getNews() {
+      $.ajax(
+        apiOrigin + '/medias',
+        { method: 'get', dataType: 'json' }
+      ).done(function(res) {
+        if(res.meta && res.meta.code === 'SUCCESS') {
+          if(res.data && res.data.length === 0) { 
+            $('#media-content').remove()
+            return 
+          }
+        
+          generateNews(res.data)
+        }
+      })
+    }
+
+    function generateNews(data) {
+      var leftNew = data.find(item => item.top_flag === 2)
+      var eleLeft = []
+      eleLeft.push('<div class="media_left__img">')
+
+      if(window.GYCanWebp) {
+        eleLeft.push('  <img src="'+ window.GYConvertToWebp(leftNew.pic) +'" />')
+      } else {
+        eleLeft.push('  <img src="'+ leftNew.pic +'" />')
+      }
+
+      eleLeft.push('</div>')
+      eleLeft.push('<div class="fs16 c-999999 fw-4 mt30 plr30">'+ leftNew.subheading +'</div>')
+      eleLeft.push('<div class="plr30 fs22 c-262626 l-h-30 mt30 fw-4">'+ leftNew.main_title +'</div>')
+      eleLeft.push('<a href="'+ leftNew.report_url +'" class="mt60 ml30 c-0FB576 media_button" target="_blank">查看详情</a>')
+
+      $('.media_left').append(eleLeft.join(''))
+
+
+      var rightNews = data.filter(item => item.top_flag === 1).slice(0, 4)
+      var eleRight = []
+      for(var i=0; i<rightNews.length; i++){
+        var item = rightNews[i]
+
+        eleRight.push('<a href="'+ item.report_url +'" target="_blank">')
+        eleRight.push('  <div class="mt30 pb20 mb80 media_list pb30">')
+        eleRight.push('    <div class="fs16 c-999999">'+ item.subheading +'</div>')
+        eleRight.push('    <div class="fs22 c-262626 mt20 l-h-30 fw-4">'+ item.main_title +'</div>')
+        eleRight.push('  </div>')
+        eleRight.push('</a>')
+      }
+
+      $('.media_right').append(eleRight.join(''))
+      $('.media_right').append('<p class="mt60 "><a class="c-FF7900" href="./media.html">了解更多>></a></p>')
+
+    }
+  
+    
+    // banner 下方配置
+    const configs = [
+      {
+        title: '全部',
+        key: 'all',
+        url: '/projects.html'
+      },
+      {
+        title: '医疗',
+        key: 'health',
+        url: '/projects.html?type=health'
+      },
+      {
+        title: '教育',
+        key: 'edu',
+        url: '/projects.html?type=edu'
+      },
+      {
+        title: '济困',
+        key: 'difficulty',
+        url: '/projects.html?type=difficulty'
+      },
+      {
+        title: '自然',
+        key: 'nature',
+        url: '/projects.html?type=nature'
+      },
+      {
+        title: '其他',
+        key: 'other',
+        url: '/projects.html?type=other'
+      },
+    ]
+
+    const createProjectListStr = (url, type, title) => {
+      return `
+        <a href="${url}" class="projects-list__item">
+          <div class="projects-list__item-icon ${type}"></div>
+          <p class="projects-list__item-text">${title}</p>
+        </a>
+      `
+    }
+
+    const htmlStr = configs.reduce((prev, curr) => {
+      const { url, key, title } = curr
+      return prev += createProjectListStr(url, key, title)
+    }, '')
+
+    $('.projects-list').html(htmlStr)
+
+
+    // 机构荣誉
+    const news = [
+      '2023年度施予受品牌推广合作平台', '北京民营企业社会责任百强', 
+      '凤凰公益2023公益盛典“年度十大公益企业”入围奖', '获“2021—2022年度中国互联网行业自律贡献和公益奖”', 
+      '周鸿祎获选2022光彩之星', '周鸿祎获选2023中国民营企业社会责任优秀企业家'
+    ];
+
+    const newsImages = [
+      'https://p4.ssl.qhimg.com/t017b14421ec68d5ae1.png', 'https://p1.ssl.qhimg.com/t01835625a1919c70b5.jpg',
+      'https://p1.ssl.qhimg.com/t0186130135f10b79b1.png', 'https://p3.ssl.qhimg.com/t01946f05441495bc9f.jpg',
+      'https://p4.ssl.qhimg.com/t018ec3b8e03251f079.png', 'https://p4.ssl.qhimg.com/t01b56c3813d854e285.png'
+    ];
+
+    $(function() {  
+      const htmlStr = news.reduce((prev, curr) => {
+        return prev += `
+          <li class="jigou-honor__news-item ${prev === '' && 'active'}">
+            <p>${curr}</p>
+            <div class="jigou-honor__news-icon__wrap">
+              <div class="jigou-honor__news-icon"></div>
+            </div>
+          </li>
+        `
+      }, '');
+      $('.jigou-honor__news').html(htmlStr);
+
+
+      const imgsStr = newsImages.reduce((prev, curr) => {
+        let imgStr = '';
+
+        if(window.GYCanWebp) {
+          imgStr = `<img src="${ window.GYConvertToWebp(curr)}" />`
+        } else {
+          imgStr = `<img src="${curr}" />`
+        }
+
+        return prev += imgStr
+      }, '');
+      $('.jigou-honor__img').html(imgsStr);
+
+
+      $('.jigou-honor__news').on('click', 'li', function() {
+        $('.jigou-honor__news li').each((index, item) => $(item).removeClass('active'))
+        $(this).addClass('active')
+
+        $('.jigou-honor__img img').css('display', 'none');
+        
+        $('.jigou-honor__img img').eq($(this).index()).css('display', 'block');
+      })
+    })
+
+  
+  </script>
+  
+  <!-- 性能监控脚本 -->
+  <script src="https://s5.ssl.qhres2.com/static/da03cf145098d422.js"></script>
+</body>
+
+</html>

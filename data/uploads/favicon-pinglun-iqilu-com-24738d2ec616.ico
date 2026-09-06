@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex,nofollow,noarchive" />
+<meta http-equiv="refresh" content="3; url=https://www.iqilu.com/" />
+	<meta content="404" name="Description"/>
+<meta content="404" name="Keywords"/>
+<title>404</title>
+<link href="https://www.iqilu.com/html/404/cssnew.css" type="text/css" rel="stylesheet"/>
+</head>
+<script language="javascript">
+var refer=""+document.referrer;
+if(!refer){
+	refer="https://www.iqilu.com";
+}else{
+	refer=refer.match(/^http\:\/\/[^\/]+/);
+}
+
+setTimeout(function(){
+window.location=refer;
+},9500);
+</script>
+<body>
+	<div class="wrap">
+		<div id="logo"></div>
+		<div class="info_404"></div>
+	</div>
+	<div class="info_list">
+	<ul>
+		<li><a href="https://www.iqilu.com/" target="_blank" title="齐鲁网首页"><span>齐鲁网首页</span></a></li>
+		<li><a href="https://news.iqilu.com/" target="_blank" title="齐鲁新闻"><span>齐鲁新闻</span></a></li>
+	</ul>
+</div>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe103b9b88b1fe7e673646c0657465680' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>

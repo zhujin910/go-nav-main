@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="羊驼小站社区资源与经验分享" />
+    <link rel="icon" href="/assets/favicon.1a87e288.ico" type="image/x-icon" />
+    
+    <title>羊驼小站</title>
+    <script type="module" crossorigin src="/assets/index.a1734abe.js"></script>
+    <link rel="stylesheet" href="/assets/index.5c7426b4.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+  </body>
+</html>

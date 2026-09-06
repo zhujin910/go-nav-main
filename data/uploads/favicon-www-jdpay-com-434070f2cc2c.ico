@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>京东钱包PC页面下线公告</title>
+    <link rel="icon" href="//www.jd.com/favicon.ico" type="image/x-icon" />
+    <style>
+        @import url(https://storage.360buyimg.com/atom-assets/css/font.css);
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+            background-color: #f4f3f8;
+        }
+
+        .fallback-page {
+            min-height: 100vh;
+            background-color: #f4f3f8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 0;
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* 顶部 banner 区域 - 铺满屏幕 */
+        .fallback-banner {
+            width: 100vw;
+            height: 180px;
+            background: linear-gradient(180deg, #7c7e95 0%, #7c7e95 50%, #c7c9dc 100%);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: calc(50% - 50vw);
+            padding: 0;
+        }
+
+        .fallback-banner .banner-content {
+            width: 731px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .fallback-banner .banner-decoration {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.08;
+            pointer-events: none;
+        }
+
+        .fallback-banner .banner-logo {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-bottom: 14px;
+            margin-left: 14px;
+            position: relative;
+            z-index: 1;
+            width: 560px;
+            max-width: 95vw;
+        }
+
+        .fallback-banner .banner-logo img {
+            height: 24px;
+        }
+
+        .fallback-banner .banner-title-row {
+            display: flex;
+            align-items: baseline;
+            justify-content: flex-start;
+            margin-left: 14px;
+            gap: 8px;
+            position: relative;
+            z-index: 1;
+            width: 560px;
+            max-width: 95vw;
+        }
+
+        .fallback-banner .banner-title {
+            font-size: 34px;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.2;
+            text-align: center;
+            font-family: "jingdonglangzhengti2", "PingFang SC", sans-serif;
+        }
+
+        .fallback-banner .banner-brand {
+            font-size: 12px;
+            color: #ffffff;
+            text-align: center;
+            opacity: 0.8;
+            margin-left: 90px;
+        }
+
+        /* 卡片包裹区域 - 与banner重叠 */
+        .fallback-card-wrapper {
+            width: 560px;
+            max-width: 95vw;
+            margin: -49px auto 0;
+            padding-top: 30px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* 主容器 */
+        .fallback-main {
+            width: 100%;
+            max-width: 560px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* 内容卡片 */
+        .fallback-card {
+            width: 100%;
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px 30px 36px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        /* 公告正文 */
+        .fallback-notice {
+            margin-bottom: 24px;
+        }
+
+        .fallback-notice .notice-greeting {
+            font-size: 16px;
+            color: #666666;
+            line-height: 25px;
+            margin-bottom: 12px;
+        }
+
+        .fallback-notice .notice-content {
+            font-size: 16px;
+            color: #666666;
+            line-height: 25px;
+        }
+
+        .fallback-notice .notice-content .notice-highlight {
+            color: #333333;
+            font-weight: 500;
+        }
+
+        /* 分隔线 */
+        .fallback-divider {
+            width: 100%;
+            height: 1px;
+            background-color: rgba(0, 0, 0, 0.06);
+            margin: 0;
+        }
+
+        /* 优势列表区域 */
+        .fallback-benefits {
+            padding: 24px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            width: 100%;
+        }
+
+        .fallback-benefits .benefits-illustration {
+            flex-shrink: 0;
+            width: 160px;
+            height: 160px;
+        }
+
+        .fallback-benefits .benefits-illustration img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .fallback-benefits .benefits-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .fallback-benefits .benefit-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .fallback-benefits .benefit-icon {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+        }
+
+        .fallback-benefits .benefit-icon img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .fallback-benefits .benefit-text {
+            font-size: 16px;
+            color: #333333;
+            line-height: 25px;
+        }
+
+        /* 感谢语 */
+        .fallback-gratitude {
+            font-size: 16px;
+            color: #666666;
+            line-height: 25px;
+            text-align: left;
+            padding-top: 12px;
+        }
+
+        /* 响应式适配 */
+        @media (max-width: 768px) {
+            .fallback-page {
+                padding-top: 30px;
+            }
+            .fallback-banner {
+                width: 100vw;
+                height: 140px;
+            }
+            .fallback-banner .banner-content {
+                width: 90vw;
+                max-width: 731px;
+            }
+            .fallback-banner .banner-title {
+                font-size: 24px;
+            }
+            .fallback-card-wrapper {
+                width: 90vw;
+                max-width: 731px;
+            }
+            .fallback-benefits {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .fallback-benefits .benefits-illustration {
+                width: 120px;
+                height: 120px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .fallback-banner {
+                height: 120px;
+            }
+            .fallback-banner .banner-title {
+                font-size: 20px;
+            }
+            .fallback-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="fallback-page">
+        <!-- 顶部 banner - 铺满屏幕 -->
+        <div class="fallback-banner">
+            <div class="banner-content">
+                <div class="banner-logo">
+                    <img src="https://s4-relay.360buyimg.com/relay/c/cut/8/ca19b4e0025157f647723e978a2ea19c" alt="京东钱包" style="height: 24px;" />
+                </div>
+                <div class="banner-title-row">
+                    <div class="banner-title">京东钱包PC页面下线公告</div>
+                    <div class="banner-brand">—— JD PAY</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 卡片区域 -->
+        <div class="fallback-card-wrapper">
+            <div class="fallback-card">
+                <!-- 公告正文 -->
+                <div class="fallback-notice">
+                    <div class="notice-greeting">尊敬的用户，您好：</div>
+                    <div class="notice-content">
+                        为了提供更优质、便捷的服务体验，本页面服务已下线。后续所有相关功能与服务，请移步至<span class="notice-highlight">"京东APP-我的-钱包-余额"</span>内继续使用。
+                    </div>
+                </div>
+
+                <!-- 分隔线 -->
+                <div class="fallback-divider"></div>
+
+                <!-- 优势列表 -->
+                <div class="fallback-benefits">
+                    <div class="benefits-illustration">
+                        <img src="https://s3-relay.360buyimg.com/relay/c/cut/8/e6d250c84835d2d0f25a9672598e2bb4" alt="京东钱包移动端" />
+                    </div>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <img src="https://s5-relay.360buyimg.com/relay/c/cut/8/39ca50a4516372a86289fe369815aa67" alt="" />
+                            </div>
+                            <span class="benefit-text">移动端体验更流畅</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <img src="https://s5-relay.360buyimg.com/relay/c/cut/8/39ca50a4516372a86289fe369815aa67" alt="" />
+                            </div>
+                            <span class="benefit-text">随时随地操作更便捷</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <img src="https://s5-relay.360buyimg.com/relay/c/cut/8/39ca50a4516372a86289fe369815aa67" alt="" />
+                            </div>
+                            <span class="benefit-text">功能更全面</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 感谢语 -->
+                <div class="fallback-gratitude">感谢您一直以来对京东钱包的支持与理解！</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

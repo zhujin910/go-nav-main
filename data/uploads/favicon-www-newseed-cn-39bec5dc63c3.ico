@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>页面没有找到-新芽</title>
+<meta content="" name="description" />
+<meta content="" name="keywords" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<link rel="icon" href="https://static.pedaily.cn/app/newseed/favicon.ico" mce_href="https://static.pedaily.cn/app/newseed/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://static.pedaily.cn/app/newseed/favicon.ico" mce_href="https://static.pedaily.cn/app/newseed/favicon.ico" type="image/x-icon"/>
+<meta name="apple-mobile-web-app-title" content="新芽NewSeed"/>
+<link rel="apple-touch-icon" href="https://static.pedaily.cn/app/newseed/touch-icon-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="https://static.pedaily.cn/app/newseed/touch-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="https://static.pedaily.cn/app/newseed/touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="https://static.pedaily.cn/app/newseed/touch-icon-ipad-retina.png" />
+<link href="https://www.newseed.cn/head/css/default2017.css?202408021352" rel="stylesheet" type="text/css" media="all"/>
+<link href="//at.alicdn.com/t/font_mv6gs89ueyuy2e29.css" rel="stylesheet" type="text/css" media="all"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://static.pedaily.cn/newseed/head/css/ie.css" type="text/css" media="screen" />
+<![endif]-->
+<script type="text/javascript" src="/head/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="https://static.pedaily.cn/newseed/head/js/request.js"></script>
+
+<style>
+.not-page{border: 5px solid #E4E6E5;width:600px;margin:150px auto 100px;}
+.not-box{padding:40px;text-align: center;border: 1px solid #DDD;font-size: 18px;font-family: 微软雅黑;}
+.not-box .olist li{font-size:18px;line-height:34px;text-align:left;}
+</style>
+<script type="text/javascript">
+function $obj() {
+    var elements = new Array();
+    for (var i = 0; i < arguments.length; i++) {
+        var element = arguments[i];
+        if (typeof element == 'string')
+            element = document.getElementById(element);
+        if (arguments.length == 1)
+            return element;
+        elements.push(element);
+    }
+    return elements;
+}
+var t=10;
+function isIFrameSelf(){try{if(window.top ==window){return false;}else{return true;}}catch(e){return true;}}
+function toHome(){if(!isIFrameSelf()){ window.location.href="http://www.newseed.cn/";}}
+function tot(){t=t-1;$obj('t').innerHTML=t;setTimeout("tot()",1000);}
+window.setTimeout("tot()",1000);
+window.setTimeout("toHome()",10000);
+</script>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="head-nav headroom-top animated" id="page-top">
+        <div class="main">
+            <div class="box-fix-l"><a href="http://www.newseed.cn/" class="top-logo"><img src="https://pic.pedaily.cn/newseed/logo.png" alt="新芽NewSeed"></a></div>
+            <div class="box-fix-c">
+                <ul class="top-nav" id="top-nav">
+                    <li><a href="http://www.newseed.cn/">首 页</a></li>
+                    <li class="has-sub">
+                        <a href="http://news.newseed.cn">资 讯<i class="iconfont icon-s-down"></i></a>
+                        <ul class="sub-box">
+                            <li><a href="http://news.newseed.cn/c4218" title="酷公司">酷公司</a></li>
+                            <li><a href="http://news.newseed.cn/c4219" title="事业线">事业线</a></li>
+                            <li><a href="http://news.newseed.cn/c4220" title="资本论">资本论</a></li>
+                            <li><a href="http://news.newseed.cn/c4221" title="科技控">科技控</a></li>
+                            <li><a href="http://news.newseed.cn/c4222" title="国际FAN">国际FAN</a></li>
+                            <li><a href="http://news.newseed.cn/c4096" title="创始人说">创始人说</a></li>
+                            <li><a href="http://news.newseed.cn/c4223" title="串儿吧">串儿吧</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sub">
+                        <a href="http://www.newseed.cn/data.shtml">数 据<i class="iconfont icon-s-down"></i></a>
+                        <ul class="sub-box">
+                            <!--<li><a href="http://www.newseed.cn/invest">融资事件</a></li>-->
+                            <li><a href="http://www.newseed.cn/project">创业项目</a></li>
+                            <li><a href="http://www.newseed.cn/investor">投资人</a></li>
+                            <li><a href="http://www.newseed.cn/vc">投资机构</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sub">
+                        <a href="http://www.newseed.cn/college/">学 院<i class="iconfont icon-s-down"></i></a>
+                        <ul class="sub-box">
+                            <li><a href="http://www.newseed.cn/qa">创业问答</a></li>
+                            <li><a href="http://www.newseed.cn/doc">创业文库</a></li>
+                            <li><a href="http://www.newseed.cn/baike">创业百科</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sub">
+                        <a href="http://www.newseed.cn/service/">服 务<i class="iconfont icon-s-down"></i></a>
+                        <ul class="sub-box">
+                            <li><a href="http://www.newseed.cn/uc/project/create" target="_blank">上传项目</a></li>
+                            <li><a href="http://www.newseed.cn/uc/report" target="_blank">寻求报道</a></li>
+                            <li><a href="http://www.newseed.cn/uc/founder" target="_blank">创始人说</a></li>
+                            <li><a href="http://www.newseed.cn/events" target="_blank">活动</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-special"><a href="http://www.newseed.cn/rank2018/" target="_blank">新芽榜</a></li>
+                </ul>
+            </div>
+            <div class="box-fix-r">
+                <ul class="right-nav">
+                    <li class="nav-search">
+                        <div class="search-box">
+                            <div class="input-group">
+                                <input type="text" id="search_key" placeholder="搜资讯 / 项目" class="search-text top-search-key">
+                                <button id="search_btn" type="button" class="top-search-btn"><i class="iconfont icon-search_more"></i></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navlink-wechat">
+                        <a href="#"><i class="iconfont icon-wechat"></i></a>
+                        <div class="nav-wechat"><img src="https://pic2.pedaily.cn/201703/20170320@192351.jpg" class="img" alt="新芽微信公众号"><span>新芽微信公众号</span></div>
+                    </li>
+                    <li class="navlink-app">
+                        <a href="http://www.newseed.cn/app-download.shtml" target="_blank"><i class="iconfont icon-shouji"></i></a>
+                        <div class="nav-app"><img src="https://pic2.pedaily.cn/17/201704/20170410@201656.jpg" class="img" alt="新芽APP下载"><span>新芽APP下载</span></div>
+                    </li>
+                    <li class="nav-login" id="login"><a href="http://www.newseed.cn/login">登录</a><a href="http://www.newseed.cn/signup">注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--头部end-->
+<div class="page-content">
+  <div class="main">
+    <div class="not-page">
+  		<div class="not-box">
+  				<h2 style="font-size:24px;margin:0 0 20px 0;">您正在浏览的网页可能已被删除或者转移。</h2>
+  				<ol class="olist">
+  					<li>1. 检查网址是否正确</li>
+  					<li>2. 直接访问<a href="http://www.newseed.cn/" style="color:#1e50a2">新芽网首页</a></li>
+  					<li>3. <span id="t" style="color:red;font-weight:bold;">10</span> 秒后返回新芽首页</li>
+  				</ol>
+  		</div>
+  	</div>
+  </div>
+</div>
+<!--底部start-->
+<div class="footer" id="footer">
+  <div class="main">
+    <dl>
+      <dt class="about-us">
+        <h4>关于我们</h4>
+        <p>清科创业旗下新芽NewSeed致力于为早期创业者、创始人和天使投资人提供又新又快的创业资讯、创投融资对接、创投学院，新芽是创业者都关注的资本聚集地、你就是下一个独角兽。</p>
+        <address>
+          新芽资讯/内容：王女士<br>
+          电话：010 6415 8500 转 8113<br>
+          邮箱：<a href="mailto:lilywang@zero2ipo.com.cn">lilywang@zero2ipo.com.cn</a>
+        </address>
+        <address>
+          新芽市场/媒体：林女士<br>
+          电话：010 6415 8500 转 6310<br>
+          邮箱：<a href="mailto:ranlin@zero2ipo.com.cn">ranlin@zero2ipo.com.cn</a>
+        </address>
+      </dt>
+      <dt class="web-map">
+        <h4>地图</h4>
+        <ul>
+          <h5><a href="https://news.newseed.cn"  target="_blank">资讯</a></h5>
+            <li><a href="https://news.newseed.cn/c4218" target="_blank">酷公司</a></li>
+            <li><a href="https://news.newseed.cn/c4219" target="_blank">事业线</a></li>
+            <li><a href="https://news.newseed.cn/c4220" target="_blank">资本论</a></li>
+            <li><a href="https://news.newseed.cn/c4221" target="_blank">科技控</a></li>
+            <li><a href="https://news.newseed.cn/c4222" target="_blank">国际FAN</a></li>
+            <li><a href="https://news.newseed.cn/c4096" target="_blank">创始人说</a></li>
+            <li><a href="https://news.newseed.cn/c4223" target="_blank">串儿吧</a></li>
+        </ul>
+        <ul>
+          <h5><a href="https://www.newseed.cn/data.shtml" target="_blank">数据</a></h5>
+          <li><a href="https://www.newseed.cn/invest" target="_blank">融资事件</a></li>
+          <li><a href="https://www.newseed.cn/project" target="_blank">创业项目</a></li>
+          <li><a href="https://www.newseed.cn/investor" target="_blank">投资人</a></li>
+          <li><a href="https://www.newseed.cn/vc" target="_blank">投资机构</a></li>
+        </ul>
+		<ul>
+		  <h5><a href="https://www.newseed.cn/college/">学院</a></h5>
+		  <li><a href="https://www.newseed.cn/qa" target="_blank">创业问答</a></li>
+		  <li><a href="https://www.newseed.cn/doc" target="_blank">创业文库</a></li>
+		  <li><a href="https://www.newseed.cn/baike" target="_blank">创业百科</a></li>
+		</ul>
+        <ul>
+          <h5>服务</h5>
+          <li><a href="https://www.newseed.cn/uc/project/create" target="_blank">上传项目</a></li>
+         
+          <li><a href="https://www.newseed.cn/uc/founder" target="_blank">创始人说</a></li>                              
+          <li><a href="https://www.newseed.cn/up.shtml" target="_blank">新芽榜</a></li>
+        </ul>
+		<ul>
+		  <h5>兄弟网站</h5>
+		  <li><a href="https://www.pedaily.cn/index1.shtml" target="_blank"><img src="https://pic2.pedaily.cn/17/201707/20170705@238243.png" style="width:80px;margin-top:5px;"></a></li>
+		</ul>
+      </dt>
+      <dt class="foot-code">
+        <div class="code-box">
+          <img src="https://pic2.pedaily.cn/201703/20170320@192351.jpg"/>
+          <p><i class="iconfont icon-wechat"></i>新芽微信</p>
+        </div>
+        <div class="code-box">
+          <img src="https://pic2.pedaily.cn/17/201704/20170410@201656.jpg"/>
+          <p><i class="iconfont icon-shouji"></i>新芽APP</p>
+        </div>
+      </dt>
+    </dl>
+  </div>
+</div>
+<div class="copyright">
+    <div class="main">
+        <div class="des">
+            <span class="company">
+                <span>Copyright ©1999-2024 新芽</span>
+            </span>
+          	 <span><a href="https://beian.miit.gov.cn" target="_blank" style="color:#fff;">京ICP备17028573号-3</a></span>
+            <span><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502030129" style="color:#fff">京公网安备 11010502030129号</a></span> <span>京B2-20181248 </span>
+          <ul>
+			<li><a href="http://www.zero2ipo.com.cn/job.html" target="_blank">加入我们</a></li>
+			<li><a href="https://www.newseed.cn/rss/rss.xml" target="_blank">Rss订阅</a></li>
+			<li><a href="https://www.newseed.cn/tag/" target="_blank">Tag标签</a></li>
+			<li><a href="javascript:void(0)" class="suggest">意见反馈</a></li>
+			<li><a href="https://www.newseed.cn/app-download.shtml" target="_blank">APP</a></li>
+            <li><a href="https://m.newseed.cn" target="_blank">手机站</a></li>
+        </ul>
+        </div>
+    </div>
+</div>
+<div class="tipoff" id="tipoff"><div class="main">违法和不良信息举报电话：010-64158500-8113，18610056652    举报邮箱：<a href="mailto:infoweb@zero2ipo.com.cn">infoweb@zero2ipo.com.cn</a>    <a href="https://www.12377.cn/" target="_blank">举报网上不良信息</a></div></div>
+<div class="box-scoll" id="box-scoll"></div>
+<script type="text/javascript" src="https://static.pedaily.cn/assets/js/md5.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="https://static.pedaily.cn/newseed/layer/layer.js"></script>
+<script type="text/javascript" src="https://static.pedaily.cn/newseed/head/js/jquery.pure-uploader.js"></script>
+<script type="text/javascript" src="https://static.pedaily.cn/newseed/head/js/lockr.js"></script>
+<script type="text/javascript" src="https://static.pedaily.cn/newseed/head/js/win.js"></script>
+<script type="text/javascript" src="https://static.pedaily.cn/newseed/head/js/base64.min.js"></script>
+<script type="text/javascript" src="/head/js/common2017.js?5"></script>
+<script type="text/javascript" src="https://www.newseed.cn/head/js/form.validate.js?2"></script>
+<script type="text/javascript" src="https://static.pedaily.cn/head/js/sha1.js"></script>
+<script type="text/javascript" src="https://static.pedaily.cn/head/js/nav2016.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?25919c38fb62b67cfb40d17ce3348508";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+     wxshare();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?155833ecab8e70af6f2498f897bd8616";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3500607-3']);
+  _gaq.push(['_setDomainName', '.newseed.cn']);
+  _gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+<!--底部end-->
+</body>
+</html>

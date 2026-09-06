@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+        <link rel="icon" href="/uploads/image/20260813/9fcc6fbba3d8f84947920c702db16b34.png" />
+        <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+    <title>云易搜 - 聚合网盘搜索资源神器，好用的全能网盘搜索引擎</title>
+    <meta name="keywords" content="网盘搜索，云盘搜索，资源搜索，盘搜" />
+    <meta name="description" content="云易搜为您提供最新最全的百度网盘、阿里云盘、夸克云盘、迅雷网盘、UC网盘等网盘资源搜索服务，每天更新大量最新的网盘资源，资源实时失效检测。汇集了全网海量资源。满足您的需求！" />
+    <meta name="referrer" content="no-referrer">
+    <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="http://so.yuneu.com/" />
+        <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="云易搜" />
+    <meta property="og:title" content="云易搜 - 聚合网盘搜索资源神器，好用的全能网盘搜索引擎" />
+    <meta property="og:description" content="云易搜为您提供最新最全的百度网盘、阿里云盘、夸克云盘、迅雷网盘、UC网盘等网盘资源搜索服务，每天更新大量最新的网盘资源，资源实时失效检测。汇集了全网海量资源。满足您的需求！" />
+        <meta property="og:url" content="http://so.yuneu.com/" />
+        <link rel="stylesheet" href="/views/index/news/common/static/css/index.min.css">
+    <link rel="stylesheet" href="/views/index/news/common/static/css/app.css">
+    <link rel="stylesheet" href="/views/index/news/common/static/css/m.css">
+
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebSite","name":"云易搜","url":"http://so.yuneu.com/","potentialAction":{"@type":"SearchAction","target":"http://so.yuneu.com/s/{search_term_string}","query-input":"required name=search_term_string"}}    </script>
+
+        
+    <style>
+        :root {
+            --theme-color: #1A1A1A;
+            --theme-theme: #5FA1FC;
+            --theme-background: #F5F4F0;
+            --theme-other_background: #FFFFFF;
+        }
+                /* ========== 广告位统一样式（横幅/文字/图片/底部4类） ========== */
+        .ad-banner-wrap { width: 100%; max-width: 1200px; margin: 12px auto; padding: 0 16px; box-sizing: border-box; }
+        .ad-banner-link { display: block; width: 100%; max-height: 120px; overflow: hidden; border-radius: 8px; text-decoration: none; background: #f5f6fa; position: relative; }
+        .ad-banner-img { width: 100%; height: auto; max-height: 120px; object-fit: cover; display: block; }
+        .ad-banner-text { padding: 18px 24px; font-size: 16px; color: #333; font-weight: 600; text-align: center; }
+        /* 图片型横幅标题：桌面同显示，移动端隐藏（仅对 home_top_banner 图片广告生效，不影响纯文字广告） */
+        .ad-banner-cap { padding: 18px 24px; font-size: 16px; color: #333; font-weight: 600; text-align: center; }
+        @media screen and (max-width: 768px) {
+            .ad-banner-cap { display: none; }
+        }
+        .ad-text-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 14px auto; max-width: 1200px; padding: 0 16px; box-sizing: border-box; }
+        .ad-text-link { padding: 6px 16px; background: #fff; border-radius: 6px; border: 1px solid #e8eaef; text-decoration: none; color: #555; font-size: 13px; transition: all 0.15s; }
+        .ad-text-link:hover { color: #6366f1; border-color: #6366f1; }
+        .ad-pic-row { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin: 14px auto; max-width: 980px; padding: 0 16px; box-sizing: border-box; }
+        .ad-pic-link { flex: 1 1 320px; min-width: 0; padding: 10px; background: #fff; border-radius: 8px; border: 1px solid #e8eaef; text-decoration: none; box-shadow: 0 1px 4px rgba(0,0,0,0.04); transition: transform 0.15s; box-sizing: border-box; }
+        .ad-pic-link:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        .ad-pic-img { width: 100%; height: auto; border-radius: 4px; display: block; }
+        .ad-pic-title { margin-top: 8px; font-size: 13px; color: #333; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .ad-bottom-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 16px auto; max-width: 1200px; padding: 0 16px; box-sizing: border-box; }
+        .ad-bottom-link { display: flex; align-items: center; gap: 8px; padding: 8px 16px; background: #fff; border-radius: 6px; border: 1px solid #e8eaef; text-decoration: none; color: #333; font-size: 13px; transition: all 0.15s; }
+        .ad-bottom-link:hover { color: #6366f1; border-color: #6366f1; }
+        .ad-bottom-icon { width: 24px; height: 24px; object-fit: cover; border-radius: 4px; }
+
+        /* ========== 搜索页三栏布局 ========== */
+        .listBox-3col { display: flex; gap: 16px; max-width: 1200px; margin: 12px auto; padding: 0 16px; box-sizing: border-box; align-items: flex-start; }
+        .listBox-3col .screen { width: 160px; flex-shrink: 0; }
+        .listBox-3col .left { flex: 1; min-width: 0; }
+        .listBox-3col .right { width: 240px; flex-shrink: 0; }
+        .listBox-3col .col-left-bottom { width: 100%; margin-top: 16px; }
+        .listBox-3col .col-right-top { width: 100%; margin-bottom: 16px; }
+
+        .ad-sidebar-link { display: block; width: 100%; margin-bottom: 12px; padding: 10px; background: #fff; border-radius: 8px; border: 1px solid #e8eaef; text-decoration: none; box-shadow: 0 1px 4px rgba(0,0,0,0.04); transition: transform 0.15s; box-sizing: border-box; }
+        .ad-sidebar-link:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        .ad-sidebar-img { width: 100%; height: auto; max-height: 320px; object-fit: cover; border-radius: 4px; display: block; }
+        .ad-sidebar-title { margin-top: 8px; font-size: 13px; color: #333; text-align: center; }
+
+        /* 移动端：三栏折叠为单栏，隐藏右栏 */
+        @media (max-width: 960px) {
+            .listBox-3col { flex-direction: column; }
+            .listBox-3col .screen { width: 100%; }
+            .listBox-3col .left { width: 100%; }
+            .listBox-3col .right { width: 100%; }
+        }
+    </style>
+<meta name="referrer" content="never">
+</head>
+
+<body>
+    <div class="headBg" style="background-image: url();"></div>
+    <div id="app" v-cloak>
+        <div class="headerBox">
+    <div class="bg" :style="{ opacity: elementOpacity }" ></div>
+    <div class="box">
+        <a href="/" class="logoBox" :style="{ opacity: elementOpacity }" >
+                        <img class="logo" src="/uploads/image/20260813/9fcc6fbba3d8f84947920c702db16b34.png" alt="云易搜"></img>
+                        <div class="title">云易搜</div>
+                    </a>
+        <div class="search" :style="{ opacity: elementOpacity }" >
+            <input type="text" v-model="keyword" placeholder="输入关键字进行搜索" @keyup.enter="searchBtn" confirm-type="search"
+                @confirm="searchBtn">
+            <div class="btn" @click="searchBtn">
+                <i class="iconfont icon-sousuo"></i>
+            </div>
+        </div>
+        <div class="navs">
+                        <div class="item" @click="qcodeVisible = true">加入群聊</div>
+                        <div class="item" @click="layerVisible = true">提交需求</div>
+                        <a class="item" href="/submit">提交资源</a>
+            <div class="btns" v-html="`&lt;a href=&quot;/copyright/&quot; target=&quot;_blank&quot;&gt;版权保护申请&lt;/a&gt;
+&lt;a href=&quot;/nav&quot; target=&quot;_blank&quot;&gt;网站导航&lt;/a&gt;`"></div>
+
+            <div class="iconfont icon-caidan" @click="drawer = true"></div>
+        </div>
+    </div>
+</div>
+<div class="headerKox"></div>
+
+
+<el-dialog v-model="qcodeVisible" width="300">
+    <img src="/uploads/image/20260813/64e64db5e9256968cc6e50b98afcca60.jpg" style="width: 100%" />
+</el-dialog>
+
+<el-dialog v-model="layerVisible" width="300">
+    <div class="layerBox">
+        <div class="vname">提交需求</div>
+        <el-input v-model="content" placeholder="请输入你想看的资源信息~" type="textarea" resize='none'></el-input>
+        <div class="vbtn" @click="saveBtn">提交</div>
+    </div>
+</el-dialog>
+
+<el-dialog v-model="drawer" width="300" center>
+    <div class="drawer">
+                <div class="item" @click="qcodeVisible = true">加入群聊</div>
+                    <div class="item" @click="layerVisible = true">提交需求</div>
+                        <a class="item" href="/submit">提交资源</a>
+            <div class="btns" v-html="`&lt;a href=&quot;/copyright/&quot; target=&quot;_blank&quot;&gt;版权保护申请&lt;/a&gt;
+&lt;a href=&quot;/nav&quot; target=&quot;_blank&quot;&gt;网站导航&lt;/a&gt;`"></div>
+        </div>
+    </el-dialog>
+
+<el-dialog title="" v-model="dialogUrl" class="dialogUrlBox" :close-on-click-modal="false">
+    <div v-loading="dialogLoading" class="dialogUrl" v-if="dialogUrl">
+        <div v-if="dialogItem.showUrl">
+            <block v-show="pc_type!=1">
+                <block v-if="dialogItem.is_type==0">
+                    <div class="title">请使用 <span>夸克APP</span> 扫码获取</div>
+                    <div class="tips">打开夸克APP- 点击搜索框中的相机 - 点击扫码</div>
+                </block>
+                <block v-else-if="dialogItem.is_type==3">
+                    <div class="title">请使用 <span>UC浏览器</span> 扫码获取</div>
+                    <div class="tips">打开UC浏览器- 点击搜索框中的相机 - 点击扫码</div>
+                </block>
+                <block v-else>
+                    <div class="title">请使用 <span>手机扫码</span> 获取</div>
+                    <div class="tips">打开微信APP- 点击右上角 - 选择扫一扫</div>
+                </block>
+                <div class="qrcode" id="qrcode"></div>
+            </block>
+            <div class="nav">
+                <div class="item">
+                    <span class="t">{{dialogItem.title}}</span>
+                </div>
+                <div class="item" v-show="pc_type!=2">
+                    <span>资源地址：</span>
+                    <a :href="dialogItem.showUrl" target="_blank" rel="nofollow noopener noreferrer">{{dialogItem.showUrl}}</a>
+                </div>
+            </div>
+        </div>
+        <div v-else-if="!dialogLoading">
+            <div class="title">获取失败</div>
+            <div class="tips" style="color: #FF3F3D;">{{dialogItem.message}}</div>
+        </div>
+        <div class="statement">
+            <div class="content">
+                <p>🔔 声明：本站链接均由程序自动收集自公开网盘，不存储、不传播任何文件，跳转链接指向网盘官网。</p>
+                <p>文件内容请自行辨别，如发现违规请向网盘平台举报。本站仅供学习交流，无任何收费行为。</p>
+            </div>
+        </div>
+    </div>
+</el-dialog>
+
+        <!-- ========== 广告位 1：首页顶部横幅（导航下方，整宽 banner） ========== -->
+                <div class="ad-banner-wrap">
+                        <a href="https://nav.jiamingai.cn/go/ad/8" target="_blank" rel="nofollow noopener" class="ad-banner-link">
+                                <img class="ad-banner-img" src="https://img.xwyue.com/i/2026/06/18/6a33441985896.gif" alt="AI大模型中转Api" />
+                                <div class="ad-banner-cap">AI大模型中转Api</div>
+                            </a>
+                    </div>
+                <div class="homeBox searchBox">
+            <div class="box">
+                <div class="logoBox">
+                                        <img class="logo" src="/uploads/image/20260813/9fcc6fbba3d8f84947920c702db16b34.png" alt="云易搜为您提供最新最全的百度网盘、阿里云盘、夸克云盘、迅雷网盘、UC网盘等网盘资源搜索服务，每天更新大量最新的网盘资源，资源实时失效检测。汇集了全网海量资源。满足您的需求！"></img>
+                                        <h1 class="title">云易搜</h1>
+                                    </div>
+                                <div class="subTitle">致力于做最好用的网盘资源搜索引擎。</div>
+                                <div class="search">
+                    <input type="text" v-model="keyword" placeholder="输入关键字进行搜索" @keyup.enter="searchBtn"
+                        confirm-type="search" @confirm="searchBtn">
+                    <div class="btn" @click="searchBtn">
+                        <i class="iconfont icon-sousuo"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========== 广告位 2：首页多文字（搜索框下方，多个文字标签横排） ========== -->
+                        <div class="ad-text-row">
+                                <a href="#" target="_blank" rel="nofollow noopener" class="ad-text-link">
+                    邀请加群：欢迎加入微信资源分享交流群,微信：940913                </a>
+                            </div>
+            
+            <!-- ========== 广告位 3：首页图片（文字下方，多张固定宽图片） ========== -->
+                        <div class="ad-pic-row">
+                                <a href="https://loomy.cgref.cn/s/dqnd025k2z" target="_blank" rel="nofollow noopener" class="ad-pic-link">
+                                        <img class="ad-pic-img" src="https://img.xwyue.com/i/2026/08/17/6a81f71d22006.webp" alt="Loomy：桌面级AI助理" />
+                                        <div class="ad-pic-title">Loomy：桌面级AI助理</div>
+                </a>
+                            </div>
+                        <div class="home ">
+                
+
+            </div>
+        </div>
+        <!-- ========== 广告位 4：首页底部通栏（内容后、footer前） ========== -->
+                <div class="footerBox">
+    <div class="box">
+        <p>声明：本站是网盘索引系统,所有内容均来自互联网所提供的公开引用资源，未提供资源上传、存储服务。</p>
+        <p>
+            © 2026 云易搜 Powered by <a href="https://so.yuneu.com/" target="_blank">云易搜</a>            <a href="/sitemap.xml" target="_blank">网站地图</a>
+        </p>
+    </div>
+</div>
+    </div>
+    <script src="/views/index/news/common/static/js/vue.global.min.js"></script>
+<script src="/views/index/news/common/static/js/index.full.min.js"></script>
+<script src="/views/index/news/common/static/js/axios.min.js"></script>
+<script src="/views/index/news/common/static/js/qrcanvas@3.js"></script>
+<script>
+    const { createApp, ref, onMounted, onUnmounted } = Vue;
+    const { ElButton, ElMessage  } = ElementPlus;
+    const app = createApp({
+        setup() {
+            // 定义响应式数据
+            const elementOpacity = ref(0);
+            const scrollThreshold = ref(150); // 动态设置的滚动阈值
+            const keyword = ref('');
+            const qcodeVisible = ref(false);
+            const layerVisible = ref(false);
+            const content = ref('');
+            const load = ref(false)
+            const drawer = ref(false)
+            const rankList = ref([]);
+            const rankDj = ref([]);
+            const is_m = ref(0);
+            const newList = ref([]);
+            const QList = ref([]);
+            const QLoading = ref(false);
+            const total_result = ref(0);
+            const currentSource = ref(0);
+            const dialogUrl = ref(false);
+            const dialogLoading = ref(false);
+            const dialogItem = ref({});
+            const is_type = ref(0);
+            const pc_type = ref(0);
+            
+            
+            // 公共消息方法
+            const showMessage = (message, type = 'info') => {
+                ElMessage({
+                    message,
+                    type,
+                    plain: true,
+                });
+            };
+
+
+             // 滚动监听方法
+            const handleScroll = () => {
+                const scrollTop = window.scrollY || document.documentElement.scrollTop;
+                elementOpacity.value = scrollTop >= scrollThreshold.value
+                    ? Math.min((scrollTop - scrollThreshold.value) / 100, 1)
+                    : Math.max(1 - (scrollThreshold.value - scrollTop) / 100, 0);
+    
+                const boxElement = document.querySelector('.listBox .screen .fixed .box');
+                if (boxElement.style.display === 'block' && is_m.value) {
+                    boxElement.style.display = 'none'; // 隐藏元素
+                }
+            };
+
+            // 搜索按钮点击事件
+            const searchBtn = () => {
+                if (!keyword.value) {
+                    return showMessage('请输入你要搜索的内容~', 'error');
+                }
+                const currentUrl = window.location.href;
+                const targetUrl = `/s/${keyword.value}.html`;
+                if (currentUrl.includes('/s/') || currentUrl.includes('/d/')) {
+                    window.location.href = targetUrl;
+                } else {
+                    window.open(targetUrl, '_blank');
+                }
+            };
+            
+            // 保存按钮点击事件
+            const saveBtn = async () => {
+                if (!content.value) {
+                    return showMessage('请输入你想看的资源信息~', 'error');
+                }
+                if (load.value) return;
+    
+                load.value = true;
+                try {
+                    const response = await axios.post('/api/tool/feedback', { content: content.value });
+                    showMessage(response.data.message, response.data.code === 200 ? 'success' : 'error');
+                    if (response.data.code === 200) {
+                        layerVisible.value = false;
+                        content.value = '';
+                    }
+                } finally {
+                    load.value = false;
+                }
+            };
+            
+            const setnum = (num) => (num / 10000).toFixed(2) + 'W';
+            
+            const goLink = (event,id) => {
+                event.preventDefault();
+                window.location.href = `/d/${id}.html`;
+            }
+            
+            const changeBtn = (e) => {
+                const category_id = `0`;
+                if(category_id){
+                    window.location.href = `/s/${keyword.value}-${e}-${category_id}.html`;
+                }else{
+                    window.location.href = `/s/${keyword.value}-${e}.html`;
+                }
+            };
+            
+            const copyText = async(event,title,url,code) => {
+                event.preventDefault();
+                var text = '标题：'+title+'\n链接：'+url
+                if (code) text += `\n提取码：${code}`;
+                text += `\n由【${'云易搜'}${window.location.hostname}】提供网盘分享链接`;
+                
+                
+                try {
+                    // 优先使用 navigator.clipboard
+                    await navigator.clipboard.writeText(text);
+                    showMessage('复制成功', 'success');
+                } catch (err) {
+                    // 如果 navigator.clipboard 失败，使用 document.execCommand 作为回退
+                    const textArea = document.createElement('textarea');
+                    textArea.value = text;
+                    textArea.style.position = 'fixed';  // 避免滚动
+                    textArea.style.opacity = 0;
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+            
+                    try {
+                        const successful = document.execCommand('copy');
+                        if (successful) {
+                            showMessage('复制成功', 'success');
+                        } else {
+                            throw new Error('复制失败');
+                        }
+                    } catch (err) {
+                        showMessage('复制失败，请手动复制', 'error');
+                    }
+            
+                    document.body.removeChild(textArea);
+                }
+            }
+            
+            const selectBtn = () => {
+                if(!is_m.value) return;
+                const boxElement = document.querySelector('.listBox .screen .fixed .box');
+                // 切换 display 属性，显示或隐藏
+                if (boxElement.style.display === 'none' || boxElement.style.display === '') {
+                    boxElement.style.display = 'block'; // 显示
+                } else {
+                    boxElement.style.display = ''; // 隐藏
+                }
+            }
+            
+            const handleDeviceType = () => {
+                const isMobile = window.matchMedia('(max-width: 768px)').matches;
+                if (isMobile) {
+                    // 手机端的逻辑
+                    is_m.value = 1
+                    pc_type.value = 1
+                } else {
+                    // 电脑端的逻辑
+                    is_m.value = 0
+                    pc_type.value = '2';
+                }
+            };
+
+
+            // 组件挂载时添加滚动监听
+            onMounted(() => {
+                handleDeviceType();
+                
+                window.addEventListener('scroll', handleScroll);
+                window.addEventListener('resize', handleDeviceType);
+            });
+
+            // 组件卸载时移除滚动监听
+            onUnmounted(() => {
+                window.removeEventListener('scroll', handleScroll);
+                window.removeEventListener('resize', handleDeviceType);
+            });
+
+            // 返回数据和方法
+            return { elementOpacity, scrollThreshold, keyword, searchBtn, rankList,newList, setnum, qcodeVisible, layerVisible, content, saveBtn, rankDj,goLink,changeBtn,copyText,drawer,selectBtn,is_m,QList,QLoading,total_result,currentSource,dialogUrl,dialogLoading,dialogItem,is_type,pc_type };
+        }
+    })
+    .use(ElementPlus) // 使用 Element Plus
+    .mount('#app'); // 挂载 Vue 实例
+</script>
+    <script type="text/javascript" charset="utf-8">
+        app.rankList = JSON.parse('[]');
+        for (const item of app.rankList) {
+            if (item.is_sys != 1) {
+                continue;
+            }
+            axios.get('/api/tool/ranking', {
+                params: {
+                    channel: item.name
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>

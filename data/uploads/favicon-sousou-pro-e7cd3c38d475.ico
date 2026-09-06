@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+    <meta name="apple-mobile-web-app-title" content="ReMan"/>
+    <link rel="manifest" href="/site.webmanifest"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand"/>
+    <meta name="keywords" content="盘搜,盘搜Pro,盘搜VIP,盘搜搜,网盘搜索,网盘资源"/>
+    <meta name="description" content="盘搜VIP是一个专业的网盘资源搜索引擎，旨在为用户提供一个免费、高效的网盘资源搜索平台。用户可以通过盘搜快速找到存储在各大网盘上的资源，包括但不限于阿里云盘、百度网盘、夸克网盘、迅雷网盘、UC网盘、蓝奏云盘和115网盘等，盘搜VIP以其强大的搜索能力和简洁的用户界面，成为了寻找网盘资源的有力工具。"/>
+    <title>网盘搜索-找网盘资源就上盘搜VIP-聚合网盘搜索引擎</title>
+    <script>
+      this.globalThis || (this.globalThis = this);
+    </script>
+    <script type="module" crossorigin="" src="/assets/index-Lp-Gj9HB.js"></script>
+    <link rel="modulepreload" crossorigin="" href="/assets/react-B_LUbPOy.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/es-BxU7Fsg-.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/toast-8H8FzM21.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/useQuery-BKPKwCCr.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/useMutation-CpSH_d-3.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/wasm-DNPEGe9F.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/request-BUaAJQvo.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/isUndefined-BHVCzT5G.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/typography-CEwEmGM0.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/spin-BUBnxwGU.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/middleware-BeQXjWBs.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/jsx-runtime-X_IzF_3H.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/clsx-DWz4Q8_5.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/AppIcon-DwYJI9AH.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/types-BeqkAoRA.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/siteConfigApi-C0qWJ1aR.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/siteConfigCache-bDzvlw2X.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/extends-69on7N6B.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/emotion-is-prop-valid.esm-mk4rkqEZ.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/emotion-styled.browser.esm-GXpBJpAy.js"/>
+    <link rel="stylesheet" crossorigin="" href="/assets/es-hgtInxV8.css"/>
+    <link rel="stylesheet" crossorigin="" href="/assets/toast-BjFbWQfj.css"/>
+    <link rel="stylesheet" crossorigin="" href="/assets/typography-AaZib68z.css"/>
+    <link rel="stylesheet" crossorigin="" href="/assets/spin-CupC3upn.css"/>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-6-7UiBZ5.css"/>
+  <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6180209417021041" crossorigin="anonymous"></script>
+<script>
+console.log(
+  "%c ReMan %c v1.25.3",
+  "background:#f1404b;color:#fff;padding:6px 10px;border-radius:6px 0 0 6px;font-weight:bold;",
+  "background:#222;color:#fff;padding:6px 10px;border-radius:0 6px 6px 0;"
+);
+
+console.log(
+  "%c🔍 网盘搜索引擎程序",
+  "color:#aaa;font-size:12px;"
+);
+
+console.log(
+  "%c📄 文档: https://docs.hunhepan.com/reman/",
+  "color:#03A9F4;"
+);
+
+console.log(
+  "%c✨ Powered by ReMan",
+  "color:#666;font-style:italic;"
+);
+</script>
+<script>window.APP_CONFIG = {"online_user":489,"anti_key":"fAVpmcnhM2cZ9Pyyaeln"}</script><meta name="version" content="v1.25.3"/>
+	<meta name="git_hash" content="2541c370b8f58cc2131a9412646e8d58182d00d5"/>
+	<meta name="build_time" content="2026-06-25 16:40:15"/>
+	<meta name="author" content="https://docs.hunhepan.com/reman/"/><script defer="" src="https://tj.panso.vip/script.js" data-website-id="fd448680-8410-4edd-8516-f5293b28184e"></script><style></style></head>
+
+  <body>
+    <div id="root"></div>
+  
+
+<noscript id="reman-content"></noscript><script>console.log("GENERATE HTML COST: 804.996µs")</script></body></html>

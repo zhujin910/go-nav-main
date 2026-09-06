@@ -1,0 +1,449 @@
+
+
+<!doctype html>
+<html lang="en" class="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+  <meta property="og:title" content="Fog of World - Experience a Richer Life" />
+  <meta property="og:image" content="https://fogofworld.app/static/images/facebook_share.2d19bab95238.jpg" />
+  
+  <meta property="og:description" content="Fog of World is a real-life, travel and exploring game where you need to remove the fog on the map by exploring the world. It's a fantastic way to visualize everywhere you have been in your entire life or to discover places around you!" />
+  <meta property="og:url" content="https://fogofworld.app/en/" />
+  <meta property="fb:app_id" content="410091419104598" />
+
+  <meta name="description" content="Fog of World is a real-life, travel and exploring game where you need to remove the fog on the map by exploring the world. It's a fantastic way to visualize everywhere you have been in your entire life or to discover places around you!" />
+  <meta name="author" content="Ollix" />
+  <meta name="apple-itunes-app" content="app-id=505367096, affiliate-data=myAffiliateData" />
+
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/images/apple-touch-icon.3d5c9ec4c10f.png" />
+  <link rel="icon" type="image/png" href="/static/images/favicon-64.ecc4cd221519.png" sizes="64x64" />
+  <link rel="icon" type="image/png" href="/static/images/favicon-32.4caf0ea352d7.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/static/images/favicon-16.b2593bbdd804.png" sizes="16x16" />
+  <link rel="mask-icon" href="/static/images/safari-pinned-tab.6b66bbe9e9d6.svg" color="#33aaff" />
+  <link rel="shortcut icon" href="/static/images/favicon.cb35cef15fd7.ico" />
+
+  <link rel="alternate" href="https://fogofworld.app" hreflang="x-default" />
+  <link rel="alternate" hreflang="en" href="https://fogofworld.app/en/" />
+  <link rel="alternate" hreflang="es" href="https://fogofworld.app/es/" />
+  <link rel="alternate" hreflang="da" href="https://fogofworld.app/da/" />
+  <link rel="alternate" hreflang="de" href="https://fogofworld.app/de/" />
+  <link rel="alternate" hreflang="fr" href="https://fogofworld.app/fr/" />
+  <link rel="alternate" hreflang="it" href="https://fogofworld.app/it/" />
+  <link rel="alternate" hreflang="ja" href="https://fogofworld.app/ja/" />
+  <link rel="alternate" hreflang="ko" href="https://fogofworld.app/ko/" />
+  <link rel="alternate" hreflang="nl" href="https://fogofworld.app/nl/" />
+  <link rel="alternate" hreflang="ru" href="https://fogofworld.app/ru/" />
+  <link rel="alternate" hreflang="uk" href="https://fogofworld.app/uk/" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://fogofworld.app/zh-hans/" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://fogofworld.app/zh-hant/" />
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" />
+  <link rel="stylesheet" href="/static/css/base.3cbc1783f1e6.css" />
+  
+  <link rel="stylesheet" href="/static/css/index.86b3dc296c86.css" />
+
+
+  <style>
+    body {
+      font-family: 'Noto Sans', sans-serif;
+    }
+    
+
+  </style>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '709025722805398');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=709025722805398&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <title>Fog of World - Experience a Richer Life</title>
+</head>
+<body>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=410091419104598";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34817497-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-34817497-1');
+    </script>
+  
+
+  
+
+<div id="header">
+  <div class="container-xxl p-4">
+    <div class="row gx-5">
+      
+      <div class="col-12 col-md-6 col-xl-7 order-2 align-self-center">
+        
+        <h3 id="slogan" class="display-4">
+          Experience a Richer Life Today
+        </h3>
+        
+        
+<ul class="nav store-button-nav">
+
+
+  <li class="nav-item"><a id="app-store-button" class="store-button" href="https://itunes.apple.com/app/fog-of-world/id505367096"><div>Download on the <em>App Store</em></div></a></li>
+
+
+
+  <li class="nav-item"><a id="google-play-button" class="store-button" href="https://play.google.com/store/apps/details?id=com.ollix.fogofworld"><div>GET IT ON <em>Google Play</em></div></a></li>
+
+
+</ul>
+      </div>
+      
+      <div class="col-12 col-md-6 col-xl-5 order-1 text-center">
+        
+        
+        <img src="/static/images/en/fog_map.250e97835695.png" srcset="/static/images/en/fog_map.250e97835695.png 1x, /static/images/en/fog_map@2x.07e1c11b6ab9.png 2x" class="img-fluid" />
+      </div>
+    </div>  
+  </div>  
+</div>  
+
+<div id="short_description" class="full_width p-3">
+  <div class="container-xxl">
+    <h5>With Fog of World, you relive those destinations and the path that lead you there. Map it; draw each stride out for you to see. Look at the work of art you’ve created - just by traveling. By knowing you cannot be contained.</h5>
+  </div>
+</div>
+<div id="app_icon" class="p-5 text-center">
+    
+    <img src="/static/images/fogofworld_app_icon.ae2968b04ad9.svg" class="app_icon"/>
+    <img src="/static/images/en/fogofworld_title.d0db06e9f71d.svg" alt="Fog of World" class="title img-fluid"/>
+    <div id="money_back">
+    <p>30 days money back guarantee for the Android version. No question asked. <span class="learn_more"><a href="/en/money_back">Learn More</a></span></p>
+    </div>
+</div>
+
+<div id="quotes">
+  <div class="container-xxl p-4">
+    <div class="row row-cols-1 row-cols-sm-3 g-5 p-4">
+      <div id="gizmodo-quote" class="col">
+        <span>This Fog of World app might be the funniest app I’ve seen in a long time</span>
+        <img src="/static/images/media_gizmodo_logo.e4a2ff55478c.svg" alt="Gizmodo"/>
+      </div>
+      <div id="business-insider-quote" class="col">
+        <span>We don't remember the last time we've run into an app that is as interesting as Fog of World</span>
+        <img src="/static/images/media_business_insider_logo.074cf3733a2b.svg" alt="Business Insider"/>
+      </div>
+      <div id="appstorm-quote" class="col">
+        <span>Fog of World turns moving through your city and your world into a game of exploration</span>
+        <img src="/static/images/media_appstorm_logo.e7de8b7f31f3.svg" alt="AppStorm"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="full_width">
+<div class="container-xxl">
+
+<div class="fow-view row row-cols-1 gy-2">
+  <h1 class="col-12">Memories; everything that makes you.</h1>
+  <h4 class="col-12">Retrace each step; follow yourself back to the liberating moments you created - anywhere and everywhere.</h4>
+  <div class="col-12">
+    
+    
+    <img src="/static/images/en/passport.aee1b1af415c.png" srcset="/static/images/en/passport.aee1b1af415c.png 1x, /static/images/en/passport@2x.e4351ec34699.png 2x" class="img-fluid"/>
+  </div>
+</div>
+
+
+<div class="fow-view row row-cols-1 gy-2">
+  <h1 class="col-12">Each day is an adventure onto itself. Walk along. Move.</h1>
+  <h4 class="col-12">Witness the transition your travels bring about- and not just in yourself, but as a series of routes we clear out for you in real time. Share your progress, unlock achievements; and take pride in them.</h4>
+  <div class="col-12">
+    
+    
+    <img src="/static/images/en/screenshots.300d13278029.png" srcset="/static/images/en/screenshots.300d13278029.png 1x, /static/images/en/screenshots@2x.6adfc442185a.png 2x" class="img-fluid"/>
+  </div>
+</div>
+
+
+  <div class="fow-view row gy-6 align-items-center" id="track_editor">
+    <div class="col-lg-7 text-center text-lg-end">
+      <h1 class="mb-3 mx-auto text-center">Seamless Track Editing</h1>
+      <h4 class="w-75 mb-3 mx-auto text-center">Correct GPS drift. Fill in the gaps. Perfect your map with just simple taps.</h4>
+    </div>
+
+    <div class="col-lg-5 d-flex justify-content-center justify-content-lg-start">
+      <div class="phone-frame">
+        <div class="phone-screen">
+          
+          <video autoplay loop muted playsinline class="w-100">
+            <source src="/static/videos/en/track_editor.fa067c33c08d.mov" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="fow-view row row-cols-1 gy-2" id="database_snapshot">
+  <h1 class="col-12">Multi-Database and Snapshot Support</h1>
+  <h4 class="col-12">Keep your tracks in separate databases or merge them at wish. Use snapshot to back up your entire database and restore it just like a time machine.</h4>
+  <div class="row overflow-auto flex-nowrap">
+    <div class="col-auto">
+      
+      
+      <img class="" src="/static/images/en/multi_database.344b5599b4fd.png" alt="First slide" srcset="/static/images/en/multi_database.344b5599b4fd.png 1x, /static/images/en/multi_database@2x.ad102f1e5b6a.png 2x">
+    </div>
+    <div class="col-auto">
+      
+      
+      <img class="" src="/static/images/en/snapshot_1.3b1c76434d77.png" alt="Second slide" srcset="/static/images/en/snapshot_1.3b1c76434d77.png 1x, /static/images/en/snapshot_1@2x.b468664c2f32.png 2x">
+    </div>
+    <div class="col-auto">
+      
+      
+      <img class="" src="/static/images/en/snapshot_2.e2e077d3d933.png" alt="Second slide" srcset="/static/images/en/snapshot_2.e2e077d3d933.png 1x, /static/images/en/snapshot_2@2x.13758e9f6b72.png 2x">
+    </div>
+    <div class="col-auto">
+      
+      
+      <img class="" src="/static/images/en/snapshot_3.1a6cea159781.png" alt="Second slide" srcset="/static/images/en/snapshot_3.1a6cea159781.png 1x, /static/images/en/snapshot_3@2x.929915907fc9.png 2x">
+    </div>
+  </div>
+</div>
+
+</div>  
+</div>  
+
+
+  <div id="features" class="container-xxl p-4">
+    <div class="row gy-4">
+      <div id="feature-import" class="col-12 col-sm-4 feature">
+        <h4>Import Tracks</h4>
+        <p>Import your existing tracks through GPX or KML files.</p>
+      </div>
+      <div id="feature-sync" class="col-12 col-sm-4 feature">
+        <h4>Stay Synced</h4>
+        <p>Sync your data with Dropbox or OneDrive, and see your tracks on all of your devices.</p>
+      </div>
+      <div id="feature-i18n" class="col-12 col-sm-4 feature">
+        <h4>Languages</h4>
+        <p><a href="/en/">English</a>, <a href="/da/">Dansk</a>, <a href="/de/">Deutsch</a>, <a href="/es/">Español</a>, <a href="/fr/">Français</a>, <a href="/it/">Italiano</a>, <a href="/nl/">Dutch</a>, <a href="/ru/">Русский</a>, <a href="/uk/">Українська</a>, <a href="/ko/">한국어</a>, <a href="/ja/">日本語</a>, <a href="/zh-hans/">简体中文</a>, <a href="/zh-hant/">正體中文</a></p>
+      </div>
+    </div>
+  </div>
+
+<div class="full_width">
+<div class="container-xxl">
+
+
+<div class="fow-view row row-cols-1 gy-2">
+  <h1 class="col-12">Tell Your Stories</h1>
+  <h4 class="col-12">When the years pass by and you revisit the lanes, be rest assured, it wouldn’t just be in your mind. With us, you can experience it all over again.</h4>
+</div>
+<div class="row g-3" id="twitter_collection">
+    <div class="col-6 col-lg-3">
+        <a class="item" href="https://t.co/BKBf5jGP1n" target="twitter">
+            <img src="/static/images/users/twitter/1_map.2b8d6684cca9.jpg" class="img-fluid" />
+            <div class="info">
+                <img src="https://pbs.twimg.com/profile_images/819864267910512640/Wa0k6EVg_400x400.jpg" class="img-fluid" />
+                <ul class="profile">
+                    <li class="name text-truncate">Sebastian</li>
+                    <li class="id text-truncate">@glade_sebastian</li>
+                </ul>
+            </div>
+        </a>
+    </div>
+    <div class="col-6 col-lg-3">
+        <a class="item" href="https://t.co/Voh6KeWnaI" target="twitter">
+            <img src="/static/images/users/twitter/2_map.45071a12327a.jpg" class="img-fluid" />
+            <div class="info">
+                <img src="https://pbs.twimg.com/profile_images/1308591501795041281/9_Kdv2FX_400x400.jpg" class="img-fluid" />
+                <ul class="profile">
+                    <li class="name text-truncate">よ</li>
+                    <li class="id text-truncate">@18collectors</li>
+                </ul>
+            </div>
+        </a>
+    </div>
+    <div class="col-6 col-lg-3">
+        <a class="item" href="https://t.co/QceZU230V6" target="twitter">
+            <img src="/static/images/users/twitter/3_map.5be6e86b34e7.jpg" class="img-fluid" />
+            <div class="info">
+                <img src="https://pbs.twimg.com/profile_images/1233939483860623361/k0TYJdQU_400x400.jpg" class="img-fluid" />
+                <ul class="profile">
+                    <li class="name text-truncate">paden</li>
+                    <li class="id text-truncate">@padenOKC</li>
+                </ul>
+            </div>
+        </a>
+    </div>
+    <div class="col-6 col-lg-3">
+        <a class="item" href="https://t.co/WWo7MZXGsf" target="twitter">
+            <img src="/static/images/users/twitter/4_map.70baf807c23b.jpg" class="img-fluid" />
+            <div class="info">
+                <img src="https://pbs.twimg.com/profile_images/741046961348829184/g3rynbsy_400x400.jpg" class="img-fluid" />
+                <ul class="profile">
+                    <li class="name text-truncate">Brian Mitchell</li>
+                    <li class="id text-truncate">@_BrianMitchell_</li>
+                </ul>
+            </div>
+        </a>
+    </div>
+    <div class="col-6 col-lg-3">
+        <a class="item" href="https://t.co/CU5m2GTj8g" target="twitter">
+            <img src="/static/images/users/twitter/5_map.d9467d58827b.jpg" class="img-fluid" />
+            <div class="info">
+                <img src="https://pbs.twimg.com/profile_images/1081708691840061440/fQQmLBKX_400x400.jpg" class="img-fluid" />
+                <ul class="profile">
+                    <li class="name text-truncate">fukusam</li>
+                    <li class="id text-truncate">@60sGi3yV5Ho8u5h</li>
+                </ul>
+            </div>
+        </a>
+    </div>
+    <div class="col-6 col-lg-3">
+        <a class="item" href="https://t.co/9WjYowPdME" target="twitter">
+            <img src="/static/images/users/twitter/6_map.f78d960c707c.jpg" class="img-fluid" />
+            <div class="info">
+                <img src="https://pbs.twimg.com/profile_images/662499162466861056/1XFH--FP_400x400.jpg" class="img-fluid" />
+                <ul class="profile">
+                    <li class="name text-truncate">Chris</li>
+                    <li class="id text-truncate">@AdventureMtn</li>
+                </ul>
+            </div>
+        </a>
+    </div>
+    <div class="col-6 col-lg-3">
+        <a class="item" href="https://t.co/6osdIhbneC" target="twitter">
+            <img src="/static/images/users/twitter/7_map.6133af6d59bf.jpg" class="img-fluid" />
+            <div class="info">
+                <img src="https://pbs.twimg.com/profile_images/1445114017643581443/qJEmTQBz_400x400.jpg" class="img-fluid" />
+                <ul class="profile">
+                    <li class="name text-truncate">Boss Siang</li>
+                    <li class="id text-truncate">@BossSiang</li>
+                </ul>
+            </div>
+        </a>
+    </div>
+    <div class="col-6 col-lg-3">
+        <a class="item" href="https://t.co/mP0tjVHAQi" target="twitter">
+            <img src="/static/images/users/twitter/8_map.6df89d7af117.jpg" class="img-fluid" />
+            <div class="info">
+                <img src="https://pbs.twimg.com/profile_images/1164224156449329153/0-XggbTZ_400x400.jpg" class="img-fluid" />
+                <ul class="profile">
+                    <li class="name text-truncate">Alec Burt</li>
+                    <li class="id text-truncate">@alec_burt85</li>
+                </ul>
+            </div>
+        </a>
+    </div>
+</div>
+
+
+<div id="download_section" class="fow-view row p-3">
+    <h5 class="col-12">Join Us. Embrace a unique way of experiencing your adventures! Explore, visit and memorize your travels on the world map. Unfog the world and make your life more brilliant today!</h5>
+    <div class="col-12">
+<ul class="nav store-button-nav">
+
+
+  <li class="nav-item"><a id="app-store-button" class="store-button" href="https://itunes.apple.com/app/fog-of-world/id505367096"><div>Download on the <em>App Store</em></div></a></li>
+
+
+
+  <li class="nav-item"><a id="google-play-button" class="store-button" href="https://play.google.com/store/apps/details?id=com.ollix.fogofworld"><div>GET IT ON <em>Google Play</em></div></a></li>
+
+
+</ul></div>
+</div>
+
+<div id="why" class="fow-view row">
+    <h1 class="col-12">Why Fog of World?</h1>
+    <ul class="col-12">
+        <li>The first app to bring the "fog of war" idea to the real world, launched in 2012 and providing free updates ever since.</li>
+        <li>Featured by Apple as "App of the Day" in 137 countries.</li>
+        <li>The only app with a built-in Track Editor to perfect your map.</li>
+        <li>The only app using real-time vector rendering, which allows tracks to stay sharp and change thickness seamlessly at any zoom level.</li>
+        <li>The only app with multiple databases to organize, separate, and even merge your journeys.</li>
+        <li>Secure your data with powerful snapshot backups, allowing you to restore your map to any previous state.</li>
+        <li>The only app with true global compatibility, supporting both the WGS-84 standard and China's GCJ-02 map coordinates.</li>
+        <li>A high-performance database designed for minimal storage use.</li>
+        <li>No user accounts required. Your data is saved only on your device, giving you 100% privacy.</li>
+        <li>Sync your data to your personal cloud storage—like iCloud, Dropbox, and OneDrive. Only you can access your data—we can't.</li>
+    </ul>
+</div>
+
+<div id="privacy_policy" class="row fow-view">
+    <div class="col-12">
+        <h1>Privacy Policy</h1>
+    </div>
+    <div class="col-12">
+        <p>In short, we do not collect any of your exploration data. Your data will be uploaded when you sync them with your cloud storages, but only you have access to them. We don't.
+        <span class="learn_more"><a href="/en/privacy_policy">Learn More</a></span></p>
+    </div>
+</div>
+
+<div id="resources" class="row fow-view">
+    <div class="col-12">
+        <a href="https://medium.com/fogofworld" target="_blank">User Guide</a></li>
+    </div>
+</div>
+
+</div>  
+</div>  
+
+
+  <div id="footer" class="full_width p-5">
+    <ul id="social_media" class="nav">
+      <li id="facebook_link" class="nav-item"><a href="https://www.facebook.com/OllixIO/" target="_blank">Facebook</a></li>
+      <li id="twitter_link" class="nav-item"><a href="https://twitter.com/OllixIO" target="_blank">Twitter</a></li>
+      <li id="instagram_link" class="nav-item"><a href="https://www.instagram.com/fogofworld.app/" target="_blank">Instagram</a></li>
+      <li id="medium_link" class="nav-item"><a href="https://medium.com/fogofworld" target="_blank">Medium</a></li>
+      
+    </ul>
+    <a href="/en/"><img src="/static/images/fogofworld_title.e7d75bcceef0.svg" alt="Fog of World" id="fogofworld_title"/></a>
+    <p id="since2012">Since 2012</p>
+    <p><a href="https://ollix.com" id="ollix_link">Ollix</a></p>
+    <p id="copyright">© 2012 - 2026 Ollix. All rights reserved.<span>·</span>Sepapaja 6, Tallinn 15551, Estonia<span>·</span><a href="mailto:fogofworld@ollix.com" target="_blank">fogofworld@ollix.com</a></p>
+  </div>
+
+  
+  <script>
+    $(".store-button").click(function(event) {
+      var url = $(this).attr('href');
+      gtag('event', 'view', {
+        'event_action': 'Click'
+        'event_category': 'en',
+        'event_label': 'Download Link',
+        'value': url,
+      });
+    });
+  </script>
+  
+</body>
+</html>

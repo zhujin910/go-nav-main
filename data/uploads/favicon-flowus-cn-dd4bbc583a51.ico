@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <script type="module" crossorigin src="https://cdn2.flowus.cn/assets/polyfills-86ce3fa2.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="un_verify" content="6297abee3e3a14a8d9a8375ca46aedc0" />
+    <meta name="updated_at" content="1.146.0-1787388523974" />
+    <meta name="description" content="使用 Flowus 构建您的知识平台，助您轻松创作与发布" />
+    <meta name="yandex-verification" content="0178c8cf2d7c3f98" />
+
+    
+    <link rel="shortcut icon" id="dynamic-favicon" href="https://cdn2.flowus.cn/assets/flowus-favicon-36b0b2bc.svg" />
+    
+    <meta property="og:image" content="https://cdn2.flowus.cn/assets/og-image.png" />
+    <title>FlowUs 息流｜一站式知识创作与发布平台</title>
+    <script>
+      // polyfill
+      if (!Object.hasOwn) {
+        Object.hasOwn = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop);
+      }
+      // <!-- 添加 structuredClone polyfill -->
+      if (typeof structuredClone !== 'function') {
+        structuredClone = function (obj) {
+          return JSON.parse(JSON.stringify(obj));
+        };
+      }
+    </script>
+      
+    <script type="module" crossorigin src="https://cdn2.flowus.cn/assets/index-a3d572eb.js"></script>
+    <link rel="modulepreload" crossorigin href="https://cdn2.flowus.cn/assets/react-vendor-1438458e.js">
+    <link rel="modulepreload" crossorigin href="https://cdn2.flowus.cn/assets/lodash-7dd33cda.js">
+    <link rel="modulepreload" crossorigin href="https://cdn2.flowus.cn/assets/flowus-b1e67146.js">
+    <link rel="modulepreload" crossorigin href="https://cdn2.flowus.cn/assets/tiptap-34593cac.js">
+    <link rel="stylesheet" href="https://cdn2.flowus.cn/assets/flowus-156fc013.css">
+    <link rel="stylesheet" href="https://cdn2.flowus.cn/assets/index-13ff9ac2.css">
+    <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
+    <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+  </head>
+
+  <body>
+    <style>#browser-error{margin-top:50px;text-align:center}#splash{align-items:center;display:none;height:100vh;justify-content:center;left:0;margin:0;padding:0;position:fixed;top:0;width:100vw;z-index:8849}.loader{animation:l13 .8s linear infinite;background:radial-gradient(farthest-side,#595959 94%,transparent) top/6px 6px no-repeat,conic-gradient(transparent 30%,#595959);border-radius:50%;height:30px;-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 6px),#000 0);width:30px}@keyframes l13{to{transform:rotate(2turn)}}.splash-light,.splash-system{background-color:#fff}.splash-dark{background-color:#171717}.splash-dark-walles{background-color:#0d0c0f}@media (color-index:48){.splash-system{background-color:#171717}}@media (color:48842621){.splash-system{background-color:#171717}}@media (prefers-color-scheme:dark){.splash-system{background-color:#171717}}</style>
+    <div id="root"></div>
+
+    <div id="splash">
+      
+      <!--  -->
+      
+      <div
+        style="
+          display: flex;
+          flex-flow: column;
+          color: #595959;
+          font-size: 12px;
+          text-align: center;
+        "
+      >
+        <span class="loader"></span>
+        <!-- <span style="margin-top: 10px">1 / 2</span> -->
+      </div>
+      
+    </div>
+    <!--  -->
+    
+    <noscript>当前浏览器环境下无法运行，请复制链接到其他浏览器打开</noscript>
+    
+    <!--  -->
+    
+
+    <script type="text/javascript">
+      (() => {
+        const isDebug = location.href.includes('~~debug~~');
+        if (isDebug) {
+          const script = document.createElement('script');
+          script.src = 'https://cdn.staticfile.org/vConsole/3.15.0/vconsole.min.js';
+          script.onload = () => {
+            new VConsole();
+          };
+          document.body.appendChild(script);
+        }
+        const splash = document.getElementById('splash');
+        const localTheme = localStorage.getItem('theme_mode');
+        splash.style.display = 'flex';
+        if (location.search.includes('blog=walles')) {
+          splash.classList.add('splash-dark-walles');
+          return;
+        }
+        if (location.search.includes('blog=buildin')) {
+          splash.classList.add('splash-light');
+          return;
+        }
+        if (!localTheme || localTheme === 'system') {
+          splash.classList.add('splash-system');
+        } else if (localTheme) {
+          splash.classList.add(localTheme === 'dark' ? 'splash-dark' : 'splash-light');
+        }
+      })();
+    </script>
+
+    
+    <!-- <script type="module" src="./src/desktop-setup.ts"></script> -->
+    
+    
+    
+    <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+    <script nomodule crossorigin id="vite-legacy-polyfill" src="https://cdn2.flowus.cn/assets/polyfills-legacy.4e2a4307.js"></script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="https://cdn2.flowus.cn/assets/index-legacy.de8344d4.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+  </body>
+</html>

@@ -1,0 +1,598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+    <title>工具书频道-中国知网</title>
+    <meta name="keywords" content="工具书,在线工具书,工具书大全,在线辞典,汉语辞典,双语辞典,专科辞典,百科全书,医学图谱"/>
+    <meta name="description"
+          content="中国知网工具书频道-在线工具书大全！全球领先、内容最权威的工具书在线服务网站。收录工具书2000余部，词条1000多万，内容涵盖自然科学与人文社科各领域。其中汉语词典80余部、英汉/汉英词典近100部、专科辞典1200部、百科全书、图鉴、医学图谱各200余部。以及人物传记、年表、图谱、语录、手册、建筑预算与规范词典、文革期间中草药词典等各类在线词典。"/>
+    <link rel="stylesheet" href="/xinke/js/layui/css/layui.css;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"/>
+    <link rel="stylesheet" href="/xinke/css/list/mall.css;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"/>
+    <link rel="stylesheet" href="/xinke/css/list/public.css;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"/>
+    <link rel="stylesheet" href="/xinke/css/list/header.css;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9?v=1"/>
+    <link rel="stylesheet" href="/xinke/css/list/reference.css;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9?v=1"/>
+    <link rel="icon" href="/xinke/favicon.ico;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" type="image/x-icon"/>
+    <style type="text/css">
+        #wrap {margin-top: -235px;}
+        #headerOfMagazine {height: 47px !important;}
+        a {cursor: pointer;}
+        .pop_up_m {z-index: 100001;}
+        #headerOfMagazine .nav_center a:nth-child(odd) {width: 135px;}
+    </style>
+    <script src="/xinke/js/jquery-3.7.1.min.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"></script>
+    <script src="/xinke/js/layer/layer.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"></script>
+    <script src="/xinke/js/list/json2.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"></script>
+    <script src="/xinke/js/layui/layui.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"></script>
+    <script src="/xinke/js/common.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9?v=2"></script>
+    <script src="/xinke/js/main.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"></script>
+</head>
+<body>
+<form id="form1">
+    <div class="topbar">
+    <div class="width1166Auto clearfix positionR">
+        <div class="topbar_l clearfix">
+            <span class="welcome">
+                <a href="/" target="_blank">知网阅读</a>，欢迎您！
+            </span>
+            <span id="lblLogin">
+                <a href="/reference/login;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9?f=1&amp;p=http://mall.cnki.net/reference/">【请登录】</a>
+                <a href="/reference/register;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9?f=1&amp;p=http://mall.cnki.net/reference/" target='_blank'>【注册】</a>
+            </span>
+            <span id="lblWecome" class="uusername hovorvipmember" style="cursor: pointer;"></span>
+            
+
+        </div>
+        <div class="topbar_r clearfix">
+            <a href="/personallib" target="blank">我的数字书房</a>
+            <span class="boundary"></span>
+            <a class="link" target="_blank" href="https://member.cnki.net" style="width: 48px; height: 18px; margin: 14px 10px 0; padding: 0">
+                <img style="display: block" src="/xinke/images/list/badge-vip.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt=""/>
+            </a>
+            <span class="boundary"></span>
+            <a href="https://pay.cnki.net/zscspay?flag=mall" target="_blank">充值中心</a>
+            <span class="boundary"></span>
+            <a href="/GoCart.aspx" target="_blank">购物车</a>
+            <span class="boundary"></span>
+            <a href="https://mall.cnki.net/help/azydq.html" target="_blank">安装阅读器</a>
+            <span class="boundary"></span>
+            <a href="https://mall.cnki.net/help/help_QS.html" target="_blank">帮助</a>
+            <span class="boundary"></span>
+            <a class="downloadApp last">手机App</a>
+            <img class="qrcode" src="/xinke/images/list/qrcode1.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" style="z-index: 10000;" alt=""/>
+        </div>
+    </div>
+</div>
+    
+
+    
+        <div>
+    <script src="/xinke/js/search.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9?v=2"></script>
+    <div class="topbanner">
+        <div class="width1166Auto clearfix">
+            <div class="toplogo" >
+                <a href="/">
+                    <img src="/xinke/images/list/toplogo.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt=""/></a>
+            </div>
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    init_search2012();
+                });
+            </script>
+            <style>
+                .search_a_input {
+                    background-image: none;
+                }
+            </style>
+            <div class="topsearch">
+                <input type="text" id="headq" value="搜期刊、图书、工具书、文献" class="search_a_input" autocomplete="Off"
+                       onkeydown="return tabfix(this.value,event,this);"
+                       onblur="onblurSearchTextHandler(this)" onclick="onclickSearchTextHandler(this)" maxlength="26"/>
+                <div class="dropdown">
+                    <div class="dropdown-toggle" id="search_b">工具书</div>
+                    <div id="wrap_absolute" class="dropdown-menu">
+                        <p id="wrap_absolute_item_1" value="0">全部</p>
+                        <p id="wrap_absolute_item_0" value="1">期刊</p>
+                        <p id="wrap_absolute_item_2" value="3">图书</p>
+                        <p id="wrap_absolute_item_3" value="4">工具书</p>
+                        <p id="wrap_absolute_item_5" value="5">文献</p>
+                        <p id="wrap_absolute_item_6" value="6">词条</p>
+                    </div>
+                </div>
+                <input type="hidden" id="searchtype" value="4"/>
+                <a class="btn-search" style="cursor: pointer;" onclick="searchMBR_2020()">搜索</a>
+
+                <p class="nodisplay" style="display: none;">
+                    <label class="displayList">kIndex</label>
+                    <input class="nodisplay" type="text" id="keyIndex"/>
+                </p>
+                <p class="nodisplay" style="display: none;">
+                    <label class="displayList">rev</label>
+                    <input class="nodisplay" type="text" id="sortIndex"/>
+                </p>
+                <div id="results" class="results0">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        // 下拉
+        $('.dropdown-toggle').mouseenter(function () {
+            $(this).siblings().slideDown(200);
+        });
+        $('.dropdown').mouseleave(function () {
+            $(this).find('.dropdown-menu').slideUp(200);
+        });
+        $('.dropdown-menu span').click(function () {
+            $('.dropdown-toggle').text($(this).text());
+            $(this).hide().siblings().show();
+            $('.dropdown-menu').hide();
+        });
+        $('.downloadApp').hover(function () {
+            $('.topbar_r .qrcode').toggle();
+        });
+    </script>
+</div>
+    
+    <div id="wrap">
+        <div id="headerOfMagazine">
+            <div class="clear"></div>
+            <div id="nav">
+                <div class="nav_left" style="cursor: pointer;">工具书导航</div>
+                <div class="nav_center">
+                    <a href="/" target="_blank">首页</a>
+                    <a><span></span></a>
+                    <a href="/magazine/" target="_blank">期刊</a>
+                    <a><span></span></a>
+                    <a href="/xinke/" target="_blank">图书</a>
+                    <a style="padding-right: 0;"></a>
+                    <a style="padding: 0 28px 0 28px; background-color: #265CF5;" href="javascript:void(0)">工具书</a>
+                    <a style="padding-left: 0;"></a>
+                    <a href="/magazine/search?t=5" target="_blank">文献</a>
+                </div>
+                <!-- nav_center end -->
+            </div>
+            <!-- nav end -->
+        </div>
+
+        <div id="main">
+            <div class="outer_main_left">
+                <div id="pop_nav">
+                    <a class="second" code="rc0002" title="汉语词典">汉语词典</a>
+                    <span class="divider"></span>
+                    <a class="second" code="rc0003" title="双语">双语</a>
+                    <span class="divider"></span>
+                    <a class="second" code="rc0011" title="语录">语录</a>
+                    <span class="divider"></span>
+                    <a class="second" code="rc0004" title="专科辞典">专科辞典</a>
+                    <span class="divider"></span>
+                    <a class="second" code="rc0005" title="百科">百科</a>
+                    <span class="divider"></span>
+                    <a class="second hot" hotsubject="鉴赏" title="鉴赏">鉴赏</a>
+                    <span class="divider"></span>
+                    <a class="second" code="rc0007" title="医药图谱">医药图谱</a>
+                    <span class="divider"></span>
+                    <a class="second" code="rc0010" title="年表">年表</a>
+                    <span class="divider"></span>
+                    <a class="second" code="rc0009" title="手册">手册</a>
+                    <span class="divider"></span>
+                    <a class="second" code="rc0006" title="图鉴图录">图鉴图录</a>
+                    <span class="divider"></span>
+                    <a class="second" code="rc0008" title="物传记">人物传记</a>
+                    <span class="divider"></span>
+                </div>
+                <div class="left_m">
+                    <ul id="pop_up">
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+            </div>
+            <!-- outer_main_left end -->
+            <div class="right">
+                <div class="clear">
+                </div>
+
+                <div class="list_tp">
+                    
+                    <div class="tab_nav">
+                        <span class="cur">全部工具书</span>
+                        <div class="cate-handle-total">共找到 <span id="rbookTotal">0</span> 种工具书</div>
+                    </div>
+                    <div class="orderBy"  style="height: 0px;">
+
+                    </div>
+                    <ul class="tablist">
+                    </ul>
+                    <div class="mall-pages" id="page">
+                    </div>
+                </div>
+            </div>
+            <!-- main .right end -->
+        </div>
+        <!-- main end -->
+        <div class="clear">
+        </div>
+
+        <div id="map">
+    <dl>
+        <dt>
+            <span>
+               <img src="https://qiangguo.cnki.net/Mall/images/home/mall_63.jpg" width="24" height="22"/>
+            </span>超市地图
+        </dt>
+        <dd>
+            资源：<a href="/magazine/" target="_blank">杂志</a> |
+            <a href="/xinke/" target="_blank">图书</a> |
+            <a href="/reference/" target="_blank">工具书</a>
+            <br/>
+            服务：<a href="https://my.cnki.net/elibregister/CommonRegister.aspx" target="_blank">注册 </a>|
+            <a href="https://my.cnki.net/CNKIRecharging/czzx.html" target="_blank">充值</a> |
+            <a href="/GoCart.aspx" target="_blank">购物车</a><br/>
+            <a href="https://vipcard.cnki.net/ec/czzx/czgg/czgg.html" target="_blank">优惠</a> |
+            <a href="https://elib.cnki.net/Grid2008/LoginDigital.aspx?action=single&uid=&p=/grid2008/library/navipdl.aspx" target="_blank">我的图书馆</a>
+            <br/>
+            客服：<a href="https://mall.cnki.net/help/help_QS.html" target="_blank">帮助中心</a> |
+            <a href="https://help.cnki.net/Live800_1_0.aspx?GroupID=300&PageID=101001" target="_blank">在线咨询</a>
+            <br/>
+            <a href="https://mall.cnki.net/help/azydq.html" target="_blank">常用软件下载</a>
+        </dd>
+    </dl>
+    <dl>
+        <dt>
+            <span>
+                <img src="https://qiangguo.cnki.net/Mall/images/home/mall_60.jpg" width="24" height="24"/>
+            </span>新手入门
+        </dt>
+        <dd><a href="https://my.cnki.net/elibregister/CommonRegister.aspx" target="_blank">注册知网用户</a><br/>
+            <a href="https://my.cnki.net/CNKIRecharging/czzx.html" target="_blank">为知网账户充值</a><br/>
+            <a href="https://mall.cnki.net/help/help_buy.html" target="_blank">如何购买出版物</a><br/>
+            <a href="https://mall.cnki.net/help/help_read.html" target="_blank">如何阅读出版物</a> <br/>
+            <a href="https://card.cnki.net/fapiao/index.html/home.html" target="_blank">如何索取发票</a>
+        </dd>
+    </dl>
+    <dl>
+        <dt>
+            <span>
+                <img src="https://qiangguo.cnki.net/Mall/images/home/mall_62.jpg" width="23" height="23"/>
+            </span>阅读指南
+        </dt>
+        <dd>
+            <a href="https://mall.cnki.net/help/azydq.html" target="_blank">安装阅读器</a><br/>
+            <a href="https://mall.cnki.net/help/help_read.html" target="_blank">如何翻页浏览</a><br/>
+            <a href="https://mall.cnki.net/help/help_read.html" target="_blank">放大全屏阅读</a><br/>
+            <a href="https://mall.cnki.net/help/help_read.html" target="_blank">选择/复制文字图片</a><br/>
+            <a href="https://mall.cnki.net/help/help_dl.html" target="_blank">如何下载阅读</a>
+        </dd>
+    </dl>
+    <dl>
+        <dt>
+            <span><img src="https://qiangguo.cnki.net/Mall/images/home/mall_64.jpg" width="24" height="22"/></span>支付方式
+        </dt>
+        <dd>
+            <a href="https://zhifu.cnki.net" target="_blank">微信支付</a> |
+            <a href="https://zhifu.cnki.net" target="_blank">支付宝</a><br/>
+            <a href="https://zhifu.cnki.net" target="_blank">在线购卡</a> |
+            <a href="https://zhifu.cnki.net" target="_blank">流量充值卡</a><br/>
+            <a href="https://zhifu.cnki.net" target="_blank">手机短信</a> |
+            <a href="https://zhifu.cnki.net" target="_blank">银联支付</a><br/>
+            <a href="https://zhifu.cnki.net" target="_blank">银行电汇</a> |
+            <a href="https://zhifu.cnki.net" target="_blank">邮局汇款</a><br/>
+            <a href="https://zhifu.cnki.net" target="_blank">更多支付方式&gt;&gt;</a>
+        </dd>
+    </dl>
+    <dl>
+        <dt>
+            <span>
+                <img src="https://qiangguo.cnki.net/Mall/images/home/mall_61.jpg" width="24" height="24"/>
+            </span>特色服务
+        </dt>
+        <dd>
+            <a href="https://card.cnki.net/orderCard.jsp" target="_blank">免费送卡上门</a><br/>
+            <a href="https://mall.cnki.net/help/help_read.html" target="_blank">在线仿真阅读</a><br/>
+            <a href="https://mall.cnki.net/help/help_read.html" target="_blank">实时阅读编辑</a><br/>
+            <a href="https://mall.cnki.net/help/help_dl.html" target="_blank">下载书刊到本地</a><br/>
+            <a href="https://qiangguo.cnki.net/Mall/Images/Home/CNKIRBook_Setup2.1.rar" target="_blank">工具书桌面检索软件</a>
+        </dd>
+    </dl>
+</div>
+
+    </div>
+    <!-- wrap end -->
+    <!-- 浮框 -->
+    <div class="rightToolbar" style="display: block;">
+        <div class="item mobile">
+            <div class="icon"></div>
+            <div class="text">手机访问</div>
+            <div class="qrcode"><img src="/xinke/images/list/app_code1.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt="">
+                <div>下载手机知网APP</div>
+            </div>
+        </div>
+        <div class="item cart">
+            <div class="icon"></div>
+            <div class="text">购物车</div>
+        </div>
+        <div class="item feedback">
+            <div class="icon"></div>
+            <div class="text">常见问题</div>
+        </div>
+        <div class="item service">
+            <div class="icon"></div>
+            <div class="text">在线客服</div>
+        </div>
+        <div class="item ad">
+            <div class="icon"></div>
+            <div class="text">知网推广</div>
+        </div>
+        <div class="item goTop">
+            <div class="icon"></div>
+            <div class="text">返回顶部</div>
+        </div>
+    </div>
+
+    <div class="footer">
+    <div class="w1200Auto">
+        <div class="links">
+            <a href="https://www.cnki.net" target="_blank" title="">中国知网</a>
+            |
+            <a href="https://pay.cnki.net/zscspay?plat=mall" target="_blank" title="">充值中心</a>
+            |
+            <a href="https://card.cnki.net/orderCard.jsp" target="_blank" title="">购买流量充值卡</a>
+            |
+            <a href="https://mall.cnki.net/help/azydq.html" target="_blank" title="">安装阅读器</a>
+            |
+            <a href="https://help.cnki.net/" target="_blank" title="">在线客服</a>
+            |
+            <a href="https://mall.cnki.net/help/help_QS.html" target="_blank" title="">帮助中心</a>
+            |
+            <a href="https://a.cnki.net/front/#/home" target="_blank" title="">知网推广</a>
+        </div>
+        <div class="info">
+            <div class="left s1">
+                <p>京ICP证040431号 网络出版服务许可证网出证(京)字第416号</p>
+                <p>京公网安备 11010802020460号</p>
+            </div>
+            <div class="left s2">
+                <p>互联网宗教信息服务许可证：京（2026）0000014</p>
+                <p>服务热线：400-810-9888；订购热线：400-819-9993</p>
+            </div>
+            <div class="right s3">
+                <a href="https://trust.hss.org.cn/CX8852713371735.html" target="_blank">
+                    <img src="/xinke/images/list/copyright.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div style="display: none;"><script type="text/javascript" src="https://s5.cnzz.com/z.js?id=3164660"></script></div>
+</div>
+</form>
+<input type="hidden" value="" id="rbookCate">
+<input type="hidden" value="" id="typecode">
+<input type="hidden" value="" id="hotsubject">
+<input type="hidden" id="contextPath" value="">
+<script src="/xinke/js/list/jquery.lazyload.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"></script>
+<script type="text/javascript">        AC_FL_RunContent = 0;</script>
+<script src="/xinke/js/list/AC_RunActiveContent.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"></script>
+<script src="/xinke/js/list/list.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9?v=2"></script>
+<script src="/xinke/js/list/paperList.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9?v=1"></script>
+<script type="text/javascript">
+    var mallHomeUrl ="https://mall.cnki.net";
+    var contextPath = $("#contextPath").val();
+    // var hrefUrl = contextPath + "/reference/index?navicode=";
+    var hrefUrl = "index?navicode=";
+    $(function () {
+
+        paperList.forEach(function (first) {
+            var liTag = $('<li>' +
+                '<a href="' + hrefUrl + first.code + '" title="' + first.name + '">' + first.name + '</a>' +
+                '<br />' +
+                '</li>')
+            $('#pop_up').append(liTag)
+
+            first.secondShowCate && first.secondShowCate.forEach(function (item, idx) {
+                var aTag = $('<a class="second" href="' + hrefUrl + item.code + '" title="' + item.name + '">' + item.name + '</a>')
+                liTag.append(aTag);
+                if (first.secondShowCate.length == 2 && idx == 0) {
+                    var divider = $('<span class="divider"></span>')
+                    liTag.append(divider)
+                }
+                if (first.secondShowCate.length == 3 && (idx == 0 || idx == 1)) {
+                    var divider = $('<span class="divider"></span>')
+                    liTag.append(divider)
+                }
+            })
+            var divTag = $('<div class="pop_up_m" style="display: none;">' +
+                '<div class="pop_up_m_left">' +
+                '</div>' +
+                '</div>')
+            liTag.append(divTag)
+            var hasThied = first.secondCate && first.secondCate.some(function (item) {
+                return item.thirdCate
+            })
+            if (hasThied) {
+                first.secondCate.forEach(function (item, idx) {
+                    var dlTag = $('<dl>' +
+                        '<dt><a href="' + hrefUrl + item.code + '" title="' + item.name + '">' + item.name + '</a></dt>' +
+                        '<dd>' +
+                        '<p class="p_tag"></p>' +
+                        '</dd>' +
+                        '</dl>')
+                    divTag.find('.pop_up_m_left').append(dlTag)
+                    item.thirdCate && item.thirdCate.forEach(function (third) {
+                        var aTag = $('<a href="' + hrefUrl + third.code + '" title="' + third.name + '">' + third.name + '</a>')
+                        dlTag.find('.p_tag').append(aTag)
+                    })
+
+                })
+            } else {
+                first.secondCate && first.secondCate.forEach(function (item, idx) {
+                    var dtTag = $(
+                        '<div class="no_third"><a href="' + hrefUrl + item.code + '" title="' + item.name + '">' + item.name + '</a></div>'
+                    )
+                    divTag.find('.pop_up_m_left').append(dtTag)
+                })
+            }
+        })
+
+        $("#pop_up >li").mouseover(function () {
+            $(this).css({
+                "background-color": "#ffffff",
+                "border-top": "1px solid #5ba11d",
+                "border-bottom": "1px solid #5ba11d"
+            })
+            j = $(this).index();
+            $(".pop_up_m").eq(j).css("display", "block");
+
+        })
+        $("#pop_up >li").mouseout(function () {
+            $(this).css({
+                "background-color": "#f6fdf1",
+                "border-top": "1px solid #f3fbfe",
+                "border-bottom": "1px solid #fff"
+            })
+            $(".pop_up_m").eq(j).css("display", "none");
+        })
+
+
+        $(".pop_up_m").mouseover(function () {
+            $(this).css("display", "block");
+            l = $(".pop_up_m").index($(this));
+            $("#pop_up > li").eq(l).css({
+                "background-color": "#ffffff",
+                "border-top": "1px solid #5ba11d",
+                "border-bottom": "1px solid #5ba11d"
+            });
+        })
+        $(".pop_up_m").mouseout(function () {
+            $(this).css("display", "none");
+            $("#pop_up > li").eq(l).css({
+                "background-color": "#f6fdf1",
+                "border-top": "1px solid #f3fbfe",
+                "border-bottom": "1px solid #fff"
+            });
+        })
+        $(".close").click(function () {
+            $(this).parent().parent().css("display", "none");
+        })
+
+        $(".nav_left").click(function () {
+            window.location.href = "index";
+        })
+
+        $("#pop_nav a.second").click(function () {
+            if ($(this).hasClass("hot") == true) {
+                var hotsubject = $(this).attr("hotsubject");
+                window.location.href = "index?hotsubject=" + encodeURI(hotsubject);
+            } else {
+                var code = $(this).attr("code");
+                window.location.href = "index?typecode=" + code;
+            }
+        })
+
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("img").lazyload({
+            placeholder: "http://qiangguo.cnki.net/images/grey.gif",
+            effect: "fadeIn"
+        });
+        // 悬浮框跳转
+        $(".rightToolbar .cart").click(function () {
+            window.open('/cart/?s=MALL', '_blank')
+        })
+        $(".rightToolbar .feedback").click(function () {
+            window.open('https://mall.cnki.net/help/help_QS.html', '_blank')
+        })
+        $(".rightToolbar .service").click(function () {
+            window.open('https://help.cnki.net', '_blank')
+        })
+        $(".rightToolbar .ad").click(function () {
+            window.open('https://a.cnki.net/front/#/home', '_blank')
+        })
+        $(".rightToolbar .goTop").click(function () {
+            $("html, body").animate({scrollTop: 0}, "slow");
+        })
+    });
+</script>
+
+<div id="loginVipMember"
+     style="z-index: 101000; position: absolute; left: 50%; margin-left: -960px; top: 5px; display: none;">
+    <link rel="stylesheet" href="/xinke/css/member/vip.css;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"/>
+    <div class="popover-vip">
+    <div class="popover-content">
+        <div class="user-header clearfix">
+            <a class="user-avatar" href="https://member.cnki.net/kcenter/user" target="_blank">
+                <img src="https://qiangguo.cnki.net/avatar/show?u=" width="60" height="60" alt="">
+            </a>
+            <div class="user-info">
+                <div class="user-top clearfix">
+                    <a class="user-name" href="https://member.cnki.net/kcenter/user" target="_blank"></a>
+                    <div class="links">
+                        <a href="https://member.cnki.net/kcenter/user" target="_blank">[进入个人中心]</a>
+                        <a class="logout" href="/reference/logout;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9?p=http://mall.cnki.net/reference/">[退出]</a>
+                    </div>
+                </div>
+                <div class="vip-types" style="display:none;">
+
+                </div>
+                <div class="vip-status">您还未开通会员</div>
+            </div>
+        </div>
+        <div class="vip-bottom">
+            <div class="vip-links clearfix">
+
+                <a href="https://member.cnki.net/zkmcenter/recommend.html" target="_blank">
+                    <img src="/xinke/images/vip/vip-icon11.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt="">
+                    <span>学术发现</span>
+                </a>
+                <a href="https://member.cnki.net/kcenter/user/benefit.html" target="_blank">
+                    <img src="/xinke/images/vip/vip-icon3.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt="">
+                    <span>会员权益</span>
+                </a>
+                <a href="https://my.cnki.net/myCNKI/myWallet.html#/myorder" target="_blank">
+                    <img src="/xinke/images/vip/vip-icon5.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt="">
+                    <span>我的账单</span>
+                </a>
+                <a href="https://member.cnki.net/kcenter/user/coupon.html" target="_blank">
+                    <img src="/xinke/images/vip/vip-icon6.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt="">
+                    <span>我的卡券</span>
+                </a>
+            </div>
+            <div class="vip-rights">
+                <div class="rights-title">会员特权</div>
+                <ul style="width: auto;top:auto; display: block;background-color: #1e1e1e;z-index: 0;" >
+                    <li><img src="/xinke/images/vip/vip-icon7.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt=""><span>尊享资源特惠服务</span>
+                    </li>
+                    <li><img src="/xinke/images/vip/vip-icon8.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt=""><span>精品书刊折扣特惠</span>
+                    </li>
+                    <li><img src="/xinke/images/vip/vip-icon9.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt=""><span>专属权益超值尊享</span>
+                    </li>
+                    <li><img src="/xinke/images/vip/vip-icon10.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt=""><span>跨平台多终端使用</span>
+                    </li>
+                </ul>
+            </div>
+            <a class="vip-btn" href="https://member.cnki.net/kcenter/user" target="_blank">
+                <img src="/xinke/images/vip/vip-icon2.png;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9" alt="">
+                <span>进入会员中心</span>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+<script src="/xinke/js/member/loadVipMember.js;jsessionid=EE92A165BF0EFDA26EE14BC639D3E7D9"></script>
+<script type="text/javascript" src="https://s5.cnzz.com/z.js?id=3164660"></script>
+<script type="text/javascript">
+    $("#azwyd").hover(function () {
+        $("#imgzwyd").show();
+    }, function () {
+        $("#imgzwyd").hide();
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="google" content="notranslate">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <title></title>
+  </head>
+
+  <body class="app-page" style="background-color: #171a21">
+    <noscript>
+      <strong>
+        We're sorry but j9.live doesn't work properly without JavaScript enabled. Please enable it to continue.
+      </strong>
+    </noscript>
+    <div id="app">
+      <div id="preload">
+        <div class="loading_box">
+          <img style="display: none" src="/loading/J9EN.svg" class="loading">
+        </div>
+      </div>
+    </div>
+    <a href="news.html" class="news" style="opacity: 0">
+      点击查看最新内容
+    </a>
+    <div class="news_section" style="opacity: 0">
+      <p>
+        “深蓝宝藏——南海西北陆坡一二号沉船考古成果特展”在中国(海南)南海博物馆开幕。南海西北陆坡一号、二号沉船遗址是中国“2023年度全国十大考古新发现”。2023年至2024年，中国国家文物局考古研究中心联合中国(海南)南海博物馆、中国科学院深海科学与工程研究所组织实施三个阶段水下考古调查，共提取出水文物928件(套)。此次展览是南海海域深海考古调查成果的国内首个专题展，内容分为“探渊寻珍”“水府琳琅”“巧缮焕新”三个部分，展出两处沉船遗址出水文物408件(套)，还有故宫博物院等借展文物34件(套)。
+      </p>
+      <p>
+        王毅表示，在两国元首战略引领下，中美关系在曲折动荡中实现重回巴厘岛、通往旧金山，取得的进展来之不易，值得珍惜。中美关系止跌企稳，符合两国人民利益，顺应国际社会期待，能否延续这一势头，取决于双方努力。美方不能总是以“两副面孔”对华，一边肆无忌惮围堵打压中国，一边若无其事同中国对话合作。美方既然多次表示无意同中国发生冲突，就要从根子上树立理性对华认知，构建正确相处之道，以尊重的态度开展对话，以互惠的精神推进合作，以慎之又慎的态度处理分歧，而不是动辄“从实力地位出发”，我行我素，任性妄为，把以前的错误当成继续犯错的借口。
+      </p>
+      <p>
+        本届中网，35岁的张帅持外卡参赛，她在首轮与美国选手凯斯勒激战两盘，最终通过抢七以7:6(5)、7:6(1)取胜，终结了个人巡回赛单打24连败。第二轮比赛，面对现世界排名第8位、今年打进美网女单四强的纳瓦罗，老将张帅展现出极强的统治力，首盘三度成功破发6:4取胜。第二盘，张帅在第4局挽救3个破发点，随后又两次破掉对手发球局，以6:2再下一盘，总比分2:0获胜晋级。第三轮，张帅将对阵比利时选手米内恩。另一名中国选手王欣瑜在第二轮对阵赛会32号种子、俄罗斯选手库德梅托娃。中国金花6:3先胜一盘，但之后以4:6、5:7连丢两盘，无缘晋级第三轮。库德梅托娃下一轮的对手是赛会2号种子、美国选手佩古拉，首轮轮空的佩古拉以6:1、7:6(4)战胜法国选手帕里，顺利晋级32强。当晚，赛会4号种子、美国球员高芙压轴登场亮相，她以7:5、6:3力克法国选手布蕾尔，打进女单第三轮。在另一场比赛中，前中网冠军大坂直美在先输一盘的情况下上演逆转好戏，以3:6、6:4、6:2战胜哈萨克斯坦选手普丁塞娃，将与美国选手沃雷涅茨争夺16强席位。
+      </p>
+    </div>
+    <!-- 防止开发环境报错 -->
+    
+    <script src="/js/abc.js?t=1787298573107"></script>
+  </body>
+</html>

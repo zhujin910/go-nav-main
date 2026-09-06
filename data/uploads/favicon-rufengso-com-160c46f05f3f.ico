@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1.0">
+    <title>如风搜 - 网盘资源搜索</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="/views/index/news/common/static/css/index.min.css">
+    <link rel="stylesheet" href="/views/index/news/common/static/css/app.css">
+    <link rel="stylesheet" href="/views/index/news/common/static/css/m.css">
+    
+        
+    <style>
+        :root {
+            --theme-color: #15CDEA;
+            --theme-theme: #EDD20C;
+            --theme-background: #581D0B;
+            --theme-other_background: #570E96;
+        }
+            </style>
+<meta name="referrer" content="never">
+</head>
+
+<body>
+    <div class="headBg" style="background-image: url();"></div>
+    <div id="app" v-cloak>
+        <div class="headerBox">
+    <div class="bg" :style="{ opacity: elementOpacity }" ></div>
+    <div class="box">
+        <a href="/" class="logoBox" :style="{ opacity: elementOpacity }" >
+                    </a>
+        <div class="search" :style="{ opacity: elementOpacity }" >
+            <input type="text" v-model="keyword" placeholder="输入关键字进行搜索" @keyup.enter="searchBtn" confirm-type="search"
+                @confirm="searchBtn">
+            <div class="btn" @click="searchBtn">
+                <i class="iconfont icon-sousuo"></i>
+            </div>
+        </div>
+        <div class="navs">
+                        <div class="btns" v-html="`&lt;a href=&quot;https://cospan.vip&quot; target=&quot;_blank&quot;&gt;更多资源&lt;/a&gt;
+&lt;a href=&quot;https://cospan.vip&quot; target=&quot;_blank&quot;&gt;小姐姐&lt;/a&gt;`"></div>
+
+            <div class="iconfont icon-caidan" @click="drawer = true"></div>
+        </div>
+    </div>
+</div>
+<div class="headerKox"></div>
+
+
+<el-dialog v-model="qcodeVisible" width="300">
+    <img src="" style="width: 100%" />
+</el-dialog>
+
+<el-dialog v-model="layerVisible" width="300">
+    <div class="layerBox">
+        <div class="vname">提交需求</div>
+        <el-input v-model="content" placeholder="请输入你想看的资源信息~" type="textarea" resize='none'></el-input>
+        <div class="vbtn" @click="saveBtn">提交</div>
+    </div>
+</el-dialog>
+
+<el-dialog v-model="drawer" width="300" center>
+    <div class="drawer">
+                <div class="btns" v-html="`&lt;a href=&quot;https://cospan.vip&quot; target=&quot;_blank&quot;&gt;更多资源&lt;/a&gt;
+&lt;a href=&quot;https://cospan.vip&quot; target=&quot;_blank&quot;&gt;小姐姐&lt;/a&gt;`"></div>
+    </div>
+</el-dialog>
+
+<el-dialog title="" v-model="dialogUrl" class="dialogUrlBox" :close-on-click-modal="false">
+    <div v-loading="dialogLoading" class="dialogUrl" v-if="dialogUrl">
+        <div v-if="dialogItem.showUrl">
+            <block v-show="pc_type!=1">
+                <block v-if="dialogItem.is_type==0">
+                    <div class="title">请使用 <span>夸克APP</span> 扫码获取</div>
+                    <div class="tips">打开夸克APP- 点击搜索框中的相机 - 点击扫码</div>
+                </block>
+                <block v-else-if="dialogItem.is_type==3">
+                    <div class="title">请使用 <span>UC浏览器</span> 扫码获取</div>
+                    <div class="tips">打开UC浏览器- 点击搜索框中的相机 - 点击扫码</div>
+                </block>
+                <block v-else>
+                    <div class="title">请使用 <span>手机扫码</span> 获取</div>
+                    <div class="tips">打开微信APP- 点击右上角 - 选择扫一扫</div>
+                </block>
+                <div class="qrcode" id="qrcode"></div>
+            </block>
+            <div class="nav">
+                <div class="item">
+                    <span class="t">{{dialogItem.title}}</span>
+                </div>
+                <div class="item" v-show="pc_type!=2">
+                    <span>资源地址：</span>
+                    <a :href="dialogItem.showUrl" target="_blank" rel="noopener noreferrer">{{dialogItem.showUrl}}</a>
+                </div>
+            </div>
+        </div>
+        <div v-else-if="!dialogLoading">
+            <div class="title">获取失败</div>
+            <div class="tips" style="color: #FF3F3D;">{{dialogItem.message}}</div>
+        </div>
+        <div class="statement">
+            <div class="content">
+                <p>🔔 声明：本站链接均由程序自动收集自公开网盘，不存储、不传播任何文件，跳转链接指向网盘官网。</p>
+                <p>文件内容请自行辨别，如发现违规请向网盘平台举报。本站仅供学习交流，无任何收费行为。</p>
+            </div>
+        </div>
+    </div>
+</el-dialog>
+        <div class="homeBox searchBox">
+            <div class="box">
+                <div class="logoBox">
+                                    </div>
+                                <div class="subTitle">免费分享百万级网盘资源，致力打造顶尖网盘搜索引擎，让您畅享资源无忧！</div>
+                                <div class="search">
+                    <input type="text" v-model="keyword" placeholder="输入关键字进行搜索" @keyup.enter="searchBtn"
+                        confirm-type="search" @confirm="searchBtn">
+                    <div class="btn" @click="searchBtn">
+                        <i class="iconfont icon-sousuo"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="home ">
+                                <div class="block">
+                    <div class="nav">
+                                                动漫                    </div>
+                    <div class="content">
+                                                <div class="list">
+                             <a
+                                href="/s/光阴之外.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMjgwNTEwMy53ZWJw&amp;sign=yx:lNffFluJAJIi-K4WF3wuryy0gIw=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="光阴之外" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>光阴之外</p>
+                                </a>
+                                                                 <a
+                                href="/s/吞噬星空 第4季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg4OTE5MzEzNC53ZWJw&amp;sign=yx:MGcl9kpd-O0OGVZs8VquHN4Oyfs=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=378" alt="吞噬星空 第4季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>吞噬星空 第4季</p>
+                                </a>
+                                                                 <a
+                                href="/s/茶啊二中 第六季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzk2NzMyNS53ZWJw&amp;sign=yx:UVlmdX-QoA4Ch8XjUfl22kzSFRk=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="茶啊二中 第六季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>茶啊二中 第六季</p>
+                                </a>
+                                                                 <a
+                                href="/s/斗破苍穹 年番2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcyLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkxMTIyMzEyMS53ZWJw&amp;sign=yx:pwDm2pPhwKdminsaodklDK2bGVc=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="斗破苍穹 年番2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>斗破苍穹 年番2</p>
+                                </a>
+                                                                 <a
+                                href="/s/游戏BUG修复中.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzM2NTMyNS53ZWJw&amp;sign=yx:9mb2W77GHdUOiUhbJUd66TL2Cmo=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="游戏BUG修复中" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>游戏BUG修复中</p>
+                                </a>
+                                                                 <a
+                                href="/s/沧元图.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg5NTMwNzU2OC53ZWJw&amp;sign=yx:DM18WuM5MzE90qSWlS23eTYx2eY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="沧元图" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>沧元图</p>
+                                </a>
+                                                                 <a
+                                href="/s/择日飞升.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDE5MjcxMi53ZWJw&amp;sign=yx:WEA74ZOaTuK1KPtVlKKj3tCOn5Y=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="择日飞升" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>择日飞升</p>
+                                </a>
+                                                                 <a
+                                href="/s/吞噬星空 第5季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkxMTYyMTQ4My53ZWJw&amp;sign=yx:ci1YitbBfLKkbpQy7bMyyihrAkY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=378" alt="吞噬星空 第5季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>吞噬星空 第5季</p>
+                                </a>
+                                                                 <a
+                                href="/s/东大高武学院.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzY0ODcxNi53ZWJw&amp;sign=yx:fB2XVSlDZuupa3KUD9EJt2_axMo=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="东大高武学院" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>东大高武学院</p>
+                                </a>
+                                                                 <a
+                                href="/s/一斩苍穹.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDQ4MTgzMC53ZWJw&amp;sign=yx:1tTNx1DexZlimp3G5UaECGGbXMY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="一斩苍穹" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>一斩苍穹</p>
+                                </a>
+                                                                 <a
+                                href="/s/李熊猫.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDQ4NDI4OS53ZWJw&amp;sign=yx:LFYpV6Z4O6GBKi7D72dJ6hmTLPE=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="李熊猫" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>李熊猫</p>
+                                </a>
+                                                                 <a
+                                href="/s/喜羊羊与灰太狼之破界山海诀.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzIwNzU0My53ZWJw&amp;sign=yx:YwAVt5G_iEaDqi6IAsJOQh-loOI=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="喜羊羊与灰太狼之破界山海诀" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>喜羊羊与灰太狼之破界山海诀</p>
+                                </a>
+                                                                 <a
+                                href="/s/咱家剑宗团宠小师妹.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDA3NzM0Mi53ZWJw&amp;sign=yx:l8tfUqDpy2ih30Snaakzbdd8h2w=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=386" alt="咱家剑宗团宠小师妹" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>咱家剑宗团宠小师妹</p>
+                                </a>
+                                                                 <a
+                                href="/s/择天记.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMjUwMTcxMi53ZWJw&amp;sign=yx:YLS_sxZP9boL7kSbXovLv6-sDiI=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="择天记" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>择天记</p>
+                                </a>
+                                                                 <a
+                                href="/s/仙武传 第二季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg5ODMzMDgzNy53ZWJw&amp;sign=yx:pFPo8nYsBpYs4XSHUoU6NhPWLZc=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="仙武传 第二季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>仙武传 第二季</p>
+                                </a>
+                                                                 <a
+                                href="/s/凡人修仙传.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjYxMDgwMTg2Ni5qcGc=&amp;sign=yx:4LnPSd-jGKk3pzFprbV9bIcW928=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=377" alt="凡人修仙传" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>凡人修仙传</p>
+                                </a>
+                                                                                        </div>
+                        
+                    </div>
+                </div>
+                                <div class="block">
+                    <div class="nav">
+                                                电影                    </div>
+                    <div class="content">
+                                                <div class="list">
+                             <a
+                                href="/s/欢迎来龙餐馆.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNTEwOTMxMi53ZWJw&amp;sign=yx:dNQZzE4WtCf4um0mbEVAEkuAAIk=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=378" alt="欢迎来龙餐馆" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>欢迎来龙餐馆</p>
+                                </a>
+                                                                 <a
+                                href="/s/给阿嬷的情书.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMTg1MTQzMC53ZWJw&amp;sign=yx:LRXo_uLrhkFwInbXstAJi3jh9hM=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="给阿嬷的情书" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>给阿嬷的情书</p>
+                                </a>
+                                                                 <a
+                                href="/s/欢迎再次登录.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDg4Nzc4Ni53ZWJw&amp;sign=yx:4wdOE-kkAQ66ttbPP6vbWJDA75g=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="欢迎再次登录" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>欢迎再次登录</p>
+                                </a>
+                                                                 <a
+                                href="/s/完美世界剧场版 九劫焚天.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDc2NzE3OS53ZWJw&amp;sign=yx:XFpHD9DSAAstIi8eNkasx2TJUcU=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=378" alt="完美世界剧场版 九劫焚天" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>完美世界剧场版 九劫焚天</p>
+                                </a>
+                                                                 <a
+                                href="/s/八仙！.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDA3NDU2Ni53ZWJw&amp;sign=yx:8p6boFN94JbVsIJYDt0I9yJVxN4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=389" alt="八仙！" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>八仙！</p>
+                                </a>
+                                                                 <a
+                                href="/s/牛来.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDk0NTYwMC53ZWJw&amp;sign=yx:_zdrUKugBsXODLsqvC3tskBelGs=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=381" alt="牛来" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>牛来</p>
+                                </a>
+                                                                 <a
+                                href="/s/年会不能停！2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDU4MzQyNS53ZWJw&amp;sign=yx:-RVa9VTucFaN7bRYilEWKpobFYk=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="年会不能停！2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>年会不能停！2</p>
+                                </a>
+                                                                 <a
+                                href="/s/角头：斗阵欸.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyNDQwMTkwMi53ZWJw&amp;sign=yx:55igo0mLb3tvna6a-63vLfvJjjY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=391" alt="角头：斗阵欸" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>角头：斗阵欸</p>
+                                </a>
+                                                                 <a
+                                href="/s/封神第二部：战火西岐.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkxNzU1OTM5Mi53ZWJw&amp;sign=yx:d_Z6wuDzH8o2eX0-ZyzXtNho75o=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=399" alt="封神第二部：战火西岐" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>封神第二部：战火西岐</p>
+                                </a>
+                                                                 <a
+                                href="/s/空枪.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDk0Njc4OC53ZWJw&amp;sign=yx:o57SRu28eskdA1jv-pvup5nPsVk=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=378" alt="空枪" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>空枪</p>
+                                </a>
+                                                                 <a
+                                href="/s/熊出没&middot;年年有熊.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcyLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMDAyOTUzMS53ZWJw&amp;sign=yx:kjbO6KG9gEWLHnlxJOcgg04IpfU=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=403" alt="熊出没&middot;年年有熊" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>熊出没&middot;年年有熊</p>
+                                </a>
+                                                                 <a
+                                href="/s/手遮天.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyODcyNjk3OS53ZWJw&amp;sign=yx:q_hxMwUDZgQK6j9h4qQeFl4FNgg=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="手遮天" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>手遮天</p>
+                                </a>
+                                                                 <a
+                                href="/s/大唐妖探.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDcxOTY1Ny53ZWJw&amp;sign=yx:eX-TEOpaUklyMd-Z2UGRAoWFw_I=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=386" alt="大唐妖探" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>大唐妖探</p>
+                                </a>
+                                                                 <a
+                                href="/s/王朝的女人&middot;杨贵妃.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjI1NzQ3NTA4MC53ZWJw&amp;sign=yx:9jWT3yQbVfi_52IupJovYHxOEts=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=376" alt="王朝的女人&middot;杨贵妃" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>王朝的女人&middot;杨贵妃</p>
+                                </a>
+                                                                 <a
+                                href="/s/恶女.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg5NzQzNTkyOC5qcGc=&amp;sign=yx:-Dsg4k0V4jEpi3vpxs3NHs4goG0=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=383" alt="恶女" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>恶女</p>
+                                </a>
+                                                                 <a
+                                href="/s/夜色撩人.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjQyOTQ2NjUzMy5qcGc=&amp;sign=yx:ilAkn6IEmvFLekGxfOTx04DQu44=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=385" alt="夜色撩人" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>夜色撩人</p>
+                                </a>
+                                                                                        </div>
+                        
+                    </div>
+                </div>
+                                <div class="block">
+                    <div class="nav">
+                                                电视剧                    </div>
+                    <div class="content">
+                                                <div class="list">
+                             <a
+                                href="/s/九门.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDQ4ODU2Ni53ZWJw&amp;sign=yx:vJShrjJHngOEEyf0QA7x4rnqHI8=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="九门" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>九门</p>
+                                </a>
+                                                                 <a
+                                href="/s/唐朝诡事录.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg4Mzk5NTY2Ny5qcGc=&amp;sign=yx:xe1LDdcmLbXR2dvhkLmOsBqQVXg=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="唐朝诡事录" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>唐朝诡事录</p>
+                                </a>
+                                                                 <a
+                                href="/s/南部档案.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkxNTc3OTMzMy53ZWJw&amp;sign=yx:INLm6wZ92l22YEZjHjfJfyXRekw=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="南部档案" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>南部档案</p>
+                                </a>
+                                                                 <a
+                                href="/s/花开锦绣.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDcxODU5My53ZWJw&amp;sign=yx:YecjdJPk6vT321x1JJk0Vtw0vps=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="花开锦绣" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>花开锦绣</p>
+                                </a>
+                                                                 <a
+                                href="/s/凡人修仙传.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyMzY3Njk1OC53ZWJw&amp;sign=yx:D2LTDVat_qth33R4bt7WmYU1IQU=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=382" alt="凡人修仙传" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>凡人修仙传</p>
+                                </a>
+                                                                 <a
+                                href="/s/师兄太稳健.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDU0MTA1MC53ZWJw&amp;sign=yx:84o0oW6LSiM6IxvIA8YSTWGuIE4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=382" alt="师兄太稳健" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>师兄太稳健</p>
+                                </a>
+                                                                 <a
+                                href="/s/兵自风中来.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg5NzU1NjcyMC53ZWJw&amp;sign=yx:uHR50DWkfBf2AEh3gN1eLVC07oQ=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="兵自风中来" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>兵自风中来</p>
+                                </a>
+                                                                 <a
+                                href="/s/御廷谣.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDQ3MTg3OS53ZWJw&amp;sign=yx:wspQh--WAlDA-1lovEFvRwMwBw4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="御廷谣" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>御廷谣</p>
+                                </a>
+                                                                 <a
+                                href="/s/人鱼.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDU5NTgzNi53ZWJw&amp;sign=yx:pbv1cVvmF3iRKVdm3I8Y1laaRYo=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="人鱼" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>人鱼</p>
+                                </a>
+                                                                 <a
+                                href="/s/入青云.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyNTY3NzkxNS53ZWJw&amp;sign=yx:erGIaaCsXZFqQp___YbmGrUWKgU=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="入青云" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>入青云</p>
+                                </a>
+                                                                 <a
+                                href="/s/寒阳风起春山境.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzAwODU0NS53ZWJw&amp;sign=yx:lRSpmDBnO6_dmIuBZl8yE-P2MN4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=360" alt="寒阳风起春山境" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>寒阳风起春山境</p>
+                                </a>
+                                                                 <a
+                                href="/s/藏锋.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDk2MDQwOS53ZWJw&amp;sign=yx:_vnUVdbOeaz4O6QhY9Vf03Nm1IE=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="藏锋" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>藏锋</p>
+                                </a>
+                                                                 <a
+                                href="/s/凛冬下的罪恶.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDY3NTM1OS53ZWJw&amp;sign=yx:CP6657smvAspcR0N-Of0HxK2ka8=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="凛冬下的罪恶" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>凛冬下的罪恶</p>
+                                </a>
+                                                                 <a
+                                href="/s/人浮于爱.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcyLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyNDcwNzU3MS53ZWJw&amp;sign=yx:7r52JsThpUDc7mSZZ2dU6EKDcLY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=389" alt="人浮于爱" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>人浮于爱</p>
+                                </a>
+                                                                 <a
+                                href="/s/问心2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzQwMTk0Ni53ZWJw&amp;sign=yx:pKlWaZAaFKvoEVoJ2UwoeG7eSRY=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="问心2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>问心2</p>
+                                </a>
+                                                                 <a
+                                href="/s/许你十年.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyOTUzODM3NC53ZWJw&amp;sign=yx:Mm9Hjg2pPPne5siA1JZyI7OLUik=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="许你十年" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>许你十年</p>
+                                </a>
+                                                                                        </div>
+                        
+                    </div>
+                </div>
+                                <div class="block">
+                    <div class="nav">
+                                                短剧                    </div>
+                    <div class="content">
+                                                <div class="list">
+                             <a
+                                href="/s/双向欲臣.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/07/30/393cfd6917a22fdd87751ac43e00ebf4.png" alt="双向欲臣" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>双向欲臣</p>
+                                </a>
+                                                                 <a
+                                href="/s/家里家外.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/03/14/30104a2695de2b94c1e653efcb337b0b.png" alt="家里家外" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>家里家外</p>
+                                </a>
+                                                                 <a
+                                href="/s/花朝.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://image.uc.cn/s/ulive_fe/s/upload/2024/161f7cd63537f71de822ad7755ab588d.png" alt="花朝" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>花朝</p>
+                                </a>
+                                                                 <a
+                                href="/s/天降太奶奶是修仙老祖.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/10/25/0580bb20c3bd5bb3bcd5d9f6714c29d8.png" alt="天降太奶奶是修仙老祖" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>天降太奶奶是修仙老祖</p>
+                                </a>
+                                                                 <a
+                                href="/s/前妻请放手我们已离婚.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/24/10/16/0a761f1b62ae93356025d50b699e588c.jpg" alt="前妻请放手我们已离婚" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>前妻请放手我们已离婚</p>
+                                </a>
+                                                                 <a
+                                href="/s/她唇之下.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://image.uc.cn/s/wemedia/s/upload/2025/b2d7747a570c6a661d52b4fd4b8025e7.png" alt="她唇之下" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>她唇之下</p>
+                                </a>
+                                                                 <a
+                                href="/s/回到70年代霸道婆婆带我飞.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/10/13/e192cb5d164dfd6140351f28fe723c71.png" alt="回到70年代霸道婆婆带我飞" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>回到70年代霸道婆婆带我飞</p>
+                                </a>
+                                                                 <a
+                                href="/s/装穷爸妈送养子珍宝.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/10/23/b6a8ce9ee23165812980bfdb23aadc60.png" alt="装穷爸妈送养子珍宝" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>装穷爸妈送养子珍宝</p>
+                                </a>
+                                                                 <a
+                                href="/s/是离婚的关系.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/26/02/24/4ccadabb07a2a04a35acca191eed2bb5.jpg" alt="是离婚的关系" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>是离婚的关系</p>
+                                </a>
+                                                                 <a
+                                href="/s/纵她入骨.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/26/02/24/f7342b83c8b0d72342182e4f75c1518f.jpg" alt="纵她入骨" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>纵她入骨</p>
+                                </a>
+                                                                 <a
+                                href="/s/栀栀复栀栀.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/05/02/f1fc62ee94fb083835a6231421a1b6d1.png" alt="栀栀复栀栀" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>栀栀复栀栀</p>
+                                </a>
+                                                                 <a
+                                href="/s/天赐的声音.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://image.uc.cn/s/ulive_fe/s/upload/2024/db78a9f38278a5e0e7afcb82933c4322.jpg" alt="天赐的声音" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>天赐的声音</p>
+                                </a>
+                                                                 <a
+                                href="/s/陷落京霓.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/26/01/15/e9aa664a86a2322ae623515b1aff5b26.jpg" alt="陷落京霓" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>陷落京霓</p>
+                                </a>
+                                                                 <a
+                                href="/s/入夜对她上瘾.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/24/10/06/126df261382aa79ba101ee6c3c8dac50.jpg" alt="入夜对她上瘾" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>入夜对她上瘾</p>
+                                </a>
+                                                                 <a
+                                href="/s/开局被甩，我觉醒情绪系统.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/26/03/23/ad965e7102aa1d828802830621d88124.jpg" alt="开局被甩，我觉醒情绪系统" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>开局被甩，我觉醒情绪系统</p>
+                                </a>
+                                                                 <a
+                                href="/s/盛夏芬德拉.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="https://cdn.sm.cn/static/25/09/20/77004d54701632b9725d6784a49e322e.png" alt="盛夏芬德拉" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>盛夏芬德拉</p>
+                                </a>
+                                                                                        </div>
+                        
+                    </div>
+                </div>
+                                <div class="block">
+                    <div class="nav">
+                                                综艺                    </div>
+                    <div class="content">
+                                                <div class="list">
+                             <a
+                                href="/s/喜欢你我也是 第六季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzE2NTEzMy53ZWJw&amp;sign=yx:nxZ2DDaZSA7VoghJBnixTIZhqkg=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="喜欢你我也是 第六季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>喜欢你我也是 第六季</p>
+                                </a>
+                                                                 <a
+                                href="/s/中餐厅 第十季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzQyMDk4OS53ZWJw&amp;sign=yx:IaohY3pk_WAw6c_ooV4zDToilro=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="中餐厅 第十季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>中餐厅 第十季</p>
+                                </a>
+                                                                 <a
+                                href="/s/半熟恋人 第五季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMjY3ODI5Mi53ZWJw&amp;sign=yx:9SoGQeRSxG1ltNKaSySClx2-KG0=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="半熟恋人 第五季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>半熟恋人 第五季</p>
+                                </a>
+                                                                 <a
+                                href="/s/一路向海的少年.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDUxNDcwMy53ZWJw&amp;sign=yx:KJVPFgnkXrJCTZNxVWPcrWFmzCU=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="一路向海的少年" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>一路向海的少年</p>
+                                </a>
+                                                                 <a
+                                href="/s/你好，星期六.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg5Nzc1MzIxMC53ZWJw&amp;sign=yx:g-TnHRAYMOKOKPn_g1Vo1--hJlU=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="你好，星期六" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>你好，星期六</p>
+                                </a>
+                                                                 <a
+                                href="/s/哈哈哈哈哈 第五季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkxODM4NTg5OS53ZWJw&amp;sign=yx:pVFBidBsKNTHKK0AFjiVhbMjMCE=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="哈哈哈哈哈 第五季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>哈哈哈哈哈 第五季</p>
+                                </a>
+                                                                 <a
+                                href="/s/忙忙碌碌寻宝藏2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzQ0NzEzMy53ZWJw&amp;sign=yx:mDqXNFDi-oL2CXVMFXHtQXmcDDs=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="忙忙碌碌寻宝藏2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>忙忙碌碌寻宝藏2</p>
+                                </a>
+                                                                 <a
+                                href="/s/大哥小助理.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDk0MzM1My53ZWJw&amp;sign=yx:8PaXozoZBl6D2RCgQZEm6IcNVz4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=404" alt="大哥小助理" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>大哥小助理</p>
+                                </a>
+                                                                 <a
+                                href="/s/说唱巅峰对决2026.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyNTU1MDAxMC53ZWJw&amp;sign=yx:BOKn8-VWA5UB3AEEe3RyuUKa8rk=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="说唱巅峰对决2026" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>说唱巅峰对决2026</p>
+                                </a>
+                                                                 <a
+                                href="/s/声生不息&middot;宝岛季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjg4OTIxMTk2My53ZWJw&amp;sign=yx:RZtTMFEXFf5OiGeROdFH3R9Avb4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="声生不息&middot;宝岛季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>声生不息&middot;宝岛季</p>
+                                </a>
+                                                                 <a
+                                href="/s/一年一度喜剧大赛.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjcwMTEwNTgzOS53ZWJw&amp;sign=yx:zlfkRppmY7EHi2YsDzi74b6d40E=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="一年一度喜剧大赛" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>一年一度喜剧大赛</p>
+                                </a>
+                                                                 <a
+                                href="/s/喜剧之王单口季 第三季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzcyNjc1NC53ZWJw&amp;sign=yx:mAEJTUnT-BDqIPIGl9fAxkEx1fw=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="喜剧之王单口季 第三季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>喜剧之王单口季 第三季</p>
+                                </a>
+                                                                 <a
+                                href="/s/脱口秀和Ta的朋友们 第三季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzMzQ5NDM5MC53ZWJw&amp;sign=yx:kHpaX4gfQuwTg2dNA6uLvAKxuLM=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="脱口秀和Ta的朋友们 第三季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>脱口秀和Ta的朋友们 第三季</p>
+                                </a>
+                                                                 <a
+                                href="/s/周五晚高疯.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWczLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyOTkxMjU5Mi53ZWJw&amp;sign=yx:biZQD7FJlhcAmeYQ-pwVET7CfZ4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="周五晚高疯" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>周五晚高疯</p>
+                                </a>
+                                                                 <a
+                                href="/s/当家爸爸的聚会2.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkyNjY3MzQ0NC53ZWJw&amp;sign=yx:Q29GQhZbxMOJvp1hDsu060R0LK4=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=283" alt="当家爸爸的聚会2" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>当家爸爸的聚会2</p>
+                                </a>
+                                                                 <a
+                                href="/s/哈哈哈哈哈 第四季.html"
+                                target="_blank" class="item">
+                                <div class="img">
+                                                                        <img src="http://s2.zimgs.cn/ims?at=sc&amp;kt=url&amp;key=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL3NfcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkwNTczOTQzNC53ZWJw&amp;sign=yx:AwVCmCNZCf8-dw3ALO3ADTSqY60=&amp;tv=0_0&amp;p=&amp;width=270&amp;height=405" alt="哈哈哈哈哈 第四季" />
+                                    <span>Loading...</span>
+                                                                    </div>
+                                <p>哈哈哈哈哈 第四季</p>
+                                </a>
+                                                                                        </div>
+                        
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="footerBox">
+    <div class="box">
+        <p></p>
+        <p>
+                        <a href="/sitemap.xml" target="_blank">网站地图</a>
+        </p>
+    </div>
+</div>
+    </div>
+    <script src="/views/index/news/common/static/js/vue.global.min.js"></script>
+<script src="/views/index/news/common/static/js/index.full.min.js"></script>
+<script src="/views/index/news/common/static/js/axios.min.js"></script>
+<script src="/views/index/news/common/static/js/qrcanvas@3.js"></script>
+<script>
+    const { createApp, ref, onMounted, onUnmounted } = Vue;
+    const { ElButton, ElMessage  } = ElementPlus;
+    const app = createApp({
+        setup() {
+            // 定义响应式数据
+            const elementOpacity = ref(0);
+            const scrollThreshold = ref(150); // 动态设置的滚动阈值
+            const keyword = ref('');
+            const qcodeVisible = ref(false);
+            const layerVisible = ref(false);
+            const content = ref('');
+            const load = ref(false)
+            const drawer = ref(false)
+            const rankList = ref([]);
+            const rankDj = ref([]);
+            const is_m = ref(0);
+            const newList = ref([]);
+            const QList = ref([]);
+            const QLoading = ref(false);
+            const total_result = ref(0);
+            const currentSource = ref(0);
+            const dialogUrl = ref(false);
+            const dialogLoading = ref(false);
+            const dialogItem = ref({});
+            const is_type = ref(0);
+            const pc_type = ref(0);
+            
+            
+            // 公共消息方法
+            const showMessage = (message, type = 'info') => {
+                ElMessage({
+                    message,
+                    type,
+                    plain: true,
+                });
+            };
+
+
+             // 滚动监听方法
+            const handleScroll = () => {
+                const scrollTop = window.scrollY || document.documentElement.scrollTop;
+                elementOpacity.value = scrollTop >= scrollThreshold.value
+                    ? Math.min((scrollTop - scrollThreshold.value) / 100, 1)
+                    : Math.max(1 - (scrollThreshold.value - scrollTop) / 100, 0);
+    
+                const boxElement = document.querySelector('.listBox .screen .fixed .box');
+                if (boxElement.style.display === 'block' && is_m.value) {
+                    boxElement.style.display = 'none'; // 隐藏元素
+                }
+            };
+
+            // 搜索按钮点击事件
+            const searchBtn = () => {
+                if (!keyword.value) {
+                    return showMessage('请输入你要搜索的内容~', 'error');
+                }
+                const currentUrl = window.location.href;
+                const targetUrl = `/s/${keyword.value}.html`;
+                if (currentUrl.includes('/s/') || currentUrl.includes('/d/')) {
+                    window.location.href = targetUrl;
+                } else {
+                    window.open(targetUrl, '_blank');
+                }
+            };
+            
+            // 保存按钮点击事件
+            const saveBtn = async () => {
+                if (!content.value) {
+                    return showMessage('请输入你想看的资源信息~', 'error');
+                }
+                if (load.value) return;
+    
+                load.value = true;
+                try {
+                    const response = await axios.post('/api/tool/feedback', { content: content.value });
+                    showMessage(response.data.message, response.data.code === 200 ? 'success' : 'error');
+                    if (response.data.code === 200) {
+                        layerVisible.value = false;
+                        content.value = '';
+                    }
+                } finally {
+                    load.value = false;
+                }
+            };
+            
+            const setnum = (num) => (num / 10000).toFixed(2) + 'W';
+            
+            const goLink = (event,id) => {
+                event.preventDefault();
+                window.location.href = `/d/${id}.html`;
+            }
+            
+            const changeBtn = (e) => {
+                const category_id = `0`;
+                if(category_id){
+                    window.location.href = `/s/${keyword.value}-${e}-${category_id}.html`;
+                }else{
+                    window.location.href = `/s/${keyword.value}-${e}.html`;
+                }
+            };
+            
+            const copyText = async(event,title,url,code) => {
+                event.preventDefault();
+                var text = '标题：'+title+'\n链接：'+url
+                if (code) text += `\n提取码：${code}`;
+                text += `\n由【${'如风搜'}${window.location.hostname}】提供网盘分享链接`;
+                
+                
+                try {
+                    // 优先使用 navigator.clipboard
+                    await navigator.clipboard.writeText(text);
+                    showMessage('复制成功', 'success');
+                } catch (err) {
+                    // 如果 navigator.clipboard 失败，使用 document.execCommand 作为回退
+                    const textArea = document.createElement('textarea');
+                    textArea.value = text;
+                    textArea.style.position = 'fixed';  // 避免滚动
+                    textArea.style.opacity = 0;
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+            
+                    try {
+                        const successful = document.execCommand('copy');
+                        if (successful) {
+                            showMessage('复制成功', 'success');
+                        } else {
+                            throw new Error('复制失败');
+                        }
+                    } catch (err) {
+                        showMessage('复制失败，请手动复制', 'error');
+                    }
+            
+                    document.body.removeChild(textArea);
+                }
+            }
+            
+            const selectBtn = () => {
+                if(!is_m.value) return;
+                const boxElement = document.querySelector('.listBox .screen .fixed .box');
+                // 切换 display 属性，显示或隐藏
+                if (boxElement.style.display === 'none' || boxElement.style.display === '') {
+                    boxElement.style.display = 'block'; // 显示
+                } else {
+                    boxElement.style.display = ''; // 隐藏
+                }
+            }
+            
+            const handleDeviceType = () => {
+                const isMobile = window.matchMedia('(max-width: 768px)').matches;
+                if (isMobile) {
+                    // 手机端的逻辑
+                    is_m.value = 1
+                    pc_type.value = 1
+                } else {
+                    // 电脑端的逻辑
+                    is_m.value = 0
+                    pc_type.value = '2';
+                }
+            };
+
+
+            // 组件挂载时添加滚动监听
+            onMounted(() => {
+                handleDeviceType();
+                
+                window.addEventListener('scroll', handleScroll);
+                window.addEventListener('resize', handleDeviceType);
+            });
+
+            // 组件卸载时移除滚动监听
+            onUnmounted(() => {
+                window.removeEventListener('scroll', handleScroll);
+                window.removeEventListener('resize', handleDeviceType);
+            });
+
+            // 返回数据和方法
+            return { elementOpacity, scrollThreshold, keyword, searchBtn, rankList,newList, setnum, qcodeVisible, layerVisible, content, saveBtn, rankDj,goLink,changeBtn,copyText,drawer,selectBtn,is_m,QList,QLoading,total_result,currentSource,dialogUrl,dialogLoading,dialogItem,is_type,pc_type };
+        }
+    })
+    .use(ElementPlus) // 使用 Element Plus
+    .mount('#app'); // 挂载 Vue 实例
+</script>
+    <script type="text/javascript" charset="utf-8">
+        app.rankList = JSON.parse('[{"source_category_id":4,"name":"动漫","image":"","is_sys":1,"is_type":0},{"source_category_id":2,"name":"电影","image":"","is_sys":1,"is_type":0},{"source_category_id":3,"name":"电视剧","image":"","is_sys":1,"is_type":0},{"source_category_id":1,"name":"短剧","image":"","is_sys":1,"is_type":0},{"source_category_id":5,"name":"综艺","image":"","is_sys":1,"is_type":0}]');
+        for (const item of app.rankList) {
+            if (item.is_sys != 1) {
+                continue;
+            }
+            axios.get('/api/tool/ranking', {
+                params: {
+                    channel: item.name
+                }
+            })
+        }
+    </script>
+
+<script type='text/javascript'>
+console.group('基本');
+console.log("\u8bf7\u6c42\u4fe1\u606f 2026-08-23 02:54:00 HTTP\/2.0 GET : https:\/\/rufengso.com\/");
+console.log("\u8fd0\u884c\u65f6\u95f4 0.055078s [ \u541e\u5410\u7387\uff1a18.16req\/s ] \u5185\u5b58\u6d88\u8017\uff1a4,394.78kb \u6587\u4ef6\u52a0\u8f7d\uff1a170");
+console.log("\u67e5\u8be2\u4fe1\u606f 5 queries");
+console.log("\u7f13\u5b58\u4fe1\u606f 0 reads,0 writes");
+console.log("\u4f1a\u8bdd\u4fe1\u606f SESSION_ID=2035451aab516af1c2ad17adff158b33");
+console.groupEnd();console.groupCollapsed('文件');
+console.log("1 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/public\/index.php ( 1.47 KB )");
+console.log("2 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/autoload.php ( 0.17 KB )");
+console.log("3 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/composer\/autoload_real.php ( 2.49 KB )");
+console.log("4 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/composer\/platform_check.php ( 0.90 KB )");
+console.log("5 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/composer\/ClassLoader.php ( 14.03 KB )");
+console.log("6 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/composer\/autoload_static.php ( 14.94 KB )");
+console.log("7 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/symfony\/polyfill-php80\/bootstrap.php ( 1.50 KB )");
+console.log("8 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/symfony\/deprecation-contracts\/function.php ( 0.98 KB )");
+console.log("9 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/symfony\/polyfill-mbstring\/bootstrap.php ( 7.33 KB )");
+console.log("10 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/symfony\/polyfill-php72\/bootstrap.php ( 1.89 KB )");
+console.log("11 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/symfony\/var-dumper\/Resources\/functions\/dump.php ( 0.79 KB )");
+console.log("12 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/ralouphie\/getallheaders\/src\/getallheaders.php ( 1.60 KB )");
+console.log("13 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-helper\/src\/helper.php ( 7.35 KB )");
+console.log("14 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/symfony\/polyfill-php73\/bootstrap.php ( 0.99 KB )");
+console.log("15 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/symfony\/polyfill-php73\/Php73.php ( 0.85 KB )");
+console.log("16 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/guzzlehttp\/guzzle\/src\/functions_include.php ( 0.16 KB )");
+console.log("17 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/guzzlehttp\/guzzle\/src\/functions.php ( 5.55 KB )");
+console.log("18 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/stubs\/load_stubs.php ( 0.16 KB )");
+console.log("19 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Exception.php ( 1.69 KB )");
+console.log("20 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Facade.php ( 2.71 KB )");
+console.log("21 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/symfony\/translation\/Resources\/functions.php ( 0.55 KB )");
+console.log("22 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/adbario\/php-dot-notation\/src\/helpers.php ( 0.57 KB )");
+console.log("23 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/mtdowling\/jmespath.php\/src\/JmesPath.php ( 0.36 KB )");
+console.log("24 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Support\/helpers.php ( 4.01 KB )");
+console.log("25 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Support\/alias.php ( 1.49 KB )");
+console.log("26 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Contracts\/Support\/Arrayable.php ( 0.19 KB )");
+console.log("27 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Contracts\/Support\/Jsonable.php ( 0.24 KB )");
+console.log("28 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Contracts\/Support\/Htmlable.php ( 0.19 KB )");
+console.log("29 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Contracts\/Support\/CanBeEscapedWhenCastToString.php ( 0.33 KB )");
+console.log("30 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Support\/Arr.php ( 17.85 KB )");
+console.log("31 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Support\/Traits\/Macroable.php ( 2.79 KB )");
+console.log("32 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Support\/Collection.php ( 38.28 KB )");
+console.log("33 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Support\/Traits\/EnumeratesValues.php ( 27.25 KB )");
+console.log("34 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Support\/Enumerable.php ( 23.83 KB )");
+console.log("35 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Support\/HigherOrderCollectionProxy.php ( 1.40 KB )");
+console.log("36 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Support\/HigherOrderWhenProxy.php ( 1.30 KB )");
+console.log("37 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/tightenco\/collect\/src\/Collect\/Support\/LazyCollection.php ( 38.00 KB )");
+console.log("38 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/alibabacloud\/client\/src\/Functions.php ( 5.33 KB )");
+console.log("39 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/overtrue\/wechat\/src\/Kernel\/Support\/Helpers.php ( 2.54 KB )");
+console.log("40 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/overtrue\/wechat\/src\/Kernel\/Helpers.php ( 1.89 KB )");
+console.log("41 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-queue\/src\/common.php ( 1.01 KB )");
+console.log("42 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/App.php ( 14.17 KB )");
+console.log("43 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Container.php ( 15.38 KB )");
+console.log("44 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/psr\/container\/src\/ContainerInterface.php ( 1.02 KB )");
+console.log("45 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/provider.php ( 0.19 KB )");
+console.log("46 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Http.php ( 6.12 KB )");
+console.log("47 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-helper\/src\/helper\/Str.php ( 7.28 KB )");
+console.log("48 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Env.php ( 4.64 KB )");
+console.log("49 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/common.php ( 31.47 KB )");
+console.log("50 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/helper.php ( 18.44 KB )");
+console.log("51 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Config.php ( 5.03 KB )");
+console.log("52 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/app.php ( 1.13 KB )");
+console.log("53 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/facade\/Env.php ( 1.67 KB )");
+console.log("54 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/cache.php ( 0.80 KB )");
+console.log("55 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/console.php ( 0.19 KB )");
+console.log("56 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/cookie.php ( 0.49 KB )");
+console.log("57 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/database.php ( 2.28 KB )");
+console.log("58 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/filesystem.php ( 0.21 KB )");
+console.log("59 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/lang.php ( 0.75 KB )");
+console.log("60 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/log.php ( 1.37 KB )");
+console.log("61 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/middleware.php ( 0.19 KB )");
+console.log("62 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/queue.php ( 1.05 KB )");
+console.log("63 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/route.php ( 1.58 KB )");
+console.log("64 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/session.php ( 0.57 KB )");
+console.log("65 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/trace.php ( 0.34 KB )");
+console.log("66 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/config\/view.php ( 0.90 KB )");
+console.log("67 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/event.php ( 0.25 KB )");
+console.log("68 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Event.php ( 6.96 KB )");
+console.log("69 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/service.php ( 0.13 KB )");
+console.log("70 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/AppService.php ( 0.26 KB )");
+console.log("71 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Service.php ( 1.67 KB )");
+console.log("72 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Lang.php ( 7.60 KB )");
+console.log("73 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/lang\/zh-cn.php ( 12.88 KB )");
+console.log("74 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/initializer\/Error.php ( 3.27 KB )");
+console.log("75 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/initializer\/RegisterService.php ( 1.33 KB )");
+console.log("76 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/services.php ( 0.20 KB )");
+console.log("77 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/service\/PaginatorService.php ( 1.52 KB )");
+console.log("78 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/service\/ValidateService.php ( 0.99 KB )");
+console.log("79 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/service\/ModelService.php ( 1.76 KB )");
+console.log("80 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-multi-app\/src\/Service.php ( 1.05 KB )");
+console.log("81 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-queue\/src\/queue\/Service.php ( 1.24 KB )");
+console.log("82 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-trace\/src\/Service.php ( 0.77 KB )");
+console.log("83 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Middleware.php ( 6.78 KB )");
+console.log("84 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/initializer\/BootService.php ( 0.77 KB )");
+console.log("85 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/Paginator.php ( 11.80 KB )");
+console.log("86 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Validate.php ( 46.10 KB )");
+console.log("87 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/Model.php ( 25.28 KB )");
+console.log("88 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/model\/concern\/Attribute.php ( 17.61 KB )");
+console.log("89 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/model\/concern\/RelationShip.php ( 26.12 KB )");
+console.log("90 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/model\/concern\/ModelEvent.php ( 2.27 KB )");
+console.log("91 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/model\/concern\/TimeStamp.php ( 5.70 KB )");
+console.log("92 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/model\/concern\/Conversion.php ( 10.41 KB )");
+console.log("93 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-helper\/src\/contract\/Arrayable.php ( 0.09 KB )");
+console.log("94 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-helper\/src\/contract\/Jsonable.php ( 0.13 KB )");
+console.log("95 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Db.php ( 2.87 KB )");
+console.log("96 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/DbManager.php ( 8.49 KB )");
+console.log("97 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Log.php ( 8.50 KB )");
+console.log("98 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Manager.php ( 3.98 KB )");
+console.log("99 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/psr\/log\/Psr\/Log\/LoggerInterface.php ( 3.04 KB )");
+console.log("100 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Cache.php ( 4.79 KB )");
+console.log("101 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/psr\/simple-cache\/src\/CacheInterface.php ( 4.50 KB )");
+console.log("102 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-helper\/src\/helper\/Arr.php ( 15.54 KB )");
+console.log("103 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/cache\/driver\/File.php ( 7.42 KB )");
+console.log("104 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/cache\/Driver.php ( 8.06 KB )");
+console.log("105 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/contract\/CacheHandlerInterface.php ( 2.25 KB )");
+console.log("106 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Console.php ( 22.65 KB )");
+console.log("107 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/Request.php ( 0.09 KB )");
+console.log("108 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Request.php ( 54.04 KB )");
+console.log("109 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/middleware.php ( 0.33 KB )");
+console.log("110 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Pipeline.php ( 2.61 KB )");
+console.log("111 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-trace\/src\/TraceDebug.php ( 2.94 KB )");
+console.log("112 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/middleware\/AllowCrossDomain.php ( 2.08 KB )");
+console.log("113 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/middleware\/SessionInit.php ( 2.06 KB )");
+console.log("114 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Session.php ( 1.80 KB )");
+console.log("115 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/session\/driver\/File.php ( 6.28 KB )");
+console.log("116 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/contract\/SessionHandlerInterface.php ( 0.87 KB )");
+console.log("117 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/session\/Store.php ( 7.26 KB )");
+console.log("118 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-multi-app\/src\/MultiApp.php ( 7.07 KB )");
+console.log("119 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Route.php ( 23.96 KB )");
+console.log("120 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/route\/RuleName.php ( 5.33 KB )");
+console.log("121 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/route\/Domain.php ( 5.55 KB )");
+console.log("122 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/route\/RuleGroup.php ( 13.61 KB )");
+console.log("123 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/route\/Rule.php ( 22.85 KB )");
+console.log("124 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/route\/RuleItem.php ( 8.81 KB )");
+console.log("125 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/index\/route\/index.php ( 0.25 KB )");
+console.log("126 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/facade\/Route.php ( 4.88 KB )");
+console.log("127 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/route\/dispatch\/Url.php ( 3.42 KB )");
+console.log("128 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/route\/dispatch\/Controller.php ( 6.61 KB )");
+console.log("129 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/route\/Dispatch.php ( 6.49 KB )");
+console.log("130 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/index\/controller\/Index.php ( 12.27 KB )");
+console.log("131 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/index\/QfShop.php ( 0.83 KB )");
+console.log("132 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/model\/Conf.php ( 0.59 KB )");
+console.log("133 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/model\/QfShop.php ( 5.90 KB )");
+console.log("134 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/connector\/Mysql.php ( 4.39 KB )");
+console.log("135 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/PDOConnection.php ( 52.45 KB )");
+console.log("136 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/Connection.php ( 7.67 KB )");
+console.log("137 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/ConnectionInterface.php ( 4.56 KB )");
+console.log("138 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/builder\/Mysql.php ( 15.93 KB )");
+console.log("139 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/Builder.php ( 41.58 KB )");
+console.log("140 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/Query.php ( 10.64 KB )");
+console.log("141 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/BaseQuery.php ( 36.47 KB )");
+console.log("142 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/concern\/TimeFieldQuery.php ( 7.50 KB )");
+console.log("143 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/concern\/AggregateQuery.php ( 3.26 KB )");
+console.log("144 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/concern\/ModelRelationQuery.php ( 16.06 KB )");
+console.log("145 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/concern\/ResultOperation.php ( 6.29 KB )");
+console.log("146 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/concern\/Transaction.php ( 2.85 KB )");
+console.log("147 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/concern\/WhereQuery.php ( 16.22 KB )");
+console.log("148 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/concern\/JoinAndViewQuery.php ( 6.86 KB )");
+console.log("149 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/concern\/ParamsBind.php ( 3.36 KB )");
+console.log("150 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/db\/concern\/TableFieldInfo.php ( 2.51 KB )");
+console.log("151 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/log\/driver\/File.php ( 6.17 KB )");
+console.log("152 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/contract\/LogHandlerInterface.php ( 0.86 KB )");
+console.log("153 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/log\/Channel.php ( 6.54 KB )");
+console.log("154 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/event\/LogRecord.php ( 0.86 KB )");
+console.log("155 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-orm\/src\/model\/Collection.php ( 6.78 KB )");
+console.log("156 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-helper\/src\/Collection.php ( 16.10 KB )");
+console.log("157 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/facade\/Config.php ( 1.37 KB )");
+console.log("158 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/model\/Source.php ( 11.02 KB )");
+console.log("159 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/model\/SourceCategory.php ( 0.45 KB )");
+console.log("160 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/app\/model\/ApiList.php ( 0.08 KB )");
+console.log("161 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/facade\/View.php ( 1.71 KB )");
+console.log("162 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/View.php ( 4.41 KB )");
+console.log("163 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-view\/src\/Think.php ( 8.42 KB )");
+console.log("164 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-template\/src\/Template.php ( 46.85 KB )");
+console.log("165 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-template\/src\/template\/driver\/File.php ( 2.33 KB )");
+console.log("166 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/runtime\/index\/temp\/c5502d880fa48109d2d50730e6ec11fa.php ( 25.63 KB )");
+console.log("167 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Response.php ( 8.60 KB )");
+console.log("168 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/response\/Html.php ( 0.98 KB )");
+console.log("169 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/framework\/src\/think\/Cookie.php ( 6.28 KB )");
+console.log("170 \/www\/wwwroot\/xinyue.com\/xinyue-search-main\/vendor\/topthink\/think-trace\/src\/Console.php ( 6.12 KB )");
+console.groupEnd();console.groupCollapsed('流程');
+console.groupEnd();console.group('错误');
+console.groupEnd();console.groupCollapsed('sql');
+console.log("%cCONNECT:[ UseTime:0.000937s ] mysql:host=127.0.0.1;port=3306;dbname=xinyue_com;charset=utf8mb4", "color:#009bb4;");
+console.log("%cSHOW FULL COLUMNS FROM `qf_conf` [ RunTime:0.000969s ]", "color:#009bb4;");
+console.log("%cSELECT * FROM `qf_conf` [ RunTime:0.000712s ]", "color:#009bb4;");
+console.log("%cSHOW FULL COLUMNS FROM `qf_source_category` [ RunTime:0.000741s ]", "color:#009bb4;");
+console.log("%cSHOW FULL COLUMNS FROM `qf_api_list` [ RunTime:0.000577s ]", "color:#009bb4;");
+console.log("%cSELECT `source_category_id`,`name`,`image`,`is_sys`,`is_type` FROM `qf_source_category` WHERE  `status` = 0 ORDER BY `sort` DESC [ RunTime:0.000398s ]", "color:#009bb4;");
+console.groupEnd();console.group('调试');
+console.groupEnd();
+</script></body>
+
+</html>

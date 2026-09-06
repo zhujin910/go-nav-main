@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>省省回头车-送货_搬家_更省钱</title>
+    <meta charset="UTF-8">
+    <meta name="baidu-site-verification" content="tA7wixVUAA" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0">
+    
+        
+        
+    
+    
+        
+    
+    
+        
+    
+    
+    
+    
+    <meta name="Keywords" content='省省，省省回头车，回头车，省省物流，省省物流平台，拉货，同城拉货，跨城拉货，货车拉货，面包车拉货'>
+    <meta name="Description" content='省省回头车是一家互联网车货匹配服务平台，为用户提供同城/跨城提货、送货、搬家等中短途货运服务。平台涵盖面包车到17.5米等10多种车型，下载APP一键叫车。'>
+    <script>
+      function isPC() {
+        var userAgentInfo = navigator.userAgent;
+        var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod", "XiaoMi");
+        var flag = true;
+        for (var v = 0; v < Agents.length; v++) {
+          if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            flag = false;
+            break;
+          }
+        }
+        return flag;
+      }
+      if(!isPC()){
+        window.location.href = 'https://mp.huitouche.com/index/?url=website/owner.html';
+      }
+    </script>
+    <link rel="canonical" href="http://www.huitouche.com/404/" />
+    <link rel="stylesheet" href="/static2/css/reset.css">
+    <link rel="stylesheet" href="/static2/css/common.css?t=20230406">
+    <link rel="stylesheet" href="/static2/css/list-common.css?t=20190905">
+    <link rel="stylesheet" href="/static2/css/swiper.min.css">
+    <link href="/static2/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="/static2/js/config.js"></script>
+    <script src="/static2/js/base.js"></script>
+    <script src="/static2/js/jquery1.12.4.js"></script>
+    <script src="/static2/js/swiper.min.js"></script>
+    </head>
+<body>
+<!--top start-->
+<div class="list_top">
+    
+
+    <!--nav start-->
+    <div class="h_nav c_main_width">
+        <h1 class="logo">
+            <a class="logo-link" href="/" title="国内领先的公路物流服务平台">
+                <img class="logo-link-ing" src="/static2/images2/logo-2.png?v=1" alt="物流服务平台">
+            </a>
+        </h1>
+        <!-- <div class="h_nav_box">
+            
+            <a href="/" title="首页" class="">首页</a>
+            <a href="/driver/" title="司机加入" class="">司机加入</a>
+            <a href="/client/" title="大客户入口" class="">大客户入口</a>
+            <a href="/about/" title="公司介绍" class="">公司介绍</a>
+            <a href="/contact/" title="联系我们" class="">联系我们</a>
+            <a  title="APP下载" id="nav-download" class="h_nav_app">APP下载</a>
+            <div class="codes-panel">
+                <div class="codes-panel-app">
+                    <img id="nav-app-code" src="/static2/images2/app-code.png" onerror="javascript:this.src='/static2/images2/app-code.png';" alt="">
+                    <span class="code-text">手机APP端</span>
+                </div>
+                <div class="codes-panel-app">
+                    <img src="/static2/images2/mini-code.png" alt="">
+                    <span class="code-text">发货小程序</span>
+                </div>
+                <span class="arrow"></span>
+            </div>
+        </div> -->
+    </div>
+    <!--nav end-->
+    <script>
+        $('#nav-download').mouseover(function(){
+          $(".codes-panel").css("display","flex");
+        });
+        $('#nav-download').mouseleave(function(){
+          setTimeout(function () {
+            $(".codes-panel").css("display","none");
+          },10000)
+        });
+
+    </script>
+</div>
+<!--top end-->
+
+
+<div class="detail-container">
+    <div class="c_main_width">
+        <div class="not-found-container">
+   <img src="/static2/images/404.png" alt="404 logo">
+   <p>暂时没找到相关信息，到处<a href="/">逛一逛</a>吧</p>
+</div>
+        <div class="detail-guess">
+                <div class="detail-guess-title">
+                    您可能感兴趣 》
+                </div>
+                <div class="guess-box">
+                    
+                    <div class="guess-box-unit">
+                        <div class="guess-title">
+                            广东省东莞市 —
+                            广东省广州市
+                        </div>
+                        <p class="guess-text">装货时间：2020-07-22 下午</p>
+                        <p class="guess-text">车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长：中面包车</p>
+                        <p class="guess-text">车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型：厢式密封车</p>
+                        <p class="guess-text">载&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重：0.00吨</p>
+                        <p class="guess-text">内&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空：0.00米长/
+                            0.00米宽/ 0.00米高</p>
+                        <p class="guess-text">期望运费：0元</p>
+                        <a href="/vehicle_source/4851411/" class="guess-link">查看详情</a>
+                    </div>
+                    
+                    <div class="guess-box-unit">
+                        <div class="guess-title">
+                            广东省广州市 —
+                            广东省东莞市
+                        </div>
+                        <p class="guess-text">装货时间：2020-06-24 全天</p>
+                        <p class="guess-text">车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长：小面包车</p>
+                        <p class="guess-text">车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型：厢式密封车</p>
+                        <p class="guess-text">载&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重：0.80吨</p>
+                        <p class="guess-text">内&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空：0.00米长/
+                            0.00米宽/ 0.00米高</p>
+                        <p class="guess-text">期望运费：0元</p>
+                        <a href="/vehicle_source/4851410/" class="guess-link">查看详情</a>
+                    </div>
+                    
+                    <div class="guess-box-unit">
+                        <div class="guess-title">
+                            广东省广州市 —
+                            广东省广州市
+                        </div>
+                        <p class="guess-text">装货时间：2020-02-24 下午</p>
+                        <p class="guess-text">车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长：7.6米</p>
+                        <p class="guess-text">车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型：厢式密封车</p>
+                        <p class="guess-text">载&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重：10.00吨</p>
+                        <p class="guess-text">内&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空：7.60米长/
+                            2.50米宽/ 3.90米高</p>
+                        <p class="guess-text">期望运费：350元</p>
+                        <a href="/vehicle_source/4851409/" class="guess-link">查看详情</a>
+                    </div>
+                    
+                    <div class="guess-box-unit">
+                        <div class="guess-title">
+                            广东省肇庆市 —
+                            广东省广州市
+                        </div>
+                        <p class="guess-text">装货时间：2019-12-30 晚上</p>
+                        <p class="guess-text">车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长：6.8米</p>
+                        <p class="guess-text">车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型：厢式密封车</p>
+                        <p class="guess-text">载&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重：10.00吨</p>
+                        <p class="guess-text">内&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空：6.80米长/
+                            2.30米宽/ 2.30米高</p>
+                        <p class="guess-text">期望运费：1000元</p>
+                        <a href="/vehicle_source/4851408/" class="guess-link">查看详情</a>
+                    </div>
+                    
+                </div>
+        </div>
+    </div>
+</div>
+
+<!--footer start-->
+<div class="footer">
+    <div class="c_main_width">
+        <!-- <div class="footer_links">
+            <div class="footer_unit" style="width: 13%">
+                <h4>客户服务</h4>
+                <a target="_blank" href="/driver/">司机加入</a>
+                <a target="_blank" href="/client/">大客户业务</a>
+            </div>
+
+            <div class="footer_unit" style="width: 26%">
+                <h4>联系我们</h4>
+                <a style="font-size: 30px;margin-top: -18px;">400-998-2019</a>
+                <a>商务合作：service@huitouche.com</a>
+            </div>
+        </div> -->
+        <div class="footer-code-box">
+            <div class="code-app">
+                <img id="footer-app-code" src="/static2/images2/app-code-owner.png?t=20230412"
+                    onerror="javascript:this.src='/static2/images2/app-code-owner.png?t=20230412';" alt="">
+                <span class="code-text">货主端APP</span>
+            </div>
+            <div class="mini-app">
+                <img src="/static2/images2/app-code-driver.png"
+                onerror="javascript:this.src='/static2/images2/app-code-driver.png';" alt="">
+                <span class="code-text">司机端APP</span>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer_copy_right">
+        <ul class="copy-ul">
+            <li>Copyright © 2014-2022 All Rights Reserved ／ 广州回头车信息科技有限公司版权所有 ／ <a rel="nofollow" target="_blank"
+                    href="http://beian.miit.gov.cn/">粤ICP备14034183号</a>
+            </li>
+            <li><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602008342">
+                    <img class="copy-public"
+                        src="https://img.huitouche.com/20200812/0d0289dc0a46fc5b15b3363ffa78cf6c7.png" />
+                    粤公网安备 44010602008342号
+                </a><a id="telecomLicensing" href="javascript:;">增值电信业务经营许可证：粤B2-20191202</a><a id="businessLicense" href="javascript:;">营业执照</a></li>
+        </ul>
+    </div>
+</div>
+<div id="licenceMasker" class="licence-masker">
+    <img id="licenceImage" class="licence-image">
+</div>
+<!--footer end-->
+<div style="display: none">
+    <script type="text/javascript">
+        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cspan id='cnzz_stat_icon_1253009034'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+            "s95.cnzz.com/z_stat.php%3Fid%3D1253009034' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</div>
+<style>
+    .qq-online-service {
+        position: fixed;
+        z-index: 800;
+        right: 0;
+        min-height: 100px;
+        background: #fff;
+        width: 90px;
+        top: 40%;
+        margin-top: -50px;
+        padding: 22px 0;
+        font-size: 12px;
+        text-align: center;
+        box-shadow: 0 0 5px #767676;
+        cursor: pointer;
+    }
+
+    .qq-icon {
+        display: block;
+        width: 32px;
+        margin: 0 auto 5px auto;
+    }
+
+    .qq-s-date {
+        color: #6a6a6a;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .qq-s-wt {
+        color: #6a6a6a;
+    }
+</style>
+
+<!-- <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2556798791&site=qq&menu=yes" class="qq-online-service">
+    <?xml version="1.0" standalone="no"?>
+    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg
+        t="1562482722264" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        p-id="6408" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32">
+        <defs>
+            <style type="text/css"></style>
+        </defs>
+        <path
+            d="M173.056 947.712c0 41.984 73.728 76.288 164.352 76.288S501.76 989.696 501.76 947.712s-73.728-76.288-164.352-76.288-164.352 33.792-164.352 76.288zM521.728 947.712c0 41.984 73.728 76.288 164.352 76.288 91.136 0 164.352-34.304 164.352-76.288s-73.728-76.288-164.352-76.288c-90.624-0.512-164.352 33.792-164.352 76.288z"
+            fill="#F5B824" p-id="6409"></path>
+        <path
+            d="M878.08 506.88l-36.864-118.784C840.704 1.536 528.384 0 512 0c-16.896 0-328.704 1.536-328.704 388.096L145.92 506.88s-125.44 157.696-40.96 294.912c9.728 6.656 10.24 30.72 61.44-77.312 0 0 68.608 241.664 343.552 243.712h3.072c274.944-2.048 343.552-243.712 343.552-243.712 51.2 108.032 52.224 86.016 61.44 77.312 85.504-137.216-39.936-294.912-39.936-294.912z"
+            fill="#121213" p-id="6410"></path>
+        <path
+            d="M526.336 254.464c0 51.712 29.696 93.696 66.56 93.696s66.56-41.984 66.56-93.696c0-51.712-29.696-93.696-66.56-93.696-36.864 0.512-66.56 41.984-66.56 93.696zM355.328 254.464c0 51.712 29.696 93.696 66.56 93.696s66.56-41.984 66.56-93.696c0-51.712-29.696-93.696-66.56-93.696-36.352 0.512-66.56 41.984-66.56 93.696z"
+            fill="#FFFFFF" p-id="6411"></path>
+        <path
+            d="M414.72 254.464c0 22.016 12.8 40.448 28.672 40.448 15.872 0 28.672-17.92 28.672-40.448s-12.8-40.448-28.672-40.448c-15.872 0.512-28.672 18.432-28.672 40.448z"
+            fill="#161616" p-id="6412"></path>
+        <path
+            d="M781.312 466.944c-113.152 94.208-269.312 83.456-269.312 83.456s-156.672 10.752-269.312-83.456c0 0-107.52 484.864 269.312 484.864s269.312-484.864 269.312-484.864z"
+            fill="#FAFAFB" p-id="6413"></path>
+        <path
+            d="M840.704 388.096s-90.112 161.792-328.704 161.792-328.704-161.792-328.704-161.792C144.896 492.032 145.92 506.88 145.92 506.88c36.864 40.96 80.896 74.752 129.536 99.84-3.072 34.816-7.68 88.064-7.168 115.2 0.512 42.496 26.624 45.056 86.528 51.2 59.904 5.632 47.616-10.24 47.616-37.376V650.24c63.488 12.288 109.056 7.68 109.056 7.68s208.896 21.504 366.08-152.064c0.512 1.024 1.536-13.824-36.864-117.76z"
+            fill="#D53118" p-id="6414"></path>
+        <path
+            d="M687.616 407.552c-53.76-25.6-140.8-33.792-175.616-33.792s-121.856 8.192-175.616 33.792c-25.6 8.704-35.84 15.36-35.84 24.064 0 1.024 1.024 2.56 2.56 4.096 50.176 31.232 125.44 51.2 209.408 51.2s159.232-19.968 209.408-51.2c1.536-2.048 2.56-3.072 2.56-4.096-0.512-8.704-10.752-15.36-36.864-24.064z"
+            fill="#F0B225" p-id="6415"></path>
+    </svg>
+    <p style="color: #4cafe9;">QQ在线客服</p>
+    <div class="qq-s-date">周一至周五</div>
+    <div class="qq-s-wt">08:30~21:00</div>
+    <div class="qq-s-date">周末</div>
+    <div class="qq-s-wt">08:30~18:00</div>
+</a> -->
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?9500847b0998eb869130bb08af169e37";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+<script>
+    // var package = Base.getUrlParam('package');
+    // if (package) {
+    //     $('#home-app-code,#nav-app-code,#footer-app-code,#driver-app-code,#client-app-code').attr('src',
+    //         '/static2/images2/app-code-' + package + '.png');
+    // }
+
+    function showLicensing() {
+        $("#licenceMasker").show()
+        $("#licenceImage").bind('click', function (event) {
+            event.preventDefault();
+            return false
+        })
+        $("#licenceMasker").on('click', function () {
+            $("#licenceMasker").hide()
+        })
+    }
+    $("#telecomLicensing").on('click', function () {
+        $("#licenceImage").attr("src", '/static2/images2/telecomLicensing.jpg')
+        showLicensing()
+    })
+    $("#businessLicense").on('click', function () {
+        $("#licenceImage").attr("src", '/static2/images2/businessLicense.jpg')
+        showLicensing()
+    })
+</script>
+
+
+</body>
+
+</html>

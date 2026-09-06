@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+<!--    tell dark reader extension that our site already supports dark mode-->
+    <meta name="darkreader-lock" >
+    <link rel="icon" type="image/svg+xml" href="/assets/app_icon_simple-DyQVbx7O.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AB Download Manager</title>
+    <script type="module" crossorigin src="/assets/index-DHMd2_kV.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DKIi4xv1.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

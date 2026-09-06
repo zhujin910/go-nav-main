@@ -1,0 +1,1061 @@
+{
+  "categories": [
+    {
+      "id": "6mp702",
+      "name": "精品推荐",
+      "icon": "🔥",
+      "description": "高频使用的中文互联网入口与生活服务，适合作为导航首页的核心收藏",
+      "children": [
+        {
+          "id": "featured-portals",
+          "name": "常用入口",
+          "sites": [
+            {
+              "title": "雨云",
+              "description": "欢迎来到以用户体验为优先的雨云，我们提供稳定高速的云服务器、游戏云、物理服务器，强大的功能，高效率的客户支持，简洁易用的面板，值得您的信赖",
+              "url": "https://www.rainyun.com/gotab_",
+              "icon": "/uploads/favicon-www-rainyun-com-6f6fd24ae52c.ico",
+              "bgColor": "rgba(255, 255, 255, 0)",
+              "iconPadding": "6",
+              "tags": [
+                "服务器"
+              ],
+              "previewImage": "/uploads/preview-www-rainyun-com-0ae493f9fe1a.png"
+            },
+            {
+              "id": "baidu",
+              "title": "百度一下",
+              "description": "全球领先的中文搜索引擎、致力于让网民更便捷地获取信息，找到所求。百度超过千亿的中文网页数据库，可以瞬间找到相关的搜索结果。",
+              "url": "https://www.baidu.com",
+              "icon": "/uploads/favicon-www-baidu-com-9ba86eaccfd8.png",
+              "tags": [
+                "搜索",
+                "百度",
+                "中文搜索",
+                "入口"
+              ],
+              "previewImage": "/uploads/preview-www-baidu-com-a3e9dd503f48.png"
+            },
+            {
+              "id": "zhihu",
+              "title": "知乎",
+              "description": "知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解答」为品牌使命。知乎凭借认真、专业、友善的社区氛围、独特的产品机制以及结构化和易获得的优质内容，聚集了中文互联网科技、商业、影视、时尚、文化等领域最具创造力的人群，已成为综合性、全品类、在诸多领域具有关键影响力的知识分享社区和创作者聚集的原创内容平台，建立起了以社区驱动的内容变现商业模式。",
+              "url": "https://www.zhihu.com",
+              "icon": "/uploads/favicon-www-zhihu-com-71383b441c36.png",
+              "tags": [
+                "问答",
+                "知识",
+                "社区",
+                "知乎"
+              ],
+              "previewImage": "/uploads/preview-www-zhihu-com-bf289dda1c38.png"
+            },
+            {
+              "id": "weibo",
+              "title": "Sina Visitor System",
+              "description": "热点资讯、公众讨论与社交媒体平台",
+              "url": "https://weibo.com",
+              "icon": "/uploads/favicon-passport-weibo-com-db39034db393.ico",
+              "tags": [
+                "微博",
+                "热点",
+                "社交",
+                "资讯"
+              ],
+              "previewImage": "/uploads/preview-weibo-com-ea6ca3d3a794.png"
+            },
+            {
+              "id": "xiaohongshu",
+              "title": "小红书",
+              "description": "生活方式、消费经验与图文视频社区",
+              "url": "https://www.xiaohongshu.com",
+              "icon": "/uploads/favicon-www-xiaohongshu-com-2912c4df1ab4.png",
+              "tags": [
+                "小红书",
+                "生活",
+                "种草",
+                "社区"
+              ],
+              "bgColor": "#FF3333",
+              "iconPadding": "4",
+              "previewImage": "/uploads/preview-www-xiaohongshu-com-28b0cf675c62.png"
+            },
+            {
+              "title": "最新资源",
+              "url": "https://www.zlxapp.top/new",
+              "description": "最新资源 - 电影在线观看，热门影视资源,免费电影观影,高清在线影视,电视剧在线观看,热门综艺推荐,高清电视剧动漫,网盘搜索,夸克网盘,uc网盘,百度网盘，移动网盘，骄阳似我",
+              "icon": "/uploads/favicon-www-zlxapp-top-f9cdabb418be.png",
+              "tags": [
+                "最新资源",
+                "电影在线观看",
+                "热门影视资源",
+                "免费电影观影",
+                "高清在线影视",
+                "电视剧在线观看",
+                "热门综艺推荐",
+                "高清电视剧动漫",
+                "网盘搜索",
+                "夸克网盘",
+                "uc网盘",
+                "百度网盘",
+                "移动网盘",
+                "骄阳似我",
+                "免费在线观看高清影视的最佳选择？我们分享热门影视资源",
+                "提供高清在线影视服务",
+                "满足您的观影欲望！"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "featured-life",
+          "name": "生活服务",
+          "sites": [
+            {
+              "id": "12306",
+              "title": "中国铁路客户服务中心",
+              "description": "中国铁路官方购票、改签与出行服务平台",
+              "url": "https://www.12306.cn",
+              "icon": "<svg t=\"1778584349265\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"54816\" width=\"200\" height=\"200\"><path d=\"M675.144225 563.357482c6.397813 0 12.795625-9.596719 12.795626-15.994532V480.185916c0-63.978127-86.370472-63.978127-86.370473-63.978127h-179.138756s-83.171566 0-79.97266 60.779221v60.779221c0 6.397813 6.397813 12.795625 12.795626 15.994532 0 0 99.166098 28.790157 99.166097 89.569379V832.065618c0 70.37594-239.917978 76.773753-239.917978 76.773753-9.596719 0-19.193438 9.596719-19.193438 19.193438v76.773753c0 3.198906 3.198906 9.596719 6.397813 12.795625 3.198906 3.198906 9.596719 6.397813 12.795625 6.397813h598.195492c6.397813 0 9.596719-3.198906 12.795626-6.397813 3.198906-3.198906 6.397813-6.397813 6.397812-12.795625V928.032809c0-9.596719-9.596719-19.193438-19.193438-19.193438 0 0-236.719072 0-236.719072-76.773753v-188.735476c0-67.177034 99.166098-79.972659 99.166098-79.97266zM396.839371 54.731369h6.397812v-19.193439c0-19.193438 15.994532-35.18797 38.386877-35.18797H575.978127c22.392345-3.198906 41.585783 15.994532 41.585783 38.386877v15.994532h6.397813c214.326727 47.983596 364.675327 227.122353 364.675327 435.051267 0 102.365004-35.18797 195.133289-102.365004 275.105948-22.392345 25.591251-44.784689 47.983596-70.37594 70.37594-9.596719 6.397813-15.994532 12.795625-15.994532 12.795625-9.596719 6.397813-19.193438 3.198906-25.591251-3.198906l-60.779221-73.574847c-6.397813-6.397813-6.397813-19.193438 3.198906-25.591251l9.596719-6.397812c19.193438-15.994532 38.386876-35.18797 54.381408-54.381409 51.182502-60.779221 79.972659-124.757349 79.97266-195.133288 0-175.939851-153.547506-323.089544-342.282982-323.089544h-3.198907c-185.53657 0-339.084076 143.950787-339.084075 323.089544 0 67.177034 25.591251 134.354068 76.773753 195.133288 15.994532 19.193438 35.18797 38.386876 54.381408 54.381409l9.596719 9.596719c9.596719 6.397813 9.596719 15.994532 3.198907 25.591251l-63.978128 73.574846c-6.397813 6.397813-19.193438 9.596719-25.591251 3.198907 0 0-3.198906-3.198906-19.193438-12.795626-28.790157-22.392345-51.182502-44.784689-73.574847-70.37594-67.177034-79.972659-102.365004-172.740944-102.365004-275.105948C35.36295 288.251534 185.71155 105.913871 396.839371 54.731369z\" fill=\"#0086F6\" p-id=\"54817\"></path></svg>",
+              "tags": [
+                "火车票",
+                "高铁",
+                "铁路",
+                "出行"
+              ],
+              "previewImage": "/uploads/preview-www-12306-cn-b5e5fb704e00.png"
+            },
+            {
+              "id": "amap",
+              "title": "高德地图",
+              "description": "高德地图官方网站，提供全国地图浏览，地点搜索，公交驾车查询服务。可同时查看商家团购、优惠信息。高德地图，您的出行、生活好帮手。",
+              "url": "https://www.amap.com",
+              "icon": "/uploads/favicon-www-amap-com-d219abdca9f3.ico",
+              "tags": [
+                "地图",
+                "导航",
+                "高德",
+                "路线"
+              ],
+              "previewImage": "/uploads/preview-www-amap-com-7cd334463cac.png"
+            },
+            {
+              "id": "alipay",
+              "title": "支付宝",
+              "description": "支付宝，全球领先的独立第三方支付平台，致力于为广大用户提供安全快速的电子支付/网上支付/安全支付/手机支付体验，及转账收款/水电煤缴费/信用卡还款/AA收款等生活服务应用。",
+              "url": "https://www.alipay.com",
+              "icon": "/uploads/favicon-www-alipay-com-b662de58b15b.ico",
+              "tags": [
+                "支付",
+                "支付宝",
+                "生活服务",
+                "金融"
+              ],
+              "previewImage": "/uploads/preview-www-alipay-com-c10a13b05b6a.png"
+            },
+            {
+              "id": "wechat-official",
+              "title": "微信公众平台",
+              "description": "微信公众平台，给个人、企业和组织提供业务服务与用户管理能力的全新服务平台。",
+              "url": "https://mp.weixin.qq.com",
+              "icon": "/uploads/favicon-mp-weixin-qq-com-058bf1b3661d.png",
+              "tags": [
+                "微信",
+                "公众号",
+                "小程序",
+                "运营"
+              ],
+              "previewImage": "/uploads/preview-mp-weixin-qq-com-cbe35cbd5d2a.png"
+            }
+          ]
+        }
+      ],
+      "sites": [
+        {
+          "title": "热门资源",
+          "url": "https://www.zlxapp.top/",
+          "description": "电影在线观看，热门影视资源,免费电影观影,高清在线影视,电视剧在线观看,热门综艺推荐,高清电视剧动漫,网盘搜索,夸克网盘,uc网盘,百度网盘，移动网盘，骄阳似我",
+          "icon": "/uploads/favicon-www-zlxapp-top-f9cdabb418be.png",
+          "previewImage": "/uploads/preview-www-zlxapp-top-2be6711b8f1f.png",
+          "tags": [
+            "电影在线观看",
+            "热门影视资源",
+            "免费电影观影",
+            "高清在线影视",
+            "电视剧在线观看",
+            "热门综艺推荐",
+            "高清电视剧动漫",
+            "网盘搜索",
+            "夸克网盘",
+            "uc网盘",
+            "百度网盘",
+            "移动网盘",
+            "骄阳似我",
+            "免费在线观看高清影视的最佳选择？我们分享热门影视资源",
+            "提供高清在线影视服务",
+            "满足您的观影欲望！"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "krfcj1",
+      "name": "AI 工具",
+      "icon": "🤖",
+      "description": "聚合主流 AI 助手、搜索与创作工具，覆盖中文办公、学习和内容生成场景",
+      "children": [
+        {
+          "id": "ai-cn",
+          "name": "国产 AI",
+          "sites": [
+            {
+              "id": "deepseek",
+              "title": "DeepSeek",
+              "description": "深度求索（DeepSeek），探索未至之境。专注于研究世界领先的通用人工智能底层模型与技术，开源 DeepSeek-V4、DeepSeek-R1 等前沿大模型。和 DeepSeek AI 对话，轻松接入 API。",
+              "url": "https://www.deepseek.com",
+              "icon": "/uploads/favicon-www-deepseek-com-30a4420e6e4d.ico",
+              "tags": [
+                "AI",
+                "DeepSeek",
+                "对话",
+                "推理"
+              ],
+              "iconPadding": "4",
+              "previewImage": "/uploads/preview-www-deepseek-com-4b307961426b.png"
+            },
+            {
+              "id": "kimi",
+              "title": "Kimi AI 官网",
+              "description": "全新 Kimi K3 现已上线：构建可玩的多人与3D游戏，生成咨询级PPT，用 Swarm 智能体集群与 Goal 模式并行执行任务，知识工作更高效。",
+              "url": "https://kimi.moonshot.cn",
+              "icon": "<svg width=\"46\" height=\"46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M37.831 11.07c.313-.4.587-.766.876-1.12.134-.167.123-.294-.008-.468-1.255-1.65-1.374-3.483-.651-5.342.542-1.4 1.742-2.055 3.208-2.195.915-.086 1.812.008 2.643.453 1.093.584 1.73 1.476 1.936 2.706.165.981.134 1.94-.144 2.89-.492 1.683-1.702 2.555-3.36 2.776-1.376.184-2.77.207-4.159.3-.107.008-.216 0-.34 0\" fill=\"#027aff\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M34.427 3.534h-8.291l-6.565 14.97h-9.28V3.598H2.875v38.568h7.418V25.919h13.079a5.8 5.8 0 0 0 5.257-3.354v19.602h7.418V25.919a7.417 7.417 0 0 0-6.877-7.398v-.02h-4.073a7.55 7.55 0 0 0 4.452-4.063z\" fill=\"#000\"/></svg>",
+              "tags": [
+                "AI",
+                "Kimi",
+                "长文本",
+                "总结"
+              ],
+              "iconPadding": "8",
+              "previewImage": "/uploads/preview-kimi-moonshot-cn-5420be129445.png"
+            },
+            {
+              "id": "doubao",
+              "title": "豆包",
+              "description": "Seedance 2.0 视频生成模型现已全面接入豆包，现在登录即可免费使用！豆包 是你的 AI 聊天智能对话问答助手，写作文案翻译编程工具。豆包为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题",
+              "url": "https://www.doubao.com",
+              "icon": "/uploads/favicon-www-doubao-com-dabb2abd94e3.png",
+              "tags": [
+                "AI",
+                "豆包",
+                "写作",
+                "助手"
+              ],
+              "previewImage": "/uploads/preview-www-doubao-com-b86a3ef9bc0b.png"
+            },
+            {
+              "id": "tongyi",
+              "title": "通义实验室",
+              "description": "遇见，通义 Meet Tongyi, Ask me anything. 通义实验室官网重磅升级，汇聚全系列大模型、最新行业资讯与前沿应用，一览无余，尽在掌握。通义千问具备自然语言理解、文本生成、视觉理解、音频理解等多种能力。",
+              "url": "https://tongyi.aliyun.com",
+              "icon": "/uploads/favicon-tongyi-aliyun-com-32ecca828c3b.svg",
+              "tags": [
+                "AI",
+                "通义",
+                "阿里",
+                "大模型"
+              ],
+              "previewImage": "/uploads/preview-tongyi-aliyun-com-62488c5432c3.png"
+            },
+            {
+              "id": "yiyan",
+              "title": "百度文心助手",
+              "description": "百度文心助手，一站式解决复杂问题，激发PC端超级生产力！独有「灵感探索」功能深入剖析问题核心，智能文字创作、图片创作、AI阅读、智能体海量应用启迪无限创意，开启高效智能学习办公新篇章！",
+              "url": "https://yiyan.baidu.com",
+              "icon": "/uploads/favicon-wenxin-baidu-com-c70088079fe9.ico",
+              "tags": [
+                "AI",
+                "文心一言",
+                "百度",
+                "写作"
+              ],
+              "previewImage": "/uploads/preview-yiyan-baidu-com-cce0c90edf64.png"
+            },
+            {
+              "id": "spark",
+              "title": "讯飞星火",
+              "description": "讯飞星火大模型，是由科大讯飞推出的新一代认知智能大模型，拥有跨领域的知识和语言理解能力，能够基于自然对话方式理解与执行任务，提供语言理解、知识问答、逻辑推理、数学题解答、代码理解与编写等多种能力。",
+              "url": "https://xinghuo.xfyun.cn",
+              "icon": "/uploads/favicon-xinghuo-xfyun-cn-3d1f9028222a.ico",
+              "tags": [
+                "AI",
+                "讯飞",
+                "星火",
+                "办公"
+              ],
+              "previewImage": "/uploads/preview-xinghuo-xfyun-cn-1e484ccf59ff.png"
+            },
+            {
+              "id": "chatglm",
+              "title": "智谱清言",
+              "description": "基于 GLM 大模型，不只是 AI 助手，更是能帮你把事办成的 Agent。从理解目标到调用工具、从拆解任务到协调配合，把回答变成交付结果。",
+              "url": "https://chatglm.cn",
+              "icon": "/uploads/favicon-chatglm-cn-94e48956654f.ico",
+              "tags": [
+                "AI",
+                "智谱",
+                "清言",
+                "对话"
+              ],
+              "previewImage": "/uploads/preview-chatglm-cn-4490ee6377db.png"
+            }
+          ]
+        },
+        {
+          "id": "ai-global",
+          "name": "国际工具",
+          "sites": [
+            {
+              "id": "chatgpt",
+              "title": "ChatGPT",
+              "description": "OpenAI 推出的 AI 对话、写作与编程助手",
+              "url": "https://chatgpt.com",
+              "icon": "<svg width=\"46\" height=\"46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M41.304 19.174a10.38 10.38 0 0 0-.916-8.627C38.055 6.542 33.369 4.48 28.792 5.45a10.7 10.7 0 0 0-8.033-3.532c-4.678-.01-8.83 2.963-10.27 7.356a10.64 10.64 0 0 0-7.116 5.094 10.52 10.52 0 0 0 1.325 12.459 10.38 10.38 0 0 0 .914 8.629c2.333 4.005 7.019 6.066 11.596 5.098a10.7 10.7 0 0 0 8.03 3.53c4.683.012 8.837-2.963 10.276-7.36a10.64 10.64 0 0 0 7.12-5.098 10.52 10.52 0 0 0-1.328-12.453zM25.24 41.327a8.05 8.05 0 0 1-5.126-1.828c.065-.035.178-.096.252-.142l8.51-4.85a1.36 1.36 0 0 0 .698-1.193V21.476l3.598 2.05a.13.13 0 0 1 .069.095v9.804c-.006 4.358-3.584 7.893-8 7.902M8.036 34.078a7.78 7.78 0 0 1-.955-5.295c.061.038.173.105.251.15l8.51 4.848a1.4 1.4 0 0 0 1.4 0l10.388-5.918v4.097a.13.13 0 0 1-.052.11l-8.602 4.899c-3.832 2.177-8.725.881-10.938-2.895zm-2.241-18.33a7.96 7.96 0 0 1 4.169-3.462l-.004.29v9.698a1.36 1.36 0 0 0 .698 1.196l10.388 5.916-3.596 2.051a.13.13 0 0 1-.12.01l-8.604-4.905C4.9 24.357 3.59 19.531 5.792 15.752zm29.55 6.784-10.389-5.918 3.596-2.047a.13.13 0 0 1 .12-.012l8.604 4.901c3.83 2.185 5.143 7.019 2.93 10.797a7.98 7.98 0 0 1-4.166 3.463v-9.988a1.36 1.36 0 0 0-.696-1.194zm3.578-5.315-.253-.15-8.51-4.848a1.4 1.4 0 0 0-1.397 0l-10.389 5.918V14.04a.13.13 0 0 1 .052-.11l8.6-4.897c3.833-2.179 8.73-.881 10.938 2.9a7.8 7.8 0 0 1 .959 5.284M16.418 24.52l-3.597-2.047a.13.13 0 0 1-.07-.098v-9.804c.003-4.364 3.59-7.9 8.014-7.896 1.87 0 3.68.648 5.12 1.828a7 7 0 0 0-.252.14l-8.51 4.85a1.36 1.36 0 0 0-.7 1.193l-.005 11.832zm1.955-4.155L23 17.729l4.627 2.636v5.27L23 28.271l-4.629-2.636v-5.27z\" fill=\"#000\"/></svg>",
+              "tags": [
+                "AI",
+                "ChatGPT",
+                "OpenAI",
+                "助手"
+              ]
+            },
+            {
+              "id": "claude",
+              "title": "Claude",
+              "description": "Anthropic 推出的 AI 助手，擅长长文档和代码协作",
+              "url": "https://claude.ai",
+              "icon": "<svg width=\"46\" height=\"46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g clip-path=\"url(#clip0_515_261)\"><path d=\"m9.026 30.58 9.046-5.073.154-.44-.154-.246h-.439l-1.514-.092-5.171-.14-4.483-.186-4.343-.234-1.095-.232L0 22.586l.105-.675.92-.615 1.315.115 2.914.197 4.366.303 3.166.186 4.694.489h.746l.105-.3-.257-.189-.197-.186-4.52-3.059-4.891-3.235-2.56-1.863-1.388-.941-.698-.886-.303-1.932 1.257-1.383 1.689.115.431.117 1.712 1.314 3.657 2.83 4.774 3.513.7.582.278-.197.036-.14-.314-.525-2.597-4.688-2.772-4.773-1.234-1.978-.326-1.186a5.7 5.7 0 0 1-.2-1.398L12.043.257 12.834 0l1.909.257.805.698 1.188 2.71 1.92 4.272 2.981 5.807.874 1.722.466 1.594.174.489h.303v-.28L23.7 14l.454-4.015.44-5.165.154-1.457.72-1.744L26.9.675l1.12.536.92 1.313-.129.851-.548 3.548-1.071 5.564-.698 3.722h.406l.466-.464 1.888-2.503 3.166-3.956 1.4-1.571 1.629-1.733 1.048-.826h1.98l1.457 2.164-.652 2.235-2.04 2.581-1.688 2.19-2.422 3.258-1.515 2.606.14.211.36-.038 5.475-1.162 2.957-.537 3.529-.603 1.596.743.175.758-.63 1.546-3.773.932-4.426.885-6.591 1.558-.08.058.093.117 2.97.28 1.268.069h3.109l5.788.431 1.515 1L46 27.662l-.151.93-2.33 1.188-3.142-.745-7.34-1.744-2.514-.631h-.349v.21l2.095 2.048 3.845 3.469 4.809 4.466.243 1.108-.617.872-.652-.094-4.226-3.176-1.631-1.432-3.691-3.105h-.246v.326l.851 1.244 4.495 6.748.234 2.07-.326.677-1.166.408-1.28-.234-2.633-3.69-2.712-4.153-2.191-3.724-.269.154-1.291 13.903-.606.71-1.397.536-1.164-.884-.617-1.431.617-2.83.746-3.687.604-2.932.548-3.642.326-1.212-.023-.08-.269.035-2.748 3.77-4.179 5.644-3.308 3.536-.793.315-1.374-.71.128-1.268.769-1.13 4.577-5.818 2.76-3.607 1.782-2.082-.011-.303h-.106L7.92 35.574l-2.166.28-.934-.875.117-1.43.443-.465 3.657-2.515z\" fill=\"#d97757\"/></g><defs><clipPath id=\"clip0_515_261\"><path fill=\"#fff\" d=\"M0 0h46v46H0z\"/></clipPath></defs></svg>",
+              "tags": [
+                "AI",
+                "Claude",
+                "写作",
+                "代码"
+              ]
+            },
+            {
+              "id": "gemini",
+              "title": "Gemini",
+              "description": "Google 推出的多模态 AI 助手",
+              "url": "https://gemini.google.com",
+              "icon": "<svg width=\"46\" height=\"46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M39.514 20.767a27.1 27.1 0 0 1-8.53-5.752A27.05 27.05 0 0 1 23.936 2.65a.964.964 0 0 0-1.869 0 27.1 27.1 0 0 1-7.051 12.366 27.1 27.1 0 0 1-8.53 5.752 25.5 25.5 0 0 1-3.836 1.3.962.962 0 0 0 0 1.868q1.963.494 3.837 1.298a27.1 27.1 0 0 1 8.529 5.752 27.05 27.05 0 0 1 7.051 12.368.962.962 0 0 0 1.87 0q.492-1.968 1.297-3.839a27.1 27.1 0 0 1 5.752-8.53 27.05 27.05 0 0 1 12.368-7.049.964.964 0 0 0 0-1.868 25.4 25.4 0 0 1-3.84-1.3\" fill=\"#3186ff\"/><path d=\"M39.514 20.767a27.1 27.1 0 0 1-8.53-5.752A27.05 27.05 0 0 1 23.936 2.65a.964.964 0 0 0-1.869 0 27.1 27.1 0 0 1-7.051 12.366 27.1 27.1 0 0 1-8.53 5.752 25.5 25.5 0 0 1-3.836 1.3.962.962 0 0 0 0 1.868q1.963.494 3.837 1.298a27.1 27.1 0 0 1 8.529 5.752 27.05 27.05 0 0 1 7.051 12.368.962.962 0 0 0 1.87 0q.492-1.968 1.297-3.839a27.1 27.1 0 0 1 5.752-8.53 27.05 27.05 0 0 1 12.368-7.049.964.964 0 0 0 0-1.868 25.4 25.4 0 0 1-3.84-1.3\" fill=\"url(#paint0_linear_516_269)\"/><path d=\"M39.514 20.767a27.1 27.1 0 0 1-8.53-5.752A27.05 27.05 0 0 1 23.936 2.65a.964.964 0 0 0-1.869 0 27.1 27.1 0 0 1-7.051 12.366 27.1 27.1 0 0 1-8.53 5.752 25.5 25.5 0 0 1-3.836 1.3.962.962 0 0 0 0 1.868q1.963.494 3.837 1.298a27.1 27.1 0 0 1 8.529 5.752 27.05 27.05 0 0 1 7.051 12.368.962.962 0 0 0 1.87 0q.492-1.968 1.297-3.839a27.1 27.1 0 0 1 5.752-8.53 27.05 27.05 0 0 1 12.368-7.049.964.964 0 0 0 0-1.868 25.4 25.4 0 0 1-3.84-1.3\" fill=\"url(#paint1_linear_516_269)\"/><path d=\"M39.514 20.767a27.1 27.1 0 0 1-8.53-5.752A27.05 27.05 0 0 1 23.936 2.65a.964.964 0 0 0-1.869 0 27.1 27.1 0 0 1-7.051 12.366 27.1 27.1 0 0 1-8.53 5.752 25.5 25.5 0 0 1-3.836 1.3.962.962 0 0 0 0 1.868q1.963.494 3.837 1.298a27.1 27.1 0 0 1 8.529 5.752 27.05 27.05 0 0 1 7.051 12.368.962.962 0 0 0 1.87 0q.492-1.968 1.297-3.839a27.1 27.1 0 0 1 5.752-8.53 27.05 27.05 0 0 1 12.368-7.049.964.964 0 0 0 0-1.868 25.4 25.4 0 0 1-3.84-1.3\" fill=\"url(#paint2_linear_516_269)\"/><defs><linearGradient id=\"paint0_linear_516_269\" x1=\"13.416\" y1=\"29.708\" x2=\"21.083\" y2=\"23\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#08b962\"/><stop offset=\"1\" stop-color=\"#08b962\" stop-opacity=\"0\"/></linearGradient><linearGradient id=\"paint1_linear_516_269\" x1=\"15.333\" y1=\"10.542\" x2=\"22.041\" y2=\"21.083\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#f94543\"/><stop offset=\"1\" stop-color=\"#f94543\" stop-opacity=\"0\"/></linearGradient><linearGradient id=\"paint2_linear_516_269\" x1=\"6.708\" y1=\"25.875\" x2=\"33.541\" y2=\"23\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#fabc12\"/><stop offset=\".46\" stop-color=\"#fabc12\" stop-opacity=\"0\"/></linearGradient></defs></svg>",
+              "tags": [
+                "AI",
+                "Gemini",
+                "Google",
+                "多模态"
+              ]
+            },
+            {
+              "id": "perplexity",
+              "title": "Perplexity",
+              "description": "面向资料检索与答案溯源的 AI 搜索工具",
+              "url": "https://www.perplexity.ai",
+              "icon": "<svg width=\"46\" height=\"46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M37.921 0v13.938h5.204v19.834H37.5V46L24.012 34.128v11.778h-2.091V34.115L8.418 46V33.609H2.875V13.777h5.528V0L21.92 12.447V.364h2.09v12.44zM24.012 17.334v14.028l11.396 10.032V27.677zm-2.106-.153L10.509 27.527v13.867l11.397-10.032zM37.5 31.709h3.534V16.002H25.798L37.5 26.621zM20.284 15.84H4.964v15.707h3.45V26.61l11.868-10.772zm-9.79-11.093v9.027h9.804zm25.336 0-9.804 9.027h9.804z\" fill=\"#22b8cd\"/></svg>",
+              "tags": [
+                "AI",
+                "搜索",
+                "Perplexity",
+                "资料"
+              ]
+            }
+          ]
+        }
+      ],
+      "sites": [
+        {
+          "title": "DeepSeek",
+          "url": "https://chat.deepseek.com/",
+          "description": "Chat with DeepSeek AI – your intelligent assistant for coding, content creation, file reading, and more. Upload documents, engage in long-context conversations, and get expert help in AI, natural language processing, and beyond. | 深度求索（DeepSeek）助力编程代码开发、创意写作、文件处理等任务，支持文件上传及长文本对话，随时为您提供高效的AI支持。",
+          "icon": "/uploads/favicon-chat-deepseek-com-547ead56dcb7.png",
+          "previewImage": "/uploads/preview-chat-deepseek-com-661dff4ea647.png",
+          "tags": [
+            "DeepSeek",
+            "DeepSeek AI",
+            "DeepSeek Chat",
+            "AI assistant",
+            "coding assistant",
+            "long-context LLM",
+            "Open Source LLM",
+            "natural language processing",
+            "AI chatbot",
+            "AI long text",
+            "AI content creation",
+            "large language model",
+            "深度求索",
+            "大语言模型",
+            "自然语言处理",
+            "AI聊天机器人",
+            "代码开发",
+            "创意写作",
+            "AI助手",
+            "长文本对话",
+            "文件处理AI",
+            "大模型公司",
+            "人工智能",
+            "AI开发助手"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "87adr8",
+      "name": "影视追剧",
+      "icon": "🎬",
+      "description": "主流长视频、短视频与正版内容平台，追剧看片一站直达",
+      "children": [
+        {
+          "id": "video-long",
+          "name": "长视频",
+          "sites": [
+            {
+              "id": "tencent-video",
+              "title": "腾讯视频",
+              "description": "腾讯视频官方网站，腾讯视频提供最新热门电视剧、电影、综艺、动漫、纪录片等高清正版视频在线观看。海量独家内容持续更新，涵盖国产剧、美剧、韩剧、院线大片、热门综艺，支持超清流畅播放，尽在腾讯视频，当前热播《花开锦绣》，支持高清在线观看。",
+              "url": "https://v.qq.com",
+              "icon": "/uploads/favicon-v-qq-com-57b1ee68d946.png",
+              "tags": [
+                "视频",
+                "腾讯视频",
+                "追剧",
+                "综艺"
+              ],
+              "previewImage": "/uploads/preview-v-qq-com-48df3104a7a2.png"
+            },
+            {
+              "id": "iqiyi",
+              "title": "爱奇艺 iQIYI",
+              "description": "爱奇艺（iQIYI）是中国领先的在线视频平台，提供海量免费正版高清电视剧、短剧、电影、综艺、动漫等视频内容，成功打造了狂飙、新说唱、偶像练习生、我是刑警、迷雾剧场等现象级IP，热门大片、独播剧集实时更新，畅享流畅观影体验。",
+              "url": "https://www.iqiyi.com",
+              "icon": "/uploads/favicon-www-iqiyi-com-4134a7da324e.ico",
+              "tags": [
+                "视频",
+                "爱奇艺",
+                "电影",
+                "电视剧"
+              ],
+              "bgColor": "#25DB50",
+              "previewImage": "/uploads/preview-www-iqiyi-com-d466650c8b3c.png"
+            },
+            {
+              "id": "youku",
+              "title": "优酷",
+              "description": "优酷视频是中国领先的在线视频平台，提供海量正版高清电视剧、电影、综艺、动漫、纪录片等视频内容，独家热播剧集实时更新，畅享流畅观影体验。",
+              "url": "https://www.youku.com",
+              "icon": "/uploads/favicon-www-youku-com-9c478717154e.png",
+              "tags": [
+                "视频",
+                "优酷",
+                "影视",
+                "综艺"
+              ],
+              "iconPadding": "6",
+              "previewImage": "/uploads/preview-www-youku-com-5a0c49f2ba12.png"
+            },
+            {
+              "id": "mgtv",
+              "title": "芒果TV",
+              "description": "芒果TV-大家都在看的在线视频网站-热门综艺最新电影电视剧在线观看",
+              "url": "https://www.mgtv.com",
+              "icon": "/uploads/favicon-www-mgtv-com-5f6fe02e92a6.png",
+              "tags": [
+                "视频",
+                "芒果TV",
+                "综艺",
+                "电视剧"
+              ],
+              "previewImage": "/uploads/preview-www-mgtv-com-b1bb11c6cea3.png"
+            },
+            {
+              "id": "cctv",
+              "title": "央视网",
+              "description": "央视网（www.cctv.com）由中央广播电视总台主办，是以视频为特色的中央重点新闻网站，是央视的融合传播平台，是拥有全牌照业务资质的大型互联网文化企业。秉承“融合创新、一体发展”的理念，以新闻为龙头，以视频为重点，以用户为中心，建成“一网一端多平台多渠道”融媒体传播体系。",
+              "url": "https://www.cctv.com",
+              "icon": "/uploads/favicon-www-cctv-com-874b465ad27f.ico",
+              "tags": [
+                "央视",
+                "直播",
+                "新闻",
+                "电视"
+              ],
+              "previewImage": "/uploads/preview-www-cctv-com-b48c266f25b0.png"
+            }
+          ]
+        },
+        {
+          "id": "video-community",
+          "name": "短视频与社区",
+          "sites": [
+            {
+              "id": "bilibili",
+              "title": "哔哩哔哩",
+              "description": "哔哩哔哩（bilibili.com)是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。",
+              "url": "https://www.bilibili.com",
+              "icon": "/uploads/favicon-www-bilibili-com-cccf93bd64c3.png",
+              "tags": [
+                "B站",
+                "哔哩哔哩",
+                "视频",
+                "社区"
+              ],
+              "bgColor": "#FF7AB1",
+              "iconPadding": "4",
+              "previewImage": "/uploads/preview-www-bilibili-com-bd030f468ce2.png"
+            },
+            {
+              "id": "douyin",
+              "title": "抖音",
+              "description": "短视频、直播与热点内容平台",
+              "url": "https://www.douyin.com",
+              "icon": "/uploads/favicon-www-douyin-com-e67348e3ab54.ico",
+              "tags": [
+                "抖音",
+                "短视频",
+                "直播",
+                "热点"
+              ],
+              "bgColor": "#000000",
+              "iconPadding": "4",
+              "previewImage": "/uploads/preview-www-douyin-com-d7b562f1c037.png"
+            },
+            {
+              "id": "kuaishou",
+              "title": "快手",
+              "description": "快手是一款国民级短视频App。在快手，了解真实的世界，认识有趣的人，也可以记录真实而有趣的自己。快手，拥抱每一种生活。",
+              "url": "https://www.kuaishou.com",
+              "icon": "/uploads/favicon-www-kuaishou-com-b41bf5fb2d4a.ico",
+              "tags": [
+                "快手",
+                "短视频",
+                "直播",
+                "社区"
+              ],
+              "bgColor": "#F07730",
+              "previewImage": "/uploads/preview-www-kuaishou-com-851236749768.png"
+            },
+            {
+              "id": "xigua",
+              "title": "西瓜视频",
+              "description": "中长视频内容平台，覆盖影视、知识与生活内容",
+              "url": "https://www.ixigua.com",
+              "icon": "/uploads/favicon-www-ixigua-com-9dc931b0a63a.ico",
+              "tags": [
+                "西瓜视频",
+                "视频",
+                "中视频",
+                "生活"
+              ],
+              "previewImage": "/uploads/preview-www-ixigua-com-64b7a2810d8b.png"
+            }
+          ]
+        }
+      ],
+      "sites": [
+        {
+          "title": "热门资源",
+          "url": "https://www.zlxapp.top/",
+          "description": "电影在线观看，热门影视资源,免费电影观影,高清在线影视,电视剧在线观看,热门综艺推荐,高清电视剧动漫,网盘搜索,夸克网盘,uc网盘,百度网盘，移动网盘，骄阳似我",
+          "icon": "/uploads/favicon-www-zlxapp-top-f9cdabb418be.png",
+          "tags": [
+            "电影在线观看",
+            "热门影视资源",
+            "免费电影观影",
+            "高清在线影视",
+            "电视剧在线观看",
+            "热门综艺推荐",
+            "高清电视剧动漫",
+            "网盘搜索",
+            "夸克网盘",
+            "uc网盘",
+            "百度网盘",
+            "移动网盘",
+            "骄阳似我",
+            "免费在线观看高清影视的最佳选择？我们分享热门影视资源",
+            "提供高清在线影视服务",
+            "满足您的观影欲望！"
+          ],
+          "previewImage": "/uploads/preview-www-zlxapp-top-2be6711b8f1f.png"
+        },
+        {
+          "title": "最新资源",
+          "url": "https://www.zlxapp.top/new",
+          "description": "最新资源 - 电影在线观看，热门影视资源,免费电影观影,高清在线影视,电视剧在线观看,热门综艺推荐,高清电视剧动漫,网盘搜索,夸克网盘,uc网盘,百度网盘，移动网盘，骄阳似我",
+          "icon": "/uploads/favicon-www-zlxapp-top-f9cdabb418be.png",
+          "previewImage": "/uploads/preview-www-zlxapp-top-2be6711b8f1f.png",
+          "tags": [
+            "最新资源",
+            "电影在线观看",
+            "热门影视资源",
+            "免费电影观影",
+            "高清在线影视",
+            "电视剧在线观看",
+            "热门综艺推荐",
+            "高清电视剧动漫",
+            "网盘搜索",
+            "夸克网盘",
+            "uc网盘",
+            "百度网盘",
+            "移动网盘",
+            "骄阳似我",
+            "免费在线观看高清影视的最佳选择？我们分享热门影视资源",
+            "提供高清在线影视服务",
+            "满足您的观影欲望！"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goaeth",
+      "name": "新闻时事",
+      "icon": "📰",
+      "description": "聚焦国内外热点，优先收录权威媒体与主流新闻入口",
+      "children": [
+        {
+          "id": "news-authority",
+          "name": "国内权威",
+          "sites": [
+            {
+              "id": "people",
+              "title": "人民网",
+              "description": "人民网，是世界十大报纸之一《人民日报》建设的以新闻为主的大型网上信息发布平台，也是互联网上最大的中文和多语种新闻网站之一。作为国家重点新闻网站，人民网以新闻报道的权威性、及时性、多样性和评论性为特色，在网民中树立起了“权威媒体、大众网站”的形象。",
+              "url": "http://www.people.com.cn",
+              "icon": "/uploads/favicon-www-people-com-cn-35b130e6ffd0.ico",
+              "tags": [
+                "新闻",
+                "人民网",
+                "人民日报",
+                "国内"
+              ],
+              "previewImage": "/uploads/preview-www-people-com-cn-55f8f0acc295.png"
+            },
+            {
+              "id": "xinhuanet",
+              "title": "新华网",
+              "description": "中国主要重点新闻网站,依托新华社遍布全球的采编网络,记者遍布世界100多个国家和地区,地方频道分布全国31个省市自治区,每天24小时同时使用6种语言滚动发稿,权威、准确、及时播发国内外重要新闻和重大突发事件,受众覆盖200多个国家和地区,发展论坛是全球知名的中文论坛。",
+              "url": "https://www.news.cn",
+              "icon": "/uploads/favicon-www-news-cn-f7dc57b34819.ico",
+              "tags": [
+                "新闻",
+                "新华网",
+                "新华社",
+                "国内"
+              ],
+              "iconPadding": "8",
+              "previewImage": "/uploads/preview-www-news-cn-311db6a6f8b1.png"
+            },
+            {
+              "id": "cctv-news",
+              "title": "新闻频道",
+              "description": "中央广播电视总台新闻新媒体入口",
+              "url": "https://news.cctv.com",
+              "icon": "/uploads/favicon-news-cctv-com-a065061c4571.jpg",
+              "tags": [
+                "新闻",
+                "央视",
+                "央视新闻",
+                "国内"
+              ],
+              "iconPadding": "4",
+              "previewImage": "/uploads/preview-news-cctv-com-87aa81c211c1.png"
+            },
+            {
+              "id": "chinanews",
+              "title": "中国新闻网",
+              "description": "中国新闻网，是知名的中文新闻门户网站，也是全球互联网中文新闻资讯最重要的原创内容供应商之一。依托中新社遍布全球的采编网络,每天24小时面向广大网民和网络媒体，快速、准确地提供文字、图片、视频等多样化的资讯服务。在新闻报道方面，中新网动态新闻及时准确，解释性报道角度独特，稿件被国内外网络媒体大量转载。",
+              "url": "https://www.chinanews.com.cn",
+              "icon": "/uploads/favicon-www-chinanews-com-cn-15076dbacd83.ico",
+              "tags": [
+                "新闻",
+                "中新社",
+                "中国新闻网",
+                "国内"
+              ],
+              "iconPadding": "4",
+              "previewImage": "/uploads/preview-www-chinanews-com-cn-2ae369e97138.png"
+            }
+          ]
+        },
+        {
+          "id": "news-portals",
+          "name": "门户资讯",
+          "sites": [
+            {
+              "id": "qq-news",
+              "title": "腾讯网",
+              "description": "腾讯网从2003年创立至今，已经成为集新闻信息，区域垂直生活服务、社会化媒体资讯和产品为一体的互联网媒体平台。腾讯网下设新闻、科技、财经、娱乐、体育、汽车、时尚等多个频道，充分满足用户对不同类型资讯的需求。同时专注不同领域内容，打造精品栏目，并顺应技术发展趋势，推出网络直播等创新形式，改变了用户获取资讯的方式和习惯。",
+              "url": "https://news.qq.com",
+              "icon": "/uploads/favicon-news-qq-com-81aecc63dd1e.ico",
+              "tags": [
+                "新闻",
+                "腾讯",
+                "热点",
+                "资讯"
+              ],
+              "previewImage": "/uploads/preview-news-qq-com-b1e801665cb6.png"
+            },
+            {
+              "id": "netease-news",
+              "title": "网易新闻",
+              "description": "新闻,新闻中心,包含有时政新闻,国内新闻,国际新闻,社会新闻,时事评论,新闻图片,新闻专题,新闻论坛,军事,历史,的专业时事报道门户网站",
+              "url": "https://news.163.com",
+              "icon": "/uploads/favicon-news-163-com-43c6594eb749.ico",
+              "tags": [
+                "新闻",
+                "网易",
+                "评论",
+                "资讯"
+              ],
+              "iconPadding": "6",
+              "bgColor": "#FFFFFF",
+              "previewImage": "/uploads/preview-news-163-com-5cb08c39b13c.png"
+            },
+            {
+              "id": "sina-news",
+              "title": "新闻中心首页",
+              "description": "新浪网新闻中心是新浪网最重要的频道之一，24小时滚动报道国内、国际及社会新闻。每日编发新闻数以万计。",
+              "url": "https://news.sina.com.cn",
+              "icon": "/uploads/favicon-news-sina-com-cn-af93e9f6c2c3.png",
+              "tags": [
+                "新闻",
+                "新浪",
+                "热点",
+                "资讯"
+              ],
+              "previewImage": "/uploads/preview-news-sina-com-cn-4467e196fada.png"
+            },
+            {
+              "id": "thepaper",
+              "title": "澎湃新闻",
+              "description": "澎湃，澎湃新闻，澎湃新闻网，新闻与思想，澎湃是植根于中国上海的时政思想类互联网平台，以最活跃的原创新闻与最冷静的思想分析为两翼，是互联网技术创新与新闻价值传承的结合体，致力于问答式新闻与新闻追踪功能的实践。",
+              "url": "https://www.thepaper.cn",
+              "icon": "/uploads/favicon-www-thepaper-cn-9a8e68dc03b5.ico",
+              "tags": [
+                "新闻",
+                "澎湃",
+                "深度",
+                "时政"
+              ],
+              "iconPadding": "4",
+              "previewImage": "/uploads/preview-www-thepaper-cn-b8b4e1ab9510.png"
+            }
+          ]
+        },
+        {
+          "id": "news-global-cn",
+          "name": "国际中文",
+          "sites": [
+            {
+              "id": "zaobao",
+              "title": "中国版首页",
+              "description": "中国版首页 -《联合早报》是全球华文用户信任的媒体，每天即时为你提供新加坡、中国、亚洲与全球新闻与评论。掌握全球趋势，尽在联合早报网。",
+              "url": "https://www.zaobao.com",
+              "icon": "/uploads/favicon-www-zaobao-com-43db69a6415c.ico",
+              "tags": [
+                "新闻",
+                "国际",
+                "中文",
+                "联合早报"
+              ],
+              "iconPadding": "4",
+              "previewImage": "/uploads/preview-www-zaobao-com-c10bb9a775b1.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "z8axnh",
+      "name": "电商购物",
+      "icon": "🛍️",
+      "description": "主流综合电商、二手交易、优惠导购与本地生活服务入口",
+      "children": [
+        {
+          "id": "shop-marketplaces",
+          "name": "综合电商",
+          "sites": [
+            {
+              "id": "taobao",
+              "title": "淘宝",
+              "description": "淘宝网 - 亚洲较大的网上交易平台，提供各类服饰、美容、家居、数码、话费/点卡充值… 数亿优质商品，同时提供担保交易(先收货后付款)等安全交易保障服务，并由商家提供退货承诺、破损补寄等消费者保障服务，让你安心享受网上购物乐趣！",
+              "url": "https://www.taobao.com",
+              "icon": "/uploads/favicon-www-taobao-com-c6c57174b28f.png",
+              "tags": [
+                "购物",
+                "淘宝",
+                "电商",
+                "网购"
+              ],
+              "bgColor": "#F26B22",
+              "iconPadding": "8",
+              "previewImage": "/uploads/preview-www-taobao-com-05f8ec4b649d.png"
+            },
+            {
+              "id": "tmall",
+              "title": "天猫Tmall.com",
+              "description": "天猫商城是一个购物平台，更是一种生活方式。天猫凭借丰富的家电、手机、电脑、服装、居家、母婴、美妆、个护、食品等众多商品种类及包含众多品牌官方旗舰店、优质的服务和便捷的购物体验，成为了消费者心中信赖的综合性购物商城。",
+              "url": "https://www.tmall.com",
+              "icon": "/uploads/favicon-www-tmall-com-46fc26e5398b.png",
+              "tags": [
+                "购物",
+                "天猫",
+                "品牌",
+                "旗舰店"
+              ],
+              "previewImage": "/uploads/preview-www-tmall-com-013b7deb2779.png"
+            },
+            {
+              "id": "jd",
+              "title": "京东",
+              "description": "京东JD.COM-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。",
+              "url": "https://www.jd.com",
+              "icon": "/uploads/favicon-www-jd-com-316a9ab1289f.ico",
+              "tags": [
+                "购物",
+                "京东",
+                "自营",
+                "电商"
+              ],
+              "previewImage": "/uploads/preview-www-jd-com-05e61ca9ebff.png"
+            },
+            {
+              "id": "pinduoduo",
+              "title": "拼多多 新电商开创者",
+              "description": "拼多多作为新电商开创者，致力于将娱乐社交的元素融入电商运营中，通过“社交+电商”的模式，让更多的用户带着乐趣分享实惠，享受全新的共享式购物体验。",
+              "url": "https://www.pinduoduo.com",
+              "icon": "/uploads/favicon-www-pinduoduo-com-b4f29e73875c.png",
+              "tags": [
+                "购物",
+                "拼多多",
+                "拼购",
+                "电商"
+              ],
+              "bgColor": "#FC1717",
+              "iconPadding": "8",
+              "previewImage": "/uploads/preview-www-pinduoduo-com-5ed611fa0c45.png"
+            },
+            {
+              "id": "vip",
+              "title": "唯品会",
+              "description": "唯品会vip购物网以1-7折超低折扣对全球各大品牌进行限时特卖，商品囊括服装、化妆品、家居、奢侈品等上千品牌。100%正品、低价、7天无理由退货。",
+              "url": "https://www.vip.com",
+              "icon": "/uploads/favicon-www-vip-com-bb13d3b13ead.ico",
+              "tags": [
+                "购物",
+                "唯品会",
+                "折扣",
+                "特卖"
+              ],
+              "bgColor": "#EB4BBC",
+              "previewImage": "/uploads/preview-www-vip-com-c8d097cdd19c.png"
+            },
+            {
+              "id": "1688",
+              "title": "1688",
+              "description": "阿里巴巴旗下批发采购与产业带货源平台",
+              "url": "https://www.1688.com",
+              "icon": "/uploads/favicon-www-1688-com-cd3023a124d9.ico",
+              "tags": [
+                "批发",
+                "采购",
+                "1688",
+                "货源"
+              ],
+              "iconPadding": "0",
+              "previewImage": "/uploads/preview-www-1688-com-26c0454729ae.png"
+            }
+          ]
+        },
+        {
+          "id": "shop-life",
+          "name": "导购与本地",
+          "sites": [
+            {
+              "id": "smzdm",
+              "title": "什么值得买",
+              "description": "优惠信息、消费攻略与购物决策社区",
+              "url": "https://www.smzdm.com",
+              "icon": "/uploads/favicon-www-smzdm-com-475ee6ae079b.ico",
+              "tags": [
+                "优惠",
+                "导购",
+                "什么值得买",
+                "消费"
+              ],
+              "iconPadding": "4",
+              "previewImage": "/uploads/preview-www-smzdm-com-e9e7dcd2360a.png"
+            },
+            {
+              "id": "xianyu",
+              "title": "闲鱼",
+              "description": "闲鱼，中国领先的闲置二手交易平台，趣味生活社区，从最初的C2C交易，到用户在这里分享技能、兴趣与经验，从物品到服务、从交易到交流，如今闲鱼累计用户数超5亿，日均交易额已突破10亿，每天都有400万件闲置物品在平台上发布。同时，闲鱼以闲置交易为起点，还发展出一键转卖、极速回收、验货宝、闲鱼小法庭等服务；并在2024年闲鱼成立十周年之际推出了闲鱼简历功能，通过闲置时间、技能来赚钱，让你的人生另起一行。",
+              "url": "https://www.goofish.com",
+              "icon": "/uploads/favicon-www-goofish-com-32f54976f983.png",
+              "tags": [
+                "二手",
+                "闲鱼",
+                "闲置",
+                "交易"
+              ],
+              "previewImage": "/uploads/preview-www-goofish-com-452789508014.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3lv8mx",
+      "name": "网盘存储",
+      "icon": "/uploads/icon-p3a5on.svg",
+      "description": "主流个人网盘、云存储与在线文档协作平台",
+      "children": [
+        {
+          "id": "cloud-storage",
+          "name": "个人网盘",
+          "sites": [
+            {
+              "id": "baidu-pan",
+              "title": "百度网盘",
+              "description": "百度旗下个人云存储与文件分享服务",
+              "url": "https://pan.baidu.com",
+              "icon": "/uploads/favicon-pan-baidu-com-7e352d358af2.ico",
+              "tags": [
+                "网盘",
+                "百度网盘",
+                "云存储",
+                "文件"
+              ],
+              "previewImage": "/uploads/preview-pan-baidu-com-fc12378f7181.png"
+            },
+            {
+              "id": "aliyun-drive",
+              "title": "阿里云盘",
+              "description": "阿里云盘是一款速度快、不打扰、够安全、易于分享的个人网盘，欢迎你来体验。",
+              "url": "https://www.aliyundrive.com",
+              "icon": "/uploads/favicon-www-aliyundrive-com-9a1b07dc9e86.png",
+              "tags": [
+                "网盘",
+                "阿里云盘",
+                "云存储",
+                "文件"
+              ],
+              "previewImage": "/uploads/preview-www-aliyundrive-com-379ff62c1a57.png"
+            },
+            {
+              "id": "quark-drive",
+              "title": "夸克网盘",
+              "description": "夸克网盘官方网站，提供电脑PC/手机/TV/Pad全平台最新版本的客户端下载。夸克网盘作为阿里巴巴旗下的一款网盘产品，支持文件存储、下载、解压、格式转换、在线预览等功能，致力于为用户提供极致的云端存储、消费与传输体验。",
+              "url": "https://pan.quark.cn",
+              "icon": "/uploads/favicon-pan-quark-cn-f3e63167bc5a.png",
+              "tags": [
+                "网盘",
+                "夸克",
+                "云存储",
+                "文件"
+              ],
+              "previewImage": "/uploads/preview-pan-quark-cn-0c36af049e89.png"
+            },
+            {
+              "id": "123pan",
+              "title": "123云盘官网",
+              "description": "123云盘是明赋集团旗下一款不扫盘不限速的超大容量云存储网盘，支持免登录下载、同步备份、在线解压、离线下载、跨盘秒传、CDN直链分发、WebDAV和OpenAPI，所有文件采用多副本加密存储，防丢失防篡改，可安心存放私人文件",
+              "url": "https://www.123pan.com",
+              "icon": "/uploads/favicon-www-123pan-com-b5264730424b.ico",
+              "tags": [
+                "网盘",
+                "123云盘",
+                "云存储",
+                "分享"
+              ],
+              "iconPadding": "8",
+              "previewImage": "/uploads/preview-www-123pan-com-975c47cf09d3.png"
+            }
+          ]
+        },
+        {
+          "id": "cloud-docs",
+          "name": "在线文档",
+          "sites": [
+            {
+              "id": "tencent-docs",
+              "title": "腾讯文档",
+              "description": "在线文档、表格、收集表与多人协作平台",
+              "url": "https://docs.qq.com",
+              "icon": "/uploads/favicon-docs-qq-com-a41f0618d62d.ico",
+              "tags": [
+                "文档",
+                "腾讯文档",
+                "协作",
+                "表格"
+              ],
+              "previewImage": "/uploads/preview-docs-qq-com-c1352659a703.png"
+            },
+            {
+              "id": "wps-docs",
+              "title": "金山文档",
+              "description": "WPS 旗下在线文档、表格与协作办公平台",
+              "url": "https://www.kdocs.cn",
+              "icon": "<svg t=\"1778584186853\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"51193\" width=\"200\" height=\"200\"><path d=\"M512.028444 516.835556V881.777778c-6.257778 0.085333-12.401778-1.422222-17.92-4.266667L185.400889 723.143111a26.908444 26.908444 0 0 1 0-47.900444l139.605333-69.831111 169.159111-84.309334c5.518222-2.844444 11.662222-4.295111 17.834667-4.266666z\" fill=\"#1D72EF\" p-id=\"51194\"></path><path d=\"M512 329.272889v364.942222a42.097778 42.097778 0 0 1-17.92-4.266667l-169.073778-84.536888-139.605333-69.859556a26.652444 26.652444 0 0 1 0-47.616l308.792889-154.396444c5.546667-2.730667 11.633778-4.181333 17.834666-4.266667z\" fill=\"#2190F4\" p-id=\"51195\"></path><path d=\"M838.599111 348.16l-144.440889 72.163556v169.642666a28.928 28.928 0 0 1-15.985778 25.827556l-148.252444 74.154666a42.097778 42.097778 0 0 1-17.92 4.266667v187.591111c6.257778 0.056889 12.373333-1.422222 17.92-4.295111l308.679111-154.368A26.282667 26.282667 0 0 0 853.333333 701.155556v-3.896889l-0.284444-370.944\" fill=\"#195EEB\" p-id=\"51196\"></path><path d=\"M838.599111 348.16l-308.622222 154.197333a40.163556 40.163556 0 0 1-35.868445 0L185.457778 348.16a26.766222 26.766222 0 0 1 0-47.872l307.114666-153.6a43.349333 43.349333 0 0 1 38.712889 0l307.114667 153.6a26.737778 26.737778 0 0 1 0.199111 47.872z\" fill=\"#2CABFB\" p-id=\"51197\"></path></svg>",
+              "tags": [
+                "文档",
+                "金山文档",
+                "WPS",
+                "协作"
+              ],
+              "iconPadding": "4",
+              "previewImage": "/uploads/preview-www-kdocs-cn-533b0058725b.png"
+            },
+            {
+              "id": "feishu",
+              "title": "飞书",
+              "description": "飞书是字节跳动旗下 AI 工作平台，提供一站式协同办公、组织管理、业务提效工具和深入企业场景的 AI 能力，让 AI 真能用、真落地。",
+              "url": "https://www.feishu.cn",
+              "icon": "/uploads/favicon-www-feishu-cn-69da9be60535.ico",
+              "tags": [
+                "飞书",
+                "文档",
+                "办公",
+                "协作"
+              ],
+              "previewImage": "/uploads/preview-www-feishu-cn-eb8ba2d88b25.png"
+            },
+            {
+              "id": "shimo",
+              "title": "石墨文档官网",
+              "description": "在线文档、表格与团队知识协作工具",
+              "url": "https://shimo.im",
+              "icon": "/uploads/favicon-shimo-im-89dc2a129175.ico",
+              "tags": [
+                "文档",
+                "石墨",
+                "协作",
+                "办公"
+              ],
+              "previewImage": "/uploads/preview-shimo-im-72f5d2ddf264.png"
+            },
+            {
+              "id": "yuque",
+              "title": "语雀",
+              "description": "优雅高效的在线文档编辑与协同工具，让每个企业轻松拥有文档中心，阿里巴巴集团内部使用多年，众多中小企业首选。主流 Office 文件全兼容，多人协同，轻松拥有团队知识库。企业文档中心化管理，各类文档井然有序，独立域名，随时随地安全获取。语雀致力于帮助每一个个体与企业，都拥有珍贵的知识财富。写文档，就用语雀！",
+              "url": "https://www.yuque.com",
+              "icon": "/uploads/favicon-www-yuque-com-cb1822fdf416.png",
+              "tags": [
+                "语雀",
+                "知识库",
+                "文档",
+                "协作"
+              ],
+              "previewImage": "/uploads/preview-www-yuque-com-83b98f5e7f95.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

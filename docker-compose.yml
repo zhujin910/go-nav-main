@@ -1,0 +1,14 @@
+services:
+  go-nav:
+    build: .
+    image: ${IMAGE_NAME:-go-nav}:${IMAGE_TAG:-latest}
+    restart: unless-stopped
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      ADMIN_USER: ${ADMIN_USER:-admin}
+      ADMIN_PASS: ${ADMIN_PASS:-admin123}
+      # Optional. Leave unset to auto-generate and persist in ./go-nav-data/.session-secret.
+      # SESSION_SECRET: ${SESSION_SECRET}
+    volumes:
+      - ./go-nav-data:/app/data

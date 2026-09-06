@@ -1,0 +1,2491 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>汉程网首页_专业中国传统文化网站</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="汉程网HttpCN.Com——知名中国传统文化网站，创建于2000年12月。主要提供国学文化/民俗文化/汉语文化/中国哲学/古典文学/传统艺术/传统节日/易学/历法等传统文化内容。">
+    <meta name="keyword" content="汉程网,汉程,网络中国,传统文化,中国传统文化,中华传统文化,传统节日,汉程传统文化">
+    <script type="text/javascript" src="//jscdn.httpcn.com/p/hancheng/Content/public/js/jquery-1.8.2.min.js"></script><!--公共插件JS-->
+    <script type="text/javascript" src="//jscdn.httpcn.com/p/hancheng/Content/public/js/all.js"></script><!--公共插件JS-->
+    <link type="text/css" href="//jscdn.httpcn.com/p/hancheng/content/public/css/all.css" rel="stylesheet"><!--公共css-->
+    <link type="text/css" href="//jscdn.httpcn.com/p/hancheng/Scripts/date/zsdate.css" rel="stylesheet">
+    <link type="text/css" href="//jscdn.httpcn.com/p/hancheng/content/css/home.css" rel="stylesheet">
+    <link type="text/css" href="//jscdn.httpcn.com/p/hancheng/content/css/life-base.css" rel="stylesheet"><!--公共css-->
+    <!-- 变灰 -->
+    
+    
+    <script type="text/javascript">
+        $().ready(function () {
+            $("div.home_menu_list:eq(0)>ul>li").on("mouseenter", function () {
+                if ($(this).find("div.home_menu_listShow").length <= 0) {
+                    var divv = document.createElement("div");
+                    divv.className = " home_menu_listShow hide";
+                    var lival = $(this).html();
+                    divv.innerHTML = $(this).html();
+                    $(divv).find("em.home_menu_btn").remove();
+                    $(divv).find("a:hidden").show();
+                    $(this).append(divv);
+                }
+                $(this).find("div.home_menu_listShow.hide").removeClass("hide");
+            });
+            $("div.home_menu_list:eq(0)>ul>li").on("mouseleave", function () {
+                if ($(this).find("div.home_menu_listShow").length > 0) {
+                    $(this).find("div.home_menu_listShow").addClass("hide");
+                }
+            });
+
+
+            $("div.book_jszj>ul>li").on("click", function () {
+                $("div.hp_gxdj_content ul:visible").addClass("hide");
+                $("div.book_jszj>ul>li.active").removeClass("active");
+                $(this).addClass("active");
+                $("div.hp_gxdj_content ul").eq($(this).index()).removeClass("hide");
+            });
+            TabAction("div.hP_jrjq_nav>ul:eq(0) li", "div.hP_jrjq_content:eq(0)>div");
+            TabAction("div.hP_jrjq_nav>ul:eq(1) li", "div.hP_jrjq_content:eq(1)>div");
+            $("div.hP_herit_search>div.hy_seleLeft>span").on("click", function (e) {
+                $(this).next().show();
+                e.stopPropagation();
+            });
+
+            $("div.hP_herit_search>div.hy_seleLeft>div.hy_seleHide i").on("click", function (e) {
+                $(this).parent().parent().find("input[type='hidden'][name]").val($(this).find("a").attr("data-val"));
+                $(this).parent().hide();
+                $(this).parent().prev("span").text($(this).text());
+                e.stopPropagation();
+            });
+
+            document.body.addEventListener("click", function (e) {
+                if ($("div.hy_seleHide:visible").length == 1 && !$(e.target).hasClass("hy_seleHide")) {
+                    $("div.hy_seleHide:visible").hide();
+                    return;
+                }
+            });
+            $("div.hP_hanyu_search>div.hy_seleLeft>span").on("click", function (e) {
+                $(this).next().show();
+                e.stopPropagation();
+            });
+            $("div.hP_hanyu_search>div.hy_seleLeft>div>i").on("click", function (e) {
+                $("form[data-id='zidian_cha']").attr("action", $(this).attr("data-val"));
+                $(this).parent().hide();
+                $(this).parent().prev("span").text($(this).text());
+                e.stopPropagation();
+            });
+
+            TabAction("div.hP_fame_nav>ul:eq(0) li", "div.fame_content:eq(0)>div");
+        });
+    </script>
+</head>
+<body class="body_home">
+    
+
+    <!--top-->
+    <div class="tr-top">
+    <div class="hc-1190 clear">
+        <dl class="left nav">
+            <dd class="no-sub"><a href="//www.httpcn.com/"><span class="hong iconfont icon-shouye1"></span>汉程网首页</a></dd>
+            <dd class="brafter"></dd>
+            <dd class="no-sub">您好，亲爱的缘友！ <a href="//login.httpcn.com/login/" style="color:#94181a;">请登录</a> <a href="//login.httpcn.com/Login/Reg/">免费注册</a></dd>
+        </dl>
+        <dl class="right nav">
+            <dd class="tablink">
+                <a href="javascript:;"><span class="iconfont icon-xinfeng"></span>我的动态<i>0</i><span class="iconfont icon-xia-x"></span></a>
+                <ul>
+                    <li><a href="//login.httpcn.com/member/systemmsg/" target="_blank">系统消息<i>0</i></a></li>
+                </ul>
+            </dd>
+            <dd class="brafter" style="display:none"></dd>
+            <dd class="tablink" style="display:none">
+                <a href="javascript:;">个人中心<span class="iconfont icon-xia-x"></span></a>
+                <ul>
+                    <li><a href="//login.httpcn.com/member/myset/infor/" target="_blank">我的资料</a></li>
+                </ul>
+            </dd>
+            <dd class="brafter"></dd>
+            <dd class="tablink">
+                <a href="javascript:;"><span class="iconfont icon-shoucang"></span>关注中心<span class="iconfont icon-xia-x"></span></a>
+                <ul>
+				<li><a target="_blank" href="//login.httpcn.com/member/shoucang">我的收藏</a></li>
+				<li><a target="_blank" href="//login.httpcn.com/member/shujia_shuqian/1">我的书架</a></li>
+				<li><a target="_blank" href="//login.httpcn.com/member/shujia_shuqian/2">我的书签</a></li>
+                </ul>
+            </dd>
+            <dd class="brafter"></dd>
+            <dd class="tablink">
+                <a href="//login.httpcn.com/tougao/" target="_blank"><span class="iconfont icon-shu1"></span>我要投稿</a>
+            </dd>
+            <dd class="brafter"></dd>
+            <dd class="tablink" style="display:none">
+                <a href="javascript:;"><span><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/shouji.png" /></span>手机汉程<span class="iconfont icon-xia-x"></span> </a>
+                <ul><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/mobile_code.gif" /></ul>
+            </dd>
+             
+        </dl>
+    </div>
+</div>
+    <!--top/--><!--header-->
+    
+<div class="life-header">
+    <div class="hc-1190 clear">
+        <a href="https://www.httpcn.com/" title="汉程网" class="left logo png"><img src="//jscdn.httpcn.com/p/hancheng/content/images/logo/relogo.png"></a>
+        <script src="//jscdn.httpcn.com/p/hancheng/Scripts/zs_date_ts.min.js" typeval="write"  date-val="2026-05-25"></script>
+        <div class="left life-search">
+            <form action="//search.httpcn.com/" target="_blank">
+                
+                <div class="searchbar">
+                    <input type="text" id="wd" name="word" class="left input" value="" title="" placeholder="请输入关键字">
+                </div>
+                <input type="submit" value="搜 索" class="left btn" />
+            </form>
+            
+        </div>
+        <div class="right header-speimg"><a href="//www.httpcn.com/epoch/" target="_blank"> <img src="//jscdn.httpcn.com/p/hancheng/content/images/logo/header-shiyi.jpg" alt="富强富国热爱祖国，做一个对社会有用的人" class="png" /></a></div>
+<!--<div class="TjNavi">
+    <dl>
+        <dd class="tjgx"></dd>
+        <dd class="tjurl">
+            <a href="https://life.httpcn.com/huangli.asp" target="_blank">中华黄历</a>
+            <a href="https://minsu.httpcn.com/zt/jieri/" target="_blank">传统节日</a>
+            <a href="https://minsu.httpcn.com/zt/jieqi/" target="_blank">24节气</a><br>
+            <a href="https://life.httpcn.com/shengxiao.asp" target="_blank">十二生肖</a>
+            <a href="https://life.httpcn.com/xingzuo.asp" target="_blank">十二星座</a>
+            <a href="https://ms.httpcn.com/minzu/" target="_blank">56民族</a>
+        </dd>
+        <dd class="tjjx"></dd>
+        <dd class="tjurl" data-tg="wz:'wz14',type:'txtlb',gb:'0'"></dd>
+    </dl>
+</div>-->
+    </div>
+</div>
+    <!--header/--><!--nav-->
+    <div class="life-nav">
+    <div class="hc-1190 clear">
+        <div class="left life-nav-menu">
+            <ul class="life-nav-list clear">
+                <li><a data-menukey="shouye" href="//www.httpcn.com/">首页</a></li>
+                <li><a data-menukey="guoxue" href="//guoxue.httpcn.com/">国学</a></li>
+                <li><a data-menukey="minsu" href="//minsu.httpcn.com/">民俗</a></li>
+                <li><a data-menukey="lishi" href="//lishi.httpcn.com/">历史</a></li>
+                <li><a data-menukey="hanyu" href="//hanyu.httpcn.com/">汉语</a></li>
+                <li><a data-menukey="wenxue" href="//wenxue.httpcn.com/">文学</a></li>
+                <li><a data-menukey="yishu" href="//yishu.httpcn.com/">艺术</a></li>
+                <li><a data-menukey="zhexue" href="//zhexue.httpcn.com/">哲学</a></li>
+                <li><a data-menukey="tiyu" href="//tiyu.httpcn.com/">体育</a></li>
+                <li><a data-menukey="lifa" href="//lifa.httpcn.com/">历法</a></li>
+                <li><a data-menukey="yulu" href="//guoxue.httpcn.com/yulu/">语录</a></li>
+				<li><a data-menukey="book" href="//guoxue.httpcn.com/book/">典籍</a></li>
+				<li><a data-menukey="info" href="//www.httpcn.com/info/">文库</a></li>
+                <li><a data-menukey="zhuanti" href="//guoxue.httpcn.com/zt/">专题</a></li>
+                <li><a data-menukey="dati" href="//guoxue.httpcn.com/tiku/">国学答题</a></li>
+				<li><a data-menukey="feiyi" href="//minsu.httpcn.com/feiyi/">非遗</a></li>
+                <li><a data-menukey="xinli" href="//xinli.httpcn.com/" target="_blank">心理</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <!--nav/--><!--分类-->
+    <div class="homePage_bg">
+        <div class="hc-1190 clear mb10 home_banner">
+            <div class="left hc-860">
+                <div class="banner rebanner">
+                    <div class="banner_news">
+                        <a target="_blank" href="//lifa.httpcn.com/">
+                            <div class="login_today clear" data-url="/huangli/" data-id="div_div_riqi">
+                                <h2><i>05</i>月<i>25</i>日</h2>
+                                <span>星期一 四月初九 丙午马年 癸巳月 己亥日</span>
+                            </div>
+                            <div class="login_yiji clear" data-url="/huangli/" data-id="div_yiji_id">
+                                <span>
+                                    <img src="//jscdn.httpcn.com/p/hancheng/content/images/icon/login_yi.png">
+                                    <p>
+                                        日值月破,大事不宜
+                                    </p>
+                                </span>
+                                <span>
+                                    <img src="//jscdn.httpcn.com/p/hancheng/content/images/icon/login_ji.png">
+                                    <p>
+                                        日值月破,大事不宜
+                                    </p>
+                                </span>
+                            </div>
+                        </a>
+                        <div data-gd="jieqi">
+                            <div class="banner_title clear" data-id="1">
+                                <span class="active">小满</span>
+                                <span class="">节日</span>
+                                <span class="">习俗</span>
+                            </div>
+                            <div class="news_neirong" data-id="1_0">
+                                    <div class="gdemo ">
+                                        <ul>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2019521/PWAZILUYILTB.shtml">小满节气有哪些传统习俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2018521/PWAZILILPWCQ.shtml">小满节气的由来和习俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2018521/PWAZILILCQUY.shtml">小满节气民间风俗禁忌 小满的风俗禁忌简介</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/201832/PWAZTBILTBAZ.shtml">小满节气吃什么</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2017521/PWAZUYAZKOPW.shtml">小满的节气习俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2017519/PWAZILAZUYCQ.shtml">小满节气有哪些习俗 小满的习俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2017519/PWAZILAZILRN.shtml">小满吃什么？小满节气的民俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2016520/PWAZUYPWPWAZ.shtml">小满节气的饮食习俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2016520/PWAZUYPWPWPW.shtml">小满吃什么！小满节气吃苦菜</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2016517/PWAZKOAZAZXV.shtml">小满节气的由来与习俗</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="gdemo hide">
+                                        <ul>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/201832/PWAZTBILTBAZ.shtml">小满节气吃什么</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2017521/PWAZILAZUYME.shtml">小满三候指什么</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2017519/PWAZILAZILRN.shtml">小满吃什么？小满节气的民俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2016520/PWAZKOAZCQME.shtml">小满是什么意思</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2016520/PWAZUYPWPWPW.shtml">小满吃什么！小满节气吃苦菜</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="gdemo hide">
+                                        <ul>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2019521/PWAZILUYILTB.shtml">小满节气有哪些传统习俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2019521/PWAZILUYILIL.shtml">今日小满，小满的饮食习俗有哪些</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2018521/PWAZILILPWCQ.shtml">小满节气的由来和习俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2018521/PWAZILILCQME.shtml">小满习俗有哪些？10大习俗你知道几个？</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2018521/PWAZILILCQTB.shtml">盘点小满时节的传统习俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2018521/PWAZILILCQUY.shtml">小满节气民间风俗禁忌 小满的风俗禁忌简介</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2017521/PWAZUYAZKOPW.shtml">小满的节气习俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2017521/PWAZUYAZKOIL.shtml">小满吃苦菜的饮食习俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2017519/PWAZILAZUYCQ.shtml">小满节气有哪些习俗 小满的习俗</a></li>
+                                                <li><i></i><a target="_blank" href="//minsu.httpcn.com/info/html/2017519/PWAZILAZILRN.shtml">小满吃什么？小满节气的民俗</a></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right banner_hdp ">
+                        <ul class="bann_pic">
+                            <li> <a target="_blank" href="//guoxue.httpcn.com/zt/gxqm/"><img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/jr_banner.jpg"><span></span></a></li>
+
+                        </ul>
+                        <a class="ban_arrow ban_prev iconfont icon-xiangzuo" href="javascript:void(0)" style="opacity: 0.5;"></a>
+                        <a class="ban_arrow ban_next iconfont icon-xiangyou" href="javascript:void(0)" style="opacity: 0.5;"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right hc-310">
+
+                <div class="serve_main">
+                    <div class="serve_title clear">
+                        <div class="serve_h3"><h3>会员服务</h3></div>
+                        <ul class="clear" data-id="index_huiyuan">
+                            <li><a target="_blank" href="//login.httpcn.com/login/reg/">注册</a><i></i></li>
+                            <li><a target="_blank" href="//login.httpcn.com/Login/">登录</a></li>
+                        </ul>
+                    </div>
+                    <div class="serve_list">
+                        <ul>
+                            <li class="clear">
+                                <i class="iconfont icon-qiandao"></i>
+                                <div class="serve_qdBox">
+                                    <b>今日签到<span>(1分)</span></b>
+                                    <p>签到送积分，积分换豪礼！</p>
+                                </div>
+                                <em><a href="//login.httpcn.com/member/">立即签到</a></em>
+                            </li>
+                            <li class="clear">
+                                <a href="//guoxue.httpcn.com/zt/" target="_blank">
+                                    <i class="iconfont icon-yuedu"></i>
+                                    <div class="">
+                                        <b>亲子阅读</b>
+                                        <p>和孩子一起共读一本好书！</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="clear">
+                                <a href="//guoxue.httpcn.com/zt/rujia/" target="_blank">
+                                    <i class="iconfont icon-book"></i>
+                                    <div class="">
+                                        <b>仁、义、礼、智、信</b>
+                                        <p>儒家文化可以传承2500年，是有道理的。</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="serve_icon">
+                        <ul class="clear">
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/zt/gxqm/">
+                                    <i class="iconfont icon-weibiaoti--"></i>
+                                    <span>启蒙</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/zt/sswj/">
+                                    <i class="iconfont icon-shu1"></i>
+                                    <span>经书</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/zt/zzbj/#zhuzi">
+                                    <i class="iconfont icon-geren"></i>
+                                    <span>诸子</span>
+                                </a>
+                            </li>
+                            <li style="margin-right: 0;">
+                                <a target="_blank" href="//guoxue.httpcn.com/zt/zzbj/#baijia">
+                                    <i class="iconfont icon-duoren"></i>
+                                    <span>百家</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/zt/skqs/">
+                                    <i class="iconfont icon-shu2"></i>
+                                    <span>古籍</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/shici/">
+                                    <i class="iconfont icon-gushici"></i>
+                                    <span>诗词</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//yishu.httpcn.com/list/JHKO/">
+                                    <i class="iconfont icon-icon-test"></i>
+                                    <span>书画</span>
+                                </a>
+                            </li>
+                            <li style="margin-right: 0;">
+                                <a target="_blank" href="//minsu.httpcn.com/info/liyi/">
+                                    <i class="iconfont icon-liyi"></i>
+                                    <span>礼仪</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--banner end-->
+        <!--main-->
+
+        <div class="hc-1190">
+
+            <!-- 国学·哲学 -->
+            <div class="hP_sortBox">
+
+                <div class="hP_item_title clear">
+                    <div class="hP_item_h2 clear">
+                        <span class="iconfont icon-guoxuejingdian"></span>
+                        <h2>国学·哲学</h2>
+                    </div>
+                    <div class="hP_item_nav clear">
+                        <ul>
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/zt/skqs/#skqs_gx_jing">经部</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/zt/skqs/#skqs_gx_shi">史部</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/zt/skqs/#skqs_gx_zi">子部</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/zt/skqs/#skqs_gx_ji">集部</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//zhexue.httpcn.com/info/rujia/">儒学</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//zhexue.httpcn.com/info/daojia/">道学</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//zhexue.httpcn.com/info/mojia/">墨学</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//zhexue.httpcn.com/info/fajia/">法学</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="hP_item_content clear">
+
+                    <!-- 左侧 -->
+                    <div class="hP_item_left left">
+                        <div class="hpItem_lf_img">
+                            <a href="//guoxue.httpcn.com/" target="_blank">
+                                <img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/ruijiawh.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <!-- 国学启蒙 -->
+                        <div class="hP_gxqm">
+                            <div class="hp_sortTitle clear">
+                                <h3>国学启蒙</h3>
+                                <a href="//guoxue.httpcn.com/zt/gxqm/" target="_blank">更多&gt;</a>
+                            </div>
+                            <div class="hp_gxqm_img clear">
+                                <ul>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/lunyu/"><img src="//jscdn.httpcn.com/p/hancheng/content/images/book/bookimg/guoxue_lunyu.jpg" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/dizigui/"><img src="//jscdn.httpcn.com/p/hancheng/content/images/book/bookimg/guoxue_dizigui.jpg" alt=""></a>
+                                    </li>
+                                    <li class="hp_mr0">
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/sanzijing/"><img src="//jscdn.httpcn.com/p/hancheng/content/images/book/bookimg/guoxue_sanzijing.jpg" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="hp_gxqm_text clear">
+                                <ul>
+                                    <li class="clear">
+                                        <span>[启蒙篇]</span>
+                                        <i><a target="_blank" href="//guoxue.httpcn.com/book/sanzijing/">三字经</a></i>
+                                        <i><a target="_blank" href="//guoxue.httpcn.com/book/baijiaxing/">百家姓</a></i>
+                                        <i><a target="_blank" href="//guoxue.httpcn.com/book/qianziwen/">千字文</a></i>
+                                    </li>
+                                    <li class="clear">
+                                        <span>[训诫篇]</span>
+                                        <i><a target="_blank" href="//guoxue.httpcn.com/book/dizigui/">弟子规</a></i>
+                                        <i><a target="_blank" href="//guoxue.httpcn.com/book/lunyu/">论语</a></i>
+                                        <i><a target="_blank" href="//guoxue.httpcn.com/book/zhuzijiaxun/">朱子家训</a></i>
+                                    </li>
+                                    <li class="clear">
+                                        <span>[诗歌篇]</span>
+                                        <i><a target="_blank" href="//guoxue.httpcn.com/book/tangshi300/">唐诗三百首</a></i>
+                                        <i><a target="_blank" href="//guoxue.httpcn.com/book/songci300/">宋词三百首</a></i>
+                                    </li>
+                                    <li class="clear">
+                                        <span>[典故篇]</span>
+                                        <i><a target="_blank" href="//guoxue.httpcn.com/book/yxql/">幼学琼林</a></i>
+                                        <i><a target="_blank" href="//guoxue.httpcn.com/book/zgxw/">增广贤文</a></i>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <!-- 国学人物 -->
+                        <div class="hP_gxrw">
+                            <div class="hp_sortTitle clear">
+                                <h3>国学人物</h3>
+                                <a href="//guoxue.httpcn.com/authors/" target="_blank">更多&gt;</a>
+                            </div>
+                            <div class="hP_gxrw_img">
+                                <ul>
+                                    <li class="clear">
+                                        <a href="//zhexue.httpcn.com/baike/dongzhongshu.shtml" target="_blank">
+                                            <img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/dongzhongshu.jpg" alt="">
+                                            <div class="hP_gxrw_imgBox">
+                                                <h3>董仲舒</h3>
+                                                <i>提出“罢黜百家，独尊儒术”，使儒学发扬光大他提出了 天人感应、三纲五常等重要儒家理论</i>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="clear">
+                                        <a href="//zhexue.httpcn.com/baike/wangshouren.shtml" target="_blank">
+                                            <img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/wangyangming.jpg" alt="">
+                                            <div class="hP_gxrw_imgBox">
+                                                <h3>王阳明</h3>
+                                                <i>王阳明有多牛？除了孔子敢称“圣人”，他是第二位被称为“圣人”的思想家。</i>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hP_gxrw_text">
+                                <ul>
+                                    <li class="clear">
+                                        <a target="_blank" href="//guoxue.httpcn.com/zt/laozi/"><i></i>[老子]道家祖师，世界百位历史名人之一</a>
+                                    </li>
+                                    <li class="clear">
+                                        <a target="_blank" href="//guoxue.httpcn.com/zt/guiguzi/"><i></i>[鬼谷子]是中国历史上极具神秘色彩的人物</a>
+                                    </li>
+                                    <li class="clear">
+                                        <a target="_blank" href="//guoxue.httpcn.com/zt/mozi/"><i></i>[墨子]孟子曾说“天下之言，不归杨，则归墨”</a>
+                                    </li>
+                                    <li class="clear">
+                                        <a target="_blank" href="//guoxue.httpcn.com/zt/sunzi/"><i></i>[孙子]其《孙子兵法》在世界兵法排名第一</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- 中间 -->
+                    <div class="hP_item_main left">
+                        <!-- 咨询 -->
+                        <div class="hPIemian_zixun">
+                            <ul>
+                                <li><a href="//guoxue.httpcn.com/info/html/2025128/ILTBXVILXVKO.shtml" target="_blank" title="状元、榜眼、探花：这些古代“学霸”的称号究竟从何而来？"><h3 style="color: #94181a;">状元、榜眼、探花：这些古代“学霸”的称号究竟从何而来？</h3></a><p>本文生动追溯了“状元”“榜眼”“探花”三个科举称号的千年演变史：“状元”从唐代“状头”雅化<a href="//guoxue.httpcn.com/info/html/2025128/ILTBXVILXVKO.shtml" target="_blank">[详细...]</a></p></li><li><a href="//guoxue.httpcn.com/info/html/2025124/ILTBXVILTBUY.shtml" target="_blank" title="南北差异巨大的中国，是如何被一条运河“缝合”的？"><h3 style="color: #3198d3;">南北差异巨大的中国，是如何被一条运河“缝合”的？</h3></a><p>京杭大运河自春秋始建，经隋代贯通、元代取直，形成了连接中国南北的2500公里水道。它不仅是<a href="//guoxue.httpcn.com/info/html/2025124/ILTBXVILTBUY.shtml" target="_blank">[详细...]</a></p></li>
+                                <li class="hp_bodbot"><a href="//guoxue.httpcn.com/zt/skqs/" target="_blank" title="十万册中华古籍，免费畅读开启智慧之旅"><h3>十万册中华古籍，免费畅读开启智慧之旅</h3></a><p>我们提供十万册中华古籍的免费畅读服务，让你在书海中遨游，开启一段充满智慧与感悟的文化之旅<a href="//guoxue.httpcn.com/zt/skqs/" target="_blank">[详细...]</a></p></li>
+                            </ul>
+                        </div>
+
+                        <!-- 国学语录 -->
+                        <div class="hPIemian_gxyl">
+                            <b><a target="_blank" href="//guoxue.httpcn.com/html/yulu/TBRN.shtml">众恶之，必察焉；众好之，必察焉。<br>仁者必有勇，勇者不必有仁。</a></b>
+                        </div>
+                        <div class="hPIemian_list">
+                            <ul>
+<li>                                        <span><a target="_blank" href="//guoxue.httpcn.com/info/html/2026310/ILTBXVRNMECQ.shtml"><i></i>两千多年前的孔子，真能教会你怎么混职场？</a></span>
+                                        <span><a target="_blank" href="//guoxue.httpcn.com/info/html/202638/ILTBXVRNUYXV.shtml"><i></i>为什么说《红楼梦》是一本中国人的“生存说明书”？</a></span>
+                                        <span><a target="_blank" href="//guoxue.httpcn.com/info/html/202635/ILTBXVRNILXV.shtml"><i></i>赵匡胤为什么要搞出“官是官、职是职、差遣是差遣”这套把人绕晕的制度？</a></span>
+                                        <span><a target="_blank" href="//guoxue.httpcn.com/info/html/202632/ILTBXVRNPWRN.shtml"><i></i>如果古代有诺贝尔奖，谁最有可能入选？</a></span>
+                                        <span><a target="_blank" href="//guoxue.httpcn.com/info/html/2026228/ILTBXVRNCQRN.shtml"><i></i>沙僧不争不抢不抱怨，这种人到底是傻还是通透？</a></span>
+</li><li class="">                                        <span><a target="_blank" href="//zhexue.httpcn.com/info/html/202639/ILTBXVRNTBPW.shtml"><i></i>通往“兼爱”的阶梯：为何墨家的政治蓝图停在半路？</a></span>
+                                        <span><a target="_blank" href="//zhexue.httpcn.com/info/html/202629/ILTBXVXVUYUY.shtml"><i></i>你以为你在选择？其实是法家在帮你选</a></span>
+                                        <span><a target="_blank" href="//zhexue.httpcn.com/info/html/2025129/ILTBXVILRNAZ.shtml"><i></i>法家的悖论：设计的囚笼，困住了谁？</a></span>
+                                        <span><a target="_blank" href="//zhexue.httpcn.com/info/html/2025115/ILTBXVPWRNAZ.shtml"><i></i>墨家“非命”思想给现代人的启示</a></span>
+                                        <span><a target="_blank" href="//zhexue.httpcn.com/info/html/2025616/ILTBMEUYAZTB.shtml"><i></i>从克己到推己：儒家“仁”在历史皱褶中的生长</a></span>
+</li><li class="hp_bodbot">                                        <span><a target="_blank" href="//zhexue.httpcn.com/info/html/2025526/ILTBMEKOTBPW.shtml"><i></i>“亲亲相隐” 的伦理争议：儒家伦理与现代法理的三千年对话</a></span>
+                                        <span><a target="_blank" href="//zhexue.httpcn.com/info/html/2025416/ILTBMEAZRNKO.shtml"><i></i>孟荀人性论在历史长河中的碰撞与回响</a></span>
+                                        <span><a target="_blank" href="//zhexue.httpcn.com/info/html/2025226/ILTBTBMEXVCQ.shtml"><i></i>墨家数学对当代教育的影响</a></span>
+                                        <span><a target="_blank" href="//zhexue.httpcn.com/info/html/2025219/ILTBTBMEUYCQ.shtml"><i></i>“我命由我不由天”：从道家思想看哪吒的抗争精神</a></span>
+                                        <span><a target="_blank" href="//zhexue.httpcn.com/info/html/2024125/ILTBTBUYTBRN.shtml"><i></i>儒家教育观与当代教育改革</a></span>
+</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 右侧 -->
+                    <div class="hP_item_right hc-310 right">
+
+                        <!-- 国学典籍 -->
+                        <div class="right_aside">
+                            <div class="tit_name"><h3>国学典籍</h3><a href="//guoxue.httpcn.com/zt/skqs" target="_blank" class="right">更多&gt;</a> </div>
+                            <div class="book_jszj clear">
+                                <ul>
+                                    <li class="active">  <span class="jing"></span> </li>
+                                    <li>  <span class="shi"></span> </li>
+                                    <li> <span class="zi"></span> </li>
+                                    <li> <span class="ji"></span> </li>
+                                </ul>
+                            </div>
+                            <div class="hp_gxdj_content">
+                                <div>
+                                    <div class="hp_gxdj_list clear">
+                                            <ul class="">
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/mengzi/">孟子</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/yili/">仪礼</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/zhouli/">周礼</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/liji/">礼记</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/shangshu/">尚书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/shijing/">诗经</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/zhouyi/">周易</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/xiaojing/">孝经</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/lunyu/">论语</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/erya/">尔雅</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/chunqiu/">春秋左传</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/gyz/">春秋公羊传</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/glz/">春秋谷梁传</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/eba2d0662b0e41ea96a9c9de142a15f2/">仪礼注疏</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/213723085e9f45f58942ccd12f2dbc28/">孟子集注</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/118ca475313645808616c343dbf43d51/">论语集注</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/7011635accd54f84bb4d77b7372862d7/">尔雅注疏</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/e94486e44f104f04a906687b6874ec8a/">孝经注疏</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/59538ac739914c51a53080716360e7b0/">春秋公羊传注疏</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/77d07d8bf93f42569c4856b34a354066/">孟子注疏</a></li>
+
+                                            </ul>
+                                            <ul class="hide">
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/05ecb0da9fe640f083807df7e6342fd1/">三家注史记</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/hanshu/">汉书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/d5bb14dc14f846b5b8c1f43ee460c5eb/">后汉书 李贤注</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/houhanshu/">后汉书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/1ce38b9972a449a18aff349009356d50/">三国志 裴松之注</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/jinshu/">晋书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/songshu/">宋书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/nanqishu/">南齐书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/liangshu/">梁书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/chenshu/">陈书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/weishu/">魏书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/beiqishu/">北齐书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/zhoushu/">周书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/beishi/">北史</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/nanshi/">南史</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/suishu/">隋书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/jiutangshu/">旧唐书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/xintangshu/">新唐书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/jiuwudaishi/">旧五代史</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/xinwudaishi/">新五代史</a></li>
+
+                                            </ul>
+                                            <ul class="hide">
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/801d8c31064d4cc5a157c6db9fbc5cc3/">明夷待访录</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/3b06e97db33b484eaeb3e4f2f3c7d38e/">小学诗</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book//">家范 (全译评点本)</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/ec88d856eef64c9ba274606818790760/">潜夫论笺校正</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/af8b7ffb424142a3b12a00b892247e8a/">二十四孝</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/cede1715c49a41099d93004bec3f51fe/">传习录</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/f023f853bf43445da3795d3c94cfee77/">南询录</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/73c9bf5b34e04364840c88d4a6f21172/">鉴略妥注</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/019c5199e7a24e46825a0fe053de89ae/">盐铁论</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/a63904431a0e4632a3ef1d0b0e64ae11/">朱子语类</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/526d0eba12444fe2acdfada5e3c6ef31/">小儿语</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/e9ed316d23b04b40868e07c9692dbe64/">申鉴</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/fed8ebc1e936476d9af2e7655dcaa625/">张子正蒙</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/98cd88a5fec04d70b68c6f2eee1c2f01/">训蒙骈句</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/824073d31f2545609c5e10f404ad2d5f/">说苑</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/e145c72345ff488885ab09d31860057e/">声律启蒙</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/25d9c3aaaf364f3f99ca1d46239d8eaf/">西铭</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/d56e6ed49ade4474869f252394af82d9/">新序</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/e7c7555e10c249aab41673f84f3ba8c5/">名贤集</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/fd02098e20bb4f60834a2efb0e717cf3/">典论</a></li>
+
+                                            </ul>
+                                            <ul class="hide">
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/1cf5d2ffe1d745fd96820dddaaf11dc9/">唐文续拾</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/604aac8c7eef45e8aae19302f487b3e8/">全齐文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book//">唐文拾遗</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/fa2856973ccd48b8819c86c344105dba/">全宋文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book//">敦煌变文集新书</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/373d2ad621c141d0b6229595917b7d0d/">全唐文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/969f55229802466a9f0ceb8f6ebc2bb6/">全晋文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/4288ba230a7942e5ac378be07ca98cad/">千家诗</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/375be665fb6d41b6a785b3024197d0c1/">先唐文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book//">全三国文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book//">宋诗一百首</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/41855fd15c9b476f85f31a659aa834b1/">全隋文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/3bd6a11e829b479197ddf1c4533e90ac/">全后汉文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/tangshi300/">唐诗三百首</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/37e9f0fe21264bfe8a5cd22eb326ca35/">全后周文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/a4c3904095804020b9a89d5e682c8821/">全汉文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/6c498a494b374fc4adf8752917150008/">薛涛、李冶诗集</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/e0049d912d3d477ba92f2d0eb2cfe4ff/">全北齐文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/4de90413fb2e469690c7553af21e73c0/">全秦文</a></li>
+                                                    <li><a target="_blank" href="//guoxue.httpcn.com/book/3d0fac0055a24dc0bb721ceb55e1fcd5/">箧中集</a></li>
+
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 哲学流派 -->
+                        <div class="right_aside mb20 bgcoloe">
+                            <div class="tit_name"><h3>哲学流派</h3></div>
+                            <ul class="life-figure-links clear">
+                                <li><a href="//guoxue.httpcn.com/zt/rujia/" target="_blank">儒家</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/daojia/" target="_blank">道家</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/mojia/" target="_blank">墨家</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/fajia/" target="_blank">法家</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/bingjia/" target="_blank">兵家</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/mingjia/" target="_blank">名家</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/nongjia/" target="_blank">农家</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/zajia/" target="_blank">杂家</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/zonghengjia/" target="_blank">纵横家</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/yinyangjia/" target="_blank">阴阳家</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/xiaoshuojia/" target="_blank">小说家</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/jingxue/" target="_blank">经学</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/xuanxue/" target="_blank">玄学</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/foxue/" target="_blank">佛学</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/lixue/" target="_blank">理学</a></li>
+                                <li><a href="//guoxue.httpcn.com/zt/xinxue/" target="_blank">心学</a></li>
+                            </ul>
+                        </div>
+                        <!-- 哲学典籍 -->
+                        <div class="right_aside">
+                            <div class="tit_name"><h3>哲学典籍</h3></div>
+                            <div class="swjz_sj clear">
+                                    <a target="_blank" href="//guoxue.httpcn.com/book/daodejing/">
+                                        <img src="//jscdn.httpcn.com/p/hancheng/content/images/book/bookimg/guoxue_daodejing.jpg" alt="[道家] 道德经">
+                                        <div class="swjz_text">
+                                            <b>《 道德经》</b>
+                                            <p>《道德经》又称《老子》，是中国古代先秦诸子分家前的一部著作，为其时诸子...</p>
+                                        </div>
+                                    </a>
+
+                            </div>
+                            <div class="hp_zxdj_list clear">
+                                <ul>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/lunyu/"><i></i>[儒家] 论语</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/szbf/"><i></i>[兵家] 孙子兵法</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/ggz/"><i></i>[纵横家] 鬼谷子</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/chunqiu/"><i></i>[儒家] 春秋</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/daxue/"><i></i>[儒家] 大学</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/erya/"><i></i>[儒家] 尔雅</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/glz/"><i></i>[儒家] 春秋谷梁传</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/gslz/"><i></i>[名家] 公孙龙子</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/guanzi/"><i></i>[法家] 管子</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/gyz/"><i></i>[儒家] 公羊传</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/hnz/"><i></i>[杂家] 淮南子</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/liji/"><i></i>[儒家] 礼记</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/liutao/"><i></i>[兵家] 六韬</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/lscq/"><i></i>[杂家] 吕氏春秋</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/mengzi/"><i></i>[儒家] 孟子</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="//guoxue.httpcn.com/book/mozi/"><i></i>[墨家] 墨子</a>
+                                        </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hP_tonglan"  data-tg="type:'imgone',wz:'wz1',gb:'0',"></div>
+
+            <!-- 民俗·历法 -->
+            <div class="hP_sortBox hP_MsLfSort">
+                <div class="hP_item_title clear">
+                    <div class="hP_item_h2 clear">
+                        <span class="iconfont icon-minsuwenhua"></span>
+                        <h2>民俗·历法</h2>
+                    </div>
+                    <div class="hP_item_nav clear">
+                        <ul>
+                            <li>
+                                <a target="_blank" href="//minsu.httpcn.com/zt/jieri/">节日</a><i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//minsu.httpcn.com/info/xisu/">习俗</a><i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//minsu.httpcn.com/info/minzu/">民族</a><i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//minsu.httpcn.com/info/yinshi/">饮食</a><i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//minsu.httpcn.com/info/fushi/">服饰</a><i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//minsu.httpcn.com/info/jianzhu/">建筑</a><i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//minsu.httpcn.com/info/gongyi/">工艺</a><i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//minsu.httpcn.com/info/liyi/">礼仪</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="hP_item_content clear">
+
+                    <!-- 左侧 -->
+                    <div class="hP_item_left left">
+                        <div class="hpItem_lf_img">
+                            <a target="_blank" href="//minsu.httpcn.com/zt/jieqi/">
+                                <img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/jieqi.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <!-- 节日节气 -->
+                        <div class="hP_gxqm">
+                            <!-- <div class="hp_sortTitle clear">
+                                <h3>节日节气</h3>
+                            </div> -->
+
+                            <div class="hP_jrjq_nav clear">
+                                <ul>
+                                    <li class="active">传统节日</li>
+                                    <li class="hP_bfo">二十四节气</li>
+                                </ul>
+                            </div>
+
+                            <div class="hP_jrjq_content">
+                                <div>
+                                    <div class="hP_jieri clear">
+                                        <div class="hP_jrRq_img"> <a target="_blank" href="//minsu.httpcn.com//zt/jieri/"></a></div>
+
+                                        <div class="hP_jrRq_List clear">
+                                            <ul>
+
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieri/chunjie/">春节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieri/yuanxiao/">元宵节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieri/longtaitou/">龙抬头</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieri/qingming/">清明节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieri/duanwu/">端午节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieri/qixi/">七夕节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieri/zhongyuan/">中元节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieri/zhongqiu/">中秋节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieri/chongyang/">重阳节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieriqita/guoqingjie/">国庆节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieri/laba/">腊八节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieri/chuxi/">除夕</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieriqita/yuandan/">元旦</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieriqita/funujie/">妇女节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieriqita/jiaoshijie/">教师节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieriqita/laodongjie/">劳动节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieriqita/zhishujie/">植树节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieriqita/jiandangjie/">建党节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieriqita/ertongjie/">儿童节</a></li>
+                                                <li> <a target="_blank" href="//minsu.httpcn.com/zt/jieriqita/muqinjie/">母亲节</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" hide">
+                                    <div class="hP_jieqi clear">
+                                        <div class="hP_jrRq_img"><a target="_blank" href="//minsu.httpcn.com//zt/jieqi/"></a></div>
+                                        <div class="hP_jrRq_List clear">
+                                            <ul>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/lichun/">立春<span style="display:none">2月3-5日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/yushui/">雨水<span style="display:none">2月18-20日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/jingzhe/">惊蛰<span style="display:none">3月5-7日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/chunfen/">春分<span style="display:none">3月20-21日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/qingming/">清明<span style="display:none">4月4-6日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/guyu/">谷雨<span style="display:none">4月19-21日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/lixia/">立夏<span style="display:none">5月5-7日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/xiaoman/">小满<span style="display:none">5月20-22日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/mangzhong/">芒种<span style="display:none">6月5-7日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/xiazhi/">夏至<span style="display:none">6月21-22日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/xiaoshu/">小暑<span style="display:none">7月6-8日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/dashu/">大暑<span style="display:none">7月22-24日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/liqiu/">立秋<span style="display:none">8月7-9日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/chushu/">处暑<span style="display:none">8月22-24日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/bailu/">白露<span style="display:none">9月7-9日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/qiufen/">秋分<span style="display:none">9月22-24日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/hanlu/">寒露<span style="display:none">10月8-9日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/shuangjiang/">霜降<span style="display:none">10月23-24日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/lidong/">立冬<span style="display:none">11月7-8日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/xiaoxue/">小雪<span style="display:none">11月22-23日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/daxue/">大雪<span style="display:none">12月6-8日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/dongzhi/">冬至<span style="display:none">12月21-23日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/xiaohan/">小寒<span style="display:none">1月5-7日</span></a></li>
+                                                <li><a target="_blank" href="//minsu.httpcn.com/zt/jieqi/dahan/">大寒<span style="display:none">1月20-21日</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- 非物质文化遗产 -->
+                        <div class="hP_gxqm">
+                            <div class="hp_sortTitle clear">
+                                <h3>非物质文化遗产</h3>
+                                <a href="//minsu.httpcn.com/feiyi/" target="_blank">更多&gt;</a>
+                            </div>
+                            <form data-id="feiyi" action="//minsu.httpcn.com/feiyi/" target="_blank">
+                                <div class="hP_herit_search clear">
+
+                                    <div class="hy_seleLeft">
+                                        <span class="iconfont icon-xia">类别</span>
+                                        <div class="hy_seleHide">
+                                            <i><a data-val="" href="javascript:void(0)">全部</a></i><i><a data-val="CQ" href="javascript:void(0)">民间文学</a></i><i><a data-val="PW" href="javascript:void(0)">传统音乐</a></i><i><a data-val="KO" href="javascript:void(0)">传统舞蹈</a></i><i><a data-val="IL" href="javascript:void(0)">传统戏剧</a></i><i><a data-val="UY" href="javascript:void(0)">曲艺</a></i><i><a data-val="TB" href="javascript:void(0)">传统体育、游艺与杂技</a></i><i><a data-val="ME" href="javascript:void(0)">传统美术</a></i><i><a data-val="XV" href="javascript:void(0)">传统技艺</a></i><i><a data-val="RN" href="javascript:void(0)">传统医药</a></i><i><a data-val="CQAZ" href="javascript:void(0)">民俗</a></i>
+                                        </div>
+                                        <input type="hidden" name="id" />
+                                    </div>
+                                    
+                                    <div class="hy_means_searBar clear">
+                                        <input type="submit" value="" class="left btn">
+                                    </div>
+
+                                </div>
+                            </form>
+                            <div class="hP_herit_text clear">
+                                <a target="_blank" href="//minsu.httpcn.com/html/feiyi/2013129/ILRNAZ.shtml">白蛇传传说</a>
+                                <a target="_blank" href="//minsu.httpcn.com/html/feiyi/2013129/CQAZRNIL.shtml" class="active">苗族服饰</a>
+                                <a target="_blank" href="//minsu.httpcn.com/html/feiyi/2013129/XVCQUY.shtml">传统糖塑</a>
+                                <a target="_blank" href="//minsu.httpcn.com/html/feiyi/2013129/PWKOKO.shtml">凤阳花鼓</a>
+                                <a target="_blank" href="//minsu.httpcn.com/html/feiyi/2013129/CQMECQ.shtml">潮州木雕</a>
+                            </div>
+                            <div class="hP_herit_list clear">
+                                <ul><li><a target="_blank" href="//minsu.httpcn.com/html/feiyi/20131011/CQKOKOKO.shtml" title="花鼓戏（荆州花鼓戏、襄阳花鼓戏、衡州花鼓戏、临湘花鼓戏、长沙花鼓戏）"><img src="//imgcdn.httpcn.com/updataimg/minsu_feiyi/xiaotu/15859064883670881.jpg" alt="花鼓戏（荆州花鼓戏、襄阳花鼓戏、衡州花鼓戏、临湘花鼓戏、长沙花鼓戏）"><span>花鼓戏（荆州花鼓戏、襄阳花鼓戏、衡州花鼓戏、临湘花</span></a></li><li><a target="_blank" href="//minsu.httpcn.com/html/feiyi/2013129/ILMEPW.shtml" title="四季生产调"><img src="//imgcdn.httpcn.com/updataimg/minsu_feiyi/xiaotu/15934225367364210.jpg" alt="四季生产调"><span>四季生产调</span></a></li><li class="hp_mr0"><a target="_blank" href="//minsu.httpcn.com/html/feiyi/20131011/XVKOIL.shtml" title="毛纺织及擀制技艺（彝族毛纺织及擀制技艺、藏族牛羊毛编织技艺、东乡族擀毡技艺）"><img src="//imgcdn.httpcn.com/updataimg/minsu_feiyi/xiaotu/15906570076289610.jpg" alt="毛纺织及擀制技艺（彝族毛纺织及擀制技艺、藏族牛羊毛编织技艺、东乡族擀毡技艺）"><span>毛纺织及擀制技艺（彝族毛纺织及擀制技艺、藏族牛羊毛</span></a></li></ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- 中间 -->
+                    <div class="hP_item_main left">
+
+                        <!-- 咨询 -->
+                        <div class="hPIemian_zixun" data-id="jieqi_datazx">
+                            <ul>
+                                    <li>
+                                        <a target="_blank" href="//minsu.httpcn.com/info/html/201832/PWAZTBILTBAZ.shtml"> <h3 style="color: #94181a;">小满节气吃什么</h3></a>
+                                        <p>小满饮食宜清淡。小满时节天热，湿气又重，因此要常吃具有清利湿热作用的素食，如冬瓜、扁豆、绿豆<a target="_blank" href="//minsu.httpcn.com/info/html/201832/PWAZTBILTBAZ.shtml">[详细...]</a></p>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//minsu.httpcn.com/info/html/2016517/PWAZKOAZAZXV.shtml"><h3 style="color: #3198d3;">小满节气的由来与习俗</h3></a>
+                                        <p>小满以后，黄河以南到长江中下游地区开始出现35℃以上的高温天气，有关部门和单位应注意防暑工作<a target="_blank" href="//minsu.httpcn.com/info/html/2016517/PWAZKOAZAZXV.shtml">[详细...]</a></p>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//minsu.httpcn.com/info/html/2017521/PWAZILAZUYME.shtml"><h3>小满三候指什么</h3></a>
+                                        <p>蔡邕《月令》以谓苦荬菜。谓之靡草，则至阴之所生也，故不胜至阳而死。原为小暑至，后《金史志》改<a target="_blank" href="//minsu.httpcn.com/info/html/2017521/PWAZILAZUYME.shtml">[详细...]</a></p>
+                                    </li>
+                            </ul>
+                        </div>
+
+                        <div class="hPIemian_list hPIemian_MsLflist">
+                            <ul>
+<li>                                        <span><a target="_blank" href="//lifa.httpcn.com/info/html/20181214/PWCQRNKOILAZ.shtml"><em class="hP_color01">历法</em>农历和阴历一样吗</a></span>
+                                        <span><a target="_blank" href="//lifa.httpcn.com/info/html/2016316/PWCQRNKOILRN.shtml"><em class="hP_color02">历法</em>农历闰月的规律，最正确的历法计算</a></span>
+                                        <span><a target="_blank" href="//lifa.httpcn.com/info/html/2017729/PWCQRNKOILKO.shtml"><em class="hP_color03">历法</em>中国历法演变 中国近代历法</a></span>
+                                        <span><a target="_blank" href="//minsu.httpcn.com/info/html/2026226/ILTBXVRNAZKO.shtml"><em class="hP_color04">习俗杂谈</em>广东“利是”五块十块，红包“内卷”洼地凭啥最幸福？</a></span>
+                                        <span><a target="_blank" href="//lifa.httpcn.com/info/html/2016311/PWCQRNKOILXV.shtml"><em class="hP_color01">历法</em>阴历准还是阳历准？更适合我们的历法</a></span>
+</li><li class="">                                        <span><a target="_blank" href="//minsu.httpcn.com/info/html/202632/ILTBXVRNPWIL.shtml"><em class="hP_color01">习俗杂谈</em>马年说“马”：除了“拍马屁”，你的家乡话里还藏着多少匹“神马”？</a></span>
+                                        <span><a target="_blank" href="//lifa.httpcn.com/info/html/2017729/PWCQRNKOILIL.shtml"><em class="hP_color02">历法</em>中国历法演变 宋代历法成就简介</a></span>
+                                        <span><a target="_blank" href="//lifa.httpcn.com/info/html/2017718/PWCQRNKOUYPW.shtml"><em class="hP_color03">历法</em>中国历法演变 商周历法简介</a></span>
+                                        <span><a target="_blank" href="//minsu.httpcn.com/info/html/202631/ILTBXVRNPWCQ.shtml"><em class="hP_color04">剪纸</em>陕北剪纸，大娘们是不是都有“徒手造物”的魔法？</a></span>
+                                        <span><a target="_blank" href="//minsu.httpcn.com/info/html/202636/ILTBXVRNUYCQ.shtml"><em class="hP_color01">习俗杂谈</em>南京梧桐树，真是蒋介石为宋美龄种的“七夕礼物”？</a></span>
+</li><li class="hp_bodbot">                                        <span><a target="_blank" href="//lifa.httpcn.com/info/html/2018625/PWCQRNKOMEXV.shtml"><em class="hP_color01">历法</em>最科学的历法——中国农历（阴阳合历）</a></span>
+                                        <span><a target="_blank" href="//minsu.httpcn.com/info/html/2026227/ILTBXVRNAZTB.shtml"><em class="hP_color02">习俗杂谈</em>云南“蘑菇节”，见小人前需要先签“生死状”吗？</a></span>
+                                        <span><a target="_blank" href="//minsu.httpcn.com/info/html/202634/ILTBXVRNKOME.shtml"><em class="hP_color03">习俗杂谈</em>“云南十八怪”，鸡蛋串着卖，是怕鸡蛋独自逛街会迷路？</a></span>
+                                        <span><a target="_blank" href="//minsu.httpcn.com/info/html/202639/ILTBXVRNTBCQ.shtml"><em class="hP_color04">饮食杂谈</em>保定“驴肉火烧”，驴：我究竟是怎么火的？</a></span>
+                                        <span><a target="_blank" href="//lifa.httpcn.com/info/html/2016122/PWCQRNKOMEKO.shtml"><em class="hP_color01">历法</em>中国二十四节气和西方历法对比，孰优孰劣？</a></span>
+</li>                            </ul>
+                        </div>
+
+                    </div>
+
+                    <!-- 右侧 -->
+                    <div class="hP_item_right hc-310 right">
+                        <!-- 生肖文化 -->
+                        <div class="home-aside ">
+                            <dl>
+                                <dt class="wh_smalltit"><h3>民俗文化</h3></dt>
+                                <dd class="home_sxlist">
+                                    
+                                    <ul class="bann_minsu clear">
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/yinshi/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/meishi.jpg" alt="美食"></i>
+                                                <span>美食</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/jiu/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/yinjiu.jpg" alt="饮酒"></i>
+                                                <span>饮酒</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/cha/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/pincha.jpg" alt="品茶"></i>
+                                                <span>品茶</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/fushi/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/fushi.jpg" alt="服饰"></i>
+                                                <span>服饰</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/jianzhu/minju/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/minju.jpg" alt="民居"></i>
+                                                <span>民居</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/jianzhu/yuanlin/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/yuanlin.jpg" alt="园林"></i>
+                                                <span>园林</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/jianzhu/gongting/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/gongting.jpg" alt="宫廷"></i>
+                                                <span>宫廷</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/jianzhu/luqiao/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/guqiao.jpg" alt="古桥"></i>
+                                                <span>古桥</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/minzu/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/minzu.jpg" alt="民族"></i>
+                                                <span>民族</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/liyi/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/liyi.jpg" alt="礼仪"></i>
+                                                <span>礼仪</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/xisu/hunjia/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/hunjia.jpg" alt="婚嫁"></i>
+                                                <span>婚嫁</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://minsu.httpcn.com/info/xisu/sangzang/">
+                                                <i><img src="//jscdn.httpcn.com/p/hancheng/Content/images/ico/sangzang.jpg" alt="丧葬"></i>
+                                                <span>丧葬</span>
+                                            </a>
+                                        </li> 
+                                    </ul>
+                                    <ul class="life-aside-list">
+                                            <li class="ellipsis"><a href="//wenxue.httpcn.com/html/miyu/20161121/XVRNPWRN.shtml" target="_blank">· 有点像画眉鸟 （打一生肖）</a></li>
+                                            <li class="ellipsis"><a href="//wenxue.httpcn.com/html/miyu/20161121/XVRNCQIL.shtml" target="_blank">· 尖嘴尖牙齿，留着小胡子，贼头又贼脑，夜里干坏事。 （打一生肖名）</a></li>
+                                            <li class="ellipsis"><a href="//wenxue.httpcn.com/html/miyu/20161121/XVRNPWXV.shtml" target="_blank">· 四蹄飞奔鬃毛抖，拉车驮货多面手，农民夸它好伙伴，骑兵爱它如战友。 （打一生肖名）</a></li>
+                                            <li class="ellipsis"><a href="//wenxue.httpcn.com/html/miyu/20161121/XVRNCQTB.shtml" target="_blank">· 两把镰刀尖打尖，两把蒲扇扇两边，四把铁锤前后打，一把扫帚扫两边。 （打一生肖名）</a></li>
+                                            <li class="ellipsis"><a href="//wenxue.httpcn.com/html/miyu/2016324/CQCQMERNAZ.shtml" target="_blank">· 此公之后，必有奇才。 （打一生肖）</a></li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                        <!-- 民俗工具 -->
+                        
+
+                        <div class="hc_syImg" data-tg="type:'imgone',wz:'wz10',gb:'0',"></div>
+                        <!-- 民俗典籍 -->
+                        <div class="right_aside">
+                            <div class="tit_name"><h3>民俗典籍</h3></div>
+                            <div class="swjz_sj clear">
+                                <a target="_blank" href="//guoxue.httpcn.com/book/6dbeb4d90f7e4601abff508206ad780e/">
+                                    <img src="//jscdn.httpcn.com/p/hancheng/content/images/hanyu/shuiwenjiezi.jpg" alt="">
+                                    <div class="swjz_text">
+                                        <b>《风俗通义校注》</b>
+                                        <p>《风俗通义》，是一部内容非常丰富的学术著作，无论是内容还是见解，都有很...</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hp_zxdj_list clear">
+                                <ul>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/771617877fd9415ca300e5d0fc2b11c6/"><i></i>[风俗] 无杂俎</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/998b2ca8344e4e4ebfd675365decb554/"><i></i>[风俗] 葬书</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/bcc40244b9c8485185efcc8618891450/"><i></i>[饮食] 茶经</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/b3621fddbb0445b39618308e9b44cc23/"><i></i>[饮食] 酒经</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/f6d37f3eb83a4ad68ef36614464dd2f6/"><i></i>[饮食] 随园食单</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/b8830b48fd5a4bfc8fb421952e9780fc/"><i></i>[饮食] 十六汤品</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/bd4a7a718482473eb0b4467d8ddaa680/"><i></i>[工艺] 瓶花谱</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/e093d9399fb946b0a1d16e86325cca06/"><i></i>[礼仪] 颜氏家训</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/11dfe773d3994677b7e598f59a1ad0a2/"><i></i>[礼仪] 厚黑学</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/5205a7f2c0344dd1a43794e16ded1d89/"><i></i>[历法] 历算全书</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hP_tonglan" data-tg="type:'imgone',wz:'wz2',gb:'0',"></div>
+
+            <!-- 汉语·文学 -->
+            <div class="hP_sortBox">
+                <div class="hP_item_title clear">
+                    <div class="hP_item_h2 clear">
+                        <span class="iconfont icon-wenxue01"></span>
+                        <h2>汉语·文学</h2>
+                    </div>
+                    <div class="hP_item_nav clear">
+                        <ul>
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/shici/">诗词</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//wenxue.httpcn.com/">文学</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/gdxs/">小说</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//wenxue.httpcn.com/info/shenhua/">神话</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//wenxue.httpcn.com/info/gushi/">故事</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//wenxue.httpcn.com/miyu/">谜语</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//wenxue.httpcn.com/xiehouyu/">歇后语</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//guoxue.httpcn.com/gbs/">公版书</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="hP_item_content clear">
+
+                    <!-- 左侧 -->
+                    <div class="hP_item_left left">
+                        <div class="hpItem_lf_img">
+                            <a target="_blank" href="//guoxue.httpcn.com/shici/">
+                                <img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/shicidaquan.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <!-- 汉语工具 -->
+                        <div class="hP_gxqm">
+                            <div class="hp_sortTitle clear">
+                                <h3>汉语工具</h3>
+                                <a target="_blank" href="//hanyu.httpcn.com/">更多&gt;</a>
+                            </div>
+                            <form data-id="zidian_cha" action="//tool.httpcn.com/Zi/So.asp" target="_blank">
+                                <div class="hP_hanyu_search clear">
+                                    <div class="hy_seleLeft">
+                                        <span class="iconfont icon-xia">汉程字典</span>
+                                        <div class="hy_seleHide">
+                                            <i data-val="//tool.httpcn.com/Zi/So.asp"><a href="javascript:void(0)">汉程字典</a></i>
+                                            <i data-val="//tool.httpcn.com/KangXi/So.asp"><a href="javascript:void(0)">康熙字典</a></i>
+                                            <i data-val="//tool.httpcn.com/ShuoWen/So.asp"><a href="javascript:void(0)">说文解字</a></i>
+                                            <i data-val="//tool.httpcn.com/ShuFa/So.asp"><a href="javascript:void(0)">书法字典</a></i>
+                                            <i data-val="//tool.httpcn.com/CiDian/So.asp"><a href="javascript:void(0)">词语字典</a></i>
+                                            <i data-val="//tool.httpcn.com/ChengYu/So.asp"><a href="javascript:void(0)">成语字典</a></i>
+                                            <i data-val="//tran.httpcn.com/En/"><a href="javascript:void(0)">英汉字典</a></i>
+                                            <i data-val="//tool.httpcn.com/ShiCi/So.asp"><a href="javascript:void(0)">诗词大全</a></i>
+                                        </div>
+                                        <input type="hidden" value="1" name="tid" />
+                                    </div>
+                                    <div class="hy_means_searBar clear">
+                                        <input type="text" name="wd" class="left input" placeholder="请输入要搜索的字词">
+                                        <input type="submit" value="" class="left btn">
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="hP_hanyu_img clear">
+                                <ul>
+                                    <li>
+                                        <a target="_blank" href="//tool.httpcn.com/zi/"><img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/hanchengzidian.png" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//tool.httpcn.com/kangxi/"><img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/hanchengkangxi.png" alt=""></a>
+                                    </li>
+
+                                    <li>
+                                        <a target="_blank" href="//tool.httpcn.com/CiDian/"><img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/hanchengcidian.png" alt=""></a>
+                                    </li>
+                                    <li class="hp_mr0">
+                                        <a href="//tran.httpcn.com/fanyi/" target="_blank">
+                                            <img src="//jscdn.httpcn.com/p/hancheng/content/images/hanyu/hanyufanyi.png" alt="">
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="hP_jrRq_List clear">
+                                <ul class="clear">
+                                    <li><a target="_blank" href="//tool.httpcn.com/zi/">汉程字典</a></li>
+                                    <li><a target="_blank" href="//tool.httpcn.com/Kangxi/">康熙字典</a></li>
+                                    <li><a target="_blank" href="//tool.httpcn.com/ShuoWen/">说文解字</a></li>
+                                    <li><a target="_blank" href="//tool.httpcn.com/ShuFa/">书法字典</a></li>
+                                    <li><a target="_blank" href="//tool.httpcn.com/CiDian/">在线词典</a></li>
+                                    <li><a target="_blank" href="//tool.httpcn.com/ChengYu/">成语字典</a></li>
+                                    <li><a target="_blank" href="//tool.httpcn.com/Wubi/">五笔查询</a></li>
+                                    <li><a target="_blank" href="//tool.httpcn.com/Tool/JianFanZhuanHuan.html">简繁转换</a></li>
+                                    <li><a target="_blank" href="//tool.httpcn.com/Tool/HanZiZhuanPinYin.html">汉字转拼音</a></li>
+                                    <li><a target="_blank" href="//tool.httpcn.com/Zi/PinYin.html">拼音查字</a></li>
+                                    <li><a target="_blank" href="//tool.httpcn.com/Zi/BuShou.html">部首查字</a></li>
+                                    <li><a target="_blank" href="//tran.httpcn.com/">在线翻译</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <!-- 诗词歌赋 -->
+                        <div class="hP_gxqm">
+                            <div class="hp_sortTitle clear">
+                                <h3>诗词歌赋</h3>
+                                <a target="_blank" href="//guoxue.httpcn.com/shici/">更多&gt;</a>
+                            </div>
+                            <div class="hP_hySe_search clear">
+                                <div class="hy_means_searBar clear">
+                                    <form action="//search.httpcn.com/?type=shici" target="_blank">
+                                        <input type="text" name="word" class="left input" placeholder="请输入要搜索诗词">
+                                        <input type="submit" value="" class="left btn">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="hP_herit_text clear">
+                                <a target="_blank" href="//guoxue.httpcn.com/authors/xianqin/">先秦</a>
+                                <a target="_blank" href="//guoxue.httpcn.com/authors/lianghan/">两汉</a>
+                                <a target="_blank" href="//guoxue.httpcn.com/authors/weijin/">魏晋</a>
+                                <a target="_blank" href="//guoxue.httpcn.com/authors/nanbeichao/">南北朝</a>
+                                <a target="_blank" href="//guoxue.httpcn.com/authors/suidai/">隋代</a>
+                                <a target="_blank" href="//guoxue.httpcn.com/authors/tangdai/">唐代</a>
+                                <a target="_blank" href="//guoxue.httpcn.com/authors/wudai/">五代</a>
+                                <a target="_blank" href="//guoxue.httpcn.com/authors/songdai/">宋代</a>
+                            </div>
+                            <div class="hP_jrRq_List hP_shufa_List clear">
+                                <ul class="clear">
+                                    <li><a href="//guoxue.httpcn.com/authors/TBMEAZ.shtml" target="_blank">诗仙</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/authors/TBMEKO.shtml">诗佛</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/authors/TBMECQ.shtml">诗魔</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/authors/KOPWUYIL.shtml">诗神</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/authors/TBMEPW.shtml">诗圣</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/authors/TBXVTB.shtml">诗鬼</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/authors/TBRNCQ.shtml">诗杰</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/authors/TBRNAZ.shtml">诗囚</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/authors/MEPWCQ.shtml">诗狂</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/authors/TBMEIL.shtml">诗豪</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/authors/TBXVPW.shtml">诗奴</a></li>
+                                </ul>
+                                <i></i>
+                                <ul class="clear">
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/xiejing/">写景</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/yongwu/">咏物</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/chuntian/">春天</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/xiatian/">夏天</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/qiutian/">秋天</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/dongtian/">冬天</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/xieyu/">写雨</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/xiexue/">写雪</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/xiefeng/">写风</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/xiehua/">写花</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/meihua/">梅花</a></li>
+                                    <li><a target="_blank" href="//guoxue.httpcn.com/shici/hehua/">荷花</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- 中间 -->
+                    <div class="hP_item_main left">
+
+                        <!-- 咨询 -->
+                        <div class="hPIemian_zixun">
+                            <ul>
+                                    <li>
+                                        <a target="_blank" href="//wenxue.httpcn.com/info/html/2006526/PWCQXVCQAZCQ.shtml"> <h3 style="color: #94181a;">张居正辅政</h3></a>
+                                        <p>再加上太后和宦官冯保的支持，朝政大事几乎全部由张居正作主。戚家军号令严<a target="_blank" href="//wenxue.httpcn.com/info/html/2006526/PWCQXVCQAZCQ.shtml">[详细...]</a></p>
+                                    </li>
+                                    <li class="hp_bodbot">
+                                        <a target="_blank" href="//wenxue.httpcn.com/info/html/2007326/KOUYCQILIL.shtml">  <h3 style="color: #3198d3;">天没有地大</h3></a>
+                                        <div class="hP_hanyu_zixun">
+                                                <span>
+                                                    <a href="//wenxue.httpcn.com/info/html/20071010/KOUYILPWCQ.shtml" target="_blank"><i></i>“压岁钱”的传说</a>
+                                                </span>
+                                                <span>
+                                                    <a href="//wenxue.httpcn.com/info/html/2025818/ILTBMERNCQUY.shtml" target="_blank"><i></i>诸葛亮的&quot;锦囊妙计&quot;为何总能奏效？——古代信息战的巅峰操作</a>
+                                                </span>
+                                                <span>
+                                                    <a href="//wenxue.httpcn.com/info/html/2006526/PWCQXVPWCQAZ.shtml" target="_blank"><i></i>王昭君出塞</a>
+                                                </span>
+                                                <span>
+                                                    <a href="//wenxue.httpcn.com/info/html/2006526/PWCQXVCQAZAZ.shtml" target="_blank"><i></i>葛贤痛打税监</a>
+                                                </span>
+                                        </div>
+                                    </li>
+                            </ul>
+                        </div>
+                        <!-- 古典小说 -->
+                        <div class="hP_gudianxs">
+                            <div class="hp_sortTitle clear">
+                                <h3>古典小说</h3>
+                                <a target="_blank" href="//guoxue.httpcn.com/gdxs/">更多&gt;</a>
+                            </div>
+                            <div class="hP_gudianxsList clear">
+                                <ul>
+                                        <li class="left">
+                                            <a href="//guoxue.httpcn.com/gdxs/czjr/" target="_blank"><h3>才子佳人</h3></a>
+                                            <span>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/40310d7dc01441cf8deae2f06bd32662/">·百花野史(一笑主人)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/d181ee1421854a57bbf78f941fa09ef8/">·春柳莺(南北歇冠史者)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/ab949e5e5b6244258051d140963bb5ea/">·第一美女传(佚名)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/884b52d6981e4cd2b096f9c60efd6b01/">·定情人(佚名)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/0c9584e239fb4a31b34f199b393c3788/">·凤凰池(烟霞散人)</a>
+
+                                            </span>
+                                        </li>
+                                        <li class="right">
+                                            <a href="//guoxue.httpcn.com/gdxs/qzfs/" target="_blank"><h3>谴责讽世</h3></a>
+                                            <span>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/99e2c6a60ae447eb88178782f8195ea8/">·常言道(落魄道人)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/cc4d1bc600a1494e80ca75e598f70a5c/">·杜骗新书(张应俞)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/addfdd384acd468b8a713630c1a85871/">·二十年目睹之怪现状(吴趼人)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/d355ec60cfc643f4b701b50188cb1ecc/">·发财秘诀(吴研人)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/187fb96109e24b73a1049a50c6cd76b8/">·负曝闲谈(蘧园)</a>
+
+                                            </span>
+                                        </li>
+                                        <li class="left">
+                                            <a href="//guoxue.httpcn.com/gdxs/smzg/" target="_blank"><h3>神魔志怪</h3></a>
+                                            <span>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/82a94f0ea7404e7aafad146608f1ea7e/">·东度记(方汝浩)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/13754ad98a6246a7b145ad92337a30b0/">·东游记(吴元泰)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/0c1d864c1afb4ebabdc792ba5b9ec104/">·封神演义(许仲琳)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/8f0111dd7aac49cb8dc8690624697b8b/">·后西游记(佚名)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/c5324efda75a4c0db2c3f2ad239128a8/">·幻中游(烟霞主人)</a>
+
+                                            </span>
+                                        </li>
+                                        <li class="right">
+                                            <a href="//guoxue.httpcn.com/gdxs/gdxy/" target="_blank"><h3>古典侠义</h3></a>
+                                            <span>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/5c892e9a7119490c940b77a315f9bca7/">·白牡丹(翁山柱砥、何梦梅)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/605778e3716344ccb10023f1f8c54ca0/">·禅真逸史(方汝浩)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/e6e0af63d28e4d289f274a3b5541083c/">·大汉三合明珠宝剑全传(佚名)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/b28ca28bb1354d6b8e620d2266fe54dd/">·大清三杰(徐哲身)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/167456af037442008a0680c008bef978/">·荡寇志(俞万春)</a>
+
+                                            </span>
+                                        </li>
+                                        <li class="left">
+                                            <a href="//guoxue.httpcn.com/gdxs/lsyy/" target="_blank"><h3>历史演义</h3></a>
+                                            <span>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/f1514509631c4967bcaba03086edb008/">·后汉演义(蔡东藩)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/1749268f325c47b0880d0361e5ba0fa2/">·两晋演义(蔡东藩)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/9209630dd570437fb8d5e2171bfeba4b/">·民国演义(蔡东藩)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/8bd809e391a344e19d4823a5d18f829e/">·明史演义(蔡东藩)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/e7116f4a87d14444b7c59d7a9de17439/">·前汉演义(蔡东藩)</a>
+
+                                            </span>
+                                        </li>
+                                        <li class="right">
+                                            <a href="//guoxue.httpcn.com/gdxs/gaxs/" target="_blank"><h3>公案小说</h3></a>
+                                            <span>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/2274812cb61f4e33916e02778d9a0f30/">·案中冤案(董荫孤)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/2276b93df4dc4cdd969bea0698f81033/">·春阿氏谋夫案(王冷佛)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/60258d0d6c0e465eb33eb658bec0d2d4/">·狄公案(佚名)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/2bbacf6d7e01449db978a2596452eeb0/">·儿女英雄传(文康)</a>
+                                                    <a target="_blank" href="//guoxue.httpcn.com/book/c5efba6fd8c8491f8fd6c5e563be373b/">·郭公案(佚名)</a>
+
+                                            </span>
+                                        </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 右侧 -->
+                    <div class="hP_item_right hc-310 right">
+
+                        <!-- 文学名著 -->
+                        <div class="right_aside">
+                            <div class="tit_name"><h3>文学名著</h3><a target="_blank" href="//guoxue.httpcn.com/zt/sdmz/" class="right">更多&gt;</a></div>
+                            <div class="swjz_sj clear">
+                                <a target="_blank" href="//guoxue.httpcn.com/book/hlm/">
+                                    <img src="//jscdn.httpcn.com/p/hancheng/content/images/book/bookimg/guoxue_hongloumeng.png" alt="" class="img_png">
+                                    <div class="swjz_text">
+                                        <b>《红楼梦》</b>
+                                        <p>《红楼梦》中国古代四大名著之一，章回体长篇小说，成书于1784年...</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hp_zxdj_list hp_wxmz_list clear">
+                                <ul>
+
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/xyj/"><i></i>《西游记》吴承恩</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/shz/"><i></i>《水浒传》施耐庵</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/sgyy/"><i></i>《三国演义》罗贯中</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/lzzy/"><i></i>《聊斋志异》蒲松龄</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/ysmy/"><i></i>《喻世明言》冯梦龙</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/jsty/"><i></i>《警世通言》冯梦龙</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/xshy/"><i></i>《醒世恒言》冯梦龙</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/ckpajq/"><i></i>《初刻拍案惊奇》凌濛初</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/ekpajq/"><i></i>《二刻拍案惊奇》凌濛初</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/4a218cf713274a25ab8a59a80b8b807b/"><i></i>《儒林外史》吴敬梓</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/353af7d7c0004707bf6e09e5ed052c1e/"><i></i>《封神演义》陈仲琳 </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/2731a1d62d2d46ae98642fccca088f80/"><i></i>《绿野仙踪》李百川</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <!-- 通栏 -->
+                        <div class="hP_hanyuTl" data-tg="type:'imgone',wz:'wz4',gb:'0',">
+                            
+                        </div>
+
+                        <!-- 民间文学 -->
+                        <div class="right_aside hP_mjwx_list">
+                            <div class="tit_name"><h3>民间文学</h3><a target="_blank" href="//wenxue.httpcn.com/" class="right">更多&gt;</a></div>
+
+                            <div class="hP_fame_nav">
+                                <ul class="clear">
+                                    <li class="active">神话</li>
+                                    <li>故事</li>
+                                    <li>史诗</li>
+                                    <li class="hP_bfo">谜语</li>
+                                </ul>
+                            </div>
+                            <div class="fame_content">
+                                        <div class="">
+                                            <div class="bann_aside">
+                                                <dl>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/201965/PWCQMERNPWCQ.shtml">
+                                                                <i style="color: #f94e4c; font-style: italic;font-weight: bold;">1</i>
+                                                                    <p style="width: 200px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: inline-block;"> 青石龙<b></b> </p>                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/201965/PWCQMERNPWAZ.shtml">
+                                                                <i style="color: #ff980d; font-style: italic;font-weight: bold;">2</i>
+月亮阴晴圆缺的由来                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2012727/KOILMEPWRN.shtml">
+                                                                <i style="color: #d09500; font-style: italic;font-weight: bold;">3</i>
+北帝                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2012727/KOILMEMERN.shtml">
+                                                                <i style="">4</i>
+真武大帝                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/201965/PWCQMERNTBXV.shtml">
+                                                                <i style="">5</i>
+美神瑶姬                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2012727/KOILTBKOKO.shtml">
+                                                                <i style="">6</i>
+许旌阳（许逊）                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2012727/KOILXVUYCQ.shtml">
+                                                                <i style="">7</i>
+三茅真君（茅盈茅固茅衷）                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2007328/KOUYAZAZPW.shtml">
+                                                                <i style="">8</i>
+太上老君                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2012727/KOILXVXVUY.shtml">
+                                                                <i style="">9</i>
+九天玄女                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/201965/PWCQMERNTBKO.shtml">
+                                                                <i style="">10</i>
+无头巨人刑天                                                            </a>
+                                                        </dd>
+                                                </dl>
+
+                                            </div>
+                                        </div>
+                                        <div class="hide">
+                                            <div class="bann_aside">
+                                                <dl>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/200684/KOUYILTBAZ.shtml">
+                                                                <i style="color: #f94e4c; font-style: italic;font-weight: bold;">1</i>
+                                                                    <p style="width: 200px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: inline-block;"> 中国古代神话体系表（道教）<b></b> </p>                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006612/KOUYUYAZIL.shtml">
+                                                                <i style="color: #ff980d; font-style: italic;font-weight: bold;">2</i>
+我国神话的保存及流传情况                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006612/KOUYUYAZRN.shtml">
+                                                                <i style="color: #d09500; font-style: italic;font-weight: bold;">3</i>
+中国古代神话的特色和演变                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2012727/KOUYKORNAZ.shtml">
+                                                                <i style="">4</i>
+羊城的传说                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006612/KOUYUYPWPW.shtml">
+                                                                <i style="">5</i>
+二十八宿探秘                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006612/KOUYUYXVME.shtml">
+                                                                <i style="">6</i>
+中国传统神话人物图                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2007108/KOUYILKOUY.shtml">
+                                                                <i style="">7</i>
+民間傳說之--白蛇傳（白素貞）                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006612/KOUYUYPWRN.shtml">
+                                                                <i style="">8</i>
+中国古代四大神兽                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006612/KOUYUYAZAZ.shtml">
+                                                                <i style="">9</i>
+中国古代神话中的五帝与五神                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/200684/KOUYILTBME.shtml">
+                                                                <i style="">10</i>
+山海经和中国古代神话的资料                                                            </a>
+                                                        </dd>
+                                                </dl>
+
+                                            </div>
+                                        </div>
+                                        <div class="hide">
+                                            <div class="bann_aside">
+                                                <dl>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006526/PWCQXVAZILUY.shtml">
+                                                                <i style="color: #f94e4c; font-style: italic;font-weight: bold;">1</i>
+                                                                    <p style="width: 200px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: inline-block;"> 王猛扪虱谈天下<b></b> </p>                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006526/PWCQXVCQUYTB.shtml">
+                                                                <i style="color: #ff980d; font-style: italic;font-weight: bold;">2</i>
+“儿皇帝”石敬瑭                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006526/PWCQXVCQMEAZ.shtml">
+                                                                <i style="color: #d09500; font-style: italic;font-weight: bold;">3</i>
+郭子仪单骑退回纥                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2025812/ILTBMEXVMEAZ.shtml">
+                                                                <i style="">4</i>
+关羽的胡子有多长？——从&quot;美髯公&quot;看古代武将的威仪崇拜                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006526/PWCQXVCQCQTB.shtml">
+                                                                <i style="">5</i>
+《窦娥冤》感天动地                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006526/PWCQXVPWCQUY.shtml">
+                                                                <i style="">6</i>
+卫青和霍去病                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006526/PWCQXVPWMECQ.shtml">
+                                                                <i style="">7</i>
+周公辅成王                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006526/PWCQXVAZTBRN.shtml">
+                                                                <i style="">8</i>
+吕蒙白衣渡江                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006526/PWCQXVAZXVXV.shtml">
+                                                                <i style="">9</i>
+李岩和红娘子                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/info/html/2006526/PWCQXVAZXVAZ.shtml">
+                                                                <i style="">10</i>
+三征噶尔丹                                                            </a>
+                                                        </dd>
+                                                </dl>
+
+                                            </div>
+                                        </div>
+                                        <div class="hide">
+                                            <div class="bann_aside">
+                                                <dl>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/html/miyu/201426/PWUYKOXVCQ.shtml">
+                                                                <i style="color: #f94e4c; font-style: italic;font-weight: bold;">1</i>
+                                                                    <p style="width: 200px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: inline-block;"> 五百个女人不穿衣服在沙滩上 （打一体育项目）<b></b> </p>                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/html/miyu/2016413/CQCQTBXVIL.shtml">
+                                                                <i style="color: #ff980d; font-style: italic;font-weight: bold;">2</i>
+一物真新鲜，头大尾巴尖，平时不干活，吃饭总抢先。 （打一生活物）                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/html/miyu/2018823/KOMEXVPW.shtml">
+                                                                <i style="color: #d09500; font-style: italic;font-weight: bold;">3</i>
+薄薄一张口，能啃硬骨头。吃肉不喝汤，吃瓜不嚼豆。 （打一日常用品）                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/html/miyu/2018726/ILPWCQUY.shtml">
+                                                                <i style="">4</i>
+小时穿青袄，大时披红袍，老了换件紫外套。 （打一水果）                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/html/miyu/2015212/CQMEAZPWXV.shtml">
+                                                                <i style="">5</i>
+一只八宝袋，样样都能装。能装棉和纱，能装铁和钢。 （打一日常用品）                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/html/miyu/2015626/CQILRNMEAZ.shtml">
+                                                                <i style="">6</i>
+雪白一群鹅，湖里来游过，嘴家门前过，肚家门前落。 （打一食物）                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/html/miyu/2018223/TBTBILCQ.shtml">
+                                                                <i style="">7</i>
+腹内香甜如蜜，心中花红柳绿，白沙滩上打滚，清水河中沐浴。 （打一食物）                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/html/miyu/201433/PWILXVTBKO.shtml">
+                                                                <i style="">8</i>
+有面无口，有脚无手，听人讲话，陪人吃酒。 （打一日常用品）                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/html/miyu/2018712/ILMEMETB.shtml">
+                                                                <i style="">9</i>
+半截白，半截青，半截实来半截空，半截在地上，半截在土中。 （打一蔬菜）                                                            </a>
+                                                        </dd>
+                                                        <dd>
+                                                            <a target="_blank" href="//wenxue.httpcn.com/html/miyu/2019220/CQAZUYRN.shtml">
+                                                                <i style="">10</i>
+猛将百余人，无事不出城。出城就放火，引火自烧身。 （打一日常用品）                                                            </a>
+                                                        </dd>
+                                                </dl>
+
+                                            </div>
+                                        </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hP_tonglan" data-tg="type:'imgone',wz:'wz3',gb:'0',"></div>
+
+            <!-- 艺术·体育 -->
+            <div class="hP_sortBox">
+
+                <div class="hP_item_title clear">
+                    <div class="hP_item_h2 clear">
+                        <span class="iconfont icon-tiyu"></span>
+                        <h2>艺术·体育</h2>
+                    </div>
+                    <div class="hP_item_nav clear">
+                        <ul>
+                            <li>
+                                <a target="_blank" href="//yishu.httpcn.com/info/yinyue/">音乐</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//yishu.httpcn.com/info/wudao/">舞蹈</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//yishu.httpcn.com/info/xiqu/">戏剧</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//yishu.httpcn.com/info/quyi/">曲艺</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//yishu.httpcn.com/list/JHPW/">美术</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//tiyu.httpcn.com/quan/">武术</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//tiyu.httpcn.com/info/zaji/">杂技</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//tiyu.httpcn.com/info/qipai/">棋牌</a>
+                                <i></i>
+                            </li>
+                            <li>
+                                <a target="_blank" href="//tiyu.httpcn.com/info/youxi/">游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="hP_item_content clear">
+
+                    <!-- 左侧 -->
+                    <div class="hP_item_left left">
+                        <div class="hpItem_lf_img">
+                            <a target="_blank" href="//yishu.httpcn.com/">
+                                <img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/yishu.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <!-- 书法国画 -->
+                        <div class="hP_gxqm">
+                            <div class="hP_jrjq_nav hP_sfgh_nav clear">
+                                <ul>
+                                    <li class="active">中国书法</li>
+                                    <li class="hP_bfo ">中国国画</li>
+                                </ul>
+                            </div>
+
+                            <div class="hP_jrjq_content hP_sfgh_content">
+                                <div>
+                                    <div class="hP_shufa clear">
+                                        <ul>
+                                            <li class="left" style="margin-right:8px;">
+                                                <a target="_blank" href="//yishu.httpcn.com/html/shufa/2019228/CQ.shtml">
+                                                    <img src="//imgcdn.httpcn.com/updataimg/wenyi_shufadocnew/xiaotu/2018041518130297651_1_2018041506430035.jpg" alt="">
+                                                    <span>宋米芾 蜀素帖欣赏</span>
+                                                </a>
+                                            </li>
+                                            <li class="left">
+                                                <a target="_blank" href="//yishu.httpcn.com/html/shufa/2018510/CQTB.shtml">
+                                                    <img src="//imgcdn.httpcn.com/updataimg/wenyi_shufadocnew/xiaotu/2018051017132658462_1_20180510054617956.jpg" alt="">
+                                                    <span>曾国藩 致凯章二札</span>
+                                                </a>
+                                            </li>
+                                            <li class="right">
+                                                <a target="_blank" href="//yishu.httpcn.com/html/shufa/201847/MEUYTB.shtml">
+                                                    <img src="//imgcdn.httpcn.com/updataimg/wenyi_shufadocnew/xiaotu/2018040715129514073_1_20180407032345144.jpg" alt="">
+                                                    <span>赵孟頫《洛神赋》</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="hP_jrRq_List hP_shufa_List clear">
+                                        <div class="hp_sortTitle clear">
+                                            <h3>朝代</h3>
+                                            <a target="_blank" href="//yishu.httpcn.com/list/JHKO/">更多&gt;</a>
+                                        </div>
+                                        <ul class="clear">
+                                            <li><a target="_blank" href="//yishu.httpcn.com/list/JHKO/?wd=%E7%A7%A6%E6%B1%89">秦汉</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/list/JHKO/?wd=三国">三国</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/list/JHKO/?wd=南北朝">南北朝</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/list/JHKO/?wd=隋唐">隋朝</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/list/JHKO/?wd=五代两宋">五代两宋</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/list/JHKO/?wd=辽金元">辽金元</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/list/JHKO/?wd=明代">明代</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/list/JHKO/?wd=清代">清代</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/list/JHKO/?wd=近代">近代</a></li>
+                                        </ul>
+                                        <i></i>
+                                        <div class="hp_sortTitle clear">
+                                            <h3>名家</h3>
+                                            <a target="_blank" href="//yishu.httpcn.com/list/JHIL/">更多&gt;</a>
+                                        </div>
+                                        <ul class="clear">
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/PWKOAZ.shtml">王羲之</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/PWKOCQ.shtml">王献之</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/CQIL.shtml">智永</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/XVRN.shtml">颜真卿</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/ILUYPW.shtml">怀素</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/KOXVKO.shtml">柳公权</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/KOILXV.shtml">欧阳修</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/ILMERN.shtml">黄庭坚</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/KOPWRN.shtml">米芾</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015827/CQ.shtml">文征明</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/CQMETB.shtml">赵孟頫</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/PWPWPW.shtml">唐寅</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/PWILIL.shtml">苏轼</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/PWILUY.shtml">苏辙</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/PWXVKO.shtml">朱元璋</a></li>
+                                            <li><a target="_blank" href="//yishu.httpcn.com/html/shufajia/2015826/ILIL.shtml">姚广孝</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div style="display:none;">
+                                    <div class="hP_guohua">
+                                        <div class="hP_jrRq_List hP_shufa_List clear">
+                                            <div class="hp_sortTitle clear">
+                                                <h3>朝代</h3>
+                                                <a target="_blank" href="//yishu.httpcn.com/list/JHPW/">更多&gt;</a>
+                                            </div>
+                                            <ul class="clear">
+                                                <li><a target="_blank" href="//yishu.httpcn.com/list/JHPW/?wd=%E5%8D%97%E5%8C%97%E6%9C%9D">南北朝</a></li>
+                                                <li><a target="_blank" href="//yishu.httpcn.com/list/JHPW/?wd=隋唐">隋唐</a></li>
+                                                <li><a target="_blank" href="//yishu.httpcn.com/list/JHPW/?wd=五代">五代</a></li>
+                                                <li><a target="_blank" href="//yishu.httpcn.com/list/JHPW/?wd=宋朝">宋朝</a></li>
+                                                <li><a target="_blank" href="//yishu.httpcn.com/list/JHPW/?wd=元朝">元朝</a></li>
+                                                <li><a target="_blank" href="//yishu.httpcn.com/list/JHPW/?wd=明朝">明朝</a></li>
+                                                <li><a target="_blank" href="//yishu.httpcn.com/list/JHPW/?wd=清朝">清朝</a></li>
+                                                <li><a target="_blank" href="//yishu.httpcn.com/list/JHPW/?wd=近现代">现代</a></li>
+                                                
+                                            </ul>
+                                            <i></i>
+                                        </div>
+                                        <div class="hP_herit_text clear">
+                                            <a target="_blank" href="//yishu.httpcn.com/html/huajia/20191128/CQRNTB.shtml">徐悲鸿</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/html/huajia/20191128/CQRNRN.shtml" class="active">林散之</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/html/huajia/20191128/XVXV.shtml">唐伯虎</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/html/huajia/20191128/PWAZAZ.shtml">张大千</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/html/huajia/20191128/PWAZTB.shtml">李可染</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/html/huajia/20191128/CQXVTB.shtml">齐白石</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/html/huajia/20191128/CQRNXV.shtml">潘天寿</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/html/huajia/20191128/KO.shtml">陆探微</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/html/huajia/20191128/XVRN.shtml">文徵明</a>
+                                        </div>
+                                        <div class="hP_herit_list clear">
+                                            <ul>
+                                                <li>
+                                                    <a target="_blank" href="//yishu.httpcn.com/html/hua/2018102/CQ.shtml">
+                                                        <img src="//imgcdn.httpcn.com/updataimg/wenyi_huadocnew/xiaotu/2018100223145891892_1_20181002110406574.jpg" alt="">
+                                                        <span>韩幹画选 牧马图</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a target="_blank" href="//yishu.httpcn.com/html/hua/2018527/PW.shtml">
+                                                        <img src="//imgcdn.httpcn.com/updataimg/wenyi_huadocnew/xiaotu/2018052710134127379_1_20180527102648285.jpg" alt="">
+                                                        <span>郎世宁 十骏犬图</span>
+                                                    </a>
+                                                </li>
+                                                <li class="hp_mr0">
+                                                    <a target="_blank" href="//yishu.httpcn.com/html/hua/2018116/CQXV.shtml">
+                                                        <img src="//imgcdn.httpcn.com/updataimg/wenyi_huadocnew/xiaotu/2018011623122090441_1_20180116113430443.jpg" alt="">
+                                                        <span>文徵明 古木寒泉图</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a target="_blank" href="//yishu.httpcn.com/html/hua/2018116/PWUY.shtml">
+                                                        <img src="//imgcdn.httpcn.com/updataimg/wenyi_huadocnew/xiaotu/201111171619348010_1.jpg" alt="">
+                                                        <span>疯子梁楷泼墨仙人</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a target="_blank" href="//yishu.httpcn.com/html/hua//2017123/CQKOIL.shtml">
+                                                        <img src="//imgcdn.httpcn.com/updataimg/wenyi_huadocnew/xiaotu/2017120316117977598_1_20171203043038717.jpg" alt="">
+                                                        <span>
+                                                            董其昌 仿王蒙山水
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="hp_mr0">
+                                                    <a target="_blank" href="//yishu.httpcn.com/html/hua/2017122/CQMEME.shtml">
+                                                        <img src="//imgcdn.httpcn.com/updataimg/wenyi_huadocnew/xiaotu/2017120210117863500_1_20171202104743369.jpg" alt="">
+                                                        <span>王冕画选 墨梅图</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- 中国艺术 -->
+                        <div class="hP_gxqm hP_zgws">
+                            <div class="hp_sortTitle clear">
+                                <h3>传统体育</h3>
+                                <a target="_blank" href="//tiyu.httpcn.com/">更多&gt;</a>
+                            </div>
+                            <div class="hp_yishu">
+                                <ul>
+                                    <li>
+                                        <h3>武术</h3>
+                                        <span class="clear"><a target="_blank" href="//tiyu.httpcn.com/quan/">拳术</a><a target="_blank" href="//tiyu.httpcn.com/baike/wushu_sanda.shtml">散打</a><a target="_blank" href="//tiyu.httpcn.com/baike/wushu_jianshu.shtml">剑术</a><a target="_blank" href="//tiyu.httpcn.com/baike/zaji_roushu.shtml">柔术</a></span>
+                                    </li>
+                                    <li>
+                                        <h3>杂技</h3>
+                                        <span class="clear">
+                                            <a target="_blank" href="//tiyu.httpcn.com/baike/zaji_kouji.shtml">口技</a>
+                                            <a target="_blank" href="//tiyu.httpcn.com/baike/zaji_dingwan.shtml">顶碗</a><a target="_blank" href="//tiyu.httpcn.com/baike/zaji_minjian_zougangsi.shtml">走钢丝</a>
+                                            <a target="_blank" href="//tiyu.httpcn.com/baike/zaji_bianhufa.shtml">变戏法</a>
+                                            <a target="_blank" href="//tiyu.httpcn.com/baike/zaji_wushizi.shtml">舞狮</a>
+                                            <a target="_blank" href="//tiyu.httpcn.com/baike/zaji_minjian_pagan.shtml">爬杆</a>
+                                            
+                                    </li>
+                                    <li>
+                                        <h3>游戏</h3>
+                                        <span class="clear">
+                                            <a target="_blank" href="//tiyu.httpcn.com/baike/youxi_tijianzi.shtml">踢毽子</a>
+                                            <a target="_blank" href="//tiyu.httpcn.com/baike/youxi_minjian_fangfengzheng.shtml">放风筝</a>
+                                            <a target="_blank" href="//tiyu.httpcn.com/baike/youxi_minjian_zhuashizi.shtml">抓石子</a>
+                                            <a target="_blank" href="//tiyu.httpcn.com/baike/youxi_minjian_guntiehuan.shtml">滚铁环</a>
+                                            <a target="_blank" href="//tiyu.httpcn.com/baike/youxi_minjian_fanhuasheng.shtml">翻花绳</a>
+                                            <a target="_blank" href="//tiyu.httpcn.com/baike/youxi_minjian_zhuomicang.shtml">捉迷藏</a>
+                                            
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- 中间 -->
+                    <div class="hP_item_main left">
+                        <!-- 咨询 -->
+                        <div class="hPIemian_zixun">
+                            <ul>
+                                    <li>
+                                        <a target="_blank" href="//yishu.httpcn.com/info/html/2026310/ILTBXVRNMEPW.shtml"><h3 style="color: #94181a;">邓石如：一个让石头有了体温的手艺人</h3></a>
+                                        <p>本文以邓石如为中心，探讨艺术史盛名之外艺术家的本真。他布衣终身，以刀代<a target="_blank" href="//yishu.httpcn.com/info/html/2026310/ILTBXVRNMEPW.shtml">[详细...]</a></p>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//tiyu.httpcn.com/info/html/2019112/PWCQRNCQILRN.shtml"><h3 style="color: #3198d3;">斗地主基本技巧</h3></a>
+                                        <p>喊牌也是技术关键当手上有炸弹时，不叫地主就是浪费资源，除非你没王没2。<a target="_blank" href="//tiyu.httpcn.com/info/html/2019112/PWCQRNCQILRN.shtml">[详细...]</a></p>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//tiyu.httpcn.com/info/html/2019126/PWCQRNCQKOTB.shtml"><h3>斗地主心得之算牌技巧</h3></a>
+                                        <p>但是这是基于玩家能够记住牌，所以还是有一定难度的。首先，估算炸弹在斗地<a target="_blank" href="//tiyu.httpcn.com/info/html/2019126/PWCQRNCQKOTB.shtml">[详细...]</a></p>
+                                    </li>
+                            </ul>
+                        </div>
+
+                        <div class="hPIemian_list hPIemian_MsLflist">
+                            <ul>
+<li>                                        <span><a target="_blank" href="//yishu.httpcn.com/info/html/202636/ILTBXVRNUYPW.shtml"><em class="hP_color01">音乐杂谈</em>比绝版乐器更危急的，是即将绝版的手艺与人</a></span>
+                                        <span><a target="_blank" href="//yishu.httpcn.com/info/html/202635/ILTBXVRNILME.shtml"><em class="hP_color02">书法艺术</em>欧阳询：把楷书写成“法律”的人</a></span>
+                                        <span><a target="_blank" href="//yishu.httpcn.com/info/html/202634/ILTBXVRNKOXV.shtml"><em class="hP_color03">曲艺杂谈</em>为什么相声一开口，我们就忍不住笑？</a></span>
+                                        <span><a target="_blank" href="//yishu.httpcn.com/info/html/202638/ILTBXVRNUYME.shtml"><em class="hP_color04">皮影戏</em>皮影戏的水袖，是空气写的一首抒情诗</a></span>
+                                        <span><a target="_blank" href="//tiyu.httpcn.com/info/html/201682/PWCQRNAZPWUY.shtml"><em class="hP_color01">棋牌综合</em>五子棋被证明先手必胜之后，还有哪些丧心病狂的“套路”？</a></span>
+</li><li class="">                                        <span><a target="_blank" href="//tiyu.httpcn.com/info/html/20171219/PWCQXVRNILPW.shtml"><em class="hP_color01">棋牌综合</em>大师总结的象棋必胜口诀，快速提高象棋技巧！</a></span>
+                                        <span><a target="_blank" href="//tiyu.httpcn.com/info/html/2017113/PWCQXVRNKOME.shtml"><em class="hP_color02">棋牌综合</em>象棋高手必备：非常实用下象棋的技巧口诀</a></span>
+                                        <span><a target="_blank" href="//yishu.httpcn.com/info/html/202634/ILTBXVRNILAZ.shtml"><em class="hP_color03">篆刻艺术</em>二十四节气化身二十四枚印：他把时光种进了石头里</a></span>
+                                        <span><a target="_blank" href="//yishu.httpcn.com/info/html/2026310/ILTBXVRNMEAZ.shtml"><em class="hP_color04">二人转</em>闫淑平：把二人转的“她”，从配角唱成主角</a></span>
+                                        <span><a target="_blank" href="//tiyu.httpcn.com/info/html/2018927/PWCQXVRNILCQ.shtml"><em class="hP_color01">棋牌综合</em>中国象棋最基本的入门口诀（一），学它秒会象棋</a></span>
+</li><li class="hp_bodbot">                                        <span><a target="_blank" href="//yishu.httpcn.com/info/html/202638/ILTBXVRNUYUY.shtml"><em class="hP_color01">黄梅戏</em>从田埂到都市：黄梅戏的三重美学跃迁</a></span>
+                                        <span><a target="_blank" href="//tiyu.httpcn.com/info/html/201863/PWCQXVILRNPW.shtml"><em class="hP_color02">武术杂谈</em>一学就会的散打快摔实战技法：巧破锁喉和抱腰</a></span>
+                                        <span><a target="_blank" href="//tiyu.httpcn.com/info/html/2019416/PWCQXVRNPWKO.shtml"><em class="hP_color03">棋牌综合</em>象棋小技巧 看了保证提升一倍棋力</a></span>
+                                        <span><a target="_blank" href="//tiyu.httpcn.com/info/html/2016923/PWCQXVRNPWME.shtml"><em class="hP_color04">棋牌综合</em>下中国象棋的三个小技巧，这就是你与高手的差别</a></span>
+                                        <span><a target="_blank" href="//tiyu.httpcn.com/info/html/20171127/PWCQRNCQILAZ.shtml"><em class="hP_color01">棋牌综合</em>七大斗地主诀窍，看后你会明白为什么自己经常输</a></span>
+</li>                            </ul>
+                        </div>
+
+                    </div>
+
+                    <!-- 右侧 -->
+                    <div class="hP_item_right hc-310 right">
+
+                        <!-- 艺体百科 -->
+                        <div class="right_aside">
+                            <div class="tit_name"><h3>艺术百科</h3><a target="_blank" href="//yishu.httpcn.com/" class="right">更多&gt;</a></div>
+                            <!-- 琴棋书画 -->
+                            <div class="hP_qqsh clear">
+                                <ul>
+                                    <li>
+                                        <a target="_blank" href="//yishu.httpcn.com/info/yinyue/"><img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/qin.png" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//tiyu.httpcn.com/info/qipai/"><img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/qi.png" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//yishu.httpcn.com/list/JHKO/"><img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/shu.png" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//yishu.httpcn.com/list/JHPW/"><img src="//jscdn.httpcn.com/p/hancheng/content/images/pic/shouye/hua.png" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hP_ytbk_icon">
+                                <ul>
+                                    <li>
+                                        <h3>音乐</h3>
+                                        <span class="clear">
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_guzheng.shtml">古筝</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_erhu.shtml">二胡</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_pipa.shtml">琵琶</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_xianmingyueqi_guqin.shtml">古琴</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_dizi.shtml">笛子</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_bianzhong.shtml">编钟</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_suona.shtml">唢呐</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_xianmingyueqi_huqin.shtml">胡琴</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_xianmingyueqi_yangqin.shtml">扬琴</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_xianmingyueqi_zhuqin.shtml">竹琴</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_xianmingyueqi_xuanqin.shtml">玄琴</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/yinyue_xianmingyueqi_liuqin.shtml">柳琴</a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h3>戏剧</h3>
+                                        <span class="clear">
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_jingju.shtml">京剧</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_huangmeihu.shtml">黄梅戏</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_pingju.shtml">评剧</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_yuju.shtml">豫剧</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_yueju.shtml">粤剧</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_chuanju.shtml">川剧</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_kunqu.shtml">昆曲</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_piyinghu.shtml">皮影戏</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_jinju.shtml">晋剧</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_errentai.shtml">二人台</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_minju.shtml">闽剧</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_xiangju.shtml">湘剧</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_huiju.shtml">徽剧</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_hunahuaguhu.shtml">花鼓戏</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_huaiju.shtml">淮剧</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/xiju_qinqiang.shtml">秦腔</a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <h3>曲艺</h3>
+                                        <span class="clear">
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/quyi_xiangsheng.shtml">相声</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/quyi_errenzhuai.shtml">二人转</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/quyi_kuaiban.shtml">快板</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/quyi_pingshu.shtml">评书</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/quyi_dujiaohu.shtml">独角戏</a>
+                                            <a target="_blank" href="//yishu.httpcn.com/baike/quyi_xiaopin.shtml">小品</a>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="hP_hanyuTl" data-tg="type:'imgone',wz:'wz5',gb:'0',"></div>
+                        <!-- 艺体典籍 -->
+                        <div class="right_aside">
+                            <div class="tit_name"><h3>艺体典籍</h3><a target="_blank" href="//yishu.httpcn.com/" class="right">更多&gt;</a></div>
+                            <div class="swjz_sj clear">
+                                <a target="_blank" href="//guoxue.httpcn.com/book/29fd69672cef48eabf4328b79e7cc170/">
+                                    <img src="//jscdn.httpcn.com/p/hancheng/content/images/hanyu/shuiwenjiezi.jpg" alt="">
+                                    <div class="swjz_text">
+                                        <b>《历法兵制》</b>
+                                        <p>八卷，按照时代顺序，分别记述了周、春秋、秦、西汉、王莽、东汉、...</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hp_zxdj_list clear">
+                                <ul>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/7a49e4b6943b4b009c433c04d68aa447/"><i></i>[音乐] 乐府诗集</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/91272124f3a84803bfa05573146fcf67/"><i></i>[戏剧] 全元散戏</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/8e649435adf1489cb64afb7e499db257/"><i></i>[曲艺] 六艺纲目</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/e43f1202a3884127918d35196f17eb5f/"><i></i>[书画] 历代名画记</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/eabfadf3a4694c46a6e986cc7752c982/"><i></i>[书画] 文房四说</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/97174e04f1624f798b590f6bf10ab336/"><i></i>[武术] 练兵实纪</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/d428da8a4f1142e4acd5d8075426c153/"><i></i>[武术] 古今刀剑录</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/20dcf2d09dba4aebaca502d89ee93dd6/"><i></i>[棋牌] 象棋指归</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//guoxue.httpcn.com/book/a5a6708396334877af377f2ea281ad40/"><i></i>[游戏] 角力记</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//tiyu.httpcn.com/quan/book/ILPWKO/"><i></i>[武术] 心意拳</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//tiyu.httpcn.com/quan/book/UYXV/"><i></i>[武术] 咏春拳</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//tiyu.httpcn.com/quan/book/CQAZTBRN/"><i></i>[武术] 军体拳</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//tiyu.httpcn.com/quan/book/UYMETB/"><i></i>[武术] 醉八仙</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="//tiyu.httpcn.com/quan/book/RNILAZ/"><i></i>[武术] 太极拳</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--main end-->
+    </div>
+    <!--- 主题内容 -->
+    
+    <!--footer-->
+    
+    <div class="tr-footer mt10">
+    <div class="pt10 pb10 foot_nav">
+        <div class="hc-1190 nav clear">
+            <a href="//www.httpcn.com/" target="_blank">汉程首页</a><a href="//home.httpcn.com" target="_blank">网站简介</a><a href="//home.httpcn.com/contact.shtml" target="_blank">联系方式</a><a href="//home.httpcn.com/cooperation.shtml" target="_blank">合作机会</a><a href="//home.httpcn.com/ipr.shtml" target="_blank">知识产权</a><a href="//home.httpcn.com/agreement.shtml" target="_blank">用户协议</a><a href="//home.httpcn.com/privacy.shtml" target="_blank">隐私政策</a><a href="//www.httpcn.com/tousu/jubao.shtml" target="_blank">反馈投诉</a><a href="https://login.httpcn.com/tougao/" target="_blank">我要投稿</a>
+        </div>
+    </div>
+    <div class="hc-1190 copyright clear">
+        <div class="left pt10">
+        <!--
+            中华人民共和国增值电信业务许可证：
+            <a href="许可证图片" target="_blank">0000000000</a>
+            <a target="_blank" href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode=0000000000">
+                <img src="//jscdn.httpcn.com/p/hancheng/content/images/ico/beianwangan.png" /> 公网安备 0000000000号
+            </a>
+            &nbsp;&nbsp;备案号：<a target="_blank" class="icon xxzzdd" href="https://beian.miit.gov.cn">皖0000000000</a> <br>-->
+           Copyright © 2000 - <SCRIPT language="javascript">var now=new Date();var year=now.getFullYear();document.writeln(year);</SCRIPT> Httpcn Inc, All rights reserved<br>
+            本站为免费公益性网站，旨在弘扬中国传统文化，如侵犯了您的权益，请联系我们妥善处理。
+            <br>热爱伟大祖国 ♥ 维护民族团结 ♥ 弘扬传统文化 ♥ 促进社会和谐
+        </div>
+        <!--
+        <div class="right yyzz mt20"><a href="营业执照地址"  target="_blank"><img src="//jscdn.httpcn.com/p/hancheng/Content/public/images/ico/gsyyzz.png" alt=""></a></div>-->
+    </div>
+</div>
+    <script src="//jscdn.httpcn.com/p/hancheng/Scripts/layer/layer.js"></script>
+    <script src="//jscdn.httpcn.com/p/hancheng/Scripts/zsAction_pc.js"></script>
+    <script type="text/javascript" src="//jscdn.httpcn.com/p/hancheng/Scripts/date/zsdate.min.js"></script>
+    <script src="//jscdn.httpcn.com/p/hancheng/Scripts/jquery.SuperSlide.2.1.3.js"></script>
+    <script src="//jscdn.httpcn.com/p/hancheng/Scripts/zs_gg_json.js"></script>
+    <script>
+        $().ready(function () {
+            zsAction.Ton_Post("/ReadAction/aW5kZXg=", null, null);
+            zsAction.Ton_Post("/indexhl", null, function (re) {
+                $("div[data-id=\"div_div_riqi\"] h2").html(re["riqi"]);
+                $("div[data-id=\"div_div_riqi\"] span").html(re["riqinl"]);
+                $("div[data-id='div_yiji_id'] p:first").html(decodeURIComponent(re["yi"]));
+                $("div[data-id='div_yiji_id'] p:last").html(decodeURIComponent(re["ji"]));
+            });
+            /*
+            zsAction.Ton_Post("/indexajax", null, function (re) {
+                $("div[data-id=\"div_div_riqi\"] h2").html(re["rq"]["riqi"]);
+                $("div[data-id=\"div_div_riqi\"] span").html(re["rq"]["riqinl"]);
+                $("div[data-id='div_yiji_id'] p:first").html(decodeURIComponent( re["rq"]["yi"]));
+                $("div[data-id='div_yiji_id'] p:last").html(decodeURIComponent(re["rq"]["ji"]));
+                $("div.banner_title.clear[data-id='1'] span:first").html(decodeURIComponent( re["jieqiming"]));
+                var tindex = 0;
+                while (tindex<3) {
+                 $("div.news_neirong[data-id='1_0']>div:eq("+tindex+")>ul").empty();
+                    for (var i = 0; i < re["jieqi"]["jieqi" + tindex].length; i++) {
+                        var index_li = '<li><i></i><a target="_blank" href="' + decodeURIComponent(re["jieqi"]["jieqi" + tindex][i]["href"]) + '">' + decodeURIComponent(re["jieqi"]["jieqi" + tindex][i]["title"]) + '</a></li>'
+                        $("div.news_neirong[data-id='1_0']>div:eq(" + tindex + ")>ul").append(index_li);
+                        index_li == null;
+                    }
+                    tindex++;
+                }
+                $("div.hPIemian_zixun[data-id='jieqi_datazx']>ul").empty();
+                for (var i = 0; i < re["jieqi_data"].length; i++) {
+                    var st = "";
+                    switch (i) {
+                        case 0: st = 'style="color: #94181a;"'; break;
+                        case 1: st = 'style="color: #3198d3;"'; break;
+                        case 2: st = ''; break;
+                        default: break;
+                    }
+                    var index_li = '<li><a target="_blank" href="' + decodeURIComponent(re["jieqi_data"][i]["href"]) + '"><h3 ' + st + '>' + decodeURIComponent(re["jieqi_data"][i]["title"]) + '</h3></a><p>' + decodeURIComponent(re["jieqi_data"][i]["content"]) + '<a target="_blank" href="' + decodeURIComponent(re["jieqi_data"][i]["href"]) + '">[详细...]</a></p></li>';
+                    $("div.hPIemian_zixun[data-id='jieqi_datazx']>ul").append(index_li);
+                    index_li = null;
+                }
+            });*/
+            $("div.life-nav>div.hc-1190.clear>div.left.life-nav-menu>ul.life-nav-list.clear>li>a[data-menukey='shouye']").addClass("active");
+            $("div.right.banner_hdp").slide({ autoPlay: true, prevCell: "a.prev", nextCell: "a.next", mainCell: "ul.bann_pic", titOnClassName: "active" });
+            $("div[data-gd='jieqi']").slide({ autoPlay: true, trigger: "mouseover", titCell: "div.banner_title.clear span", mainCell: "div.news_neirong", titOnClassName: "active" });
+            $("div.feal_box").slide({ autoPlay: false, trigger: "click", titCell: "div.feal_tit span", mainCell: "div.feal_cont", titOnClassName: "active" });
+            var dit = new Date();
+            var dqyear = dit.getFullYear();
+            zsdate.init({ ob: ":text[name='csrq']" });
+            zsdate.init({ ob: ":text[name='csrq_name']" });
+            zsdate.init({ ob: ":text[name='xzcx_csrq_name']" });
+            zsdate.init({ ob: ":text[name='srmm_csrq_name']" });
+            zsshifen.init({ ob: ":text[name='cssf']" });
+            $("button[data-Action='1']").on("click", function () {
+                //http://life.httpcn.com/2017/niu.asp
+                if ($(this).attr("data-val") == "xz") {
+                    http://life.httpcn.com/xzys.asp?act=submit&t=year&xz=baiyang
+                    window.open("http://life.httpcn.com/xzys.asp?act=submit&t=year&xz=baiyang" + $(this).prev().find("[data-select='shengxiao'],[data-select='xingzuo']").attr("data-val") );
+                } else {
+                    window.open("http://life.httpcn.com/" + $(this).prev().find("[data-select='yunshi']").attr("data-val") + "/" + $(this).prev().find("[data-select='shengxiao'],[data-select='xingzuo']").attr("data-val") + ".asp");
+                }
+
+                //  window.open("/m/" + $(this).prev().find("[data-select='yunshi']").attr("data-val") + "/?" + $(this).attr("data-val") + "=" + $(this).prev().find("[data-select='shengxiao'],[data-select='xingzuo']").attr("data-val"));
+            });
+            TabAction($("div.home-aside-top.clear span"), $("div.home-aside-box>div"), "active");
+
+            $("[data-select='shengxiao']").each(function () {
+                var ob = this;
+                for (var k in zsAction.datasx) {
+                    $(this).find("div.option").append('<a data-val="' + zsAction.datasx[k].value + '" >' + zsAction.datasx[k].text + '</a>')
+                }
+                $(this).find("div.option a").click(function () {
+                    $(ob).attr("data-val", $(this).attr("data-val"));
+                    $(this).parent().prev().prev().html($(this).text());
+                });
+            });
+            $("[data-select='yunshi']").each(function () {
+                var ob = this;
+                for (var k = 0; k < 5; k++) {
+                    $(this).find("div.option").append('<a data-val="' + (dqyear - k) + '" >' + (dqyear - k) + '年运势</a>')
+                }
+                $(this).find("div.option a").click(function () {
+                    $(ob).attr("data-val", $(this).attr("data-val"));
+                    $(this).parent().prev().prev().html($(this).text());
+                });
+            });
+            $("[data-select='xingzuo']").each(function () {
+                var ob = this;
+                for (var k in zsAction.dataxz) {
+                    $(this).find("div.option").append('<a data-val="' + zsAction.dataxz[k].value + '" >' + zsAction.dataxz[k].text + '</a>')
+                }
+                $(this).find("div.option a").click(function () {
+                    $(ob).attr("data-val", $(this).attr("data-val"));
+                    $(this).parent().prev().prev().html($(this).text());
+                });
+            });
+            $("div.life-aside-input.life-aside-right[name='n_ys'] ul").each(function () {
+                $(this).children().remove()
+                var ob = this;
+                for (var k = 2026, j = 5; j > 0; k-- , j--) {
+                    $(this).append('<li data-val="' + k + '" >' + k + '年运势</li>')
+                }
+                $(this).find("li").click(function () {
+                    $(this).parent().prev().attr("data-val", $(this).attr("data-val"));
+                    $(this).parent().prev().html($(this).text());
+                });
+            });
+            $("div.life-aside-input[name='sxys'] ul").each(function () {
+                $(this).children().remove()
+                var ob = this;
+                for (var k in zsAction.datasx) {
+                    $(this).append('<li data-val="' + zsAction.datasx[k].value + '" >' + zsAction.datasx[k].text + '</li>')
+                }
+                $(this).find("li").click(function () {
+                    $(this).parent().prev().attr("data-val", $(this).attr("data-val"));
+                    $(this).parent().prev().html($(this).text());
+                });
+            });
+            $("div.life-aside-input[name='xzys'] ul").each(function () {
+                $(this).children().remove()
+                var ob = this;
+                for (var k in zsAction.dataxz) {
+                    $(this).append('<li data-val="' + zsAction.dataxz[k].value + '" >' + zsAction.dataxz[k].text + '</li>')
+                }
+                $(this).find("li").click(function () {
+                    $(this).parent().prev().attr("data-val", $(this).attr("data-val"));
+                    $(this).parent().prev().html($(this).text());
+                });
+            });
+            $("div.life-aside-input[name='jrys'] ul,div.life-aside-input[name='sex'] ul").each(function () {
+                var ob = this;
+                $(this).find("li").click(function () {
+                    $(this).parent().prev().attr("data-val", $(this).attr("data-val"));
+                    $(this).parent().prev().html($(this).text());
+                    $(ob).parent().find(":hidden[name=sex]").val($(this).attr("data-val"));
+                });
+            });
+            $("div.life-aside-input[name='cz'] ul").each(function () {
+                var ob = this;
+                $(this).find("li").click(function () {
+                    $(this).parent().prev().attr("data-val", $(this).attr("data-val"));
+                    $(this).parent().prev().html($(this).text());
+                    $(ob).parent().find(":hidden[name=Tid]").val($(this).attr("data-val"));
+                });
+            });
+            $("div.life-aside-input[name='xg'] ul").each(function () {
+                var ob = this;
+                $(this).find("li").click(function () {
+                    $(this).parent().prev().attr("data-val", $(this).attr("data-val"));
+                    $(this).parent().prev().html($(this).text());
+                    $(ob).parent().find(":hidden[name=t]").val($(this).attr("data-val"));
+                });
+            });
+
+
+
+            $("div.life-aside-input[name='month'] ul").each(function () {
+                var ob = this;
+                for (var k = 1; k <= 12; k++) {
+                    $(this).append('<li data-val="' + k + '" >' + k + '月</li>')
+                }
+                $(this).find("li").click(function () {
+                    $(this).parent().prev().attr("data-val", $(this).attr("data-val"));
+                    $(this).parent().prev().html($(this).text());
+                    $(ob).parent().find(":hidden[name=month]").val($(this).attr("data-val"));
+                });
+            });
+            $("div.life-aside-input[name='day'] ul").each(function () {
+                var ob = this;
+                for (var k = 1; k <= 31; k++) {
+                    $(this).append('<li data-val="' + k + '" >' + k + '日</li>')
+                }
+                $(this).find("li").click(function () {
+                    $(this).parent().prev().attr("data-val", $(this).attr("data-val"));
+                    $(this).parent().prev().html($(this).text());
+                    $(ob).parent().find(":hidden[name=day]").val($(this).attr("data-val"));
+                });
+            });
+
+            $("div[data-select]").click(function (event) {
+                event.stopPropagation();
+                $(this).find(".option").toggle();
+                $(this).parent().siblings().find(".option").hide();
+            });
+            $("div.life-aside-input[name='xzys'],div.life-aside-input[name='sxys'],div.life-aside-input[name='jrys'],div.life-aside-input[name='n_ys'],div[name='sex'],div[name='cz'],div[name=xg],div[name=month],div[name=day]").on("click", function (event) {
+                event.stopPropagation();
+                $(this).find("ul").toggle();
+                $(this).parent().siblings().find("ul").hide();
+            });
+            $(":button[name='data-indexok']").on("click", function () {
+                var url = $(this).parent().attr("action");
+                if ($(this).parent().find("div[name=n_ys] span").length == 1) {
+                    url = url.replace("$year", $(this).parent().find("div[name=n_ys] span").attr("data-val"));
+                   // url = url + "?sx=" + $(this).parent().find("div[name=sxys] span").attr("data-val"); 现在先暂时连到okbmf
+                    url = url + "" + $(this).parent().find("div[name=sxys] span").attr("data-val")+".shtml";
+                } else {
+                    var l = "";
+                    $(this).parent().find("span[data-val]").each(function () {
+                        l += "&" + $(this).attr("name") + "=" + $(this).attr("data-val");
+                    });
+                    if (l.length > 0) {
+                        url += "?" + l.substring(1);
+                    }
+                }
+                window.open(url);
+                // window.open($(this).p);
+            });
+
+            $(":button[name='jiemeng']").click(function () {
+                if ($(this).prev().find(":text").val() != "") {
+                    window.open($(this).parent().filter("form").attr("action") + "&word=" + escape($(this).prev().find(":text").val()));
+                }
+            });
+
+            //$("div.banner_title.clear span").on("click", function () {
+            //    var index = $("div.banner_title.clear span.active").index();
+            //   if( $("div.banner_title.clear span.active").index() !== $(this).index())
+            //    {
+            //        $("div.banner_title.clear span.active").removeClass("active");
+            //       $("div.gdemo:eq(" + index + ")").hide();
+            //       $("div.gdemo:eq(" + $(this).index() + ")").show();
+            //    }
+            //});
+            $(".life-search .selebox").click(function (event) {
+                event.stopPropagation();
+                $(this).find(".option").toggle();
+                $(this).parent().siblings().find(".option").hide();
+            });
+            $(document).click(function (event) {
+                var eo = $(event.target);
+                if ($(".life-search .selebox").is(":visible") && eo.attr("class") != "option" && !eo.parent(".option").length)
+                    $('.option').hide();
+            });
+            /*赋值给文本框*/
+            $(".option:not([data-zdy]) a").click(function () {
+                var value = $(this).text();
+                var select_value = "";
+                if (value == '国学宝典') { select_value = "guoxue"; }
+                else if (value == '周公解梦') { select_value = "jiemeng"; }
+                else if (value == '节气节日') { select_value = "jieqi"; }
+                else if (value == '其他资讯') { select_value = "qtzx"; }
+                else { select_value = ""; }
+                $(this).parent().siblings(".txt").text(value);
+                $("#act").val(select_value)
+            })
+
+        });
+        function formpostAction(ob) {
+            var bl = true;
+            $(ob).find(":text,input[type='hidden']").each(function () {
+                if ($(this).val() == "") {
+                    bl = false;
+                    return false;
+                }
+            });
+            return bl;
+        }
+        $("input[name='data-indexok3']").click(function () {
+            var t = $(this).prev().find(":text").attr("data-val")||"";
+            if (t != "") {
+                var ts = t.split('|');
+                window.open("http://life.httpcn.com/huangli.asp?y=" + ts[0] + "&m=" + ts[0] + "&d=" + ts[0] +"#main", "_blank")
+            }
+        })
+    </script>
+    <!--footer/-->
+    <!--右侧浮动/--><!--侧边框 /-->
+    <!--公共插件JS-->
+</body>
+</html>

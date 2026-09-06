@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <div id="@@xxzlGatewayUrl" style="visibility: hidden">https://callback.58.com/antibot/verifycode?serialId=0101f67f64e2a4153c68a582f611de4d_0cf6b9a3a49445a89926e68797a5cb10&amp;code=300&amp;sign=fe02ea9d5c7f7fecc3fd8b2bdfd19151&amp;namespace=cloud_ajk_usersite_default&amp;url=https%3A%2F%2Fanjuke.com%2Ffavicon.ico</div>
+  </body>
+  <script>
+    var url = document.getElementById("@@xxzlGatewayUrl").textContent
+    window.location.assign(url)
+  </script>
+</html>

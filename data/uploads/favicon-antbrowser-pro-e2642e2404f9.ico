@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en" class="auto">
+
+<head>
+    <title>AntBrowser</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+
+            <link rel="alternate" href="https://antbrowser.pro/ru/favicon.ico"
+              hreflang="ru"/>
+            <link rel="alternate" href="https://antbrowser.pro/uk/favicon.ico"
+              hreflang="uk"/>
+            <link rel="alternate" href="https://antbrowser.pro/cn/favicon.ico"
+              hreflang="cn"/>
+            <link rel="alternate" href="https://antbrowser.pro/es/favicon.ico"
+              hreflang="es"/>
+            <link rel="alternate" href="https://antbrowser.pro/de/favicon.ico"
+              hreflang="de"/>
+            <link rel="alternate" href="https://antbrowser.pro/tr/favicon.ico"
+              hreflang="tr"/>
+            <link rel="alternate" href="https://antbrowser.pro/ja/favicon.ico"
+              hreflang="ja"/>
+            <link rel="alternate" href="https://antbrowser.pro/pt/favicon.ico"
+              hreflang="pt"/>
+            <link rel="alternate" href="https://antbrowser.pro/fr/favicon.ico"
+              hreflang="fr"/>
+            <link rel="alternate" href="https://antbrowser.pro/ko/favicon.ico"
+              hreflang="ko"/>
+            <link rel="alternate" href="https://antbrowser.pro/ar/favicon.ico"
+              hreflang="ar"/>
+            <link rel="alternate" href="https://antbrowser.pro/pl/favicon.ico"
+              hreflang="pl"/>
+    
+
+<link rel="stylesheet" href="/min/b=assets&f=components/fa6/css/all.min.css,now-ui/css/bootstrap.min.css,bower_components/flag-icon-css/css/flag-icon.min.css&1708603935&hash=ec4f33a59ac6e10d655558a98606e0c7e2520569"/><!--     Fonts and icons     -->
+<!--link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet"/-->
+
+<!--link rel="stylesheet" href="/assets/dist/fonts/montserrat/Montserrat.css"/-->
+
+<!--link rel="stylesheet" href="/assets/dist/fonts/fontawesome/css/all.min.css"/-->
+<!--link rel="stylesheet" href="/assets/components/fontawesome-free-6.2.1-web/css/all.min.css"/-->
+<!--link rel="stylesheet" href="/assets/components/fa6/css/all.min.css"/-->
+
+<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/-->
+
+<!--link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"/-->
+
+
+<!--link rel="icon" href="/assets/dist/img/ant128.png" type="image/x-icon"-->
+<link rel="icon" href="/assets/dist/img/new/icons/head/favicon.ico" type="image/x-icon">
+
+<!-- FLAGS -->
+<!--link href="/assets/bower_components/flag-icon-css/css/flag-icon.min.css" rel="stylesheet"/-->
+
+<!-- Material Kit CSS -->
+<!--link href="/assets/now-ui/css/bootstrap.min.css" rel="stylesheet"/-->
+
+<!--link href="/assets/now-ui/css/now-ui-dashboard.css?v=1.0.0" rel="stylesheet"/-->
+<!--link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"-->
+
+<!-- System -->
+<link rel="stylesheet" href="/assets/dist/css/main.css?v=1739208835547"/>
+<script src="/min/f=assets/now-ui/js/core/jquery.min.js&1708603935&hash=574f597ff27422cdac3ff90b400b9ad8f64151ca" type="text/javascript" defer></script><script src="/min/b=assets&f=now-ui/js/core/jquery.min.js,now-ui/js/core/popper.min.js,now-ui/js/core/bootstrap.min.js,now-ui/js/plugins/perfect-scrollbar.jquery.min.js,now-ui/js/plugins/moment.min.js,bower_components/moment/min/locales.min.js,bower_components/selectize/dist/js/standalone/selectize.min.js,now-ui/js/plugins/sweetalert2.min.js,now-ui/js/plugins/bootstrap-selectpicker.js,now-ui/js/plugins/bootstrap-switch.js,now-ui/js/plugins/bootstrap-datetimepicker.js,now-ui/js/plugins/bootstrap-tagsinput.js,now-ui/js/plugins/nouislider.min.js,now-ui/js/plugins/bootstrap-notify.js,now-ui/js/now-ui-dashboard.js&1708603935&hash=44a74f5c1162167876e4151a6277fa7f62bd2377" type="text/javascript" defer></script><script type="text/javascript" defer src="/assets/dist/js/main.min.js?v=1739208835547"></script>
+<script defer src="data:application/javascript,eval(document.currentScript.textContent)">
+    app.lang = app.lang || {};
+    app.lang.error = "Oops! An error occurred";
+    app.lang.modals = {"askDelete":{"ask":{"title":"Are you sure?","text":"You can not restore a deleted entry!","confirmButtonText":"Yes, delete it!","cancelButtonText":"No, leave"},"success":{"title":"Deleted!","text":"Selected entry deleted successfully!","type":"success"},"cancel":{"title":"Deletion canceled","text":"Your entry has been saved. :)","type":"error"}},"askDeleteMultiple":{"ask":{"title":"Are you sure?","text":"You can not recover deleted entries!","confirmButtonText":"Yes, delete it!","cancelButtonText":"No, leave"},"success":{"title":"Deleted!","text":"Selected entry deleted successfully!","type":"success"},"cancel":{"title":"Deletion canceled","text":"Your entries are saved :)","type":"error"}},"prompt":{"confirmButtonText":"Confirm","cancelButtonText":"Cancel"}};
+    app.lang.need_auth = "Authorisate required";
+
+    function AuthCheck() {
+        return 0;
+    }
+
+    function isAntBrowserModalView() {
+        return 0    }
+
+    function getLang() {
+        return "en";
+    }
+
+    function formatMoney(amount) {
+        //if (getLang() == 'ru') return (amount * 100) + ' RUB';
+        return '$' + amount;
+    }
+</script>
+</head>
+
+
+
+<body class="personal-area sidebar-mini-off ">
+
+
+
+<div class="spin-loader hide animated fadeIn text-center">
+            <img src="/assets/dist/img/svg-loaders/tail-spin.svg">
+        <!-- rings.svg tail-spin.svg -->
+    </div>
+
+<!-- DISPLAY FLASH NOTIFICATION -->
+
+<div class="wrapper">
+    <div class="sidebar" xdata-color="blue">
+        <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+        Tip 2: you can also add an image using data-image tag
+        -->
+        <div class="logo">
+            <a href="https://antbrowser.pro/en/" class="simple-text logo-mini">
+                                <svg viewBox="0 0 100 51" fill="none" xmlns="http://www.w3.org/2000/svg" class="ant-head">
+<path d="M50 33.32L31.8267 13.9667L34.3533 12.04L41.04 6.94666L50 33.32Z" fill="#070096"/>
+<path d="M41.0402 6.94666L34.3535 12.04L34.3735 1.47333L41.0402 6.94666Z" fill="#1414DD"/>
+<path d="M50 33.32L32.22 26.8667L31.8267 13.9667L50 33.32Z" fill="black" class="eye-left"/>
+<path d="M49.9997 33.32V50.3467L35.3731 32.5534L32.2197 26.8667L49.9997 33.32Z" fill="#070096"/>
+<path d="M49.9997 50.3467V50.5467L34.873 38.5333L35.373 32.5533L49.9997 50.3467Z" fill="#010166"/>
+<path d="M34.373 1.47333L30.5264 4.95333L34.353 12.04L34.373 1.47333Z" fill="#010166"/>
+<path d="M25.7736 0.833313L11.4336 1.61998L22.2269 5.51998L25.7736 0.833313Z" fill="#070096"/>
+<path d="M34.3732 1.47331L22.2266 5.51998L25.7732 0.833313L34.3732 1.47331Z" fill="#1414DD"/>
+<path d="M22.2269 5.51999L12.7336 6.42666L11.4336 1.62L22.2269 5.51999Z" fill="#010166"/>
+<path d="M11.4333 1.62L0 0L12.7333 6.42667L11.4333 1.62Z" fill="#070096"/>
+<path d="M22.2266 5.52L30.5266 4.95333L34.3732 1.47333L22.2266 5.52Z" fill="#070096"/>
+<path d="M50 6.94666V33.32L41.04 6.94666H50Z" fill="#1414DD"/>
+<path d="M50 33.32L68.1733 13.9667L65.6533 12.04L58.9667 6.94666L50 33.32Z" fill="#070096"/>
+<path d="M58.9668 6.94666L65.6535 12.04L65.6335 1.47333L58.9668 6.94666Z" fill="#1414DD"/>
+<path d="M50 33.32L67.7867 26.8667L68.1733 13.9667L50 33.32Z" fill="black" class="eye-right"/>
+<path d="M50 33.32V50.3467L64.6333 32.5534L67.7867 26.8667L50 33.32Z" fill="#070096"/>
+<path d="M50 50.3467V50.5467L65.1333 38.5333L64.6333 32.5533L50 50.3467Z" fill="#010166"/>
+<path d="M65.6333 1.47333L69.48 4.95333L65.6533 12.04L65.6333 1.47333Z" fill="#010166"/>
+<path d="M74.2334 0.833313L88.5734 1.61998L77.7801 5.51998L74.2334 0.833313Z" fill="#070096"/>
+<path d="M65.6333 1.47331L77.78 5.51998L74.2333 0.833313L65.6333 1.47331Z" fill="#1414DD"/>
+<path d="M77.7803 5.51999L87.2669 6.42666L88.5736 1.62L77.7803 5.51999Z" fill="#010166"/>
+<path d="M88.5733 1.62L99.9999 0L87.2666 6.42667L88.5733 1.62Z" fill="#070096"/>
+<path d="M77.78 5.52L69.48 4.95333L65.6333 1.47333L77.78 5.52Z" fill="#070096"/>
+<path d="M50 6.94666V33.32L58.9667 6.94666H50Z" fill="#1414DD"/>
+</svg>
+            </a>
+
+            <a href="https://antbrowser.pro/en/" class="simple-text logo-normal">
+                AntBrowser            </a>
+            <div class="navbar-minimize">
+                <button id="minimizeSidebar" class="btn btn-simplex btn-primary btn-iconx btn-neutral btn-round p0 m0">
+                    <i class="now-ui-icons text_align-center visible-on-sidebar-regular"></i>
+                    <i class="now-ui-icons design_bullet-list-67 visible-on-sidebar-mini"></i>
+                </button>
+            </div>
+        </div>
+
+
+        <div class="sidebar-wrapper">
+                        <ul class="nav">
+    
+<li class="">
+    <a             href="https://antbrowser.pro/en/login"
+            class="">
+                    <span class="sidebar-mini-icon">
+                                    <i class="fa-lock fa-fw"></i>
+                            </span>
+                <span class="sidebar-normal">
+        Authorisation                </span>    </a>
+    </li></ul>
+
+        </div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-darkx navbar-expand-lg">
+            <div class="container-fluid">
+
+                <div class="navbar-wrapper">
+                    <div class="navbar-toggle">
+                        <button type="button" class="navbar-toggler">
+                            <span class="navbar-toggler-bar bar1"></span>
+                            <span class="navbar-toggler-bar bar2"></span>
+                            <span class="navbar-toggler-bar bar3"></span>
+                        </button>
+                    </div>
+                    <!--a class="navbar-brand" href="">LK</a-->
+                </div>
+
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                        aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar navbar-kebab"></span>
+                    <span class="navbar-toggler-bar navbar-kebab"></span>
+                    <span class="navbar-toggler-bar navbar-kebab"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navigation">
+
+                    <ul class="navbar-nav">
+                        
+
+                        <!--li class="nav-item">
+                            <a href="#" class="nav-link" onclick="event.preventDefault();app.toggleDarkMode()"
+                               aria-label="Theme">
+                                <i class="fa fa-light fa-brightness dark:hide m0"></i>
+                                <i class="fa fa-solid fa-moon hide dark:inline-block m0"></i>
+                            </a>
+                        </li-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                               aria-label="Language">
+                                <i class="fa fa-globe"></i>
+                                                                <!--p class="ml-1">
+                                <span>Language</span>
+                            </p-->
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                                                    <a href="https://antbrowser.pro/ru/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('ru')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/RU.png" width="20" height="15 class="flag" alt="ru"/>&nbsp;
+                                        <span>Русский</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/uk/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('uk')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/UK.png" width="20" height="15 class="flag" alt="uk"/>&nbsp;
+                                        <span>Українська</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/en/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('en')"
+                                       class="dropdown-item active">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/EN.png" width="20" height="15 class="flag" alt="en"/>&nbsp;
+                                        <span>English</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/cn/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('cn')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/CN.png" width="20" height="15 class="flag" alt="cn"/>&nbsp;
+                                        <span>中文</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/es/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('es')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/ES.png" width="20" height="15 class="flag" alt="es"/>&nbsp;
+                                        <span>Español</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/de/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('de')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/DE.png" width="20" height="15 class="flag" alt="de"/>&nbsp;
+                                        <span>Deutsch</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/tr/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('tr')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/TR.png" width="20" height="15 class="flag" alt="tr"/>&nbsp;
+                                        <span>Türkçe</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/ja/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('ja')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/JA.png" width="20" height="15 class="flag" alt="ja"/>&nbsp;
+                                        <span>日本語</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/pt/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('pt')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/PT.png" width="20" height="15 class="flag" alt="pt"/>&nbsp;
+                                        <span>Portugu&ecirc;s</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/fr/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('fr')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/FR.png" width="20" height="15 class="flag" alt="fr"/>&nbsp;
+                                        <span>Fran&ccedil;ais</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/ko/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('ko')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/KO.png" width="20" height="15 class="flag" alt="ko"/>&nbsp;
+                                        <span>한국어</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/ar/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('ar')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/AR.png" width="20" height="15 class="flag" alt="ar"/>&nbsp;
+                                        <span>اللغة العربية</span>
+                                    </a>
+                                                                    <a href="https://antbrowser.pro/pl/favicon.ico"
+                                       onclick="window.setLanguage && window.setLanguage('pl')"
+                                       class="dropdown-item ">
+                                        <img src="https://antbrowser.pro//assets/dist/img/flags/PL.png" width="20" height="15 class="flag" alt="pl"/>&nbsp;
+                                        <span>Polski</span>
+                                    </a>
+                                                            </div>
+                        </li>
+                        <li class="dropdown nav-item">
+    <a class="nav-link dropdown-togglex" href="#" id="navbarDropdownThemeSwitcher"
+       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-light fa-brightness dark:hide m0"></i>
+        <i class="fa fa-solid fa-moon hide dark:inline-block m0"></i>
+    </a>
+    <div class="dropdown-menu dropdown-menu-right p-3" aria-labelledby="navbarDropdownThemeSwitcher">
+        <h5 class="m-1">Theme</h5>
+        <div class="btn-group">
+                            <a href="#"
+                   class="nowrap btn btn-primary btn-sm btn-simple"
+                   onclick="event.preventDefault();app.toggleDarkMode('dark',this)">
+                    Dark                </a>
+                            <a href="#"
+                   class="nowrap btn btn-primary btn-sm "
+                   onclick="event.preventDefault();app.toggleDarkMode('auto',this)">
+                    Auto                </a>
+                            <a href="#"
+                   class="nowrap btn btn-primary btn-sm btn-simple"
+                   onclick="event.preventDefault();app.toggleDarkMode('light',this)">
+                    Light                </a>
+                    </div>
+    </div>
+</li>
+
+                                            </ul>
+
+                    <form id="smartSearchForm" class="hide">
+                        <div class="input-group no-border">
+                            <input id="smartSearch" type="text" class="form-control"
+                                   placeholder="Search (press /)"
+                                   value=""/>
+                            <span class="input-group-addon">
+                                <i class="now-ui-icons ui-1_zoom-bold"></i>
+                            </span>
+                        </div>
+                        <div id="smartSearchMask"></div>
+                    </form>
+
+                    <!--ul class="navbar-nav">
+                        <!--li class="nav-item">
+                            <a class="nav-link ajax-href" href="https://antbrowser.pro/en/">
+                                <i class=""></i>                             </a>
+                        </li-->
+                    <!--li class="nav-item">
+                            <a href="" class="nav-link ajax-href">
+                                <i class="fa fa-question-circle"></i> С чего начать?
+                            </a>
+                        </li- ->
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)"
+                               onclick="modals.url('')">
+                                                                <i class="fa far fa-money-bill-alt"></i></a>
+                                                        </a>
+                        </li>
+
+                        <!--li class="nav-item">
+                            <a class="nav-link" href="#pablo">
+                                <i class="now-ui-icons media-2_sound-wave"></i>
+                                <p>
+                                    <span class="d-lg-none d-md-block">Stats</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="now-ui-icons location_world"></i>
+                                <p>
+                                    <span class="d-lg-none d-md-block">Some Actions</span>
+                                </p>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li- ->
+                                            </ul-->
+
+                </div>
+            </div>
+        </nav>
+
+        <div id="panel_header" class="panel-header panel-header-0"></div>
+
+        
+        
+        
+        
+        
+        <div id="content" class="content">
+            <div id="notfound" style="background: #fff">
+    <div class="notfound">
+        <div class="notfound-404">
+            <h3>Oops! Page not found</h3>
+            <h1><span>4</span><span>0</span><span>4</span></h1>
+        </div>
+        <h2>we are very sorry, but the requested page was not found</h2>
+    </div>
+</div>
+        </div>
+
+        <footer class="sticky">
+    <div class="container-fluid">
+        <ul>
+            <li class="brand">
+                &copy; <b>AntBrowser</b>&nbsp;<span>2017-2026</span>
+            </li>
+            
+                        <li>
+                <a href="#profiles.client.settings" title="Settings">
+                    <i class="fa fa-cog"></i>
+                </a>
+            </li>
+                        <li>
+                <a href="#profiles.client.info" title="Limits Information">
+                    <i class="fa fa-question-circle"></i>&nbsp;
+                    <span>Limits Information</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://antbrowser.pro/en/profiles/client/trash/" title="Recycle Bin"
+                   class="ajax-href">
+                    <i class="far fa-trash-can"></i>&nbsp;<span>Recycle Bin</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<br/>
+
+
+    </div>
+</div>
+
+
+    <script>
+        if (window.setLanguage) window.setLanguage('en');
+    </script>
+
+
+
+
+</body>
+
+</html>

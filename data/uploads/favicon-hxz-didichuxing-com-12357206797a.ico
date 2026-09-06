@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="花小猪，花小猪打车，花小猪出行，花小猪打车出行，花小猪打车优惠"/>
+<meta name="description" content="花小猪打车作为实惠出行新品牌，为让更多乘客享受花小猪打车优惠，现在下载花小猪打车APP，即可享受花小猪打车优惠出行福利，花小猪为乘客提供更实惠、安全、便捷的出行服务！"/>
+<script>
+    var Omega = {
+        appKey: 'omega472945d269', // 项目注册的omegakey
+        autoError: true,
+        autoClick: false,
+        autoResourceError: true,
+        jsErrorFilters: [{ message: /^Script error.$/ }],
+        autoWhiteScreenMonitor: {
+          container: '#main', //必填， 白屏监控的目标根节点
+          filterRegExp: /spider|applebot/i
+        }
+    }
+</script>
+<script
+    type="text/javascript"
+    crossOrigin="Anonymous"
+    src="https://tracker.didistatic.com/static/tracker/latest3x/omega.min.js">
+</script>
+    <title>花小猪打车，实惠出行新品牌 – 花小猪打车官网</title>
+    <link rel="shortcut icon" href=/images/favicon.ico>
+    <link rel="stylesheet" href="//gift-static.hongyibo.com.cn/static/middlelayer/font-awesome-4.7.0.min.css" />
+    <script>
+        
+            try {
+                var midTempDealObj = JSON.parse("{\"apiDriverPrfx\": \"api/proxy/kf-driver\", \"apiUserPrfx\": \"api/proxy/kf-user\",\"apiCityPrfx\": \"api/proxy/kf-city\",\"Omega\": {\"appKey\":\"omega472945d269\"}}");
+                for (var mdObjkey in midTempDealObj) {
+                    if (!window[mdObjkey]) {
+                        window[mdObjkey] = midTempDealObj[mdObjkey];
+                    }
+                }
+            } catch (e) {
+                console.error(e)
+            }
+        
+        
+            window.basicInfo = {"userInfo":null,"env":"prod"};
+        
+        
+        
+        
+            window.nowEnv =  "prod";
+        
+    </script>
+
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  
+    <link rel="stylesheet" href=//static.hongyibo.com.cn/kf-officialwebsite/umi.c2e8f597.css  />
+  
+  
+  
+
+</head>
+<body>
+<div id="main"></div>
+<div id="root"></div>
+
+
+
+
+
+  
+  
+  
+  
+    <script src=//api.map.baidu.com/api?ak=u6wp9GG7t3iuvIjWgpmCG2OonnSqulfD&amp;v=2.0?v=1782723014732  ></script>
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+    <script src=//tracker.didistatic.com/static/tracker/latest2x/omega.min.js?v=1782723014732  ></script>
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+    <script src=//static.hongyibo.com.cn/kf-officialwebsite/umi.d6edd378.js  ></script>
+  
+  
+  
+  
+  
+
+<img src="//gift-img-ys011.hongyibo.com.cn/static/pope_manage/zzg_seo_logo.png"
+  style="position: absolute;z-index: -1;top:0;" alt="花小猪logo" />
+<h1 class="spider_element">花小猪打车</h1>
+<div id="homeCard">
+  <div class="g_flex_layout g_flex_align-items_center tabs_container">
+    <img class="spider_logo" src="//gift-img-ys011.hongyibo.com.cn/static/pope_manage/zzg_kfhome_logo_0619.png"
+      alt="花小猪打车" title="花小猪打车" />
+    <img class="logo" src="//gift-img-ys011.hongyibo.com.cn/static/pope_manage/zzg_kfhome_logo.png" alt="花小猪打车"
+      title="花小猪打车" />
+    <div class="g_flex_flex1 contents" id="g_flex_flex1">
+      <span><a href="//hxz.didichuxing.com">首页</a></span>
+      <span><a href="//hxz.didichuxing.com/about">公司简介</a></span>
+      <span><a href="//hxz.didichuxing.com/app">产品优势</a></span>
+      <span><a href="//hxz.didichuxing.com/driver">司机招募</a></span>
+      <span><a href="//hxz.didichuxing.com/contact">联系我们</a></span>
+    </div>
+  </div>
+  <div class="g_homeCard_Introduction">
+    <span></span>
+    <p>花小猪打车APP是什么</p>
+  </div>
+  <div class="g_homeCard_text">
+    <div class="g_homeCard_inset">
+      <div class="g_homeCard_inset_left">
+        <span></span>
+        <p>花小猪打车是一款全新的打车软件！主张让出行回归本质，致力打造实惠出行的新品牌。花小猪打车希望打造全新的出行体验，用年轻、乐观、积极的态度，向社会传递出行正能量！</p>
+      </div>
+      <div class="g_homeCard_inset_right">
+        <span></span>
+        <p>花小猪打车为乘客提供更实惠、安全、便捷的出行服务；内置导航功能，根据大数据筛选出最合适的路线，同时加入了一键报警功能，随时报警，进一步保障用户的乘车安全。花小猪打车为车主提供新的服务平台，让车主多一份收入。</p>
+      </div>
+    </div>
+  </div>
+  <div class="g_homeCard_Introduction">
+    <span></span>
+    <p>为什么选择花小猪打车</p>
+  </div>
+  <div class="g_homeCard_circle">
+    <div class="g_homeCard_circle_inset">
+      <div class="g_homeCard_circle_inset_price">
+        <div class="g_circle g_circle_1">
+          <span>价格透明</span>
+        </div>
+        <p>超值一口价<br />堵车不堵心，远途更划算</p>
+      </div>
+      <div class="g_homeCard_circle_inset_price">
+        <div class="g_circle g_circle_2">
+
+          <span>经济实惠</span>
+
+
+        </div>
+        <p>超级补贴计划<br />新选择，帮你省，总是更便宜</p>
+      </div>
+      <div class="g_homeCard_circle_inset_price">
+        <div class="g_circle g_circle_3">
+
+          <span>安全放心</span>
+
+
+        </div>
+        <p>安全守护在身边<br />安全功能多重保障，安心又贴心</p>
+      </div>
+      <div class="g_homeCard_circle_inset_price">
+        <div class="g_circle g_circle_4">
+
+          <span>超值优惠</span>
+
+        </div>
+        <p>超值优惠齐分享<br />邀请好友助力，瓜分高额奖金</p>
+      </div>
+    </div>
+  </div>
+  <div class="g_homeCard_Introduction">
+    <span></span>
+    <p>花小猪打车最新快讯</p>
+  </div>
+  <div class="g_homeCard_Join">
+    <span></span>
+    <p>花小猪打车司机版本，车主加盟等你来！</p>
+  </div>
+  <div class="g_homeCard_Join_i">
+    <span></span>
+    <p>花小猪打车App，现在下载注册，领更多现金红包！</p>
+  </div>
+  <div class="g_footer_ul" id="g_footer_ul">
+    <ul>
+      <li><a href='//hxz.didichuxing.com'>花小猪打车</a></li>
+      <li><a href='//hxz.didichuxing.com/about'>关于花小猪</a></li>
+      <li><a href='//hxz.didichuxing.com/app'>花小猪APP</a></li>
+      <li><a href='//hxz.didichuxing.com/driver'>车主加盟</a></li>
+      <li><a href='//hxz.didichuxing.com/contact'>联系我们</a></li>
+    </ul>
+  </div>
+  <style>
+    .g_footer {
+      line-height: 32px;
+    }
+
+    .g_footer a {
+      color: #999999;
+    }
+
+    .g_footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <div class="g_footer" id="g_footer_2026">
+    ©2019-2022
+    <a href="//gift-static.hongyibo.com.cn/static/kfpub/7880/YYlEgnVyAL7pxq-GL3Sf6.jpg" target="_blank">滴滴出行科技有限公司</a>
+    <a href="https://beian.miit.gov.cn/" target="_blank">津ICP备15007503号-1</a>
+    天津经济技术开发区第一大街79号泰达MSD-C区C2座21层2103室
+    <div>
+      <a href="//gift-static.hongyibo.com.cn/static/kfpub/7880/vVeoYm0CTlxF-FLww2NZ8.jpg"
+        target="_blank">增值电信业务经营许可证</a>
+      <a href="//gift-static.hongyibo.com.cn/static/kfpub/7880/kPclHWQk5HqYOh--RnRgm.jpg"
+        target="_blank">网络预约出租汽车经营许可证</a>
+      <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12010402001586" target="_blank"
+          rel="noreferrer noopener">
+          <span class="copyright">
+            <img src="https://website.didiglobal.com/dist/img/beian.d0289dc0.png" alt="" />
+            <span>津公网安备 12010402001586号</span>
+          </span>
+        </a>
+    </div>
+    <div class="g_report_way">
+        违法和不良信息/涉未成年有害信息/算法安全专项举报电话：01083456200，举报邮箱：xinxichuli@didiglobal.com
+        <a href="https://www.12377.cn" target="_blank" rel="noreferrer noopener">网上有害信息举报专区</a>
+      </div>
+  </div>
+</div>
+<script type="application/ld+json">
+  {
+    "@context":"https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+    "@id":"https://www.hongyibo.com.cn",
+    "images":[
+      "https://gift-img-ys011.hongyibo.com.cn/static/pope_manage/zzg_seo_logo.png"
+    ],
+    "upDate": "2020-08-17T10:53:00"
+  }
+</script>
+<script src="//static.hongyibo.com.cn/kf-officialwebsite/seostatic/change_jump_url.js"></script>
+</body>
+</html>

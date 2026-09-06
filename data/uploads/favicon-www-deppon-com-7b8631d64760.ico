@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+
+<html> 
+     <head> 
+      <title>德邦快递官网-寄快递、物流快递单号查询，大件上门取件</title> 
+      <meta charset="UTF-8"> 
+      <link rel="icon" type="image/svg+xml" href="https://www.deppon.com/cms/console/sites/favicon.ico"> 
+      <meta name="viewport" content="width=device-width,initial-scale=1"> 
+      <meta name="keywords" content="寄快递,查快递,物流公司,快递单号查询,寄快递上门取件,大件物流,搬家运输"> 
+      <meta name="description" content="德邦快递官方账号提供寄快递，查快递，查询物流快递单号，大件上门取件，包含全公斤段快递、零担、整车、空运、仓储与供应链和跨境业务，以及全供应链场景解决方案。超过3公斤，大件发德邦。"> 
+      <meta name="baidu-site-verification" content="codeva-2vnDtbX0Y7"> 
+      <meta name="bytedance-verification-code" content="65KsFfpecXV5B5w6JE7n"> 
+      <meta name="sogou_site_verification" content="AkjEiYdDwz"> 
+      <meta name="360-site-verification" content="77c9aee0bdc422196fd96c4d62f230ec"> 
+      <meta name="shenma-site-verification" content="9a962063b51d183a94ff15775e50ce7a_1758883981"> 
+      <script>
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?51a50393d19a8c3326ff9b42e8cb4857";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script> 
+      <link rel="stylesheet" href="https://print-web.s3.cn-north-1.jdcloud-oss.com/csat/jdl-csat.css"> 
+      <script src="https://print-web.s3.cn-north-1.jdcloud-oss.com/csat/jdl-csat.min.js"></script> 
+      <script>
+      (function () {
+        if (
+          navigator.userAgent.match(
+            /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i,
+          )
+        ) {
+          window.location.href = "/depponmobile/mow/index";
+        }
+      })();
+    </script> 
+      <script>
+      document.documentElement.lang = "zh-CN";
+      setRem(); // 初始化
+      window.onresize = setRem; // 改变窗口大小时重新设置rem
+      function setRem() {
+        var scrollbarWidth = Number(
+          Number(window.innerWidth) -
+            Number(document.documentElement.clientWidth),
+        );
+        scrollbarWidth = scrollbarWidth <= 0 ? 0 : scrollbarWidth;
+        if (window.innerWidth <= 1504) {
+          var baseSize = 100; // 基准大小，例如100px
+          var basePc = baseSize / 1504;
+          var vW =
+            window.innerWidth <= (1920 - scrollbarWidth) / 1.5
+              ? (1920 - scrollbarWidth) / 1.5
+              : window.innerWidth; // 当前窗口的宽度
+          var rem = vW * basePc; // 计算rem值
+          document.documentElement.style.fontSize = rem + "px"; // 设置根元素的字体大小
+        } else {
+          document.documentElement.style.fontSize = "100px"; // 设置根元素的字体大小
+        }
+      }
+    </script> 
+      <link rel="preconnect" href="//ca.deppon.com.cn"> 
+      <link rel="preload" as="image" href="https://ca.deppon.com.cn/ows/static/pc/home/banner/4.jpg"> 
+      <link rel="preload" as="image" href="https://ca.deppon.com.cn/ows/static/pc/home/banner/1.jpg"> 
+      <link rel="preload" as="image" href="https://ca.deppon.com.cn/ows/static/pc/home/banner/9.png"> 
+      <link rel="preload" as="image" href="https://ca.deppon.com.cn/ows/static/pc/home/banner/8.png"> 
+      <script type="module" crossorigin="" src="https://ca.deppon.com.cn/ows/gw-new/v3.0.9/assets/index-DjCJLdGz.js"></script> 
+      <link rel="modulepreload" crossorigin="" href="https://ca.deppon.com.cn/ows/gw-new/v3.0.9/assets/core-js-ln4azUar.js"> 
+      <link rel="modulepreload" crossorigin="" href="https://ca.deppon.com.cn/ows/gw-new/v3.0.9/assets/vendor-BTH5Xs-4.js"> 
+      <link rel="modulepreload" crossorigin="" href="https://ca.deppon.com.cn/ows/gw-new/v3.0.9/assets/lodash-BrHCV_4P.js"> 
+      <link rel="modulepreload" crossorigin="" href="https://ca.deppon.com.cn/ows/gw-new/v3.0.9/assets/dayjs-CHz7s2UN.js"> 
+      <link rel="modulepreload" crossorigin="" href="https://ca.deppon.com.cn/ows/gw-new/v3.0.9/assets/element-plus-v6PEwn9Z.js"> 
+      <link rel="stylesheet" crossorigin="" href="https://ca.deppon.com.cn/ows/gw-new/v3.0.9/assets/vendor-D0_oArWr.css"> 
+      <link rel="stylesheet" crossorigin="" href="https://ca.deppon.com.cn/ows/gw-new/v3.0.9/assets/element-plus-C_t8XxAY.css"> 
+      <link rel="stylesheet" crossorigin="" href="https://ca.deppon.com.cn/ows/gw-new/v3.0.9/assets/index-oO3HEIVX.css"> 
+      <script type="module">
+      import.meta.url;
+      import("_").catch(() => 1);
+      (async function* () {})().next();
+      if (location.protocol != "file:") {
+        window.__vite_is_modern_browser = true;
+      }
+    </script> 
+      <script type="module">
+      !(function () {
+        if (window.__vite_is_modern_browser) return;
+        console.warn(
+          "vite: loading legacy chunks, syntax error above and the same error below should be ignored",
+        );
+        var e = document.getElementById("vite-legacy-polyfill"),
+          n = document.createElement("script");
+        ((n.src = e.src),
+          (n.onload = function () {
+            System.import(
+              document
+                .getElementById("vite-legacy-entry")
+                .getAttribute("data-src"),
+            );
+          }),
+          document.body.appendChild(n));
+      })();
+    </script> 
+     </head> 
+     <body> 
+      <div id="app"></div> 
+      <script nomodule="">
+      !(function () {
+        var e = document,
+          t = e.createElement("script");
+        if (!("noModule" in t) && "onbeforeload" in t) {
+          var n = !1;
+          (e.addEventListener(
+            "beforeload",
+            function (e) {
+              if (e.target === t) n = !0;
+              else if (!e.target.hasAttribute("nomodule") || !n) return;
+              e.preventDefault();
+            },
+            !0,
+          ),
+            (t.type = "module"),
+            (t.src = "."),
+            e.head.appendChild(t),
+            t.remove());
+        }
+      })();
+    </script> 
+      <script nomodule="" crossorigin="" id="vite-legacy-polyfill" src="https://ca.deppon.com.cn/ows/gw-new/v3.0.9/assets/polyfills-legacy-Cg8SKNhH.js"></script> 
+      <script nomodule="" crossorigin="" id="vite-legacy-entry" data-src="https://ca.deppon.com.cn/ows/gw-new/v3.0.9/assets/index-legacy-DwB9Gx9V.js">
+      System.import(
+        document.getElementById("vite-legacy-entry").getAttribute("data-src"),
+      );
+    </script> 
+     </body> 
+    </html>

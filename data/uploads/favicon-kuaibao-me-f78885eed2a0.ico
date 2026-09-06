@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>快豹速览 - 今日头条新鲜事 百度知乎微博热搜热榜</title>
+  <meta name="description" content="快豹速览是一个资讯聚合网站，为您精选来自微博、百度、知乎等全网最新热点话题和热搜排行榜。在这里，您可以快速了解当天的热点资讯，确保您不错过任何一个新鲜事，让您在最短的时间内掌握最全面的信息动态。" />
+  <meta name="theme-color" content="#F14D42" />
+  <link rel="preload" href="/Baloo2-Bold.subset.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+  <script>
+    function safeParseString(str) {
+      try {
+        return JSON.parse(str)
+      } catch {
+        return ""
+      }
+    }
+    const theme = safeParseString(localStorage.getItem("color-scheme")) || "auto"
+    const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches
+    if (theme === "auto" ? isDark : theme === "dark") {
+      document.documentElement.classList.add("dark")
+    }
+
+    const query = new URLSearchParams(window.location.search)
+    if (query.has("login") && query.has("user") && query.has("jwt")) {
+      localStorage.setItem("user", query.get("user"))
+      localStorage.setItem("jwt", JSON.stringify(query.get("jwt")))
+      window.history.replaceState({}, document.title, window.location.pathname)
+    }
+  </script>
+  <script type="module" crossorigin src="/assets/index-B9Ac238f.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Cj4M15k0.css">
+<link rel="manifest" href="/manifest.webmanifest"></head>
+
+<body>
+  <div id="app"></div>
+</body>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b71848b241391764cfc60cf38d8b407a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</html>

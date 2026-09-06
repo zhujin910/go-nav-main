@@ -1,0 +1,381 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit"/>
+<title>长江网_cjn.cn</title>
+<meta name="viewport" content="width=1600">
+<meta name="robots" content="noindex, nofollow">
+<link rel="shortcut icon" href="http://www.cjn.cn/favicon.ico">
+<link rel="shortcut icon" href="http://www.cjn.cn/favicon.ico"/>
+  <link rel="stylesheet"  href="http://img.cjn.cn/2013cjn/pub/css/quanju.css" type="text/css" media="all"/>
+  <!--[if lt IE 9]>
+  <script src="http://img.cjn.cn/2013cjn/pub/js/html5.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="http://img.cjn.cn/2013cjn/pub/js/jquery.min.js"></script>
+  <script src="http://img.cjn.cn/2013cjn/pc/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+  <link rel="stylesheet"  href="http://img.cjn.cn/xq/cjnpc_2021/css/pub.css" type="text/css" media="all"/>
+  <script type="text/javascript">
+        window._AMapSecurityConfig = {
+            securityJsCode:'1c8b35e619dc4feefe77caf45da0282a',
+        }
+  </script>
+   <!--<script src="https://webapi.amap.com/maps?v=2.0&key=addf7b9af55abe89de6087ab73504e4d"></script>
+  
+<script src="https://webapi.amap.com/maps?v=1.4.15&key=884ce004a5b0ff932db622a54d95ae36"></script>-->
+  <script src="http://img.cjn.cn/xq/3g_2021/js/vue.min.js"></script>
+  <script src="http://img.cjn.cn/xq/3g_2021/js/axios.min.js"></script>
+  <!-- 引入样式 -->
+  <link rel="stylesheet" href="http://img.cjn.cn/xq/cjnpc_2021/js/element-ui/index.css">
+  <!-- 引入组件库 -->
+  <script src="http://img.cjn.cn/xq/cjnpc_2021/js/element-ui/index.js"></script>
+<!-- 页面黑白css
+  <style> 
+    html { 
+        -webkit-filter: grayscale(100%); 
+        -moz-filter: grayscale(100%); 
+        -ms-filter: grayscale(100%); 
+        -o-filter: grayscale(100%); 
+        filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);  
+        _filter:none; 
+    } 
+ </style>
+ -->
+<body>
+<!--页面-->
+<div id="container">
+ 
+<!--广告998-->
+
+<!--/广告998-->
+<!--春节
+<style>
+    .d-yh {
+        position: absolute;
+        top: 73px;
+        left: 50%;
+        margin-left: -451px;
+        width: 48.5px;
+        height: 50px;
+        background: url(http://img.cjn.cn/2021cjn/ad/img-yh.png) no-repeat;
+        background-size: contain;
+        transform: scale(0);
+        animation: yh-ani 3s ease-in-out infinite;
+    }
+    .d-yh2 {
+        position: absolute;
+        top: 9px;
+        left: 50%;
+        margin-left: -270px;
+        width: 97px;
+        height: 100px;
+        background: url(http://img.cjn.cn/2021cjn/ad/img-yh.png) no-repeat;
+        transform: scale(0);
+        animation: yh-ani 3s 1s ease-in-out infinite;
+    }
+    .d-yh3 {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        margin-left: 150px;
+        width: 97px;
+        height: 100px;
+        background: url(http://img.cjn.cn/2021cjn/ad/img-yh.png) no-repeat;
+        transform: scale(0);
+        animation: yh-ani 3s 1s ease-in-out infinite;
+    }
+    @keyframes yh-ani {
+        0% {
+            transform: scale(0.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+</style>
+ <img class="img-laoh-1" src="http://img.cjn.cn/2022cjn/img/img-laoh-1.png" style="
+ position: absolute;
+ left: 50%;
+ margin-left: -427px;
+ top: 10px;
+">
+ <img class="img-laoh-2" src="http://img.cjn.cn/2022cjn/img/img-laoh-2.png" style="
+ position: absolute;
+ left: 50%;
+ margin-left: 293px;
+ top: 10px;
+">
+ <div class="d-yh"></div>
+ <div class="d-yh2"></div>
+ <div class="d-yh3"></div>
+ <script>
+     $(function(){
+         $("body").css({"background":"url(http://img.cjn.cn/2022cjn/img/2022xnbg.jpg) no-repeat center top","padding-top":"119px"})
+     })
+ </script>
+/春节-->
+<style>
+    body header .d-headTop .d-search .a-srch {background:#ebebeb;color:#555555}
+    body header .d-headTop .d-search .a-srch::before {background:url(http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-sous3.png);width:13px;height:13px;}
+    body header .d-headTop .d-search input {text-align:center}
+    body header .d-headTop .d-headTop-R .a-ico, body header .d-headTop .d-headTop-R .a-toux {margin-left:29px}
+    </style>
+    <header>
+        <div class="d-headTop main">
+            <div class="d-headTop-L">
+                <a href="http://www.cjn.cn"><img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/logo.jpg" alt=""></a><a class="a-channelTit" style="display:none"></a><p class="p-cjnzdw"><a href="http://www.cjn.cn">国家重点新闻网 长江流域核心门户</a></p> <a class="s-aby s-aby-A" href="http://www.cjn.cn/">A首页</a> <!--<a class="s-aby2" href="http://news.cjn.cn/">到B首页</a>--><a class="s-abyimg s-aby-B" href="http://news.cjn.cn/"><img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-tB.gif" alt=""></a>
+                <div class="d-search">
+                    <input type="text" placeholder="搜一搜 更精彩" /><a class="a-srch">搜索</a>
+                </div>
+                <div class="d-lianxdh">
+                    <p>联系我们：027-85695666</p>
+                    <!--<p>新闻热线：027-85695686</p>
+                    <p>广告热线：027-85751777</p>-->
+                </div>
+            </div>
+            <script>
+                $(function(){
+                    $(".a-srch").click(function(){
+                        var s_str=$(".d-search input").val();
+                        s_str=s_str.replace(/(^\s*)|(\s*$)/g, "");
+                        if(s_str=="") {
+                            alert("输入不能为空！")
+                            return false;
+                        }
+                        window.open("http://cjtt.cjn.cn/#/cjttSearch?keyword="+s_str);
+                    });
+                })
+            </script>
+            <div class="d-headTop-R">
+                <div class="a-ico"><img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-t1.png" alt="">互动
+                    <div class="d-tanc">
+                        <a href="http://liuyan.cjn.cn/login" target="_blank"><img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-hd1.jpg" alt="">投诉建议</a>
+                        <a href="http://cjtt.cjn.cn/#/cjtt" target="_blank"><img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-hd2.jpg" alt="">长江头条</a>
+                        <a href="http://cjtt.cjn.cn/#/qaIndex" target="_blank"><img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-hd3.jpg" alt="">在线问答</a>
+                    </div>
+                </div>
+                <div class="a-ico"><img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-t2.png" alt="">数字报
+                    <div class="d-tanc">
+                        <a href="http://cjrb.cjn.cn" target="_blank">长江日报</a>
+                        <a href="http://whwb.cjn.cn" target="_blank">武汉晚报</a>
+                    </div> 
+                </div>
+                <div class="a-ico"><img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-t3.png" alt="">移动端
+                    <div class="d-tanc">
+                        <a href="http://img.cjn.cn/2021cjn/cjnapp/" target="_blank"><img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-ydd1.jpg" style="width: 20px;height:20px" >长江网移动端</a>
+                        <a href="http://img.cjn.cn/2021cjn/cjttapp/" target="_blank"><img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-ydd2.jpg" style="width: 20px;height:20px">长江头条移动端</a>
+                    </div>
+                </div>
+                <!-- <a class="a-toux"><img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/tt-toux2.png" alt=""></a> -->
+                <div class="a-toux" id="cjtt-login-app">
+                    <cjtt-user-head></cjtt-user-head>
+                </div>
+                
+            </div>
+            <a class="a-zhankpd">展开频道<img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-13.jpg"/></a>
+            <a class="a-shouqpd">收起频道<img src="http://img.cjn.cn/xq/cjnpc_2021/sucai/ico-14.jpg"/></a>
+        </div>
+        <nav class="nav1">
+            <ul class="main">
+                <li>
+                    <p><a href="http://www.cjn.cn/" target="_blank">A首页</a></p>
+                    <p><a href="http://cjtt.cjn.cn/#/cjtt" target="_blank">长江头条</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/" target="_blank">B首页</a></p>
+                    <p><a href="http://cjtt.cjn.cn/#/flashNews" target="_blank">发布会</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/whpd/" target="_blank">武汉</a></p>
+                    <p><a href="http://video.cjn.cn/" target="_blank">视频</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/cqpd/" target="_blank">城区</a></p>
+                    <p><a href="http://cjtt.cjn.cn/#/picture" target="_blank">图库</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/hbpd_19912/" target="_blank">湖北</a></p>
+                    <p><a href="http://news.cjn.cn/bsy/fz/" target="_blank">法治</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/csqpd/" target="_blank">都市圈</a></p>
+                    <p><a href="http://cjsp.cjn.cn/" target="_blank">长江时评</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/zjzycsqpd/" target="_blank">中游城市群</a></p>
+                    <p class="p2"><a href="http://cjtt.cjn.cn/#/qaIndex" target="_blank">问答</a><a href="http://cjtt.cjn.cn/#/activityIndex" target="_blank">活动</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/zjjjdpd/" target="_blank">长江经济带</a></p>
+                    <p class="p2"><a href="http://news.cjn.cn/bsy/wl_20088/" target="_blank">文旅</a><a href="http://news.cjn.cn/bsy/jy_20089/" target="_blank">教育</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/bsy/gnxw_19788/" target="_blank">国内</a></p>
+                    <p><a href="http://news.cjn.cn/bsy/st_20090/" target="_blank">生态</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/bsy/gjxw_19789/" target="_blank">国际</a></p>
+                    <p><a href="http://news.cjn.cn/bsy/yj_20091/" target="_blank">宜居</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/jczt/" target="_blank">专题</a></p>
+                    <p><a href="http://news.cjn.cn/bsy/jk_20092/" target="_blank">健康</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/bsy/sy_20086/" target="_blank">双语</a></p>
+                    <p><a href="http://news.cjn.cn/bsy/cx_20093/" target="_blank">出行</a></p>
+                </li>
+                <li>
+                    <p><a href="http://news.cjn.cn/bsy/cj_20094/" target="_blank">财经</a></p>
+                    <p><a href="http://news.cjn.cn/bsy/sdq/" target="_blank">水电气</a></p>
+                </li>
+                <li>
+                    <p><a href="http://www.cjn.cn/jianjie/index.html" target="_blank">我们</a></p>
+                    <p><a href="http://wsqzgzb.cjn.cn/" target="_blank">留言板</a></p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<!--/内容-->
+<div style="
+    margin: 40px auto;
+    width: 1000px;
+    text-align: center;
+">
+<style>
+    .a-retoa {
+        display: inline-block;
+        background-color: #e12519;
+        border-radius: 20px;
+        width: 150px;
+        line-height: 42px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: 1px;
+        /* font-size: 18px; */
+    }
+</style>
+<!-- 你所访问的页面不存在，即将跳转到长江网首页！ -->
+<img src="http://img.cjn.cn/2022cjn/img/404.jpg" width="624" alt="">
+<p style="margin:30px 0 20px;color:#979797">抱歉，您打开的网页走丢了~</p>
+<a href="http://www.cjn.cn" class="a-retoa">回到首页(<span class="s-jis">3</span>s)</a>
+</div>
+<!--底部-->
+<footer>
+    <div>
+        <p><a href="http://www.cjn.cn/jianjie/cjrb/" target="_blank">长江日报简介</a> ｜ <a href="http://www.cjn.cn/jianjie/" target="_blank">长江网简介</a> ｜ <a old-href="http://www.cjn.cn/sitemap.html" href="http://www.cjn.cn/wzdt/" target="_blank">网站地图</a> <!--｜ <a href="http://www.cjn.cn/copyright.html" target="_blank">版权说明</a>--> ｜ <a old-href="http://www.cjn.cn/hmtk.html" href="http://www.cjn.cn/hmtk/" target="_blank">豁免条款</a> ｜ <a href="http://www.cjn.cn/jianjie/" target="_blank">联系我们</a> ｜ <a href="http://zx.cjn.cn/cgxx/" target="_blank">采购信息</a></p>
+        <p>长江互动传媒网版权所有&nbsp;&nbsp;&nbsp;&nbsp;未经授权禁止复制和建立镜像&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP证:020001-5</a></p>
+        <p><a data-href="#//img.cjn.cn/2012cjn/st.html" target="_blank">信息网络传播视听节目许可证: 117330001</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://img.cjn.cn/about/zzdxywjyxkz.html" target="_blank">增值电信业务经营许可证:&nbsp;鄂 B2-20120083</a>
+        <a href="https://img.cjn.cn/about/wlwhjyxkz.html" target="_blank" title="网络文化经营许可证">网络文化经营许可证</a>
+        <a>广电节目制作经营许可证</a>
+        <a data-href="#//img.cjn.cn/2012cjn/xwzz.html" target="_blank" title="互联网新闻信息服务许可证">互联网新闻信息服务许可证</a>  
+        <!--<a href="http://img.cjn.cn/2012cjn/wlwh.html" target="_blank" title="长江互动传媒网-网络文化经营许可证">网络文化经营许可证</a>-->  
+        </p>
+        <p>违法和不良信息举报电话：027-66668888 举报邮箱：2802327246@qq.com
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42010202000111" target="_blank"><img style="vertical-align: middle;margin-right: 5px;" src="http://img.cjn.cn/2016cjn/ad/beian_ico.png">鄂公网安备 42010202000111号</a></p>
+    </div>
+    <div class="d-imgs">
+        <a><img src="http://img.cjn.cn/2015cjn/ad/jbdh.png"  height="50"></a>
+        <img src="http://img.cjn.cn/2013cjn/pc/sucai/bot_r.png" width="514" height="56" usemap="#Map">
+        <a href="http://www.12377.cn/" target="_blank"><img src="http://img.cjn.cn/2015cjn/ad/zghlw.png"  height="50"></a>
+        <a href="http://jubao.12377.cn:13225/reportform.do" target="_blank" style="margin-left:8px"><img src="http://img.cjn.cn/2016cjn/ad/bkyyjb_ad.png" ></a>
+        
+        <a href="http://wuhan.cyberpolice.cn/ga/" target="_blank" alt="网络110" class="wl110"><img src="http://img.cjn.cn/2013cjn/pc/sucai/img-wl110.jpg" height="50"></a>
+        <a href="https://www.12377.cn/jbxzxq/zpljbxzxq.html?spm=zm1033-001.0.0.1.SOXBdI" target="_blank"><img src="http://img.cjn.cn/2021cjn/ad/dxzpjb.jpg" ></a>
+        <a href="http://jubao.py.cnhubei.com/" target="_blank"><img src="http://img.cjn.cn/2015cjn/ad/hbjubao_ad.jpg" ></a>
+        <a href="https://www.12377.cn/jbxzxq/64d38691937611ebb858c9da04cf59d3_web.html?spm=zm1033-001.0.0.1.QZWaug&smallHarmType=64d38691937611ebb858c9da04cf59d3" target="_blank"><img src="http://img.cjn.cn/2021cjn/ad/xwzyjb.jpg" ></a>
+        <a target="_blank"><img src="http://img.cjn.cn/2021cjn/ad/wcnrjbad.jpg" ></a>
+        <a href="http://www.12377.cn" target="_blank"><img src="http://img.cjn.cn/2022cjn/img/wlblad.jpg" ></a>
+    </div>
+    <map name="Map">
+        <area shape="rect" coords="395,4,511,53" href="http://www.12377.cn/node_548446.htm" target="_blank" alt="网络举报APP" rel="nofollow">
+        <area shape="rect" coords="138,2,254,51" href="javascript:void(0)" target="_blank" alt="增值电信业务经营许可证查询" rel="nofollow">
+        <area shape="rect" coords="5,4,121,53" target="_blank" alt="网站备案查询" rel="nofollow">
+        <area shape="rect" coords="266,4,376,53" href="http://182.131.21.137/ccnt-apply/admin/business/preview/business-preview!lookUrlRFID.action?main_id=FB1EFE19DB6E4C879484DA8FD0ABCF6D" target="_blank" alt="增值电信业务经营许可证查询" rel="nofollow">
+    </map>
+</footer>
+<script>
+function isIE() { //ie?
+ if (!!window.ActiveXObject || "ActiveXObject" in window)
+  return true;
+  else
+  return false;
+ }
+$(function(){
+    if(isIE()) {
+        $("body").html("<div style='margin:200px auto 0;width:582px'><img src='http://img.cjn.cn/xq/cjnpc_2021/sucai/img-old-browser.jpg'/></div>");
+        //window.location.href="http://www.cjn.cn/old_browser/";
+        //alert("为了保障你的账号安全和最佳预览体验，当前业务已不支持IE11及以下浏览器和部分古老浏览器的访问，邀请您使用以下现代高级浏览器。\n以下浏览器任君挑选 \n谷歌Chrome、火狐Firefox、微软Edge、欧朋opera、360浏览器极速模式")
+    }
+    $(".d-headTop .d-headTop-R .a-ico").hover(function(){
+        $(this).children(".d-tanc").stop(true,true).slideDown()
+    },function(){
+        $(this).children(".d-tanc").stop(true,true).slideUp()
+    })
+})
+</script>
+
+<script>
+(function(){
+var bp = document.createElement('script');
+var curProtocol = window.location.protocol.split(':')[0];
+if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+}
+else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+}
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!--技术开发：长江网技术部 QQ:77291275 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?703a2e4b7c1acee6e7f0cf6d71017dee";
+var s = document.getElementsByTagName("script")[0]; 
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<link href="http://img.cjn.cn/2022cjn/common/cjn-comp/css/public.css" rel="stylesheet">
+<script src="http://img.cjn.cn/2022cjn/common/cjn-comp/js/chunk-vendors.js"></script>
+<script src="http://img.cjn.cn/2022cjn/common/cjn-comp/js/public.js"></script>
+<script>
+(function() {
+var hm = document.createElement("script");
+hm.src = "http://api.cjn.cn/baidu/v1/push_link";
+var s = document.getElementsByTagName("script")[0]; 
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- spm 埋点
+<script type="text/javascript" src="https://p.wts.xinwen.cn/dot-wts/spm.js"></script>
+<script type="text/javascript" src="http://img.cjn.cn/dingli/public/spm/dist/SpmPusher.js"></script>
+ -->
+<!--/底部-->
+<!--技术开发：长江网技术部 QQ:77291275 -->
+
+</div>
+<script>
+    var jis=3
+    $(function(){
+        $(".a-zhankpd").hide();
+    })
+    var t=setInterval(function(){
+        jis--;
+        if(jis==0) {
+            clearInterval(t)
+        }
+        $(".s-jis").text(jis)
+    },1000)
+    setTimeout(function(){
+        window.location.replace("http://www.cjn.cn");
+    },3000)
+</script>
+</body>
+
+</html>

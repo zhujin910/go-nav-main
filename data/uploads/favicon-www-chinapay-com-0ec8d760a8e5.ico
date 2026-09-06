@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic Page Needs  -->
+    <meta charset="utf-8">
+<meta name="baidu-site-verification" content="codeva-NPcmUZrTqO" />
+
+    <title>银联商务支付股份有限公司</title>
+
+
+
+<meta name="keywords" content="银联商务、银联、收单服务、POS机、POS收款、商户收款、全民付移动支付、智能POS终端、移动收单、全民付、天天富、跨境支付、ERP、大华捷通物流服务、全民惠营销、ATM合作运营、自助终端、网上对账" />
+<meta name="description" content="银联商务由中国银联控股，专注银行卡受理市场建设，竭诚为发卡机构、商户、企业和广大持卡人提供优质、高效、安全、规范的线下、互联网、移动支付服务、信息服务以及互联网金融服务" />
+
+
+    <!-- 公用CSS -->
+    <link href="/images/public.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/images/khal.css">
+    <link rel="stylesheet" type="text/css" href="/images/index.css">
+    <link rel="stylesheet" type="text/css" href="/images/swiper.css">
+
+    <meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<link rel="icon" href="/images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+<link rel="bookmark" href="/images/favicon.png">
+
+<script type="text/javascript" charset="utf-8" src="/images/ydui_flexible.js"></script>
+<!--[if lt IE 9]>
+		<script src="/images/html5shiv.min.js"></script>
+		<script src="/images/respond.js"></script>
+	<![endif]-->
+	<style>
+	.new_tit1{
+	background: url(/images/dec-line3.png) no-repeat left center;
+	}
+	.second .seright1 .tabLast ul .tleft {
+    background: url(/images/ve_TM.png) no-repeat;
+	}
+.mainTitle {
+    padding: 48px 0;
+    font-size: 28px;
+    line-height: 48px;
+}
+.swiper-wrapper {
+    padding: 0;
+}
+#js_swiperBox {
+    display: block;
+}
+.customer-content1 {
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-shadow: 0 8px 24px 0 rgb(34 38 48 / 16%);
+    transition: .2s;
+    border-radius: 8px;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    padding: 0 10px;
+}
+@media (max-width: 768px) {
+.mainTitle {
+    padding: 0.24rem 0;
+    font-size: 0.18rem;
+    line-height: 0.22rem;
+}
+.customer-content1 {
+    font-size: 16px;
+    line-height: 24px;
+}
+}
+	</style>
+
+ </head>
+<body>
+    <div class="fixed_wrapper main_header">
+    <div class="fixed_width">
+        <div class="header_top">
+            <div class="top_left hidden-xs">
+                <a href="/geongf/ump/login?returnUrl=/">登录</a>
+                <i>|</i>
+                <a href="https://ump.chinaums.com/v3/?redirectUri=https://www.chinaums.com/geongf/ump/login&clientId=0000000135&clientType=110#/chinaums/register" >注册</a>
+            </div>
+            <div class="top_left_phone visible-xs" style="    float: left;    color: #fff;">
+                <a href="/geongf/ump/login?returnUrl=/">登录</a>
+                <i>|</i>
+                <a href="https://ump.chinaums.com/v3/?redirectUri=https://www.chinaums.com/geongf/ump/login&clientId=0000000135&clientType=110#/chinaums/register" >注册</a>
+            </div>
+            <div class="top_right">
+						<a>银联商务支付股份有限公司</a>
+                               <a class="hidden-xs" href="https://www.chinaums.com/tblm/shzr/" onClick="ga('send', 'event', '新站首页', '点击', '顶部链接-社会责任');">
+					社会责任
+				</a>
+				<i>|</i>
+				<a class="hidden-xs" href="https://www.chinaums.com/tblm/aqzx2/" onClick="ga('send', 'event', '新站首页', '点击', '顶部链接-安全中心');">
+					安全中心
+				</a>
+				<i>|</i>
+                <a class="hidden-xs" href="https://www.chinaums.com/tblm/bzzx/" onClick="ga('send', 'event', '新站首页', '点击', '顶部链接-帮助中心');">
+					帮助中心
+				</a>
+				<i>|</i>
+                <div class="topBranch hidden-xs" style="width: auto;">
+                    <a  href="https://www.chinaums.com/gywm/lxwm/fzjg/gnfzjg/" class="header_brachtable" style="width: auto;" id="header_brachtable1">分支机构及参股企业</a>
+                    
+<!--
+<div class="branchBox">
+                        <div class="bTop">
+                            <div class="bLeft">
+                                <div class="btit"><span></span>地区</div>
+                                <div class="abox">
+															
+                                    <a class="textlink01" href="https://www.chinaums.com/tianjinums/" target="_blank">天津</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/hebeiums/" target="_blank">河北</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/shanxiums/" target="_blank">山西</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/neimengguums/" target="_blank">内蒙古</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/liaoningums/" target="_blank">辽宁</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/jilinums/" target="_blank">吉林</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/heilongjiangums/" target="_blank">黑龙江</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/shanghaiums/" target="_blank">上海</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/jiangsuums/" target="_blank">江苏</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/zhejiangums/" target="_blank">浙江</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/anhuiums/" target="_blank">安徽</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/fujianums/" target="_blank">福建</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/jiangxiums/" target="_blank">江西</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/shandongums/" target="_blank">山东</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/henanums/" target="_blank">河南</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/hubeiums/" target="_blank">湖北</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/hunanums/" target="_blank">湖南</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/guangxiums/" target="_blank">广西</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/hainanums/" target="_blank">海南</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/chongqingums/" target="_blank">重庆</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/sichuanums/" target="_blank">四川</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/guizhouums/" target="_blank">贵州</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/yunnanums/" target="_blank">云南</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/xizangums/" target="_blank">西藏</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/shanxi1ums/" target="_blank">陕西</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/gansuums/" target="_blank">甘肃</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/qinghaiums/" target="_blank">青海</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/ningxiaums/" target="_blank">宁夏</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/xinjiangums/" target="_blank">新疆</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/xiamenums/" target="_blank">厦门</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/dalianums/" target="_blank">大连</a>
+                                							
+                                    <a class="textlink01" href="https://www.chinaums.com/qingdaoums/" target="_blank">青岛</a>
+                                
+                                </div>
+                            </div>
+                            <div class="bright">
+                                <div class="btit"><span></span>子公司</div>
+								
+                                    <a  href="http://www.gnete.com/?chinaums" target="_blank">广州银联网络支付有限公司</a>
+								
+                                    <a  href="http://www.chinapay.com/?chinaums" target="_blank">上海银联电子支付服务有限公司</a>
+								
+                                    <a  href="https://www.chinaums.com/szums/" target="_blank">深圳市银联金融网络有限公司</a>
+								
+                                    <a  href="https://www.chinaums.com/bjums/" target="_blank">北京银联商务有限公司</a>
+								
+                                    <a  href="https://www.chinaums.com/shums/" target="_blank">上海银联商务有限公司</a>
+								
+                                    <a  href="https://www.chinaums.com/nbums/" target="_blank">宁波银联商务有限公司</a>
+								
+                                    <a  href="https://www.chinaums.com/zjtsblums/" target="_blank">中金同盛商业保理有限公司</a>
+								
+                                    <a  href="https://www.chinaums.com/zjtsums/" target="_blank">重庆中金同盛小额贷款有限公司</a>
+								
+
+		<div class="btit" style="    float: left;    width: 100%;"><span></span>海外</div>
+							
+                            <a href="https://www.merchant-s.com" target="_blank">Merchant Support</a>
+							
+                            </div>
+                        </div>
+                    </div>
+
+-->
+                </div>
+                <i>|</i>
+                <a class="service" style="position: relative;">客服电话：</a>
+                <i>|</i>
+                <a class="hidden-xs" name="StranLink" id="StranLink" href="javascript:changeMyCookies()">繁體</a>
+                <i>|</i>
+                <a href="/enums/" class="head-en">EN</a>
+		<a class=" hidden-xs" id="js_headerM_ser1" href="javascript:;">
+	<img class="open" style="padding:10px 0" src="/images/hearSearchicon.png" alt="" />
+	<img class="close" style="padding:10px 0;" src="/images/menuTabClose.png" alt="" />
+</a>
+<div class="headSearch hidden-xs" style="display:none;width: 25%; height: 40px; margin: 40px 0px 0 255px; position: absolute; border: 1px solid #e1e3e6;">
+	<form id="searchForm" method="get" style="height:40px;" action="/was5/search1.jsp">
+		<input type="text" id="js_searchword" name="keyword" placeholder="" value="" />
+		<button id="js_button"><img src="/images/hearSearchicon.png" alt="" /></button>
+	</form>
+</div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="menuBox  visible-xs">
+
+        <div class="topxs_menu">
+            <div id="dl-menu" class="dl-menuwrapper">
+                <div class="menuLogo">
+                    <img src="/images/logo.png" alt="" />
+                </div>
+                <div class="headerM_ser" id="js_headerM_ser">
+                    <img class="open" src="/images/headerM_ser.png" alt="" />
+                    <img class="close" src="/images/menuTabClose.png" alt="" />
+                </div>
+                <div class="M_searchBox">
+<form id="searchForm" method="get" style="height:40px;" action="/was5/search1.jsp">
+		<input type="text" id="js_searchword" name="keyword" placeholder="" value="" />
+		<button style="    margin-left: 87%;" id="js_button"><img src="/images/headerM_ser.png" alt="" /></button>
+	</form>
+                </div>
+                <div class="hidden-xs human">
+                    <a href="javascript:;" id="btn_sw03"><i class="icon iconfont"></i></a>
+                </div>
+                <div id="menuname">菜单</div>
+                <button class="menuTab " id="js_menuTab">
+                    <img class="open" src="/images/menuTab.png" alt="" />
+                    <img class="close" src="/images/menuTabClose.png" alt="" />
+                </button>
+                <ul class="dl-menu">
+                    <li>
+                        <a href="https://www.chinaums.com/">首页</a>
+                    </li>
+                    <li>
+                        <a  href="https://www.chinaums.com/xwzx/">新闻</a>
+                        <ul class="dl-submenu">
+                            <li class="dl-back"><a href="#">返回</a></li>
+                            
+							<li><a  href="https://www.chinaums.com/xwzx/gsxw/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-新闻资讯-公司动态');">公司动态</a></li>
+							
+							<li><a  href="https://www.chinaums.com/xwzx/mtbd/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-新闻资讯-媒体报道');">媒体报道</a></li>
+							
+							<li><a  href="https://www.chinaums.com/xwzx/gsgg/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-新闻资讯-公司公告');">公司公告</a></li>
+							
+							<li><a  href="https://www.chinaums.com/xwzx/gsgs/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-新闻资讯-公司公示');">公司公示</a></li>
+							
+                        </ul>
+                    </li>
+					<li>
+                        <a  href="https://www.chinaums.com/shfw/cp/">产品</a>
+                        <ul class="dl-submenu">
+                            <li class="dl-back"><a href="javascript:;">返回</a></li>
+							
+							<li><a  href="https://www.chinaums.com/shfw/cp/zffw/" >综合支付服务</a></li>
+								<!--ul class="dl-submenu">
+                                    <li class="dl-back"><a href="javascript:;">返回</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/zffw/ctzffw/" >线下支付服务</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/zffw/ydzffw/" >线上支付服务</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/zffw/hlwzf/" >境外业务</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/zffw/zfzzfw/" >支付增值服务</a></li>
+									
+                                </ul-->
+							
+							<li><a  href="https://www.chinaums.com/shfw/cp/jrfw/" >金融信息服务</a></li>
+								<!--ul class="dl-submenu">
+                                    <li class="dl-back"><a href="javascript:;">返回</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/jrfw/lc/" >金融服务</a></li>
+									
+                                </ul-->
+							
+							<li><a  href="https://www.chinaums.com/shfw/cp/dsjyxxfw/" >行业商户科技服务</a></li>
+								<!--ul class="dl-submenu">
+                                    <li class="dl-back"><a href="javascript:;">返回</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/dsjyxxfw/xxfw/" >信息服务</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/dsjyxxfw/AIfw/" >AI服务</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/dsjyxxfw/yxzxfw/" >大数据服务-银杏咨询</a></li>
+									
+                                </ul-->
+							
+							<li><a  href="https://www.chinaums.com/shfw/cp/yxzzfw/" >数字营销服务</a></li>
+								<!--ul class="dl-submenu">
+                                    <li class="dl-back"><a href="javascript:;">返回</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/yxzzfw/smhyzxfw/" >全民惠营销服务平台</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/yxzzfw/ysykxcx/" >银商优客小程序</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/yxzzfw/znzdxzxlyy/" >智能终端“小智系列”应用</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/yxzzfw/qyjlpt/" >权益激励平台</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/yxzzfw/yoke/" >银商优客</a></li>
+									
+                                </ul-->
+							
+							<li><a  href="https://www.chinaums.com/shfw/cp/zzzzyatm/" >支付运营服务</a></li>
+								<!--ul class="dl-submenu">
+                                    <li class="dl-back"><a href="javascript:;">返回</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/zzzzyatm/zzlsyw/" >自助零售终端</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/shfw/cp/zzzzyatm/smskyw/" >智慧收款运营服务</a></li>
+									
+                                </ul-->
+							
+							<li><a target="_blank" href="https://www.chinaums.com/shfw/cp/xxzf/" >天满服务平台</a></li>
+							</li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a  href="https://www.chinaums.com/shfw/hyjjfa/">解决方案</a>
+                    </li>
+                    <li>
+                        <a  href="https://www.chinaums.com/khal/">客户案例</a>
+<ul class="dl-submenu">
+                        <li class="dl-back"><a href="javascript:;">返回</a></li>
+			<li><a  href="https://www.chinaums.com/khal/" >精选案例</a></li>
+			<li><a  href="https://www.chinaums.com/khal/" >专题案例</a></li>
+			<li><a  href="https://www.chinaums.com/khal/" >更多案例</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://www.chinaums.com/tblm/aqzx/" onClick="ga('send', 'event', '新站首页', '点击', '顶部链接-安全中心');">
+                            安全中心
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.chinaums.com/tblm/bzzx/" onClick="ga('send', 'event', '新站首页', '点击', '顶部链接-帮助中心');">
+                            帮助中心
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.chinaums.com/gywm/lxwm/fzjg/gnfzjg/" onClick="ga('send', 'event', '新站首页', '点击', '顶部链接-分支机构');">
+                            分支机构
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="https://www.chinaums.com/gywm/">关于我们</a>
+                        <ul class="dl-submenu">
+                            <li class="dl-back"><a href="javascript:;">返回</a></li>
+							
+							<li><a  href="https://www.chinaums.com/gywm/ljwm/" >了解我们</a>
+								<ul class="dl-submenu">
+                                    <li class="dl-back"><a href="javascript:;">返回</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/gywm/ljwm/gsjj/" >公司简介</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/gywm/ljwm/fzdsj/" >发展大事件</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/gywm/ljwm/ldzc/" >领导致辞</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/gywm/ljwm/fwys/" >八大优势</a></li>
+									
+                                </ul>
+							</li>
+							
+							<li><a  href="https://www.chinaums.com/gywm/zzry/" >资质荣誉</a>
+								<ul class="dl-submenu">
+                                    <li class="dl-back"><a href="javascript:;">返回</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/gywm/zzry/gszz/" >公司资质</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/gywm/zzry/gsry/" >公司荣誉</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/gywm/zzry/hydw/" >行业地位</a></li>
+									
+                                </ul>
+							</li>
+							
+							
+							
+							<li><a  href="https://www.chinaums.com/gywm/qywh/" >企业文化</a>
+								<ul class="dl-submenu">
+                                    <li class="dl-back"><a href="javascript:;">返回</a></li>
+									<li><a  href="https://www.chinaums.com/gywm/qywh/" >企业文化</a></li>
+									
+                                </ul>
+							</li>
+							
+							
+							
+							<li><a  href="https://www.chinaums.com/gywm/hzhb/" >合作伙伴</a>
+								
+							</li>
+							
+							
+							<li><a  href="https://www.chinaums.com/gywm/lxwm/" >联系我们</a>
+								<ul class="dl-submenu">
+                                    <li class="dl-back"><a href="javascript:;">返回</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/gywm/lxwm/lxwm/" >联系我们</a></li>
+									
+                                    <li><a  href="https://www.chinaums.com/gywm/lxwm/fzjg/" >分支机构</a></li>
+									
+                                </ul>
+							</li>
+							
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="js_headerNav" class="header_box hidden-xs">
+    <div class="header">
+        <div class="header_left">
+            <a  href="https://www.chinaums.com/" onClick="ga('send', 'event', '新站首页', '点击', '首页logo');"><img src="/images/logo.png" alt="" /></a>
+        </div>
+	
+        <div class="header_right hidden-xs">
+            <div class="nav">
+                <ul class="lv">
+                    <li class="lv_1"><a  href="https://www.chinaums.com/" onClick="ga('send', 'event', '新站首页', '点击', '首页');">首页</a></li>
+					<li class="lv_1"><a href="https://www.chinaums.com/xwzx/">新闻</a>
+                        <dl class="lv_1_con">
+						
+							<dd class="lv_2"><a  href="https://www.chinaums.com/xwzx/gsxw/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-新闻资讯-公司动态');">公司动态</a></dd>
+                        
+							<dd class="lv_2"><a  href="https://www.chinaums.com/xwzx/mtbd/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-新闻资讯-媒体报道');">媒体报道</a></dd>
+                        
+							<dd class="lv_2"><a  href="https://www.chinaums.com/xwzx/gsgg/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-新闻资讯-公司公告');">公司公告</a></dd>
+                        
+							<dd class="lv_2"><a  href="https://www.chinaums.com/xwzx/gsgs/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-新闻资讯-公司公示');">公司公示</a></dd>
+                        
+                        </dl>
+                    </li>
+                    <li class="lv_1"><a href="javascript:;">产品</a>
+                        <dl class="lv_1_con">
+						
+							<dd class="lv_2"><a  href="https://www.chinaums.com/shfw/cp/zffw/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-产品-综合支付服务');">综合支付服务</a></dd>
+                        
+							<dd class="lv_2"><a  href="https://www.chinaums.com/shfw/cp/jrfw/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-产品-金融信息服务');">金融信息服务</a></dd>
+                        
+							<dd class="lv_2"><a  href="https://www.chinaums.com/shfw/cp/dsjyxxfw/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-产品-行业商户科技服务');">行业商户科技服务</a></dd>
+                        
+							<dd class="lv_2"><a  href="https://www.chinaums.com/shfw/cp/yxzzfw/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-产品-数字营销服务');">数字营销服务</a></dd>
+                        
+							<dd class="lv_2"><a  href="https://www.chinaums.com/shfw/cp/zzzzyatm/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-产品-支付运营服务');">支付运营服务</a></dd>
+                        
+							<dd class="lv_2"><a target="_blank" href="https://www.chinaums.com/shfw/cp/xxzf/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-产品-天满服务平台');">天满服务平台</a></dd>
+                        </dl>
+					</li>
+                    <li class="lv_1"><a href="https://www.chinaums.com/shfw/hyjjfa/">解决方案</a>
+						
+					</li>
+                   <li class="lv_1"><a href="https://www.chinaums.com/khal/">客户案例</a>
+					<dl class="lv_1_con right" style="left:260px;">
+			<dd class="lv_2"><a  href="https://www.chinaums.com/khal/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-客户案例-精选案例');">精选案例</a></dd>
+			<dd class="lv_2"><a  href="https://www.chinaums.com/khal/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-客户案例-专题案例');">专题案例</a></dd>
+			<dd class="lv_2"><a  href="https://www.chinaums.com/khal/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-客户案例-更多案例');">更多案例</a></dd>
+                        </dl>
+					</li>
+					<li class="lv_1 about_us"><a  href="https://www.chinaums.com/gywm/">关于我们</a>
+						<dl class="lv_1_con right" style="left:220px;">
+						
+							<dd class="lv_2"><a  href="https://www.chinaums.com/gywm/ljwm/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-关于我们-了解我们');">了解我们</a></dd>
+                        
+							<dd class="lv_2"><a  href="https://www.chinaums.com/gywm/zzry/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-关于我们-资质荣誉');">资质荣誉</a></dd>
+                        
+							<dd class="lv_2"><a  href="https://www.chinaums.com/gywm/qywh/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-关于我们-企业文化');">企业文化</a></dd>
+                        
+							<dd class="lv_2"><a  href="https://www.chinaums.com/gywm/hzhb/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-关于我们-合作伙伴');">合作伙伴</a></dd>
+                        
+							<dd class="lv_2"><a  href="https://www.chinaums.com/gywm/lxwm/" onClick="ga('send', 'event', '新站首页', '点击', '导航栏-关于我们-联系我们');">联系我们</a></dd>
+                        
+                        </dl>
+					</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="headerNav"></div>
+</div>
+<div class="shadowBox"></div>
+
+    <div class="main_body" id="js_index">
+        <div class="top">
+            <div class="swiper-container" id="js_swiperBox">
+                <div class="swiper-wrapper">
+									
+                    <div class="swiper-slide hidden-xs" style="background-image: url(./index/banner/202608/W020260807513422211872.jpg)">
+                        <a href="#" class="img">
+                            <img class="visible-xs" src="./index/banner/202608/W020260807513424226987.jpg" alt="" />
+                        </a>
+                    </div>
+									
+                    <div class="swiper-slide hidden-xs" style="background-image: url(./index/banner/202606/W020260630563449082101.png)">
+                        <a href="https://www.chinaums.com/tblm/aqzx2/fxqyfkbrz/jbzspj_1899/202606/t20260630_48380.shtml" class="img">
+                            <img class="visible-xs" src="./index/banner/202606/W020260630563449800716.png" alt="" />
+                        </a>
+                    </div>
+									
+                    <div class="swiper-slide hidden-xs" style="background-image: url(./index/banner/202606/W020260622575751841512.jpg)">
+                        <a href="#" class="img">
+                            <img class="visible-xs" src="./index/banner/202606/W020260622575753597842.jpg" alt="" />
+                        </a>
+                    </div>
+									
+                    <div class="swiper-slide hidden-xs" style="background-image: url(./index/banner/202604/W020260427631974462381.jpg)">
+                        <a href="#" class="img">
+                            <img class="visible-xs" src="./index/banner/202604/W020260427631977482962.jpg" alt="" />
+                        </a>
+                    </div>
+									
+                    <div class="swiper-slide hidden-xs" style="background-image: url(./index/banner/202603/W020260331737451459041.jpg)">
+                        <a href="#" class="img">
+                            <img class="visible-xs" src="./index/banner/202603/W020260331737451769334.jpg" alt="" />
+                        </a>
+                    </div>
+									
+									
+                    <div class="swiper-slide visible-xs" style="background-image: url(./index/banner/202608/W020260807513422211872.jpg)">
+                        <a href="" class="img">
+                            <img class="visible-xs" src="./index/banner/202608/W020260807513424226987.jpg" alt="" />
+                        </a>
+                    </div>
+									
+                    <div class="swiper-slide visible-xs" style="background-image: url(./index/banner/202606/W020260630563449082101.png)">
+                        <a href="" class="img">
+                            <img class="visible-xs" src="./index/banner/202606/W020260630563449800716.png" alt="" />
+                        </a>
+                    </div>
+									
+                    <div class="swiper-slide visible-xs" style="background-image: url(./index/banner/202606/W020260622575751841512.jpg)">
+                        <a href="" class="img">
+                            <img class="visible-xs" src="./index/banner/202606/W020260622575753597842.jpg" alt="" />
+                        </a>
+                    </div>
+									
+                    <div class="swiper-slide visible-xs" style="background-image: url(./index/banner/202604/W020260427631974462381.jpg)">
+                        <a href="" class="img">
+                            <img class="visible-xs" src="./index/banner/202604/W020260427631977482962.jpg" alt="" />
+                        </a>
+                    </div>
+									
+                    <div class="swiper-slide visible-xs" style="background-image: url(./index/banner/202603/W020260331737451459041.jpg)">
+                        <a href="" class="img">
+                            <img class="visible-xs" src="./index/banner/202603/W020260331737451769334.jpg" alt="" />
+                        </a>
+                    </div>
+									
+                </div>
+				
+				<!--新增-->
+				<div class="swiper-button-prev hidden-xs"></div>
+                <div class="swiper-button-next hidden-xs"></div>
+				
+            </div>
+            <div class="subtitle">
+                <div class="notice"><img class="laba" src="/images/ve_ta.png" alt="" />
+                    <div class="bul">
+                        <ul class="title">
+						
+							<li><a target="_blank" style="color:red;"  href="./xwzx/gsgg/202607/t20260724_48469.shtml">关于在“支付便利服务地图”展示商户信息事宜的公告</a></li>
+						
+                        
+							<li class="hidden-xs"><a target="_blank"  href="./xwzx/gsgg/202510/t20251014_47677.shtml">【反诈提醒】防范新型“密聊”套路，警惕不法分子假冒“银联商务”名义诈骗</a></li>
+						
+                        </ul>
+                    </div>
+                    <div class="dif hidden-xs"> <a target="_blank"  href="./xwzx/gsgg/">查看更多<i class="icon iconfont hidden-xs"></i></a></div>
+                </div>
+            </div>
+            <div class="subbg"></div>
+        </div>
+        
+        
+        <div class="first main_content">
+            <ul class="row">
+                <li class="new_tit new_tit2 col-sm-3 hidden-xs">
+                
+                    <img src="./index/kjrk/202303/W020230322541880785625.png" alt="" />
+                    <p class="txt">天满服务平台</p>
+                    <p class="txt1">快速查询和接入SaaS服务</p>
+                    <div class="topBranch"><a target="_blank"  href="https://saas.chinaums.com/saas-web/#/entrance" >立即进入<i class="icon iconfont hidden-xs"></i></a></div>
+				
+                </li>
+				
+                <li class="new_tit new_tit1 new_tit2 col-xs-6 col-md-3">
+					<a class="visible-xs"  href="javascript:newPosApply()">
+						<img src="./index/kjrk/201906/W020190717515980634122.png" alt="" />
+						<p class="txt">申请签约</p>
+					</a>
+                    <img class="hidden-xs" src="./index/kjrk/201906/W020190717515980634122.png" alt="" />
+                    <p class="txt hidden-xs">申请签约</p>
+                    <p class="txt1 hidden-xs">快速申请POS机及各类产品</p>
+                    <div class="topBranch hidden-xs"><a href="javascript:newPosApply()">立刻申请<i class="icon iconfont hidden-xs"></i></a></div>
+                </li>
+				
+				
+                <li class="new_tit new_tit1 col-sm-3 hidden-xs">
+										
+                    <img src="./index/kjrk/201906/W020190717516099351041.png" alt="" />
+                    <p class="txt">商户服务</p>
+                    <p class="txt1">签约商户各类在线服务平台</p>
+                    <div style="padding-top: 8px;" class="topBranch"><a href="javascript:;" >立刻登录<i class="icon iconfont hidden-xs"></i></a>
+										
+                        <div class="branchBox">
+                            <dl>
+														
+                                <dd><a target="_blank"  href="https://service.chinaums.com/uisportal/">商户统一服务平台</a></dd>
+														
+                                <dd><a target="_blank"  href="https://yinshangpai.chinaums.com/self-sign-web/#/login">自助签约服务平台</a></dd>
+														
+                                <dd><a target="_blank"  href="http://dhjt.chinaums.com:4111/bizportal/login.action">大华捷通商户平台</a></dd>
+														
+                                <dd><a target="_blank"  href="https://rich.chinaums.com/">天天富商户服务平台</a></dd>
+														
+                                <dd><a target="_blank"  href="http://erp.chinaums.com/">云ERP服务平台</a></dd>
+														
+                                <dd><a target="_blank"  href="https://e.chinaums.com/scrm/">全民惠商户后台</a></dd>
+														
+                            </dl>
+                        </div>
+                    </div>
+                </li>
+				
+				
+                <li class="new_tit new_tit2 new_tit1 col-sm-3 hidden-xs">
+                
+                    <img src="./index/kjrk/201906/W020190717516221069646.png" alt="" />
+                    <p class="txt">在线客服</p>
+                    <p class="txt1">有任何问题可联系在线客服</p>
+                    <div class="topBranch"><a  href="javascript:open_customerService();" >立即使用<i class="icon iconfont hidden-xs"></i></a></div>
+								
+                </li>
+                <li class="new_tit new_tit2 new_tit1  col-sm-3 hidden-xs">
+                
+                    <img src="./index/kjrk/201906/W020190717516337954391.png" alt="" />
+                    <p class="txt">合作商服务</p>
+                    <p class="txt1">合作商、合作机构综合管理平台</p>
+                    <div class="topBranch"><a target="_blank"  href="https://partner.chinaums.com/npis-partner-web/login" >立即查询<i class="icon iconfont hidden-xs"></i></a></div>
+								
+                </li>
+                <li class="new_tit new_tit1 col-xs-6 visible-xs">
+								
+                    <a target="_blank"  href="/chinaums2019/yyxz/"><img src="./index/kjrk/201906/W020190718383455914037.png" alt="" />
+                    <p class="txt">APP下载</p></a>
+								
+                </li>
+            </ul>
+        </div>
+        
+        
+        <div class="second">
+            <img class="secondBg hidden-xs" src="/images/ve_sa.png" alt="" />
+            <div class="slide" id="js_produceBox">
+                <div class="seleft ">
+                    <div class="setop">产品推荐
+                        
+                    </div>
+                    <div id="js_middulSwiper">
+                        <ul class="middul swiper-wrapper" id="js_middul">
+						
+                            <li class="active swiper-slide"><a href="javascript:;">综合支付服务</a></li>
+                        
+						
+                            <li class="swiper-slide"><a href="javascript:;">金融信息服务</a></li>
+                        
+                            <li class="swiper-slide"><a href="javascript:;">行业商户科技服务</a></li>
+                        
+                            <li class="swiper-slide"><a href="javascript:;">数字营销服务</a></li>
+                        
+                            <li class="swiper-slide"><a href="javascript:;">支付运营服务</a></li>
+                        
+                            <li class="swiper-slide"><a href="javascript:;">天满服务平台</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="seright1 active">
+                    <div class="tab5">
+                        <ul>
+                            <li class="col-xs-4 tleft">
+                                <p class="taba"><a>线下支付服务</a>
+                                <img class="visible-xs tl" src="./images/ve_p5a.png" alt="" /></p>
+                                <ul class="tabb row">
+
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="https://www.chinaums.com/shfw/cp/zffw/ctzffw/xxzf/">近场支付<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/cp/zffw/ctzffw/znzdfw/">智能终端服务<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/cp/zffw/ctzffw/ttfSaaS/">天天富收银机<span><i class="icon iconfont"></i></span></a></li>
+					
+                                </ul>
+                            </li>
+                            <li class="col-xs-4 tmid">
+                                <p class="taba"><a>线上支付服务</a>
+                                <img class="visible-xs tl" src="./images/ve_p5b.png" alt="" /></p>
+                                <ul class="tabb row">
+
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="https://www.chinaums.com/shfw/cp/zffw/ydzffw/wyzf/">网银支付<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="https://www.chinaums.com/shfw/cp/zffw/ydzffw/kjzf/">快捷支付<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="https://www.chinaums.com/shfw/cp/zffw/ydzffw/qmfydzf/">移动远程支付<span><i class="icon iconfont"></i></span></a></li>
+					
+                                </ul>
+                            </li>
+                            <li class="col-xs-4 tright">
+                                <p class="taba"><a>境外业务</a>
+                                <img class="visible-xs tl" src="/images/ve_p5c.png" alt="" /></p>
+                                <ul class="tabb row">
+
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/hyjjfa/canyin_22795/sydx_12446/canyin/">跨境货款支付<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/hyjjfa/canyin_22795/sydx_12446/canyin_22795/">跨境电商付款<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/hyjjfa/canyin_22795/sydx_12446/canyin_22866/">跨境全球收单<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/hyjjfa/canyin_22795/sydx_12446/canyin_22844/">跨境电商收款<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/hyjjfa/canyin_22795/sydx_12446/canyin_22830/">跨境学费服务<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/hyjjfa/canyin_22795/sydx_12446/canyin_22837/">国际汇款服务<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/hyjjfa/canyin_22795/sydx_12446/canyin_22823/">外卡收单服务<span><i class="icon iconfont"></i></span></a></li>
+					
+                                </ul>
+
+                            </li>
+                        </ul>
+                        <div class="thend"><a target="_blank"  href="./shfw/cp/zffw/">查看更多<i class="icon iconfont hidden-xs"></i></a></div>
+                    </div>
+                </div>
+                <div class="seright1">
+                    <div class="tab4">
+                        <ul>
+                            <li class="col-xs-6 tleft">
+                                <p class="taba"><a>金融服务</a></p>
+                                <ul class="tabb row">
+									
+									<li class=" col-sm-12 col-xs-12"><a target="_blank"  target="_blank"  href="https://www.chinaums.com/shfw/cp/jrfw/lc/smhyzxfw/">商户资金自主管理产品<span><i class="icon iconfont"></i></span></a></li>
+									
+									<li class=" col-sm-12 col-xs-12"><a target="_blank"  target="_blank"  href="https://rich.chinaums.com/">“天天富”普惠金融信息服务平台<span><i class="icon iconfont"></i></span></a></li>
+									
+                                </ul>
+                            </li>
+                           
+                        </ul>
+                        <div class="thend"><a  target="_blank" href="./shfw/cp/jrfw/">查看更多<i class="icon iconfont hidden-xs"></i></a></div>
+                    </div>
+                </div>
+                <div class="seright1">
+                    <div class="tab3">
+                        <ul>
+                            <li class="col-xs-4 tleft">
+                                <p class="taba"><a>信息服务</a></p>
+                                <ul class="tabb row">
+
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="http://erp.chinaums.com">ERP信息集成产品<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/cp/dsjyxxfw/xxfw/ekp/">E开票<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/cp/dsjyxxfw/xxfw/ewm/">E外卖<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="https://open.chinaums.com/">银联商务开放平台<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="https://www.chinaums.com/shfw/cp/dsjyxxfw/xxfw/wlzxfw/">数字科技服务平台<span><i class="icon iconfont"></i></span></a></li>
+					
+                                </ul>
+
+                            </li>
+                            <li class="col-xs-4 tright">
+                                <p class="taba"><a>AI服务</a></p>
+                                <ul class="tabb row">
+
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="https://ai.chinaums.com/ai/products/rpa-uerpa">银商大脑-RPA<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="https://ai.chinaums.com/ai/products/lowcode-ielc/">银商大脑-低代码<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="https://ai.chinaums.com/ai/products/bi-uebi/">银商大脑-BI<span><i class="icon iconfont"></i></span></a></li>
+					
+                                </ul>
+
+                            </li>
+                            <li class="col-xs-4 tmid">
+                                <p class="taba"><a>大数据服务-银杏咨询</a></p>
+                                <ul class="tabb row">
+
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/cp/dsjyxxfw/yxzxfw/wlzxfw/">大数据文旅咨询服务<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/cp/dsjyxxfw/yxzxfw/smhyzxfw/">大数据商贸行业咨询服务<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/cp/dsjyxxfw/yxzxfw/fgwzxfw/">大数据发改委咨询服务<span><i class="icon iconfont"></i></span></a></li>
+					
+<li class=" col-sm-12 col-xs-12"><a target="_blank"  href="/shfw/cp/dsjyxxfw/yxzxfw/tjlyzxfw/">大数据统计领域咨询服务<span><i class="icon iconfont"></i></span></a></li>
+					
+                                </ul>
+
+                            </li>
+                        </ul>
+                        <div class="thend"><a  target="_blank" href="./shfw/cp/dsjyxxfw/">查看更多<i class="icon iconfont hidden-xs"></i></a></div>
+                    </div>
+                </div>
+                <div class="seright1">
+                    <div class="tab2">
+                        <ul class="a row">
+							
+							<li class="col-sm-6 col-xs-6 tleft">
+                                <div class="box">
+								
+                                    <p class="taba"><a  target="_blank" href="/shfw/cp/yxzzfw/smhyzxfw/">全民惠营销服务平台</a></p>
+                                    <p class="tabb row">提供多元化的营销与激励服务</p>
+								
+                                </div>
+                            </li>
+							
+                            
+							<li class="col-sm-6 col-xs-6 tright">
+                                <div class="box">
+								
+                                    <p class="taba"><a  target="_blank" href="https://www.chinaums.com/shfw/cp/yxzzfw/yoke/index/">银商优客小程序</a></p>
+                                    <p class="tabb row">快速拥有专属商户自己的小程序</p>
+								
+                                </div>
+                            </li>
+							
+							
+							<li class="col-sm-6 col-xs-6 tmid">
+                                <div class="box">
+								
+                                    <p class="taba"><a  target="_blank" href="/shfw/cp/yxzzfw/znzdxzxlyy/">智能终端“小智系列”应用</a></p>
+                                    <p class="tabb row">满足卡券核销、商品库存管理、排队叫号、物品寄存及路边停车等多需求</p>
+								
+                                </div>
+                            </li>
+							
+							
+							<li class="col-sm-6 col-xs-6 tleft1">
+    <div class="box">
+								
+                                    <p class="taba"><a  target="_blank" href="/shfw/cp/yxzzfw/qyjlpt/">权益激励平台</a></p>
+                                    <p class="tabb row">提供多元化的营销与激励服务</p>
+								
+                                </div>
+                            
+                            </li>
+							
+                        </ul>
+                        <div class="thend"><a target="_blank"  href="./shfw/cp/yxzzfw/">查看更多<i class="icon iconfont hidden-xs"></i></a></div>
+                    </div>
+                </div>
+                <div class="seright1">
+                    <div class="tab5 tabZizhu">
+                        <ul class="row">
+							
+							<li class="col-xs-6 col-sm-4 tleft">
+                                <div class="box">
+								
+                                    <p class="taba"><a target="_blank"  href="/shfw/cp/zzzzyatm/zzlsyw/">自助零售终端</a></p>
+                                    <img class="visible-xs tl" src="/images/ve_p5H1.png" alt="" />
+                                    <div class="zizhuTxt">针对客户对于自助售货、自助收银等与新零售相关的各类需求提供全套解决方案。</div>
+								
+                                </div>
+                            </li>
+							
+							
+							<li class="col-xs-6 col-sm-4 tmid">
+                                <div class="box">
+								
+                                    <p class="taba"><a  target="_blank" href="/shfw/cp/zzzzyatm/smskyw/">智能收款运营服务</a></p>
+                                    <img class="visible-xs tl" src="/images/ve_p5H2.png" alt="" />
+                                    <div class="zizhuTxt">为具有现金管理需求的客户提供上门收款等整体解决方案。</div>
+								
+                                </div>
+                            </li>
+							
+							
+                        </ul>
+                        <div class="thend"><a target="_blank"  href="./shfw/cp/zzzzyatm/">查看更多<i class="icon iconfont hidden-xs"></i></a></div>
+                    </div>
+                </div>
+                <div class="seright1 ">
+                    <div class="tab5 tabLast">
+                        <ul class="row">
+														<li class="col-xs-6 col-sm-4 tleft hidden-xs">
+                                <div class="box">
+                                    <p class="taba"><a target="_blank"  href="https://www.chinaums.com/shfw/cp/xxzf/">天满服务平台</a></p>
+                                    <img class="visible-xs tl" src="/images/ve_TMm.png" alt="" />
+                                    <div class="zizhuTxt">面向商户、合作商、开发者提供开放、便捷的SaaS服务生态</div>
+                                </div>
+                            </li>
+														<li class="col-xs-6 col-sm-4 tleft visible-xs">
+                                <div class="box">
+                                    <p class="taba"><a target="_blank"  href="https://www.chinaums.com/shfw/cp/xxzf/">天满服务平台</a></p>
+                                    <img class="visible-xs tl" src="/images/ve_TMm.png" alt="" />
+                                    <div class="zizhuTxt">面向商户、合作商、开发者提供开放、便捷的SaaS服务生态</div>
+                                </div>
+                            </li>
+										<!--		
+							
+							<li class="col-xs-6 col-sm-4 tleft">
+                                <div class="box">
+								
+                                    <p class="taba"><a target="_blank"  href="https://www.chinaums.com/shfw/cp/SaaS/">SaaS生态体系</a></p>
+                                    <img class="visible-xs tl" src="/images/ve_hM.png" alt="" />
+                                    <div class="zizhuTxt">银联商务携手生态伙伴打造的一站式企业软件服务平台。</div>
+								
+                                </div>
+                            </li>
+							
+							
+							-->
+                        </ul>
+                        <div class="thend"><a target="_blank"  href="./shfw/cp/SaaS/">查看更多<i class="icon iconfont hidden-xs"></i></a></div>
+                    </div>
+                </div>
+                <div class="seright1 ">
+                    <div class="tab5 tabLast">
+                        <ul class="row">
+							
+							<li class="col-xs-6 col-sm-4 tleft">
+                                <div class="box">
+								
+                                    <p class="taba"><a target="_blank"  href="https://www.chinaums.com/shfw/cp/cfca/kxszzs/">全球可信数字证书体系</a></p>
+                                    <img class="visible-xs tl" src="/images/ve_hM.png" alt="" />
+                                    <div class="zizhuTxt">旨在解决网络时代的身份识别可信和数据安全证明</div>
+								
+                                </div>
+                            </li>
+							
+							
+							<li class="col-xs-6 col-sm-4 tmid">
+                                <div class="box">
+								
+                                    <p class="taba"><a target="_blank"  href="https://www.chinaums.com/shfw/cp/cfca/dzht/">电子合同解决方案</a></p>
+                                    <img class="visible-xs tl" src="/images/ve_iM.png" alt="" />
+                                    <div class="zizhuTxt">解决互联网环境下签署合同的安全可信问题</div>
+								
+                                </div>
+                            </li>
+							
+							
+							<li class="col-xs-6 col-sm-4 tright">
+                                <div class="box">
+								
+                                    <p class="taba"><a target="_blank"  href="https://www.chinaums.com/shfw/cp/cfca/jrappbeian/">金融科技产品认证</a></p>
+                                    <img class="visible-xs tl" src="/images/ve_jM.png" alt="" />
+                                    <div class="zizhuTxt">提供备案检测及各项安全认证</div>
+								
+                                </div>
+                            </li>
+							
+                        </ul>
+                        <div class="thend"><a target="_blank"  href="./shfw/cp/cfca/">查看更多<i class="icon iconfont hidden-xs"></i></a></div>
+                    </div>
+                </div>
+                <!--div class="seend hidden-xs">
+                    <ul>
+											
+					            <li>
+					            	
+													<img class="bimg" src="./shfw/cp/201906/W020260626407681056228.png" alt="" />
+													<img class="bimgH" src="" alt="" />
+													<span><a href="#">银联商务APP</a></span>
+												
+											</li>
+											
+					            <li>
+					            	
+													<img class="bimg" src="./shfw/cp/201906/W020190717505586629305.jpg" alt="" />
+													<img class="bimgH" src="" alt="" />
+													<span><a href="#">天天富APP</a></span>
+												
+											</li>
+											
+											
+                    </ul>
+                </div-->
+            </div>
+        </div>
+        <div class="third">
+            <div class="thtop">行业商户解决方案<div class="line hidden-xs"></div>
+            </div>
+            <ul class="row">
+                <li class="tit col-xs-6 col-sm-3">
+                    <img class="thirdBg" src="/images/ve_thirdBg1.png" alt="" />
+                    <a  target="_blank"  href="/shfw/hyjjfa/wl/"><div class="tita">
+                        <div class="imgBox"><i class="icon iconfont"></i></div>
+                        <p class="txt">物流解决方案</p>
+                        <p class="txt1">为企业和物流公司提供物流交付、资金结算及保理业务等服务。</p>
+                        
+                    </div></a>
+                </li>
+                <li class="tit  col-xs-6 col-sm-3">
+                    <img class="thirdBg" src="/images/ve_thirdBg2.jpg" alt="" />
+                    <a  target="_blank"  href="/shfw/hyjjfa/canyin/"><div class="tita">
+                        <div class="imgBox"><i class="icon iconfont"></i></div>
+                        <p class="txt">餐饮解决方案</p>
+                        <p class="txt1">为餐饮商户提供快速收银、预订点餐、送餐上门、会员管理等服务。</p>
+                        
+                    </div></a>
+                </li>
+                <li class="tit  col-xs-6 col-sm-3">
+                    <img class="thirdBg" src="/images/ve_thirdBg3.png" alt="" />
+                    <a  target="_blank"  href="/shfw/hyjjfa/zhsq/"><div class="tita">
+                        <div class="imgBox"><i class="icon iconfont"></i></div>
+                        <p class="txt">智慧商圈解决方案</p>
+                        <p class="txt1">打通商圈的一体化收银、会员体系、停车缴费等场景，为商圈提供综合解决方案。</p>
+                        
+                    </div></a>
+                </li>
+                <li class="tit col-xs-6 col-sm-3 hidden-xs">
+                    <img class="thirdBg" src="/images/ve_thirdBg4.png" alt="" />
+                    <a  target="_blank"  href="/shfw/hyjjfa/zhyq/"><div class="tita">
+                        <div class="imgBox"><i class="icon iconfont"></i></div>
+                        <p class="txt">智慧园区解决方案</p>
+                        <p class="txt1">通过计算机视觉等技术，实现消费支付、门禁考勤等智能服务，助力各大园区实现精细化+个性化管理。</p>
+                    </div></a>
+                </li>
+            </ul>
+            <div class="thend"> <a target="_blank"  href="./shfw/hyjjfa/">查看更多<i class="icon iconfont hidden-xs"></i></a></div>
+        </div>
+  
+
+
+
+
+<div class="homePage third ">
+	<div class="mainTitle">精选案例<div class="line hidden-xs"></div></div>
+		
+	<div class="selectedCases">
+        <div class="selectedCases-left">
+          <div class="selectedCases-img1">
+            <div class="hoverColor emptyShadow">
+              
+                <a href="https://www.chinaums.com/khal/jxal/xmly_23000/" target='_blank'>
+                  <img class="backgroundImage" alt="" src="https://www.chinaums.com/khal/jxal/202406/W020260331580296609367.png" />
+<div class="customer-content1">
+                                    <div class="customer-title">
+                                      山东德州房产带押过户
+                                    </div>
+                                  </div>
+                  <div class="hoverColor-container">
+                    <img class="hoverColor-icon" src="https://www.chinaums.com/images/yan_target.png" alt="" />
+                  </div>
+                </a>
+              
+              <div class="invisible"></div>
+            </div>
+          </div>
+          <div class="selectedCases-img2">
+            <div class="hoverColor  emptyShadow">
+              
+                <a href="https://www.chinaums.com/khal/jxal/xmly_23041/" target='_blank'>
+                  <img class="backgroundImage" alt="" src="https://www.chinaums.com/khal/jxal/202406/W020260331580442946747.png" />
+<div class="customer-content1">
+                                    <div class="customer-title">
+                                      山西华龙之星便利店连锁
+                                    </div>
+                                  </div>
+                  <div class="hoverColor-container">
+                    <img class="hoverColor-icon" src="https://www.chinaums.com/images/yan_target.png" alt="" />
+                  </div>
+                </a>
+              
+              <div class="invisible"></div>
+            </div>
+          </div>
+        </div>
+        <div class="selectedCases-middle">
+          <div class="selectedCases-img3">
+            <div class="hoverColor  emptyShadow">
+              
+                <a href="https://www.chinaums.com/khal/jxal/xmly_22976/" target='_blank'>
+                  <img class="backgroundImage" alt="" src="https://www.chinaums.com/khal/jxal/202306/W020260331580607340317.png" />
+<div class="customer-content1">
+                                    <div class="customer-title">
+                                      山东琅琊古城景区
+                                    </div>
+                                  </div>
+                  <div class="hoverColor-container">
+                    <img class="hoverColor-icon" src="https://www.chinaums.com/images/yan_target.png" alt="" />
+                  </div>
+                </a>
+              
+              <div class="invisible"></div>
+            </div>
+          </div>
+        </div>
+        <div class="selectedCases-right">
+          <div class="selectedCases-top">
+            <div class="selectedCases-img4">
+              <div class="hoverColor  emptyShadow">
+                
+                  <a href="https://www.chinaums.com/khal/jxal/xmly_23053/" target='_blank'>
+                    <img class="backgroundImage" alt="" src="https://www.chinaums.com/khal/jxal/202306/W020260331580735844120.png" />
+<div class="customer-content1">
+                                    <div class="customer-title">
+                                      江苏射阳公务分餐
+                                    </div>
+                                  </div>
+                    <div class="hoverColor-container">
+                      <img class="hoverColor-icon" src="https://www.chinaums.com/images/yan_target.png" alt="" />
+                    </div>
+                  </a>
+                
+                <div class="invisible"></div>
+              </div>
+            </div>
+            <div class="selectedCases-img5">
+              <div class="hoverColor  emptyShadow">
+                
+                  <a href="https://www.chinaums.com/khal/jxal/xmly_23016/" target='_blank'>
+                    <img class="backgroundImage" alt="" src="https://www.chinaums.com/khal/jxal/202306/W020260331580848948747.png" />
+<div class="customer-content1">
+                                    <div class="customer-title">
+                                      内蒙古巴彦淖尔市医保局
+                                    </div>
+                                  </div>
+                    <div class="hoverColor-container">
+                      <img class="hoverColor-icon" src="https://www.chinaums.com/images/yan_target.png" alt="" />
+                    </div>
+                  </a>
+                
+                <div class="invisible"></div>
+              </div>
+            </div>
+          </div>
+          <div class="selectedCases-img6">
+            <div class="hoverColor  emptyShadow">
+              
+                <a href="https://www.chinaums.com/khal/jxal/xmly_23024/" target='_blank'>
+                  <img class="backgroundImage" alt="" src="https://www.chinaums.com/khal/jxal/202306/W020260331580956587267.png" />
+<div class="customer-content1">
+                                    <div class="customer-title">
+                                      新疆交投货运ETC
+                                    </div>
+                                  </div>
+                  <div class="hoverColor-container">
+                    <img class="hoverColor-icon" src="https://www.chinaums.com/images/yan_target.png" alt="" />
+                  </div>
+                </a>
+              
+              <div class="invisible"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <div class="thend"> <a target="_blank"  href="./khal/">查看更多<i class="icon iconfont hidden-xs"></i></a></div>
+			
+		</div>
+
+
+
+
+
+
+        <div class="fifth">
+            <div class="fif">
+                <div class="fleft fright col-sm-6 col-xs-12">
+                    <div id="js_newsTit" class="ftop col-xs-12"><a class=" tit" >公司动态</a></div>
+                    <div id="js_newsBox">
+                        <div class="newsTabCot active">
+                            <a target="_blank"  class="check" href="./xwzx/gsxw/">查看更多<i class="icon iconfont hidden-xs"></i></a>
+                            <ul class="">
+							
+                                <li> <a  target="_blank" class="lie" href="./xwzx/gsxw/202608/t20260821_48544.shtml">银商一周丨银联商务大宗贸易订单支付落地厦门盘海贸易</a>
+                                    <p>2026-08-21</p>
+                                </li>
+							
+                                <li> <a  target="_blank" class="lie" href="./xwzx/gsxw/202608/t20260814_48540.shtml">银商一周丨银联商务以数智化解决方案赋能眉山奥莱乐荟仓经营提质</a>
+                                    <p>2026-08-14</p>
+                                </li>
+							
+                                <li> <a  target="_blank" class="lie" href="./xwzx/gsxw/202608/t20260807_48537.shtml">银商一周丨银联商务与喜临门集团达成业财一体化中台合作</a>
+                                    <p>2026-08-07</p>
+                                </li>
+							
+                                <li> <a  target="_blank" class="lie" href="./xwzx/gsxw/202608/t20260806_48532.shtml">银联商务斩获2026“金灵光杯”中国互联网创新大赛二等奖</a>
+                                    <p>2026-08-06</p>
+                                </li>
+							
+                                <li> <a  target="_blank" class="lie" href="./xwzx/gsxw/202607/t20260731_48517.shtml">银商一周丨银联商务助力“乐购南通”数字人民币消费红包活动上线</a>
+                                    <p>2026-07-31</p>
+                                </li>
+							
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="fright col-sm-6 col-xs-12">
+                    <div id="js_newsTit" class="ftop col-xs-12"><a class=" tit" >媒体报道</a></div>
+                    <div id="js_newsBox">
+                        <div class="newsTabCot active">
+                            <a  target="_blank" class="check" href="./xwzx/mtbd/">查看更多<i class="icon iconfont hidden-xs"></i></a>
+                            <ul class="">
+                            
+                                <li> <a target="_blank"  class="lie" href="./xwzx/mtbd/202608/t20260821_48542.shtml">数智燃动开学焕新 银联商务护航江苏“苏新消费・数码焕新”促消费活动</a>
+                                    <p>2026-08-21</p>
+                                </li>
+							
+                                <li> <a target="_blank"  class="lie" href="./xwzx/mtbd/202608/t20260818_48541.shtml">激活“东北超”赛事流量势能 银联商务“票根经济”赋能鸡西消费提质升温</a>
+                                    <p>2026-08-18</p>
+                                </li>
+							
+                                <li> <a target="_blank"  class="lie" href="./xwzx/mtbd/202608/t20260804_48525.shtml">银联商务终端数字人智能体亮相第九届中国—亚欧博览会</a>
+                                    <p>2026-08-04</p>
+                                </li>
+							
+                                <li> <a target="_blank"  class="lie" href="./xwzx/mtbd/202607/t20260730_48516.shtml">激活夏日文旅新活力！银联商务落地2026多彩贵州文旅消费券惠民活动</a>
+                                    <p>2026-07-30</p>
+                                </li>
+							
+                                <li> <a target="_blank"  class="lie" href="./xwzx/mtbd/202607/t20260721_48467.shtml">银联商务携手贵州省外经贸集团共建“1+9+N”外贸综合服务体系</a>
+                                    <p>2026-07-21</p>
+                                </li>
+							
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer_wrapper">
+    <div class="fixed_width">
+        <div class="footer_cot yinlian hidden-xs">
+            <h3><img src="/images/footerLogo.png" /></h3>
+<div class="footer_box">
+            <p>邮箱：95534@chinaums.com</p>
+            <p>电话：021-60880818 （工作日）</p>
+            <p style="margin-left: 43px;line-height: 24px;">95534</p>
+            <p>地址：上海浦东新区张衡路1399号</p>
+            <p>邮编：201203</p>
+        </div></div>
+        <div class="footer_cot about_link hidden-xs">
+            <h3>相关链接</h3>
+            <div class="footer_box">
+			
+                <a href="https://www.chinaums.com/xwzx/gsgs/" target="_black">服务协议</a>
+
+			
+                <a href="https://www.chinaums.com/dblm/zfcn/" target="_black">支付承诺</a>
+
+			
+                <a href="https://supplier.chinaums.com/" target="_black">采购公告</a>
+
+			
+                <a href="https://www.chinaums.com/gywm/hzhb/" target="_black">合作伙伴</a>
+
+			
+                <a href="https://www.chinaums.com/dblm/sytk/" target="_black">使用条款</a>
+
+			
+                <a href="https://chinaums.zhiye.com/" target="_black">加入我们</a>
+
+			
+
+			
+                <a href="javascript:open_customerService();">在线客服</a>
+
+			
+            
+						<a href="/xwzx/gsgs/yszc/" target="_black">隐私政策</a>
+                                                <a href="/dblm/wzdt/" target="_black">网站地图</a>
+                <!--<a href="javascript:;">支付承诺</a>
+                <a href="javascript:;">合作伙伴</a>
+                <a href="javascript:;">使用条款</a>
+                <a href="javascript:;">加入我们</a>
+                <a href="javascript:;">在线客服</a>
+                <a href="javascript:;">应用市场</a>
+                <a href="javascript:;">官方微博</a>
+                <a href="javascript:;">采购公告</a>
+                <a href="javascript:;">热门话题</a-->
+            </div>
+        </div>
+        <div class="visible-xs footer_phone">
+        				<a href="https://www.chinaums.com/gywm/lxwm/">联系我们</a><span>|</span>
+                <a href="https://www.chinaums.com/xwzx/gsgs/">服务协议</a><span>|</span>
+                <a href="https://www.chinaums.com/dblm/zfcn/">支付承诺</a><span>|</span>
+                <a href="javascript:open_customerService()">在线客服</a>
+        </div>
+        <div class="drcode">
+            <div class="footer_weixin2">
+                <img src="/images/wxfuh.png" />
+                <p>银联商务微信服务号</p>
+            </div>
+            <div class="footer_weixin">
+                <img src="/images/weixin_bg.png" alt="" />
+                <p>银联商务微信订阅号</p>
+            </div>
+        </div>
+        <div class="footer_cot hot_footer hidden-xs">
+        </div>
+        <!--div class="footer_cot about_link footerHelp hidden-xs">
+            <h3>帮助与支持</h3>
+            <div class="footer_box">
+                <a href="javascript:;">平台介绍</a>
+                <a href="javascript:;">新手指南</a>
+                <a href="javascript:;">常见问题</a>
+            </div>
+        </div-->
+    </div>
+    <div class="footer_bot">
+        <div class="fixed_width">
+            <!-- <div class="footer_bot_box">
+                <span>银联商务</span><span>版权所有</span> <span><a href="http://beian.miit.gov.cn/" style="color: #fff;">沪ICP备05003469号</a></span><i></i><b></b>
+            </div> -->
+            <div class="footer_bot_box">
+                <span>银联商务</span><span>版权所有</span><span>本网站已支持IPv6</span>
+				<span>
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502007281" style="display:inline-block;color:#fff;"><img src="/images/umsbeianbgs.png" style="width: 20px;height:20px;margin-right: 10px;   vertical-align: middle;" />沪公网安备 31011502007281号</a>
+				</span>
+                <span class="gaba" style="">
+                    <a href="http://beian.miit.gov.cn/" style="">沪ICP备05003469号-1</a>
+                    <a href="http://beian.miit.gov.cn/" style="">信息产业部备案管理系统</a>
+                </span>
+				<span class="hidden-xs">
+                    <a target="_blank" href="https://www.chinaums.com/dblm/zfcn/201906/t20190626_35440.shtml"
+                        style="display:inline-block;color:#fff;">增值电信业务经营许可证</a>
+                </span>
+                <!--<a href="https://218.242.124.22:8082/businessCheck/verifKey.do?showType=extShow&serial=9031000020160423083950000000707748-SAIC_SHOW_310000-20160614095147516492&signData=MEUCIQCWpWoMd3tyzevfBBNFyUxFMx7NxBipGSsK4X5FbSq2JgIgEDHUMr3q86DQXrx43WUp84U373IP4PvZovdQg8+AesI=" target="_black"><i></i></a>-->
+                <span class="pic_foot">
+					<a class="" title="银联商务-营业执照" style="display: inline-block;   line-height:20px;  color: #fff;"
+						href="http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020180615095715000002628768-SAIC_SHOW_310000-20160614095147516673&signData=MEUCIQCWztme5RRBEIOVn3DSYdURTTjTIenHblrQGrX8vuAwqAIgYfAEy/Gx3CpscPPUTO58XAlhGd4swFg3ityPBKD0ulQ=" target="_black">
+						<img style="width: auto; position: relative;  top: 5px;  height: 32px;    margin-right: 10px;" src="/images/yingye_icon1.png" />
+					</a>
+					<a class="" title="银联商务首批获得央行颁发的《支付业务许可证》" style="display: inline-block;   line-height:20px;   color: #fff;"
+						href="https://www.chinaums.com/dblm/zfcn/201906/t20190626_35439.shtml" target="_black">
+						<img style="width: 27px;    height: 20px;    margin-right: 10px;" src="/images/yingye_icon.png" />
+					</a>
+				</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 返回顶部 -->
+<p class="hidden-xs" id="back-to-top"><a href="#top"><span></span><img src="/images/top.png" alt="" /></a></p>
+<div id="js_floatBox" class="floatBox hidden-xs">
+    <ul>
+        <li class="app">
+            <div class="imgBox">
+                <img class="bImg" src="/images/fb_app.png" alt="" />
+                <img class="hoverImg" src="/images/fb_appH.png" alt="" />
+            </div>
+            <p>APP下载</p>
+        </li>
+        <li class="kefu">
+            <a href="javascript:open_customerService()"><div class="imgBox">
+                <img class="bImg" src="/images/fb_kefu.png" alt="" />
+                <img class="hoverImg" src="/images/fb_kefuH.png" alt="" />
+            </div>
+            </a><p>在线客服</p>
+        </li>
+        <li id="js_backTotop" class="toTop">
+            <div class="imgBox">
+                <img class="bImg" src="/images/fb_toTop.png" alt="" />
+                <img class="hoverImg" src="/images/fb_toTopH.png" alt="" />
+            </div>
+            <p>返回顶部</p>
+        </li>
+    </ul>
+	
+	<div class="codes">
+        <ul>
+			
+			<li><a  href="javascript:;">银联商务APP</a></li>
+			
+			<li><a  href="javascript:;">天天富APP</a></li>
+			
+        </ul>
+        <div class="imgs">
+			
+			<img src="https://www.chinaums.com/shfw/cp/201906/W020260626407681056228.png" alt="" class="picShow" />
+			
+			
+			<img src="https://www.chinaums.com/shfw/cp/201906/W020190717505586629305.jpg" alt="" />
+			
+        </div>
+    </div>
+	
+</div>
+<!-- END返回顶部 -->
+
+
+    <!-- 公用JS -->
+    <script type="text/javascript" data-main="/images/main" src="/images/require.js"></script>
+	<script>
+	function indexhref(url) {
+		if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+			window.location.href=''+url+'';
+		}else{
+			window.location.href='javascript:;';
+		}
+	}
+
+function indexhref1(url) {
+		if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+			window.location.href='javascript:;';
+		}else{
+			window.location.href=''+url+'';
+		}
+	}
+
+function hrefshuang(url,url1) {
+		if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+			window.location.href=''+url+'';
+		}else{
+			window.location.href=''+url1+'';
+		}
+	}
+	require(['jquery.min'], function () {
+		$(".top a").each(function(){if($(this).attr("href")=="#"){$(this).css("cursor","default");}});
+	});
+	</script>
+</body>
+
+</html>

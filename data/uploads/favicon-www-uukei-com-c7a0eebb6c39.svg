@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="256"
+   height="256"
+   version="1.1"
+   id="svg16"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8">
+    <linearGradient
+       id="a">
+      <stop
+         offset="0"
+         style="stop-color:#0ff;stop-opacity:1"
+         id="stop2" />
+      <stop
+         offset="1"
+         style="stop-color:#0ff;stop-opacity:0"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#a"
+       id="b"
+       x1="128.01839"
+       x2="128.696"
+       y1="3.302408"
+       y2="256.418"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.99989231,1)" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter2189"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feFlood
+         result="flood1"
+         flood-color="rgb(0,255,255)"
+         flood-opacity="1"
+         id="feFlood2183" />
+      <feBlend
+         result="blend1"
+         in="flood1"
+         in2="SourceGraphic"
+         mode="overlay"
+         id="feBlend2185" />
+      <feComposite
+         operator="in"
+         in="blend1"
+         in2="SourceGraphic"
+         id="feComposite2187"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix2191" />
+      <feFlood
+         id="feFlood2193"
+         result="flood1"
+         flood-color="rgb(0,255,255)"
+         flood-opacity="1"
+         in="fbSourceGraphic" />
+      <feBlend
+         in2="fbSourceGraphic"
+         id="feBlend2195"
+         result="blend1"
+         in="flood1"
+         mode="overlay" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite2197"
+         operator="in"
+         in="blend1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix2199" />
+      <feFlood
+         id="feFlood2201"
+         result="flood1"
+         flood-color="rgb(0,255,255)"
+         flood-opacity="1"
+         in="fbSourceGraphic" />
+      <feBlend
+         in2="fbSourceGraphic"
+         id="feBlend2203"
+         result="blend1"
+         in="flood1"
+         mode="overlay" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite2205"
+         operator="in"
+         in="blend1" />
+    </filter>
+  </defs>
+  <g
+     fill="#0505ec"
+     id="g14"
+     transform="matrix(0.9921875,0,0,0.9921875,1,1)">
+    <path
+       d="M 127.98458,0 C 144.4706,0 160.2367,3.128 174.72295,8.808 172.80319,8.712 170.91541,8.672 169.72356,8.696 103.85149,10.36 57.633058,62.648 57.633058,118.384 c 0,45.672 33.355982,76.456 69.063682,76.456 35.7077,0 64.90418,-29.92 64.90418,-66.832 0,-26.479 -11.69859,-47.79 -34.94579,-59.185 37.55348,-9.378 96.32383,-2.1725 99.21383,59.14046 C 259.19716,198.57305 198.65607,256 127.98458,256 57.297099,256 0,198.696 0,128.008 0,57.312 57.297099,0 127.98458,0 Z"
+       style="fill:#1671fd;fill-opacity:1;stroke-width:7.99942"
+       id="path10" />
+    <path
+       d="m 127.98622,0 c 16.48622,0 32.25252,3.128 46.73896,8.808 -1.91979,-0.096 -3.80759,-0.136 -4.99946,-0.112 -65.87291,1.664 -112.091927,53.952 -112.091927,109.688 0,45.672 33.356407,76.456 69.064557,76.456 35.70816,0 64.90501,-29.92 64.90501,-66.832 0,-26.479 -11.69087,-47.805752 -34.93836,-59.200748 37.55395,-9.378 96.31391,-2.127958 99.20395,59.184998 C 259.19719,198.60184 198.6586,256 127.98622,256 57.29783,256 0,198.696 0,128.008 0,57.312 57.297829,0 127.98622,0 Z"
+       style="fill:url(#b);fill-opacity:1;stroke-width:7.9995;stroke-dasharray:none;filter:url(#filter2189)"
+       id="path12" />
+  </g>
+</svg>

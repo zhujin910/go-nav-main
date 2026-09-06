@@ -1,0 +1,167 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="Author" content="Murphey Studio (murphey.cn)" />
+<meta name="robots" content="all" />
+<meta name="viewport" content="minimum-scale=1.0,user-scalable=no,width=device-width, initial-scale=1.0" />
+<meta id="mymeta_mkeywords" name="keywords" content="网盘资源,链接分享,网盘推广,城通网盘,百度网盘,文件共享,就是方便人,94fbr,小说下载,古典诗词,诗词歌赋"></meta>
+<meta id="mymeta_mdescription" name="description" content="提供网盘链接资源分享推广的服务"></meta>
+<meta itemprop="name" content="94FBR.NET(就是方便人)""/>
+<meta itemprop="image" content="https://94fbr.net/logo.png" />
+<meta name="description" itemprop="description" content="欢迎访问资源共享站，更多精彩等你分享"" />
+<link href="/css/sui.min.css" rel="stylesheet">
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/sui.min.js"></script>
+<link rel="shortcut icon" href="/logo.png?134318982569770826">
+<link href="/css/mycss.css?134318982569770826" rel="stylesheet">
+<script type="text/javascript" src="/js/my.js?134318982569770826"></script>
+<link href="/css/font-awesome.min.css" rel="stylesheet">
+<title>
+	资源分享站
+</title>
+    <style type="text/css">
+        .grid-demo .sui-row div,
+        .grid-demo .sui-row-fluid div {
+            background: #dfedfc;
+            min-height: 50px;
+        }
+
+        .grid-demo .sui-row + .sui-row,
+        .grid-demo .sui-row-fluid + .sui-row-fluid {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form name="servingForm" method="post" action="./favicon.ico?404%3bhttps%3a%2f%2f94fbr.net%3a443%2ffavicon.ico" id="servingForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzMTEyMzE2NjRkZDcGif1DMtJUfJmSVvMZaGeY1VVL9HsWPnpq6DLVUksE" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAUIKNLXmHGNMpUjLqlovuz/WyuC0Zk+E5MGifyU0PKyQfBB9hQ49g3bmFda7BkoRK9/sOz7AIgiPRRn0hLdpqamK9Tu7cKcBSpeQwWG8oM+8WynudODWrckdXTDnbv8i6SxxsA91M9tONEs5fbheKBs" />
+        <div class="sui-msg msg-large msg-success" id="infoDialog" style="display: none; position: fixed;">
+            <div class="msg-con">推广短网址已复制</div>
+            <s class="msg-icon"></s>
+        </div>
+        <div class="sui-loading loading-xxlarge" style="display: none; position: fixed;" id="loading"><i class="sui-icon icon-pc-loading"></i></div>
+
+        
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?22e5dff94bcbdbdeec0b61b099216308";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<div class="sui-navbar navbar-inverse" style="margin-bottom: 0px;" id="navbar">
+
+
+    <div class="navbar-inner">
+        <div class="sui-container" style="float: left;">
+            <a href="/" class="sui-brand" style="color: #FFF">94FBR(城通口令：9494)</a>
+            <div class="search bar1">
+                <input name="mytitle$txtQ" type="text" id="mytitle_txtQ" placeholder="搜索..." style="margin-top: 9px; width: 13em; height: 1.5em" />
+                <button onclick="__doPostBack('mytitle$btnQ','')" id="mytitle_btnQ" type="submit" style="margin-top: 10px; margin-left: -42px;height: 1.7em"></button>
+                <ul class="sui-nav" style="margin-left: 1px;">
+                    <li class="active"><a href="/add" target="_blank">添加</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sui-container" style="float: left;">
+            <ul class="sui-nav" style="float: left; margin-left: -10px;">
+                <li class='active'><a href='/sort/0'>最热</a></li>
+                <li><a href="/tag/诗">诗</a></li><li><a href="/tag/词">词</a></li><li><a href="/tag/小说">小说</a></li><li><a href="/tag/赋">赋</a></li><li><a href="/tag/诗词">诗词</a></li><li><a href="/tag/历史">历史</a></li><li><a href="/tag/古典">古典</a></li><li><a href="/tag/现代诗">现代诗</a></li><li><a href="/tag/社科">社科</a></li><li><a href="/tag/诗话">诗话</a></li>
+                <li class="active"><a href="/tag" target="_blank">更多</a></li>
+                <li class="active"><a href="/poem" target="_blank" style="color:#ffd800">读诗</a></li>
+                <li class="active"><a href="/about">关于</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    function freshMobile() {
+        var lis = document.getElementsByTagName("li");
+        //var aaa = document.getElementById("aaa");
+        var eleWidth = 0;
+        if (window.innerWidth)
+            winWidth = window.innerWidth;
+        if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {
+            winWidth = document.documentElement.clientWidth;
+        }
+        //alert(winWidth);
+        for (var i = lis.length - 4; i >= 0; i--) {
+            eleWidth = lis[lis.length - 1].offsetLeft + lis[lis.length - 1].clientWidth;
+            //alert("lis[" + i + "]=" + eleWidth);
+            if (eleWidth < winWidth && eleWidth != 0) {
+                lis[i].style.display = "inline";
+            } else {
+                lis[i].style.display = "none";
+            }
+        }
+        var vul = document.getElementsByClassName("sui-container");
+        vul[0].style.width = winWidth + "px";
+        vul[1].style.width = winWidth + "px";
+    }
+    if (isMobile()) {
+        freshMobile();
+    }    
+</script>
+
+        <div>
+            <div style="float: left; margin-right: auto; margin-left: auto;">
+                <div class="grid-demo">
+                    
+                    <div class="sui-row"><div class="dv"><a href='/'>https://94fbr.net:443/favicon.ico</a></div>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" name="hfSort" id="hfSort" />
+        <input type="hidden" name="hfWhere" id="hfWhere" />
+        
+        <i class="fa fa-weixin" id="J_alert1" style="width: 2rem; height: 2rem; position: fixed; bottom: 5rem; right: 0.5rem; z-index: 9999; font-size: 2rem;color: #28a3ef;" onclick="wx();"></i>
+        <a href="javascript:scroll(0,0)"><i class="fa fa-chevron-up" style="width: 2rem; height: 2rem; position: fixed; bottom: 2rem; right: 0.5rem; z-index: 9999; font-size: 2rem;"></i></a>
+    </form>
+</body>
+<script type="text/javascript">    
+    window.onscroll = function (e) {
+        //固定导航栏
+        var e = e || window.event;
+        var scrolltop = document.documentElement.scrollTop || document.body.scrollTop;
+        var box = document.getElementById('navbar');
+        box.style.top = scrolltop + 'px';
+        if (scrolltop == 0) {
+            box.style.position = '';
+        } else {
+            box.style.position = 'absolute';
+            box.style.width = '100%';
+        }
+        //滑到底部加载下一页
+        var scrollH = document.documentElement.scrollHeight;
+        var clientH = document.documentElement.clientHeight;
+        //var aa = "scrollH" + scrollH + '<br/>';
+        //aa = aa + "clientH" + clientH + '<br/>';
+        //aa = aa + "document.documentElement.scrollTop" + document.documentElement.scrollTop + '<br/>';
+        //aa = aa + "document.body.scrollTop" + document.body.scrollTop + '<br/>';
+        //showInfoDialog(aa);
+        if (scrollH < (document.documentElement.scrollTop | document.body.scrollTop) + clientH + 50) {
+            //加载新数据,显示正在加载图标
+            if (istart > 0) {
+                loadData(istart, "", "");
+            }
+            else {
+                showInfoDialog(dx);
+            }
+        }
+    };
+</script>
+</html>

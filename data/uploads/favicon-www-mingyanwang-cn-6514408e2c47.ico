@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>名人名言名句大全-读书名言警句-励志珍惜时间 - 名言网</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+      color: #1f2937;
+      background:
+        radial-gradient(circle at 8% 8%, rgba(59, 130, 246, 0.14), transparent 32%),
+        radial-gradient(circle at 92% 12%, rgba(245, 158, 11, 0.14), transparent 30%),
+        linear-gradient(180deg, #f8fbff 0%, #ffffff 48%, #f8fafc 100%);
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(226, 232, 240, 0.88);
+    }
+
+    .nav-inner {
+      width: min(1180px, 94%);
+      height: 68px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 900;
+      color: #0f172a;
+      font-size: 18px;
+    }
+
+    .logo-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: linear-gradient(135deg, #2563eb, #f59e0b);
+      box-shadow: 0 10px 24px rgba(37, 99, 235, 0.2);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: #475569;
+      font-size: 14px;
+    }
+
+    .nav-links a:hover {
+      color: #2563eb;
+    }
+
+    .page {
+      width: min(1180px, 94%);
+      margin: 0 auto;
+      padding: 42px 0 56px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 28px 0 26px;
+    }
+
+    .tag {
+      display: inline-flex;
+      padding: 7px 15px;
+      border-radius: 999px;
+      color: #2563eb;
+      background: #eef4ff;
+      border: 1px solid #dbeafe;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(28px, 5vw, 48px);
+      line-height: 1.18;
+      color: #0f172a;
+      letter-spacing: -1px;
+    }
+
+    .intro {
+      max-width: 880px;
+      margin: 0 auto;
+      color: #64748b;
+      font-size: 17px;
+    }
+
+    .tool-panel,
+    section {
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid #e5e7eb;
+      border-radius: 26px;
+      box-shadow: 0 18px 50px rgba(15, 23, 42, 0.07);
+      padding: 24px;
+      margin-top: 24px;
+    }
+
+    .section-head {
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      color: #0f172a;
+    }
+
+    p {
+      margin: 8px 0;
+      color: #475569;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr 0.8fr auto;
+      gap: 12px;
+      align-items: end;
+      margin-bottom: 16px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 800;
+      color: #111827;
+    }
+
+    input,
+    select {
+      width: 100%;
+      border: 1px solid #dbe3ef;
+      border-radius: 16px;
+      padding: 13px 15px;
+      font-size: 15px;
+      outline: none;
+      color: #111827;
+      background: #fbfdff;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    input:focus,
+    select:focus {
+      border-color: #2563eb;
+      box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+    }
+
+    button {
+      border: none;
+      border-radius: 16px;
+      padding: 13px 20px;
+      font-size: 15px;
+      cursor: pointer;
+      color: #fff;
+      background: linear-gradient(135deg, #2563eb, #f59e0b);
+      white-space: nowrap;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 28px rgba(37, 99, 235, 0.18);
+    }
+
+    .ghost {
+      color: #2563eb;
+      background: #eef4ff;
+    }
+
+    .danger {
+      color: #b91c1c;
+      background: #fee2e2;
+    }
+
+    .message {
+      min-height: 24px;
+      color: #dc2626;
+      font-size: 14px;
+      margin: 8px 0 14px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .stat-card {
+      background: linear-gradient(180deg, #ffffff, #f8fbff);
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      padding: 16px;
+    }
+
+    .stat-card span {
+      display: block;
+      color: #64748b;
+      font-size: 13px;
+    }
+
+    .stat-card strong {
+      display: block;
+      color: #0f172a;
+      font-size: 24px;
+      margin-top: 4px;
+      word-break: break-word;
+    }
+
+    .quote-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .quote-card {
+      position: relative;
+      overflow: hidden;
+      padding: 20px;
+      border-radius: 20px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+      transition: transform 0.16s, box-shadow 0.16s, border-color 0.16s;
+    }
+
+    .quote-card:hover {
+      transform: translateY(-3px);
+      border-color: #bfdbfe;
+      box-shadow: 0 18px 44px rgba(37, 99, 235, 0.12);
+    }
+
+    .quote-mark {
+      position: absolute;
+      right: 18px;
+      top: 8px;
+      color: rgba(37, 99, 235, 0.08);
+      font-size: 76px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .quote-text {
+      position: relative;
+      z-index: 1;
+      color: #0f172a;
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    .quote-meta {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .quote-meta span {
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: #f1f5f9;
+      color: #475569;
+      font-size: 12px;
+    }
+
+    .copy-btn {
+      width: 100%;
+      padding: 10px 14px;
+      font-size: 14px;
+    }
+
+    .empty {
+      display: none;
+      padding: 26px;
+      text-align: center;
+      color: #64748b;
+      background: #f8fafc;
+      border: 1px dashed #cbd5e1;
+      border-radius: 18px;
+    }
+
+    .selected-box {
+      display: none;
+      margin-top: 16px;
+      padding: 16px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #eff6ff, #ffffff);
+      border: 1px solid #dbeafe;
+      color: #475569;
+    }
+
+    .selected-box strong {
+      color: #0f172a;
+    }
+
+    .feature-list,
+    .category-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .feature,
+    .category-card {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 16px;
+    }
+
+    .feature strong,
+    .category-card strong {
+      display: block;
+      margin-bottom: 6px;
+      color: #111827;
+    }
+
+    .faq-item {
+      padding: 14px 0;
+      border-bottom: 1px solid #edf2f7;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+
+    .faq-item strong {
+      color: #111827;
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    @media (max-width: 980px) {
+      .form-grid,
+      .stats-grid,
+      .quote-grid,
+      .feature-list,
+      .category-list {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-inner {
+        height: auto;
+        padding: 14px 0;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav-links {
+        flex-wrap: wrap;
+        gap: 10px 14px;
+      }
+
+      .page {
+        width: 94%;
+        padding-top: 28px;
+      }
+
+      .tool-panel,
+      section {
+        padding: 18px;
+        border-radius: 18px;
+      }
+
+      .form-grid,
+      .stats-grid,
+      .quote-grid,
+      .feature-list,
+      .category-list {
+        grid-template-columns: 1fr;
+      }
+
+      .actions button,
+      .form-grid button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="logo" href="#">
+        <span class="logo-icon">言</span>
+        <span>名言网</span>
+      </a>
+      <div class="nav-links">
+        <a href="#tool">名言查询</a>
+        <a href="#guide">使用说明</a>
+        <a href="#features">功能特点</a>
+        <a href="#faq">常见问题</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page">
+    <header class="hero">
+      <div class="tag">名人名言名句大全 · 读书名言警句 · 励志珍惜时间</div>
+      <h1>名人名言名句大全-读书名言警句-励志珍惜时间 - 名言网</h1>
+      <p class="intro">
+        名言网提供名人名言名句大全、读书名言警句、励志名言、珍惜时间语句等内容的在线查询参考。用户可按关键词、分类和作者进行本地筛选，适合学习摘抄、写作参考、演讲素材整理和日常阅读使用，结果仅供参考。
+      </p>
+    </header>
+
+    <main>
+      <div class="tool-panel" id="tool">
+        <div class="section-head">
+          <h2>工具主体：在线名言名句查询</h2>
+          <p>输入关键词，选择名言分类和作者范围，快速筛选适合阅读、写作和学习参考的名言警句。</p>
+        </div>
+
+        <div class="form-grid">
+          <div>
+            <label for="keywordInput">关键词</label>
+            <input id="keywordInput" type="text" maxlength="30" placeholder="例如：读书、励志、时间、学习、坚持">
+          </div>
+          <div>
+            <label for="categorySelect">名言分类</label>
+            <select id="categorySelect">
+              <option value="">全部分类</option>
+              <option value="读书">读书名言</option>
+              <option value="励志">励志名言</option>
+              <option value="时间">珍惜时间</option>
+              <option value="学习">学习成长</option>
+              <option value="品德">品德修养</option>
+            </select>
+          </div>
+          <div>
+            <label for="authorSelect">作者范围</label>
+            <select id="authorSelect">
+              <option value="">全部作者</option>
+              <option value="中国">中国名言</option>
+              <option value="外国">外国名言</option>
+              <option value="通用">通用语句</option>
+            </select>
+          </div>
+          <button onclick="filterQuotes()">查询名言</button>
+        </div>
+
+        <div class="actions">
+          <button class="ghost" onclick="quickCategory('读书')">读书名言</button>
+          <button class="ghost" onclick="quickCategory('励志')">励志名言</button>
+          <button class="ghost" onclick="quickCategory('时间')">珍惜时间</button>
+          <button class="ghost" onclick="randomQuote()">随机一句</button>
+          <button class="danger" onclick="resetFilter()">清空筛选</button>
+        </div>
+
+        <div class="message" id="message"></div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span>当前展示</span>
+            <strong id="visibleCount">0</strong>
+          </div>
+          <div class="stat-card">
+            <span>名言总数</span>
+            <strong id="totalCount">0</strong>
+          </div>
+          <div class="stat-card">
+            <span>当前分类</span>
+            <strong id="currentCategory">全部</strong>
+          </div>
+          <div class="stat-card">
+            <span>处理方式</span>
+            <strong>本地筛选</strong>
+          </div>
+        </div>
+
+        <div class="quote-grid" id="quoteGrid"></div>
+        <div class="empty" id="emptyBox">未找到匹配的名言名句，请更换关键词、分类或作者范围。结果仅供参考。</div>
+
+        <div class="selected-box" id="selectedBox">
+          <strong>已选择名言：</strong><span id="selectedQuote">-</span>
+          <p id="selectedText">名言内容适合普通阅读、学习摘抄和写作参考，使用时建议结合语境核对，结果仅供参考。</p>
+        </div>
+      </div>
+
+      <section id="guide">
+        <h2>使用说明</h2>
+        <p>在关键词输入框中输入“读书”“励志”“时间”“学习”等词语，也可以通过分类按钮快速筛选名人名言名句大全中的相关内容。</p>
+        <p>本页面的在线名言查询功能在浏览器本地完成，不主动采集或上传用户输入内容。部分名言可能存在不同版本、不同译法或不同出处表述，使用时建议结合可靠资料核对，结果仅供参考。</p>
+      </section>
+
+      <section>
+        <h2>名言分类参考</h2>
+        <div class="category-list">
+          <div class="category-card">
+            <strong>读书名言警句</strong>
+            <p>适合读书笔记、作文素材、学习计划和阅读活动文案参考。</p>
+          </div>
+          <div class="category-card">
+            <strong>励志名言名句</strong>
+            <p>适合目标规划、成长记录、演讲素材和日常自我鼓励参考。</p>
+          </div>
+          <div class="category-card">
+            <strong>珍惜时间语句</strong>
+            <p>适合时间管理、学习提醒、工作计划和生活感悟参考。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features">
+        <h2>功能特点</h2>
+        <div class="feature-list">
+          <div class="feature">
+            <strong>多分类筛选</strong>
+            <p>支持读书名言、励志名言、珍惜时间、学习成长和品德修养等分类筛选。</p>
+          </div>
+          <div class="feature">
+            <strong>本地浏览器运行</strong>
+            <p>关键词搜索、分类筛选、随机推荐和复制操作均在浏览器本地完成。</p>
+          </div>
+          <div class="feature">
+            <strong>适合中文工具网站</strong>
+            <p>页面结构清晰，包含标题介绍、工具主体、使用说明、功能特点、常见问题和免责声明。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq">
+        <h2>常见问题</h2>
+        <div class="faq-item">
+          <p><strong>1. 名人名言名句大全可以用于作文素材吗？</strong></p>
+          <p>可以作为学习和写作参考，但建议根据文章主题选择合适内容，并注意核对出处和语境，结果仅供参考。</p>
+        </div>
+        <div class="faq-item">
+          <p><strong>2. 读书名言警句是否都有准确出处？</strong></p>
+          <p>不同版本资料可能存在表述差异。本页面为在线查询示例，正式引用时建议查阅权威书籍或可靠资料。</p>
+        </div>
+        <div class="faq-item">
+          <p><strong>3. 在线名言查询会保存我的搜索内容吗？</strong></p>
+          <p>本页面使用原生 JavaScript 在浏览器本地完成查询筛选，不主动采集、保存或上传用户输入内容。</p>
+        </div>
+        <div class="faq-item">
+          <p><strong>4. 随机名言适合哪些场景？</strong></p>
+          <p>适合每日阅读、学习摘抄、文案启发和普通写作参考。重要引用场景建议再次核对来源，结果仅供参考。</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>免责声明</h2>
+        <p>
+          本“名人名言名句大全-读书名言警句-励志珍惜时间 - 名言网”页面仅用于网站单页面设计、名言查询演示、学习阅读和普通写作参考。页面中的名言内容、作者归类和分类结果可能因版本、译法、出处资料或使用场景不同存在差异，结果仅供参考。正式出版、商业使用或重要引用前，请自行核对合法来源、版权状态和准确出处。
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>名人名言名句大全 · 读书名言警句 · 励志珍惜时间 · 名言网 · 结果仅供参考</p>
+    </footer>
+  </div>
+
+  <script>
+    const quotes = [
+      { text: '学而时习之，不亦说乎。', author: '孔子', scope: '中国', category: '学习', keywords: '学习 读书 成长' },
+      { text: '敏而好学，不耻下问。', author: '孔子', scope: '中国', category: '读书', keywords: '读书 学习 求知' },
+      { text: '三人行，必有我师焉。', author: '孔子', scope: '中国', category: '学习', keywords: '学习 谦虚 成长' },
+      { text: '少壮不努力，老大徒伤悲。', author: '汉乐府', scope: '中国', category: '时间', keywords: '时间 励志 珍惜' },
+      { text: '读书破万卷，下笔如有神。', author: '杜甫', scope: '中国', category: '读书', keywords: '读书 写作 学习' },
+      { text: '黑发不知勤学早，白首方悔读书迟。', author: '颜真卿', scope: '中国', category: '读书', keywords: '读书 时间 学习' },
+      { text: '纸上得来终觉浅，绝知此事要躬行。', author: '陆游', scope: '中国', category: '学习', keywords: '实践 学习 读书' },
+      { text: '业精于勤，荒于嬉。', author: '韩愈', scope: '中国', category: '励志', keywords: '励志 勤奋 学习' },
+      { text: '路漫漫其修远兮，吾将上下而求索。', author: '屈原', scope: '中国', category: '励志', keywords: '励志 坚持 求索' },
+      { text: '志不强者智不达。', author: '墨子', scope: '中国', category: '品德', keywords: '志向 品德 励志' },
+      { text: '合理安排时间，就等于节约时间。', author: '培根', scope: '外国', category: '时间', keywords: '时间 珍惜 效率' },
+      { text: '知识就是力量。', author: '培根', scope: '外国', category: '读书', keywords: '知识 读书 学习' },
+      { text: '时间是衡量事业的标准。', author: '培根', scope: '外国', category: '时间', keywords: '时间 事业 珍惜' },
+      { text: '书籍是人类进步的阶梯。', author: '高尔基', scope: '外国', category: '读书', keywords: '书籍 读书 进步' },
+      { text: '生活就像海洋，只有意志坚强的人才能到达彼岸。', author: '马克思', scope: '外国', category: '励志', keywords: '励志 坚强 生活' },
+      { text: '完成工作的方法是爱惜每一分钟。', author: '达尔文', scope: '外国', category: '时间', keywords: '时间 工作 珍惜' },
+      { text: '学习不是一日之功，积累才能见到变化。', author: '通用语句', scope: '通用', category: '学习', keywords: '学习 积累 成长' },
+      { text: '把今天的事做好，就是对明天的准备。', author: '通用语句', scope: '通用', category: '励志', keywords: '励志 时间 行动' },
+      { text: '读书让人看见更大的世界，也看清自己的方向。', author: '通用语句', scope: '通用', category: '读书', keywords: '读书 世界 方向' },
+      { text: '珍惜时间的人，往往更懂得珍惜机会。', author: '通用语句', scope: '通用', category: '时间', keywords: '时间 机会 珍惜' }
+    ];
+
+    const keywordInput = document.getElementById('keywordInput');
+    const categorySelect = document.getElementById('categorySelect');
+    const authorSelect = document.getElementById('authorSelect');
+    const message = document.getElementById('message');
+    const quoteGrid = document.getElementById('quoteGrid');
+    const emptyBox = document.getElementById('emptyBox');
+    const visibleCount = document.getElementById('visibleCount');
+    const totalCount = document.getElementById('totalCount');
+    const currentCategory = document.getElementById('currentCategory');
+    const selectedBox = document.getElementById('selectedBox');
+    const selectedQuote = document.getElementById('selectedQuote');
+    const selectedText = document.getElementById('selectedText');
+
+    let currentList = quotes;
+
+    function setMessage(text, type) {
+      message.textContent = text;
+      message.style.color = type === 'success' ? '#16a34a' : '#dc2626';
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function renderQuotes(list) {
+      currentList = list;
+
+      quoteGrid.innerHTML = list.map(function(item, index) {
+        return `
+          <div class="quote-card">
+            <div class="quote-mark">“</div>
+            <div class="quote-text">${escapeHtml(item.text)}</div>
+            <div class="quote-meta">
+              <span>${escapeHtml(item.author)}</span>
+              <span>${escapeHtml(item.category)}</span>
+              <span>${escapeHtml(item.scope)}</span>
+            </div>
+            <button class="copy-btn" onclick="selectQuote(${index})">选择并复制</button>
+          </div>
+        `;
+      }).join('');
+
+      visibleCount.textContent = list.length;
+      totalCount.textContent = quotes.length;
+      currentCategory.textContent = categorySelect.value || '全部';
+      emptyBox.style.display = list.length ? 'none' : 'block';
+    }
+
+    function filterQuotes(showMessage = true) {
+      const keyword = keywordInput.value.trim().toLowerCase();
+      const category = categorySelect.value;
+      const scope = authorSelect.value;
+
+      if (keyword.length > 30) {
+        setMessage('关键词不建议超过 30 个字符，请适当精简后再查询。', 'error');
+        return;
+      }
+
+      const result = quotes.filter(function(item) {
+        const text = (item.text + ' ' + item.author + ' ' + item.category + ' ' + item.keywords).toLowerCase();
+        const keywordMatched = !keyword || text.includes(keyword);
+        const categoryMatched = !category || item.category === category;
+        const scopeMatched = !scope || item.scope === scope;
+        return keywordMatched && categoryMatched && scopeMatched;
+      });
+
+      renderQuotes(result);
+
+      if (showMessage) {
+        if (result.length) {
+          setMessage('已找到 ' + result.length + ' 条名言名句，结果仅供参考。', 'success');
+        } else {
+          setMessage('未找到匹配内容，请更换关键词、分类或作者范围。结果仅供参考。', 'error');
+        }
+      }
+    }
+
+    function selectQuote(index) {
+      const item = currentList[index];
+
+      if (!item) {
+        setMessage('未找到可复制的名言内容。', 'error');
+        return;
+      }
+
+      const text = '“' + item.text + '”——' + item.author;
+      selectedQuote.textContent = text;
+      selectedText.textContent = '分类：' + item.category + '；作者范围：' + item.scope + '。使用时建议结合语境和可靠出处核对，结果仅供参考。';
+      selectedBox.style.display = 'block';
+
+      navigator.clipboard.writeText(text).then(function() {
+        setMessage('已选择并复制名言内容，结果仅供参考。', 'success');
+      }).catch(function() {
+        const temp = document.createElement('textarea');
+        temp.value = text;
+        document.body.appendChild(temp);
+        temp.select();
+        document.execCommand('copy');
+        document.body.removeChild(temp);
+        setMessage('已选择名言内容，请根据浏览器提示确认复制。结果仅供参考。', 'success');
+      });
+    }
+
+    function quickCategory(category) {
+      keywordInput.value = '';
+      categorySelect.value = category;
+      filterQuotes(true);
+      document.getElementById('tool').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function randomQuote() {
+      const source = currentList.length ? currentList : quotes;
+      const item = source[Math.floor(Math.random() * source.length)];
+      renderQuotes([item]);
+      selectedBox.style.display = 'none';
+      setMessage('已随机推荐 1 条名言名句，结果仅供参考。', 'success');
+    }
+
+    function resetFilter() {
+      keywordInput.value = '';
+      categorySelect.value = '';
+      authorSelect.value = '';
+      selectedBox.style.display = 'none';
+      message.textContent = '';
+      renderQuotes(quotes);
+    }
+
+    keywordInput.addEventListener('input', function() {
+      message.textContent = '';
+      filterQuotes(false);
+    });
+
+    categorySelect.addEventListener('change', function() {
+      filterQuotes(true);
+    });
+
+    authorSelect.addEventListener('change', function() {
+      filterQuotes(true);
+    });
+
+    renderQuotes(quotes);
+  </script>
+  <div class="icp-footer" style="text-align:center;padding:14px 12px 22px;margin:0;color:inherit;font-size:13px;line-height:1.6;opacity:.68;">
+    
+  </div>
+
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?4235ff9955fd5d7823666600daa40f25";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    </body>
+</html>

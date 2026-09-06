@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <link rel="icon" href="./images/icon_index.gif" />
+  <title>激活象形字 强壮中国心 —— 好用的在线汉语字典</title>
+  <meta name="keywords" content="象形,象形字，甲骨文，汉字，字典,汉语字典，说文解字，白话说文解字,字形,书法，国学，小学，汉字简化方案。">
+  <meta name="description" content="象形字典，好用的字典。说文解字，中华起源。…每个汉字，都来自祖先的一场顿悟。跟汉字密谈，来一场小小顿悟！激活象形字，强壮中国心！">
+  <meta name="searchtitle" content="象形字典，好用的字典。说文解字，中华起源。…每个汉字，都来自祖先的一场顿悟。跟汉字密谈，来一场小小顿悟！激活象形字，强壮中国心！">
+  <!-- <script>
+    var href = window.location.href;
+    if (href.indexOf('from=WechatLoginCallback') !== -1) {
+      var arr = href.split('?');
+      var params = arr[1] || '';
+      window.location.href = 'https://www.vividict.com/details/head-login.html?' + params;
+    }
+  </script> -->
+
+  <script src="./common/js/jquery-3.6.0.min.js"></script>
+  <script src="./common/layer/layer.js"></script>
+  <script src="./api.config.js?v=1.2.15"></script>
+  <script src="./common/js/dictCommon.js"></script>
+  <style>
+    /* ========== 1. 全局重置样式 ========== */
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      letter-spacing: 2px;
+      box-sizing: border-box;
+    }
+
+    /* ========== 2. 全局基础样式 ========== */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, "Times New Roman", 宋体, SimSun, serif;
+    }
+
+    body {
+      background: #3a6ea5;
+      color: #b0c4de;
+      overflow-y: hidden;
+    }
+
+    body.red {
+      background: #bc0900;
+    }
+
+    body.red .light-area .header {
+      background: #bc0900;
+    }
+
+    body.red .light-area:hover .header {
+      background: #e62e22;
+    }
+
+    body.red .search_input input {
+      background: #e62e22;
+      box-shadow: inset 0 2px 2px 0 #8B1A1A, inset 3px 0 3px 0 #831515, inset -3px 0 0 0 #C95B5B, inset 0 -3px 0 0 #C35555;
+    }
+
+    body.red .search_btn a {
+      background: #e62e22;
+      box-shadow: -2px -2px 1px -1px #C95B5B, inset 2px 0 1px 0 rgba(198, 91, 91, 0.5), inset 0 2px 1px 0 rgba(198, 91, 91, 0.5), inset 0 -2px 2px 0 #8B1A1A, inset -2px 0 2px 0 #8B1A1A, 3px 2px 2px -1px rgba(0, 0, 0, 0.3);
+    }
+
+    body.red .search_btn a:hover {
+      background: #e62e22;
+    }
+
+    body.black {
+      background: #323232;
+    }
+
+    body.black .light-area .header {
+      background: #323232;
+    }
+
+    body.black .light-area:hover .header {
+      background: #444444;
+    }
+
+    body.black .search_input input {
+      background: #444444;
+      box-shadow: inset 0 2px 2px 0 #1A1A1A, inset 3px 0 3px 0 #151515, inset -3px 0 0 0 #5B5B5B, inset 0 -3px 0 0 #555555;
+    }
+
+    body.black .search_btn a {
+      background: #444444;
+      box-shadow: -2px -2px 1px -1px #5B5B5B, inset 2px 0 1px 0 rgba(91, 91, 91, 0.5), inset 0 2px 1px 0 rgba(91, 91, 91, 0.5), inset 0 -2px 2px 0 #1A1A1A, inset -2px 0 2px 0 #1A1A1A, 3px 2px 2px -1px rgba(0, 0, 0, 0.3);
+    }
+
+    body.black .search_btn a:hover {
+      background: #444444;
+    }
+
+    /* ========== 3. 布局容器样式 ========== */
+    .container-1260 {
+      width: 1260px;
+      margin: 0 auto;
+    }
+
+    /* ========== 4. 头部导航区域 ========== */
+    .light-area {
+      height: 200px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+    }
+
+    .header {
+      height: 59px;
+      background: #3a6ea5;
+      transition: background-color 0.5s ease;
+      min-height: 59px;
+    }
+
+    .light-area:hover .header {
+      background: #689dce;
+    }
+
+    .light-area:hover .header .nav a.guest-only,
+    .light-area:hover .header .nav a.member-only {
+      color: #d9d9d9;
+    }
+
+    .header #nav-container {
+      height: 59px;
+      opacity: 0;
+      transition: opacity 0.35s ease-in-out;
+    }
+
+    .header #nav-container.loaded {
+      opacity: 1;
+    }
+
+    /* ========== 5. 主内容区域 ========== */
+    .main-center {
+      height: 100%;
+      padding: 200px 0 115px;
+    }
+
+    .main-center .main-center-inner {
+      height: 100%;
+      width: 100%;
+      padding-top: 102px;
+    }
+
+    .main-center .down-area {
+      width: 100%;
+      height: 100%;
+    }
+
+    .main-center .down-area-inner {
+      height: 100%;
+      padding-top: 144px;
+    }
+
+    .main-center .search-comment-area {
+      height: 144px;
+      margin-top: -144px;
+    }
+
+    .search-box {
+      overflow: hidden;
+      zoom: 1;
+      padding-left: 331.5px;
+    }
+
+    /* ========== 6. Logo区域 ========== */
+    .main-center .main-center-inner .logo {
+      height: 102px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -webkit-user-drag: none;
+      -khtml-user-drag: none;
+      -moz-user-drag: none;
+      -o-user-drag: none;
+      user-drag: none;
+      pointer-events: none;
+      display: none;
+    }
+
+    .main-center .main-center-inner .logo img {
+      display: block;
+      max-width: 225px;
+      max-height: 89px;
+      margin-left: 442px;
+      margin-top: -102px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -webkit-user-drag: none;
+      -khtml-user-drag: none;
+      -moz-user-drag: none;
+      -o-user-drag: none;
+      user-drag: none;
+      pointer-events: none;
+    }
+
+    .main-center .main-center-inner .logo .logo-text {
+      position: absolute;
+      bottom: 20px;
+      font-size: 12px;
+      color: #B3B2B0;
+      letter-spacing: 6px;
+      transition: left 0.8s ease-out;
+      line-height: 16px;
+    }
+
+    .main-center .main-center-inner .logo .logo-text span {
+      letter-spacing: 6px;
+      line-height: 16px;
+    }
+
+    .main-center .main-center-inner .logo .logo-text span:nth-child(1) {
+      margin-right: 11px;
+    }
+
+    .main-center .main-center-inner .logo .logo-text span:nth-child(2) {
+      margin-right: 11px;
+    }
+
+    .main-center .main-center-inner .logo .logo-text span:nth-child(3) {
+      margin-right: 11px;
+    }
+
+    .main-center .main-center-inner .logo .logo-text .live {
+      color: #FABF00;
+      margin: 0 1px;
+      vertical-align: bottom;
+      display: inline-block;
+      overflow: hidden;
+      line-height: 1;
+      height: 16px;
+      width: 16px;
+      position: relative;
+    }
+
+    .main-center .main-center-inner .logo .logo-text .live span {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    .main-center .main-center-inner .logo .logo-text.start {
+      left: 525px;
+    }
+
+    .main-center .main-center-inner .logo .logo-text.middle {
+      left: 465px;
+    }
+
+    /* 移除margin-right的动画状态 */
+    .main-center .main-center-inner .logo .logo-text.animate-1 span:nth-child(1) {
+      margin-right: 0;
+    }
+
+    .main-center .main-center-inner .logo .logo-text.animate-2 span:nth-child(2) {
+      margin-right: 0;
+    }
+
+    .main-center .main-center-inner .logo .logo-text.animate-3 span:nth-child(3) {
+      margin-right: 0;
+    }
+
+    /* 活字动画关键帧 - 24个阶段，每个阶段0.5秒，总共12秒，完全连续 */
+    @keyframes livePulse {
+      0% {
+        font-size: 12px;
+      }
+
+      12.5% {
+        font-size: 13px;
+      }
+
+      25% {
+        font-size: 14px;
+      }
+
+      37.5% {
+        font-size: 15px;
+      }
+
+      50% {
+        font-size: 16px;
+      }
+
+      62.5% {
+        font-size: 15px;
+      }
+
+      75% {
+        font-size: 14px;
+      }
+
+      87.5% {
+        font-size: 13px;
+      }
+
+      100% {
+        font-size: 12px;
+      }
+    }
+
+
+    .main-center .main-center-inner .logo .logo-text .live.pulse {
+      animation: livePulse 24s ease-in-out infinite;
+    }
+
+    /* ========== 8. 评论导航区域 ========== */
+    .comment-nav {
+      height: 50px;
+      margin: 20px 0;
+      text-align: left;
+      opacity: 0;
+      transition: opacity 0.6s ease;
+      text-align: center;
+    }
+
+    .comment-nav a {
+      color: black;
+      text-decoration: none;
+      line-height: 50px;
+      font-size: 17px;
+      display: inline-block;
+      min-width: 100px;
+      text-align: center;
+      box-sizing: border-box;
+      transition: font-size 0.3s ease, color 0.3s ease;
+      vertical-align: top;
+    }
+
+    .comment-nav a .comment-count {
+      color: #4D206E;
+      transition: font-size 0.3s ease, color 0.3s ease;
+      line-height: 50px;
+      font-size: 15px;
+      vertical-align: 1px;
+      margin-left: 2px;
+    }
+
+    .comment-nav a.active {
+      color: #fff;
+    }
+
+    .comment-nav a:hover {
+      color: #fff;
+      font-size: 19px;
+    }
+
+    .comment-nav a:hover .comment-count {
+      color: #fff;
+      font-size: 17px;
+    }
+
+    .down-area:hover .comment-nav {
+      opacity: 1;
+    }
+
+    /* ========== 9. 公告栏区域 ========== */
+    .notice {
+      background: none;
+      color: #aaa;
+      border-radius: 0;
+      font-size: 16px;
+      line-height: 2em;
+      margin: 0 181.5px;
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    .notice strong {
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    /* ========== 11. Footer容器 ========== */
+    #footer-container {
+      opacity: 0;
+      transform: translateY(15px);
+      transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    }
+
+    #footer-container.loaded {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ========== 12. 动画效果 ========== */
+    /* .main-center .logo {
+      opacity: 0;
+      transform: translateY(35px);
+      transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+    } */
+
+    .main-center .down-area {
+      opacity: 0;
+    }
+
+    .main-center.loaded .logo {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .main-center.loaded .down-area {
+      opacity: 1;
+    }
+
+    /* ========== 13. 登录成功弹窗样式 ========== */
+    .login-success-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: none;
+      z-index: 9999;
+    }
+
+    .login-success-modal.show {
+      display: block;
+    }
+
+    .modal-content {
+      background: #E6F5FF;
+      border: 1px solid #BFBFBF;
+      width: 620px;
+      max-width: 90%;
+      overflow: hidden;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 宋体;
+    }
+
+    .modal-header {
+      background: #3A6EA5;
+      color: white;
+      text-align: center;
+      position: relative;
+      height: 60px;
+      line-height: 60px;
+
+    }
+
+    .modal-header h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: normal;
+      letter-spacing: 8px;
+      font-family: 宋体;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+      padding: 0;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.3s ease;
+    }
+
+    .close-btn:hover {
+      opacity: 0.7;
+    }
+
+    .modal-body {
+      background: #E6F5FF;
+      padding: 28px 24px 30px;
+      text-align: center;
+    }
+
+    .modal-body p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .modal-body p span {
+      letter-spacing: 5px;
+      color: #376092;
+    }
+
+    .welcome-text {
+      color: #BB5E01 !important;
+    }
+
+    .wechat-bind-hint {
+      margin-top: 20px;
+      display: none;
+      text-align: center;
+    }
+
+    .wechat-bind-hint-text {
+      color: #376092;
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+
+    .wechat-bind-qrcode {
+      width: 300px;
+      height: 340px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: visible;
+    }
+
+    .wechat-bind-qrcode iframe {
+      width: 300px;
+      height: 340px;
+      border: none;
+    }
+
+  </style>
+</head>
+
+<body class="default">
+  <!-- 顶部导航 -->
+  <div class="light-area">
+    <div class="header">
+      <div class="container-1260">
+        <!-- 引入导航公共页 -->
+        <div id="nav-container"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 主内容 -->
+  <div class="main-center">
+    <div class="main-center-inner">
+      <!-- 主体搜索区 -->
+      <div class="container-1260 logo">
+        <img src="./images/new3/logo_index.jpg" alt="象形字典logo" />
+        <div class="logo-text start"><span>象</span><span>形</span><span>一</span>下，汉字就<span
+            class="live"><span>活</span></span>了！</div>
+      </div>
+
+      <div class="down-area">
+        <div class="container-1260 down-area-inner">
+          <div class="search-comment-area">
+            <!-- 引入搜索组件 -->
+            <div class="search-box">
+              <div id="search-container"></div>
+            </div>
+
+            <div class="comment-nav">
+              <a href="details/other-comment-all.html?xtype=1">今日评论<span class="comment-count today"></span></a>
+              <a href="details/other-comment-all.html?xtype=2">本周评论<span class="comment-count week"></span></a>
+              <a href="details/other-comment-all.html?xtype=3">当月评论<span class="comment-count month"></span></a>
+              <a href="details/other-comment-all.html?xtype=0">全部评论<span class="comment-count all"></span></a>
+              <a href="details/other-comment-hotSearch.html">热搜网页</a>
+              <a href="details/other-comment-hotComment.html">热评网页</a>
+            </div>
+          </div>
+
+          <div class="notice"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 引入公共footer -->
+  <div id="footer-container"></div>
+
+  <!-- 登录成功弹窗 -->
+  <div id="loginSuccessModal" class="login-success-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="loginSuccessTitle">登录成功！</h3>
+        <button class="close-btn" onclick="closeLoginSuccessModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p><span class="welcome-text"></span><span>象形网欢迎你！</span></p>
+        <div id="wechatBindHint" class="wechat-bind-hint">
+          <div class="wechat-bind-hint-text">您当前未绑定微信，您可以扫码绑定微信，<br />下次登录时可以直接扫码登录</div>
+          <div id="wechatBindQrcode" class="wechat-bind-qrcode"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function getCommonAuthorization() {
+      var loginData = localStorage.getItem('commonLoginData');
+      if (loginData) {
+        var data = JSON.parse(loginData);
+        return 'Bearer ' + (data.token || '');
+      }
+      return '';
+    }
+
+    function getQueryString(name) {
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+      var r = window.location.search.substr(1).match(reg);
+      if (r != null) return unescape(r[2]);
+      return null;
+    }
+
+    // 加载页面内容
+    function loadPageContent() {
+      // 设置首页为激活状态
+      $('.nav a[data-page="home"]').addClass("active");
+
+      // 导航加载完成后，添加loaded类以触发fade-in动画
+      setTimeout(function () {
+        $("#nav-container").addClass("loaded");
+        // 导航显示完成后，再显示主内容
+        setTimeout(function () {
+          $(".main-center").addClass("loaded");
+          // 启动logo文字动画
+          startLogoTextAnimation();
+          // 主内容显示完成后，加载并显示footer
+          $("#footer-container").load("common/footer.html?t=" + Math.random(), function () {
+            // footer加载完成后，添加loaded类以触发显示动画
+            setTimeout(function () {
+              $("#footer-container").addClass("loaded");
+              setTimeout(function () {
+                $("body").css("overflow-y", "visible");
+              }, 1500);
+            }, 10);
+          });
+        }, 140);
+      }, 10);
+    }
+
+    // 启动logo文字动画
+    function startLogoTextAnimation() {
+      const $logoText = $('.logo-text');
+      const $liveSpan = $('.live');
+
+      // 1. 页面打开时已经是start样式（在HTML中设置）
+
+      // 2. 1秒后开始向左移动动画
+      setTimeout(function () {
+        $logoText.removeClass('start').addClass('middle');
+
+        // 3. 向左移动完成后，开始span的margin-right消失动画
+        setTimeout(function () {
+          // 第1个span的margin-right消失
+          $logoText.addClass('animate-1');
+
+          // 1秒后第2个span的margin-right消失
+          setTimeout(function () {
+            $logoText.addClass('animate-2');
+
+            // 再1秒后第3个span的margin-right消失
+            setTimeout(function () {
+              $logoText.addClass('animate-3');
+
+              // 4. 开始"活"字的节拍动画
+              setTimeout(function () {
+                // startLiveAnimation();
+              }, 1000);
+            }, 0);
+          }, 0);
+        }, 0); // 等待向左移动动画完成
+      }, 0);
+    }
+
+    // 启动"活"字的节拍动画
+    function startLiveAnimation() {
+      const $liveSpan = $('.live');
+
+      // 直接添加动画类，CSS中已经设置了infinite循环
+      $liveSpan.addClass('pulse');
+    }
+
+    function getIndexTheme() {
+      apiRequest({
+        url: '/WebPages/GetIndexTheme'
+      }, function (data) {
+        switch (data.model.theme) {
+          case 0:
+            break;
+          case 1:
+            $("body").removeClass("default");
+            $("body").addClass("red");
+            break;
+          case 2:
+            $("body").removeClass("default");
+            $("body").addClass("black");
+            break;
+          default:
+            break;
+        }
+        //临时通告
+        var indexText = data.model.indexText;
+        if (indexText) {
+          $(".notice").html(decodeURI(indexText));
+        }
+      })
+    }
+
+    function showLoginSuccess() {
+
+      var fromPage = sessionStorage.getItem('fromPage');
+      console.log('来源页面:', fromPage);
+
+      // 使用后清除
+      sessionStorage.removeItem('fromPage');
+
+
+      if (fromPage === 'login') {
+        var modal = document.getElementById('loginSuccessModal');
+        if (modal) {
+          var titleEl = document.getElementById('loginSuccessTitle');
+          var loginDataStr = localStorage.getItem('commonLoginData');
+          var loginData = {};
+          if (loginDataStr) {
+            try {
+              loginData = JSON.parse(loginDataStr) || {};
+            } catch (e) {
+              loginData = {};
+            }
+          }
+          var hasBindWechat = Number(loginData.hasBindWechat) === 1;
+          console.log('hasBindWechat===>', hasBindWechat);
+          var isMobile = !window.IsPC || !window.IsPC();
+          console.log('isMobile===>', isMobile);
+
+          resetWechatBindUi();
+          if (titleEl) titleEl.textContent = '登录成功！';
+          $(".welcome-text").text(window.getUserSingleInfo('title') + '，');
+          modal.classList.add('show');
+
+          // 已绑定，或手机端未绑定：保持原有5秒自动关闭
+          if (hasBindWechat || isMobile) {
+            var autoCloseTimer = setTimeout(function () {
+              closeLoginSuccessModal();
+              
+            }, 5000);
+            modal.autoCloseTimer = autoCloseTimer;
+            return;
+          }
+
+          // PC端未绑定：展示扫码绑定区域，并取消自动关闭
+          if (titleEl) titleEl.textContent = '登录成功，推荐您绑定微信';
+          startWechatBindFlow(loginData);
+        }
+      }
+    }
+
+    function resetWechatBindUi() {
+      var hintEl = document.getElementById('wechatBindHint');
+      var qrEl = document.getElementById('wechatBindQrcode');
+      if (hintEl) hintEl.style.display = 'none';
+      if (qrEl) qrEl.innerHTML = '';
+      if (window.__wechatBindPollTimer) {
+        clearInterval(window.__wechatBindPollTimer);
+        window.__wechatBindPollTimer = null;
+      }
+    }
+
+    function startWechatBindFlow(loginData) {
+      var hintEl = document.getElementById('wechatBindHint');
+      var qrEl = document.getElementById('wechatBindQrcode');
+
+      if (!hintEl || !qrEl) return;
+      hintEl.style.display = 'block';
+
+      apiRequest({
+        url: '/WebPages/GetWechatQRCode',
+        method: 'get',
+        data: {
+          redirectPage: 'index'
+        }
+      }, function (data) {
+        if (!data || !data.qrCodeUrl || !data.ticket) {
+          layer.msg('二维码加载失败，请刷新页面后重试');
+          return;
+        }
+
+        var iframe = document.createElement('iframe');
+        iframe.src = data.qrCodeUrl;
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('scrolling', 'no');
+        iframe.setAttribute('allowtransparency', 'true');
+        qrEl.innerHTML = '';
+        qrEl.appendChild(iframe);
+
+        beginWechatBindPolling(data.ticket, loginData);
+      }, function () {
+        layer.msg('二维码加载失败，请刷新页面后重试');
+      }, function (res) {
+        layer.msg((res && res.msg) || '二维码加载失败，请刷新页面后重试');
+      });
+    }
+
+    function beginWechatBindPolling(ticket, loginData) {
+      if (window.__wechatBindPollTimer) {
+        clearInterval(window.__wechatBindPollTimer);
+        window.__wechatBindPollTimer = null;
+      }
+
+      function pollOnce() {
+        apiRequest({
+          url: '/WebPages/CheckWechatLoginStatus',
+          method: 'get',
+          data: { ticket: ticket }
+        }, function (data) {
+          if (!data || !data.status) return;
+          if (data.status === 'expired') {
+            clearInterval(window.__wechatBindPollTimer);
+            window.__wechatBindPollTimer = null;
+            layer.msg('二维码已过期，请刷新页面后重试');
+          } else if (data.status === 'success') {
+            clearInterval(window.__wechatBindPollTimer);
+            window.__wechatBindPollTimer = null;
+            bindWechatForCurrentUser(data, ticket, loginData);
+          }
+        });
+      }
+
+      pollOnce();
+      window.__wechatBindPollTimer = setInterval(pollOnce, 2000);
+    }
+
+    function bindWechatForCurrentUser(scanData, ticket, loginData) {
+      var userSid = loginData && loginData.sid;
+      if (!userSid) {
+        layer.msg('当前用户信息缺失，无法绑定微信');
+        return;
+      }
+
+      var wechatInfo = null;
+      if (scanData && scanData.wechatInfo) {
+        wechatInfo = scanData.wechatInfo;
+      }
+
+      apiRequest({
+        url: '/WebPages/BindWechat',
+        method: 'post',
+        data: JSON.stringify({
+          ticket: (scanData && scanData.ticket) || ticket,
+          userSid: userSid,
+          wechatInfo: wechatInfo
+        }),
+        contentType: 'application/json'
+      }, function () {
+        layer.msg('绑定成功，下次登录时可以直接扫码登录。');
+        try {
+          var loginDataStr = localStorage.getItem('commonLoginData');
+          var latestLoginData = loginDataStr ? JSON.parse(loginDataStr) : {};
+          latestLoginData.hasBindWechat = 1;
+          localStorage.setItem('commonLoginData', JSON.stringify(latestLoginData));
+        } catch (e) {}
+        setTimeout(function () {
+          closeLoginSuccessModal();
+        }, 1200);
+      }, function (error) {
+        layer.msg((error && error.msg) || '绑定失败，请稍后重试');
+      }, function (res) {
+        layer.msg((res && res.msg) || '绑定失败，请稍后重试');
+      });
+    }
+
+    function handleWechatCallbackGuard() {
+      var from = getQueryString('from');
+      // if (from !== 'WechatLoginCallback') return false;
+
+      var loginDataStr = localStorage.getItem('commonLoginData');
+      if (!loginDataStr) return false;
+
+      var loginData = {};
+      try {
+        loginData = JSON.parse(loginDataStr) || {};
+      } catch (e) {
+        return false;
+      }
+
+      var hasBindWechat = Number(loginData.hasBindWechat) === 1;
+      var isMobile = !window.IsPC || !window.IsPC();
+      if (hasBindWechat || isMobile) return false;
+
+      var modal = document.getElementById('loginSuccessModal');
+      var titleEl = document.getElementById('loginSuccessTitle');
+      if (!modal) return false;
+
+      resetWechatBindUi();
+      if (titleEl) titleEl.textContent = '登录成功，推荐您绑定微信';
+      $(".welcome-text").text(window.getUserSingleInfo('title') + '，');
+      modal.classList.add('show');
+
+      var ticket = getQueryString('ticket');
+      if (ticket) {
+        beginWechatBindPolling(ticket, loginData);
+      } else {
+        startWechatBindFlow(loginData);
+      }
+
+      // // 清理URL参数，避免用户刷新后反复触发
+      // try {
+      //   window.history.replaceState({}, document.title, window.location.pathname);
+      // } catch (e) {}
+
+      return true;
+    }
+
+    function closeLoginSuccessModal() {
+      var modal = document.getElementById('loginSuccessModal');
+      if (modal) {
+        modal.classList.remove('show');
+
+        // 清除自动关闭定时器
+        if (modal.autoCloseTimer) {
+          clearTimeout(modal.autoCloseTimer);
+          modal.autoCloseTimer = null;
+        }
+      }
+      resetWechatBindUi();
+    }
+
+    function getCommentCounts() {
+      apiRequest({
+        // url: '/WebPages/GetCommentAllCount'
+        url: '/WebPages/GetCommentAllCountByView'
+      }, function (data) {
+        console.log('data===>', data);
+        var todayCount = data.todayCount;
+        var weekCount = data.weekCount;
+        var monthCount = data.monthCount;
+        var allCount = data.allCount;
+
+        function addWidth(count) {
+          return count ? count.toString().length * 10 : 0;
+        }
+
+        $(".comment-count.today").text(todayCount || '');
+        $(".comment-count.today").parent().css("min-width", 100 + addWidth(todayCount) + "px");
+        $(".comment-count.week").text(weekCount || '');
+        $(".comment-count.week").parent().css("min-width", 100 + addWidth(weekCount) + "px");
+        $(".comment-count.month").text(monthCount || '');
+        $(".comment-count.month").parent().css("min-width", 100 + addWidth(monthCount) + "px");
+        $(".comment-count.all").text(allCount || '');
+        $(".comment-count.all").parent().css("min-width", 100 + addWidth(allCount) + "px");
+      });
+    }
+
+    $(document).ready(function () {
+      // 加载导航公共页
+      $("#nav-container").load("common/nav.html?t=" + Math.random(), loadPageContent);
+
+      // 加载搜索组件
+      $("#search-container").load("common/search.html?t=" + Math.random(), function () {
+        setTimeout(function () {
+          $(".logo").show();
+        }, 200);
+      });
+
+
+      getCommentCounts();
+
+      getIndexTheme();
+
+      handleWechatCallbackGuard();
+      showLoginSuccess();
+    });
+  </script>
+</body>
+
+</html>

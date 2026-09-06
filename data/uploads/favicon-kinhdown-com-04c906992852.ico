@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="referrer" content="no-referrer" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="keywords" content="Kinh,KinhDown,下载器,KinhDown - 下载器" />
+        <meta name="description" content="Kinh,KinhDown,下载器,KinhDown - 下载器" />
+        <title>KinhDown - 下载器</title>
+        <link rel="icon" type="image/x-icon" href="./Logo.png" />
+        <link rel="stylesheet" type="text/css" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-0-M/bootstrap/5.1.3/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" type="text/css" href="./631c92e454d63.css" />
+        <link rel="stylesheet" type="text/css" href="./637834555d197.css" />
+        <link rel="stylesheet" type="text/css" href="./637834573b0fb.css" />
+        <link rel="stylesheet" type="text/css" href="./6378345948099.css" />
+        <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-0-M/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+        <script src="https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js"></script>
+    </head>
+
+    <body class="defult-home">
+        <div class="main-content">
+            <div class="full-width-header">
+                <header class="rs-header header-transparent">
+                    <div class="menu-area menu-sticky">
+                        <div class="container">
+                            <div class="row-table">
+                                <div class="col-cell header-logo">
+                                    <div class="logo-area">
+                                        <a href="./">
+                                            <img class="normal-logo" src="./fe766668445755c7e050194de9b3eaa08406.png" alt="logo" />
+                                            <img class="sticky-logo" src="./fe766668445755c7e050194de9b3eaa08406.png" alt="logo" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-cell">
+                                    <div class="rs-menu-area">
+                                        <div class="main-menu">
+                                            <nav class="rs-menu hidden-md">
+                                                <ul class="nav-menu">
+                                                    <li>
+                                                        <a href="https://kinhdown.kinh.cc/?Type=Tutorial">教程</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="https://kinhdown.kinh.cc/?Type=Group">交流群</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="https://kinhdown.kinh.cc/?Type=TOS">服务条款</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <div class="rs-banner banner-main-home">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="content-wrap">
+                                <h1 class="title">
+                                    Kinh
+                                    <br />
+                                    KinhDown
+                                </h1>
+
+                                <ul>
+                                    <li>
+                                        <a class="readon started" href="https://kinhdown.kinh.cc">开始使用</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="text-right main-img md-text-center">
+                                <img src="./98bbd96b4746d8f10eb158f099e3553f216177.png" alt="Images" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-animate">
+                    <img class="animation-style one scale" src="./e1f8b723d6a8cd4c7dbdbc8b90038532133691.png" alt="Images" />
+                    <img class="animation-style two rotated-style" src="./5d59cc6e82e272897a64fb9bd54d27bf6317.png" alt="Images" />
+                    <img class="animation-style three veritcal" src="https://p2.meituan.net/csc/fabd88322707f1fd1062c1f4106d8d4c2839.png" alt="Images" />
+                    <img class="animation-style four spine" src="./4d27cc02334ecc214f04927e2df9e6462611.png" alt="Images" />
+                    <img class="animation-style five veritcal" src="./f38085af173b9310445722f23115a7aa2229.png" alt="Images" />
+                    <img class="animation-style six veritcal" src="./e32d62234fe7ee256452563a662ef7ab3594.png" alt="Images" />
+                    <img class="animation-style seven rotated-style" src="./65b03498a591ce9f49e225f4f5895f103854.png" alt="Images" />
+                </div>
+            </div>
+
+            <div class="rs-services services-main-home bg1 pt-153 pb-160 md-pt-75 md-pb-80" style="padding-top: 32px; padding-bottom: 32px">
+                <div data-v-4e6b5fa1 data-v-531928ff class="open-staticlistinfocard">
+                    <div data-v-7a5cc990 data-v-4e6b5fa1 class="open-normal-title">
+                        <div data-v-7a5cc990 class="open-normal-title__title">强大功能</div>
+                        <div data-v-7a5cc990 class="open-normal-title__subtitle">极为丰富的扩展功能满足你的需求</div>
+                    </div>
+
+                    <div data-v-4e6b5fa1 class="open-staticlistinfocard__infocard">
+                        <div data-v-4e6b5fa1 class="u-row is-justify-center is-align-middle" style="margin-left: -10px; margin-right: -10px">
+                            <div data-v-4e6b5fa1 class="u-col u-col-6" style="padding-left: 10px; padding-right: 10px">
+                                <div data-v-fb3ac0c6 data-v-4e6b5fa1 class="open-infocard">
+                                    <div data-v-fb3ac0c6 class="open-infocard__image normal undefined" style="background-image: url('./4c3ee817390a2599a783ceee9d28e8c918820.png')"></div>
+                                    <p data-v-fb3ac0c6 class="open-infocard__title">账号管理</p>
+                                    <div data-v-fb3ac0c6 class="open-infocard__content">多个云盘账号进行管理</div>
+                                </div>
+                            </div>
+
+                            <div data-v-4e6b5fa1 class="u-col u-col-6" style="padding-left: 10px; padding-right: 10px">
+                                <div data-v-fb3ac0c6 data-v-4e6b5fa1 class="open-infocard">
+                                    <div data-v-fb3ac0c6 class="open-infocard__image normal undefined" style="background-image: url('./8d1f9554674f2f17875a3686de016faf5954.png')"></div>
+                                    <p data-v-fb3ac0c6 class="open-infocard__title">急速上传</p>
+                                    <div data-v-fb3ac0c6 class="open-infocard__content">不限速高速上传文件</div>
+                                </div>
+                            </div>
+
+                            <div data-v-4e6b5fa1 class="u-col u-col-6" style="padding-left: 10px; padding-right: 10px">
+                                <div data-v-fb3ac0c6 data-v-4e6b5fa1 class="open-infocard">
+                                    <div data-v-fb3ac0c6 class="open-infocard__image normal undefined" style="background-image: url('./29231142ac5ba36174411ec073e3865e19279.png')"></div>
+                                    <p data-v-fb3ac0c6 class="open-infocard__title">随时下载</p>
+                                    <div data-v-fb3ac0c6 class="open-infocard__content">不限速高速下载文件</div>
+                                </div>
+                            </div>
+
+                            <div data-v-4e6b5fa1 class="u-col u-col-6" style="padding-left: 10px; padding-right: 10px">
+                                <div data-v-fb3ac0c6 data-v-4e6b5fa1 class="open-infocard">
+                                    <div data-v-fb3ac0c6 class="open-infocard__image normal undefined" style="background-image: url('./ef24021f7fbb57ecad26718eba10a92318589.png')"></div>
+                                    <p data-v-fb3ac0c6 class="open-infocard__title">资源搜索</p>
+                                    <div data-v-fb3ac0c6 class="open-infocard__content">从多个资源中搜索文件</div>
+                                </div>
+                            </div>
+
+                            <div data-v-4e6b5fa1 class="u-col u-col-6" style="padding-left: 10px; padding-right: 10px">
+                                <div data-v-fb3ac0c6 data-v-4e6b5fa1 class="open-infocard">
+                                    <div data-v-fb3ac0c6 class="open-infocard__image normal undefined" style="background-image: url('./1aaab8cbca9648cc2eac8c81a492ece518732.png')"></div>
+                                    <p data-v-fb3ac0c6 class="open-infocard__title">便捷分享</p>
+                                    <div data-v-fb3ac0c6 class="open-infocard__content">生成无提取码资源分享地址</div>
+                                </div>
+                            </div>
+
+                            <div data-v-4e6b5fa1 class="u-col u-col-6" style="padding-left: 10px; padding-right: 10px">
+                                <div data-v-fb3ac0c6 data-v-4e6b5fa1 class="open-infocard">
+                                    <div data-v-fb3ac0c6 class="open-infocard__image normal undefined" style="background-image: url('./81cfb31f56b5a01178c5c0d9143883aa16203.png')"></div>
+                                    <p data-v-fb3ac0c6 class="open-infocard__title">自在管理</p>
+                                    <div data-v-fb3ac0c6 class="open-infocard__content">多账号之间文件管理操作</div>
+                                </div>
+                            </div>
+
+                            <div data-v-4e6b5fa1 class="u-col u-col-6" style="padding-left: 10px; padding-right: 10px">
+                                <div data-v-fb3ac0c6 data-v-4e6b5fa1 class="open-infocard">
+                                    <div data-v-fb3ac0c6 class="open-infocard__image normal undefined" style="background-image: url('./85834a1486e2edd998109994e2b7a8f217084.png')"></div>
+                                    <p data-v-fb3ac0c6 class="open-infocard__title">音视频点播</p>
+                                    <div data-v-fb3ac0c6 class="open-infocard__content">音视频原画在线播放</div>
+                                </div>
+                            </div>
+
+                            <div data-v-4e6b5fa1 class="u-col u-col-6" style="padding-left: 10px; padding-right: 10px">
+                                <div data-v-fb3ac0c6 data-v-4e6b5fa1 class="open-infocard">
+                                    <div data-v-fb3ac0c6 class="open-infocard__image normal undefined" style="background-image: url('./9da89a8393bb485a586cd6f3ad3c00d215588.png')"></div>
+                                    <p data-v-fb3ac0c6 class="open-infocard__title">实时相册</p>
+                                    <div data-v-fb3ac0c6 class="open-infocard__content">照片原画实时预览</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="rs-footer footer-main-home">
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="bottom-border">
+                        <div class="row y-middle">
+                            <div class="order-last text-center col-lg-6 md-mb-10 text-lg-end">
+                                <ul class="copy-right-menu">
+                                    <li>
+                                        <a href="https://kinh.cc">Kinh</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="text-center copyright text-lg-start">
+                                    <p>Copyright © 2019 - 2023 <a style="font-weight: 600" href="https://kinh.cc">Kinh</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+    <script>
+        $(function () {
+            if (window.location.search.split("Type").length > 1) {
+                window.location.replace(window.location.href.replace(window.location.host, "kinhdown.kinh.cc"));
+            }
+        });
+    </script>
+</html>

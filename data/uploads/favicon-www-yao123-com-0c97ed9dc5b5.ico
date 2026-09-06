@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>登录</title>
+		<style type="text/css">
+			body{
+			max-width: 640px;
+			margin: auto;
+		}
+
+		@media screen and (min-width: 641px) {
+		  .header-bg-text {
+				font-size: 14px;
+				color: #fff;
+				margin-top: 30px;
+				margin-left: 30px;
+			}
+			.user-input {
+				width: 90%;
+				padding: 30px 0;
+				background-color: #fff;
+				margin: 0 auto;
+				box-shadow: 0 0 5px 1px rgba(238, 73, 73, .3);
+				border-radius: 30px;
+				overflow: hidden;
+				margin-top: -35px;
+			}
+			.user-input>div>span {
+				width: 80px;
+				font-size: 14px;
+				color: #646566;
+				flex: none;
+			}
+		}
+
+		@media screen and (max-width: 640px) {
+		  .header-bg-text {
+				font-size: 26px;
+				color: #fff;
+				margin-top: 30px;
+				margin-left: 30px;
+			}
+			.user-input {
+				width: 90%;
+				padding: 30px 0;
+				background-color: #fff;
+				margin: 0 auto;
+				box-shadow: 0 0 5px 1px rgba(238, 73, 73, .3);
+				border-radius: 30px;
+				overflow: hidden;
+				margin-top: -50px;
+			}
+			.user-input>div>span {
+				width: 80px;
+				font-size: 14px;
+				color: #646566;
+				flex: none;
+			}
+		}
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			.header-bg {
+				width: 100%;
+				height: 186px;
+				background-color: #179d8a;
+				padding-top: 1px;
+				box-sizing: border-box;
+			}
+
+			.header-bg-icon {
+				margin-top: 30px;
+				margin-left: 30px;
+				display: flex;
+			}
+
+			.header-bg-icon img {
+				width: 30px;
+			}
+
+			.user-input>div {
+				padding: 12.5px 16px;
+				display: flex;
+				align-items: center;
+			}
+
+			.user-input>div>input {
+				border: none;
+				outline: none;
+				background-color: transparent;
+				color: #323233;
+			}
+
+			.user-input>div>input::placeholder {
+				color: #bfbfbf;
+			}
+
+			.forget {
+				color: #179d8a;
+				margin-top: 30px;
+				text-align: right;
+				margin-right: 30px;
+				display: flex;
+				justify-content: flex-end;
+				font-size: 14px;
+			}
+
+			.login-btn {
+				margin: 16px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: #ffffff;
+				background-color: #179d8a;
+				font-size: 14px;
+				padding: 10px 0;
+				border-radius: 999px;
+			}
+
+			.login-other {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				font-size: 14px;
+			}
+
+			.login-other img {
+				width: 40px;
+			}
+
+			.register {
+				text-align: center;
+				margin-top: 30px;
+				color: #ee4949;
+			}
+			.error{
+				font-size: 14px;
+			    color: red;
+			    text-align: center;
+			    display: block;
+			}
+		</style>
+		<script src="https://drug-images.oss-cn-shanghai.aliyuncs.com/yunyao/js/jquery-3.4.1.min.js" charset="utf-8"></script>
+		<script src="https://drug-images.oss-cn-shanghai.aliyuncs.com/yunyao/js/vue.js?v=20220126" charset="utf-8"></script>
+		<script src="https://drug-images.oss-cn-shanghai.aliyuncs.com/yunyao/js/axios.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header-bg">
+			<!-- <div class="header-bg-icon">
+				<img src="/assets/img/img.png" alt="" />
+			</div> -->
+			<div style="color: #ffffff;font-size: 24PX;margin-left: 30px;margin-top:3%;">国药堂大药房(上海)有限公司</div>
+			<div class="header-bg-text">登录</div>
+		</div>
+		<div class="user-input">
+			<div>
+				<span>登录手机</span>
+				<input placeholder="手机号" type="mobile" name="mobile" id="mobile" value="" required/>
+			</div>
+			<div>
+				<span>密码</span>
+				<input placeholder="请输入密码" type="password" name="password" id="password" value="" required/>
+			</div>
+			<span id="password-error" class="error"></span>
+		</div>
+
+
+		<!-- <div class="forget">
+			<span>忘记密码?</span>
+		</div> -->
+		<div class="login-btn">登录</div>
+		<!-- <div class="login-other">
+			<img src="/assets/img/weixin.png" alt="" />
+			<span>其他登录方式</span>
+		</div> -->
+		<div class="register" >
+			<a href="/gyt/index/register.html" style="display: contents;">注册用户</a>
+		</div>
+		<div class="ptfooter fl w100p">
+		<div><a href="#/platform_qualify" class="">国药堂大药房(上海)有限公司 | 关于我们</a></div> 
+		<div><a href="/assets/img/gyt/yyzz.jpg">营业执照</a></div> 
+		<div><a href="https://beian.miit.gov.cn/#/Integrated/index">ICP备案号：沪ICP备16002394号-1</a></div> 
+		<div><a href="/assets/img/gyt/cert.jpg">药品、医疗器械互联网信息服务备案凭证：沪网药信备字〔2025〕00233号</a></div> 
+		<div><a href="/assets/img/gyt/zzdx.jpg">增值电信业务许可证编号：合字B2-20240308</a></div> 
+		<div><a href="/assets/img/gyt/wljy.jpg">药品网络交易第三方平台备案编号：(沪)网药平台备字(2024)第000003-000号</a></div> 
+		<div><a href="/assets/img/gyt/00042.jpg">医疗器械网络交易服务第三方平台备案编号：(沪)网械平台备字[2025]第00004号</a></div>
+		<div><a href="/assets/img/gyt/c1.png" class="">药品经营许可证编号：沪DA021a00601</a></div> 
+		<div><a href="/assets/img/gyt/c2.png" class="">第二类医疗器械经营备案凭证编号：沪浦药监械经营备20236013号</a></div> 
+		<div><a href="/assets/img/gyt/c3.png" class="">医疗器械经营许可证编号：沪浦药监械经营许20236006号</a></div> 
+
+		<div>
+		联系电话：021-58379769 | <a href="#/consultation" class="">投诉建议
+		</a></div>
+		<div>
+			<img src="https://yao123.com/assets/img/gyt/gytbn.png" style="width: 1.5rem;">
+			<a href="https://beian.mps.gov.cn/#/query/webSearch" rel="noreferrer" target="_blank">沪公网安备31011502403664号</a>
+		</div>
+		</div>
+
+	</body>
+</html>
+<style type="text/css">
+	.ptfooter{
+		padding-bottom:6rem;
+		background:white;
+		padding-top: 3rem;
+	}
+	
+	.ptfooter a{
+		color: black;
+	}
+	 .ptfooter>div {
+            text-align: center;
+            font-size: 12px;
+            line-height: 1.5em;
+            margin: 2px 10px;
+			color: #333;
+        }
+		.ptfooter>div:nth-child(1){
+			font-size: 13px;
+		}
+
+	.knowBtn {
+		background: #1ed9b4;
+		border-radius: 2rem;
+		padding-left: 8rem;
+		padding-right: 8rem;
+	}
+	.animates {
+		transform: translateY(0);
+		transition: transform 1s;
+	}
+	
+	.wordsLoop {
+		height: 5rem;
+	}
+	
+	.workwx_staff_qrcode{
+		position:absolute;
+		z-index:5;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		background-color: rgba(0,0,0,0.6);
+	}
+	.workwx_staff_qrcode>img{
+		position:absolute;
+		top:50%;
+		left:50%;
+		width:70%;
+		height:auto;
+		transform: translate(-50%,-50%);
+	}
+
+	.bind-mobile{
+		position: absolute;
+		top: 0;
+		background: #ffffff;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		z-index: 100;
+		text-align:center;
+	}
+	.bind-mobile-button{
+		display:inline-block;
+		background-color: #1ed9b4;
+		color:white;
+		padding:1rem 2rem;
+		border-radius: 0.5rem;
+	}
+	.commondrug-enter{	
+		text-align: center;
+		font-size: 15px;
+		line-height: 30px;
+		color: white;
+		background: #67beb2;
+	}
+	.swiper_bg_pagination{
+		display: flex;
+		justify-content: center;
+		padding: 5px 0;
+	}
+	.tgSwiper{
+		height: 1em;
+		line-height: 1.4rem;
+		overflow: hidden;
+	}
+	.tgSwipe .swiper-slide{
+		height: 1em;
+	}
+	.swiper_boutique .boutique_list:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+</style>
+<script>
+// 首先，确保你的页面已经加载了jQuery库
+$(document).ready(function() {
+    // 使用click方法监听所有class为'tab'的元素的点击事件
+    $('.login-btn').click(function() {
+        // 阻止默认的点击行为（例如，如果这是一个链接，阻止它打开一个新页面）
+        event.preventDefault();
+
+        var mobile = $("#mobile").val();
+        var password = $("#password").val();
+
+        var regex = /^1[3-9]\d{9}$/;
+        if (!regex.test(mobile)) {
+            // 如果手机号格式不正确，显示错误信息
+            $('#password-error').text('请输入有效的手机号！');
+            return false; // 阻止表单提交
+        }
+
+        // 定义正则表达式，匹配8-20位的大小写字母
+        var regex = /^[A-Za-z0-9]{8,20}$/;
+
+        // 使用正则表达式验证密码
+        if (regex.test(password)) {
+            //  密码格式正确 清除之前的错误消息
+            $('#password-error').text('');
+        } else {
+            // 密码格式不正确
+            // 显示错误消息
+            $('#password-error').text('密码错误');
+            return false; // 阻止表单提交
+        }
+
+        //发送AJAX请求
+        $.ajax({
+            url: '/gyt/index/login',  
+            type: 'POST',
+            data: {  // 在这里填写你需要发送的数据
+                mobile:mobile,
+                password:password,
+            },
+            success: function(response) {
+                //在这里处理服务器返回的响应
+                //'response'变量将包含服务器的响应
+                console.log(response);
+                if(response.status == 200){
+                	window.location.href = response.msg;
+                }else{
+                	$('#password-error').text(response.msg);
+                }
+            },
+            error: function(error) {
+                // 在这里处理请求失败的情况
+                console.log('Error:', error);
+            }
+        });
+    });
+});
+</script>

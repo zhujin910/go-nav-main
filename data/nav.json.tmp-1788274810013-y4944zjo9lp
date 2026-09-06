@@ -1,0 +1,364 @@
+{
+  "title": "PYP导航",
+  "name": "PYP导航",
+  "description": "提供优质网站入口、在线工具、学习资源和本地服务导航，帮助用户快速查找所需内容，提升使用效率",
+  "keywords": [
+    "网址导航站",
+    "导航站",
+    "网址导航",
+    "个人导航",
+    "网站入口",
+    "工具导航",
+    "本地服务",
+    "资源网站",
+    "学习资源"
+  ],
+  "logo": "/uploads/logo-eeaaex.png",
+  "favicon": "/uploads/favicon-jws7uf.png",
+  "author": "zj",
+  "copyright": "版权所有 © 2026 GOTAB. 保留所有权利",
+  "icp": "豫ICP备2023009053号-6",
+  "beian": "豫公网安备41072402001147号",
+  "qrCode": "https://www.gotab.cn/images/wx.webp",
+  "qrCodeText": "微信扫一扫",
+  "footerLinks": [
+    {
+      "label": "GOTAB 官网",
+      "href": "https://www.gotab.cn"
+    },
+    {
+      "label": "作者 GitHub",
+      "href": "https://github.com/dengxiwang/go-nav"
+    },
+    {
+      "label": " GoTab 新标签页",
+      "href": "https://web.gotab.cn"
+    },
+    {
+      "label": "博客",
+      "href": "https://blog.gotab.cn"
+    }
+  ],
+  "themeMode": "light",
+  "search": {
+    "defaultEngine": "local",
+    "enableLocalSearch": true,
+    "showEngineSelector": true,
+    "enableSuggestion": true,
+    "enableTabFocus": true,
+    "placeholder": "搜索网站或直接按 Enter 通过外部引擎搜索...",
+    "engines": [
+      {
+        "id": "baidu",
+        "name": "百度",
+        "icon": "/images/baidu.svg",
+        "url": "https://www.baidu.com/s?wd={query}&tn=68018901_11_oem_dg"
+      },
+      {
+        "id": "bing",
+        "name": "必应",
+        "icon": "/images/bing.svg",
+        "url": "https://www.bing.com/search?q={query}"
+      },
+      {
+        "id": "google",
+        "name": "谷歌",
+        "icon": "/images/google.svg",
+        "url": "https://www.google.com/search?q={query}"
+      }
+    ]
+  },
+  "ads": [
+    {
+      "id": "ad-1778577116508",
+      "title": "雨云服务器",
+      "description": "",
+      "image": "https://blog.gotab.cn/upload/rainyun_ad.webp",
+      "url": "https://www.rainyun.com/gotab_",
+      "enabled": true
+    },
+    {
+      "id": "ad-1784451057682",
+      "title": "云服务器首购优惠",
+      "description": "云服务器、云数据库、COS、CDN、短信等云产品特惠热卖中",
+      "image": "/uploads/home-ad-vjwbzt.png",
+      "url": "https://www.rainyun.com/gotab_",
+      "enabled": true,
+      "placement": "home-top"
+    },
+    {
+      "id": "ad-1784455424365",
+      "title": "必应搜索积分兑换福利",
+      "description": "欢迎使用 Microsoft Rewards，你可以在其中赚取积分、兑换礼品卡等",
+      "image": "/uploads/home-ad-h47yxm.png",
+      "url": "https://rewards.bing.com/welcome?rh=F4889091&ref=rafsrchae",
+      "enabled": true,
+      "placement": "home-top"
+    },
+    {
+      "id": "ad-1784455091300",
+      "title": "领券中心",
+      "description": "领取优惠券，购物更优惠！",
+      "image": "/uploads/home-ad-5ulsl3.png",
+      "url": "https://s.click.taobao.com/a0cbkBk",
+      "enabled": true,
+      "placement": "home-top"
+    }
+  ],
+  "plugins": [
+    {
+      "id": "plugin-1787568213500-2m6h",
+      "name": "SUSTech 镜像站 preconnect",
+      "enabled": true,
+      "description": "在 head 预先建立 mirrors.sustech.edu.cn 连接",
+      "type": "resource-hint",
+      "code": "",
+      "loading": "sync",
+      "href": "https://mirrors.sustech.edu.cn",
+      "src": "",
+      "resourceHintRel": "preconnect",
+      "crossOrigin": "anonymous"
+    },
+    {
+      "id": "plugin-1787568215888-4qmr",
+      "name": "SUSTech 镜像站 dns-prefetch",
+      "enabled": true,
+      "description": "在 head 为 mirrors.sustech.edu.cn 提前做 DNS 解析",
+      "type": "resource-hint",
+      "code": "",
+      "loading": "sync",
+      "href": "https://mirrors.sustech.edu.cn",
+      "src": "",
+      "resourceHintRel": "dns-prefetch",
+      "crossOrigin": ""
+    },
+    {
+      "id": "plugin-1787568217178-r57l",
+      "name": "Quicklink 链接预加载",
+      "enabled": true,
+      "description": "页面加载后为可见链接启用 quicklink 预加载",
+      "type": "external-script",
+      "code": "window.addEventListener('load', () => {\n\tquicklink.listen();\n});",
+      "loading": "defer",
+      "href": "",
+      "src": "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/quicklink/3.0.1/quicklink.umd.min.js",
+      "crossOrigin": "anonymous"
+    },
+    {
+      "id": "plugin-1787568604601-qzfg",
+      "name": "新插件",
+      "enabled": true,
+      "description": "",
+      "type": "js",
+      "code": "const clockDiv = document.createElement('div');\nclockDiv.className = \"my-clock-widget\";\nclockDiv.innerHTML = `<div class=\"my-clock-time\"></div><div class=\"my-clock-week\"></div>`;\ndocument.body.appendChild(clockDiv);\n\nconst weekArr = [\"星期日\",\"星期一\",\"星期二\",\"星期三\",\"星期四\",\"星期五\",\"星期六\"];\n\nfunction updateClock(){\n  const now = new Date();\n  const h = String(now.getHours()).padStart(2,'0');\n  const m = String(now.getMinutes()).padStart(2,'0');\n  const s = String(now.getSeconds()).padStart(2,'0');\n  const week = weekArr[now.getDay()];\n  clockDiv.querySelector('.my-clock-time').innerText = `${h}:${m}:${s}`;\n  clockDiv.querySelector('.my-clock-week').innerText = week;\n}\nupdateClock();\nsetInterval(updateClock,1000);\n",
+      "loading": "defer",
+      "href": "",
+      "src": "",
+      "crossOrigin": ""
+    }
+  ],
+  "layout": {
+    "maxWidth": "1400",
+    "showFooter": true,
+    "showFooterQrCode": true,
+    "showFloatingQrCode": true,
+    "showFloatingActions": true,
+    "defaultIconPadding": "8",
+    "linkTarget": "new",
+    "categoryListStyle": "outline",
+    "pageLayoutStyle": "airy",
+    "searchBarStyle": "pill",
+    "homeTheme": "editorial"
+  },
+  "adsAspectRatio": "4/3",
+  "homeAdsAspectRatio": "16/9",
+  "submission": {
+    "enabled": true,
+    "showFloatingButton": true,
+    "showSidebarButton": true,
+    "staticEmail": "dengxiwang@aliyun.com"
+  },
+  "sidebarAdsEnabled": true,
+  "homeAdsEnabled": true,
+  "carousel": [
+    {
+      "id": "1787324814555",
+      "title": "安全",
+      "desc": "",
+      "image": "https://www.zlxapp.top/douban/image?u=aHR0cHM6Ly9pbWcxLmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL21fcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDU0MTA1MC5qcGc&r=db&sig=d6dc3724c25339460dc735b888d7b93557eda8da",
+      "link": "www.zlxapp.top",
+      "enable": true
+    },
+    {
+      "id": "1787324973036",
+      "title": "安师大",
+      "desc": "",
+      "image": "https://www.zlxapp.top/douban/image?u=aHR0cHM6Ly9pbWc5LmRvdWJhbmlvLmNvbS92aWV3L3Bob3RvL21fcmF0aW9fcG9zdGVyL3B1YmxpYy9wMjkzNDQ4ODU2Ni5qcGc&r=db&sig=8c8615c30797fd7f24c0991e4c240f805b438773",
+      "link": "www.zlzyz.top",
+      "enable": true
+    }
+  ],
+  "customColors": {
+    "primary": "#0072f5",
+    "secondary": "#6366f1",
+    "background": "#ffffff",
+    "cardBg": "#f8fafc",
+    "text": "#1e293b",
+    "textSecondary": "#64748b"
+  },
+  "linkCheck": {
+    "enabled": true,
+    "timeout": 8000,
+    "concurrency": 3,
+    "showBrokenBadge": true
+  },
+  "customThemes": [],
+  "rssSources": [],
+  "aiRecommendEnable": false,
+  "aiApiKey": "",
+  "aiApiBase": "https://api.openai.com/v1",
+  "aiModel": "gpt-3.5-turbo",
+  "aiRecommend": {
+    "enabled": true,
+    "title": "为你推荐",
+    "count": 6,
+    "algorithm": "hybrid",
+    "showOnHome": true,
+    "coldStartUrls": []
+  },
+  "customTheme": {
+    "activeTheme": "vibrant-orange",
+    "showThemeSwitcher": true,
+    "enabledThemes": []
+  },
+  "newsAggregation": {
+    "enabled": false,
+    "showOnHome": true,
+    "homeCount": 6,
+    "title": "最新资讯",
+    "refreshInterval": 30,
+    "layout": "card",
+    "sources": [
+      {
+        "id": "hacker-news",
+        "name": "Hacker News",
+        "url": "https://hnrss.org/frontpage",
+        "icon": "火",
+        "category": "科技",
+        "enabled": true
+      },
+      {
+        "id": "product-hunt",
+        "name": "Product Hunt",
+        "url": "https://www.producthunt.com/feed",
+        "icon": "火箭",
+        "category": "产品",
+        "enabled": true
+      },
+      {
+        "id": "dev-to",
+        "name": "DEV Community",
+        "url": "https://dev.to/feed",
+        "icon": "开发",
+        "category": "开发",
+        "enabled": true
+      }
+    ]
+  },
+  "heroBanner": {
+    "enabled": true,
+    "height": "320px",
+    "autoplayInterval": 5000,
+    "slides": [
+      {
+        "id": "hero-1",
+        "title": "欢迎使用 Go Nav",
+        "description": "简洁高效的网址导航站，支持多种部署方式",
+        "image": "https://picsum.photos/1200/400?random=1",
+        "url": "https://github.com/dengxiwang/go-nav",
+        "buttonText": "了解更多",
+        "textColor": "light",
+        "overlay": 0.4,
+        "enabled": true,
+        "sort": 1,
+        "analytics": {
+          "enabled": true,
+          "retentionDays": 90,
+          "showDashboard": true
+        }
+      },
+      {
+        "id": "hero-2",
+        "title": "精选工具推荐",
+        "description": "收录海量优质网站，提升你的工作效率",
+        "image": "https://picsum.photos/1200/400?random=2",
+        "url": "",
+        "buttonText": "",
+        "textColor": "light",
+        "overlay": 0.3,
+        "enabled": true,
+        "sort": 2
+      },
+      {
+        "id": "hero-3",
+        "title": "完全开源免费",
+        "description": "基于 MIT 协议开源，可自由使用、修改和商用",
+        "image": "https://picsum.photos/1200/400?random=3",
+        "url": "https://github.com/dengxiwang/go-nav",
+        "buttonText": "GitHub 仓库",
+        "textColor": "dark",
+        "overlay": 0.2,
+        "enabled": true,
+        "sort": 3
+      }
+    ]
+  },
+  "accessProtection": {
+    "enabled": false
+  },
+  "aiChat": {
+    "apiBase": "https://api.siliconflow.cn/v1",
+    "apiKey": "sk-nfifgmjgkyjbmkfwevbrtuuspbqglckosesllqsfaithjevf",
+    "enabled": true,
+    "webUrls": [
+      "www.zlxapp.top"
+    ],
+    "model": "deepseek-ai/DeepSeek-V4-Flash"
+  },
+  "widgets": {
+    "showClock": true,
+    "showWorldClock": false,
+    "showCountdown": false,
+    "showYearProgress": false,
+    "showWorkProgress": false,
+    "showPomodoro": false,
+    "showCalendar": false,
+    "showQuote": false,
+    "showWeather": false,
+    "showNotes": false,
+    "showHotSearch": false,
+    "showTodo": false,
+    "showQrCode": false,
+    "showCounter": false,
+    "showCalculator": false,
+    "enabled": true,
+    "showHolidays": false,
+    "gap": "spacious",
+    "sizes": {
+      "showClock": "small",
+      "showQrCode": "small"
+    },
+    "columns": 1,
+    "position": "sidebar"
+  },
+  "seo": {
+    "canonical": "https://pyyp.top",
+    "title": "PYP资源导航网站 - 优质网站入口与工具资源导航",
+    "description": "收录优质网站、在线工具和常用资源，帮助用户快速发现所需内容。"
+  },
+  "geo": {
+    "region": "广东",
+    "city": "广州",
+    "placename": "PYP导航"
+  }
+}

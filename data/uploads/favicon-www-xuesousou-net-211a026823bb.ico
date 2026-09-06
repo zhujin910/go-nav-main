@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<!-- Meta data -->
+	<meta charset="UTF-8">
+
+	<title>首页 - 搜元素</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Favicon  -->
+	<link rel="icon" href="https://shanghai-1301303154.file.myqcloud.com/static/images/brand/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" type="image/x-icon" href="https://shanghai-1301303154.file.myqcloud.com/static/images/brand/favicon.ico" />
+
+
+
+	<!-- Bootstrap css -->
+	<link href="https://shanghai-1301303154.file.myqcloud.com/static/plugins/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+
+	<!-- Style css -->
+	<link href="https://shanghai-1301303154.file.myqcloud.com/static/css/style.css" rel="stylesheet" />
+	<link href="https://shanghai-1301303154.file.myqcloud.com/static/css/resources.css" rel="stylesheet" />
+	<link href="https://shanghai-1301303154.file.myqcloud.com/static/css/skin-modes.css" rel="stylesheet" />
+
+	<!-- Font-awesome  css -->
+	<link href="https://shanghai-1301303154.file.myqcloud.com/static/css/icons.css" rel="stylesheet"/>
+
+	<!--Select2 css -->
+	<link href="https://shanghai-1301303154.file.myqcloud.com/static/plugins/select2/select2.min.css" rel="stylesheet" />
+
+
+	<!-- Owl Theme css-->
+	<link href="https://shanghai-1301303154.file.myqcloud.com/static/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
+
+	<!-- Custom scroll bar css-->
+	<link href="https://shanghai-1301303154.file.myqcloud.com/static/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
+
+	<!-- Auto Complete css -->
+	<link href="https://shanghai-1301303154.file.myqcloud.com/static/plugins/autocomplete/jquery.autocomplete.css" rel="stylesheet">
+
+	<!--Image-tooltip css-->
+	<link href="https://shanghai-1301303154.file.myqcloud.com/static/plugins/image-tooltip/image-tooltip.css" rel="stylesheet" />
+
+	<!-- Color Skin css -->
+	<link id="theme" rel="stylesheet" type="text/css" media="all" href="https://shanghai-1301303154.file.myqcloud.com/static/color-skins/color6.css" />
+
+</head>
+
+<body class="headerstyle1">
+
+
+<!--Section-->
+<div class="banner-1 cover-image bg-background2" data-image-src="https://shanghai-1301303154.file.myqcloud.com/static/images/banners/banner2.jpg">
+
+	<!--Topbar-->
+	<div class="header-main">
+
+		<!--Header-->
+		<div class="header-logo-pc">
+			<header class="header-search header-logosec p-2 header-icons">
+				<div class="container">
+					<div class="d-flex">
+						<div class="header-search-logo d-none d-lg-block">
+							<a class="header-logo header-brand-img" href="/"></a>
+						</div>
+
+					</div>
+				</div>
+			</header><!--/Header-->
+		</div>
+
+		<!-- Mobile Header -->
+		<div class="horizontal-header clearfix ">
+			<div class="container">
+				<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
+				<span class="smllogo"><img src="https://shanghai-1301303154.file.myqcloud.com/static/images/brand/logo1.png" width="120" alt="img"/></span>
+				<span class="smllogo-white"><img src="https://shanghai-1301303154.file.myqcloud.com/static/images/brand/logo.png" width="120" alt="img"/></span>
+			</div>
+		</div>
+		<!-- /Mobile Header -->
+
+		<!--Horizontal-main -->
+		<div class="header-style horizontal-main bg-dark-transparent clearfix">
+			<div class="horizontal-mainwrapper container clearfix">
+				<nav class="horizontalMenu clearfix d-md-flex">
+					<ul class="horizontalMenu-list">
+						<li aria-haspopup="true"><a href="/">主页 <span class="fe fe-chevron-down"></span></a>
+							<ul class="sub-menu">
+								<li><a href="https://www.souyuansu.com/search">全部资源</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=featured">精选素材</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=graphics">图形</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=vector">矢量</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=psd">PSD</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=png">PNG</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=graphic-templates">图形模板</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=video">视频</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=web-templates">网站模板</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=templates">设计模板</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=ui-kits">UI素材</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=icons">图标</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=presentation-templates">PPT模板</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=mockups">样机</a></li>
+								<li><a href="https://www.souyuansu.com/search?type=illustrations">插画</a></li>
+							</ul>
+						</li>
+
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=featured">精选素材</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=graphics">图形</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=vector">矢量</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=psd">PSD</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=png">PNG</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=graphic-templates">图形模板</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=video">视频</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=web-templates">网站模板</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=templates">设计模板</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=ui-kits">UI素材</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=icons">图标</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=presentation-templates">PPT模板</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=mockups">样机</a></li>
+						<li aria-haspopup="true"><a href="https://www.souyuansu.com/search?type=illustrations">插画</a></li>
+					</ul>
+
+				</nav>
+			</div>
+		</div>
+	</div><!--/Horizontal-main -->
+
+	<!--Section-->
+
+
+
+	<!--Section-->
+	<section>
+		<div class="sptb-4 sptb-tab">
+			<div class="header-text mb-0">
+				<div class="container">
+					<div class="text-center text-white mb-6">
+						<h1 class="mb-1">素材免费下载网站</h1>
+						<p>优质的设计元素和素材，将您的创意实现</p>
+					</div>
+					<div class="row">
+						<div class="col-xl-10 col-lg-12 col-md-12 d-block mx-auto">
+							<div class="search-background bg-transparent typewrite-text">
+								<div class="row">
+									<div class="col-xl-10 col-lg-12 col-md-12 d-block mx-auto">
+										<form action="search" method="get">
+											<div class="form row no-gutters ">
+												<div class="form-group col-xl-6 col-lg-6 col-md-12 br-tl-3 br-bl-3 mb-0 bg-white">
+													<input type="text" class="form-control input-lg keywords-input" id="text4" placeholder="搜索您想要的内容..." name="name">
+												</div>
+												<div class="form-group col-xl-4 col-lg-3 col-md-12 mb-0 bg-white select2-lg">
+													<select class="form-control select2-show-search  border-bottom-0" data-placeholder="选择分类" name="type">
+														<option value="all">全部资源</option>
+														<option value="graphics">图形</option>
+														<option value="vector">矢量</option>
+														<option value="psd">PSD</option>
+														<option value="png">PNG</option>
+														<option value="graphic-templates">图形模板</option>
+														<option value="video">视频</option>
+														<option value="web-templates">网站模板</option>
+														<option value="templates">设计模板</option>
+														<option value="presentation-templates">PPT模板</option>
+														<option value="icons">图标</option>
+														<option value="ui-kits">UI素材</option>
+														<option value="mockups">样机</option>
+														<option value="themes">主题模板</option>
+														<option value="video-templates">视频模板</option>
+														<option value="3d">3D</option>
+														<option value="lottie">Lottie</option>
+													</select>
+												</div>
+												<div class="col-xl-2 col-lg-3 col-md-12 mb-0">
+													<button type="submit" class="btn ripple  btn-lg btn-block btn-secondary br-tl-md-0 br-bl-md-0">搜索</button>
+												</div>
+											</div>
+										</form>
+									</div>
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- /header-text -->
+		</div>
+	</section><!--/Section-->
+
+
+</div><!--/Section-->
+
+
+
+<section class="sptb bg-white Category">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=graphics"></a>
+							<div class="item-card-img">
+								<img src="https://v1.img.lesunet.qinbaowei.com/coverImage/203/5347e9e7-792d-4dc0-85e1-b5a8eb87475d.jpg" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">图形</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=vector"></a>
+							<div class="item-card-img">
+								<img src="https://shanghai-1301303154.file.myqcloud.com/coverImage/003/2209222031590350000.jpg" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">矢量</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=psd"></a>
+							<div class="item-card-img">
+								<img src="https://v1.img.lesunet.qinbaowei.com/coverImage/200/1d60887b-f2cc-4aef-ba7a-e176e7469833.jpg" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">PSD</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=graphic-templates"></a>
+							<div class="item-card-img">
+								<img src="https://v1.img.lesunet.qinbaowei.com/coverImage/200/28a5fc0b-a177-4731-bf17-c6a959a0edf2.jpg" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">图形模板</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=video"></a>
+							<div class="item-card-img">
+								<img src="https://v1.img.lesunet.qinbaowei.com/coverImage/213/23040109/95ba7084-d516-47fb-8d2b-091663fb9e79.jpg" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">高清视频</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=web-templates"></a>
+							<div class="item-card-img">
+								<img src="https://shanghai-1301303154.file.myqcloud.com/coverImage/003/2209230459499910000.jpe" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">网站模板</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=templates"></a>
+							<div class="item-card-img">
+								<img src="https://v1.img.lesunet.qinbaowei.com/coverImage/200/79a4b567-15c7-452c-b8e6-7a5e6cd5ebd4.jpg" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">设计模板</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=ui-kits"></a>
+							<div class="item-card-img">
+								<img src="https://v1.img.lesunet.qinbaowei.com/coverImage/200/b8029893-52c5-4f80-bfe7-f90e962aad6a.jpg" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">UI素材</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=mockups"></a>
+							<div class="item-card-img">
+								<img src="https://v1.img.lesunet.qinbaowei.com/coverImage/200/a30038f7-b64c-499c-920c-79671a0adb74.jpg" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">样机</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=icons"></a>
+							<div class="item-card-img">
+								<img src="https://v1.img.lesunet.qinbaowei.com/coverImage/203/a1077323-78df-4852-b760-ad2d223b033e.png" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">图标</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=presentation-templates"></a>
+							<div class="item-card-img">
+								<img src="https://v1.img.lesunet.qinbaowei.com/coverImage/204/13367be2-c39d-431b-977b-330f23a685d0.jpg" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">PPT模板</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3  col-md-6">
+				<div class="card">
+					<div class="item-card">
+						<div class="item-card-desc">
+							<a href="search?type=video-templates"></a>
+							<div class="item-card-img">
+								<img src="https://v1.img.lesunet.qinbaowei.com/coverImage/213/23040119/2627e89b-5b45-4a0d-b574-18bd4ca3f670.jpg" alt="img" class="">
+							</div>
+							<div class="item-card-text">
+								<h4 class="mb-0">视频模板</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!--
+<section class="sptb bg-white">
+	<div class="container">
+		<div class="section-title center-block text-center">
+			<h2>打破常规,创造无限可能</h2>
+			<p>查找最新的素材，激发你的设计灵感</p>
+		</div>
+		<div class="item-all-cat center-block text-center">
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<div class="card mb-lg-0 service-widgets">
+						<div class="p-4">
+							<div class="status-info text-center">
+								<div class="icon-service3 bg-primary-transparent text-center mb-4">
+									<i class="las la-anchor la-3x text-primary"></i>
+								</div>
+								<h3 class="mt-2 mb-2">提供高质量的素材</h3>
+								<p class="text-muted mb-0">在这个创意无限的世界里，寻找合适的优质素材就像是在无边的海洋中航行</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card mb-lg-0 service-widgets">
+						<div class="p-4">
+							<div class="status-info text-center">
+								<div class="icon-service3 bg-secondary-transparent text-center mb-4">
+									<i class="las la-fill-drip la-3x text-secondary"></i>
+								</div>
+								<h3 class="mt-2 mb-2">每天都有新鲜内容</h3>
+								<p class="text-muted mb-0">我们的图库每天都会更新，因此您可以找到最新、最时尚的照片和设计素材</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="card service-widgets">
+						<div class="p-4">
+							<div class="status-info text-center">
+								<div class="icon-service3 bg-info-transparent text-center mb-4">
+									<i class="las la-headset la-3x text-info"></i>
+								</div>
+								<h3 class="mt-2 mb-2">24/7 支持下载</h3>
+								<p class="text-muted mb-0">全天都可以下载，保证稳定的下载服务，在过去的几年里，我们一直在努力工作</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section>
+	<div class="about-1 cover-image sptb bg-background-color" data-image-src="../assets/images/banners/banner5.jpg" style="background: url(&quot;../assets/images/banners/banner5.jpg&quot;) center center;">
+		<div class="content-text mb-0 text-white info">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-lg-3 col-md-6">
+						<div class="counter-status md-mb-0">
+							<div class="counter-icon">
+								<i class="fe fe-codepen"></i>
+							</div>
+							<h5 class="font-weight-normal">素材量</h5>
+							<h2 class="counter mb-0">12000000</h2>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="counter-status status-1 md-mb-0">
+							<div class="counter-icon text-warning">
+								<i class="fe fe-download"></i>
+							</div>
+							<h5 class="font-weight-normal">下载量</h5>
+							<h2 class="counter mb-0">1300000</h2>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="counter-status status md-mb-0">
+							<div class="counter-icon text-primary">
+								<i class="fe fe-users"></i>
+							</div>
+							<h5 class="font-weight-normal">会员数</h5>
+							<h2 class="counter mb-0">50000</h2>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="counter-status status">
+							<div class="counter-icon text-success">
+								<i class="icon icon-emotsmile"></i>
+							</div>
+							<h5 class="font-weight-normal">在线天数</h5>
+							<h2 class="counter mb-0">600</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+-->
+
+
+<section class="sptb bg-white border-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 col-xl-6 col-md-12">
+				<div class="sub-newsletter">
+					<h3 class="mb-2 fs-20"><i class="fa fa-paper-plane-o mr-2"></i>找到适合您的资源</h3>
+					<p class="mb-0">通过优质的设计元素、素材和资源将您的想法付诸实践</p>
+				</div>
+			</div>
+			<div class="col-lg-5 col-xl-6 col-md-12">
+				<form action="/search" method="get">
+					<div class="input-group sub-input mt-1">
+						<input type="text" class="form-control input-lg " placeholder="请输入搜索关键字" name="name">
+						<div class="input-group-append ">
+							<button type="submit" class="btn ripple  btn-primary btn-lg br-tr-3  br-br-3">
+								搜索
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--Footer Section-->
+<section>
+	<footer class="bg-white footer-style2">
+
+		<div class="p-0 border-bottom bg-light">
+			<div class="container">
+				<div class="p-2 text-center footer-links">
+					<a href="https://www.souyuansu.com/search?type=graphics" class="btn ripple  btn-link text-default">图形素材</a>
+					<a href="https://www.souyuansu.com/search?type=graphic-templates" class="btn ripple  btn-link text-default">图形模板</a>
+					<a href="https://www.souyuansu.com/search?type=web-templates" class="btn ripple  btn-link text-default">网站模板</a>
+					<a href="https://www.souyuansu.com/search?type=ui-kits" class="btn ripple  btn-link text-default">UI素材</a>
+					<a href="https://www.souyuansu.com/search?type=video" class="btn ripple  btn-link text-default">视频素材</a>
+					<a href="https://www.souyuansu.com/search?type=vector" class="btn ripple  btn-link text-default">矢量素材</a>
+					<a href="https://www.souyuansu.com/search?type=templates" class="btn ripple  btn-link text-default">设计模板</a>
+				</div>
+			</div>
+		</div>
+		<div class="p-0 bg-light text-muted">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-lg-12 col-sm-12  mt-3 mb-3 text-center ">
+						Copyright © 2022 <a href="http://www.souyuansu.com/" class="fs-14 text-primary">搜元素</a> 版权所有.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</section>
+
+<!--Footer Section-->
+
+<!-- Back to top -->
+<a href="#top" id="back-to-top" ><i class="fa fa-long-arrow-up"></i></a>
+
+<!-- JQuery js-->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/js/jquery-3.2.1.min.js"></script>
+
+<!-- Bootstrap js -->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/bootstrap-4.3.1/js/popper.min.js"></script>
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+
+<!--JQuery IT Itemsrkline js-->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/js/jquery.sparkline.min.js"></script>
+
+<!-- Circle Progress js-->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/js/circle-progress.min.js"></script>
+
+<!-- Star Rating js-->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/rating/jquery.rating-stars.js"></script>
+
+<!--Owl Carousel js -->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/owl-carousel/owl.carousel.js"></script>
+
+<!--Horizontal Menu js-->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/horizontal-menu/horizontal-menu.js"></script>
+
+<!--Counters -->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/counters/counterup.min.js"></script>
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/counters/waypoints.min.js"></script>
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/counters/numeric-counter.js"></script>
+
+<!--JQuery TouchSwipe js-->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/js/jquery.touchSwipe.min.js"></script>
+
+<!--Select2 js -->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/select2/select2.full.min.js"></script>
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/js/select2.js"></script>
+
+<!-- sticky js-->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/js/sticky.js"></script>
+
+<!-- Image-tooltip js -->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/image-tooltip/image-tooltip.js"></script>
+
+<!-- Custom scroll bar js-->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/scroll-bar/jquery.mCustomScrollbar.js"></script>
+
+<!--Auto Complete js -->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/autocomplete/jquery.autocomplete.js"></script>
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/plugins/autocomplete/autocomplete.js"></script>
+
+<!-- Swipe js-->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/js/swipe.js"></script>
+
+<!-- Scripts js-->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/js/owl-carousel.js"></script>
+
+<!-- Custom Js-->
+<script src="https://shanghai-1301303154.file.myqcloud.com/static/js/custom.js"></script>
+
+
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?601bdffd0b162e3e0bf21446455d2bb2";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+
+
+</body>
+</html>

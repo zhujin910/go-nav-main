@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bangbang93.lab()</title>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?f766c0a372a98fecc2093b4acf4a8433";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-DPz3eSk1.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CRx1532T.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

@@ -1,0 +1,6330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>青海新闻网 - 中共青海省委宣传部主管 青海日报社主办</title>
+<meta name="keywords" content="">
+<meta name="description" content=""><script type="text/javascript">
+       if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+                //window.location.href = "http://mobile.qhnews.com/index.html" + '?time=' + ((new Date()).getTime());
+                location.href = "http://mobile.qhnews.com/index.html" + '&random=' + Math.random();
+        }
+</script>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.hei14 { font-family: "微软雅黑"; font-size: 18px; line-height: 35px; font-weight: bold;  color: #000; text-decoration: none; text-align: left; }
+.hei14 a, .hei14 a:link { font-family: "微软雅黑"; font-size: 18px; line-height: 35px; font-weight: bold; color: #000; text-decoration: none}
+.hei14 a:hover { color: #c80002; text-decoration: none }
+
+.hei12 { font-family: "微软雅黑"; font-size: 14px; line-height: 35px; font-weight: normal; color: #000; text-decoration: none; text-align: left; }
+.hei12 a, .hei12 a:link { font-family: "微软雅黑"; font-size: 14px; line-height: 35px; font-weight: normal; color: #000; text-decoration: none}
+.hei12 a:hover { color: #c80002; text-decoration: none }
+
+.ttyw { font-family: "微软雅黑"; font-size: 48px; line-height: 60px; font-weight: bold; color: #1b5db4; text-decoration: none; text-align: left; }
+.ttyw a, .ttyw a:link { font-family: "微软雅黑"; font-size: 48px; line-height: 60px; font-weight: bold; color: #1b5db4; text-decoration: none}
+.ttyw a:hover { color: #1b5db4; text-decoration: none }
+ 
+
+
+-->
+</style></head>
+
+<body>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="90" background="images2/1.jpg"><style type="text/css">
+/* ============================================================
+   顶部导航栏（前缀 topnav-）
+   ============================================================ */
+.topnav-bar {
+  width: 1400px;
+  height: 90px;
+  margin: 0 auto;
+  overflow: visible;
+}
+.topnav-bar table {
+  width: 1400px;
+  height: 90px;
+  border-collapse: collapse;
+  position: relative;
+  left: 20px;
+}
+.topnav-bar td {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.topnav-bar a {
+  color: #fff;
+  text-decoration: none;
+}
+.topnav-bar a:hover {
+  color: #ffd700;
+}
+/* 栏目间隔：普通8px */
+.topnav-gap {
+  width: 8px;
+  font-size: 0;
+  line-height: 0;
+}
+/* 栏目间隔：江源/网群/地方之间加宽至12px */
+.topnav-gap-wide {
+  width: 12px;
+  font-size: 0;
+  line-height: 0;
+}
+/* 媒体群：白色圆角，内含logo+文字 */
+.topnav-media {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+}
+.topnav-media img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+/* 带弹出层的菜单项 */
+.topnav-popup-item {
+  position: relative;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+}
+.topnav-shift-left {
+  position: relative;
+  left: -10px;
+}
+/* 微信/微博小图标：居中显示 */
+.topnav-mini-icon {
+  display: block;
+  margin: 0 auto;
+}
+/* 弹出层 */
+.topnav-popup {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 12px 16px;
+  z-index: 999;
+  white-space: nowrap;
+  margin-top: 6px;
+  text-align: center;
+}
+.topnav-popup-up {
+  margin-top: -18px;
+}
+.topnav-popup-item:hover .topnav-popup {
+  display: block;
+}
+.topnav-popup a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0 5px;
+}
+.topnav-popup a:hover {
+  color: #1c5cb4;
+}
+/* 弹出二维码图片：统一280x280 */
+.topnav-popup-img img {
+  display: block;
+  border-radius: 8px;
+  width: 280px;
+  height: 280px;
+}
+/* 新闻热线/投稿邮箱：整体右移30px（原10px+20px） */
+.topnav-info {
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+  line-height: 1.9;
+  position: relative;
+  left: 30px;
+}
+.topnav-info-row {
+  position: relative;
+  cursor: pointer;
+}
+.topnav-info-row .topnav-value {
+  display: none;
+}
+.topnav-info-row:hover .topnav-value {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  color: #1c5cb4;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+  z-index: 999;
+  margin-top: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  cursor: text;
+}
+/* 抖音图标：30x35 */
+.topnav-social img {
+  vertical-align: middle;
+  width: 30px !important;
+  height: 35px !important;
+}
+/* 站内检索：白色圆角容器，右移40px（原-30px→10px） */
+.topnav-search {
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px 12px 6px 34px;
+  position: relative;
+  width: 200px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: block;
+}
+/* 搜索输入框 */
+.topnav-search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #333;
+  background: transparent;
+  line-height: 1.4;
+}
+.topnav-search-input::placeholder {
+  color: #999;
+}
+/* 放大镜提交按钮 */
+.topnav-search-btn {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+.topnav-search-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #999;
+  border-radius: 50%;
+  transition: border-color 0.2s;
+}
+.topnav-search-btn::after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 10px;
+  width: 5px;
+  height: 2px;
+  background: #999;
+  transform: rotate(45deg);
+  transition: background 0.2s;
+}
+.topnav-search-btn:hover::before {
+  border-color: #1c5cb4;
+}
+.topnav-search-btn:hover::after {
+  background: #1c5cb4;
+}
+</style>
+
+<!-- ========== 顶部导航栏 ========== -->
+<div class="topnav-bar">
+  <table border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <!-- 媒体群：logo 100x30 + 文字 -->
+      <td width="200"><span class="topnav-media"><img src="http://www.qhnews.com/images2/rblogo.png" width="100" height="30" border="0" alt="">媒体群</span></td>
+      <td class="topnav-gap"></td>
+      <!-- 政府网/藏文网 -->
+      <td width="245">
+        <a href="http://www.qinghai.gov.cn/" target="_blank">青海省人民政府网</a> |
+        <a href="http://www.qhtibetan.com/" target="_blank">藏文网</a>
+      </td>
+      <td class="topnav-gap"></td>
+      <!-- 江源客户端：右移10px，弹出图280x280 -->
+      <td width="128" class="topnav-popup-item">
+        江源新闻客户端
+        <div class="topnav-popup topnav-popup-img">
+          <img src="http://www.qhnews.com/images2/jykhd.png" width="280" height="280" border="0" alt="江源客户端">
+        </div>
+      </td>
+      <!-- 江源-网群之间加宽间距 -->
+      <td class="topnav-gap-wide"></td>
+      <!-- 网群建设：右移10px -->
+      <td width="105" class="topnav-popup-item">
+        网群建设
+        <div class="topnav-popup topnav-popup-up">
+          <a href="http://www.qhwmw.cn/" target="_blank">青海文明网</a>|
+          <a href="http://www.qhsklw.cn/" target="_blank">青海社科网</a>|
+          <a href="http://www.qhnews.com/ggjy/" target="_blank">青海国防教育网</a>|
+          <a href="http://qhjx.qhnews.com/" target="_blank">青海记者之家</a>|
+          <a href="http://www.qhio.gov.cn/" target="_blank">青海省人民政府新闻办公室</a>
+        </div>
+      </td>
+      <!-- 网群-地方之间加宽间距 -->
+      <td class="topnav-gap-wide"></td>
+      <!-- 地方频道 -->
+      <td width="101" class="topnav-popup-item topnav-shift-left">
+        地方频道
+        <div class="topnav-popup topnav-popup-up">
+          <a href="http://www.qhxinw.cn/" target="_blank">西宁</a>|
+          <a href="http://www.qhysz.cn/" target="_blank">玉树</a>|
+          <a href="http://www.haibeinews.cn/" target="_blank">海北</a>|
+          <a href="http://www.qiliannews.cn/" target="_blank">祁连</a>|
+          <a href="http://www.haixixww.cn/" target="_blank">海西</a>|
+          <a href="http://www.guoluonews.cn/" target="_blank">果洛</a>|
+          <a href="https://www.qhhnnews.com/" target="_blank">黄南</a>|
+          <a href="http://www.maqinnews.cn/" target="_blank">玛沁</a>|
+          <a href="http://www.jiuzhinews.cn/" target="_blank">久治</a>|
+          <a href="http://www.gonghexww.cn/" target="_blank">共和</a>
+        </div>
+      </td>
+      <td class="topnav-gap"></td>
+      <!-- 微信：只保留图标，hover弹出二维码 -->
+      <td width="40" class="topnav-popup-item">
+        <img src="http://www.qhnews.com/images2/weixin.png" width="28" height="20" border="0" alt="" class="topnav-mini-icon">
+        <div class="topnav-popup topnav-popup-img">
+          <img src="http://www.qhnews.com/images2/rbwx.jpg" width="280" height="280" border="0" alt="微信">
+        </div>
+      </td>
+      <td class="topnav-gap"></td>
+      <!-- 微博：只保留图标，hover弹出二维码 -->
+      <td width="40" class="topnav-popup-item">
+        <img src="http://www.qhnews.com/images2/xinlang.png" width="28" height="20" border="0" alt="" class="topnav-mini-icon">
+        <div class="topnav-popup topnav-popup-img">
+          <img src="http://www.qhnews.com/images2/rbwb.jpg" width="280" height="280" border="0" alt="微博">
+        </div>
+      </td>
+      <td class="topnav-gap"></td>
+      <!-- 抖音：图片30x35 -->
+      <td width="36" class="topnav-social">
+        <a href="https://www.douyin.com/user/MS4wLjABAAAAruEBxGq-IjbV7LDpoEjOJ8dJ4ltbFT_uJK5FbsFKpXw?from_tab_name=main" target="_blank"><img src="http://www.qhnews.com/images2/douyin.png" width="30" height="35" border="0" alt="抖音"></a>
+      </td>
+      <td class="topnav-gap"></td>
+      <!-- 新闻热线/投稿邮箱：右移30px -->
+      <td width="168">
+        <div class="topnav-info">
+          <div class="topnav-info-row">
+            <span class="topnav-label">新闻热线</span>
+            <span class="topnav-value">0971—8483418</span>
+          </div>
+          <div class="topnav-info-row">
+            <span class="topnav-label">投稿邮箱</span>
+            <span class="topnav-value">qhnews2005@126.com</span>
+          </div>
+        </div>
+      </td>
+      <td class="topnav-gap"></td>
+      <!-- 站内检索：右移40px -->
+      <td width="257">
+        <form class="topnav-search" action="http://sou.qhnews.com:8000/m_fullsearch/full_search.jsp" method="post" name="form0" id="form0" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+          <button type="submit" class="topnav-search-btn" name="Submit1" value="查询" aria-label="查询"></button>
+          <input type="text" class="topnav-search-input" placeholder="站内检索" name="keywords">
+          <input type="hidden" name="news_type_id" value="1">
+        </form>
+      </td>
+    </tr>
+  </table>
+</div>
+</td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="340" height="200"><table width="363" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="363"><a href="http://www.qhnews.com/"><img src="images2/logo.jpg" width="340" height="120" border="0" /></a></td>
+      </tr>
+      <tr>
+        <td height="15"></td>
+      </tr>
+      <tr>
+        <td class="hei14"><div align="center">中共青海省委宣传部主管  青海日报社主办</div></td>
+      </tr>
+    </table></td>
+    <td width="30">&nbsp;</td>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><style>
+  .nav-row {
+    transition: background-color 0.2s ease, border-radius 0.2s ease;
+  }
+  .nav-row:hover {
+    background-color: #f5f5f7;
+    border-radius: 8px;
+  }
+  .nav-row.active {
+    background-color: #f5f5f7;
+    border-radius: 8px;
+  }
+  .nav-item {
+    padding: 0 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .nav-item:hover {
+    color: #1a73e8;
+  }
+</style>
+
+<!-- 第一行导航 -->
+<table width="1030" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="56" class="nav-row active" id="navRow1" align="center">
+      <a href="http://www.qhnews.com/" class="nav-item">首页</a>
+      <a href="http://www.qhnews.com/index/bt/" target="_blank" class="nav-item">头条要闻</a>
+      <a href="http://www.qhnews.com/newscenter/jxqh/" target="_blank" class="nav-item">深度报道</a>
+      <a href="http://www.qhnews.com/newscenter/qhms/" target="_blank" class="nav-item">民生服务</a>
+      <a href="http://www.qhnews.com/newscenter/qhst/" target="_blank" class="nav-item">生态高地</a>
+      <a href="http://www.qhnews.com/newscenter/tjqh/" target="_blank" class="nav-item">图解青海</a>
+      <a href="http://www.qhnews.com/newscenter/tsqh/" target="_blank" class="nav-item">图说青海</a>
+    </td>
+  </tr>
+</table>
+
+<!-- 间距 -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+
+<!-- 第二行导航 -->
+<table width="1030" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="56" class="nav-row" id="navRow2" align="center">
+      <a href="http://www.qhnews.com/2025zt/jyjg/" target="_blank" class="nav-item">江源近观</a>
+      <a href="http://www.qhnews.com/newscenter/newscenter/" target="_blank" class="nav-item">青海要闻</a>
+      <a href="http://www.qhnews.com/newscenter/swzf/" target="_blank" class="nav-item">领导动态</a>
+      <a href="http://www.qhnews.com/newscenter/qxsp/" target="_blank" class="nav-item">时政解读</a>
+      <a href="http://www.qhnews.com/newscenter/gnxw/" target="_blank" class="nav-item">国内要闻</a>
+      <a href="http://www.qhnews.com/newscenter/gjxw/" target="_blank" class="nav-item">国际要闻</a>
+    </td>
+  </tr>
+</table>
+
+<script>
+  var row1 = document.getElementById('navRow1');
+  var row2 = document.getElementById('navRow2');
+  row2.addEventListener('mouseenter', function() {
+    row1.classList.remove('active');
+  });
+  row2.addEventListener('mouseleave', function() {
+    row1.classList.add('active');
+  });
+</script></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="1" colspan="3" bgcolor="8a8a8a"></td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="20"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div align="center">
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601031.shtml" target="_blank" title="壹视界·任平文章解读｜从三个角度，观察中国共产党为什么能成功"><img src="http://www.qhnews.com/pic/003/002/341/00300234103_23ff086f.png" border="0" width="1390" height="50" alt="壹视界·任平文章解读｜从三个角度，观察中国共产党为什么能成功" /></a>
+</td>
+</tr>
+</table>
+</div></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <div align="center"><div align="center" class="xiyu-guide5-box">
+  <style type="text/css">
+  .xiyu-guide5-box, .xiyu-guide5-box * { font-size: 18px !important; font-family: "微软雅黑", "Microsoft YaHei", sans-serif !important; text-align: center !important; }
+  .xiyu-guide5-box a { color: #000 !important; text-decoration: none !important; }
+  .xiyu-guide5-box a:hover { color: #c80002 !important; text-decoration: none !important; }
+  </style>
+
+
+<table width="100%" ><tr><td></td><td ><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601033.shtml" target="_blank" >【新思想引领新征程】无惧风浪 中国经济高质量发展行稳致远</a>&nbsp;<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601032.shtml" target="_blank" >从“四个宁可”到“七个坚持”，人民至上一以贯之</a>&nbsp;<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600957.shtml" target="_blank" >学习手记｜让文旅在传承与创新中紧密相融</a></td></tr></table><!--more-->
+</div>
+</div>
+    </td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="20"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="https://qh.xuexi.cn/local/list.html?6b4b63f24adaa434bb66a1ac37e849e0=a11bb2efad79e4d231d326ee6c5bafc199f5ab4250d2af8c7cc615e7632e929244ff87a365104f1935d50a8658d9bf66&amp;page=1" target="_blank"><img src="images2/40.jpg" width="1400" height="100" border="0" /></a></td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="20"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="http://www.qhnews.com/2025zt/jyjg/" target="_blank"><img src="images2/3.jpg" width="1400" height="100" border="0" /></a></td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="20"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><style type="text/css">
+
+/* 页面基础样式：清除默认外边距 */
+
+body {
+
+  margin-left: 0px;  /* 左外边距为0 */
+
+  margin-top: 0px;   /* 上外边距为0 */
+
+}
+
+/* 专题栏目条容器 */
+
+.topic-bar {
+
+  /* 四层蓝色阴影叠加，实现从边框蓝色渐变到白色背景的光晕效果 */
+
+  box-shadow:
+
+    0 0 6px rgba(0, 120, 255, 0.5),    /* 第1层：紧贴边框，最实的蓝光 */
+
+    0 0 14px rgba(0, 120, 255, 0.3),   /* 第2层：向外扩散，中等透明度 */
+
+    0 0 28px rgba(0, 120, 255, 0.15),  /* 第3层：继续扩散，较淡 */
+
+    0 0 45px rgba(0, 120, 255, 0.06);  /* 第4层：最外层，极淡，融入白色背景 */
+
+  border-radius: 4px;  /* 四角圆角4像素 */
+
+  font-size: 18px !important;  /* 容器级字号，强制覆盖模板默认值 */
+
+}
+
+/* 栏目条单元格：统管单元格内所有文字大小 */
+
+.topic-bar td {
+
+  text-align: center;  /* 文字水平居中 */
+
+  line-height: 50px;   /* 行高50像素，同时实现垂直居中 */
+
+  font-size: 18px !important;  /* 单元格字号，强制生效 */
+
+}
+
+/* 栏目链接文字：覆盖模板生成的a标签内联样式 */
+
+.topic-bar a,
+
+.topic-bar a:link,
+
+.topic-bar a:visited,
+
+.topic-bar font,
+
+.topic-bar td * {
+
+  font-size: 16px !important;          /* 字号18像素，强制覆盖所有层级 */
+
+  text-decoration: none !important;    /* 去掉超链接默认下划线 */
+
+  color: #000 !important;              /* 文字颜色黑色 */
+
+  transition: color 0.2s ease;
+
+}
+
+/* 鼠标悬停在链接上时的样式 */
+
+.topic-bar a:hover {
+
+  color: #1a5fb4 !important;       /* 文字变为蓝色 */
+
+  text-decoration: underline !important;  /* 显示下划线 */
+
+}
+
+</style>
+
+<!-- 专题栏目条表格，宽度1390像素，居中对齐 -->
+
+<table width="1390" border="0" align="center" cellpadding="0" cellspacing="0" class="topic-bar">
+
+  <tr>
+
+    <td bgcolor="edf6ff"><a target="_blank" style="font-size:12px;" href="http://www.qhnews.com/index/system/2026/07/01/030577024.shtml" title="庆祝中国共产党成立105周年">&nbsp;庆祝中国共产党成立105周年&nbsp;|</a>
+<a target="_blank" style="font-size:12px;" href="http://www.qhnews.com/index/system/2025/10/27/030469516.shtml" title="学习贯彻党的二十届四中全会精神">&nbsp;学习贯彻党的二十届四中全会精神&nbsp;|</a>
+<a target="_blank" style="font-size:12px;" href="http://www.qhnews.com/index/system/2026/08/19/030599471.shtml" title="传承弘扬昆仑文化">&nbsp;传承弘扬昆仑文化&nbsp;|</a>
+<a target="_blank" style="font-size:12px;" href="http://www.qhnews.com/index/system/2026/08/18/030599260.shtml" title="贯彻落实省委十四届十次全会精神">&nbsp;贯彻落实省委十四届十次全会精神&nbsp;|</a>
+<a target="_blank" style="font-size:12px;" href="http://www.qhnews.com/index/system/2025/06/17/030410126.shtml" title="山海同心 筑梦高原">&nbsp;山海同心 筑梦高原&nbsp;|</a></td>
+
+  </tr>
+
+</table>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div align="center">
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/index/system/2026/08/22/030600862.shtml" target="_blank" title="省委常委会召开会议 吴晓军主持"><img src="http://www.qhnews.com/pic/003/002/340/00300234089_d8b3dd50.jpg" border="0" width="1390" height="50" alt="省委常委会召开会议 吴晓军主持" /></a>
+</td>
+</tr>
+</table>
+</div></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="1340" ><div align="center" class="xiyu-guide5-box">
+  <style type="text/css">
+  .xiyu-guide5-box, .xiyu-guide5-box * { font-size: 18px !important; font-family: "微软雅黑", "Microsoft YaHei", sans-serif !important; text-align: center !important; }
+  .xiyu-guide5-box a { color: #000 !important; text-decoration: none !important; }
+  .xiyu-guide5-box a:hover { color: #c80002 !important; text-decoration: none !important; }
+  </style>
+
+
+<table width="100%" ><tr><td></td><td ><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600817.shtml" target="_blank" >青海东部将迎来中到大雨局地暴雨</a>&nbsp;<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600818.shtml" target="_blank" >FIRST展映试点落户西宁五峰书院</a>&nbsp;<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600822.shtml" target="_blank" >青海公布12件生态环境典型案例</a>&nbsp;<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600823.shtml" target="_blank" >青海出台管理办法规范湿地占用行为</a></td></tr></table><!--more-->
+</div>
+</td>
+   
+    <td width="60" class="hei12"><a href="http://www.qhnews.com/index/bt/" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="20"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="149" valign="top"><table width="470" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><style type="text/css">
+
+/* ========== 新闻栏目组件样式 ========== */
+
+.news-box { width: 470px; max-width: 470px; margin: 0 auto; overflow: hidden; }
+
+.news-tabs { width: 470px; max-width: 470px; border-collapse: collapse; table-layout: fixed; }
+
+.news-tabs td { height: 40px; vertical-align: middle; overflow: hidden; }
+
+.news-tabs .tab-title { width: 356px; font-size: 24px; font-weight: bold; }
+
+.news-tabs .tab-title a { color: #1c5cb4; text-decoration: none; }
+
+/* 大标题hover：无下划线 */
+.news-tabs .tab-title a:hover { text-decoration: none; }
+
+.news-tabs .tab-sub { width: 103px; text-align: right; font-size: 18px; color: #000; }
+
+.news-tabs .tab-sub a { cursor: pointer; margin-left: 8px; color: #000; text-decoration: none; font-size: 18px; }
+
+.news-tabs .tab-sub a:hover,
+.news-tabs .tab-sub a.active { color: #1c5cb4; font-weight: bold; }
+
+.news-divider { width: 470px; max-width: 470px; height: 10px; display: block; }
+
+.news-list {
+  width: 470px;
+  max-width: 470px;
+  box-sizing: border-box;
+  background: url('http://www.qhnews.com/images2/5.jpg') repeat-y;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.news-list ul { list-style: none; margin: 0; padding: 0 15px; width: 100%; box-sizing: border-box; }
+
+.news-list li {
+  height: 52px;
+  line-height: 52px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.news-list li a { font-size: 18px; color: #333; text-decoration: none; }
+
+.news-list li a,
+.news-list li a:link,
+.news-list li a:visited,
+.news-list li font,
+.news-list li * {
+  font-size: 18px !important;
+}
+
+.news-list li a::before {
+  content: "\25A0";
+  color: #000;
+  font-size: 10px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* 新闻列表hover：只变蓝色，无下划线 */
+.news-list li a:hover { color: #1c5cb4; text-decoration: none; }
+
+.news-panel { display: none; width: 100%; }
+
+.news-panel.active { display: block; }
+
+/* 全局链接：所有状态无下划线 */
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+</style>
+
+<!-- ========== 新闻栏目组件HTML结构 ========== -->
+<div class="news-box">
+  <!-- 顶部标签栏：青海要闻 + 国内/国际 -->
+  <table class="news-tabs" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="11"></td>
+      <!-- 青海要闻：也作为切换按钮，鼠标经过切换回青海要闻 -->
+      <td class="tab-title"><a href="http://www.qhnews.com/newscenter/newscenter/"  class="tab-btn active" data-tab="qh" target="_blank">青海要闻</a></td>
+      <td class="tab-sub" id="tabSub">
+        <a href="http://www.qhnews.com/newscenter/gnxw/" target="_blank" class="tab-btn" data-tab="gn">国内</a>
+        <a href="http://www.qhnews.com/newscenter/gjxw/" target="_blank" class="tab-btn" data-tab="gj">国际</a>
+      </td>
+    </tr>
+  </table>
+
+  <!-- 装饰分隔线 -->
+  <img src="http://www.qhnews.com/images2/4.jpg" class="news-divider" width="470" height="10">
+
+  <!-- 新闻列表区：三个面板切换 -->
+  <div class="news-list">
+    <div class="news-panel active" id="panel-qh">
+      <ul>
+
+
+<table width="100%" >
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600819.shtml" title="省人大常委会主任会议召开" target="_blank">省人大常委会主任会议召开</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600820.shtml" title="省政协举办“委员讲堂”" target="_blank">省政协举办“委员讲堂”</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600809.shtml" title="1-7月全省经济保持平稳运行态势" target="_blank">1-7月全省经济保持平稳运行态势</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600812.shtml" title="苏青协作赋能 青海鲜枸杞火爆出圈长三角" target="_blank">苏青协作赋能 青海鲜枸杞火爆出圈长三角</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600811.shtml" title="青海油田新能源上半年发电6.3亿千瓦时" target="_blank">青海油田新能源上半年发电6.3亿千瓦时</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600813.shtml" title="【美丽中国青海行】守一方草原 织幸福生活" target="_blank">【美丽中国青海行】守一方草原 织幸福生活</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600814.shtml" title="寻访千年印记 接续守护文脉" target="_blank">寻访千年印记 接续守护文脉</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600827.shtml" title="高原绿电“酿出”幸福光景" target="_blank">高原绿电“酿出”幸福光景</a></li>
+</td>
+</tr>
+</table>
+      </ul>
+    </div>
+    <div class="news-panel" id="panel-gn">
+      <ul>
+
+
+<table width="100%" >
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601031.shtml" title="从三个角度，观察中国共产党为什么能成功" target="_blank">从三个角度，观察中国共产党为什么能成功</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601032.shtml" title="从“四个宁可”到“七个坚持”，人民至上一以贯之" target="_blank">从“四个宁可”到“七个坚持”，人民至上一以贯之</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601055.shtml" title="钟才文：中国经济的韧性与活力" target="_blank">钟才文：中国经济的韧性与活力</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601058.shtml" title="祁连山北麓生态环境蝶变十年观察" target="_blank">祁连山北麓生态环境蝶变十年观察</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601061.shtml" title="中国造物记|你的机器人“搭子”要来了" target="_blank">中国造物记|你的机器人“搭子”要来了</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601072.shtml" title="台风、暴雨双预警 中国气象局启动四级应急响应" target="_blank">台风、暴雨双预警 中国气象局启动四级应急响应</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601078.shtml" title="经济新图景：激活新就业力量 澎湃经济发展动能" target="_blank">经济新图景：激活新就业力量 澎湃经济发展动能</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600971.shtml" title="从“三北”到世界：我国防沙治沙的实践与担当" target="_blank">从“三北”到世界：我国防沙治沙的实践与担当</a></li>
+</td>
+</tr>
+</table>
+      </ul>
+    </div>
+    <div class="news-panel" id="panel-gj">
+      <ul>
+
+
+<table width="100%" >
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600974.shtml" title="中国企业助力拉美国家发展互联网新业态" target="_blank">中国企业助力拉美国家发展互联网新业态</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600980.shtml" title="“大家好，我是来自委内瑞拉的相声迷!”" target="_blank">“大家好，我是来自委内瑞拉的相声迷!”</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600979.shtml" title="【国际微访谈】布隆迪青年、体育与文化部长" target="_blank">【国际微访谈】布隆迪青年、体育与文化部长</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600977.shtml" title="有识之士：日本扩军备武释放错误信号 挤压民生支出" target="_blank">有识之士：日本扩军备武释放错误信号 挤压民生支出</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600975.shtml" title="在撒哈拉沙漠孕育绿色希望（国际论坛）" target="_blank">在撒哈拉沙漠孕育绿色希望（国际论坛）</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601011.shtml" title="视频丨“超级买家+超级卖家” 中国与世界双向奔赴" target="_blank">视频丨“超级买家+超级卖家” 中国与世界双向奔赴</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601090.shtml" title="双线布局，日本“扩军外交”何其危险" target="_blank">双线布局，日本“扩军外交”何其危险</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601089.shtml" title="人工智能联合会议与会专家积极评价中国人工智能发展" target="_blank">人工智能联合会议与会专家积极评价中国人工智能发展</a></li>
+</td>
+</tr>
+</table>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+// ========== 标签切换交互逻辑 ==========
+var btns = document.querySelectorAll('.tab-btn');
+var panels = document.querySelectorAll('.news-panel');
+
+// 切换到指定栏目
+function switchTab(tabId) {
+  btns.forEach(function(b) { b.classList.remove('active'); });
+  panels.forEach(function(p) { p.classList.remove('active'); });
+  document.querySelector('.tab-btn[data-tab="' + tabId + '"]').classList.add('active');
+  document.getElementById('panel-' + tabId).classList.add('active');
+}
+
+// 鼠标经过任意标签即切换并固定（包括青海要闻）
+btns.forEach(function(btn) {
+  btn.addEventListener('mouseenter', function() {
+    switchTab(btn.getAttribute('data-tab'));
+  });
+});
+</script>
+</td>
+      </tr>
+    </table></td>
+    <td width="30" valign="top">&nbsp;</td>
+    <td width="900" valign="top"><style type="text/css">
+/* ========== 图片轮播图组件 ========== */
+.slider {
+  width: 900px;
+  height: 528px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.slider-list {
+  width: 900px;
+  height: 100%;
+  position: relative;
+}
+/* 单张图片项：绝对定位叠加，透明度切换，z-index控制层级 */
+.slider-item {
+  width: 900px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;                /* 默认底层 */
+  transition: opacity 0.6s ease;
+}
+/* 当前激活的图片：显示 + 最高层级（在最上面，可点击） */
+.slider-item.active {
+  opacity: 1;
+  z-index: 2;
+}
+/* 确保链接块级显示，填满整个item区域 */
+.slider-item a {
+  display: block;
+  width: 900px;
+  height: 100%;
+}
+.slider-item img {
+  width: 900px;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+.slider-item:hover img {
+  transform: scale(1.022);
+}
+/* 底部信息条 */
+.slider-bar {
+  width: 900px;
+  max-width: 900px;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.slider-count {
+  float: left;
+  color: #fff;
+  font-weight: bold;
+}
+.slider-count .current {
+  font-size: 24px;
+}
+.slider-count .total,
+.slider-count .sep {
+  font-size: 16px;
+}
+.slider-title {
+  float: right;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  max-width: 700px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: color 0.2s ease;
+}
+.slider-title:hover {
+  color: #ffd700;
+  text-decoration: none;
+}
+/* 左右切换箭头 */
+.slider-arrow {
+  width: 40px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 20;
+  user-select: none;
+  transition: background 0.3s ease;
+}
+.slider-arrow:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+.slider-prev { left: 0; }
+.slider-next { right: 0; }
+/* 指示点 */
+.slider-dots {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+}
+.slider-dots span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.slider-dots span.active {
+  background: #fff;
+}
+</style>
+<!-- ========== 轮播图HTML结构 ========== -->
+<div class="slider" id="slider">
+  <div class="slider-list">
+    <div class="slider-item active">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/index/system/2026/08/22/030600917.shtml" target="_blank"> <img src="http://www.qhnews.com/pic/003/002/340/00300234079_cf5e2e21.jpg" alt="寻访千年印记 接续守护文脉"> </a>
+</td>
+</tr>
+</table>
+    </div>
+    <div class="slider-item">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/index/system/2026/08/22/030600915.shtml" target="_blank"> <img src="http://www.qhnews.com/pic/003/002/340/00300234081_674b1299.jpg" alt="扎陵湖畔探访 阐释时代价值"> </a>
+</td>
+</tr>
+</table>
+    </div>
+    <div class="slider-item">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/index/system/2026/08/22/030600909.shtml" target="_blank"> <img src="http://www.qhnews.com/pic/003/002/340/00300234086_1f38e2f5.jpg" alt="高原绿电“酿出”幸福光景"> </a>
+</td>
+</tr>
+</table>
+    </div>
+    <div class="slider-item">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/index/system/2026/08/22/030600916.shtml" target="_blank"> <img src="http://www.qhnews.com/pic/003/002/340/00300234083_0e5c122f.jpg" alt="清清黄河好“丰”景"> </a>
+</td>
+</tr>
+</table>
+    </div>
+    <div class="slider-item">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600395.shtml" target="_blank"> <img src="http://www.qhnews.com/pic/003/002/340/00300234000_582092cd.jpg" alt="追寻红色足迹 感悟昆仑文化"> </a>
+</td>
+</tr>
+</table>
+    </div>
+    <div class="slider-item">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600413.shtml" target="_blank"> <img src="http://www.qhnews.com/pic/003/002/340/00300234007_31503ec0.jpg" alt="【河湟昆仑】“采药昆仑”所采之药为何物"> </a>
+</td>
+</tr>
+</table>
+    </div>
+    <div class="slider-item">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/index/system/2026/08/22/030600918.shtml" target="_blank"> <img src="http://www.qhnews.com/pic/003/002/340/00300234077_94836fe4.jpg" alt="【美丽中国青海行】守一方草原 织幸福生活"> </a>
+</td>
+</tr>
+</table>
+    </div>
+    <div class="slider-item">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601082.shtml" target="_blank"> <img src="http://www.qhnews.com/pic/003/002/341/00300234115_2f188ac3.jpg" alt="8月22日青海新闻联播"> </a>
+</td>
+</tr>
+</table>
+    </div>
+  </div>
+  <div class="slider-arrow slider-prev" id="sliderPrev"><</div>
+  <div class="slider-arrow slider-next" id="sliderNext">></div>
+  <div class="slider-dots" id="sliderDots">
+    <span class="active" data-index="0"></span>
+    <span data-index="1"></span>
+    <span data-index="2"></span>
+    <span data-index="3"></span>
+    <span data-index="4"></span>
+    <span data-index="5"></span>
+    <span data-index="6"></span>
+    <span data-index="7"></span>
+    <span data-index="8"></span>
+  </div>
+  <div class="slider-bar">
+    <span class="slider-count">
+      <span class="current" id="sliderCurrent">1</span><span class="sep">/</span><span class="total" id="sliderTotal">8</span>
+    </span>
+    <a href="#" class="slider-title" id="sliderTitle" target="_blank">新闻标题一</a>
+  </div>
+</div>
+<script>
+// ========== 轮播图交互逻辑 ==========
+var slider = document.getElementById('slider');
+var items = document.querySelectorAll('.slider-item');
+var dots = document.querySelectorAll('.slider-dots span');
+var currentEl = document.getElementById('sliderCurrent');
+var totalEl = document.getElementById('sliderTotal');
+var titleEl = document.getElementById('sliderTitle');
+var prevBtn = document.getElementById('sliderPrev');
+var nextBtn = document.getElementById('sliderNext');
+var currentIndex = 0;
+var total = items.length;
+var timer = null;
+var interval = 4000;
+totalEl.textContent = total;
+function goTo(index) {
+  if (index < 0) index = total - 1;
+  if (index >= total) index = 0;
+  items.forEach(function(item) { item.classList.remove('active'); });
+  dots.forEach(function(dot) { dot.classList.remove('active'); });
+  items[index].classList.add('active');
+  dots[index].classList.add('active');
+  currentEl.textContent = index + 1;
+  // 从当前slide中提取链接和标题，同步到底部信息条
+  var linkEl = items[index].querySelector('a');
+  var imgEl = items[index].querySelector('img');
+  if (linkEl) {
+    titleEl.href = linkEl.href;
+    titleEl.textContent = imgEl ? (imgEl.alt || imgEl.title || '') : '';
+  }
+  currentIndex = index;
+}
+function next() { goTo(currentIndex + 1); }
+function prev() { goTo(currentIndex - 1); }
+function startAuto() { timer = setInterval(next, interval); }
+function stopAuto() { clearInterval(timer); }
+prevBtn.addEventListener('click', function() { prev(); stopAuto(); startAuto(); });
+nextBtn.addEventListener('click', function() { next(); stopAuto(); startAuto(); });
+dots.forEach(function(dot) {
+  dot.addEventListener('click', function() {
+    var idx = parseInt(this.getAttribute('data-index'));
+    goTo(idx);
+    stopAuto();
+    startAuto();
+  });
+});
+slider.addEventListener('mouseenter', stopAuto);
+slider.addEventListener('mouseleave', startAuto);
+goTo(0);
+startAuto();
+</script>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="30"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="450" valign="top"><style type="text/css">
+/* ========== 领导动态栏目组件样式（ld前缀） ========== */
+.ld-news-box { width: 450px; max-width: 450px; margin: 0 auto; overflow: hidden; }
+.ld-news-tabs { width: 450px; max-width: 450px; border-collapse: collapse; table-layout: fixed; }
+.ld-news-tabs td { height: 40px; vertical-align: middle; overflow: hidden; }
+.ld-news-tabs .ld-tab-title { width: 200px; font-size: 24px; font-weight: bold; }
+.ld-news-tabs .ld-tab-title a { color: #1c5cb4; text-decoration: none; }
+.ld-news-tabs .ld-tab-title a:hover { text-decoration: none; }
+.ld-news-tabs .ld-tab-sub { width: 239px; text-align: right; font-size: 18px; color: #000; }
+.ld-news-tabs .ld-tab-sub a { margin-left: 8px; color: #000; text-decoration: none; font-size: 18px; }
+.ld-news-tabs .ld-tab-sub a:hover { color: #1c5cb4; }
+.ld-news-divider { width: 450px; max-width: 450px; height: 10px; display: block; }
+.ld-news-list {
+  width: 450px;
+  max-width: 450px;
+  box-sizing: border-box;
+  background: url('http://www.qhnews.com/images2/5.jpg') repeat-y;
+  padding: 10px 0;
+  overflow: hidden;
+}
+.ld-news-list ul { list-style: none; margin: 0; padding: 0 15px; width: 100%; box-sizing: border-box; }
+.ld-news-list li {
+  height: 52px;
+  line-height: 52px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  box-sizing: border-box;
+}
+.ld-news-list li a { font-size: 18px; color: #333; text-decoration: none; }
+.ld-news-list li a,
+.ld-news-list li a:link,
+.ld-news-list li a:visited,
+.ld-news-list li font,
+.ld-news-list li * {
+  font-size: 18px !important;
+}
+/* 黑色小方块：Unicode转义，避免gb2312乱码 */
+.ld-news-list li a::before {
+  content: "\25A0";
+  color: #000;
+  font-size: 10px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.ld-news-list li a:hover { color: #1c5cb4; text-decoration: none; }
+</style>
+
+<!-- ========== 领导动态栏目组件HTML结构 ========== -->
+<div class="ld-news-box">
+  <!-- 顶部标签栏：领导动态大标题 + 省委/省政府跳转链接 -->
+  <table class="ld-news-tabs" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="11">&nbsp;</td>
+      <td class="ld-tab-title"><a href="http://www.qhnews.com/newscenter/swzf/" target="_blank">领导动态</a></td>
+      <td class="ld-tab-sub">
+        <a href="http://www.qhnews.com/swld/" target="_blank">省委</a>
+        <a href="http://www.qhnews.com/zfld/" target="_blank">省政府领导报道集</a>
+      </td>
+    </tr>
+  </table>
+  <!-- 装饰分隔线 -->
+  <img src="http://www.qhnews.com/images2/4.jpg" class="ld-news-divider" width="450" height="10" alt="">
+  <!-- 新闻列表区：仅领导动态5条，每条下方虚线保留 -->
+  <div class="ld-news-list">
+    <ul>
+
+
+<table width="100%" >
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600865.shtml" title="省委常委会召开会议 吴晓军主持" target="_blank">省委常委会召开会议 吴晓军主持</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600455.shtml" title="省政府召开党组会议和常务会议 罗东川主持" target="_blank">省政府召开党组会议和常务会议 罗东川主持</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600467.shtml" title="省政协召开党组会议和主席会议" target="_blank">省政协召开党组会议和主席会议</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/swld/system/2026/08/07/030594659.shtml" title="十四届省委第十轮巡视完成集中反馈" target="_blank">十四届省委第十轮巡视完成集中反馈</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599875.shtml" title="生态人文平行论坛举行 刘涛出席" target="_blank">生态人文平行论坛举行 刘涛出席</a></li>
+</td>
+</tr>
+</table>
+    </ul>
+  </div>
+</div>
+</td>
+    <td width="25" valign="top">&nbsp;</td>
+    <td width="450" valign="top"><style type="text/css">
+
+/* ========== 时政解读栏目（第二版，前缀 szjd2-，区别于旧版 szjd-） ========== */
+
+/* 组件外层容器：宽度450px，水平居中 */
+.szjd2-news-box { width: 450px; max-width: 450px; margin: 0 auto; overflow: hidden; }
+
+/* 顶部标签栏表格 */
+.szjd2-news-tabs { width: 450px; max-width: 450px; border-collapse: collapse; table-layout: fixed; }
+
+/* 标签栏单元格：高度40px，垂直居中 */
+.szjd2-news-tabs td { height: 40px; vertical-align: middle; overflow: hidden; }
+
+/* 左侧大标题"时政解读"：24px加粗，纯文字无链接 */
+.szjd2-news-tabs .szjd2-tab-title { width: 359px; font-size: 24px; font-weight: bold; color: #1c5cb4; }
+
+/* 右侧"更多>>"：右对齐，18px灰色 */
+.szjd2-news-tabs .szjd2-tab-more { width: 80px; text-align: right; font-size: 18px; }
+.szjd2-news-tabs .szjd2-tab-more a { color: #666; text-decoration: none; }
+.szjd2-news-tabs .szjd2-tab-more a:hover { color: #1c5cb4; text-decoration: none; }
+
+/* 分隔线图片 */
+.szjd2-news-divider { width: 450px; max-width: 450px; height: 10px; display: block; }
+
+/* 新闻列表区：背景图纵向平铺，上下内边距10px */
+.szjd2-news-list {
+  width: 450px;
+  max-width: 450px;
+  box-sizing: border-box;
+  background: url('http://www.qhnews.com/images2/5.jpg') repeat-y;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+/* 列表：清除默认样式，左右内边距15px */
+.szjd2-news-list ul { list-style: none; margin: 0; padding: 0 15px; width: 100%; box-sizing: border-box; }
+
+/* 列表项：高度52px，行高52px，底部虚线分隔，超出省略 */
+.szjd2-news-list li {
+  height: 52px;
+  line-height: 52px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* 新闻标题链接：18px，深灰色，无下划线 */
+.szjd2-news-list li a { font-size: 18px; color: #333; text-decoration: none; }
+
+/* 模板生成的链接也强制18px */
+.szjd2-news-list li a,
+.szjd2-news-list li a:link,
+.szjd2-news-list li a:visited,
+.szjd2-news-list li font,
+.szjd2-news-list li * {
+  font-size: 18px !important;
+}
+
+/* 黑色小方块：Unicode转义 */
+.szjd2-news-list li a::before {
+  content: "\25A0";
+  color: #000;
+  font-size: 10px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* 新闻标题hover：变蓝色，无下划线 */
+.szjd2-news-list li a:hover { color: #1c5cb4; text-decoration: none; }
+
+</style>
+
+<!-- ========== 时政解读栏目HTML结构 ========== -->
+<div class="szjd2-news-box">
+  <!-- 顶部：左侧大标题（纯文字无链接） + 右侧更多>> -->
+  <table class="szjd2-news-tabs" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="11"></td>
+      <td class="szjd2-tab-title">时政解读</td>
+      <td class="szjd2-tab-more"><a href="http://www.qhnews.com/newscenter/qxsp/" target="_blank">更多>></a></td>
+    </tr>
+  </table>
+
+  <!-- 装饰分隔线 -->
+  <img src="http://www.qhnews.com/images2/4.jpg" class="szjd2-news-divider" width="450" height="10">
+
+  <!-- 新闻列表区：5条 -->
+  <div class="szjd2-news-list">
+    <ul>
+
+
+<table width="100%" >
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599866.shtml" title="让昆仑说话 为时代铸魂" target="_blank">让昆仑说话 为时代铸魂</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599921.shtml" title="【时评】“法治小火车”为高原文旅平安赋能" target="_blank">【时评】“法治小火车”为高原文旅平安赋能</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599524.shtml" title="昆仑在青 文明有据" target="_blank">昆仑在青 文明有据</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599517.shtml" title="【党建新论】以优质党课赋能新时代党员教育" target="_blank">【党建新论】以优质党课赋能新时代党员教育</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599522.shtml" title="【经济走笔】青海拉面大胆地往前走" target="_blank">【经济走笔】青海拉面大胆地往前走</a></li>
+</td>
+</tr>
+</table>
+    </ul>
+  </div>
+</div>
+</td>
+    <td width="25" valign="top">&nbsp;</td>
+    <td width="450" valign="top"><style type="text/css">
+
+/* ========== 央媒看青海栏目（前缀 ymkqh-） ========== */
+
+/* 组件外层容器：宽度450px，水平居中 */
+.ymkqh-news-box { width: 450px; max-width: 450px; margin: 0 auto; overflow: hidden; }
+
+/* 顶部标签栏表格 */
+.ymkqh-news-tabs { width: 450px; max-width: 450px; border-collapse: collapse; table-layout: fixed; }
+
+/* 标签栏单元格：高度40px，垂直居中 */
+.ymkqh-news-tabs td { height: 40px; vertical-align: middle; overflow: hidden; }
+
+/* 左侧大标题"央媒看青海"：24px加粗，纯文字无链接 */
+.ymkqh-news-tabs .ymkqh-tab-title { width: 359px; font-size: 24px; font-weight: bold; color: #1c5cb4; }
+
+/* 右侧"更多>>"：右对齐，18px灰色 */
+.ymkqh-news-tabs .ymkqh-tab-more { width: 80px; text-align: right; font-size: 18px; }
+.ymkqh-news-tabs .ymkqh-tab-more a { color: #666; text-decoration: none; }
+.ymkqh-news-tabs .ymkqh-tab-more a:hover { color: #1c5cb4; text-decoration: none; }
+
+/* 分隔线图片 */
+.ymkqh-news-divider { width: 450px; max-width: 450px; height: 10px; display: block; }
+
+/* 新闻列表区：背景图纵向平铺，上下内边距10px */
+.ymkqh-news-list {
+  width: 450px;
+  max-width: 450px;
+  box-sizing: border-box;
+  background: url('http://www.qhnews.com/images2/5.jpg') repeat-y;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+/* 列表：清除默认样式，左右内边距15px */
+.ymkqh-news-list ul { list-style: none; margin: 0; padding: 0 15px; width: 100%; box-sizing: border-box; }
+
+/* 列表项：高度52px，行高52px，底部虚线分隔，超出省略 */
+.ymkqh-news-list li {
+  height: 52px;
+  line-height: 52px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* 新闻标题链接：18px，深灰色，无下划线 */
+.ymkqh-news-list li a { font-size: 18px; color: #333; text-decoration: none; }
+
+/* 模板生成的链接也强制18px */
+.ymkqh-news-list li a,
+.ymkqh-news-list li a:link,
+.ymkqh-news-list li a:visited,
+.ymkqh-news-list li font,
+.ymkqh-news-list li * {
+  font-size: 18px !important;
+}
+
+/* 黑色小方块：Unicode转义 */
+.ymkqh-news-list li a::before {
+  content: "\25A0";
+  color: #000;
+  font-size: 10px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* 新闻标题hover：变蓝色，无下划线 */
+.ymkqh-news-list li a:hover { color: #1c5cb4; text-decoration: none; }
+
+</style>
+
+<!-- ========== 央媒看青海栏目HTML结构 ========== -->
+<div class="ymkqh-news-box">
+  <!-- 顶部：左侧大标题（纯文字无链接） + 右侧更多>> -->
+  <table class="ymkqh-news-tabs" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="11"></td>
+      <td class="ymkqh-tab-title">央媒看青海</td>
+      <td class="ymkqh-tab-more"><a href="http://www.qhnews.com/index/swmt/" target="_blank">更多&gt;&gt;</a></td>
+    </tr>
+  </table>
+
+  <!-- 装饰分隔线 -->
+  <img src="http://www.qhnews.com/images2/4.jpg" class="ymkqh-news-divider" width="450" height="10">
+
+  <!-- 新闻列表区：5条 -->
+  <div class="ymkqh-news-list">
+    <ul>
+
+
+<table width="100%" >
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/index/system/2026/08/21/030600739.shtml" title="【新华网】我的家——格尔木" target="_blank">【新华网】我的家——格尔木</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/index/system/2026/08/21/030600740.shtml" title="【新华网】猛士汽车向可可西里交付巡护用车" target="_blank">【新华网】猛士汽车向可可西里交付巡护用车</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/index/system/2026/08/21/030600741.shtml" title="【新华网】“牢记嘱托·感恩奋进”格尔木影像展" target="_blank">【新华网】“牢记嘱托·感恩奋进”格尔木影像展</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/index/system/2026/08/21/030600742.shtml" title="【人民网】青海德令哈：从风沙口到枸杞红" target="_blank">【人民网】青海德令哈：从风沙口到枸杞红</a></li>
+</td>
+</tr>
+<tr>
+<td >
+<li><a href="http://www.qhnews.com/index/system/2026/08/21/030600743.shtml" title="【央广网】青海:清洁能源和绿色算力产业发展实现“双提升”" target="_blank">【央广网】青海:清洁能源和绿色算力产业发展实现...</a></li>
+</td>
+</tr>
+</table>
+    </ul>
+  </div>
+</div>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="30"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><style type="text/css">
+
+/* ========== 六图网格组件 ========== */
+
+/* 外层容器：宽1400px，水平居中，图片均匀分布 */
+.img-grid-6 {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;  /* 6张图均匀分布，间距自动均分 */
+}
+
+/* 单张图片容器：固定210px × 100px，圆角 */
+.img-grid-6 .img-item {
+  width: 210px;       /* 固定宽度210px */
+  height: 100px;      /* 固定高度100px */
+  border-radius: 8px; /* 四角弧度 */
+  overflow: hidden;   /* 图片超出圆角部分裁剪 */
+}
+
+/* 图片填满容器 */
+.img-grid-6 .img-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;  /* 等比填满，不变形 */
+  transition: transform 0.3s ease;
+}
+
+/* 鼠标悬停：图片轻微放大 */
+.img-grid-6 .img-item:hover img {
+  transform: scale(1.05);
+}
+
+</style>
+
+<!-- ========== 六图网格HTML ========== -->
+<div class="img-grid-6">
+  <div class="img-item">
+    <a href="http://www.qhnews.com/2026zt/grt/" target="_blank">
+      <img src="http://www.qhnews.com/tupian/20260820.jpg" alt="图片1">
+    </a>
+  </div>
+  <div class="img-item">
+    <a href="http://www.qhnews.com/index/system/2024/04/28/030201465.shtml" target="_blank">
+      <img src="http://www.qhnews.com/images2/pic2.jpg" alt="图片2">
+    </a>
+  </div>
+  <div class="img-item">
+    <a href="http://www.haixixww.cn/" target="_blank">
+      <img src="http://www.qhnews.com/images2/pic3.jpg" alt="图片3">
+    </a>
+  </div>
+  <div class="img-item">
+    <a href="#" target="_blank">
+      <img src="http://www.qhnews.com/images2/pic4.jpg" alt="图片4">
+    </a>
+  </div>
+  <div class="img-item">
+    <a href="http://bz.qhnews.com/" target="_blank">
+      <img src="http://www.qhnews.com/images2/39.jpg" alt="图片5">
+    </a>
+  </div>
+  <div class="img-item">
+    <a href="http://www.qhio.gov.cn/" target="_blank">
+      <img src="http://www.qhnews.com/images2/pic6.jpg" alt="图片6">
+    </a>
+  </div>
+</div>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="30"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><style type="text/css">
+
+/* ========== 专题图组组件样式 ========== */
+
+/* 主内容区：背景从#f5faff渐变到#ffffff + 蓝色阴影 */
+.feature-section {
+  background: linear-gradient(to bottom, #f5faff 0%, #ffffff 100%);
+  box-shadow: 0 4px 20px rgba(0, 120, 255, 0.12);
+  border-radius: 6px;
+}
+
+/* 顶部"更多>>"链接：样式和中间新闻一致，无符号 */
+.feature-more {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+.feature-more:hover {
+  color: #1c5cb4;
+  text-decoration: none;
+}
+
+/* 图片容器：280x160，圆角，相对定位 */
+.feature-img {
+  position: relative;
+  width: 280px;
+  height: 160px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: block;
+}
+.feature-img img {
+  width: 280px;
+  height: 160px;
+  display: block;
+  object-fit: cover;
+}
+
+/* 图片底部黑色半透明条：高50px，透明度40% */
+.feature-img .img-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 14px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.feature-img .img-caption:hover {
+  color: #ffd700;
+}
+
+/* 中间新闻标题列表：宽460px，整体向下偏移10px */
+.feature-news {
+  width: 460px;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+.feature-news li {
+  height: 52px;
+  line-height: 52px;
+  list-style: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+/* 用伪元素画虚线，距离底部8px（即向上移8px） */
+.feature-news li::after {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px dashed #ccc;
+}
+.feature-news li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* 新闻标题前的黑色小方块符号：Unicode转义，避免gb2312乱码成问号 */
+.feature-news li a::before {
+  content: "\25A0";
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.feature-news li a:hover {
+  color: #1c5cb4;
+  text-decoration: none;
+}
+
+</style>
+
+<!-- ========== 标题栏 ========== -->
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="1316"><img src="http://www.qhnews.com/images2/6.jpg" width="274" height="63"></td>
+    <td width="84"><a href="http://qxsp.qhnews.com/" class="feature-more" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table>
+
+<!-- 分隔线 -->
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="http://www.qhnews.com/images2/7.jpg" width="1400" height="3"></td>
+  </tr>
+</table>
+
+<!-- 空行间隔 -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+<!-- ========== 主内容区 ========== -->
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0" class="feature-section">
+  <tr>
+    <td>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td>&nbsp;</td></tr>
+      </table>
+      <table width="1360" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <!-- 左侧：图片 -->
+          <td width="280"><div class="feature-img">
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601082.shtml" title="8月22日青海新闻联播" target="_blank"><img src="http://www.qhnews.com/pic/003/002/341/00300234115_2f188ac3.jpg" alt="8月22日青海新闻联播" border="0" width="280" height="160" /></a>
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601082.shtml" class="img-caption" target="_blank">8月22日青海新闻联播</a>
+</td>
+</tr>
+</table>
+</div></td>
+          <td width="20">&nbsp;</td>
+          <!-- 中间：新闻标题列表（向下偏移10px，虚线上移8px） -->
+          <td width="460" valign="top">
+            <ul class="feature-news">
+              <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/05/28/030561840.shtml" target="_blank">1号演播室直播回放 | 青海“十四五”时光印迹</a>
+</td>
+</tr>
+</table>
+</li>
+              <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/05/28/030561858.shtml" target="_blank">1号演播室直播回放| 马跃河湟新岁来 豹瞰昆仑百福至</a>
+</td>
+</tr>
+</table>
+</li>
+              <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/05/28/030561877.shtml" target="_blank">1号演播室直播回放|西宁雪豹队VS果洛格萨尔队</a>
+</td>
+</tr>
+</table>
+</li>
+            </ul>
+          </td>
+          <td width="20">&nbsp;</td>
+          <!-- 右侧：两张图片 -->
+          <td width="580">
+            <table width="580" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="280">
+                  <div class="feature-img">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601068.shtml" title="省委常委会召开会议 吴晓军主持" target="_blank"><img src="https://qhoss.dmqhyadmin.com/tianma/2026/08/22/c8DbAxFICPNptsqx.jpeg" alt="省委常委会召开会议 吴晓军主持" border="0" width="280" height="160" /></a>
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601068.shtml" class="img-caption" target="_blank">省委常委会召开会议 吴晓军主持</a>
+</td>
+</tr>
+</table>
+                  </div>
+                </td>
+                <td width="20">&nbsp;</td>
+                <td width="280">
+                  <div class="feature-img">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601065.shtml" title="向绿而行笃行致远 绘就青海共赢新篇" target="_blank"><img src="https://qhoss.dmqhyadmin.com/tianma/2026/08/22/y8oYt71dNxCSogsO.jpeg" alt="向绿而行笃行致远 绘就青海共赢新篇" border="0" width="280" height="160" /></a>
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030601065.shtml" class="img-caption" target="_blank">向绿而行笃行致远 绘就青海共赢新篇</a>
+</td>
+</tr>
+</table>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td>&nbsp;</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="450"><style type="text/css">
+
+/* ========== 生态高地栏目卡片 ========== */
+
+/* 外层卡片容器：宽度445px，水平居中，白色背景，10px圆角，蓝色柔和阴影 */
+.st-card {
+  width: 445px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 120, 255, 0.12);  /* 蓝色柔和阴影 */
+  overflow: hidden;
+  padding: 16px 18px 20px;
+  box-sizing: border-box;
+}
+
+/* 顶部标题栏：高度36px，行高36px，底部间距8px */
+.st-header {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+/* 左侧大标题"生态高地"：左浮动，24px加粗，主题蓝色 */
+.st-title {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右侧"更多>>"链接：右浮动，16px灰色，无下划线 */
+.st-more {
+  float: right;
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+}
+.st-more:hover {
+  color: #1c5cb4;
+}
+
+/* 标题下方装饰分隔图 11.jpg：宽度铺满，固定高度11px，块级显示 */
+.st-divider-img {
+  width: 100%;
+  height: 11px;
+  display: block;
+  margin: 4px 0 12px 0;
+  object-fit: cover;
+}
+
+/* 主图容器：相对定位，8px圆角，溢出裁剪 */
+.st-main-img {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 主图：填满容器，块级显示，等比缩放 */
+.st-main-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* 图片底部黑色半透明标题条：绝对定位贴底，黑色透明度45%，白色加粗文字 */
+.st-img-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 14px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+/* 摘要文字区域：上间距10px，14px浅灰色，行高1.7，右侧留70px给详情按钮 */
+.st-summary {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #aeb0b2;
+  line-height: 1.7;
+  position: relative;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+
+/* 红色"详情"按钮：绝对定位在摘要右下角，红色背景，4px圆角 */
+.st-detail-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  padding: 4px 14px;
+  background: #d32f2f;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.st-detail-btn:hover {
+  background: #b71c1c;
+}
+
+/* 新闻列表：上间距18px，清除默认列表样式 */
+.st-news-list {
+  width: 100%;
+  margin: 18px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 每条新闻：高38px，行高38px，底部虚线分隔，超出省略 */
+.st-news-list li {
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 新闻标题链接：18px深灰色，无下划线 */
+.st-news-list li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* 新闻标题前的灰色小圆点符号 */
+.st-news-list li a::before {
+  content: "●";
+  color: #999;
+  font-size: 8px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.st-news-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- ========== 生态高地卡片HTML结构 ========== -->
+<div class="st-card">
+
+  <!-- 顶部标题栏：左侧大标题 + 右侧更多>>链接 -->
+  <div class="st-header">
+    <span class="st-title">生态高地</span>
+    <a href="http://www.qhnews.com/newscenter/qhst/" class="st-more" target="_blank">更多>></a>
+  </div>
+
+  <!-- 标题下方装饰分隔图 11.jpg -->
+  <img src="http://www.qhnews.com/images2/11.jpg" class="st-divider-img">
+
+  <!-- 主图区域：模板生成图片，底部带黑色半透明标题条 -->
+  <div class="st-main-img">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599898.shtml" target="_blank">
+<img src="http://www.qhnews.com/pic/003/002/338/00300233889_639ed4f6.jpg" alt="山宗水源诵长歌 江河长清叙安澜">
+</a>
+<a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599898.shtml" class="st-img-caption" target="_blank">山宗水源诵长歌 江河长清叙安澜</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 摘要文字区域：模板生成摘要，右下角带红色详情按钮 -->
+  <div class="st-summary">
+
+
+<table width="100%" >
+<tr>
+<td >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 灯光渐暗，现场归于沉静。大屏之上，昆仑雪峰挺立云天，三江源的滴滴融水汇聚成滔... <a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599898.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599898.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 新闻列表：3条，每条前带灰色圆点，底部虚线分隔 -->
+  <ul class="st-news-list">
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600856.shtml" target="_blank">青海出台管理办法规范湿地占用行为</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600855.shtml" target="_blank">青海公布12件生态环境典型案例</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600469.shtml" target="_blank">全国草原普法暨超载过牧治理经验交流活动举办</a>
+</td>
+</tr>
+</table>
+</li>
+  </ul>
+
+</div>
+</td>
+    <td width="25">&nbsp;</td>
+    <td width="450"><style type="text/css">
+
+/* ========== 产业四地栏目卡片 ========== */
+
+/* 外层卡片容器：宽度445px，水平居中，白色背景，10px圆角，蓝色柔和阴影 */
+.st-card {
+  width: 445px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 120, 255, 0.12);  /* 蓝色柔和阴影 */
+  overflow: hidden;
+  padding: 16px 18px 20px;
+  box-sizing: border-box;
+}
+
+/* 顶部标题栏：高度36px，行高36px，底部间距8px */
+.st-header {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+/* 左侧大标题"生态高地"：左浮动，24px加粗，主题蓝色 */
+.st-title {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右侧"更多>>"链接：右浮动，16px灰色，无下划线 */
+.st-more {
+  float: right;
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+}
+.st-more:hover {
+  color: #1c5cb4;
+}
+
+/* 标题下方装饰分隔图 11.jpg：宽度铺满，固定高度11px，块级显示 */
+.st-divider-img {
+  width: 100%;
+  height: 11px;
+  display: block;
+  margin: 4px 0 12px 0;
+  object-fit: cover;
+}
+
+/* 主图容器：相对定位，8px圆角，溢出裁剪 */
+.st-main-img {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 主图：填满容器，块级显示，等比缩放 */
+.st-main-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* 图片底部黑色半透明标题条：绝对定位贴底，黑色透明度45%，白色加粗文字 */
+.st-img-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 14px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+/* 摘要文字区域：上间距10px，14px浅灰色，行高1.7，右侧留70px给详情按钮 */
+.st-summary {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #aeb0b2;
+  line-height: 1.7;
+  position: relative;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+
+/* 红色"详情"按钮：绝对定位在摘要右下角，红色背景，4px圆角 */
+.st-detail-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  padding: 4px 14px;
+  background: #d32f2f;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.st-detail-btn:hover {
+  background: #b71c1c;
+}
+
+/* 新闻列表：上间距18px，清除默认列表样式 */
+.st-news-list {
+  width: 100%;
+  margin: 18px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 每条新闻：高38px，行高38px，底部虚线分隔，超出省略 */
+.st-news-list li {
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 新闻标题链接：18px深灰色，无下划线 */
+.st-news-list li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* 新闻标题前的灰色小圆点符号 */
+.st-news-list li a::before {
+  content: "●";
+  color: #999;
+  font-size: 8px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.st-news-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- ========== 产业四地卡片HTML结构 ========== -->
+<div class="st-card">
+
+  <!-- 顶部标题栏：左侧大标题 + 右侧更多>>链接 -->
+  <div class="st-header">
+    <span class="st-title">产业四地</span>
+    <a href="http://www.qhnews.com/newscenter/cysd/" class="st-more" target="_blank">更多>></a>
+  </div>
+
+  <!-- 标题下方装饰分隔图 11.jpg -->
+  <img src="http://www.qhnews.com/images2/11.jpg" class="st-divider-img">
+
+  <!-- 主图区域：模板生成图片，底部带黑色半透明标题条 -->
+  <div class="st-main-img">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/15/030598055.shtml" target="_blank">
+<img src="http://www.qhnews.com/pic/003/002/335/00300233550_b6c95a85.jpg" alt="供销搭平台 高原好物香">
+</a>
+<a href="http://www.qhnews.com/newscenter/system/2026/08/15/030598055.shtml" class="st-img-caption" target="_blank">供销搭平台 高原好物香</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 摘要文字区域：模板生成摘要，右下角带红色详情按钮 -->
+  <div class="st-summary">
+
+
+<table width="100%" >
+<tr>
+<td >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8月14日，“青海好物·供销集市”—青海绿色有机农畜产品产销对接暨品牌发布系列活... <a href="http://www.qhnews.com/newscenter/system/2026/08/15/030598055.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/15/030598055.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 新闻列表：3条，每条前带灰色圆点，底部虚线分隔 -->
+  <ul class="st-news-list">
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600832.shtml" target="_blank">青海油田新能源上半年发电6.3亿千瓦时</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600461.shtml" target="_blank">解析青海“借港出海”新打法</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600487.shtml" target="_blank">1月至7月 青海盐湖化工产品持续扩大出口</a>
+</td>
+</tr>
+</table>
+</li>
+  </ul>
+
+</div>
+</td>
+    <td width="25">&nbsp;</td>
+    <td><style type="text/css">
+
+/* ========== 民族团结栏目卡片 ========== */
+
+/* 外层卡片容器：宽度445px，水平居中，白色背景，10px圆角，蓝色柔和阴影 */
+.st-card {
+  width: 445px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 120, 255, 0.12);  /* 蓝色柔和阴影 */
+  overflow: hidden;
+  padding: 16px 18px 20px;
+  box-sizing: border-box;
+}
+
+/* 顶部标题栏：高度36px，行高36px，底部间距8px */
+.st-header {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+/* 左侧大标题"民族团结"：左浮动，24px加粗，主题蓝色 */
+.st-title {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右侧"更多>>"链接：右浮动，16px灰色，无下划线 */
+.st-more {
+  float: right;
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+}
+.st-more:hover {
+  color: #1c5cb4;
+}
+
+/* 标题下方装饰分隔图 11.jpg：宽度铺满，固定高度11px，块级显示 */
+.st-divider-img {
+  width: 100%;
+  height: 11px;
+  display: block;
+  margin: 4px 0 12px 0;
+  object-fit: cover;
+}
+
+/* 主图容器：相对定位，8px圆角，溢出裁剪 */
+.st-main-img {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 主图：填满容器，块级显示，等比缩放 */
+.st-main-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* 图片底部黑色半透明标题条：绝对定位贴底，黑色透明度45%，白色加粗文字 */
+.st-img-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 14px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+/* 摘要文字区域：上间距10px，14px浅灰色，行高1.7，右侧留70px给详情按钮 */
+.st-summary {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #aeb0b2;
+  line-height: 1.7;
+  position: relative;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+
+/* 红色"详情"按钮：绝对定位在摘要右下角，红色背景，4px圆角 */
+.st-detail-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  padding: 4px 14px;
+  background: #d32f2f;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.st-detail-btn:hover {
+  background: #b71c1c;
+}
+
+/* 新闻列表：上间距18px，清除默认列表样式 */
+.st-news-list {
+  width: 100%;
+  margin: 18px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 每条新闻：高38px，行高38px，底部虚线分隔，超出省略 */
+.st-news-list li {
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 新闻标题链接：18px深灰色，无下划线 */
+.st-news-list li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* 新闻标题前的灰色小圆点符号 */
+.st-news-list li a::before {
+  content: "●";
+  color: #999;
+  font-size: 8px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.st-news-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- ========== 民族团结卡片HTML结构 ========== -->
+<div class="st-card">
+
+  <!-- 顶部标题栏：左侧大标题 + 右侧更多>>链接 -->
+  <div class="st-header">
+    <span class="st-title">民族团结</span>
+    <a href="http://www.qhnews.com/newscenter/mztj/" class="st-more" target="_blank">更多>></a>
+  </div>
+
+  <!-- 标题下方装饰分隔图 11.jpg -->
+  <img src="http://www.qhnews.com/images2/11.jpg" class="st-divider-img">
+
+  <!-- 主图区域：模板生成图片，底部带黑色半透明标题条 -->
+  <div class="st-main-img">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599870.shtml" target="_blank">
+<img src="http://www.qhnews.com/pic/003/002/338/00300233882_f28a32e0.jpg" alt="中华民族共同体的山河注脚">
+</a>
+<a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599870.shtml" class="st-img-caption" target="_blank">中华民族共同体的山河注脚</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 摘要文字区域：模板生成摘要，右下角带红色详情按钮 -->
+  <div class="st-summary">
+
+
+<table width="100%" >
+<tr>
+<td >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 矗立于青藏高原海拔4306米黄河源头扎陵湖畔的尕日塘秦刻石，以三十七字古朴秦篆，... <a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599870.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599870.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 新闻列表：3条，每条前带灰色圆点，底部虚线分隔 -->
+  <ul class="st-news-list">
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599872.shtml" target="_blank">刻石为证 华夏同根</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/06/030594090.shtml" target="_blank">建成58个“石榴籽小区”，矛盾化解率逾99%</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/07/030594585.shtml" target="_blank">津青少年以球为媒共筑石榴情</a>
+</td>
+</tr>
+</table>
+</li>
+  </ul>
+
+</div>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="450"><style type="text/css">
+
+/* ========== 江源文化栏目卡片 ========== */
+
+/* 外层卡片容器：宽度445px，水平居中，白色背景，10px圆角，蓝色柔和阴影 */
+.st-card {
+  width: 445px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 120, 255, 0.12);  /* 蓝色柔和阴影 */
+  overflow: hidden;
+  padding: 16px 18px 20px;
+  box-sizing: border-box;
+}
+
+/* 顶部标题栏：高度36px，行高36px，底部间距8px */
+.st-header {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+/* 左侧大标题"江源文化"：左浮动，24px加粗，主题蓝色 */
+.st-title {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右侧"更多>>"链接：右浮动，16px灰色，无下划线 */
+.st-more {
+  float: right;
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+}
+.st-more:hover {
+  color: #1c5cb4;
+}
+
+/* 标题下方装饰分隔图 11.jpg：宽度铺满，固定高度11px，块级显示 */
+.st-divider-img {
+  width: 100%;
+  height: 11px;
+  display: block;
+  margin: 4px 0 12px 0;
+  object-fit: cover;
+}
+
+/* 主图容器：相对定位，8px圆角，溢出裁剪 */
+.st-main-img {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 主图：填满容器，块级显示，等比缩放 */
+.st-main-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* 图片底部黑色半透明标题条：绝对定位贴底，黑色透明度45%，白色加粗文字 */
+.st-img-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 14px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+/* 摘要文字区域：上间距10px，14px浅灰色，行高1.7，右侧留70px给详情按钮 */
+.st-summary {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #aeb0b2;
+  line-height: 1.7;
+  position: relative;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+
+/* 红色"详情"按钮：绝对定位在摘要右下角，红色背景，4px圆角 */
+.st-detail-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  padding: 4px 14px;
+  background: #d32f2f;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.st-detail-btn:hover {
+  background: #b71c1c;
+}
+
+/* 新闻列表：上间距18px，清除默认列表样式 */
+.st-news-list {
+  width: 100%;
+  margin: 18px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 每条新闻：高38px，行高38px，底部虚线分隔，超出省略 */
+.st-news-list li {
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 新闻标题链接：18px深灰色，无下划线 */
+.st-news-list li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* 新闻标题前的灰色小圆点符号 */
+.st-news-list li a::before {
+  content: "●";
+  color: #999;
+  font-size: 8px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.st-news-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- ========== 江源文化卡片HTML结构 ========== -->
+<div class="st-card">
+
+  <!-- 顶部标题栏：左侧大标题 + 右侧更多>>链接 -->
+  <div class="st-header">
+    <span class="st-title">江源文化</span>
+    <a href="http://www.qhnews.com/newscenter/qhwh/" class="st-more" target="_blank">更多>></a>
+  </div>
+
+  <!-- 标题下方装饰分隔图 11.jpg -->
+  <img src="http://www.qhnews.com/images2/11.jpg" class="st-divider-img">
+
+  <!-- 主图区域：模板生成图片，底部带黑色半透明标题条 -->
+  <div class="st-main-img">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600846.shtml" target="_blank">
+<img src="http://www.qhnews.com/pic/003/002/340/00300234081_674b1299.jpg" alt="扎陵湖畔探访 阐释时代价值">
+</a>
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600846.shtml" class="st-img-caption" target="_blank">扎陵湖畔探访 阐释时代价值</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 摘要文字区域：模板生成摘要，右下角带红色详情按钮 -->
+  <div class="st-summary">
+
+
+<table width="100%" >
+<tr>
+<td >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 初秋的清晨，黄河源头的空气中已经裹挟着高原特有的寒气。在前一日的行程里，2026... <a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600846.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600846.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 新闻列表：3条，每条前带灰色圆点，底部虚线分隔 -->
+  <ul class="st-news-list">
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600852.shtml" target="_blank">FIRST展映试点落户西宁五峰书院</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600466.shtml" target="_blank">追寻红色足迹 感悟昆仑文化</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600460.shtml" target="_blank">青海文旅推介会在伦敦举办</a>
+</td>
+</tr>
+</table>
+</li>
+  </ul>
+
+</div>
+</td>
+    <td width="25">&nbsp;</td>
+    <td width="450"><style type="text/css">
+
+/* ========== 基层之声栏目卡片 ========== */
+
+/* 外层卡片容器：宽度445px，水平居中，白色背景，10px圆角，蓝色柔和阴影 */
+.st-card {
+  width: 445px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 120, 255, 0.12);  /* 蓝色柔和阴影 */
+  overflow: hidden;
+  padding: 16px 18px 20px;
+  box-sizing: border-box;
+}
+
+/* 顶部标题栏：高度36px，行高36px，底部间距8px */
+.st-header {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+/* 左侧大标题"基层之声"：左浮动，24px加粗，主题蓝色 */
+.st-title {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右侧"更多>>"链接：右浮动，16px灰色，无下划线 */
+.st-more {
+  float: right;
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+}
+.st-more:hover {
+  color: #1c5cb4;
+}
+
+/* 标题下方装饰分隔图 11.jpg：宽度铺满，固定高度11px，块级显示 */
+.st-divider-img {
+  width: 100%;
+  height: 11px;
+  display: block;
+  margin: 4px 0 12px 0;
+  object-fit: cover;
+}
+
+/* 主图容器：相对定位，8px圆角，溢出裁剪 */
+.st-main-img {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 主图：填满容器，块级显示，等比缩放 */
+.st-main-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* 图片底部黑色半透明标题条：绝对定位贴底，黑色透明度45%，白色加粗文字 */
+.st-img-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 14px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+/* 摘要文字区域：上间距10px，14px浅灰色，行高1.7，右侧留70px给详情按钮 */
+.st-summary {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #aeb0b2;
+  line-height: 1.7;
+  position: relative;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+
+/* 红色"详情"按钮：绝对定位在摘要右下角，红色背景，4px圆角 */
+.st-detail-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  padding: 4px 14px;
+  background: #d32f2f;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.st-detail-btn:hover {
+  background: #b71c1c;
+}
+
+/* 新闻列表：上间距18px，清除默认列表样式 */
+.st-news-list {
+  width: 100%;
+  margin: 18px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 每条新闻：高38px，行高38px，底部虚线分隔，超出省略 */
+.st-news-list li {
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 新闻标题链接：18px深灰色，无下划线 */
+.st-news-list li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* 新闻标题前的灰色小圆点符号 */
+.st-news-list li a::before {
+  content: "●";
+  color: #999;
+  font-size: 8px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.st-news-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- ========== 基层之声卡片HTML结构 ========== -->
+<div class="st-card">
+
+  <!-- 顶部标题栏：左侧大标题 + 右侧更多>>链接 -->
+  <div class="st-header">
+    <span class="st-title">民生服务</span>
+    <a href="http://www.qhnews.com/newscenter/qhms/" class="st-more" target="_blank">更多>></a>
+  </div>
+
+  <!-- 标题下方装饰分隔图 11.jpg -->
+  <img src="http://www.qhnews.com/images2/11.jpg" class="st-divider-img">
+
+  <!-- 主图区域：模板生成图片，底部带黑色半透明标题条 -->
+  <div class="st-main-img">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/15/030598045.shtml" target="_blank">
+<img src="http://www.qhnews.com/pic/003/002/335/00300233548_7b47d8ad.jpg" alt="青海：让群众“金点子”变成发展“金钥匙”">
+</a>
+<a href="http://www.qhnews.com/newscenter/system/2026/08/15/030598045.shtml" class="st-img-caption" target="_blank">青海：让群众“金点子”变成发展“金钥匙”</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 摘要文字区域：模板生成摘要，右下角带红色详情按钮 -->
+  <div class="st-summary">
+
+
+<table width="100%" >
+<tr>
+<td >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8月12日下午，一下班，西宁市城西区古城台街道昆仑路西社区党委书记王晓花和副书记... <a href="http://www.qhnews.com/newscenter/system/2026/08/15/030598045.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/15/030598045.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 新闻列表：3条，每条前带灰色圆点，底部虚线分隔 -->
+  <ul class="st-news-list">
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600842.shtml" target="_blank">青海东部将迎来中到大雨局地暴雨</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600474.shtml" target="_blank">我省加码“一老一小”健康服务供给</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600473.shtml" target="_blank">敲门访民情 倾听践初心</a>
+</td>
+</tr>
+</table>
+</li>
+  </ul>
+
+</div>
+</td>
+    <td width="25">&nbsp;</td>
+    <td><style type="text/css">
+
+/* ========== 深度报道栏目卡片 ========== */
+
+/* 外层卡片容器：宽度445px，水平居中，白色背景，10px圆角，蓝色柔和阴影 */
+.st-card {
+  width: 445px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 120, 255, 0.12);  /* 蓝色柔和阴影 */
+  overflow: hidden;
+  padding: 16px 18px 20px;
+  box-sizing: border-box;
+}
+
+/* 顶部标题栏：高度36px，行高36px，底部间距8px */
+.st-header {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+/* 左侧大标题"深度报道"：左浮动，24px加粗，主题蓝色 */
+.st-title {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右侧"更多>>"链接：右浮动，16px灰色，无下划线 */
+.st-more {
+  float: right;
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+}
+.st-more:hover {
+  color: #1c5cb4;
+}
+
+/* 标题下方装饰分隔图 11.jpg：宽度铺满，固定高度11px，块级显示 */
+.st-divider-img {
+  width: 100%;
+  height: 11px;
+  display: block;
+  margin: 4px 0 12px 0;
+  object-fit: cover;
+}
+
+/* 主图容器：相对定位，8px圆角，溢出裁剪 */
+.st-main-img {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 主图：填满容器，块级显示，等比缩放 */
+.st-main-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* 图片底部黑色半透明标题条：绝对定位贴底，黑色透明度45%，白色加粗文字 */
+.st-img-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 14px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+/* 摘要文字区域：上间距10px，14px浅灰色，行高1.7，右侧留70px给详情按钮 */
+.st-summary {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #aeb0b2;
+  line-height: 1.7;
+  position: relative;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+
+/* 红色"详情"按钮：绝对定位在摘要右下角，红色背景，4px圆角 */
+.st-detail-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  padding: 4px 14px;
+  background: #d32f2f;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.st-detail-btn:hover {
+  background: #b71c1c;
+}
+
+/* 新闻列表：上间距18px，清除默认列表样式 */
+.st-news-list {
+  width: 100%;
+  margin: 18px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 每条新闻：高38px，行高38px，底部虚线分隔，超出省略 */
+.st-news-list li {
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 新闻标题链接：18px深灰色，无下划线 */
+.st-news-list li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* 新闻标题前的灰色小圆点符号 */
+.st-news-list li a::before {
+  content: "●";
+  color: #999;
+  font-size: 8px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.st-news-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- ========== 深度报道卡片HTML结构 ========== -->
+<div class="st-card">
+
+  <!-- 顶部标题栏：左侧大标题 + 右侧更多>>链接 -->
+  <div class="st-header">
+    <span class="st-title">深度报道</span>
+    <a href="http://www.qhnews.com/newscenter/jxqh/" class="st-more" target="_blank">更多>></a>
+  </div>
+
+  <!-- 标题下方装饰分隔图 11.jpg -->
+  <img src="http://www.qhnews.com/images2/11.jpg" class="st-divider-img">
+
+  <!-- 主图区域：模板生成图片，底部带黑色半透明标题条 -->
+  <div class="st-main-img">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600576.shtml" target="_blank">
+<img src="http://www.qhnews.com/pic/003/002/340/00300234007_31503ec0.jpg" alt="【河湟昆仑】“采药昆仑”所采之药为何物">
+</a>
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600576.shtml" class="st-img-caption" target="_blank">【河湟昆仑】“采药昆仑”所采之药为何物</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 摘要文字区域：模板生成摘要，右下角带红色详情按钮 -->
+  <div class="st-summary">
+
+
+<table width="100%" >
+<tr>
+<td >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 青海尕日塘秦刻石的发现和认定，引发了社会各界的广泛关注，地理学、文字学、考古... <a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600576.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600576.shtml" class="st-detail-btn" target="_blank">详情</a>
+</td>
+</tr>
+</table>
+  </div>
+
+  <!-- 新闻列表：3条，每条前带灰色圆点，底部虚线分隔 -->
+  <ul class="st-news-list">
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/17/030598633.shtml" target="_blank">聚焦青海“三北”工程治理成效</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/09/030595381.shtml" target="_blank">我省外贸降幅持续收窄 进口实现由负转正</a>
+</td>
+</tr>
+</table>
+</li>
+    <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/09/030595382.shtml" target="_blank">双会同台 共赴荣光</a>
+</td>
+</tr>
+</table>
+</li>
+  </ul>
+
+</div>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="703" height="248" valign="top"><table width="703" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><style type="text/css">
+
+/* ========== 数字报展示组件 ========== */
+
+/* 右侧报纸导航按钮：竖版排列 */
+.epaper-btn {
+  width: 45px;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1c5cb4;
+  cursor: pointer;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: 4px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+.epaper-btn:hover {
+  background: #1c5cb4;
+  color: #fff;
+}
+.epaper-btn.active {
+  background: #1c5cb4;
+  color: #fff;
+}
+
+/* 日期日历显示 */
+.epaper-date {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+</style>
+
+<!-- ========== 数字报展示HTML ========== -->
+<table width="703" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="750" valign="top" background="http://www.qhnews.com/images2/15.jpg">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="14%" height="84" valign="bottom">&nbsp;</td>
+          <td width="35%" valign="bottom"></td>
+          <td width="51%" valign="bottom">
+            <span class="epaper-date" id="epaperDate">加载中...</span>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="46">&nbsp;</td>
+        </tr>
+      </table>
+
+      <table width="100%" height="522" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="11%">&nbsp;</td>
+          <!-- 中间：报纸图片展示区 -->
+          <td width="77%">
+            <div align="center">
+              <a href="http://epaper.tibet3.com/qhrb/" id="epaperLink" title="青海日报数字报" target="_blank">
+                <img src="https://epaper.tibet3.com/m/getTodayPage/1" id="epaperImg" alt="青海日报数字报" title="青海日报数字报" width="340" height="500" border="0">
+              </a>
+            </div>
+          </td>
+          <!-- 右侧：4个竖版汉字导航按钮 -->
+          <td width="12%" valign="top">
+            <table width="45" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="115">
+                  <div class="epaper-btn active" data-paper="qhrb" data-img="1" data-title="青海日报数字报">青海日报</div>
+                </td>
+              </tr>
+            </table>
+            <table width="45" border="0" cellspacing="0" cellpadding="0">
+              <tr><td height="20">&nbsp;</td></tr>
+            </table>
+            <table width="45" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="115">
+                  <div class="epaper-btn" data-paper="xhdsb" data-img="2" data-title="西海都市报数字报">西海都市报</div>
+                </td>
+              </tr>
+            </table>
+            <table width="45" border="0" cellspacing="0" cellpadding="0">
+              <tr><td height="20">&nbsp;</td></tr>
+            </table>
+            <table width="45" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="115">
+                  <div class="epaper-btn" data-paper="qhfzb" data-img="4" data-title="青海法治报数字报">青海法治报</div>
+                </td>
+              </tr>
+            </table>
+            <table width="45" border="0" cellspacing="0" cellpadding="0">
+              <tr><td height="20">&nbsp;</td></tr>
+            </table>
+            <table width="45" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="115">
+                  <div class="epaper-btn" data-paper="qhzwb" data-img="3" data-title="青海藏文报数字报">青海藏文报</div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+ 
+    </td>
+  </tr>
+</table>
+
+<script>
+// ========== 实时日期日历 ==========
+(function() {
+  var weekDays = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+  function updateDate() {
+    var now = new Date();
+    var y = now.getFullYear();
+    var m = now.getMonth() + 1;
+    var d = now.getDate();
+    var w = weekDays[now.getDay()];
+    document.getElementById('epaperDate').textContent = y + '年' + m + '月' + d + '日 ' + w;
+  }
+  updateDate();
+  setInterval(updateDate, 60000);
+})();
+
+// ========== 报纸切换（鼠标经过切换，切换后固定显示） ==========
+(function() {
+  var btns = document.querySelectorAll('.epaper-btn');
+  var imgEl = document.getElementById('epaperImg');
+  var linkEl = document.getElementById('epaperLink');
+
+  btns.forEach(function(btn) {
+    // 鼠标经过：切换到对应报纸并固定显示
+    btn.addEventListener('mouseenter', function() {
+      btns.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+
+      var paper = btn.getAttribute('data-paper');
+      var imgNum = btn.getAttribute('data-img');
+      var title = btn.getAttribute('data-title');
+
+      linkEl.href = 'http://epaper.tibet3.com/' + paper + '/';
+      linkEl.title = title;
+      imgEl.src = 'https://epaper.tibet3.com/m/getTodayPage/' + imgNum;
+      imgEl.alt = title;
+      imgEl.title = title;
+    });
+  });
+  // 已去掉 mouseleave 自动恢复，hover后固定显示，方便移到左侧点击图片链接
+})();
+</script>
+</td>
+      </tr>
+    </table>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="16"></td>
+        </tr>
+      </table>
+    </td>
+    <td width="119" valign="top">&nbsp;</td>
+    <td width="578" valign="top"><table width="649" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><style type="text/css">
+/* ========== 报社动态栏目卡片 ========== */
+/* 外层卡片：649x214，浅蓝渐变背景，圆角 */
+.bsdt-card {
+  width: 649px;
+  height: 214px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f0f6ff 0%, #e8f1fc 50%, #f5f9ff 100%);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 120, 255, 0.08);
+  box-sizing: border-box;
+  padding: 16px 30px;
+}
+/* 左侧竖排大标题区 */
+.bsdt-title {
+  float: left;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bsdt-title-top {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1c5cb4;
+  line-height: 1.1;
+  letter-spacing: 2px;
+}
+.bsdt-title-bottom {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1c5cb4;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  margin-top: 4px;
+}
+/* 右侧内容区：649-60(padding)-100(标题)=489px */
+.bsdt-content {
+  float: right;
+  width: 489px;
+  height: 100%;
+  position: relative;
+}
+/* 右上"更多>>"链接 */
+.bsdt-more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+}
+.bsdt-more:hover {
+  color: #1c5cb4;
+}
+/* 新闻列表 */
+.bsdt-news {
+  width: 100%;
+  margin-top: 32px;
+  padding: 0;
+  list-style: none;
+}
+.bsdt-news li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* 最后一条去掉虚线 */
+.bsdt-news li:last-child {
+  border-bottom: none;
+}
+.bsdt-news li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  padding-left: 16px;
+  position: relative;
+}
+/* 新闻前蓝色竖线符号 */
+.bsdt-news li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 18px;
+  background: #1c5cb4;
+  border-radius: 2px;
+}
+.bsdt-news li a:hover {
+  color: #1c5cb4;
+}
+</style>
+
+<!-- ========== 报社动态卡片HTML ========== -->
+<div class="bsdt-card">
+  <!-- 左侧竖排大标题 -->
+  <div class="bsdt-title">
+    <div class="bsdt-title-top">报社</div>
+    <div class="bsdt-title-bottom">动态</div>
+  </div>
+  <!-- 右侧内容区 -->
+  <div class="bsdt-content">
+    <!-- 右上更多>> -->
+    <a href="http://www.qhnews.com/newscenter/bsdt/" class="bsdt-more" target="_blank">更多&gt;&gt;</a>
+    <!-- 新闻列表 -->
+    <ul class="bsdt-news">
+      <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600519.shtml" target="_blank">热烈祝贺青海日报社系统性变革启动仪式今日隆重举行!</a>
+</td>
+</tr>
+</table>
+</li>
+      <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599589.shtml" target="_blank">青海日报社党组专题听取社编委会第二季度工作汇报</a>
+</td>
+</tr>
+</table>
+</li>
+      <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599587.shtml" target="_blank">青海日报社召开2026年上半年经营工作专题会议</a>
+</td>
+</tr>
+</table>
+</li>
+    </ul>
+  </div>
+</div></td>
+      </tr>
+    </table>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="40"></td>
+        </tr>
+      </table>
+      <table width="649" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}.hei13 { font-family: "宋体"; font-size: 24px; line-height: 35px; font-weight: bold; color: #1c5cb4; text-align: center; }
+.hei13 a { color: #1c5cb4; text-decoration: none; }
+.hei13 a:hover { color: #1c5cb4; text-decoration: none; }
+.hei132 { font-family: "宋体"; font-size: 16px; line-height: 35px; color: #000; }
+.hei132 a { color: #000; text-decoration: none; }
+.hei132 a:hover { color: #000; text-decoration: none; }
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style>
+<table width="650" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="16">&nbsp;</td>
+    <td width="563"><span class="hei13">“睛”彩青海</span></td>
+    <td width="71"><a href="https://qh.xuexi.cn/local/list.html?6b4b63f24adaa434bb66a1ac37e849e0=bb3fd0d9e8417ac85287a971728baae5b647fd5e50617829c3fcb292c206f631d27825d65ef821995dcd6a397955be15&page=1" class="hei132" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table> 
+<table width="650" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images2/21.jpg" width="650" height="18" alt=""></td>
+  </tr>
+</table>
+ 
+<table width="650" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+ 
+    <td width="200" valign="top"  class="hei132">
+        
+
+<table width="100%" >
+<tr>
+<td width="33%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600986.shtml" title="雨后“西宁之眼”观别样美景" target="_blank"><img src="http://www.qhnews.com/pic/003/002/340/00300234095_d426efb8.png" alt="雨后“西宁之眼”观别样美景" border="0" width="200" height="130" /></a></td>
+</tr>
+<tr>
+<td height="20"><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600986.shtml" title="雨后“西宁之眼”观别样美景" target="_blank" >
+<div align="center">雨后“西宁之眼”观别... </div></a></td>
+</tr>
+</table>
+</td>
+<td width="33%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600984.shtml" title="一起奔赴巴滩草原" target="_blank"><img src="http://www.qhnews.com/pic/003/002/340/00300234094_36a2d4e6.png" alt="一起奔赴巴滩草原" border="0" width="200" height="130" /></a></td>
+</tr>
+<tr>
+<td height="20"><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600984.shtml" title="一起奔赴巴滩草原" target="_blank" >
+<div align="center">一起奔赴巴滩草原 </div></a></td>
+</tr>
+</table>
+</td>
+<td width="33%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600745.shtml" title="青海久治：山河相伴 藏地小城风光" target="_blank"><img src="http://www.qhnews.com/pic/003/002/340/00300234050_db23e970.png" alt="青海久治：山河相伴 藏地小城风光" border="0" width="200" height="130" /></a></td>
+</tr>
+<tr>
+<td height="20"><a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600745.shtml" title="青海久治：山河相伴 藏地小城风光" target="_blank" >
+<div align="center">青海久治：山河相伴 藏... </div></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+  </td>
+  </tr>
+</table>
+</td>
+        </tr>
+      </table>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="40"></td>
+        </tr>
+      </table>
+      <table width="649" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}.hei13 { font-family: "宋体"; font-size: 24px; line-height: 35px; font-weight: bold; color: #1c5cb4; text-align: center; }
+.hei13 a { color: #1c5cb4; text-decoration: none; }
+.hei13 a:hover { color: #1c5cb4; text-decoration: none; }
+.hei132 { font-family: "宋体"; font-size: 16px; line-height: 35px; color: #000; }
+.hei132 a { color: #000; text-decoration: none; }
+.hei132 a:hover { color: #000; text-decoration: none; }
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style>
+<table width="650" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="514"><span class="hei13">图说青海</span></td>
+    <td width="70"><a href="http://www.qhnews.com/newscenter/tsqh/" class="hei132" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table> 
+<table width="650" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images2/21.jpg" width="650" height="18" alt=""></td>
+  </tr>
+</table>
+ 
+<table width="650" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+ 
+    <td width="200" valign="top"  class="hei132">
+        
+
+<table width="100%" >
+<tr>
+<td width="33%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600908.shtml" title="【美丽中国青海行】守一方草原 织幸福生活" target="_blank"><img src="http://www.qhnews.com/pic/003/002/340/00300234077_94836fe4.jpg" alt="【美丽中国青海行】守一方草原 织幸福生活" border="0" width="200" height="130" /></a></td>
+</tr>
+<tr>
+<td height="20"><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600908.shtml" title="【美丽中国青海行】守一方草原 织幸福生活" target="_blank" >
+<div align="center">【美丽中国青海行】守... </div></a></td>
+</tr>
+</table>
+</td>
+<td width="33%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600907.shtml" title="寻访千年印记 接续守护文脉" target="_blank"><img src="http://www.qhnews.com/pic/003/002/340/00300234079_cf5e2e21.jpg" alt="寻访千年印记 接续守护文脉" border="0" width="200" height="130" /></a></td>
+</tr>
+<tr>
+<td height="20"><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600907.shtml" title="寻访千年印记 接续守护文脉" target="_blank" >
+<div align="center">寻访千年印记 接续守护... </div></a></td>
+</tr>
+</table>
+</td>
+<td width="33%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600906.shtml" title="清清黄河好“丰”景" target="_blank"><img src="http://www.qhnews.com/pic/003/002/340/00300234083_0e5c122f.jpg" alt="清清黄河好“丰”景" border="0" width="200" height="130" /></a></td>
+</tr>
+<tr>
+<td height="20"><a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600906.shtml" title="清清黄河好“丰”景" target="_blank" >
+<div align="center">清清黄河好“丰”景 </div></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+  </td>
+  </tr>
+</table>
+</td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.hei13 { font-family: "宋体"; font-size: 24px; line-height: 35px; font-weight: bold; color: #1c5cb4; text-align: center; }
+.hei13 a { color: #1c5cb4; text-decoration: none; }
+.hei13 a:hover { color: #1c5cb4; text-decoration: none; }
+.hei132 { font-family: "宋体"; font-size: 16px; line-height: 35px; color: #000; }
+.hei132 a { color: #000; text-decoration: none; }
+.hei132 a:hover { color: #000; text-decoration: none; }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+-->
+</style>
+
+<!-- 顶部标题栏 -->
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="23">&nbsp;</td>
+    <td width="1300"><span class="hei13">图解青海</span></td>
+    <td width="77"><a href="http://www.qhnews.com/newscenter/tjqh/" class="hei132" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table>
+
+<!-- 装饰分隔线 -->
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images2/21.jpg" width="1400" height="18" alt=""></td>
+  </tr>
+</table>
+
+<!-- 图片区：label_model循环输出6条 -->
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="200" valign="top" class="hei132">
+
+
+<table width="100%" >
+<tr>
+<td width="16%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/08/13/030597509.shtml" title="图解丨关注暑期青少年安全之网络安全篇" target="_blank"><img src="https://qhoss.dmqhyadmin.com/tianma/2026/08/13/RMWf9sUTtJHB1GNh.jpeg" alt="图解丨关注暑期青少年安全之网络安全篇" border="0" width="220" height="330" /></a></td>
+</tr>
+</table>
+</td>
+<td width="16%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/08/12/030597055.shtml" title="图解丨关注暑期青少年安全之交通安全篇" target="_blank"><img src="https://qhoss.dmqhyadmin.com/tianma/2026/08/12/DV4kgr7ExW6fReYw.jpeg" alt="图解丨关注暑期青少年安全之交通安全篇" border="0" width="220" height="330" /></a></td>
+</tr>
+</table>
+</td>
+<td width="16%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/08/12/030596875.shtml" title="图解丨关注暑期青少年安全之安全用电篇" target="_blank"><img src="https://qhoss.dmqhyadmin.com/tianma/2026/08/11/KDsXOO1uAFdJ1rXz.jpeg" alt="图解丨关注暑期青少年安全之安全用电篇" border="0" width="220" height="330" /></a></td>
+</tr>
+</table>
+</td>
+<td width="16%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/08/12/030596873.shtml" title="图解丨关注暑期青少年安全之防溺水篇" target="_blank"><img src="https://qhoss.dmqhyadmin.com/tianma/2026/08/10/v34f84q8tAERuEuS.jpeg" alt="图解丨关注暑期青少年安全之防溺水篇" border="0" width="220" height="330" /></a></td>
+</tr>
+</table>
+</td>
+<td width="16%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/07/30/030590830.shtml" title="故事长图 | 【小城微光·互助】高原氧谷养身心 山林康养富乡亲" target="_blank"><img src="https://qhoss.dmqhyadmin.com/tianma/2026/07/29/BI4obDfJ11C5VmVZ.jpeg" alt="故事长图 | 【小城微光·互助】高原氧谷养身心 山林康养富乡亲" border="0" width="220" height="330" /></a></td>
+</tr>
+</table>
+</td>
+<td width="16%">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><a href="http://www.qhnews.com/newscenter/system/2026/06/22/030572874.shtml" title="【图解】青海省2026年普通高考招生考试政策百问百答（十）" target="_blank"><img src="https://qhoss.dmqhyadmin.com/tianma/2026/06/22/wLyky0ozRe6f285L.jpeg" alt="【图解】青海省2026年普通高考招生考试政策百问百答（十）" border="0" width="220" height="330" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+    </td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><style type="text/css">
+/* 图片链接容器：块级显示，溢出裁剪，8px圆角 */
+.round-img-link {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+}
+/* 图片：块级显示，消除行内间隙，8px圆角 */
+.round-img-link img {
+  display: block;
+  border-radius: 8px;
+}
+</style>
+
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="http://www.qhzwfw.gov.cn/" target="_blank" class="round-img-link"><img src="images2/26.jpg"></a></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><style type="text/css">
+.gov-link {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.gov-link img {
+  display: block;
+  border-radius: 8px;
+}
+</style>
+
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left"><a href="http://www.qhzwfw.gov.cn/fwzn/about.html" target="_blank" class="gov-link"><img src="images2/27.jpg" width="420" height="118" border="0"></a></td>
+    <td align="center"><a href="http://www.qhzwfw.gov.cn/query_newwz.html?tzcode=630000" target="_blank" class="gov-link"><img src="images2/28.jpg" width="420" height="118" border="0"></a></td>
+    <td align="right"><a href="https://www.qhzwfw.gov.cn/query_zwfw_project.html" target="_blank" class="gov-link"><img src="images2/29.jpg" width="420" height="118" border="0"></a></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0" background="images2/2.png">
+  <tr>
+    <td width="580" height="96" valign="top"><style type="text/css">
+
+/* ========== 通知公告栏目 ========== */
+
+.tzgg-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+.tzgg-more {
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+.tzgg-more:hover {
+  color: #1c5cb4;
+}
+
+.tzgg-news {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tzgg-news li {
+  height: 48px;
+  line-height: 48px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-bottom: 1px dashed #ccc;
+}
+.tzgg-news li:last-child {
+  border-bottom: none;
+}
+.tzgg-news li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  padding-left: 18px;
+  position: relative;
+}
+
+/* 红色圆点：Unicode转义，避免编码问题 */
+.tzgg-news li a::before {
+  content: "\2022";
+  color: #d32f2f;
+  font-size: 10px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tzgg-news li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- 顶部标题栏 -->
+<table width="580" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="484"><span class="tzgg-title">通知公告</span></td>
+    <td width="76"><a href="http://www.qhnews.com/index/gg/" class="tzgg-more" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table>
+
+<!-- 装饰分隔线 -->
+<table width="580" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images2/1.png" width="580" height="15" alt=""></td>
+  </tr>
+</table>
+
+<!-- 新闻列表：4条，红点，虚线 -->
+<table width="580" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <ul class="tzgg-news">
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/index/system/2026/07/23/030587829.shtml" title="2026年青海省委宣传部所属事业单位公开招聘拟聘用人员公示" target="_blank">2026年青海省委宣传部所属事业单位公开招聘拟聘用人员公示</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/index/system/2026/07/23/030587723.shtml" title="“青海省公益普法优秀典型”推荐人选名单的公示" target="_blank">“青海省公益普法优秀典型”推荐人选名单的公示</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/index/system/2026/07/10/030581187.shtml" title="青海新闻网拟申领新闻记者证人员公示" target="_blank">青海新闻网拟申领新闻记者证人员公示</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/index/system/2026/07/02/030577849.shtml" title="青海省互联网新闻信息服务单位许可信息" target="_blank">青海省互联网新闻信息服务单位许可信息</a>
+</td>
+</tr>
+</table>
+</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</td>
+    <td width="46" valign="top">&nbsp;</td>
+    <td width="580" valign="top"><style type="text/css">
+/* ========== 民生资讯栏目 ========== */
+.mszx-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+.mszx-more {
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+.mszx-more:hover {
+  color: #1c5cb4;
+}
+/* 便民服务链接：5列布局，每行48px，下方虚线 */
+.mszx-links {
+  width: 580px;
+  border-collapse: collapse;
+}
+.mszx-links td {
+  width: 116px;
+  height: 48px;
+  line-height: 48px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* 最后一行去掉虚线 */
+.mszx-links tr:last-child td {
+  border-bottom: none;
+}
+/* 清除p标签默认外边距，确保行高严格48px */
+.mszx-links td p {
+  margin: 0;
+}
+.mszx-links td a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+.mszx-links td a:hover {
+  color: #1c5cb4;
+}
+</style>
+
+<!-- 顶部标题栏 -->
+<table width="580" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20">&nbsp;</td>
+    <td width="484"><span class="mszx-title">民生资讯</span></td>
+    <td width="76"><a href="http://www.qinghai.gov.cn/msfw/index.html" class="mszx-more" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table>
+
+<!-- 装饰分隔线 -->
+<table width="580" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images2/1.png" width="580" height="15" alt=""></td>
+  </tr>
+</table>
+
+<!-- 便民服务导航：4行5列，共20项，每行48px -->
+<table class="mszx-links" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.qinghai.gov.cn/msfw/bmtg/index.html" tabindex="0">便民通告</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.qinghai.gov.cn/msfw/jjms/index.html" tabindex="0">聚焦民生</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.qinghai.gov.cn/msfw/msbz/index.html" tabindex="0">民生保障</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.qinghai.gov.cn/msfw/msss/index.html" tabindex="0">民生实事</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.qinghai.gov.cn/msfw/msjz/index.html" tabindex="0">民生进展</a></p></td>
+  </tr>
+  <tr>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.qinghai.gov.cn/msfw/msxs/index.html" tabindex="0">民生心声</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.qinghai.gov.cn/msfw/bmwd/index.html" tabindex="0">便民问答</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.qinghai.gov.cn/msfw/msgc/index.html" tabindex="0">民生工程</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://jtyst.qinghai.gov.cn/companynews/lkxx/" tabindex="0">路况信息查询</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.qhpta.com/ncms/index.shtml" tabindex="0">招考信息查询</a></p></td>
+  </tr>
+  <tr>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="https://www.12306.cn/index/" tabindex="0">列车时刻查询</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.weather.com.cn/qinghai/" tabindex="0">各地天气查询</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://jyt.qinghai.gov.cn/fw/wscy/yjzy/" tabindex="0">幼教资源查询</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.qinghai.gov.cn/msfw/system/2015/11/25/010189857.shtml" tabindex="0">公共场馆信息</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://gat.qinghai.gov.cn/stmhwz/bmfw/toSFZBLJDCX?token=0cd5ef1402134b188f525e7d1e1f7935" tabindex="0">身份证办理进度</a></p></td>
+  </tr>
+  <tr>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.qhzwfw.gov.cn/query_result_dibaoz.html" tabindex="0">低保信息查询</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://qh.122.gov.cn/views/inquiry.html" tabindex="0">机动车违规查询</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="http://www.ip138.com/post/" tabindex="0">邮政编码查询</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="https://www.chinacourt.org/law.shtml" tabindex="0">法律法规查询</a></p></td>
+    <td><p setedaria="true" tabindex="0"><a target="_blank" href="shturl.cc/9XZ4vT0yUvVx" tabindex="0">城市公交查询</a></p></td>
+  </tr>
+</table></td>
+    <td width="46" valign="top">&nbsp;</td>
+    <td width="148"><style type="text/css">
+/* 信访信箱图片链接：块级显示，溢出裁剪，8px圆角 */
+.xfxx-img {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.xfxx-img img {
+  display: block;
+  border-radius: 8px;
+}
+</style>
+
+<a href="https://xfj.qinghai.gov.cn:1443/zhengfuxinxiang?orgid=63001&type=szxx" target="_blank" class="xfxx-img"><img src="images2/31.jpg" width="148" height="213" border="0"></a>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><style type="text/css">
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+</style>
+</head>
+<body>
+
+<!-- 顶部导航栏：背景图34.jpg，四角8px圆角 -->
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <div style="width:1400px; height:80px; background:url(http://www.qhnews.com/images2/34.jpg) no-repeat; border-radius:8px; overflow:hidden;">
+        <table width="1288" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="324">&nbsp;</td>
+            <td width="964" height="80">
+              <table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td>
+                    <!-- 滚动容器：宽960，溢出隐藏 -->
+                    <div class="hui12" id="demo" style="overflow:hidden; width:960px;">
+                      <table width="960" border="0" align="center" cellpadding="0" cellspacing="0" class="nav4">
+                        <tr>
+                          <!-- 第一组滚动内容 -->
+                          <td width="570" valign="top" id="marquePic1">
+                            <table width="960" border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td width="500" height="20" align="center">
+
+<table width="100%" >
+<tr>
+<td width="5%">
+<a href="http://hzhb.qhnews.com/system/2024/12/30/030327624.shtml" title="中国农业银行青海分行" target="_blank"><img src="http://www.qhnews.com/pic/003/001/694/00300169488_7538392a.jpg" alt="中国农业银行青海分行" border="0" height="60" /></a>
+</td>
+<td width="5%">
+<a href="http://hzhb.qhnews.com/system/2024/12/30/030327621.shtml" title="青海电信" target="_blank"><img src="http://www.qhnews.com/pic/003/001/570/00300157067_f87a59e3.png" alt="青海电信" border="0" height="60" /></a>
+</td>
+<td width="5%">
+<a href="http://hzhb.qhnews.com/system/2024/12/30/030327614.shtml" title="黄河上游水电公司" target="_blank"><img src="http://www.qhnews.com/pic/0/01/85/55/1855519_991430.jpg" alt="黄河上游水电公司" border="0" height="60" /></a>
+</td>
+<td width="5%">
+<a href="http://hzhb.qhnews.com/system/2024/12/30/030327607.shtml" title="中国银行" target="_blank"><img src="http://www.qhnews.com/tupian/20160706.jpg" alt="中国银行" border="0" height="60" /></a>
+</td>
+</table>
+</td>
+                                <td align="center"></td>
+                                <td width="458" align="center">
+
+<table width="100%" >
+</table>
+</td>
+                              </tr>
+                            </table>
+                          </td>
+                          <!-- 第二组：JS复制第一组内容，实现无缝滚动 -->
+                          <td width="202" valign="top" id="marquePic2"></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!-- 无缝滚动脚本：速度10ms，鼠标悬停暂停 -->
+                    <script type="text/javascript">
+                      var speed = 10;
+                      marquePic2.innerHTML = marquePic1.innerHTML;
+                      function Marquee() {
+                        if (demo.scrollLeft >= marquePic1.scrollWidth) {
+                          demo.scrollLeft = 0;
+                        } else {
+                          demo.scrollLeft++;
+                        }
+                      }
+                      var MyMar = setInterval(Marquee, speed);
+                      demo.onmouseover = function() { clearInterval(MyMar); };
+                      demo.onmouseout = function() { MyMar = setInterval(Marquee, speed); };
+                    </script>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><style type="text/css">
+
+/* ========== 合作伙伴栏目（独立前缀 hzqy-） ========== */
+
+/* 合作伙伴图片：335x51，四角8px圆角，块级显示 */
+.hzqy-img {
+  width: 335px;
+  height: 51px;
+  display: block;
+  border-radius: 8px;
+}
+
+</style>
+
+<!-- 合作伙伴：4张图，总宽1400px，四角圆角 -->
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="http://www.qhnews.com/qhlx/" target="_blank"><img src="images2/20250917.jpg" class="hzqy-img" border="0"></a></td>
+    <td width="20">&nbsp;</td>
+    <td><a href="#" target="_blank"><img src="images2/20260314.jpg" class="hzqy-img" border="0"></a></td>
+    <td width="20">&nbsp;</td>
+    <td><a href="https://www.qhcredit.gov.cn/" target="_blank"><img src="images2/36.jpg" class="hzqy-img" border="0"></a></td>
+    <td width="20">&nbsp;</td>
+    <td><a href="https://www.12377.cn/" target="_blank"><img src="images2/35.jpg" class="hzqy-img" border="0"></a></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="450"><style type="text/css">
+
+/* ============================================================
+   栏目模板：州县动态（前缀 zxdt2-，第二版，区别于旧版 zxdt-）
+   ============================================================ */
+
+/* 顶部大标题：24px加粗，主题蓝色 */
+.zxdt2-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右上角"更多>>"链接：16px灰色，右对齐，无下划线 */
+.zxdt2-more {
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+.zxdt2-more:hover {
+  color: #1c5cb4;
+}
+
+/* 强制左侧模板图片：154x93，8px圆角 */
+.zxdt2-img-cell img {
+  width: 154px;
+  height: 93px;
+  display: block;
+  border-radius: 8px !important;
+  object-fit: cover;
+}
+
+/* 右侧第一条稿子卡片：白色背景，蓝色柔和阴影，8px圆角 */
+.zxdt2-news1 {
+  width: 261px;
+  height: 93px;
+  background: #fff;
+  padding: 10px 14px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 120, 255, 0.15);
+  border-radius: 8px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* 右侧第一条稿子：强行规定字体加粗 */
+.zxdt2-news1,
+.zxdt2-news1 a,
+.zxdt2-news1 a:link,
+.zxdt2-news1 a:visited,
+.zxdt2-news1 a:hover,
+.zxdt2-news1 font,
+.zxdt2-news1 span,
+.zxdt2-news1 * {
+  font-weight: bold !important;
+}
+.zxdt2-news1 a {
+  color: #333;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.zxdt2-news1 a:hover {
+  color: #1c5cb4;
+}
+
+/* 底部新闻列表 */
+.zxdt2-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.zxdt2-list li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.zxdt2-list li:last-child {
+  border-bottom: none;
+}
+
+/* 底部新闻标题：强行不加粗 */
+.zxdt2-list li a,
+.zxdt2-list li a:link,
+.zxdt2-list li a:visited,
+.zxdt2-list li a:hover,
+.zxdt2-list li font,
+.zxdt2-list li span,
+.zxdt2-list li * {
+  font-weight: normal !important;
+}
+.zxdt2-list li a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  padding-left: 16px;
+  position: relative;
+}
+
+/* 红色圆点：Unicode转义 */
+.zxdt2-list li a::before {
+  content: "\2022";
+  color: #d32f2f;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.zxdt2-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- 顶部标题栏 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20" height="32">&nbsp;</td>
+    <td width="346"><span class="zxdt2-title">州县动态</span></td>
+    <td width="84"><a href="http://www.qhnews.com/newscenter/qhgd/" class="zxdt2-more" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table>
+
+<!-- 装饰分隔线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images2/37.jpg" width="450" height="11" alt=""></td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 内容区：浅蓝背景 #ecf5fc -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ecf5fc">
+  <tr>
+    <td>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+      <table width="430" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <!-- 左侧图片：强制圆角 -->
+          <td width="154" valign="top" class="zxdt2-img-cell">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600484.shtml" title="全城接力助农 乐都区雨润镇滞销桃子3天售出375公斤" target="_blank"><img src="http://www.qhnews.com/pic/003/002/340/00300234011_d032bb98.jpg" alt="全城接力助农 乐都区雨润镇滞销桃子3天售出375公斤" border="0" width="150" height="100" /></a></td>
+</td>
+</tr>
+</table>
+          </td>
+          <td width="15">&nbsp;</td>
+          <!-- 右侧第一条稿子：白色蓝阴影，加粗 -->
+          <td width="261" valign="top">
+            <div class="zxdt2-news1">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600484.shtml" class="mrrd-news-title" target="_blank">全城接力助农 乐都区雨润镇滞销桃子3天售出375公斤</a>
+</td>
+</tr>
+</table>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 底部新闻列表：4条，不加粗，红点，虚线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <ul class="zxdt2-list">
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600848.shtml" class="mrrd-news-title" target="_blank">青海海东：铺就民心路 架起连心桥</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600485.shtml" class="mrrd-news-title" target="_blank">8月21日至23日 西宁城中区三场精彩活动等你来看</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600483.shtml" class="mrrd-news-title" target="_blank">西宁海东公积金跨区域提取五年超4.5亿元</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600486.shtml" class="mrrd-news-title" target="_blank">西宁“电力幸福专员”打通用电服务最后1米</a>
+</td>
+</tr>
+</table>
+</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</td>
+    <td width="25">&nbsp;</td>
+    <td width="450"><style type="text/css">
+
+/* ============================================================
+   栏目模板：党风廉政（前缀 dflz-）
+   ============================================================ */
+
+/* 顶部大标题：24px加粗，主题蓝色 */
+.dflz-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右上角"更多>>"链接：16px灰色，右对齐，无下划线 */
+.dflz-more {
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+.dflz-more:hover {
+  color: #1c5cb4;
+}
+
+/* 强制左侧模板图片：154x93，8px圆角，等比裁剪 */
+.dflz-img-cell img {
+  width: 154px;
+  height: 93px;
+  display: block;
+  border-radius: 8px !important;
+  object-fit: cover;
+}
+
+/* 右侧第一条稿子卡片：白色背景，蓝色柔和阴影，8px圆角 */
+.dflz-news1 {
+  width: 261px;
+  height: 93px;
+  background: #fff;
+  padding: 10px 14px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 120, 255, 0.15);
+  border-radius: 8px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* 右侧第一条稿子：强行规定字体加粗，覆盖模板内联样式 */
+.dflz-news1,
+.dflz-news1 a,
+.dflz-news1 a:link,
+.dflz-news1 a:visited,
+.dflz-news1 a:hover,
+.dflz-news1 font,
+.dflz-news1 span,
+.dflz-news1 * {
+  font-weight: bold !important;
+}
+.dflz-news1 a {
+  color: #333;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.dflz-news1 a:hover {
+  color: #1c5cb4;
+}
+
+/* 底部新闻列表：清除默认样式 */
+.dflz-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 每条新闻：高40px，行高40px，底部虚线分隔，超出省略 */
+.dflz-list li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dflz-list li:last-child {
+  border-bottom: none;
+}
+
+/* 底部新闻标题：强行不加粗，覆盖模板内联样式 */
+.dflz-list li a,
+.dflz-list li a:link,
+.dflz-list li a:visited,
+.dflz-list li a:hover,
+.dflz-list li font,
+.dflz-list li span,
+.dflz-list li * {
+  font-weight: normal !important;
+}
+.dflz-list li a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  padding-left: 16px;
+  position: relative;
+}
+
+/* 红色圆点：Unicode转义，避免编码问题 */
+.dflz-list li a::before {
+  content: "\2022";
+  color: #d32f2f;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.dflz-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- 顶部标题栏 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20" height="32">&nbsp;</td>
+    <td width="346"><span class="dflz-title">党风廉政</span></td>
+    <td width="84"><a href="http://www.qhnews.com/newscenter/dj/" class="dflz-more" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table>
+
+<!-- 装饰分隔线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images2/37.jpg" width="450" height="11" alt=""></td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 内容区：浅蓝背景 #ecf5fc -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ecf5fc">
+  <tr>
+    <td>
+      <!-- 上间距5px -->
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+      <!-- 内层430px居中：左图 + 间距15 + 右标题卡片 -->
+      <table width="430" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <!-- 左侧图片：强制圆角 -->
+          <td width="154" valign="top" class="dflz-img-cell">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/18/030598989.shtml" title="【党旗领航】第八次调解" target="_blank"><img src="http://www.qhnews.com/pic/003/002/337/00300233712_d0369ee5.jpg" alt="【党旗领航】第八次调解" border="0" width="150" height="100" /></a></td>
+</td>
+</tr>
+</table>
+          </td>
+          <!-- 中间15px间距 -->
+          <td width="15">&nbsp;</td>
+          <!-- 右侧第一条稿子：白色蓝阴影卡片，字体强制加粗 -->
+          <td width="261" valign="top">
+            <div class="dflz-news1">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/18/030598989.shtml" class="mrrd-news-title" target="_blank">【党旗领航】第八次调解</a>
+</td>
+</tr>
+</table>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!-- 下间距5px -->
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 底部新闻列表：4条，不加粗，红点，虚线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <ul class="dflz-list">
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/11/030596238.shtml" class="mrrd-news-title" target="_blank">【党旗领航】高原讲台上的“好声音”</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/11/030596236.shtml" class="mrrd-news-title" target="_blank">【先锋力量】匠心独运铸新卷 热贡先锋绘新篇</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/11/030596237.shtml" class="mrrd-news-title" target="_blank">【先锋力量】党旗扎进托宝沟 风雨一线守民安</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/10/030595748.shtml" class="mrrd-news-title" target="_blank">【正风肃纪在身边】精准监督不松劲 守护雪域“夕阳红”</a>
+</td>
+</tr>
+</table>
+</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</td>
+    <td width="25">&nbsp;</td>
+    <td width="450"><style type="text/css">
+
+/* ============================================================
+   栏目模板：人物故事（前缀 rwgs-）
+   ============================================================ */
+
+/* 顶部大标题：24px加粗，主题蓝色 */
+.rwgs-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右上角"更多>>"链接：16px灰色，右对齐，无下划线 */
+.rwgs-more {
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+.rwgs-more:hover {
+  color: #1c5cb4;
+}
+
+/* 强制左侧模板图片：154x93，8px圆角 */
+.rwgs-img-cell img {
+  width: 154px;
+  height: 93px;
+  display: block;
+  border-radius: 8px !important;
+  object-fit: cover;
+}
+
+/* 右侧第一条稿子卡片：白色背景，蓝色柔和阴影，8px圆角 */
+.rwgs-news1 {
+  width: 261px;
+  height: 93px;
+  background: #fff;
+  padding: 10px 14px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 120, 255, 0.15);
+  border-radius: 8px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* 右侧第一条稿子：强行规定字体加粗 */
+.rwgs-news1,
+.rwgs-news1 a,
+.rwgs-news1 a:link,
+.rwgs-news1 a:visited,
+.rwgs-news1 a:hover,
+.rwgs-news1 font,
+.rwgs-news1 span,
+.rwgs-news1 * {
+  font-weight: bold !important;
+}
+.rwgs-news1 a {
+  color: #333;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.rwgs-news1 a:hover {
+  color: #1c5cb4;
+}
+
+/* 底部新闻列表 */
+.rwgs-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.rwgs-list li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.rwgs-list li:last-child {
+  border-bottom: none;
+}
+
+/* 底部新闻标题：强行不加粗 */
+.rwgs-list li a,
+.rwgs-list li a:link,
+.rwgs-list li a:visited,
+.rwgs-list li a:hover,
+.rwgs-list li font,
+.rwgs-list li span,
+.rwgs-list li * {
+  font-weight: normal !important;
+}
+.rwgs-list li a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  padding-left: 16px;
+  position: relative;
+}
+
+/* 红色圆点：Unicode转义 */
+.rwgs-list li a::before {
+  content: "\2022";
+  color: #d32f2f;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.rwgs-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- 顶部标题栏 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20" height="32">&nbsp;</td>
+    <td width="346"><span class="rwgs-title">人物故事</span></td>
+    <td width="84"><a href="http://www.qhnews.com/newscenter/rwgs/" class="rwgs-more" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table>
+
+<!-- 装饰分隔线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images2/37.jpg" width="450" height="11" alt=""></td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 内容区：浅蓝背景 #ecf5fc -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ecf5fc">
+  <tr>
+    <td>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+      <table width="430" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <!-- 左侧图片：强制圆角 -->
+          <td width="154" valign="top" class="rwgs-img-cell">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600490.shtml" title="【青海好人】风雨中，一场惊心动魄的生命托举" target="_blank"><img src="http://www.qhnews.com/pic/003/002/340/00300234010_0bf237d6.jpg" alt="【青海好人】风雨中，一场惊心动魄的生命托举" border="0" width="150" height="100" /></a></td>
+</td>
+</tr>
+</table>
+          </td>
+          <td width="15">&nbsp;</td>
+          <!-- 右侧第一条稿子：白色蓝阴影，加粗 -->
+          <td width="261" valign="top">
+            <div class="rwgs-news1">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600490.shtml" class="mrrd-news-title" target="_blank">【青海好人】风雨中，一场惊心动魄的生命托举</a>
+</td>
+</tr>
+</table>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 底部新闻列表：4条，不加粗，红点，虚线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <ul class="rwgs-list">
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599909.shtml" class="mrrd-news-title" target="_blank">【青海好人】雪域高原上孤寡老人的贴心“布姆”</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/20/030599899.shtml" class="mrrd-news-title" target="_blank">白衣执初心 柔光护安康</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599379.shtml" class="mrrd-news-title" target="_blank">【青海好人】坐在轮椅上的追光者</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/11/030596241.shtml" class="mrrd-news-title" target="_blank">王振中：丹心赴青 巧手祛疾</a>
+</td>
+</tr>
+</table>
+</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="450"><style type="text/css">
+
+/* ============================================================
+   栏目模板：财经（前缀 cj-）
+   ============================================================ */
+
+/* 顶部大标题：24px加粗，主题蓝色 */
+.cj-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右上角"更多>>"链接：16px灰色，右对齐，无下划线 */
+.cj-more {
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+.cj-more:hover {
+  color: #1c5cb4;
+}
+
+/* 强制左侧模板图片：154x93，8px圆角 */
+.cj-img-cell img {
+  width: 154px;
+  height: 93px;
+  display: block;
+  border-radius: 8px !important;
+  object-fit: cover;
+}
+
+/* 右侧第一条稿子卡片：白色背景，蓝色柔和阴影，8px圆角 */
+.cj-news1 {
+  width: 261px;
+  height: 93px;
+  background: #fff;
+  padding: 10px 14px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 120, 255, 0.15);
+  border-radius: 8px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* 右侧第一条稿子：强行规定字体加粗 */
+.cj-news1,
+.cj-news1 a,
+.cj-news1 a:link,
+.cj-news1 a:visited,
+.cj-news1 a:hover,
+.cj-news1 font,
+.cj-news1 span,
+.cj-news1 * {
+  font-weight: bold !important;
+}
+.cj-news1 a {
+  color: #333;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.cj-news1 a:hover {
+  color: #1c5cb4;
+}
+
+/* 底部新闻列表 */
+.cj-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.cj-list li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cj-list li:last-child {
+  border-bottom: none;
+}
+
+/* 底部新闻标题：强行不加粗 */
+.cj-list li a,
+.cj-list li a:link,
+.cj-list li a:visited,
+.cj-list li a:hover,
+.cj-list li font,
+.cj-list li span,
+.cj-list li * {
+  font-weight: normal !important;
+}
+.cj-list li a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  padding-left: 16px;
+  position: relative;
+}
+
+/* 红色圆点：Unicode转义 */
+.cj-list li a::before {
+  content: "\2022";
+  color: #d32f2f;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.cj-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- 顶部标题栏 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20" height="32">&nbsp;</td>
+    <td width="346"><span class="cj-title">财经</span></td>
+    <td width="84"><a href="http://www.qhnews.com/newscenter/cjxw/" class="cj-more" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table>
+
+<!-- 装饰分隔线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images2/37.jpg" width="450" height="11" alt=""></td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 内容区：浅蓝背景 #ecf5fc -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ecf5fc">
+  <tr>
+    <td>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+      <table width="430" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <!-- 左侧图片：强制圆角 -->
+          <td width="154" valign="top" class="cj-img-cell">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599508.shtml" title="多部门推出活跃县域消费十八条举措" target="_blank"><img src="http://www.qhnews.com/pic/003/002/337/00300233774_cf2a639e.png" alt="多部门推出活跃县域消费十八条举措" border="0" width="150" height="100" /></a></td>
+</td>
+</tr>
+</table>
+          </td>
+          <td width="15">&nbsp;</td>
+          <!-- 右侧第一条稿子：白色蓝阴影，加粗 -->
+          <td width="261" valign="top">
+            <div class="cj-news1">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599508.shtml" class="mrrd-news-title" target="_blank">多部门推出活跃县域消费十八条举措</a>
+</td>
+</tr>
+</table>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 底部新闻列表：4条，不加粗，红点，虚线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <ul class="cj-list">
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599512.shtml" class="mrrd-news-title" target="_blank">引导更多品牌连锁企业向县域下沉</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599511.shtml" class="mrrd-news-title" target="_blank">中老铁路货物运输突破9000万吨</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600533.shtml" class="mrrd-news-title" target="_blank">海外年轻人爱上“中国茶”（中国品牌圈粉海外）</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600535.shtml" class="mrrd-news-title" target="_blank">近万平方米“机器人消费街”亮相2026世界机器人大会</a>
+</td>
+</tr>
+</table>
+</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</td>
+    <td width="25">&nbsp;</td>
+    <td width="450"><style type="text/css">
+
+/* ============================================================
+   栏目模板：社会（前缀 shxw-）
+   ============================================================ */
+
+/* 顶部大标题：24px加粗，主题蓝色 */
+.shxw-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右上角"更多>>"链接：16px灰色，右对齐，无下划线 */
+.shxw-more {
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+.shxw-more:hover {
+  color: #1c5cb4;
+}
+
+/* 强制左侧模板图片：154x93，8px圆角 */
+.shxw-img-cell img {
+  width: 154px;
+  height: 93px;
+  display: block;
+  border-radius: 8px !important;
+  object-fit: cover;
+}
+
+/* 右侧第一条稿子卡片：白色背景，蓝色柔和阴影，8px圆角 */
+.shxw-news1 {
+  width: 261px;
+  height: 93px;
+  background: #fff;
+  padding: 10px 14px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 120, 255, 0.15);
+  border-radius: 8px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* 右侧第一条稿子：强行规定字体加粗 */
+.shxw-news1,
+.shxw-news1 a,
+.shxw-news1 a:link,
+.shxw-news1 a:visited,
+.shxw-news1 a:hover,
+.shxw-news1 font,
+.shxw-news1 span,
+.shxw-news1 * {
+  font-weight: bold !important;
+}
+.shxw-news1 a {
+  color: #333;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.shxw-news1 a:hover {
+  color: #1c5cb4;
+}
+
+/* 底部新闻列表 */
+.shxw-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.shxw-list li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.shxw-list li:last-child {
+  border-bottom: none;
+}
+
+/* 底部新闻标题：强行不加粗 */
+.shxw-list li a,
+.shxw-list li a:link,
+.shxw-list li a:visited,
+.shxw-list li a:hover,
+.shxw-list li font,
+.shxw-list li span,
+.shxw-list li * {
+  font-weight: normal !important;
+}
+.shxw-list li a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  padding-left: 16px;
+  position: relative;
+}
+
+/* 红色圆点：Unicode转义 */
+.shxw-list li a::before {
+  content: "\2022";
+  color: #d32f2f;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.shxw-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- 顶部标题栏 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20" height="32">&nbsp;</td>
+    <td width="346"><span class="shxw-title">社会</span></td>
+    <td width="84"><a href="http://www.qhnews.com/newscenter/shxw/" class="shxw-more" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table>
+
+<!-- 装饰分隔线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images2/37.jpg" width="450" height="11" alt=""></td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 内容区：浅蓝背景 #ecf5fc -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ecf5fc">
+  <tr>
+    <td>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+      <table width="430" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <!-- 左侧图片：强制圆角 -->
+          <td width="154" valign="top" class="shxw-img-cell">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/13/030597404.shtml" title="街头环卫车挂满玩偶 司机说“生活可以好看一点”" target="_blank"><img src="http://www.qhnews.com/pic/003/002/334/00300233415_4965c14e.jpg" alt="街头环卫车挂满玩偶 司机说“生活可以好看一点”" border="0" width="150" height="100" /></a></td>
+</td>
+</tr>
+</table>
+          </td>
+          <td width="15">&nbsp;</td>
+          <!-- 右侧第一条稿子：白色蓝阴影，加粗 -->
+          <td width="261" valign="top">
+            <div class="shxw-news1">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/13/030597404.shtml" class="mrrd-news-title" target="_blank">街头环卫车挂满玩偶 司机说“生活可以好看一点”</a>
+</td>
+</tr>
+</table>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 底部新闻列表：4条，不加粗，红点，虚线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <ul class="shxw-list">
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599706.shtml" class="mrrd-news-title" target="_blank">医师节，听听医生的心愿</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/20/030600036.shtml" class="mrrd-news-title" target="_blank">三堡镇把一粒麦子“吃干榨净”促增收</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600555.shtml" class="mrrd-news-title" target="_blank">适老化，不能只靠字号大（民生观）</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600546.shtml" class="mrrd-news-title" target="_blank">开学提醒！大学新生买学生票有新变化，购票乘车攻略→</a>
+</td>
+</tr>
+</table>
+</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</td>
+    <td width="25">&nbsp;</td>
+    <td width="450"><style type="text/css">
+
+/* ============================================================
+   栏目模板：体育（前缀 tyxw-）
+   ============================================================ */
+
+/* 顶部大标题：24px加粗，主题蓝色 */
+.tyxw-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c5cb4;
+}
+
+/* 右上角"更多>>"链接：16px灰色，右对齐，无下划线 */
+.tyxw-more {
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+.tyxw-more:hover {
+  color: #1c5cb4;
+}
+
+/* 强制左侧模板图片：154x93，8px圆角 */
+.tyxw-img-cell img {
+  width: 154px;
+  height: 93px;
+  display: block;
+  border-radius: 8px !important;
+  object-fit: cover;
+}
+
+/* 右侧第一条稿子卡片：白色背景，蓝色柔和阴影，8px圆角 */
+.tyxw-news1 {
+  width: 261px;
+  height: 93px;
+  background: #fff;
+  padding: 10px 14px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 120, 255, 0.15);
+  border-radius: 8px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* 右侧第一条稿子：强行规定字体加粗 */
+.tyxw-news1,
+.tyxw-news1 a,
+.tyxw-news1 a:link,
+.tyxw-news1 a:visited,
+.tyxw-news1 a:hover,
+.tyxw-news1 font,
+.tyxw-news1 span,
+.tyxw-news1 * {
+  font-weight: bold !important;
+}
+.tyxw-news1 a {
+  color: #333;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tyxw-news1 a:hover {
+  color: #1c5cb4;
+}
+
+/* 底部新闻列表 */
+.tyxw-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tyxw-list li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tyxw-list li:last-child {
+  border-bottom: none;
+}
+
+/* 底部新闻标题：强行不加粗 */
+.tyxw-list li a,
+.tyxw-list li a:link,
+.tyxw-list li a:visited,
+.tyxw-list li a:hover,
+.tyxw-list li font,
+.tyxw-list li span,
+.tyxw-list li * {
+  font-weight: normal !important;
+}
+.tyxw-list li a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  padding-left: 16px;
+  position: relative;
+}
+
+/* 红色圆点：Unicode转义 */
+.tyxw-list li a::before {
+  content: "\2022";
+  color: #d32f2f;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tyxw-list li a:hover {
+  color: #1c5cb4;
+}
+
+</style>
+
+<!-- 顶部标题栏 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20" height="32">&nbsp;</td>
+    <td width="346"><span class="tyxw-title">体育</span></td>
+    <td width="84"><a href="http://ty.qhnews.com/" class="tyxw-more" target="_blank">更多&gt;&gt;</a></td>
+  </tr>
+</table>
+
+<!-- 装饰分隔线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images2/37.jpg" width="450" height="11" alt=""></td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 内容区：浅蓝背景 #ecf5fc -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ecf5fc">
+  <tr>
+    <td>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+      <table width="430" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <!-- 左侧图片：强制圆角 -->
+          <td width="154" valign="top" class="tyxw-img-cell">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600868.shtml" title="青海省第六届全民健身大会棋类比赛开赛" target="_blank"><img src="https://qhoss.dmqhyadmin.com/tianma/2026/08/21/tMk7mp4DdCbn5nhX.jpeg" alt="青海省第六届全民健身大会棋类比赛开赛" border="0" width="150" height="100" /></a></td>
+</td>
+</tr>
+</table>
+          </td>
+          <td width="15">&nbsp;</td>
+          <!-- 右侧第一条稿子：白色蓝阴影，加粗 -->
+          <td width="261" valign="top">
+            <div class="tyxw-news1">
+
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/22/030600868.shtml" class="mrrd-news-title" target="_blank">青海省第六届全民健身大会棋类比赛开赛</a>
+</td>
+</tr>
+</table>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td height="5">&nbsp;</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- 上下间距10px -->
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td height="10">&nbsp;</td></tr>
+</table>
+
+<!-- 底部新闻列表：4条，不加粗，红点，虚线 -->
+<table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <ul class="tyxw-list">
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600530.shtml" class="mrrd-news-title" target="_blank">女排亚锦赛，谁能直通洛杉矶奥运会？</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/21/030600497.shtml" class="mrrd-news-title" target="_blank">圣火余温燃壮志 薪火相传启新程</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599481.shtml" class="mrrd-news-title" target="_blank">花游还将怎样变</a>
+</td>
+</tr>
+</table>
+</li>
+        <li>
+
+<table width="100%" >
+<tr>
+<td >
+<a href="http://www.qhnews.com/newscenter/system/2026/08/19/030599484.shtml" class="mrrd-news-title" target="_blank">中国队晋级U18男篮亚洲杯八强</a>
+</td>
+</tr>
+</table>
+</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="40"></td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="ebe8e3"><table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="40"></td>
+      </tr>
+    </table>
+    <style type="text/css">
+
+/* ============================================================
+   友情链接栏目（前缀 yqlj-）
+   ============================================================ */
+
+.yqlj-box {
+  width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* 标签栏：底部1px黑线，左右留40px，标签居中排列 */
+.yqlj-tabs {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  padding: 0 40px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+/* 每个标签：宽度由内容决定，不等分，左右内边距16px，标签间距8px */
+.yqlj-tab {
+  flex: 0 0 auto;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  padding: 12px 16px;
+  margin-right: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s;
+}
+.yqlj-tab:last-child {
+  margin-right: 0;
+}
+
+/* 红线：3px，宽度跟随标签内容，基于黑线中间 */
+.yqlj-tab::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 0;
+  background: #d32f2f;
+  transition: height 0.2s;
+}
+
+.yqlj-tab:hover::after,
+.yqlj-tab.yqlj-active::after {
+  height: 3px;
+}
+.yqlj-tab:hover,
+.yqlj-tab.yqlj-active {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+/* 内容面板：左右内边距40px */
+.yqlj-panel {
+  display: none;
+  padding: 20px 40px;
+}
+.yqlj-panel.yqlj-active {
+  display: block;
+}
+
+/* 行内链接：| 由CSS伪元素统一生成，前后间距一致 */
+.yqlj-inline {
+  font-size: 14px;
+  line-height: 2.2;
+  text-align: left;
+}
+.yqlj-inline a {
+  color: #333;
+  text-decoration: none;
+}
+.yqlj-inline a::after {
+  content: "|";
+  margin: 0 8px;
+  color: #ccc;
+}
+.yqlj-inline a:last-child::after {
+  display: none;
+}
+.yqlj-inline a:hover {
+  color: #1c5cb4;
+  text-decoration: underline;
+}
+
+</style>
+
+<!-- ========== 友情链接栏目HTML结构 ========== -->
+<div class="yqlj-box">
+
+  <!-- 顶部标签栏：5个主栏目居中排列 -->
+  <div class="yqlj-tabs">
+    <a href="#" class="yqlj-tab yqlj-active" data-panel="dflw">地方网联</a>
+    <a href="#" class="yqlj-tab" data-panel="zyzd">中央重点新闻网站</a>
+    <a href="#" class="yqlj-tab" data-panel="symh">商业门户和搜索网站</a>
+    <a href="#" class="yqlj-tab" data-panel="snwz">省内网站</a>
+    <a href="#" class="yqlj-tab" data-panel="yqlj">友情链接</a>
+  </div>
+
+  <!-- 内容区 -->
+
+  <!-- 面板1：地方网联 -->
+  <div class="yqlj-panel yqlj-active" id="yqlj-panel-dflw">
+    <div class="yqlj-inline">
+      <a href="http://www.qianlong.com/" target="_blank">千龙网</a>
+      <a href="http://www.fjsen.com/" target="_blank">东南网</a>
+      <a href="http://www.jschina.com.cn/" target="_blank">中国江苏网</a>
+      <a href="http://www.anhuinews.com/" target="_blank">中安在线</a>
+      <a href="http://www.yunnan.cn/" target="_blank">云南网</a>
+      <a href="http://www.eastday.com/" target="_blank">东方网</a>
+      <a href="http://www.hebei.com.cn/" target="_blank">长城网</a>
+      <a href="#" target="_blank">黄河新闻网</a>
+      <a href="http://www.syd.com.cn/" target="_blank">沈阳网</a>
+      <a href="http://www.voc.com.cn/" target="_blank">华声在线</a>
+      <a href="http://www.southcn.com/" target="_blank">南方网</a>
+      <a href="#" target="_blank">多彩贵州</a>
+      <a href="http://www.cnwest.com/" target="_blank">西部网</a>
+      <a href="http://www.ynet.com/" target="_blank">北青网</a>
+      <a href="http://www.lnd.com.cn/" target="_blank">北国网</a>
+      <a href="http://www.enorth.com.cn/" target="_blank">北方网</a>
+      <a href="http://www.qhnews.com/" target="_blank">青海新闻网</a>
+      <a href="http://www.sxrb.com/" target="_blank">山西新闻网</a>
+      <a href="http://www.gansudaily.com.cn/" target="_blank">每日甘肃网</a>
+      <a href="http://www.rednet.cn/" target="_blank">红网</a>
+      <a href="http://www.gscn.com.cn/" target="_blank">中国甘肃网</a>
+      <a href="http://www.scol.com.cn/" target="_blank">四川在线</a>
+      <a href="http://www.hebnews.cn/" target="_blank">河北新闻网</a>
+      <a href="http://www.zjol.com.cn/" target="_blank">浙江在线</a>
+      <a href="http://www.ts.cn/" target="_blank">天山网</a>
+      <a href="http://www.dahe.cn/" target="_blank">大河网</a>
+      <a href="http://www.xhby.net/" target="_blank">新华报业网</a>
+      <a href="http://www.nen.com.cn/" target="_blank">东北新闻网</a>
+      <a href="http://www.chinajilin.com.cn/" target="_blank">中国吉林网</a>
+      <a href="http://www.cqnews.net/" target="_blank">华龙网</a>
+      <a href="http://www.jxwmw.cn/" target="_blank">江西文明网</a>
+      <a href="http://www.jxnews.com.cn/" target="_blank">中国江西网</a>
+      <a href="http://www.chinatibetnews.com/" target="_blank">中国西藏新闻网</a>
+      <a href="http://www.hinews.cn/" target="_blank">南海网</a>
+      <a href="http://www.nxnews.net/" target="_blank">宁夏新闻网</a>
+      <a href="http://www.cnhubei.com/" target="_blank">荆楚网</a>
+      <a href="http://www.jxcn.cn/" target="_blank">大江网</a>
+      <a href="http://www.runsky.com/" target="_blank">大连天健网</a>
+      <a href="http://www.nmgnews.com.cn/" target="_blank">内蒙古新闻网</a>
+      <a href="http://www.newssc.org/" target="_blank">四川新闻网</a>
+      <a href="http://www.dbw.cn/" target="_blank">东北网</a>
+      <a href="http://www.jiaodong.net/" target="_blank">胶东在线</a>
+      <a href="http://www.gxnews.com.cn/" target="_blank">广西新闻网</a>
+    </div>
+  </div>
+
+  <!-- 面板2：中央重点新闻网站 -->
+  <div class="yqlj-panel" id="yqlj-panel-zyzd">
+    <div class="yqlj-inline">
+      <a href="http://www.people.com.cn/" target="_blank">人民网</a>
+      <a href="http://www.xinhuanet.com" target="_blank">新华网</a>
+      <a href="http://www.china.com.cn/" target="_blank">中国网</a>
+      <a href="https://tv.cctv.com/" target="_blank">中国网络电视台</a>
+      <a href="https://cn.chinadaily.com.cn/" target="_blank">中国日报网</a>
+      <a href="https://www.cri.cn/" target="_blank">国际在线</a>
+      <a href="https://www.youth.cn/" target="_blank">中青网</a>
+      <a href="http://www.cnr.cn/" target="_blank">中广网</a>
+      <a href="http://www.ce.cn/" target="_blank">中国经济网</a>
+      <a href="http://www.taiwan.cn/" target="_blank">中国台湾网</a>
+      <a href="https://www.chinanews.com.cn/" target="_blank">中新网</a>
+      <a href="http://www.tibet.cn/" target="_blank">中国西藏网</a>
+      <a href="https://www.gmw.cn/" target="_blank">光明网</a>
+    </div>
+  </div>
+
+  <!-- 面板3：商业门户和搜索网站 -->
+  <div class="yqlj-panel" id="yqlj-panel-symh">
+    <div class="yqlj-inline">
+      <a href="http://www.qq.com/" target="_blank">腾讯</a>
+      <a href="http://www.sina.com.cn/" target="_blank">新浪</a>
+      <a href="http://www.sohu.com/" target="_blank">搜狐</a>
+      <a href="http://www.163.com/" target="_blank">网易</a>
+      <a href="http://news.ifeng.com/" target="_blank">凤凰网</a>
+      <a href="#" target="_blank">教育网</a>
+      <a href="http://www.china.com/" target="_blank">中华网</a>
+      <a href="http://www.baidu.com" target="_blank">百度</a>
+      <a href="http://www.cheshi.com/" target="_blank">网上车市</a>
+    </div>
+  </div>
+
+  <!-- 面板4：省内网站 -->
+  <div class="yqlj-panel" id="yqlj-panel-snwz">
+    <div class="yqlj-inline">
+      <a href="http://www.qhnews.com/lj.html" target="_blank">青海网站群</a>
+      <a href="http://www.qhbtv.com/" target="_blank">青海网络广播电视台</a>
+      <a href="http://www.qhlingwang.com/" target="_blank">青海羚网</a>
+      <a href="http://epaper.tibet3.com/qhrb/" target="_blank">青海日报</a>
+      <a href="http://epaper.tibet3.com/xhdsb/" target="_blank">西海都市报</a>
+      <a href="https://www.xnwbw.cn/newsepaper/10322_172040_1862036_xiningwb.html" target="_blank">西宁晚报</a>
+      <a href="https://www.xntv.tv/" target="_blank">西宁电视台</a>
+      <a href="https://epaper.tibet3.com/qhfzb/" target="_blank">青海法治报</a>
+      <a href="http://www.cdmrb.com.cn/" target="_blank">柴达木日报</a>
+      <a href="http://qh.people.com.cn/GB/387483/index.html" target="_blank">人民日报青海分社</a>
+      <a href="http://www.qhrd.gov.cn/" target="_blank">青海人大网</a>
+      <a href="http://qh.people.com.cn/" target="_blank">人民网青海频道</a>
+      <a href="http://www.qh.xinhuanet.com" target="_blank">新华网青海频道</a>
+      <a href="http://www.tibet3.com/" target="_blank">中国藏族网通</a>
+      <a href="http://www.qhszx.gov.cn/" target="_blank">青海政协网</a>
+      <a href="http://www.qhio.gov.cn/" target="_blank">青海省人民政府新闻办</a>
+      <a href="http://www.qinghai.gov.cn/" target="_blank">青海省人民政府网</a>
+      <a href="https://www.geermurb.com/" target="_blank">格尔木日报</a>
+      <a href="http://www.qhjc.gov.cn/index.html" target="_blank">青海纪检监察网</a>
+      <a href="https://cnepaper.com/qhkjb/html/2018-09/05/node_2.htm" target="_blank">青海科技报</a>
+    </div>
+  </div>
+
+  <!-- 面板5：友情链接 -->
+  <div class="yqlj-panel" id="yqlj-panel-yqlj">
+    <div class="yqlj-inline">
+      <a href="http://www.cac.gov.cn/" target="_blank">中国网信网</a>
+      <a href="http://www.scio.gov.cn/" target="_blank">国新办</a>
+      <a href="http://cpc.people.com.cn/" target="_blank">中国共产党新闻网</a>
+      <a href="http://www.gov.cn/" target="_blank">中国政府网</a>
+      <a href="http://www.wenming.cn/" target="_blank">中国文明网</a>
+      <a href="http://www.showchina.org/" target="_blank">看中国网</a>
+      <a href="http://www.xinhuanet.com/zgjx/" target="_blank">中国记协网</a>
+      <a href="#" target="_blank">中国网联网</a>
+      <a href="http://www.workercn.cn/" target="_blank">中工网</a>
+      <a href="http://www.legaldaily.com.cn/" target="_blank">法制网</a>
+      <a href="#" target="_blank">中国西部网</a>
+      <a href="http://www.hsw.cn/" target="_blank">华商网</a>
+      <a href="http://www.xinmin.cn/" target="_blank">新民网</a>
+      <a href="http://www.hinews.cn/" target="_blank">海南网</a>
+      <a href="http://www.sznews.com/" target="_blank">深圳新闻网</a>
+      <a href="http://www.iqilu.com/" target="_blank">齐鲁网</a>
+      <a href="http://www.dongyingnews.cn/" target="_blank">东营网</a>
+      <a href="http://www.takungpao.com/" target="_blank">大公网</a>
+      <a href="http://www.qhzlyy.com" target="_blank">青海省第五人民医院</a>
+    </div>
+  </div>
+
+</div>
+
+<script>
+
+// ========== 友情链接标签切换交互 ==========
+(function() {
+
+  var tabs = document.querySelectorAll('.yqlj-tab');
+  var panels = document.querySelectorAll('.yqlj-panel');
+
+  function switchPanel(panelId) {
+    tabs.forEach(function(t) { t.classList.remove('yqlj-active'); });
+    panels.forEach(function(p) { p.classList.remove('yqlj-active'); });
+    document.querySelector('.yqlj-tab[data-panel="' + panelId + '"]').classList.add('yqlj-active');
+    document.getElementById('yqlj-panel-' + panelId).classList.add('yqlj-active');
+  }
+
+  tabs.forEach(function(tab) {
+    tab.addEventListener('mouseenter', function() {
+      switchPanel(tab.getAttribute('data-panel'));
+    });
+  });
+
+})();
+
+</script>
+</td>
+  </tr>
+</table>
+<table width="1400" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="ebe8e3"><script src="http://www.qhnews.com/sys/real_calc.js?ver=1"></script>
+<style type="text/css">
+/* ============================================================
+   网站底部版权信息（前缀 qhwz-）
+   ============================================================ */
+/* 底部容器：无背景，深灰色文字，16px，居中，顶部30px底部50px */
+.qhwz-footer {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  line-height: 2;
+  padding: 30px 0 50px 0;
+}
+/* 底部所有链接：深灰色，无下划线 */
+.qhwz-footer a {
+  color: #333;
+  text-decoration: none;
+}
+.qhwz-footer a:hover {
+  color: #1c5cb4;
+  text-decoration: underline;
+}
+/* 导航链接之间的 | 分隔符 */
+.qhwz-nav span {
+  margin: 0 8px;
+  color: #999;
+}
+/* 版权文字行：上下间距 */
+.qhwz-copy {
+  margin-top: 4px;
+}
+/* 底部图片区：上下间距，图片居中 */
+.qhwz-logos {
+  margin-top: 10px;
+  text-align: center;
+}
+/* 所有图片：8px圆角 */
+.qhwz-logos img {
+  vertical-align: middle;
+  margin: 0 4px;
+  border-radius: 8px;
+}
+</style>
+
+<!-- ========== 网站底部版权信息 ========== -->
+<div class="qhwz-footer">
+  <!-- 顶部导航链接 -->
+  <div class="qhwz-nav">
+    <a href="http://www.qhnews.com/index/gywm/index.shtml" target="_blank">关于我们</a><span>|</span>
+    <a href="http://www.qhnews.com/index/gywm/flgw/" target="_blank">法律顾问</a><span>|</span>
+    <a href="http://www.qhnews.com/bdt/ggfw/index.shtml" target="_blank">广告服务</a><span>|</span>
+    <a href="http://www.qhnews.com/index/gywm/lxfs/" target="_blank">联系方式</a>
+  </div>
+  <!-- 主办与版权 -->
+  <div class="qhwz-copy">青海日报社主办&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有：青海新闻网</div>
+  <!-- 授权声明 -->
+  <div class="qhwz-copy">未经青海新闻网书面特别授权，请勿转载或建立镜像，违者依法必究</div>
+  <!-- 邮箱与备案信息 -->
+  <div class="qhwz-copy">
+    E-mail：<a href="mailto:webmaster@qhnews.com">webmaster@qhnews.com</a>
+    &nbsp;青海新闻网 互联网新闻信息服务许可证：63120170001
+    &nbsp;<a href="https://beian.miit.gov.cn/" target="_blank">青ICP备19000163号</a>
+    &nbsp;青公网安备 63010302000199号
+  </div>
+  <!-- 底部资质图片与标识 -->
+  <div class="qhwz-logos">
+    <a href="http://www.12377.cn/" target="_blank"><img src="http://www.qhnews.com/pic/0/01/39/13/1391352_954151.jpg" width="320" height="47" border="0" alt="违法和不良信息举报中心"></a>
+    <a href="http://www.12377.cn/node_548446.htm" target="_blank"><img src="http://www.qhnews.com/pic/0/01/39/13/1391343_745998.jpg" width="168" height="47" border="0" alt="中央网信办举报中心"></a>
+    <a href="http://www.piyao.org.cn/" target="_blank"><img src="http://www.qhnews.com/tupian/20231120b.jpg" width="261" height="47" border="0" alt="中国互联网联合辟谣平台"></a>
+    <script src="http://kxlogo.knet.cn/seallogo.dll?sn=a14092963010054490jfg1000000&size=0"></script>
+    <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/29/000/0000/60502766/CA290000000605027660002.js' type='text/javascript'%3E%3C/script%3E"));</script>
+  </div>
+</div></td></tr>
+</table>
+</body>
+</html>
+
+<!--ecms sync check [sync_thread_id="3bcee7cc5a424330844ab778a62d31c1" sync_date="2026-08-23 02:52:45" check_sum="3bcee7cc5a424330844ab778a62d31c1]-->

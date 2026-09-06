@@ -1,0 +1,897 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="北京乐乎|乐乎青年公寓|乐乎城市青年社区|乐乎青年社区|乐乎公寓|青年公寓|白领公寓|公寓出租|单身公寓出租|北京公寓">
+    <meta name="description" content="乐乎作为国内领先的公寓连锁品牌及社区运营品牌，现已经经营十里河店、公益西桥店、传媒大学、立水桥等近30个社区">
+    <meta property="wb:webmaster" content="650609ec239c8672" />
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>乐乎集团—租赁住房行业综合服务商</title>
+    <link rel="apple-touch-icon" href="./component/common/images/favicon_new.ico">
+    <link rel="shortcut icon" href="./component/common/images/favicon_new.ico">
+    <link rel="Bookmark" href="./component/common/images/favicon_new.ico" />
+    <!--css引入-->
+    <link rel="stylesheet" href="./component/common/css/common.css" />
+
+    <!--css引入-->
+    <link rel="stylesheet" href="./component/common/css/f-common.css">
+    <link rel="stylesheet" href="./component/index/css/index.css">
+    <link rel="stylesheet" href="./component/common/css/swiper.min.css">
+    <style>
+        .go-clis div {
+            font-size: 26px;
+            font-family: PingFang SC;
+            font-weight: 400;
+            line-height: 36px;
+            color: #FFFFFF;
+            opacity: 1;
+            width: 164px;
+            height: 50px;
+            border: 2px solid #FFFFFF;
+            opacity: 0.8;
+            margin-top: 71px;
+            display: flex;
+            align-items: center;
+            /* // justify-content: space-between; */
+            padding-left: 20px;
+        }
+
+        .go-clis div img {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="an-nisus">
+        <div id="hezuo"><img src="./component/insight/images/hezuo.png" alt=""></div>
+        <div id="gotop" style="display: none;"><img src="./component/insight/images/gotop.png" alt=""></div>
+    </div>
+    <section class="w100 f-cooperates" id="cooperate" style="display: none;">
+        <div class="main f-contact" style="border-radius: 20px;">
+            <div class="guanbi-y"><img src="./component/insight/images/guanbi.png" alt=""></div>
+            <i class="bottomIcon"></i>
+            <div class="titleInsight">
+                <div class="f-titleInsight tp1">
+                    <h2 class="spac">COOPERATION</h2>
+                    <h3>联系合作</h3>
+                </div>
+            </div>
+            <div class="f-form">
+                <div class="group">
+                    <input name="name" id="modal-name" type="text" placeholder="姓名" autocomplete="off">
+                    <input name="phone" id="modal-phone" type="text" placeholder="手机号" autocomplete="off">
+                </div>
+                <div class="group">
+                    <div class="f-select">
+                        <input type="text" id="ipt-provinceList" name="type" placeholder="省份" autocomplete="off"
+                            readonly="true">
+                        <i class="icons"></i>
+                        <div class="items">
+                            <ul id="modal-provinceList" class="f-scroll"></ul>
+                        </div>
+                    </div>
+                    <div class="f-select">
+                        <input type="text" id="ipt-cityList" name="type" placeholder="城市" autocomplete="off"
+                            readonly="true">
+                        <i class="icons"></i>
+                        <div class="items">
+                            <ul id="modal-cityList" class="f-scroll"></ul>
+                        </div>
+                    </div>
+                    <div class="f-select">
+                        <input type="text" id="ipt-type" name="type" placeholder="合作类型" autocomplete="off"
+                            readonly="true">
+                        <i class="icons"></i>
+                        <div class="items">
+                            <ul id="modal-type">
+                                <li data-id="3">品牌加盟</li>
+                                <li data-id="4">股份投资</li>
+                                <li data-id="5">委托管理</li>
+                                <li data-id="6">企业合作</li>
+                                <li data-id="7">保租房服务</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="f-select" style="width: 760px; margin-top: 20px; margin-bottom: 20px; display: none;"
+                        id="brandhide">
+                        <input type="text" style="width: 100%;" id="ipt-brandNew" name="type" placeholder="请选择您意向加盟的品牌"
+                            autocomplete="off" readonly="true">
+                        <i class="icons"></i>
+                        <div class="items">
+                            <ul id="modal-brand">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="group">
+                    <textarea maxlength="200" id="modal-content" placeholder="请填写您的合作内容"
+                        style="resize: none"></textarea>
+                </div>
+                <div class="group">
+                    <button class="btn" id="modal-submit">立即提交</button>
+                </div>
+            </div>
+            <div class="f-layer"></div>
+        </div>
+    </section>
+
+    <!--菜单-->
+    <section class="nav" id="navbar">
+        <section class="main disf alc">
+            <a href="home.html" class="f18 group current">
+                <i class="font_family icon-a-tuceng2"></i>
+                <span class="group-logo"></span>
+            </a>
+            <a href="index.html" class="f18 nav-index active">首页</a>
+            <a href="client.html" class="f18  require-nav">您的需求</a>
+            <!-- <a href="https://mp.weixin.qq.com/s/008rFC6aWvkinzZp1k2Ehw" class="f18" target="_blank">保租房服务</a> -->
+            <a href="brand.html" class="f18">乐乎品牌</a>
+            <a href="tenant.html" class="f18">租客体验</a>
+            <a href="Insight.html" class="f18">洞见与观察</a>
+            <a href="enterprise.html" class="f18">企业租房</a>
+            <a href="rental.html" class="f18">乐乎租房</a>
+            <a href="https://www-pre.lefull.cn/find_room_list.html" class="f18">乐乎找房</a>
+        </section>
+    </section>
+
+    <!--您的需求展开-->
+    <div class="require-overlay" id="require-overlay"></div>
+    <div class="require-module main" id="require-module">
+        <div class="advantages">
+            <div class="disf">
+                <div class="acquisition flex">
+                    <i class="font_family icon-shougoufuwu-xuanzhong"></i>
+                    <h3>收购服务</h3>
+                    <p>我们为投资者寻找可发展租赁住房项目的收购标的。</p>
+                    <div class="bg bg-cover"></div>
+                </div>
+                <div class="rental flex ml30">
+                    <i class="font_family icon-zulinfuwu-xuanzhong"></i>
+                    <h3>租赁服务</h3>
+                    <p>我们承租各类租赁住房资产。</p>
+                    <div class="bg bg-cover"></div>
+                </div>
+            </div>
+            <div class="disf">
+                <div class="operation flex">
+                    <i class="font_family icon-yunyingguanlifuwu-xuanzhong"></i>
+                    <h3>运营管理服务</h3>
+                    <p>我们为租赁住房项目提供全周期运营服务，包括品牌导入、平台运营、会员共享、招租去化、人才派驻、系统接入、专业培训、经营分析、金融服务、社群管理等。</p>
+                    <div class="bg bg-cover"></div>
+                </div>
+                <div class="construction flex ml30">
+                    <i class="font_family icon-jiansheguanlifuwu-xuanzhong"></i>
+                    <h3>建设管理服务</h3>
+                    <p>我们为租赁住房项目提供工程建设与装修管理，从前期咨询到设计，再到项目管理的一站式全包全流程管理服务。</p>
+                    <div class="bg bg-cover"></div>
+                </div>
+            </div>
+            <div class="disf">
+                <div class="investment flex">
+                    <i class="font_family icon-touzifuwu-xuanzhong"></i>
+                    <h3>投资服务</h3>
+                    <p>我们为个人和机构投资者提供租赁住房项目的投资机会。</p>
+                    <div class="bg bg-cover"></div>
+                </div>
+                <div class="consulting flex ml30">
+                    <i class="font_family icon-zixunfuwu-xuanzhong"></i>
+                    <h3>咨询服务</h3>
+                    <p>为租赁住房项目发展提供规划设计技术支持服务，智慧化社区方案建议，市场可行性研究服务，市场研究与战略建议，品牌重塑指导，建设期技术支持，人员招聘及培训，多维度运营管理，平台服务及战略增值服务等。
+                    </p>
+                    <div class="bg bg-cover"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="yvideos" style="display: none;">
+        <div class="masks"
+            style="display: none; position: fixed; top: 0px; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5);">
+        </div>
+        <div class="zanting" style="display: none;"><img src="./component/insight/images/znting.png" alt=""></div>
+        <div class="kaishi" style="display: none;"><img src="./component/insight/images/kaishi.png" alt=""></div>
+        <div class="titlp" onclick="showBack()"><img src="./component/insight/images/back.png" alt=""><span>平凡之路</span>
+        </div>
+        <video id="lklk"
+            src="https://files.lefull.cn/videos/lefull-pc-homepage-mv.mp4" controls
+            autoplay="false" controlslist="nodownload noremoteplayback" disablePictureInPicture loop="true">
+            当前浏览器不支持 video。
+        </video>
+    </div>
+    </div>
+    <section class="banner pos-rel">
+
+        <div class="swiper-containerthee">
+            <div class="swiper-wrapper" id="index-Banner">
+                <!-- <div class="swiper-slide" data-url="https://mp.weixin.qq.com/s/008rFC6aWvkinzZp1k2Ehw" onclick="gomore($(this))">
+                <div class="banner-mask"></div>
+                <img src="./component/client/images/web.jpg" alt="">
+              </div> -->
+                <div class="swiper-slide" id="bannerWrap" onclick="yvideoPlay()">
+                    <div class="sheng-yins" id="open">
+                        <!-- <i class="f-icon-jingyin" id="bofang"></i>
+                        <i class="f-icon-bofangyinle" id="jingyin" style="display: none;"></i> -->
+                        <img src="./component/client/images/bo.png" alt="">
+                    </div>
+                    <div class="banner-mask" id="bannerWrap"></div>
+                    <section class="main l-f-c" id="bannerWrap">
+                        <div class="wen-zi">
+                            <div>专注租赁住房运营和资产管理</div>
+                            <div>租赁住房行业综合服务商</div>
+                        </div>
+                    </section>
+                    <!-- <video src="https://lefull-www.lefull.cn/videos-gw.mp4" muted="false" autoplay="false" loop="true"
+                        id="bgVideo" object-fit="inherit"></video> -->
+                    <img src="./component/client/images/index_video_img_1.png" id="bgVideo">
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="swiper-button-nextow"></div>
+            <div class="swiper-button-prevtow"></div>
+        </div>
+    </section>
+    <section class="wrap l-p-h">
+        <section class="main">
+            <div class="brand">
+                <ul class="disf">
+                    <li><a href="./huaiting.html"><img src="./component/index/images/ht.png" alt=""></a></li>
+                    <li><a href="./zhian.html"><img src="./component/index/images/za.png" alt=""></a></li>
+                    <li><a href="./apartment.html"><img src="./component/index/images/lh.png" alt=""></a></li>
+                    <li><a href="./community.html"><img src="./component/index/images/sq.png" alt=""></a></li>
+                    <li><a href="./setout.html"><img src="./component/index/images/qc.png" alt=""></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="l-m-f content">
+            <section class="main l-f-c">
+                <div class="disf con-zi-tu">
+                    <div class="cz">LEFULLGPOUP
+                        <div>专注租赁住房运营和资产管理</div>
+                    </div>
+                    <div class="tu-biao"></div>
+                </div>
+                <div class="six-style">
+                    <ul>
+                        <li>
+                            <div><i class="font_family icon-zulinfuwu-xuanzhong"></i></div>
+                            <div>收购服务</div>
+                            <div>我们为投资者寻找可发展租赁住房项目的收购标的。</div>
+                        </li>
+                        <li>
+                            <div><i class="font_family icon-shougoufuwu-xuanzhong"></i></div>
+                            <div>租赁服务</div>
+                            <div>我们承租各类租赁住房资产。</div>
+                        </li>
+                        <li>
+                            <div><i class="font_family icon-yunyingguanlifuwu-xuanzhong"></i></div>
+                            <div>运营管理服务</div>
+                            <div>我们为租赁住房项目提供全周期运营服务，包括品牌导入、平台运营、会员共享、招租去化、人才派驻、系统接入、专业培训、经营分析、金融服务、社群管理等。</div>
+                        </li>
+                        <li>
+                            <a href="design.html?type=1">
+                                <div><img src="https://lefull-www.lefull.cn/Fq_97T5Z38WILEpt7BpOJAbtMeA5" alt=""></div>
+                                <div>空间设计</div>
+                                <div>
+                                    室内外全空间设计服务。从硬装设计到软装设计的全方位涵盖。从初始设计到整体产品落地的全流程执行。空间设计部分涉及到公寓，酒店，办公，商业以及不同空间形态的设计完成及推广。
+                                </div>
+                                <div style="margin-top: 10px; color: rgb(0, 127, 65);">了解更多 ></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div><i class="font_family icon-jiansheguanlifuwu-xuanzhong"></i></div>
+                            <div>建设管理服务</div>
+                            <div>我们为租赁住房项目提供工程建设与装修管理，从前期咨询到设计，再到项目管理的一站式全包全流程管理服务。</div>
+                        </li>
+                        <li>
+                            <div><i class="font_family icon-touzifuwu-xuanzhong"></i></div>
+                            <div>保租房服务</div>
+                            <div>
+                                乐乎作为国内最早一批保障性租赁住房综合服务商，9年全周期、专业化、系统性资管服务能力沉淀，输出适配、高频、高效的综合运营方案。目前乐乎已服务多个地方国央企、政府机构的保租房项目。
+                            </div>
+                        </li>
+                        <li>
+                            <div><i class="font_family icon-zixunfuwu-xuanzhong"></i></div>
+                            <div>咨询服务</div>
+                            <div>
+                                为租赁住房项目发展提供规划设计技术支持服务，智慧化社区方案建议，市场可行性研究服务，市场研究与战略建议，品牌重塑指导，建设期技术支持，人员招聘及培训，多维度运营管理，平台服务及战略增值服务等。
+                            </div>
+                        </li>
+                        <li>
+                            <div><img src="https://lefull-www.lefull.cn/Fs64VbkRuRjWsvrn9RuB6ztTJkIh" alt=""></div>
+                            <div>数智化服务</div>
+                            <div>
+                                以标识解析、物联网、人工智能、大数据为核心基底；云平台、科技金融为支撑；聚焦住房租赁、商业空间活化、城市剩余空间发展三大应用领域；构建
+                                “核心技术-平台支撑-场景应用”多梯度产品体系。
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        <section class="main" id="lefts">
+            <div class="pedigree">
+                <div class="disf con-zi-tu">
+                    <div class="cz">BRAND
+                        <div>品牌谱系</div>
+                    </div>
+                    <div class="tu-biao"></div>
+                </div>
+                <div class="zi">
+                    全品类租赁住房生态圈
+                </div>
+            </div>
+        </section>
+        <section class="l-m-f swiper-tu lulu">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide f-imgBig">
+                        <a href="./huaiting.html">
+                            <img src="./component/index/images/1.jpg">
+                            <div class="text-style">
+                                <div>怀庭</div>
+                                <div>高定私宅公寓品牌</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide f-imgBig">
+                        <a href="./zhian.html">
+                            <figure><img src="./component/index/images/2.jpg"></figure>
+                            <div class="text-style">
+                                <div>芷岸</div>
+                                <div>生活美学公寓品牌</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide f-imgBig">
+                        <a href="./apartment.html">
+                            <figure><img src="./component/index/images/3.jpg"></figure>
+                            <div class="text-style">
+                                <div>乐乎公寓</div>
+                                <div>高品质生活家公寓品牌</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide f-imgBig">
+                        <a href="community.html">
+                            <figure><img src="./component/index/images/4.jpg"></figure>
+                            <div class="text-style">
+                                <div>乐乎青年社区</div>
+                                <div>轻居概念公寓品牌</div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide f-imgBig">
+                        <a href="./setout.html">
+                            <figure><img src="./component/index/images/5.jpg"></figure>
+                            <div class="text-style">
+                                <div>乐乎起程</div>
+                                <div>企业服务公寓品牌</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-prevs left-img"></div>
+            <!--左箭头-->
+            <div class="swiper-button-nexts right-img"></div>
+        </section>
+        <section class="l-m-f case">
+            <section class="main l-f-c">
+                <div class="pedigrees">
+                    <div class="disf con-zi-tu">
+                        <div class="cz">PROJECT
+                            <div>经典项目案例</div>
+                        </div>
+                        <div class="tu-biao"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="box" id="switch">
+                        <!-- <span class="current">创业之家</span>
+                        <span>真武社区</span>
+                        <span>怀庭</span>
+                        <span>芷岸建国门</span>
+                        <div class="line"></div> -->
+                    </div>
+                </div>
+                <div class="case-text">
+                    <div class="disf">
+                        <div class="img-list f-imgBig">
+                            <!-- <img src="./component/index/images/4-1.jpg" alt="">
+                            <img src="./component/index/images/4-2.jpg" alt="" style="display: none;">
+                            <img src="./component/index/images/4-3.jpg" alt="" style="display: none;">
+                            <img src="./component/index/images/4-4.jpg" alt="" style="display: none;"> -->
+                        </div>
+                        <div class="text-list" style="overflow: scroll; height: 450px">
+                            <!-- <div class="texts">
+                                <div class="disf" style="margin-top: 40px;">
+                                    <div class="lhg">
+                                        乐乎&国企 集租房项目
+                                        <div class="xiao-zi">合作伙伴：西红门镇政府、建信住房（北京）</div>
+                                    </div>
+                                    <div class="tao">440套</div>
+                                </div>
+                                <div class="disf z1">
+                                    <div class="dian"></div>
+                                    <div class="zi">本项目为西红门镇集体联营公司投资建设，建信住房（北京）与乐乎公寓合作的首个集租房项目，采用政府监管+企业运营模式进行管理。</div>
+                                </div>
+                                <div class="disf z2">
+                                    <div class="dian"></div>
+                                    <div class="zi">
+                                        房间内搭载智能家居布控，打造多元化全屋智能物联场景，可以满足各种“家”的需求。配套公区700多平米，包括咖啡厅、书吧、健身房、影音室等；生活配套1500平米，另外还配有地下车库，并设置了新能源充电桩。
+                                    </div>
+                                </div>
+                                <div class="disf z3">
+                                    <div class="dian"></div>
+                                    <div class="zi">乐乎集团作为公寓的唯一委托运营方，从城市蓝领、应届毕业大学生和双创人员等人群的需求角度出发，全方面地为“首都创业者”提供 “方便、
+                                        温馨、
+                                        安全”的居住环境。</div>
+                                </div>
+                            </div>
+                            <div class="texts" style="display: none;">
+                                <div class="disf" style="margin-top: 40px;">
+                                    <div class="lhg">乐乎&国企 城市更新项目
+                                        <div class="xiao-zi">合作伙伴：建信总公司、建信住房（北京）</div>
+                                    </div>
+                                    <div class="tao">248套</div>
+                                </div>
+                                <div class="disf z1">
+                                    <div class="dian"></div>
+                                    <div class="zi">
+                                        毗邻长安街，近金融街CBD核心商务区，前身是财政部招待所，于2020年6月进行改造，从前期的协助工程监管、设计落地，到后期的日常运营，均全面委托乐乎集团管理。
+                                    </div>
+                                </div>
+                                <div class="disf z2">
+                                    <div class="dian"></div>
+                                    <div class="zi">
+                                        项目由传统招待所蜕变为现代智能化社区，成为主城区焕发 新活力的旗舰项目，也是建信住房标杆项目。
+                                    </div>
+                                </div>
+                                <div class="disf z3">
+                                    <div class="dian"></div>
+                                    <div class="zi">配备影音室、休闲咖啡吧等公共区域，生活空间丰富；屋内智能家居及共享厨房，满足了高端人群对社区自治的追求。</div>
+                                </div>
+                            </div>
+                            <div class="texts" style="display: none;">
+                                <div class="disf" style="margin-top: 40px;">
+                                    <div class="lhg">华世·怀庭
+                                        <div class="xiao-zi">环望京服务公寓 租享诗和远方</div>
+                                    </div>
+                                    <div class="tao">360套</div>
+                                </div>
+                                <div class="disf z1">
+                                    <div class="dian"></div>
+                                    <div class="zi">
+                                        华世怀庭位于北京市朝阳区来广营西路，项目总面积4万多平。紧邻望京商务区，西侧有红星美凯龙等大型商场，南面为北京世青国际学校，穿过五环路为北京奥林匹克森林公园，北面为来广营朝来森林公园，环境及其优美，交通非常便利，项目紧邻顾家庄桥，五环路横贯东西，京承高速纵贯南北。
+                                    </div>
+                                </div>
+                                <div class="disf z2">
+                                    <div class="dian"></div>
+                                    <div class="zi">
+                                        园区分为东楼，西楼和北楼三个主楼，三栋主楼中心配有草坪绿化，林荫小道及休憩长椅，园区内的绿化达到了百分之七十以上，是一座天然的氧吧，闲暇时晨起跑跑步，饭后遛遛弯，做一些有氧运动，都是极佳之选，园区定期会举办户外草坪活动，促进租客朋友间友谊，持续创造城市归属感。
+                                    </div>
+                                </div>
+                                <div class="disf z3">
+                                    <div class="dian"></div>
+                                    <div class="zi">
+                                        草坪采用高尔夫用草标准，质地较硬，耐践踏，复原能力强，增加了客户的入住体验感。园区内配备了199个停车位，车位充足，满足租客日常停车需求。</div>
+                                </div>
+                            </div>
+                            <div class="texts" style="display: none;">
+                                <div class="disf" style="margin-top: 40px;">
+                                    <div class="lhg">乐乎&国企 物业改造项目
+                                        <div class="xiao-zi">合作伙伴：建信住房（北京）</div>
+                                    </div>
+                                    <div class="tao">21套</div>
+                                </div>
+                                <div class="disf z1">
+                                    <div class="dian"></div>
+                                    <div class="zi">
+                                        该项目坐落于北京市东城区建国门北大街5号，南望长安街，西瞰紫禁城，东揽CBD，紧邻东二环，周边第一使馆区、东二环产业带、赛特、王府井、朝外、国贸六大商圈围合优越生活。六大核心商圈环顾左右，相互联动，零距离融入国际化商务氛围。
+                                    </div>
+                                </div>
+                                <div class="disf z2">
+                                    <div class="dian"></div>
+                                    <div class="zi">
+                                        房间以突出空间感，打造智慧之家为理念”，房间超大落地窗放眼望去将国贸CBD尽收眼底，配有多款智能产品：智能家具、智能灯具电器，与科技打通，无感启动，满足塔尖人士对生活品质的追求。
+                                    </div>
+                                </div>
+                                <div class="disf z3">
+                                    <div class="dian"></div>
+                                    <div class="zi">
+                                        房型多元化设置，面积从68㎡的大开间到228㎡的尊享套间，既有符合商务男士的奢享户型，更有适合都市名媛的尊享女士户型，超大步入式衣帽间，彰显尊贵更突出女士对生活品质的追求，是企业高管人士及高端住宅人群的理想场所。
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="go-more">
+                        <a href="case.html" style="color: white;">
+                            <div class="btn-detail">查看更多<i></i></div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="main expert">
+            <div class="pedigree">
+                <div class="disf con-zi-tu">
+                    <div class="cz">EXPERT
+                        <div>认识行业专家</div>
+                    </div>
+                    <div class="tu-biao"></div>
+                </div>
+                <div class="zi">
+                    <div>汇聚全国资深管理人才，平均从业年龄超10年
+                    </div>
+                    <div>拥有丰富公寓、酒店、网络信息化及资本运作上市经验</div>
+                </div>
+            </div>
+        </section>
+        <section class="l-m-f expert-list lulu">
+            <div class="swiper-container">
+                <div class="swiper-wrapper" id="hove-list">
+                    <div class="swiper-slide">
+                        <img src="./component/index/images/5-1.jpg">
+                        <div class="lili lue">
+                            <div class="name">罗意</div>
+                            <div class="zhiwei">创始人/CEO</div>
+                            <div class="daxue" style="margin-top: 20px;">
+                                <div class="dian-st"><span></span></div>
+                                <div>北京大学，从业14年间，2014年创立乐乎品牌，从0-1稳坐北京集中式规模龙头位置；</div>
+                            </div>
+                            <div class="daxue">
+                                <div class="dian-st"><span></span></div>
+                                <div>参与住房租赁行业的政策制定，率先提出轻资产托管模式；</div>
+                            </div>
+                            <div class="daxue">
+                                <div class="dian-st"><span></span></div>
+                                <div>
+                                    与多地区政府、上市公司、企业单位等大型机构建立长期友好的合作关系；
+                                    善于挖掘投资机会，把握发展前景。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <figure><img src="./component/index/images/5-2.jpg"></figure>
+                            <div class="lili">
+                                <div class="name">于洪胤</div>
+                                <div class="zhiwei">联合创始人/高级副总裁/SVP</div>
+                                <div class="daxue" style="margin-top: 20px;">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>吉林大学，从业14年，2014年联合创立乐乎品牌，参与住房租赁行业的产品标准制定工作；拥有丰富的项目经验和成功解决复杂项目的能力；</div>
+                                </div>
+                                <div class="daxue">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>善于产品体系的搭建、非标产品的建设与租赁住房运维、服务、工程等领域有着可落地、可复制的独特打法；</div>
+                                </div>
+                                <div class="daxue">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>
+                                        经手项目的生命周期效率、收益率拔群。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <figure><img src="./component/index/images/5-3.jpg"></figure>
+                            <div class="lili">
+                                <div class="name">肖文胜</div>
+                                <div class="zhiwei">投融资专家/资产管理中心VP</div>
+                                <div class="daxue" style="margin-top: 20px;">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>英国阿伯丁大学，中央财经大学金融投资管理硕士，逾20年房地产投融资、著名地产基金工作经历；</div>
+                                </div>
+                                <div class="daxue">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>拥有基金管理、投资项目筛选、交易结构设计、公司并购重组等丰富投资管理经验；</div>
+                                </div>
+                                <div class="daxue">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>
+                                        曾服务地产头部企业、上市公司、基金公司等高级管理职务，致力通过丰富的投融资管理经验，拉动资管与投资升级。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <figure><img src="./component/index/images/5-5.jpg"></figure>
+                            <div class="lili">
+                                <div class="name">张国辉</div>
+                                <div class="zhiwei">项目开发专家/开发中心VP</div>
+                                <div class="daxue" style="margin-top: 20px;">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>深耕酒店及长租公寓领域十七年，亲历行业从粗放经营向专业化、资本化演进的全周期。</div>
+                                </div>
+                                <div class="daxue">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>主导构建并持续完善长租行业的投拓业务体系，将传统地产开发逻辑与租赁住房的资管需求深度融合。</div>
+                                </div>
+                                <div class="daxue">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>通过建立涵盖城市研判、项目尽调、收益建模、风险管控的全流程标准化框架，显著提升集团在核心城市群的资产获取效率与投资精准度。</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <figure><img src="./component/index/images/yujuan.jpg"></figure>
+                            <div class="lili">
+                                <div class="name">于娟</div>
+                                <div class="zhiwei">运营专家/运营中心VP</div>
+                                <div class="daxue" style="margin-top: 20px;">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>集团核心创始团队成员，十余年深耕租赁住房行业运营管理。</div>
+                                </div>
+                                <div class="daxue">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>作为行业标准化运营体系奠基人，主导构建涵盖高端公寓、租赁社区、企业定制等多品牌精细化运营战略，重新定义行业效率基准。</div>
+                                </div>
+                                <div class="daxue">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>通过资源整合、流程再造与数据驱动决策，实现品牌协同效能提升与资产收益持续增长。</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./component/index/images/jcp.jpg">
+                        <div class="lili">
+                            <div class="name">景春鹏</div>
+                            <div class="zhiwei">租赁销售专家/销售中心VP</div>
+                            <div class="daxue" style="margin-top: 20px;">
+                                <div class="dian-st"><span></span></div>
+                                <div>深耕租赁住房运营管理十余年，经手项目财务表现优越。</div>
+                            </div>
+                            <div class="daxue">
+                                <div class="dian-st"><span></span></div>
+                                <div>作为集团销售体系及渠道投放策略体系的主导设计者，深谙租赁交易全链路及收益策略核心。</div>
+                            </div>
+                            <div class="daxue">
+                                <div class="dian-st"><span></span></div>
+                                <div>通过数据驱动的销售决策与渠道资源整合，持续优化业务效能，实现年度销售目标超额达成，及渠道转化效率提升。</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <figure><img src="./component/index/images/5-7.jpg"></figure>
+                            <div class="lili yr">
+                                <div class="name">杨蓉</div>
+                                <div class="zhiwei">产品设计专家/产品总监</div>
+                                <div class="daxue" style="margin-top: 20px;">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>清华大学美术学院；</div>
+                                </div>
+                                <div class="daxue">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>租赁住房从业设计10余年，潜心公寓设计研究7年；</div>
+                                </div>
+                                <div class="daxue">
+                                    <div class="dian-st"><span></span></div>
+                                    <div>
+                                        谙熟客户居住产品需求，丰富的租赁住房产品设计经验；
+                                        精通租赁住房空间的优化与重构。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev left-img">
+            </div>
+            <!--左箭头-->
+            <div class="swiper-button-next right-img"></div>
+        </section>
+        <section class="l-m-f case-tow">
+            <div class="img-ditu">
+                <img src="./component/index/images/6-1.png" alt="">
+            </div>
+            <div class="main case-tow-con">
+                <section class="main expert">
+                    <div class="pedigree">
+                        <div class="disf con-zi-tu">
+                            <div class="cz">NEWS
+                                <div>新闻与活动</div>
+                            </div>
+                            <div class="tu-biao"></div>
+                        </div>
+                    </div>
+                </section>
+                <div class="new disf">
+                    <div id="onelist">
+
+                    </div>
+                    <div style="margin-left: 30px;" class="list-three">
+
+                    </div>
+                </div>
+                <div>
+                    <div class="go-more">
+                        <a href="design.html" style="color: white;">
+                            <div class="btn-detail">查看更多<i></i></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="w100 f-cooperate" id="cooperate">
+        <div class="main f-contact">
+            <i class="bottomIcon"></i>
+            <div class="titleInsight">
+                <div class="f-titleInsight tp1">
+                    <h2 class="spac">COOPERATION</h2>
+                    <h3>联系合作</h3>
+                </div>
+            </div>
+            <div class="f-form">
+                <div class="group">
+                    <input name="name" id="modal-nameNew" type="text" placeholder="姓名" autocomplete="off">
+                    <input name="phone" id="modal-phoneNew" type="text" placeholder="手机号" autocomplete="off">
+                </div>
+                <div class="group">
+                    <div class="f-select">
+                        <input type="text" id="ipt-provinceListNew" name="type" placeholder="省份" autocomplete="off"
+                            readonly="true">
+                        <i class="icons"></i>
+                        <div class="items">
+                            <ul id="modal-provinceListNew" class="f-scroll"></ul>
+                        </div>
+                    </div>
+                    <div class="f-select">
+                        <input type="text" id="ipt-cityListNew" name="type" placeholder="城市" autocomplete="off"
+                            readonly="true">
+                        <i class="icons"></i>
+                        <div class="items">
+                            <ul id="modal-cityListNew" class="f-scroll"></ul>
+                        </div>
+                    </div>
+                    <div class="f-select">
+                        <input type="text" id="ipt-typeNew" name="type" placeholder="合作类型" autocomplete="off"
+                            readonly="true">
+                        <i class="icons"></i>
+                        <div class="items">
+                            <ul id="modal-typeNew">
+                                <li data-id="3">品牌加盟</li>
+                                <li data-id="4">股份投资</li>
+                                <li data-id="5">委托管理</li>
+                                <li data-id="6">企业合作</li>
+                                <li data-id="7">保租房服务</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="f-select" style="width: 760px; margin-top: 20px; margin-bottom: 20px; display: none;"
+                        id="brandShow">
+                        <input type="text" style="width: 100%;" id="ipt-brand" name="type" placeholder="请选择您意向加盟的品牌"
+                            autocomplete="off" readonly="true">
+                        <i class="icons"></i>
+                        <div class="items">
+                            <ul id="modal-brandNew">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="group">
+                    <textarea maxlength="200" id="modal-contentNew" placeholder="请填写您的合作内容"
+                        style="resize: none"></textarea>
+                </div>
+                <div class="group">
+                    <button class="btn" id="modal-submitNew">立即提交</button>
+                </div>
+            </div>
+            <div class="f-layer"></div>
+        </div>
+    </section>
+    <section class="l-m-f footer">
+        <section class="main l-f-c disf">
+            <section class="l-f-l">
+                <h3 class="f24 mb50">网站导航</h3>
+                <div class="l-f-map mb30">
+                    <a href="about.html" class="d-i-b f18 fw4 mr6" target="_blank">关于乐乎</a>
+                    <a href="about.html?type=team" class="d-i-b f18 fw4 mr6" target="_blank">乐乎团队</a>
+                </div>
+                <div class="l-f-map mb60">
+                    <a href="join.html" class="d-i-b f18 fw4 mr6" target="_blank">人才推荐</a>
+                    <a href="join.html" class="d-i-b f18 fw4" target="_blank">校园招聘</a>
+                </div>
+                <h3 class="f24 mb50">友情链接</h3>
+                <div class="l-f-map mb65">
+                    <a href="https://bj.ke.com" class="d-i-b f18 fw4 mr6" target="_blank">贝壳找房</a>
+                    <a href="https://www.tmhouse.com" class="d-i-b f18 fw4 mr6" target="_blank">天猫好房</a>
+                </div>
+            </section>
+            <section class="l-f-m">
+                <h3 class="f24 mb50">产品与服务</h3>
+                <section class="prods disf txc">
+                    <div class="flex">
+                        <img src="./component/common/images/app.png" class="mb5" />
+                        <p class="f12 fw4">乐乎租房APP</p>
+                        <div class="bg bg-cover"></div>
+                    </div>
+                    <div class="flex">
+                        <img src="./component/common/images/mini.png" class="mb5" />
+                        <p class="f12 fw4">乐乎找房小程序</p>
+                        <div class="bg bg-cover"></div>
+                    </div>
+                    <div class="flex">
+                        <img src="./component/common/images/groupwx.png" class="mb5" />
+                        <p class="f12 fw4">乐乎集团公众号</p>
+                        <div class="bg bg-cover"></div>
+                    </div>
+                    <div class="flex">
+                        <img src="./component/common/images/wx.png" class="mb5" />
+                        <p class="f12 fw4">乐乎公寓公众号</p>
+                        <div class="bg bg-cover"></div>
+                    </div>
+                </section>
+            </section>
+            <section class="l-f-r ml90">
+                <h3 class="f24 mb38">客服咨询</h3>
+                <div class="contact">
+                    <div class="f36 fw6 mb17 pos-rel">400-110-1165<div class="f16 servie-time">
+                            <div class="bg bg-cover"></div><span>7x24</span>
+                        </div>
+                    </div>
+                    <p class="f18 mb30">企业客户租房:yunying@lefull.cn</p>
+                    <div class="service">
+                        <a href="javascript:;" class="qm-line f18 fw4 qm-trigger">在线客服</a>
+                        <a target="_blank" href="https://weibo.com/u/5732715254" class="qm-line f18 fw4 ml20">新浪微博</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div class="spline mb30"></div>
+        <section class="main l-f-copy f16">
+            <p class="mb20">北京市朝阳区大屯路西奥中心B座3层 | <a target="_blank"
+                    href="http://beian.miit.gov.cn/publish/query/indexFirst.action">京ICP备15052772号-1</a> | <a
+                    target="_blank"
+                    href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502041328">京公网安备
+                    11010502041328号</a></p>
+            <p>违法和不良信息举报电话 400-110-1165</p>
+            <a href="https://lefull.cn/info.html" class="lice f20 fw4" target="_blank">营业执照</a>
+        </section>
+    </section>
+
+    <!--七陌客服-->
+    <iframe src="./im.html" frameborder="0" id="im_frame" name="im_frme"
+        style="position: fixed;width: 400px;right:0;bottom:0;height:500px;z-index: 10000;left: -200%;"></iframe>
+    <!--js-->
+    <script src="./lib/jquery/jquery-3.2.1.min.js" type="text/javascript" rel="preload" as="script"></script>
+    <script src="./component/common/js/common.js" type="text/javascript" rel="preload" as="script"></script>
+
+    <script src="https://apph5-test.lefull.cn/lib/template-native.js"></script>
+    <script src="./component//common/js/swiper.min.js"></script>
+    <script src="./component/index/js/index.js"></script>
+    <script type="text/html" id="bannerList">
+
+    </script>
+</body>
+
+</html>

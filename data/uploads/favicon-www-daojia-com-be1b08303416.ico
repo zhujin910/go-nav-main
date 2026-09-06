@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="copyright" content="天津五八到家生活服务有限公司">
+  <meta name="keywords" content="天鹅到家,天鹅到家官网,生活服务">
+  <meta name="description" content="天鹅到家为您提供专业、便捷、安心的标准化到家服务，主要包括家政服务、保姆服务、月嫂服务、丽人美甲、搬家速运等专业服务，天鹅到家，简单、美好、轻松的全新生活方式。">
+  <title>天鹅到家</title>
+  <link rel="icon" href="https://static.daojia.com/assets/project/pc/resource/favicon.ico" type="image/x-icon">
+  <link rel="dns-prefetch" href="//static.daojia.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <style>
+    /* ===== Reset ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    html { font-size: 16px; word-spacing: 1px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; }
+    body { font-family: 'PingFang SC', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif; color: #040818; background: #fff; overflow-x: hidden; }
+    p { padding: 0; margin: 0; }
+    a { text-decoration: none; color: inherit; }
+    ul, li { list-style: none; }
+    img { max-width: 100%; height: auto; display: block; }
+    button { border: none; background: none; cursor: pointer; outline: none; }
+
+    /* ===== Colors ===== */
+    :root {
+      --color-text: #040818;
+      --color-text-secondary: #3B445C;
+      --color-text-muted: #7F849B;
+      --color-text-light: #c2c6d9;
+      --bg-white: #ffffff;
+      --bg-gray: #FAFBFD;
+      --bg-gray-dark: #F4F6F8;
+      --bg-hero: #FBF0F4;
+      --gradient-red: linear-gradient(135deg, #ff7b5a, #ff4d4c);
+      --nav-height: 56px;
+      --container: 16px;
+    }
+
+    /* ===== NAV ===== */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      height: var(--nav-height);
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .nav-sub {
+      display: flex; align-items: center; justify-content: space-between;
+      height: 100%; padding: 0 var(--container);
+    }
+    .nav-logo { height: 28px; width: auto; }
+    .hamburger {
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      width: 44px; height: 44px; cursor: pointer;
+    }
+    .hamburger span {
+      display: block; width: 22px; height: 2px; background: var(--color-text);
+      margin: 3px 0; transition: all 0.3s ease; border-radius: 1px;
+    }
+    .hamburger.open span:first-child { transform: rotate(45deg) translate(4px, 4px); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:last-child { transform: rotate(-45deg) translate(4px, -4px); }
+
+    /* ===== DRAWER ===== */
+    .drawer-mask {
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5); z-index: 99;
+      opacity: 0; visibility: hidden; transition: opacity 0.25s ease;
+    }
+    .drawer-mask.show { opacity: 1; visibility: visible; }
+    .drawer {
+      position: absolute; top: 0; right: 0; width: 280px; height: 100%;
+      background: #fff; overflow-y: auto;
+      transform: translateX(100%); transition: transform 0.25s ease;
+    }
+    .drawer-mask.show .drawer { transform: translateX(0); }
+    .drawer-header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 16px; border-bottom: 1px solid var(--bg-gray);
+    }
+    .drawer-logo { height: 28px; }
+    .drawer-close { font-size: 28px; color: var(--color-text-muted); cursor: pointer; line-height: 1; }
+    .drawer-content { padding: 8px 0; }
+    .nav-group { border-bottom: 1px solid var(--bg-gray); }
+    .nav-item {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 14px 20px; font-size: 16px; color: var(--color-text); cursor: pointer;
+    }
+    .nav-item:active { background: var(--bg-gray); }
+    .arrow img { width: 10px; height: 10px; transition: transform 0.3s ease; }
+    .arrow.open img { transform: rotate(180deg); }
+    .sub-nav { background: var(--bg-gray); padding: 0 0 8px 16px; }
+    .sub-nav-item {
+      display: block; padding: 10px 20px; font-size: 14px; color: var(--color-text-secondary);
+    }
+    .sub-nav-item:active { background: var(--bg-gray-dark); }
+
+    /* ===== HERO ===== */
+    .hero {
+      position: relative;
+      padding-top: var(--nav-height);
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--bg-hero);
+      z-index: 0;
+    }
+    .hero-content {
+      position: relative; z-index: 1;
+      padding: 32px var(--container) 0;
+    }
+    .hero-title {
+      font-size: 28px; font-weight: 600; color: var(--color-text);
+      display: flex; align-items: center; line-height: 1.4;
+    }
+    .hero-title b {
+      width: 8px; height: 8px; background: var(--color-text);
+      border-radius: 50%; display: inline-block; margin: 0 6px; flex-shrink: 0;
+    }
+    .hero-subtitle {
+      color: var(--color-text-secondary);
+      line-height: 22px; letter-spacing: 4px; font-size: 14px; font-weight: 400;
+      margin-bottom: 17px; margin-top: 6px;
+    }
+    .hero-category {
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 10px 20px; background: var(--gradient-red);
+      border-radius: 30px 3px 30px 3px;
+      font-size: 16px; color: #fff; line-height: 24px;
+      margin-bottom: 24px;
+    }
+    .hero-category em { font-size: 12px; margin: 0 6px; font-style: normal; line-height: 16px; }
+
+    /* ===== APP CARDS ===== */
+    .app-cards { margin-bottom: 24px; }
+    .tab-bar {
+      display: flex; align-items: center; position: relative; padding-bottom: 14px;
+    }
+    .tab-item {
+      font-size: 16px; color: var(--color-text); line-height: 24px;
+      cursor: pointer; padding: 0 12px 4px; font-weight: 400;
+      transition: font-weight 0.2s;
+    }
+    .tab-item.active { font-weight: 600; }
+    .tab-underline {
+      position: absolute; bottom: 0; left: 0;
+      width: 24px; height: 14px;
+      background: url('assets/under-line.png') no-repeat center;
+      background-size: contain;
+      transition: left 0.3s ease;
+    }
+    .app-card {
+      background: rgba(255,255,255,0.6); border-radius: 6px;
+      padding: 14px; margin-top: 20px;
+    }
+    .app-block {
+      display: flex; align-items: flex-start; position: relative;
+    }
+    .app-block + .app-block { margin-top: 20px; }
+    .app-block + .app-block::before {
+      content: ''; position: absolute; left: 0; top: -10px;
+      height: 1px; width: 100%; background: #E4E7EB;
+    }
+    .app-block img { height: 60px; margin-right: 10px; flex-shrink: 0; }
+    .app-block-content { flex: 1; }
+    .app-block-title { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+    .app-block-desc { color: var(--color-text-muted); font-size: 14px; line-height: 20px; }
+    .app-block-desc p + p { margin-top: 4px; }
+
+    /* ===== BANNER SWIPER ===== */
+    .banner-swiper {
+      position: relative; z-index: 1;
+      width: 100%;
+    }
+    .swiper-container {
+      width: 100%; overflow: hidden;
+    }
+    .swiper-wrapper { display: flex; transition: transform 0.6s ease; }
+    .swiper-slide {
+      min-width: 100%; flex-shrink: 0;
+      position: relative;
+      padding-top: 56.25%; /* 16:9 aspect ratio fallback */
+    }
+    .swiper-slide-img {
+      position: absolute; top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-size: cover; background-position: center;
+    }
+    .swiper-dots {
+      display: flex; justify-content: center; align-items: center;
+      padding: 12px 0 16px;
+    }
+    .swiper-dots .swiper-dot { margin: 0 4px; }
+    .swiper-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: rgba(255,123,90,0.5); cursor: pointer;
+      transition: all 0.3s;
+    }
+    .swiper-dot.active {
+      background: var(--gradient-red); opacity: 1;
+      transform: scale(1.2);
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background: var(--bg-gray); padding: 24px var(--container);
+    }
+    .footer-left { margin-bottom: 20px; }
+    .footer-logo-row { display: flex; align-items: center; margin-bottom: 12px; }
+    .footer-logo { width: 120px; height: 28px; }
+    .footer-divider { width: 1px; height: 13px; background: #a4a7b8; margin: 0 20px; }
+    .footer-follow { font-size: 14px; font-weight: 600; cursor: default; }
+    .footer-social { display: flex; margin-left: 4px; }
+    .footer-social-icon { padding: 10px; }
+    .footer-social-icon + .footer-social-icon { margin-left: 4px; }
+    .footer-social-icon { padding: 10px; }
+    .footer-social-icon img { width: 26px; height: 26px; }
+    .footer-contact p { font-size: 12px; color: var(--color-text-secondary); line-height: 22px; }
+    .footer-links { margin-bottom: 12px; }
+    .footer-link-row { display: flex; flex-wrap: wrap; }
+    .footer-link-row .footer-link + .footer-link { margin-left: 16px; }
+    .footer-link { font-size: 14px; color: var(--color-text); font-weight: 500; cursor: pointer; }
+    .footer-copy { font-size: 12px; color: var(--color-text-light); line-height: 20px; }
+    .footer-copy a { color: var(--color-text-light); }
+    .footer-copy img { width: 14px; height: 14px; margin-right: 2px; vertical-align: text-top; display: inline; }
+
+    /* ===== QR POPUP ===== */
+    .qr-popup {
+      position: absolute; bottom: calc(100% + 10px); left: 0;
+      background: #fff; border-radius: 8px; padding: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      z-index: 10; display: none;
+    }
+    .qr-popup.show { display: block; }
+    .qr-card-item { text-align: center; }
+    .qr-card-item + .qr-card-item { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--bg-gray); }
+    .qr-card-title { font-size: 12px; font-weight: 600; margin-bottom: 6px; }
+    .qr-card-desc { font-size: 11px; color: var(--color-text-muted); margin-bottom: 8px; }
+    .qr-card-img { width: 120px; height: 120px; object-fit: cover; border-radius: 4px; margin: 0 auto; }
+
+    /* ===== ABOUT PAGE ===== */
+    .page-about { display: none; }
+    .page-about.active { display: block; }
+    .page-home { display: block; }
+    .page-home.hidden { display: none; }
+
+    .about-hero {
+      background: url('assets/about.png') no-repeat #3f395b;
+      background-size: cover; background-position: 60%;
+      min-height: 180px; padding: 60px 16px 40px; text-align: center;
+      position: relative; padding-top: var(--nav-height);
+    }
+    .about-hero-title {
+      font-size: 36px; color: #fff; font-weight: 500;
+      text-shadow: 0px 2px 40px rgba(0,0,0,0.5);
+    }
+    .about-hero-sub {
+      font-size: 16px; color: #fff; line-height: 28px;
+      letter-spacing: 2px; opacity: 0.8; margin-top: 4px;
+    }
+
+    .section-tabs {
+      background: var(--bg-gray); height: 48px;
+      display: flex; align-items: center;
+      overflow-x: auto; -webkit-overflow-scrolling: touch;
+      white-space: nowrap; padding: 0 var(--container);
+      scrollbar-width: none;
+    }
+    .section-tabs::-webkit-scrollbar { display: none; }
+    .section-tab {
+      font-size: 14px; color: var(--color-text); padding: 0 14px;
+      cursor: pointer; font-weight: 400; flex-shrink: 0;
+    }
+    .section-tab.active { font-weight: 600; }
+
+    /* Section content container */
+    .about-sections { max-width: 1200px; margin: 0 auto; }
+
+    .a-content { padding: 32px var(--container); }
+    .a-content.white { background: #fff; }
+    .a-content.gray { background: var(--bg-gray); }
+    .a-content.gray-dark { background: var(--bg-gray-dark); }
+    .a-content .section-title { font-size: 24px; font-weight: 600; margin-bottom: 20px; }
+    .a-content .section-desc { color: var(--color-text-secondary); font-size: 14px; line-height: 22px; }
+    .a-content .section-desc p + p { margin-top: 12px; }
+
+    /* Culture cards */
+    .wenhua-list { display: flex; flex-direction: column; }
+    .wenhua-card + .wenhua-card { margin-top: 12px; }
+    .wenhua-card {
+      background-size: cover; background-position: center;
+      min-height: 100px; padding: 20px; text-align: center;
+      color: #fff; font-weight: 500; position: relative;
+      border-radius: 8px;
+    }
+    .wenhua-card p { text-shadow: 0px 2px 4px rgba(138,164,173,0.8); position: absolute; bottom: 11px; left: 0; right: 0; font-size: 16px; }
+    .wenhua1 { background-image: url('assets/wenhua1.png'); }
+    .wenhua2 { background-image: url('assets/wenhua2.png'); }
+    .wenhua3 { background-image: url('assets/wenhua3.png'); }
+
+    /* Scale */
+    .scale-desc { font-size: 18px; font-weight: 500; color: var(--color-text-muted); margin-bottom: 24px; }
+    .scale-grid { display: -ms-grid; display: grid; grid-template-columns: repeat(2, 1fr); margin-bottom: 16px; }
+    .scale-grid > * + * { margin-top: 20px; }
+    @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .scale-grid > * { -ms-grid-columns: (1fr)[2]; }
+      .scale-grid > *:nth-child(1) { -ms-grid-row: 1; -ms-grid-column: 1; }
+      .scale-grid > *:nth-child(2) { -ms-grid-row: 1; -ms-grid-column: 2; }
+      .scale-grid > *:nth-child(3) { -ms-grid-row: 2; -ms-grid-column: 1; }
+      .scale-grid > *:nth-child(4) { -ms-grid-row: 2; -ms-grid-column: 2; }
+      .scale-grid > *:nth-child(5) { -ms-grid-row: 3; -ms-grid-column: 1; }
+      .scale-grid > *:nth-child(6) { -ms-grid-row: 3; -ms-grid-column: 2; }
+    }
+    .scale-item .scale-count { display: flex; align-items: baseline; }
+    .scale-item .scale-num { font-size: 32px; font-weight: 700; color: var(--color-text-secondary); }
+    .scale-item .scale-unit { font-size: 16px; font-weight: 500; color: var(--color-text-secondary); }
+    .scale-item .scale-label { font-size: 14px; color: var(--color-text-secondary); margin-top: 4px; }
+    .scale-img { width: 100%; height: auto; margin-top: 20px; border-radius: 8px; }
+
+    /* Course timeline */
+    .course-section {
+      background: url('assets/bg.png') no-repeat #141730;
+      background-size: cover; background-position: center;
+      padding: 32px var(--container); min-height: 300px;
+    }
+    .course-section .section-title { color: #fff !important; }
+    .course-swiper { position: relative; }
+    .course-card {
+      background: #fff; border-radius: 16px; padding: 20px;
+      margin-bottom: 16px;
+    }
+    .course-card-year { font-size: 22px; font-weight: 700; color: var(--color-text); }
+    .course-card-title { font-size: 18px; font-weight: 600; color: var(--color-text); margin-top: 4px; }
+    .course-card-desc { margin-top: 12px; }
+    .course-card-desc p { display: flex; align-items: flex-start; font-size: 14px; color: var(--color-text-secondary); line-height: 20px; }
+    .course-card-desc p + p { margin-top: 8px; }
+    .course-card-desc b {
+      width: 6px; height: 6px; background: #ff4d4c; border-radius: 50%;
+      margin: 8px 10px 0 0; flex-shrink: 0;
+    }
+    .course-pagination { display: flex; justify-content: center; }
+    .course-pagination .course-dot + .course-dot { margin-left: 12px; }
+    .course-dot {
+      width: 24px; height: 24px; border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.6); background: transparent;
+      cursor: pointer; transition: all 0.3s;
+    }
+    .course-dot.active { background: url('assets/on.png') no-repeat center; background-size: contain; border: 0; }
+
+    /* Office environment */
+    .env-grid { display: flex; flex-direction: column; }
+    .env-grid img + img { margin-top: 16px; }
+    .env-grid img { width: 100%; height: auto; border-radius: 8px; }
+
+    /* ===== ANIMATIONS ===== */
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    .fade-in { animation: fadeIn 0.3s ease; }
+
+    /* ===== PAGE TRANSITION ===== */
+    .page-section { transition: opacity 0.2s ease; }
+
+    /* ===== DESKTOP NAV LINKS ===== */
+    .nav-links { display: none; align-items: center; }
+    .nav-links a {
+      font-size: 15px; color: var(--color-text); padding: 0 16px;
+      cursor: pointer; font-weight: 400; transition: color 0.2s;
+    }
+    .nav-links a:hover { color: #ff4d4c; }
+    .nav-links a.active { font-weight: 600; }
+
+    /* ===== RESPONSIVE: Desktop ≥768px ===== */
+    @media (min-width: 768px) {
+      /* Common container */
+      .container { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+
+      /* Nav */
+      .nav { height: 64px; }
+      .nav-sub { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+      .hamburger { display: none; }
+      .nav-links { display: flex; }
+      .nav-logo { height: 32px; }
+
+      /* Drawer hidden on desktop */
+      .drawer-mask { display: none !important; }
+
+      /* Hero: banner behind content */
+      .hero { position: relative; }
+      .hero-bg { display: none; }
+      .hero-content {
+        position: relative; z-index: 2;
+        padding: 48px 40px 0; max-width: 1200px; margin: 0 auto;
+        height: 650px;
+      }
+      .hero-title { font-size: 40px; color: #fff; text-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+      .hero-title b { background: #fff; }
+      .hero-subtitle { font-size: 18px; letter-spacing: 6px; margin-top: 8px; margin-bottom: 12px; color: rgba(255,255,255,0.9); }
+      .hero-category { font-size: 18px; padding: 12px 24px; margin-bottom: 32px; }
+      .banner-swiper {
+        position: absolute;
+        top: 63px;
+        left: 0; right: 0; bottom: 0;
+        z-index: 0;
+      }
+      .banner-swiper::after {
+        content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+        background: rgba(0,0,0,0.35); z-index: 1;
+      }
+      .swiper-container { height: 100%; }
+      .swiper-wrapper {
+        height: 100%;
+        display: flex;
+      }
+      .swiper-slide {
+        padding-top: 0; height: 100%; min-height: 100%;
+        position: relative;
+        flex-shrink: 0;
+      }
+      .swiper-slide-img {
+        position: absolute; top: 0; left: 0;
+        width: 100%; height: 100%;
+      }
+      .swiper-dots {
+        position: absolute; bottom: 20px; left: 0; right: 0;
+        z-index: 3; background: none; padding: 0;
+      }
+      .swiper-dot {
+        width: 10px; height: 10px;
+        background: rgba(255,255,255,0.6);
+      }
+      .swiper-dot.active { background: #fff; }
+      .swiper-dot:hover { background: rgba(255,255,255,0.9); }
+      /* Banner */
+      .banner-swiper { max-width: 1200px; margin: 0 auto; }
+
+      /* App cards side by side */
+      .app-cards { max-width: 1200px; margin: 0 auto 0; padding: 0 40px; }
+      .tab-bar { padding-bottom: 16px; }
+      .tab-item { font-size: 18px; padding: 0 16px 4px; }
+      .tab-underline { width: 28px; height: 16px; }
+      .app-cards-grid {
+        display: flex;
+      }
+      .app-cards-grid > * { flex: 1; margin-top: 0; }
+      .app-cards-grid > * + * { margin-left: 24px; }
+      .app-card { padding: 20px; }
+      .app-block img { height: 72px; }
+      .app-block-title { font-size: 20px; }
+      .app-block-desc { font-size: 15px; }
+
+      /* Footer */
+      .footer { padding: 32px 40px; }
+      .footer > * { max-width: 1200px; margin-left: auto; margin-right: auto; }
+      .footer-grid {
+        display: flex;
+      }
+      .footer-left { margin-bottom: 0; flex: 2; }
+      .footer-links { flex: 1; margin-bottom: 0; }
+      .footer-copy { margin-top: 12px; }
+      .footer-logo { width: 140px; }
+      .footer-contact p { font-size: 13px; }
+      .footer-link { font-size: 15px; }
+      .footer-copy { font-size: 13px; }
+      .footer-link-row .footer-link { margin-left: 0; }
+      .footer-link-row { display: flex; flex-direction: column; }
+      .footer-link-row .footer-link + .footer-link { margin-left: 0; margin-top: 8px; }
+      .footer-link:hover { color: #ff4d4c; text-decoration: underline; }
+      .footer-social-icon { padding: 12px; }
+      .footer-social-icon img { width: 30px; height: 30px; }
+      .footer-divider { margin: 0 16px; height: 16px; }
+
+      /* About page */
+      .about-hero { min-height: 240px; padding: 80px 40px 50px; }
+      .about-hero-title { font-size: 48px; }
+      .about-hero-sub { font-size: 18px; letter-spacing: 4px; }
+      .section-tabs { justify-content: center; overflow: visible; padding: 0; }
+      .section-tab { font-size: 15px; padding: 0 20px; }
+      .a-content { padding: 40px; }
+      .a-content .section-title { font-size: 28px; }
+
+      /* Culture cards horizontal */
+      .wenhua-list { flex-direction: row; }
+      .wenhua-card + .wenhua-card { margin-top: 0; margin-left: 12px; }
+      .wenhua-card { min-height: 120px; flex: 1; }
+
+      /* Scale grid 3 columns */
+      .scale-grid { grid-template-columns: repeat(3, 1fr); }
+      .scale-desc { font-size: 20px; }
+
+      /* Course */
+      .course-section { padding: 40px; }
+      .course-card { max-width: 600px; margin-left: auto; margin-right: auto; }
+
+      /* Environment 3 columns */
+      .env-grid { flex-direction: row; }
+      .env-grid img + img { margin-top: 0; margin-left: 16px; }
+      .env-grid img { flex: 1; }
+
+      /* QR popup */
+      .qr-popup { left: 50%; transform: translateX(-50%); }
+
+      /* Hover states */
+      .app-card { transition: box-shadow 0.2s; }
+      .app-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+      .nav-item:hover { background: var(--bg-gray); }
+      .sub-nav-item:hover { background: var(--bg-gray-dark); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="mainNav">
+    <div class="nav-sub">
+      <a href="#" onclick="showPage('home'); return false;">
+        <img src="assets/logo_red.png" alt="天鹅到家" class="nav-logo" id="navLogo">
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#" onclick="showPage('home'); return false;">首页</a>
+        <a href="#" onclick="showPage('about'); return false;">关于我们</a>
+        <a href="https://meitian.daojia.com/" target="_blank">商务合作</a>
+      </div>
+      <div class="hamburger" id="hamburgerBtn" onclick="toggleDrawer()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== DRAWER ===== -->
+  <div class="drawer-mask" id="drawerMask" onclick="closeDrawer()">
+    <div class="drawer" onclick="event.stopPropagation()">
+      <div class="drawer-header">
+        <img src="assets/logo_red.png" alt="天鹅到家" class="drawer-logo">
+        <span class="drawer-close" onclick="closeDrawer()">&times;</span>
+      </div>
+      <div class="drawer-content" id="drawerContent">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== HOME PAGE ===== -->
+  <main class="page-section page-home" id="pageHome">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">天鹅到家 <b></b> 让家更美好</h1>
+        <p class="hero-subtitle">全国领先的家庭服务平台</p>
+        <div class="hero-category">
+          <span>保姆</span><em>/</em><span>月嫂</span><em>/</em><span>育儿嫂</span><em>/</em><span>保洁</span>
+        </div>
+
+        <!-- App Download Cards -->
+        <div class="app-cards">
+          <div class="tab-bar" id="appTabBar">
+            <div class="tab-item active" onclick="switchAppTab(0)">用户端</div>
+            <div class="tab-item" onclick="switchAppTab(1)">阿姨端</div>
+            <div class="tab-underline" id="appTabLine"></div>
+          </div>
+
+          <div class="app-cards-grid">
+          <!-- User tab content -->
+          <div class="app-card" id="appTab0">
+            <div class="app-block">
+              <img src="assets/h-user-down.png" alt="天鹅到家APP">
+              <div class="app-block-content">
+                <p class="app-block-title">天鹅到家APP</p>
+                <div class="app-block-desc">
+                  <p>一站式家庭服务平台，服务专业有保障</p>
+                  <p>超值减免、红包，尽在天鹅到家手机端</p>
+                </div>
+              </div>
+            </div>
+            <div class="app-block">
+              <img src="assets/daojia-mini.png" alt="天鹅到家小程序">
+              <div class="app-block-content">
+                <p class="app-block-title">天鹅到家小程序</p>
+                <div class="app-block-desc">
+                  <p>即扫即用，免安装、方便快捷</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ayi tab content -->
+          <div class="app-card" id="appTab1" style="display:none;">
+            <div class="app-block">
+              <img src="assets/h-ayi-down.png" alt="阿姨一点通APP">
+              <div class="app-block-content">
+                <p class="app-block-title">阿姨一点通APP</p>
+                <div class="app-block-desc">
+                  <p>家政求职平台</p>
+                  <p>超值减免、红包，尽在阿姨一点通手机端</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div><!-- .app-cards-grid -->
+        </div><!-- .app-cards -->
+      </div><!-- .hero-content -->
+
+      <!-- Banner Swiper -->
+      <div class="banner-swiper">
+        <div class="swiper-container" id="heroSwiper">
+          <div class="swiper-wrapper" id="swiperWrapper">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+        <div class="swiper-dots" id="swiperDots"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-left">
+          <div class="footer-logo-row">
+            <img src="assets/logo_gray.png" alt="" class="footer-logo">
+            <span class="footer-divider"></span>
+            <span class="footer-follow">关注我们</span>
+            <div class="footer-social" style="position:relative;">
+              <span class="footer-social-icon" ontouchstart="showQR(0)" ontouchend="hideQRTimeout()" onmousedown="showQR(0)" onmouseup="hideQRTimeout()">
+                <img src="assets/wechat.png" alt="微信">
+              </span>
+              <span class="footer-social-icon" ontouchstart="showQR(1)" ontouchend="hideQRTimeout()" onmousedown="showQR(1)" onmouseup="hideQRTimeout()">
+                <img src="assets/weibo.png" alt="微博">
+              </span>
+              <div class="qr-popup" id="qrPopup"></div>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <p>投诉建议邮箱：kf-shfwb@daojia-inc.com</p>
+            <p>公关事务邮箱：pr@daojia-inc.com</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-link-row">
+            <span class="footer-link" onclick="window.open('https://www.daojia.com/website/h5/home/agreement?type=chanquan&spm=swan-website-pc_home.click_YMG56ACH')">知识产权</span>
+            <span class="footer-link" onclick="window.open('https://www.daojia.com/website/h5/home/agreement?type=privacy&spm=swan-website-pc_website_h5_home_.click_1NT3MXHM')">隐私政策</span>
+            <span class="footer-link" onclick="window.open('https://www.daojia.com/website/h5/home/agreement-list?type=agreement-list&spm=swan-website-pc_website_h5_home_.click_D84M07Q2')">协议公示</span>
+            <span class="footer-link" onclick="window.open('https://www.daojia.com/website/h5/home/licence-list?type=licence-list&spm=swan-website-pc_website_h5_home_.click_APUGPWKU')">经营证照</span>
+          </div>
+        </div>
+      </div>
+      <p class="footer-copy">
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=43010402002038号" target="_blank" rel="noreferrer">
+          <img src="assets/nismsp.png"><span>湘公网安备43010402002038号</span>
+        </a>
+        <a href="javascript:void(0)">湘B2-20240383</a>
+        <a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备18014128号-6</a>
+        <a href="javascript:void(0)">五八到家有限公司</a>
+        <br>©<span class="copy-year"></span> Daojia.com 天鹅到家版权所有
+      </p>
+    </footer>
+  </main>
+
+  <!-- ===== ABOUT PAGE ===== -->
+  <div class="page-section page-about" id="pageAbout">
+    <!-- About Hero -->
+    <div class="about-hero">
+      <div class="about-hero-title">关于我们</div>
+      <div class="about-hero-sub">ABOUT US</div>
+    </div>
+
+    <!-- Section Tabs -->
+    <div class="section-tabs" id="sectionTabs">
+      <div class="section-tab active" onclick="switchSection(0)">公司简介</div>
+      <div class="section-tab" onclick="switchSection(1)">企业文化</div>
+      <div class="section-tab" onclick="switchSection(2)">发展历程</div>
+      <div class="section-tab" onclick="switchSection(3)">企业规模</div>
+      <div class="section-tab" onclick="switchSection(4)">办公环境</div>
+    </div>
+
+    <div class="about-sections">
+    <!-- Section: Company Intro -->
+    <div class="a-content white" id="section0">
+      <h2 class="section-title">公司简介</h2>
+      <div class="section-desc">
+        <p>天鹅到家于2014年成立，隶属于到家集团，于2020年9月由"58到家"正式更名为"天鹅到家"。</p>
+        <p>作为互联网家庭服务平台，天鹅到家致力于推进家庭服务的产业标准化、数字化、职业化进程，通过赋能家政劳动者，为中国家庭提供包括保洁、做饭小时工等即时交易服务以及保姆、月嫂的劳动者招聘服务，实现"帮助千万人就业 为亿万家庭服务"，成为一个美好公司、美好平台，让家更美好。</p>
+        <p>截至2022年6月30日，天鹅到家平台累计拥有超过1800万注册用户，服务超过480万用户，有超过200万注册和认证劳动者。</p>
+      </div>
+    </div>
+
+    <!-- Section: Culture -->
+    <div class="a-content gray" id="section1">
+      <h2 class="section-title">企业文化</h2>
+      <div class="wenhua-list">
+        <div class="wenhua-card wenhua1"><p>价值观：客户第一 奋斗者为本</p></div>
+        <div class="wenhua-card wenhua2"><p>使命：让家更美好</p></div>
+        <div class="wenhua-card wenhua3"><p>愿景：帮助千万人就业 为亿万人服务</p></div>
+      </div>
+    </div>
+
+    <!-- Section: Course -->
+    <div class="course-section" id="section2">
+      <h2 class="section-title">发展历程</h2>
+      <div class="course-swiper" id="courseSwiper">
+        <!-- Populated by JS -->
+      </div>
+      <div class="course-pagination" id="coursePagination"></div>
+    </div>
+
+    <!-- Section: Scale -->
+    <div class="a-content gray" id="section3">
+      <h2 class="section-title">企业规模</h2>
+      <p class="scale-desc">全国领先的家庭服务平台</p>
+      <div class="scale-grid" id="scaleGrid"></div>
+      <p style="font-size:14px;color:#7f849b;line-height:20px;">数据来源：欧睿信息咨询（上海）有限公司，按照2021年平台家庭GMV计。于2022年3月完成调研。</p>
+      <img src="assets/ayi.png" alt="" class="scale-img">
+    </div>
+
+    <!-- Section: Environment -->
+    <div class="a-content white" id="section4">
+      <h2 class="section-title">办公环境</h2>
+      <div class="env-grid">
+        <img src="assets/env1.png" alt="办公环境">
+        <img src="assets/env2.png" alt="办公环境">
+        <img src="assets/env3.png" alt="办公环境">
+      </div>
+    </div><!-- .about-sections -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-left">
+          <div class="footer-logo-row">
+            <img src="assets/logo_gray.png" alt="" class="footer-logo">
+            <span class="footer-divider"></span>
+            <span class="footer-follow">关注我们</span>
+            <div class="footer-social" style="position:relative;">
+              <span class="footer-social-icon" ontouchstart="showQR(0)" ontouchend="hideQRTimeout()" onmousedown="showQR(0)" onmouseup="hideQRTimeout()">
+                <img src="assets/wechat.png" alt="微信">
+              </span>
+              <span class="footer-social-icon" ontouchstart="showQR(1)" ontouchend="hideQRTimeout()" onmousedown="showQR(1)" onmouseup="hideQRTimeout()">
+                <img src="assets/weibo.png" alt="微博">
+              </span>
+              <div class="qr-popup" id="qrPopup2"></div>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <p>投诉建议邮箱：kf-shfwb@daojia-inc.com</p>
+            <p>公关事务邮箱：pr@daojia-inc.com</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-link-row">
+            <span class="footer-link" onclick="window.open('https://www.daojia.com/website/h5/home/agreement?type=chanquan&spm=swan-website-pc_home.click_YMG56ACH')">知识产权</span>
+            <span class="footer-link" onclick="window.open('https://www.daojia.com/website/h5/home/agreement?type=privacy&spm=swan-website-pc_website_h5_home_.click_1NT3MXHM')">隐私政策</span>
+            <span class="footer-link" onclick="window.open('https://www.daojia.com/website/h5/home/agreement-list?type=agreement-list&spm=swan-website-pc_website_h5_home_.click_D84M07Q2')">协议公示</span>
+            <span class="footer-link" onclick="window.open('https://www.daojia.com/website/h5/home/licence-list?type=licence-list&spm=swan-website-pc_website_h5_home_.click_APUGPWKU')">经营证照</span>
+          </div>
+        </div>
+      </div>
+	  <p class="footer-copy">
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=43010402002038号" target="_blank" rel="noreferrer">
+          <img src="assets/nismsp.png"><span>湘公网安备43010402002038号</span>
+        </a>
+        <a href="javascript:void(0)">湘B2-20240383</a>
+        <a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备18014128号-6</a>
+        <a href="javascript:void(0)">五八到家有限公司</a>
+        <br>©<span class="copy-year"></span> Daojia.com 天鹅到家版权所有
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    // ===== UTILS (iOS 10 / Android 7 compatibility) =====
+    function toggleClass(el, cls, force) {
+      if (force === true) el.classList.add(cls);
+      else if (force === false) el.classList.remove(cls);
+      else el.classList.toggle(cls);
+    }
+    function nodeListEach(nodeList, fn) {
+      for (var i = 0; i < nodeList.length; i++) fn(nodeList[i], i);
+    }
+    function smoothScrollTo(targetY) {
+      if (window.scrollTo.length === 1) {
+        // Fallback: no smooth scroll
+        window.scrollTo(0, targetY);
+        return;
+      }
+      window.scrollTo({ top: targetY, behavior: 'smooth' });
+    }
+
+    // ===== DATA =====
+    var bar = [
+      { title: '首页', url: '#home', position: 1, track: 2, blod: true },
+      { title: '关于我们', url: '#about', position: 1, track: 3, blod: true },
+      {
+        title: '商务合作', position: 2, track: 4,
+        child: [
+          { subTitle: '招商计划', link: 'https://meitian.daojia.com/', track: 4 }
+        ]
+      }
+    ];
+
+    var homeBanners = [
+      'assets/img1.png', 'assets/img2.png', 'assets/img3.png', 'assets/img4.png'
+    ];
+
+    var footerCard = [
+      {
+        current: 1,
+        content: [
+          { title: '【天鹅到家公众号】', des: ['家庭服务快速找', '微信操作更简单'], img: 'assets/f-gongzhong.jpg' },
+          { title: '【天鹅到家订阅号】', des: ['热点事件早知道', '家务育儿小技巧'], img: 'assets/f-dingyue.jpg' },
+          { title: '【阿姨一点通官网】', des: ['技能提升好帮手', '上户经验学习多'], img: 'assets/f-guanwang.jpg' }
+        ]
+      },
+      {
+        current: 2,
+        content: [
+          { title: '【天鹅到家官方微博】', des: ['家庭服务信息早知道'], img: 'assets/f-weibo.png' }
+        ]
+      }
+    ];
+
+    var courseData = [
+      { date: '2021', title: '不畏前行 筑梦远航', desc: ['对劳动者十倍好"战略落地——启动"鹅宝计划"，第二季已扩大到提供超500个家政劳动者子女的教育帮扶'] },
+      { date: '2020', title: '迎风破浪 逐梦而上', desc: ['家政业务品牌正式更名为"天鹅到家"，并获得红杉资本等机构投资2.2亿美元', '推动家政职业化——启动"天鹅之星"优秀劳动者评选，推出"严选阿姨"创新模式，助力劳动者职业晋升'] },
+      { date: '2019', title: '不忘初心 为梦而战', desc: ['成立蓝领职业赋能平台——天鹅职培，由家庭服务扩展到蓝领赋能等多元化生态服务'] },
+      { date: '2018', title: '客户第一 奋斗者为本', desc: ['8月 荣获世界移动互联网大会"年度最佳生活类平台"'] },
+      { date: '2017', title: '不忘初心 为梦而战', desc: ['数字化系统正式上线，成为完成劳动者招募、技能提升和供需匹配全链条闭环的家庭服务平台，全面建设数字化基础设施'] },
+      { date: '2016', title: '业绩攀升 全员举绩', desc: ['家政业务范围从保洁扩大到保姆、月嫂全品类，服务网络覆盖全国'] },
+      { date: '2015', title: '持之以恒 业绩骄人', desc: ['到家集团A轮融资，阿里巴巴、平安创投、KKR联合投资3亿美元'] },
+      { date: '2014', title: '品牌诞生 目标明确', desc: ['到家集团（原58到家）正式进入家政和同城货运领域'] }
+    ];
+
+    var scaleDta = [
+      { desc: '门店数量', count: 400, unit: '+' },
+      { desc: '累计注册用户', count: 1600, unit: '万' },
+      { desc: '城市覆盖', count: 66, unit: '个' },
+      { desc: '专业培训师', count: 230, unit: '+' },
+      { desc: '注册及认证劳动者', count: 150, unit: '万' },
+      { desc: '赋能中小型家政服务机构', count: 100, unit: '+' }
+    ];
+
+    // ===== DRAWER =====
+    var drawerOpen = false;
+    var subOpen = {};
+    var subOpenLevel = {};
+
+    function toggleDrawer() {
+      drawerOpen = !drawerOpen;
+      toggleClass(document.getElementById('drawerMask'), 'show', drawerOpen);
+      toggleClass(document.getElementById('hamburgerBtn'), 'open', drawerOpen);
+      if (drawerOpen) {
+        buildDrawer();
+      }
+    }
+
+    function closeDrawer() {
+      drawerOpen = false;
+      document.getElementById('drawerMask').classList.remove('show');
+      document.getElementById('hamburgerBtn').classList.remove('open');
+    }
+
+    function buildDrawer() {
+      var html = '';
+      bar.forEach(function(nav, index) {
+        if (nav.child) {
+          html += '<div class="nav-group">';
+          html += '<div class="nav-item" onclick="toggleSub(' + index + ')">';
+          html += '<span>' + nav.title + '</span>';
+          html += '<span class="arrow" id="arrow' + index + '"><img src="assets/icon_up.png"></span>';
+          html += '</div>';
+          html += '<div class="sub-nav" id="subNav' + index + '" style="display:none;">';
+          nav.child.forEach(function(child, ci) {
+            if (child.child) {
+              html += '<div class="sub-nav-item-with-child">';
+              html += '<div class="sub-nav-item" onclick="toggleSubLevel(' + index + ',' + ci + ')" style="display:flex;justify-content:space-between;">';
+              html += '<span>' + child.subTitle + '</span>';
+              html += '<span class="arrow" id="arrowL' + index + '_' + ci + '"><img src="assets/icon_up.png" style="width:8px;height:8px;"></span>';
+              html += '</div>';
+              html += '<div class="sub-nav-level2" id="subL' + index + '_' + ci + '" style="display:none;background:#F4F6F8;padding:0 0 4px 12px;">';
+              child.child.forEach(function(grand) {
+                html += '<a style="display:block;padding:8px 16px;font-size:13px;color:#3B445C;" onclick="goLink(\'' + grand.link + '\')">' + grand.subTitle + '</a>';
+              });
+              html += '</div></div>';
+            } else {
+              html += '<a class="sub-nav-item" onclick="goLink(\'' + child.link + '\')">' + child.subTitle + '</a>';
+            }
+          });
+          html += '</div></div>';
+        } else {
+          html += '<div class="nav-group">';
+          html += '<div class="nav-item" onclick="goLink(\'' + (nav.url || '') + '\')">';
+          html += '<span>' + nav.title + '</span>';
+          html += '</div></div>';
+        }
+      });
+      document.getElementById('drawerContent').innerHTML = html;
+    }
+
+    function toggleSub(index) {
+      var el = document.getElementById('subNav' + index);
+      var arrow = document.getElementById('arrow' + index);
+      if (el.style.display === 'none') {
+        el.style.display = 'block';
+        arrow.classList.add('open');
+      } else {
+        el.style.display = 'none';
+        arrow.classList.remove('open');
+      }
+    }
+
+    function toggleSubLevel(index, ci) {
+      var el = document.getElementById('subL' + index + '_' + ci);
+      var arrow = document.getElementById('arrowL' + index + '_' + ci);
+      if (el.style.display === 'none') {
+        el.style.display = 'block';
+        arrow.classList.add('open');
+      } else {
+        el.style.display = 'none';
+        arrow.classList.remove('open');
+      }
+    }
+
+    function goLink(url) {
+      closeDrawer();
+      if (url) {
+        if (url === '#about') {
+          showPage('about');
+        } else if (url === '#home') {
+          showPage('home');
+        } else if (url.indexOf('http') === 0) {
+          window.open(url);
+        } else {
+          window.location.href = url;
+        }
+      }
+    }
+
+    // ===== PAGES =====
+    function showPage(page) {
+      var home = document.getElementById('pageHome');
+      var about = document.getElementById('pageAbout');
+      var nav = document.getElementById('mainNav');
+      if (page === 'about') {
+        home.classList.add('hidden');
+        about.classList.add('active');
+        nav.classList.add('nav-about');
+        document.getElementById('navLogo').src = 'assets/logo_white.png';
+        nav.style.background = 'transparent';
+        window.scrollTo(0, 0);
+        updateSectionVisibility();
+      } else {
+        home.classList.remove('hidden');
+        about.classList.remove('active');
+        nav.classList.remove('nav-about');
+        document.getElementById('navLogo').src = 'assets/logo_red.png';
+        nav.style.background = '';
+        window.scrollTo(0, 0);
+      }
+      closeDrawer();
+    }
+
+    // ===== APP TABS =====
+    var currentAppTab = 0;
+    function switchAppTab(index) {
+      currentAppTab = index;
+      document.getElementById('appTab0').style.display = index === 0 ? 'block' : 'none';
+      document.getElementById('appTab1').style.display = index === 1 ? 'block' : 'none';
+      var items = document.querySelectorAll('#appTabBar .tab-item');
+      nodeListEach(items, function(item, i) {
+        toggleClass(item, 'active', i === index);
+      });
+      updateTabLine();
+    }
+
+    function updateTabLine() {
+      var items = document.querySelectorAll('#appTabBar .tab-item');
+      var line = document.getElementById('appTabLine');
+      if (items[currentAppTab]) {
+        var rect = items[currentAppTab].getBoundingClientRect();
+        var barRect = document.getElementById('appTabBar').getBoundingClientRect();
+        line.style.left = (rect.left - barRect.left + rect.width / 2 - 12) + 'px';
+      }
+    }
+
+    // ===== BANNER SWIPER =====
+    var currentSlide = 0;
+    var slideInterval;
+
+    function initSwiper() {
+      var wrapper = document.getElementById('swiperWrapper');
+      var dots = document.getElementById('swiperDots');
+      var html = '';
+      var dotHtml = '';
+      homeBanners.forEach(function(src, i) {
+        html += '<div class="swiper-slide"><div class="swiper-slide-img" style="background-image:url(' + src + ')"></div></div>';
+        dotHtml += '<div class="swiper-dot' + (i === 0 ? ' active' : '') + '" onclick="goToSlide(' + i + ')"></div>';
+      });
+      wrapper.innerHTML = html;
+      dots.innerHTML = dotHtml;
+      startAutoSlide();
+    }
+
+    function goToSlide(index) {
+      currentSlide = index;
+      var wrapper = document.getElementById('swiperWrapper');
+      wrapper.style.transform = 'translateX(-' + (index * 100) + '%)';
+      var dots = document.querySelectorAll('.swiper-dot');
+      nodeListEach(dots, function(dot, i) {
+        toggleClass(dot, 'active', i === index);
+      });
+      resetAutoSlide();
+    }
+
+    function nextSlide() {
+      var next = (currentSlide + 1) % homeBanners.length;
+      goToSlide(next);
+    }
+
+    function startAutoSlide() {
+      slideInterval = setInterval(nextSlide, 3000);
+    }
+
+    function resetAutoSlide() {
+      clearInterval(slideInterval);
+      startAutoSlide();
+    }
+
+    // ===== QR POPUP =====
+    var qrTimeout;
+    function showQR(type) {
+      clearTimeout(qrTimeout);
+      var card = footerCard[type];
+      var html = '';
+      card.content.forEach(function(item) {
+        html += '<div class="qr-card-item">';
+        html += '<p class="qr-card-title">' + item.title + '</p>';
+        html += '<p class="qr-card-desc">' + item.des.join(' ') + '</p>';
+        html += '<img src="' + item.img + '" class="qr-card-img" alt="">';
+        html += '</div>';
+      });
+      document.getElementById('qrPopup').innerHTML = html;
+      document.getElementById('qrPopup').classList.add('show');
+    }
+
+    function hideQRTimeout() {
+      qrTimeout = setTimeout(function() {
+        document.getElementById('qrPopup').classList.remove('show');
+      }, 2000);
+    }
+
+    // ===== ABOUT SECTIONS =====
+    var currentSection = 0;
+    function switchSection(index) {
+      currentSection = index;
+      var tabs = document.querySelectorAll('#sectionTabs .section-tab');
+      nodeListEach(tabs, function(tab, i) {
+        toggleClass(tab, 'active', i === index);
+      });
+      var el = document.getElementById('section' + index);
+      if (el) {
+        var navH = 56;
+        var tabH = 48;
+        var top = el.offsetTop - navH - tabH;
+        smoothScrollTo(top);
+      }
+    }
+
+    function updateSectionVisibility() {
+      var sections = [];
+      for (var i = 0; i < 5; i++) {
+        var el = document.getElementById('section' + i);
+        if (el) sections.push(el);
+      }
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      var navH = 56;
+      var tabH = 48;
+      var triggerY = scrollTop + navH + tabH + 60;
+
+      for (var i = sections.length - 1; i >= 0; i--) {
+        if (sections[i].offsetTop <= triggerY) {
+          if (currentSection !== i) {
+            var tabs = document.querySelectorAll('#sectionTabs .section-tab');
+            nodeListEach(tabs, function(tab, ti) {
+              toggleClass(tab, 'active', ti === i);
+            });
+            currentSection = i;
+          }
+          break;
+        }
+      }
+    }
+
+    // ===== COURSE =====
+    var currentCourse = 0;
+    function initCourse() {
+      var html = '';
+      var dotHtml = '';
+      courseData.forEach(function(item, i) {
+        html += '<div class="course-card" id="course' + i + '" style="display:' + (i === 0 ? 'block' : 'none') + '">';
+        html += '<p class="course-card-year">' + item.date + '  ' + item.title + '</p>';
+        html += '<div class="course-card-desc">';
+        item.desc.forEach(function(d) {
+          html += '<p><b></b><span>' + d + '</span></p>';
+        });
+        html += '</div></div>';
+        dotHtml += '<div class="course-dot' + (i === 0 ? ' active' : '') + '" onclick="goToCourse(' + i + ')"></div>';
+      });
+      document.getElementById('courseSwiper').innerHTML = html;
+      document.getElementById('coursePagination').innerHTML = dotHtml;
+    }
+
+    function goToCourse(index) {
+      currentCourse = index;
+      for (var i = 0; i < courseData.length; i++) {
+        var el = document.getElementById('course' + i);
+        if (el) el.style.display = i === index ? 'block' : 'none';
+      }
+      var dots = document.querySelectorAll('.course-dot');
+      nodeListEach(dots, function(dot, i) {
+        toggleClass(dot, 'active', i === index);
+      });
+    }
+
+    // ===== SCALE GRID =====
+    function initScale() {
+      var html = '';
+      scaleDta.forEach(function(item) {
+        html += '<div class="scale-item">';
+        html += '<div class="scale-count"><span class="scale-num">' + item.count + '</span><span class="scale-unit">' + item.unit + '</span></div>';
+        html += '<p class="scale-label">' + item.desc + '</p>';
+        html += '</div>';
+      });
+      document.getElementById('scaleGrid').innerHTML = html;
+    }
+
+    // ===== NAV SCROLL =====
+    var lastScroll = 0;
+    window.addEventListener('scroll', function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      var nav = document.getElementById('mainNav');
+
+      // About page: show/hide nav background based on scroll
+      if (document.getElementById('pageAbout').classList.contains('active')) {
+        var heroH = document.querySelector('.about-hero').offsetHeight;
+        if (scrollTop > heroH - 56) {
+          nav.style.background = 'rgba(255,255,255,0.95)';
+        } else {
+          nav.style.background = 'transparent';
+        }
+        updateSectionVisibility();
+      }
+
+      lastScroll = scrollTop;
+    });
+
+    // ===== INIT =====
+    window.addEventListener('DOMContentLoaded', function() {
+      initSwiper();
+      initCourse();
+      initScale();
+      setTimeout(updateTabLine, 100);
+      // Set current year in footer
+      var year = new Date().getFullYear();
+      nodeListEach(document.querySelectorAll('.copy-year'), function(el) {
+        el.textContent = year;
+      });
+    });
+
+    window.addEventListener('resize', function() {
+      setTimeout(updateTabLine, 50);
+      // Close drawer and switch to desktop nav on wide screens
+      if (window.innerWidth >= 768 && drawerOpen) {
+        closeDrawer();
+      }
+    });
+  </script>
+
+</body>
+</html>

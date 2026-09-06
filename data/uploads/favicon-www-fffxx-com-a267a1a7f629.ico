@@ -1,0 +1,1483 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta name="applicable-device" content="pc,mobile">
+  <title>乐于分享网 - 爱生活，爱网络！</title>
+  <meta name="keywords" content="乐于分享网,乐于分享,乐分享,资源网,资源网站">
+  <meta name="description" content="乐于分享网 fffxx.com 爱分享，爱生活，爱网络！">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://fffxx.com//content/uploadfile/202412/1bb81735097355.png">
+  <link rel="icon" type="image/png" href="https://fffxx.com//content/uploadfile/202412/1bb81735097355.png">
+  <link rel="alternate" type="application/rss+xml" title="RSS订阅" href="https://fffxx.com/rss.php">
+  <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4713912_815090j0ow3.css?v=1.7">
+  <script src="//at.alicdn.com/t/c/font_4732584_07eurlszf9e7.js?v=1.7"></script><!--svg icon-->
+  <link rel="stylesheet" href="https://fffxx.com/content/templates/hell-lite/assets/css/markdown.css?v=1.7">
+  <link rel="stylesheet" href="https://fffxx.com/content/templates/hell-lite/assets/css/style.css?v=1.7">
+  <script src="https://fffxx.com/content/templates/hell-lite/assets/js/main.js?v=1.7" defer></script>
+  <style type="text/css">
+		.cl_content{border:1px dashed#ff9a9a;background:#fffff;padding:5px 0 5px 25px;margin:5px 10px;color:#FF0000;line-height:26px;text-align:center;}.cl_content input.euc-y-i[type="password"]{background:#fff;width:40%;line-height:30px;margin-top:5px;border-radius:3px;outline:medium;border:0;}.cl_content input.euc-y-s[type="submit"]{margin-left:0px;margin-top:5px;width:20%;line-height:30px;border-radius:0 3px 3px 0;background-color:#3498db;color:#fff;box-shadow:none;outline:medium;text-align:center;-moz-box-shadow:none;box-shadow:none;border:0;height:auto;}input.euc-y-s[type="submit"]:hover{background-color:#5dade2;}.hide-tit{text-align:center;border-bottom:1px;margin-bottom:10px}.luyu-yzm .success.cm-btn{color:#fff;border:none}.luyu-yzm .primary.cm-alert{background-color:#7db1f1;color:#fff}.luyu-yzm .success.cm-alert,.luyu-yzm .success.cm-btn,.luyu-yzm button.success{background-color:#3498db;}.luyu-yzm .cm-alert{border-radius:3px;padding:15px;margin-bottom:15px;background-color:#fff}.luyu-yzm .cm-btn,.luyu-yzm button{background-color:#fff;padding:15px 20px;border-radius:3px}.luyu-yzm .cm-card>.cm-card-body{padding:15px}.luyu-yzm .cm-card{overflow:hidden;margin-bottom:15px;border-radius:3px}.luyu-yzm .cm-text-primary{color:#7db1f1}.luyu-yzm .cm-text-success{color:#3498db;}.luyu-yzm .cm-grid{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.luyu-yzm .cm-grid .cm-row{margin-left:-15px;margin-right:-15px}.luyu-yzm .cm-grid .cm-row [class*=cm-col]{position:relative;padding-left:15px;padding-right:15px}@media (min-width:768px){.luyu-yzm .cm-grid .cm-row .cm-col-md-1{float:left;width:8.33333%}.luyu-yzm .cm-grid .cm-row .cm-col-md-2{float:left;width:16.66666%}.luyu-yzm .cm-grid .cm-row .cm-col-md-3{float:left;width:25%}.luyu-yzm .cm-grid .cm-row .cm-col-md-4{float:left;width:33.33333%}.luyu-yzm .cm-grid .cm-row .cm-col-md-5{float:left;width:41.66666%}.luyu-yzm .cm-grid .cm-row .cm-col-md-6{float:left;width:50%}.luyu-yzm .cm-grid .cm-row .cm-col-md-7{float:left;width:58.33333%}.luyu-yzm .cm-grid .cm-row .cm-col-md-8{float:left;width:66.66666%}.luyu-yzm .cm-grid .cm-row .cm-col-md-9{float:left;width:75%}.luyu-yzm .cm-grid .cm-row .cm-col-md-10{float:left;width:83.33333%}.luyu-yzm .cm-grid .cm-row .cm-col-md-11{float:left;width:91.66666%}.luyu-yzm .cm-grid .cm-row .cm-col-md-12{float:left;width:100%}}.luyu-yzm input[type=text]{padding:15px;border:1px solid #dadada;border-radius:3px;color:black;width:100%}.luyu-yzm .cm-resp-img{width:100%;height:auto}.luyu-yzm .cm-hide{display:none}.luyu-yzm .cm-grid{width:86%}</style>    <script>
+        document.addEventListener('copy', function(event) {
+            if (Boolean()) {
+                alert('复制成功！');
+            } else {
+                event.preventDefault(); // 阻止默认的复制操作
+                alert('请先登录！');
+            }
+        }, true);
+    </script>
+<style>@font-face {font-family: '鸿蒙(本地)';src: url('/content/plugins/x_font/font/HarmonyOS_Sans_SC_Medium.subset.woff2') format('woff2');font-weight: medium;font-style: normal;}body {font-family: '鸿蒙(本地)', Arial, sans-serif;}</style><style>
+    .btn-warning {
+        color: #fff;
+        background-color: #f0ad4e;
+        border-color: #eea236;
+        text-decoration: none;
+        padding: 5px 10px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+    .btn-warning:hover {
+        color: #fff;
+        background-color: #ec971f;
+        border-color: #d58512;
+        text-decoration: none;
+    }
+    .mt-2 {
+        margin-top: 0.5rem;
+    }
+    </style><link rel="stylesheet" type="text/css" href="/content/plugins/x_ifModal/css/style.css"><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0681b2d0b63377eb63eaf7a9a4451e9e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><link rel="stylesheet" href="https://fffxx.com/content/plugins/lh_gonggao/style.css"><script src="https://fffxx.com/content/plugins/lh_gonggao/lh_gonggao.js"></script><style>
+    #article-down-but {
+    background-color: #5298ff;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    }
+    .x-down-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #f6f9ff;
+    border: 1px solid #d6e4ff;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin: 18px 0;
+    max-width: 520px;
+    box-sizing: border-box;
+    }
+    .x-down-card-icon {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #5298ff;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 44px;
+    text-align: center;
+    }
+    .x-down-card-body {
+    min-width: 0;
+    flex: 1;
+    }
+    .x-down-card-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1f2937;
+    word-break: break-all;
+    line-height: 1.4;
+    }
+    .x-down-card-meta {
+    font-size: 12px;
+    color: #6b7280;
+    margin-top: 4px;
+    }
+    .x-down-card-btn {
+    flex-shrink: 0;
+    background: #5298ff;
+    color: #fff !important;
+    text-decoration: none !important;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+    }
+    .x-down-card-btn:hover {
+    background: #3b7df0;
+    color: #fff !important;
+    text-decoration: none !important;
+    }
+    </style><link rel="stylesheet" href="https://fffxx.com/content/plugins/content_card/content_card.css?v=1.2"><link rel="stylesheet" href="https://fffxx.com/content/plugins/popup_system/assets/css/popup.css?v=1.0.0"><link rel="stylesheet" href="https://fffxx.com/content/plugins/listener_corner/assets/foxui-1.49.min.css">
+<link rel="stylesheet" href="https://fffxx.com/content/plugins/listener_corner/css/style.css?v=1.5.1">
+    <style>
+        .post-heatmap-wrapper {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            color: #57606a;
+            background: transparent;
+            border-radius: 8px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        [data-theme="dark"] .post-heatmap-wrapper,
+        body.dark-mode .post-heatmap-wrapper {
+            color: #8b949e;
+        }
+
+        .ph-admin-container,
+        .ph-sidebar-container {
+            width: 100%;
+            padding: 0;
+        }
+
+        .ph-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .ph-summary {
+            font-size: 13px;
+            color: inherit;
+        }
+
+        .ph-summary strong {
+            color: #24292f;
+        }
+
+        [data-theme="dark"] .ph-summary strong,
+        body.dark-mode .ph-summary strong {
+            color: #c9d1d9;
+        }
+
+        .ph-svg-container {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .ph-heatmap-svg {
+            display: block;
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+        }
+
+        .ph-svg-text {
+            font-size: 9px;
+            fill: #8c959f;
+            font-family: inherit;
+            user-select: none;
+        }
+
+        [data-theme="dark"] .ph-svg-text,
+        body.dark-mode .ph-svg-text {
+            fill: #6e7681;
+        }
+
+        .ph-svg-cell {
+            cursor: pointer;
+            transition: stroke 0.15s ease, stroke-width 0.15s ease;
+        }
+
+        .ph-svg-cell:hover {
+            stroke: rgba(0, 0, 0, 0.45);
+            stroke-width: 1.2px;
+        }
+
+        [data-theme="dark"] .ph-svg-cell:hover,
+        body.dark-mode .ph-svg-cell:hover {
+            stroke: rgba(255, 255, 255, 0.6);
+            stroke-width: 1.2px;
+        }
+
+        .ph-footer {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 6px;
+            margin-top: 12px;
+            font-size: 11px;
+            color: #8c959f;
+        }
+
+        .ph-legend-svg {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .ph-legend-svg .ph-svg-cell {
+            cursor: default;
+        }
+
+        .ph-legend-svg .ph-svg-cell:hover {
+            stroke: none;
+        }
+
+        /* 经典绿主题 (GitHub 风格) */
+        .ph-theme-green .ph-level-0 {
+            fill: #ebedf0;
+        }
+
+        .ph-theme-green .ph-level-1 {
+            fill: #9be9a8;
+        }
+
+        .ph-theme-green .ph-level-2 {
+            fill: #40c463;
+        }
+
+        .ph-theme-green .ph-level-3 {
+            fill: #30a14e;
+        }
+
+        .ph-theme-green .ph-level-4 {
+            fill: #216e39;
+        }
+
+        [data-theme="dark"] .ph-theme-green .ph-level-0,
+        body.dark-mode .ph-theme-green .ph-level-0 {
+            fill: #161b22;
+            stroke: rgba(255, 255, 255, 0.06);
+            stroke-width: 0.8px;
+        }
+
+        [data-theme="dark"] .ph-theme-green .ph-level-1,
+        body.dark-mode .ph-theme-green .ph-level-1 {
+            fill: #0e4429;
+            stroke: none;
+        }
+
+        [data-theme="dark"] .ph-theme-green .ph-level-2,
+        body.dark-mode .ph-theme-green .ph-level-2 {
+            fill: #006d32;
+            stroke: none;
+        }
+
+        [data-theme="dark"] .ph-theme-green .ph-level-3,
+        body.dark-mode .ph-theme-green .ph-level-3 {
+            fill: #26a641;
+            stroke: none;
+        }
+
+        [data-theme="dark"] .ph-theme-green .ph-level-4,
+        body.dark-mode .ph-theme-green .ph-level-4 {
+            fill: #39d353;
+            stroke: none;
+        }
+
+        /* 科技蓝主题 */
+        .ph-theme-blue .ph-level-0 {
+            fill: #ebedf0;
+        }
+
+        .ph-theme-blue .ph-level-1 {
+            fill: #bae6fd;
+        }
+
+        .ph-theme-blue .ph-level-2 {
+            fill: #38bdf8;
+        }
+
+        .ph-theme-blue .ph-level-3 {
+            fill: #0284c7;
+        }
+
+        .ph-theme-blue .ph-level-4 {
+            fill: #0369a1;
+        }
+
+        [data-theme="dark"] .ph-theme-blue .ph-level-0,
+        body.dark-mode .ph-theme-blue .ph-level-0 {
+            fill: #161b22;
+            stroke: rgba(255, 255, 255, 0.06);
+            stroke-width: 0.8px;
+        }
+
+        [data-theme="dark"] .ph-theme-blue .ph-level-1,
+        body.dark-mode .ph-theme-blue .ph-level-1 {
+            fill: #082f49;
+            stroke: none;
+        }
+
+        [data-theme="dark"] .ph-theme-blue .ph-level-2,
+        body.dark-mode .ph-theme-blue .ph-level-2 {
+            fill: #0369a1;
+            stroke: none;
+        }
+
+        [data-theme="dark"] .ph-theme-blue .ph-level-3,
+        body.dark-mode .ph-theme-blue .ph-level-3 {
+            fill: #0284c7;
+            stroke: none;
+        }
+
+        [data-theme="dark"] .ph-theme-blue .ph-level-4,
+        body.dark-mode .ph-theme-blue .ph-level-4 {
+            fill: #38bdf8;
+            stroke: none;
+        }
+
+        /* 活力橙主题 */
+        .ph-theme-orange .ph-level-0 {
+            fill: #ebedf0;
+        }
+
+        .ph-theme-orange .ph-level-1 {
+            fill: #fed7aa;
+        }
+
+        .ph-theme-orange .ph-level-2 {
+            fill: #fb923c;
+        }
+
+        .ph-theme-orange .ph-level-3 {
+            fill: #ea580c;
+        }
+
+        .ph-theme-orange .ph-level-4 {
+            fill: #c2410c;
+        }
+
+        [data-theme="dark"] .ph-theme-orange .ph-level-0,
+        body.dark-mode .ph-theme-orange .ph-level-0 {
+            fill: #161b22;
+            stroke: rgba(255, 255, 255, 0.06);
+            stroke-width: 0.8px;
+        }
+
+        [data-theme="dark"] .ph-theme-orange .ph-level-1,
+        body.dark-mode .ph-theme-orange .ph-level-1 {
+            fill: #431407;
+            stroke: none;
+        }
+
+        [data-theme="dark"] .ph-theme-orange .ph-level-2,
+        body.dark-mode .ph-theme-orange .ph-level-2 {
+            fill: #9a3412;
+            stroke: none;
+        }
+
+        [data-theme="dark"] .ph-theme-orange .ph-level-3,
+        body.dark-mode .ph-theme-orange .ph-level-3 {
+            fill: #ea580c;
+            stroke: none;
+        }
+
+        [data-theme="dark"] .ph-theme-orange .ph-level-4,
+        body.dark-mode .ph-theme-orange .ph-level-4 {
+            fill: #fb923c;
+            stroke: none;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            if (typeof $ !== 'undefined' && $.fn && $.fn.tooltip) {
+                $('.post-heatmap-wrapper [data-toggle="tooltip"]').tooltip({
+                    container: 'body'
+                });
+            }
+        });
+    </script>
+    <style>:root {--hl-page-width: 66%;}:root,[data-theme=light] { 
+--hl-body-bg:#fff;
+--hl-gray-bg:#fff;
+}
+
+[data-theme=dark] {
+--hl-body-bg:#161616;
+--hl-gray-bg:#2b2b2b;
+}</style>
+<script defer src="/bt-stats.js?site=7d5682a6-509f-4f76-9f4f-407e98ab1895&version1"></script></head>
+<body>
+<header class="header flex box p-3 fixed-h page-width">
+      <h1 class="logo"><a href="https://fffxx.com/" title="乐于分享网"><img src="https://fffxx.com//content/uploadfile/202412/1bb81735097355.png" alt="乐于分享网"></a></h1>
+    
+  
+    <nav class="navbar">
+    <ul class="flex">
+                      <li class="active"><a href="https://fffxx.com/" >首页</a></li>
+                            <li class="">
+                      <a href="https://fffxx.com/ruanjian" >软件</a>
+            <span class="sub box flex">
+              <a href="https://fffxx.com/ruanjian/app">手机软件</a><a href="https://fffxx.com/ruanjian/exe">电脑软件</a><a href="https://fffxx.com/ruanjian/tv">电视盒子</a><a href="https://fffxx.com/ruanjian/cheji">安卓车机</a>            </span>
+                            </li>
+                            <li class=""><a href="https://biiii.com" target="_blank">网站</a></li>
+                            <li class=""><a href="https://fffxx.com/plugin/x_tab" target="_blank">书签</a></li>
+                            <li class=""><a href="https://fffxx.com/fenxiang.html" >分享</a></li>
+                            <li class=""><a href="https://fffxx.com/zanshang.html" >赞赏</a></li>
+                            <li class=""><a href="https://fffxx.com/hezuo.html" >合作</a></li>
+                </ul>
+  </nav>
+  
+  <div class="misc flex">
+        <a class="auto-mode radius-full mr-1" rel="nofollow"><i class="iconfont-hellno hellno-sun"></i></a>    <a class="search radius-full mr-3" rel="nofollow"><i class="iconfont-hellno hellno-search"></i></a>
+          <a class="login btn flex" href="https://fffxx.com/admin/" title="登录" rel="nofollow"><i class="iconfont-hellno hellno-user pr-1"></i><span class="name">登录</span></a>
+       
+    <form class="search-box box p-2 flex" method="get" action="https://fffxx.com/">
+      <input type="text" name="keyword" placeholder="输入简短的关键词会更精准">
+      <button type="submit" class="search-button btn-light flex"><i class="iconfont-hellno hellno-search"></i>搜索</button>
+    </form>
+  </div>
+</header>
+<main class="content page-width mt-4 box">
+      
+  <!--博文-->
+  <section class="blog-list p-2">
+    <div class="main gray-bg radius p-4">
+      <!--breadcrumb-->
+      
+
+
+   
+      <style>
+.nc-text {
+    margin-bottom: 10px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text-item {
+    width: 33.33%;
+}
+@media screen and (max-width: 768px) {
+    .text-item {
+        width: 50%;
+    }
+}
+.text-item a {
+    font-size: 13px;
+    display:block; 
+    border-radius: 4px; 
+    line-height: 25px;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis; 
+}
+
+.nc-text::after {
+    content: '';
+    flex: auto;
+}
+</style>
+<div class = "nc-text">
+    <div class = "text-item" >
+        <a style = "font-weight: bold;color: #0040ff;background: transparent;" href = "https://fffxx.com/?plugin=nciaer_text&tid=9&formhash=1e9b2bcfba178ff118a2a7b2186a06ba&ts=1787424715" target="_blank"> 免费看片APP iOS高清追剧</a>
+    </div>    <div class = "text-item" >
+        <a style = "font-weight: bold;color: #ff00c8;background: transparent;" href = "https://fffxx.com/?plugin=nciaer_text&tid=1&formhash=3a018294f1ce075058cf80817528efd0&ts=1787424715" target="_blank"> 拼多多淘宝商家内部优惠券</a>
+    </div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div>
+</div>                <article class="article dark-lighter-box box  p-3 mb-3">
+        <span class="ribbon top-left">hot</span>        <a class="flex" href="https://fffxx.com/app/1523.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="../content/uploadfile/202606/c0351781967756.png" alt="免费影视天堂 手机追剧看片必备 海量热门影视随心看"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">免费影视天堂 手机追剧看片必备 海量热门影视随心看</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-6-20</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>6323</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>0</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+        <span class="ribbon top-left">hot</span>        <a class="flex" href="https://fffxx.com/app/1522.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202606/0e701780654527.png" alt="ChatGPT原生官网国内直连 免费使用国外各种AI大模型"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">ChatGPT原生官网国内直连 免费使用国外各种AI大模型</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-6-5</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>5746</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>0</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+        <span class="ribbon top-left">hot</span>        <a class="flex" href="https://fffxx.com/app/1526.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202603/f3cc1772584065.jpg" alt="香火因批发零售：国内火因、国外火因、电子火因、雪茄"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">香火因批发零售：国内火因、国外火因、电子火因、雪茄</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-6-1</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>863</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>0</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/1327.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202503/dbd01742260460.png" alt="录屏大师 超高清手机录屏软件 XRecorder v2.5.4.2"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">录屏大师 超高清手机录屏软件 XRecorder v2.5.4.2</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>6643</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>2</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/37.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/4a471736391046.png" alt="番茄免费小说 手机免费看小说软件 v7.3.3.32"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">番茄免费小说 手机免费看小说软件 v7.3.3.32</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>11469</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>38</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/1390.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202505/739a1747021269.png" alt="拷贝漫画 手机免费看漫画软件APP v3.0.9"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">拷贝漫画 手机免费看漫画软件APP v3.0.9</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>11660</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>69</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/1087.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/36b61736500428.webp" alt="今日水印相机 拍照片 拍视频 加水印 v4.2.8"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">今日水印相机 拍照片 拍视频 加水印 v4.2.8</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>11485</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>33</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/1155.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/4a471736386047.png" alt="Duolingo 多邻国 免费在线外语学习手机软件 v6.93.6"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">Duolingo 多邻国 免费在线外语学习手机软件 v6.93.6</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>14974</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>54</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/1150.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202502/4a471739091306.png" alt="SE文件管理器 Solid Explorer v3.5.19"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">SE文件管理器 Solid Explorer v3.5.19</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>6870</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>0</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/1085.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/4a471736822517.png" alt="BeautyPlus 超级美颜 手机美颜修图相机 v7.44.0"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">BeautyPlus 超级美颜 手机美颜修图相机 v7.44.0</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>8914</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>3</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/41.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/4a471736389015.png" alt="彩云天气 手机看天气预报软件 v7.62.2"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">彩云天气 手机看天气预报软件 v7.62.2</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>10814</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>21</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/1288.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202503/01011740880568.png" alt="抖音 记录美好生活 v40.1.0(400101)"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">抖音 记录美好生活 v40.1.0(400101)</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>18289</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>88</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/1043.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/36b61736576923.webp" alt="PhotoRoom Pro 手机抠图 手机图片处理软件 v2026.34.02"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">PhotoRoom Pro 手机抠图 手机图片处理软件 v2026.34.02</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>11404</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>18</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/exe/674.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/4a471736407471.png" alt="Privacy Eraser 电脑个人隐私垃圾清理软件 v6.30.3.5578"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">Privacy Eraser 电脑个人隐私垃圾清理软件 v6.30.3.5578</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>9799</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>1</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/835.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202502/4a471739089898.png" alt="AIDA64 硬件设备检测 安卓设备硬件检测利器 v2.22"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">AIDA64 硬件设备检测 安卓设备硬件检测利器 v2.22</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>3732</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>0</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/exe/1496.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202601/25a01768701911.png" alt="Adobe Media Encoder 2026 知名音频编码应用程序 v26.3.2"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">Adobe Media Encoder 2026 知名音频编码应用程序 v26.3.2</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>1654</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>0</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/exe/1349.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202503/11d11743216190.png" alt="Adobe Premiere Pro 2026 视频编辑处理软件 v26.3.2"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">Adobe Premiere Pro 2026 视频编辑处理软件 v26.3.2</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>9470</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>20</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/exe/1344.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202503/a08f1743140715.png" alt="Adobe Illustrator 2026 知名矢量绘图软件 v30.7.0.114"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">Adobe Illustrator 2026 知名矢量绘图软件 v30.7.0.114</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-21</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>9182</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>11</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/exe/1333.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202503/f48c1742432327.png" alt="万兴优转 Wondershare UniConverter 电脑视频转换软件 v17.4.7"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">万兴优转 Wondershare UniConverter 电脑视频转换软件 v17.4.7</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-20</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>7591</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>3</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/985.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/4a471736507959.png" alt="SD Maid 2 SD Maid SE SD女佣 手机垃圾清理软件 v2.0.3"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">SD Maid 2 SD Maid SE SD女佣 手机垃圾清理软件 v2.0.3</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-20</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>10335</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>14</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/1095.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/4a471736391075.png" alt="墨迹天气 手机天气预报观看软件 v9.0944.02"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">墨迹天气 手机天气预报观看软件 v9.0944.02</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-20</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>10729</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>10</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/119.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/4a471736580490.png" alt="Adobe Photoshop Express 全能手机PS图片处理软件 v18.3.39"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">Adobe Photoshop Express 全能手机PS图片处理软件 v18.3.39</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-20</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>10353</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>25</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/1437.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202506/3a121750986023.png" alt="Ringtone Maker 手机铃声制作软件 v1.01.97.0803"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">Ringtone Maker 手机铃声制作软件 v1.01.97.0803</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-20</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>3254</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>0</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/1481.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202510/51aa1759830637.png" alt="酷我音乐极简版 轻量化无损音乐播放软件 v1.0.4.21"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">酷我音乐极简版 轻量化无损音乐播放软件 v1.0.4.21</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-20</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>5048</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>20</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/cheji/947.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/1ce41736344595.png" alt="酷我音乐车机版 无损音质正版在线试听下载 v7.6.5.20"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">酷我音乐车机版 无损音质正版在线试听下载 v7.6.5.20</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-20</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>12496</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>66</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+                        <article class="article dark-lighter-box box  p-3 mb-3">
+                <a class="flex" href="https://fffxx.com/app/918.html" target="_blank">
+          <figure class="mr-3 p-2 box-tint radius"><img class="radius" src="https://fffxx.com/content/uploadfile/202501/4a471736384382.png" alt="Xodo PDF Reader 佐道PDF阅读器 v11.0.1"></figure>
+          <div class="content">
+            <h2 class="title pb-2 ellipsis-line-1">Xodo PDF Reader 佐道PDF阅读器 v11.0.1</h2>
+            <p class="info flex">
+              <span class="time flex pr-4"><i class="iconfont-hellno hellno-clock"></i>2026-8-20</span>
+              <span class="view flex pr-4"><i class="iconfont-hellno hellno-eye"></i>9544</span>
+              <span class="comment flex pr-4"><i class="iconfont-hellno hellno-message"></i>1</span>
+            </p>
+          </div>
+          <i class="more iconfont-hellno hellno-arrow-down-dot"></i>
+        </a>
+      </article>
+              <!--分页-->
+      <div id="pagination" class="pagination flex flex-wrap mt-3 mb-3">
+         <span>1</span>  <a href="https://fffxx.com/page/2">2</a>  <a href="https://fffxx.com/page/3">3</a>  <a href="https://fffxx.com/page/4">4</a>  <a href="https://fffxx.com/page/5">5</a>  <a href="https://fffxx.com/page/6">6</a>  <a href="https://fffxx.com/page/7">7</a>  <em> ... </em>  <a href="https://fffxx.com/page/27">27</a>  <a href="https://fffxx.com/page/2" title="Next Page">&raquo;</a>       </div>
+    </div>
+  </section>
+</main>
+<footer class="footer flex box page-width p-2 mt-3 mb-5 flex-wrap underline">
+  <div class="gray-bg radius p-4 w-100">
+      <span class="pl-2"><script>
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.onload = () => img.style.opacity = 1; 
+                observer.unobserve(img);
+            }
+        });
+    });
+    document.querySelectorAll('img[src]').forEach(img => {
+        img.setAttribute('data-src', img.src);
+        img.style.opacity = 0;
+        img.style.transition = 'opacity 0.3s';
+        img.src = '';
+        imageObserver.observe(img);
+    });
+</script>
+
+
+
+
+    <svg style="display: none;">
+      <filter id="x-glass-distortion" x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox">
+        <feTurbulence type="fractalNoise" baseFrequency="0.002 0.005" numOctaves="1" seed="17" result="turbulence" />
+        <feComponentTransfer in="turbulence" result="mapped">
+          <feFuncR type="gamma" amplitude="1" exponent="10" offset="0.5" />
+          <feFuncG type="gamma" amplitude="0" exponent="1" offset="0" />
+          <feFuncB type="gamma" amplitude="0" exponent="1" offset="0.5" />
+        </feComponentTransfer>
+        <feGaussianBlur in="turbulence" stdDeviation="3" result="softMap" />
+        <feSpecularLighting in="softMap" surfaceScale="15" specularConstant="1" specularExponent="30" lighting-color="white" result="specLight">
+          <fePointLight x="-200" y="-200" z="300" />
+        </feSpecularLighting>
+        <feComposite in="specLight" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="litImage" />
+        <feDisplacementMap in="SourceGraphic" in2="softMap" scale="60" xChannelSelector="R" yChannelSelector="G" />
+      </filter>
+    </svg><div class="x_ifModal-dock" id="x_ifModal-dock">
+        <div class="x_ifModal-layer-effect"></div>
+        <div class="x_ifModal-layer-tint"></div>
+        <div class="x_ifModal-layer-shine"></div>
+        <div class="x_ifModal-layer-glint"></div>
+        <div class="x_ifModal-layer-sheen"></div>
+        
+        <div class="x_ifModal-dock-content">
+            <button class="x_ifModal-dock-close" type="button" aria-label="关闭悬浮栏" id="x_ifModal-dock-close">
+                <span>×</span>
+            </button>
+            <div class="x_ifModal-dock-inner" role="navigation" aria-label="快捷入口"><button class="x_ifModal-dock-item" type="button" data-url="https://heeee.com/" data-title="资源网" aria-label="资源网">
+                <span class="x_ifModal-dock-icon"><img src="https://heeee.com/wp-content/uploads/2023/12/logo.png" alt="资源网"></span><span class="x_ifModal-dock-label">资源网</span>
+            </button><button class="x_ifModal-dock-item" type="button" data-url="https://biiii.com/" data-title="免费资源库" aria-label="免费资源库">
+                <span class="x_ifModal-dock-icon"><img src="https://biiii.com/wp-content/uploads/2024/12/1733716808-logo.png" alt="免费资源库"></span><span class="x_ifModal-dock-label">免费资源库</span>
+            </button></div></div></div>
+
+    <div id="x_ifModal-myModal" class="x_ifModal-modal" aria-hidden="true">
+        <div class="x_ifModal-modal-shell" role="dialog" aria-modal="true" aria-label="弹窗">
+            <div class="x_ifModal-modal-aurora"><span></span><span></span><span></span></div>
+            <div class="x_ifModal-modal-topbar">
+                <div class="x_ifModal-modal-title" aria-live="polite"></div>
+                <div class="x_ifModal-modal-actions"><button class="x_ifModal-btn" type="button" id="x_ifModal-openNewTabBtn" aria-label="跳转新窗口">
+            <img src="/content/plugins/x_ifModal/svg/tz.svg" alt="">
+        </button><button class="x_ifModal-btn" type="button" id="x_ifModal-fullscreenBtn" aria-label="全屏">
+            <img src="/content/plugins/x_ifModal/svg/qp.svg" alt="">
+        </button>
+        <button class="x_ifModal-btn x_ifModal-close" type="button" aria-label="关闭">
+            <img src="/content/plugins/x_ifModal/svg/gb.svg" alt="">
+        </button>
+                </div>
+            </div>
+            <div class="x_ifModal-modal-body">
+                <iframe id="x_ifModal-modalIframe" src="" frameborder="0" loading="lazy" referrerpolicy="no-referrer"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const barItems = document.querySelectorAll(".x_ifModal-dock-item[data-url]");
+        const modal = document.getElementById("x_ifModal-myModal");
+        const shell = modal ? modal.querySelector(".x_ifModal-modal-shell") : null;
+        const iframe = document.getElementById("x_ifModal-modalIframe");
+        const closeBtn = document.querySelector(".x_ifModal-close");
+        const fullscreenBtn = document.getElementById("x_ifModal-fullscreenBtn");
+        const titleEl = document.querySelector(".x_ifModal-modal-title");
+        const dock = document.getElementById("x_ifModal-dock");
+        const dockClose = document.getElementById("x_ifModal-dock-close");
+
+        let isFullscreen = false;
+        let currentURL = "";
+        let isOpen = false;
+        let closingTimer = null;
+
+        function openModal(url, title) {
+            if (!modal || !shell || !iframe) return;
+            if (closingTimer) {
+                clearTimeout(closingTimer);
+                closingTimer = null;
+            }
+            currentURL = url;
+            iframe.src = url;
+            if (titleEl) titleEl.textContent = title || "";
+            
+            modal.style.display = "flex";
+            modal.offsetHeight; 
+            modal.setAttribute("aria-hidden", "false");
+            
+            modal.classList.add("is-open");
+            shell.classList.add("is-open");
+            isOpen = true;
+        }
+
+        function closeModal() {
+            if (!modal || !shell) return;
+            if (!isOpen) {
+                modal.style.display = "none";
+                return;
+            }
+            
+            modal.classList.remove("is-open");
+            shell.classList.remove("is-open");
+
+            modal.classList.add("is-closing");
+            shell.classList.add("is-closing");
+            
+            isOpen = false;
+
+            closingTimer = setTimeout(() => {
+                modal.classList.remove("is-closing");
+                shell.classList.remove("is-closing");
+                modal.style.display = "none";
+                modal.setAttribute("aria-hidden", "true");
+
+                if (isFullscreen) exitFullscreenMode();
+                iframe.src = "";
+                closingTimer = null;
+            }, 200);
+        }
+
+        if (barItems) {
+            barItems.forEach(item => {
+                item.addEventListener("click", function() {
+                    openModal(this.dataset.url, this.dataset.title);
+                });
+            });
+        }
+
+        if (closeBtn) closeBtn.addEventListener("click", closeModal);
+
+        window.addEventListener("click", function(e) {
+            if (e.target === modal) closeModal();
+        });
+
+        window.addEventListener("keydown", function(e) {
+            if (e.key === "Escape") closeModal();
+        });
+
+        if (fullscreenBtn) {
+            fullscreenBtn.addEventListener("click", function() {
+                if (!isFullscreen) enterFullscreenMode();
+                else exitFullscreenMode();
+            });
+        }
+
+        function enterFullscreenMode() {
+            if (!shell) return;
+            shell.classList.add("is-fullscreen");
+            document.body.style.overflow = "hidden";
+            isFullscreen = true;
+        }
+
+        function exitFullscreenMode() {
+            if (!isFullscreen || !shell) return;
+            shell.classList.remove("is-fullscreen");
+            document.body.style.overflow = "";
+            isFullscreen = false;
+        }
+
+        if (dock && dockClose) {
+            dockClose.addEventListener("click", function() {
+                dock.classList.add("is-hide");
+                setTimeout(() => { dock.style.display = "none"; }, 300);
+            });
+        }
+        
+        
+        const openNewTabBtn = document.getElementById("x_ifModal-openNewTabBtn");
+        if (openNewTabBtn) {
+            openNewTabBtn.addEventListener("click", function() {
+                if (currentURL) window.open(currentURL, "_blank");
+            });
+        }
+
+        
+
+    });
+    </script><script src = 'https://fffxx.com/content/plugins/nciaer_vote/jquery.min.3.5.1.js'></script>
+<link href="https://fffxx.com/content/plugins/nciaer_vote/layui/css/layui.css" rel="stylesheet">
+<script src="https://fffxx.com/content/plugins/nciaer_vote/layui/layui.js"></script>
+<script>    
+function nciaerVote(o) {
+    $.ajax({
+        type: 'POST',
+        url: 'https://fffxx.com/?plugin=nciaer_vote',
+        data: $(o).serialize(),
+        dataType: 'json',
+        success: function(res) {
+            if(res.code == 1) {
+                layer.msg(res.msg);
+            } else {
+                layer.msg('投票成功', {time: 2000}, function() {
+                    location.reload();
+                });
+            }
+        }
+    });
+    return false;
+}
+</script><style>
+.nc-text {
+    margin-bottom: 10px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text-item {
+    width: 33.33%;
+}
+@media screen and (max-width: 768px) {
+    .text-item {
+        width: 50%;
+    }
+}
+.text-item a {
+    font-size: 13px;
+    display:block; 
+    border-radius: 4px; 
+    line-height: 25px;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis; 
+}
+
+.nc-text::after {
+    content: '';
+    flex: auto;
+}
+</style>
+<div class = "nc-text">
+<div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div><div class = 'text-item' style = 'height: 0;'></div>
+</div><div style = "z-index: 1000;position:fixed;right:0;bottom:0;">
+
+</div><style>
+.dynamic-island:hover img {
+    width: 30px; /* 鼠标悬停时，图片宽度也增大 */
+    height: 30px; /* 鼠标悬停时，图片高度增大 */
+}
+
+.bars {
+  display: flex;
+  align-items: center; /* 垂直居中 */
+  justify-content: flex-end; /* 向右对齐 */
+  gap: 3px;
+}
+
+.bar {
+  width: 2px;
+  height: 13px;
+  background-color: green;
+  animation: bounce 1s infinite ease-in-out;
+  animation-direction: alternate;
+}
+
+/* 增加更多的条形波动并调整动画时间 */
+.bar:nth-child(1) { animation-duration: 1s; }
+.bar:nth-child(2) { animation-duration: 0.9s; }
+.bar:nth-child(3) { animation-duration: 0.8s; }
+.bar:nth-child(4) { animation-duration: 0.7s; }
+.bar:nth-child(5) { animation-duration: 0.6s; }
+.bar:nth-child(6) { animation-duration: 0.9s; }
+.bar:nth-child(7) { animation-duration: 0.7s; }
+
+.dynamic-island {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%) scale(0); /* 初始状态缩小为0 */
+    transform-origin: center;
+    width: auto;
+    max-width:80%;
+    height: 40px;
+    background-color: #000;
+    border-radius: 25px; /* 与默认高度一致的圆角半径 */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 图片和文字之间自动分配空间 */
+    transition: transform 0.4s ease-in-out, height 0.6s ease-in-out, border-radius 0.6s ease-in-out, box-shadow 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    overflow: visible; /* 允许溢出，避免图片被遮挡 */
+    z-index: 1000;
+    padding-left: 35px; /* 确保内容不贴边 */
+    padding-right: 20px; /* 确保内容不贴边 */
+    opacity: 0;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.45); /* 添加黑色阴影 */
+}
+
+.dynamic-island.active {
+    transform: translateX(-50%) scale(1); /* 激活状态放大为正常大小 */
+    opacity: 1;
+}
+
+.dynamic-island.inactive {
+    transform: translateX(-50%) scale(0); /* 关闭状态缩小 */
+    opacity: 0;
+}
+
+.island-content {
+    opacity: 0;
+    transition: opacity 0.9s ease-in-out, filter 0.8s ease-in-out; /* 使内容加粗并从模糊到清晰 */
+    font-weight: bold; /* 使文字加粗 */
+    flex-grow: 1; /* 使内容区占满剩余空间 */
+    text-align: right; /* 文字内容右对齐 */
+    width:100%;
+}
+
+.dynamic-island.active .island-content {
+    opacity: 1;
+}
+
+/* 图片样式 */
+
+.dynamic-island img {
+    position: absolute;
+    left: 10px; /* 保持与灵动岛左边10px的距离 */
+    width: 20px; /* 图片宽度 */
+    height: 20px; /* 图片高度 */
+    /* border-radius: 50%;  为圆形 */
+    object-fit: cover; /* 保证图片内容充满容器 */
+    transition: height 0.8s ease-in-out, width 0.8s ease-in-out, filter 0.8s ease-in-out;
+}
+
+.dynamic-island:hover {
+    height: 60px;
+    border-radius: 50px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scaleY(0.3);
+        background-color: green;
+    }
+
+    50% {
+        transform: scaleY(1);
+        background-color: orange;
+    }
+
+    100% {
+        transform: scaleY(0.3);
+        background-color: green;
+    }
+}
+</style>
+<div class="dynamic-island inactive" id="dynamicIsland" style="opacity: 0;">
+    <img src='https://fffxx.com//content/uploadfile/202412/1bb81735097355.png' width='30' height='30'/>
+    <div class="island-content">
+        <div class="bars" style="line-height: 50px; margin: 0;">
+            <p style="line-height: 50px; margin: 0; font-size: 12px; padding-right: 10px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">欢迎访问硬汉工作室</p>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+</div>
+<script>
+    window.onload = function() {
+        triggerIsland();
+        document.querySelector('.bars p').innerText = document.title;
+    };
+
+    function triggerIsland() {
+
+        const island = document.getElementById('dynamicIsland');
+
+        if (island) {
+
+            island.style.opacity = 1;
+
+            island.classList.add('active');
+
+            island.classList.remove('inactive');
+            setTimeout(() => {
+                closeIsland();
+            }, 4000);
+        }
+    }
+
+    function closeIsland() {
+        const island = document.getElementById('dynamicIsland');
+        if (island) {
+            island.classList.remove('active');
+            island.classList.add('inactive');
+            setTimeout(() => {
+                island.style.opacity = 0; // 使灵动岛透明
+            }, 600); // 与 transform 动画持续时间一致
+        }
+    }
+</script>    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            var links = document.getElementsByTagName('a');
+            var siteUrl = 'https://fffxx.com/';
+            var openExternal = 0;
+            var openPost = 0;
+            var customPattern = ``;
+            var addNofollow = 0;
+
+            for (var i = 0; i < links.length; i++) {
+                var link = links[i];
+                var href = link.href;
+
+                // 跳过锚点链接和JavaScript链接
+                if (!href || href.startsWith('#') || href.startsWith('javascript:') || href.startsWith('mailto:')) {
+                    continue;
+                }
+
+                // 保存原始的target属性
+                var originalTarget = link.getAttribute('target');
+                var originalRel = link.getAttribute('rel');
+
+                // 判断是否是站外链接
+                var isExternalLink = href.indexOf('http') === 0 && href.indexOf(siteUrl) !== 0;
+                // 判断是否是文章链接
+                var isPostLink = false;
+                if (href.indexOf(siteUrl) === 0) {
+                    // 支持多种文章链接格式：
+                    // 1. http://localhost:8080/post-14.html
+                    // 2. http://localhost:8080/?post=14
+                    // 3. http://localhost:8080/post/14
+                    // 4. 域名/xxxx/数字字母下划线.html
+                    // 5. 域名/数字字母下划线.html
+                    isPostLink = href.match(/\/post-\d+\.html$/) || // post-数字.html 格式
+                        href.includes('?post=') || // ?post=数字 格式
+                        href.match(/\/post\/\d+\/?$/) || // /post/数字 格式
+                        href.match(/\/\d{4}\/\d{2}\//) || // 日期格式（保留原有支持）
+                        href.includes('/post/') || // 其他 /post/ 相关链接
+                        href.match(/\/[^/]+\/[\w\d_]+\.html$/) || // 域名/xxxx/数字字母下划线.html
+                        href.match(/\/[\w\d_]+\.html$/) && !href.match(/\/[^/]+\/[^/]+\/[\w\d_]+\.html$/); // 域名/数字字母下划线.html (排除多级路径)
+                }
+                // 判断是否匹配自定义规则
+                var isCustomLink = false;
+                if (customPattern) {
+                    // 按行分割规则，支持多行输入
+                    var patterns = customPattern.split(/\r?\n/);
+                    for (var j = 0; j < patterns.length; j++) {
+                        var pattern = patterns[j].trim();
+                        if (pattern && matchWildcard(href, pattern)) {
+                            isCustomLink = true;
+                            break;
+                        }
+                    }
+                }
+
+                // 判断是否需要根据插件设置应用新窗口打开
+                var shouldOpenInNewTab = false;
+
+                // 1. 检查站外链接
+                if (isExternalLink && openExternal) {
+                    shouldOpenInNewTab = true;
+                }
+
+                // 2. 检查文章链接
+                if (isPostLink && openPost) {
+                    shouldOpenInNewTab = true;
+                }
+
+                // 3. 检查自定义链接
+                if (isCustomLink && customPattern) {
+                    shouldOpenInNewTab = true;
+                }
+
+                // 只对符合插件设置条件的链接进行处理，不干扰原本的链接打开方式
+                if (shouldOpenInNewTab) {
+                    // 设置为新窗口打开
+                    link.target = '_blank';
+
+                    // 处理rel属性
+                    var relValues = [];
+                    if (originalRel) {
+                        // 保留原有的rel属性值
+                        relValues = originalRel.split(/\s+/);
+                    }
+
+                    // 确保包含noopener
+                    if (relValues.indexOf('noopener') === -1) {
+                        relValues.push('noopener');
+                    }
+
+                    // 根据设置决定是否添加nofollow
+                    if (isExternalLink && addNofollow && relValues.indexOf('nofollow') === -1) {
+                        relValues.push('nofollow');
+                    }
+
+                    link.rel = relValues.join(' ');
+                } else {
+                    // 不符合插件设置条件的链接，保持原样
+                    // 但如果是外链且开启了nofollow，仍需要添加nofollow属性
+                    if (isExternalLink && addNofollow) {
+                        var relValues = [];
+                        if (originalRel) {
+                            relValues = originalRel.split(/\s+/);
+                        }
+
+                        if (relValues.indexOf('nofollow') === -1) {
+                            relValues.push('nofollow');
+                        }
+
+                        link.rel = relValues.join(' ');
+                    }
+                    // 其他情况保持原样，不做任何修改
+                }
+            }
+        });
+
+        // 通配符匹配函数
+        function matchWildcard(str, pattern) {
+            // 将通配符模式转换为正则表达式
+            var regexPattern = pattern
+                .replace(/[.+^${}()|[\]\\]/g, '\\$&') // 转义特殊字符
+                .replace(/\*/g, '.*') // 将 * 替换为 .*
+                .replace(/\?/g, '.'); // 将 ? 替换为 .
+
+            var regex = new RegExp('^' + regexPattern + '$', 'i');
+            return regex.test(str);
+        }
+    </script>
+<script>window.LC_CONFIG = {"blogUrl":"https:\/\/fffxx.com\/","position":"right","triggerText":"倾听反馈","categories":["suggestion","complaint","bug","service","website","other"],"categoryLabels":{"suggestion":"功能建议","complaint":"投诉建议","bug":"Bug反馈","service":"服务相关","website":"网站相关","other":"其他问题"},"contactLabel":"联系方式","contactRequired":false,"contactType":"any","imageUpload":true,"maxImages":3,"token":"1787424715:f2e7c33f6ed25362b2a8a7ff13514540"};</script>
+<script src="https://fffxx.com/content/plugins/listener_corner/js/script.js?v=1.5.1"></script>
+</span>
+    <p class="info w-100 p-1 flex">
+              <span class="icp"><a href="https://fffxx.com/">FFFXX.Com</a> <a class="mr-3" href="//beian.miit.gov.cn/" target="_blank">冀ICP备2023025162号-1</a></span>
+                </p>
+    <p class="copyright w-100 p-1"><span class="content pr-2">&copy;免责声明：本站资源均收集来源于互联网，仅限于小范围内学习和研究目的，请在软件下载后的24小时内删除。如有侵权，请联系我们删除、屏蔽或是断开链接！Mail To:leyufenxiang@qq.com</span>
+                </p>
+  </div>
+  <div class="back-to-top"><i class="iconfont-hellno hellno-arrow-up-dot"></i></div>
+</footer>
+  <section class="f-link flex box page-width p-3 mt-3 flex-wrap">
+    <div class="flex mb-3 underline w-100">
+      <h6>友链</h6><a rel="nofollow" target="_blank" href="https://fffxx.com/"> </a>
+    </div>
+    <ul class="flex w-100">
+              <li class="flex mr-3">
+                    <a href="https://heeee.com" title="资源爱好者的网上家园" target="_blank">资源网</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://biiii.com/" title="各类免费资源网站汇总分享！" target="_blank">免费资源库</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://buzl.cn" title="不找了" target="_blank">不找了</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://www.iqnew.com/" title="爱Q生活网" target="_blank">爱Q</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://www.mefcl.com/" title="mefcl" target="_blank">mefcl</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://www.lxapk.com/" title="乐享网" target="_blank">乐享</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://www.zmt.wiki/" title="自媒体维基" target="_blank">自媒体</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://www.xgw4.com/" title="小高网" target="_blank">小高</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://www.yxzhi.com/" title="鸭先知" target="_blank">鸭先知</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://www.iiice.cn/" title="下次一定" target="_blank">下次一定</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://www.xmaofx.com/" title="熊猫分享网" target="_blank">熊猫</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://www.sixyin.com/" title="六音" target="_blank">六音</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://tuostudy.upnb.top/" title="图欧" target="_blank">图欧</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://www.sucaizy.com/" title="素材资源网" target="_blank">素材资源</a>
+        </li>
+              <li class="flex mr-3">
+                    <a href="https://www.8uid.com" title="个人笔记" target="_blank">个人笔记</a>
+        </li>
+          </ul>
+  </section>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0681b2d0b63377eb63eaf7a9a4451e9e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></body>
+</html>

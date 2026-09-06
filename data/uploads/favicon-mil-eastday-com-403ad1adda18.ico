@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>404错误页</title>
+    <meta id="viewport" name="viewport"
+          content="target-densitydpi=medium-dpi, width=640, height=device-height, initial-scale=0.5, user-scalable=yes"/>
+    <link type="text/css" rel="stylesheet" href="/assets/css/404_reset.css"/>
+    <link type="text/css" rel="stylesheet" href="/assets/css/404_error.css"/>
+    <link href="/assets/images/favicon.ico" type="image/x-icon" rel="icon"/>
+    <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/assets/js/resources/milcookie_v4.js"></script>
+    <script type="text/javascript">
+        var newstype = '404';
+    </script>
+    <script type="text/javascript" src="/assets/js/global_404.js"></script>
+</head>
+<body>
+<div class="dwl_mpns">
+    <div class="dwl_malo">
+        <a class="dwl_maloa1" title="中国军事"></a>
+    </div>
+    <div class="dwl_main">
+        <div class="error_m">
+            <div class="error_ml"></div>
+            <div class="error_mr">
+                <p class="error_mrp1">很抱歉！您访问页面被外星人劫持了</p>
+                <p class="error_mrp2">可能原因：</p>
+                <p class="error_mrp3">你要查看的网址可能被删，名称已被<br/>更改，或者暂时不可用</p>
+                <div class="error_mrd"><a href="/">返回首页</a></div>
+            </div>
+        </div>
+        <div class="error_mxq">
+            <p>或许您对以下页面感兴趣...</p>
+            <iframe src="/frames/404_iframe.html" frameborder="0" scrolling="no" width="100%" height="380"></iframe>
+        </div>
+    </div>
+    <div class="st_mbt">
+        <pre><a target="_blank" href="http://shurufa.eastday.com">东方输入法</a> - <a target="_blank"
+                                                                                 href="http://wpa.qq.com/msgrd?v=3&uin=3155798136&site=qq&menu=yes">联系客服</a> - <a
+                    target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3155798136&site=qq&menu=yes">广告洽谈</a></pre>
+        <pre>eastday.com All Right Reserve 版权所有　　版权反馈问题：3155798136@qq.com</pre>
+    </div>
+</div>
+<!--东方网统计-->
+<div style="display:none">
+    <script type="text/javascript">document.write(unescape("%3Cscript src='http://tongji.eastday.com/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));</script>
+    <script type="text/javascript">wd_paramtracker("_wdxid=000000000000000000000000000000000000000000") </script>
+</div>
+<script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?bdd5301b334673f835f234f8805f78f5";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>

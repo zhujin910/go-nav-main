@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>半岛网404- 在青岛 上半岛网！</title>
+<style type="text/css">
+body{margin:0 auto; font-size:12px;}
+p,ul,dl,dt,dd,li,div{ margin:0; padding:0; text-align:center;}
+li{ list-style:none;}
+a{ color:#0000FF; text-decoration:underline;}
+img{ border:0;}
+p,div{ margin:0 auto; }
+.logo404{ width:470px; text-align:left; margin-top:20px; height:80px; }
+.logo404 .left{ float:left;}
+.logo404 .right{ float:left; margin:30px 0 0 10px; font-size:14px; font-weight:bold; background:#f1f1f1; width:285px; padding:5px 5px 5px 20px;}
+.upImg{ background:url(di-1.jpg) no-repeat; width:470px; height:22px;}
+.botImg{ background:url(di-2.jpg) no-repeat; width:470px; height:22px;}
+
+.warpMain{ border:1px solid #E9E9E9; width:468px; border-top:none; border-bottom:none;}
+
+dl.neiRong{ text-align:left; padding:10px 20px 10px 30px; border:1px solid #ccc;  border-left:0; border-right:0;}
+dl.neiRong dt{ text-align:left;}
+dl.neiRong .title{ font-size:16px; font-weight:bold; padding:5px 0 20px 0;}
+dl.neiRong .title span{ color:#990000;}
+dl.neiRong .jianCha{padding:0 0 16px 30px; border-bottom:1px dotted #ccc;}
+dl.neiRong .titleLink{ margin:20px 0 10px 0; font-size:14px; font-weight:bold;}
+dl.neiRong .jianlink{padding:0 0 20px 0; border-bottom:1px solid #ccc;}
+dl.neiRong .lianxi{ text-align:left;padding:14px 0 8px 0; font-size:12px;}
+
+ul.listLine{ }
+ul.listLine li{ text-align:left; font-size:14px; line-height:24px;}
+
+ul.otherLink{padding-left:26px;}
+ul.otherLink li{text-align:left; font-size:14px; line-height:24px;}
+.lzht{display:none;}
+</style>
+</head>
+<body>
+<div>
+ <p class="logo404">
+ 	<span class="left"><a href="//www.bandao.cn/"><img src="//www.bandao.cn/2012img/logo.gif" alt="半岛网" /></a></span>
+ 	<span class="right"> - 您的访问出错了！</span>
+ </p>
+ <p class="upImg"></p>
+<div class="warpMain">
+	 <dl class="neiRong">
+	 	 <dt class="title"><span>很抱歉！</span>您要访问的页面不存在或被删除。</dt>
+	 	 <dd class="jianCha">
+	 	 	<ul class="listLine">
+      <li>1、请检查您输入网址是否正确</li>
+      <li>2、请浏览 <a href="//www.bandao.cn/">半岛网首页</a> 查看更多资讯</li>
+      </ul>
+	 	</dd>
+	 	 <dt class="titleLink">或者，请尝试访问下面的链接：</dt>
+	 	 <dd class="jianCha">
+	 	 	 <ul class="listLine">
+	 	 	  <li>·<a href="//t.bandao.cn/" target="_blank">青岛微博</a>  -- 青岛最酷最火最流行的交流平台</li>
+	 	 	 	 <li>·<a href="//club.bandao.cn/" target="_blank">半岛社区</a>  -- 青岛最贴近民生的新闻社区</li>
+         <li>·<a href="//blog.bandao.cn/" target="_blank">半岛博客</a>  -- 青岛第一博客，拥有一块网上自留地。</li>
+         <li>·<a href="//news.bandao.cn/" target="_blank">新闻中心</a>  -- 青岛新闻 网上尽览。</li>
+         <li>·<a href="//love.bandao.cn/" target="_blank">半岛之恋</a>  -- 征婚交友，寻找属于你的另一半。</li>
+       </ul>
+	 	 	</dd>
+<!--#include file="404_hot.inc"-->
+	 	 	<dd class="lianxi">如有还有疑问请联系 0532-80889227 获得解决方法。</dd>
+	</dl>
+</div>
+<p class="botImg"></p>
+</div>
+<script>(function(){var s = document.createElement("script"); s.type = "text/javascript"; s.src = "//stats.bandao.cn/stats.php"; document.head.appendChild(s);}());</script></body>
+</html>

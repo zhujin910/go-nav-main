@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+        <meta charset="UTF-8">
+        <title>404 not found - 闪电修官方网站 - 免费上门，手机维修</title>
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link rel="stylesheet" href="/static/index/newIndex/css/reset.min.css">
+    <link rel="stylesheet" href="/static/index/newIndex/css/fix_comm.min.css?v=1.0.2">
+
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/index/newIndex/js/comm.js"></script>
+
+    
+<style>
+    .nothing{  }
+    .nothing .content{  width: 1200px;  margin: 0 auto;  position: relative;  text-align: center;  }
+    .nothing img{  margin-top: 130px;  }
+    .nothing p{  font-size: 26px;  color: #898989;  }
+    .nothing p:first-child{  padding-top: 50px;  }
+    .nothing p:last-child{  padding-top: 15px;  }
+    .homepage{  padding-top: 80px;  font-size: 26px;  color: #333333;  letter-spacing:3px  }
+    .homepage span{  color: #4dbdc3;  }
+    .homepage a{  text-decoration: underline;  color: #4dbdc3;  }
+    .buttons{ padding-bottom: 100px; padding-top: 75px;  width: 520px;  margin: 0 auto;  display: flex;  justify-content: space-between;  }
+    .buttons a{  display: block;  width: 198px;  height:58px;  border-radius: 5px;  text-align: center;  line-height: 58px;  cursor: pointer;  text-decoration: none;  font-size: 30px;  }
+    .order-btn{  color: #fff;  background: #4dbdc3;  border: 1px solid #4dbdc3;  }
+    .consultation-btn{  color: #4dbdc3;  background: #fff;  border: 1px solid #4dbdc3;  }
+</style>
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102925648-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-102925648-1');
+    </script>
+
+</head>
+
+<body>
+<div class="wrap" id="wrap">
+<header class="g-header">
+    <div class="mod-header">
+        <div class="mod-server-time fl">
+            <p class="phone">400-018-1866</p>
+            <p class="will-hidden">服务时间</p>
+            <p class="will-hidden">周一至周日</p>
+            <p class="will-hidden">08:30-21:00</p>
+        </div>
+        <ul class="mod-nav">
+                            <li class="nav-small-logo">
+                    <a href="https://www.suddenfix.com/">
+                        <i class="u-icon"></i>
+                    </a>
+                </li>
+                <li class="nav-logo">
+                    <a href="https://www.suddenfix.com/">
+                        <i class="u-icon"></i>
+                    </a>
+                </li>
+                        <li class="nav-item"><a href="https://fix.suddenfix.com/">手机维修</a><span></span></li>
+            <li class="nav-item"><a href="https://www.suddenfix.com/index/activities/ramup.html">内存升级</a><span></span></li>
+            <!--<li class="nav-item"><a href="https://www.suddenfix.com/articles.html">维修资讯</a><span></span></li>-->
+            <li class="nav-item"><a href="https://www.suddenfix.com/articles.html">维修资讯</a><span></span></li>
+
+            <li class="nav-item"><a href="https://www.suddenfix.com/index/index/serviceprocess.html">服务流程</a><span></span></li>
+<!--            <li class="nav-item"><a href="https://recycle.suddenfix.com/">二手回收</a><span></span></li>-->
+            <!--<li class="nav-item"><a href="//academy.suddenfix.com">闪电修创业学院</a><span></span></li>-->
+        </ul>
+        <a href="https://www.suddenfix.com/user.html" class="u-login"></a>
+    </div>
+</header>
+<div class="g-navbar">
+    <a href="javascript:;" class="online-consultation" title="在线咨询"></a>
+    <a rel='external nofollow' href="javascript:" class="wx-code" title="微信公众号">
+        <div class="qr-photo">
+                        <img src="/static/index/newIndex/img/QRcode.png" alt="微信公众号">
+                    </div>
+    </a>
+    <a rel='external nofollow' href="#wrap" class="go-top" title="返回顶部"></a>
+</div>
+<script>
+    //顶部导航效果
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >130) {
+            $('.g-header').addClass('on')
+        }else {
+            $('.g-header').removeClass('on')
+        }
+
+    });
+    $('.online-consultation').on('click',function () {
+        window.open('https://suddenfix1.qiyukf.com/client?k=4f87a33148ae90238c55eea778fc21a3&wp=1&gid=399171875&robotShuntSwitch=1&robotId=3492877','_blank','width=800,height=600')
+    })
+</script>
+
+
+
+<!--content-->
+<div class="nothing">
+    <div class="content">
+        <img src="/static/index/newIndex/img/404.png" alt="" class="">
+        <p>抱歉，页面已经搬家咯。</p>
+        <p>点击在线咨询，闪电修很乐意为您解答手机故障问题。</p>
+        <div class="homepage">
+            <span id="mes">10S</span>后<a id="a-index" href="https://www.suddenfix.com/">返回首页</a>
+        </div>
+        <div class="buttons">
+            <a class="order-btn" href="https://www.suddenfix.com/fix.html">查价下单</a>
+            <a class="consultation-btn" href="javascript:void(0)">在线咨询</a>
+        </div>
+    </div>
+</div>
+
+
+<footer class="g-footer">
+    <div class="content">
+        <div class="footlink clearfix">
+            <div class="links-tit">
+                <p>闪电修</p>
+                <p>服务指南</p>
+                <p>帮助中心</p>
+            </div>
+            <div class="links">
+                <li><a rel="nofollow" href="https://www.suddenfix.com/index/index/aboutus.html">关于我们</a></li>
+                <li><a rel="nofollow" href="https://www.suddenfix.com/index/index/joinus.html">加入我们</a></li>
+                <li><a rel="nofollow" href="https://www.suddenfix.com/index/index/contactus.html">联系我们</a></li>
+                <li><a rel="nofollow" href="https://www.suddenfix.com/index/index/serviceprocess.html">服务流程</a></li>
+                <li><a rel="nofollow" href="https://www.suddenfix.com/index/index/warrntydescription.html">质保说明</a></li>
+                <li><a rel="nofollow" href="https://www.suddenfix.com/index/index/terms_aggrement.html">用户协议</a></li>
+                <li><a rel="nofollow" href="https://www.suddenfix.com/index/index/faq.html">常见问题</a></li>
+                <li><a rel="nofollow" href="https://www.suddenfix.com/articles.html">维修资讯</a></li>
+            </div>
+            <div class="QRCode">
+                <i class="QRCodeimg"></i>
+                <p>关注公众号</p>
+                <p>下单查单更便捷</p>
+            </div>
+            <div class="phone">
+                <i></i>
+                <div class="phoneinfo">
+                    <strong>400-018-1866</strong>
+                    <p>
+                        <span>服务时间</span>周一至周日 08:30-21:00
+                    </p>
+                </div>
+            </div>
+        </div>
+
+                <p class="copy-right">Copyright © 2016-2019, www.suddenfix.com, All Rights Reserved</p>
+        <p class="copy-right">深圳闪电修网络科技有限公司 广东省深圳市福田区东海滨纷天地负一楼KB1005商铺 <a style="color: #fff" href="http://www.miitbeian.gov.cn">粤ICP备15087042号</a> </p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+
+    var _hmt = _hmt || [];
+    (function () {
+        var hostName = window.location.hostname;
+        var param = "";
+        if (hostName.indexOf("suddenfixacademy.cn") > -1){
+            param = "54dc30d6b9526eb3792c50b78a2f619c";
+        }else {
+            param = "18858994c41aaec2b421f286418f036d";
+        }
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?"+param;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https'){
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else{
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+<script>(function(){
+    var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?6eebb9f6aac7d2ef793720fc3eb6e962":"https://jspassport.ssl.qhimg.com/11.0.1.js?6eebb9f6aac7d2ef793720fc3eb6e962";
+    document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
+
+<script src="/static/js/jquery.min.js"></script>
+
+
+<script>
+
+    $('.consultation-btn').on('click',function () {
+        window.open('https://suddenfix1.qiyukf.com/client?k=4f87a33148ae90238c55eea778fc21a3&wp=1&gid=399171875&robotShuntSwitch=1&robotId=3492877','_blank','width=800,height=600')
+    })
+    var i = 9;
+    var timer = setInterval(function () {
+        if (i == 0) {
+            clearInterval(timer);
+            location.href = $("#a-index").attr("href");
+        }
+        document.getElementById("mes").innerHTML = i + "S";
+        i--;
+    },1000);
+    $('.online-consultation').on('click',function () {
+        window.open('https://suddenfix1.qiyukf.com/client?k=4f87a33148ae90238c55eea778fc21a3&wp=1&gid=399171875&robotShuntSwitch=1&robotId=3492877','_blank','width=800,height=600')
+    })
+</script>
+
+
+</body>
+
+
+
+
+
+
+</html>

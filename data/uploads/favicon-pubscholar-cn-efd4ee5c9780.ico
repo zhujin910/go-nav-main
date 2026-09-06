@@ -1,0 +1,26 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui"><meta name=screen-orientation content=portrait><meta name=apple-mobile-web-app-capable content=yes><meta name=format-detection content="telephone=no"><meta name=full-screen content=yes><meta name=x5-fullscreen content=true><meta name=renderer content=webkit><meta name=force-rendering content=webkit><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta name=referrer content=never><meta property=og:image content=https://pubscholar.cn/static/20260708161755_1092_126.png><meta http-equiv=Content-Security-Policy content=upgrade-insecure-requests><meta name=description content=PubScholar公益学术平台是中国科学院作为国家战略科技力量的主力军，履行学术资源保障“国家队”职责，为满足全国科技界和全社会科技创新的学术资源基础保障需求，建设的提供公益性学术资源的检索发现、内容获取和交流共享等服务的平台。平台在尊重知识产权和国际通行规范的前提下，发挥中国科学院自身拥有丰富且高质量学术资源的优势，带动国内外的学术资源机构积极合作，最大限度地开放优质学术资源。目前，平台整合集成了中国科学院的科技成果资源、科技出版资源和学术交流资源；OA环境下允许集成服务的学术资源；以及通过协议授权或其它合作共建模式获得授权许可的学术资源。><link rel="shortcut icon" type=image/x-icon href=/static/favicon-wfn3fg.ico><link rel=dns-prefetch href=https://unpkg.com/ ><link rel=stylesheet href=https://unpkg.com/katex@0.16.22/dist/katex.min.css async><title>PubScholar公益学术平台</title><script src=/static/common/polyfill.js></script><script src=/static/common/fingerprint.js></script><script type=text/javascript src=https://res.wx.qq.com/open/js/jweixin-1.6.0.js async></script><script src="https://unpkg.com/mathjax@2/MathJax.js?config=TeX-AMS_CHTML" async></script><script src=https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js async></script><script src=https://unpkg.com/mermaid@11.10.1/dist/mermaid.min.js async></script><script src=/static/common/translate.js></script><link href=/static/css/app.bab881c3cc84157e078145e7b440c8f8.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript>if (!!translate) {
+        let lang = translate.language.getLocal()
+        translate.language.setLocal(lang)
+        translate.service.use('client.edge')
+        translate.nomenclature.append(`chinese_simplified`, `english`, `
+          钱力=Qian Li
+          谢靖=Xie Jing
+        `)
+        translate.nomenclature.append(`chinese_simplified`, `russian`, `
+          钱力=Qian Li
+          谢靖=Xie Jing
+        `)
+        translate.nomenclature.append(`chinese_simplified`, `french`, `
+          钱力=Qian Li
+          谢靖=Xie Jing
+        `)
+        translate.nomenclature.append(`chinese_simplified`, `arabic`, `
+          钱力=Qian Li
+          谢靖=Xie Jing
+        `)
+        translate.nomenclature.append(`chinese_simplified`, `spanish`, `
+          钱力=Qian Li
+          谢靖=Xie Jing
+        `)
+        translate.listener.start()
+      }</script><script type=text/javascript src=/static/js/manifest.47bce970f5f1a424697f.js></script><script type=text/javascript src=/static/js/vendor.ab981566f593b7ecbfd5.js></script><script type=text/javascript src=/static/js/app.98788ee05a9c298398f5.js></script></body></html>

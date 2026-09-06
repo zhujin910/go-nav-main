@@ -1,0 +1,219 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+    <meta name="apple-mobile-web-app-title" content="ReMan"/>
+    <link rel="manifest" href="/site.webmanifest"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand"/>
+    <meta name="keywords" content="盘搜,盘搜Pro,盘搜VIP,盘搜搜,网盘搜索,网盘资源"/>
+    <meta name="description" content="盘搜VIP是一个专业的网盘资源搜索引擎，旨在为用户提供一个免费、高效的网盘资源搜索平台。用户可以通过盘搜快速找到存储在各大网盘上的资源，包括但不限于阿里云盘、百度网盘、夸克网盘、迅雷网盘、UC网盘、蓝奏云盘和115网盘等，盘搜VIP以其强大的搜索能力和简洁的用户界面，成为了寻找网盘资源的有力工具。"/>
+    <title>网盘搜索-找网盘资源就上盘搜VIP-聚合网盘搜索引擎</title>
+    <script>
+      this.globalThis || (this.globalThis = this);
+    </script>
+    <script type="module" crossorigin="" src="/assets/index-Lp-Gj9HB.js"></script>
+    <link rel="modulepreload" crossorigin="" href="/assets/react-B_LUbPOy.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/es-BxU7Fsg-.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/toast-8H8FzM21.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/useQuery-BKPKwCCr.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/useMutation-CpSH_d-3.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/wasm-DNPEGe9F.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/request-BUaAJQvo.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/isUndefined-BHVCzT5G.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/typography-CEwEmGM0.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/spin-BUBnxwGU.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/middleware-BeQXjWBs.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/jsx-runtime-X_IzF_3H.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/clsx-DWz4Q8_5.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/AppIcon-DwYJI9AH.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/types-BeqkAoRA.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/siteConfigApi-C0qWJ1aR.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/siteConfigCache-bDzvlw2X.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/extends-69on7N6B.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/emotion-is-prop-valid.esm-mk4rkqEZ.js"/>
+    <link rel="modulepreload" crossorigin="" href="/assets/emotion-styled.browser.esm-GXpBJpAy.js"/>
+    <link rel="stylesheet" crossorigin="" href="/assets/es-hgtInxV8.css"/>
+    <link rel="stylesheet" crossorigin="" href="/assets/toast-BjFbWQfj.css"/>
+    <link rel="stylesheet" crossorigin="" href="/assets/typography-AaZib68z.css"/>
+    <link rel="stylesheet" crossorigin="" href="/assets/spin-CupC3upn.css"/>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-6-7UiBZ5.css"/>
+  <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6180209417021041" crossorigin="anonymous"></script>
+<script>
+console.log(
+  "%c ReMan %c v1.25.3",
+  "background:#f1404b;color:#fff;padding:6px 10px;border-radius:6px 0 0 6px;font-weight:bold;",
+  "background:#222;color:#fff;padding:6px 10px;border-radius:0 6px 6px 0;"
+);
+
+console.log(
+  "%c🔍 网盘搜索引擎程序",
+  "color:#aaa;font-size:12px;"
+);
+
+console.log(
+  "%c📄 文档: https://docs.hunhepan.com/reman/",
+  "color:#03A9F4;"
+);
+
+console.log(
+  "%c✨ Powered by ReMan",
+  "color:#666;font-style:italic;"
+);
+</script>
+<script>window.APP_CONFIG = {"anti_key":"fAVpmcnhM2cZ9Pyyaeln","online_user":647}</script><meta name="version" content="v1.25.3"/>
+	<meta name="git_hash" content="2541c370b8f58cc2131a9412646e8d58182d00d5"/>
+	<meta name="build_time" content="2026-06-25 16:40:15"/>
+	<meta name="author" content="https://docs.hunhepan.com/reman/"/><script defer="" src="https://tj.panso.vip/script.js" data-website-id="fd448680-8410-4edd-8516-f5293b28184e"></script><style></style>
+	<meta name="og:site_name" property="og:site_name" content="盘搜VIP"/>
+	<meta name="og:title" property="og:title" content="网盘搜索-找网盘资源就上盘搜VIP-聚合网盘搜索引擎"/>
+	<meta name="og:url" property="og:url" content="https://panso.vip"/>
+	<meta name="og:locale" property="og:locale" content="zh_CN"/>
+	<meta name="og:type" property="og:type" content="website"/>
+	<meta name="og:image" property="og:image" content="https://panso.vip/favicon.svg"/>
+	<meta name="og:description" property="og:description" content="盘搜VIP是一个专业的网盘资源搜索引擎，旨在为用户提供一个免费、高效的网盘资源搜索平台。用户可以通过盘搜快速找到存储在各大网盘上的资源，包括但不限于阿里云盘、百度网盘、夸克网盘、迅雷网盘、UC网盘、蓝奏云盘和115网盘等，盘搜VIP以其强大的搜索能力和简洁的用户界面，成为了寻找网盘资源的有力工具。"/>
+	<link rel="canonical" href="https://panso.vip"/>
+	</head>
+
+  <body>
+    <div id="root"></div>
+  
+
+<noscript id="reman-content">
+<section class="logo-box">
+    <div class="semi-space semi-space-align-center semi-space-vertical semi-space-medium-horizontal semi-space-medium-vertical">
+        <div class="semi-space semi-space-align-center semi-space-horizontal semi-space-tight-horizontal semi-space-tight-vertical">
+            <div class="semi-image logo-box-image" style="width: 45px; height: 45px;"><img
+                        src="/favicon.svg" data-src="/favicon.svg" alt="盘搜VIP" class="semi-image-img"
+                        width="45" height="45"></div>
+            <h1 class="font-bold text-4xl">盘搜VIP</h1></div>
+        <h2 class="text-sm px-4 text-center">收录超千万的网盘资源搜索引擎，找网盘资源就上盘搜vip</h2></div>
+</section>
+<section class="search-box">
+    <div class="search-content">
+        <label>
+            <input type="text" placeholder="输入关键词进行搜索" value="">
+        </label>
+        <span role="img" class="semi-icon semi-icon-large cursor-pointer icon">
+            <svg viewBox="0 0 24 24" width="1em" height="1em">
+                <path fill="currentColor"
+                      d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5q0-1.875-1.312-3.187T9.5 5Q7.625 5 6.313 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14"></path></svg></span>
+    </div>
+</section>
+
+    <section class="other-link-content">
+        
+            
+                <a href="/profile" title="个人中心" rel="noreferrer"
+                   target="_blank">个人中心</a>
+            
+        
+            
+        
+            
+                <a href="/profile" title="每日签到" rel="noreferrer"
+                   target="_blank">每日签到</a>
+            
+        
+            
+                <a href="/banned_words" title="版权保护词列表" rel="noreferrer"
+                   target="_blank">版权保护词列表</a>
+            
+        
+            
+                <a href="/copyright" title="版权保护申请" rel="noreferrer"
+                   target="_blank">版权保护申请</a>
+            
+        
+            
+        
+    </section>
+
+
+
+    <section class="search-key">
+        <div class="search-key-content">
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+                <a href="/search?q=" title=""
+                   target="_blank"></a>
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex footer css-1iqiv5o">
+    <div class="footer-content">
+        <div class="semi-space semi-space-align-center semi-space-vertical semi-space-tight-horizontal semi-space-tight-vertical"
+             x-semi-prop="children">
+            <div class="inline-block flex-wrap">
+                
+                <div class="footer-text-1">
+                    <svg viewBox="0 0 1024 1024" width="1em" height="1em" class="text-xl">
+                        <path fill="currentColor"
+                              d="M574 665.4a8.03 8.03 0 0 0-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0c-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8a8.03 8.03 0 0 0-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3zm258.6-474c-84.6-84.6-221.5-84.6-306 0L410.3 307.6a8.03 8.03 0 0 0 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0c59.5 59.5 53.8 150.2 0 204L665.3 562.6a8.03 8.03 0 0 0 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1M610.1 372.3a8.03 8.03 0 0 0-11.3 0L372.3 598.7a8.03 8.03 0 0 0 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3z"></path>
+                    </svg>
+                    <span>友情链接：</span>
+                </div>
+                <div class="footer-link">
+                    
+                        <a href="https://panso.vip/" target="_blank" title="网盘搜索">网盘搜索</a>
+                    
+                        <a href="https://panso.vip/" target="_blank" title="盘搜">盘搜</a>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</div></noscript><script>console.log("GENERATE HTML COST: 2.933119ms")</script></body></html>

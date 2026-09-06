@@ -1,0 +1,1861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<!--<title>恒大人寿</title>
+		<meta name="keywords" content="网站关键字">
+		<meta name="description" content="网站描述">-->
+		<title>恒大人寿</title>
+		<meta name="keywords" content=恒大人寿，恒大，恒大人寿保险>
+		<meta name="description" content=恒大人寿>
+	
+    <meta http-equiv="content-language" content="zh-CN">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/favicon.ico">
+    <link rel="stylesheet" href="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/css/base.css">
+    <link rel="stylesheet" href="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/css/style.css">
+    <link rel="stylesheet" href="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/css/responsive.css">
+    <link rel="stylesheet" href="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/css/animate.min.css">
+    <!-- 引入轮播图css样式  -->
+    <link rel="stylesheet" href="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/css/swiper.min.css">
+    <link rel="stylesheet" href="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/css/share.min.css">
+	<style type="text/css">
+        .banner .indexvideo{position: absolute;left: 0;top: 0;z-index: 2;}
+      .cp-list .cp-slide{align-items: normal;}
+      .cp-list .cp-slide-img,.cp-list .cp-slide-img img{height:100%}
+
+  .notice {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notice .content {
+    position: relative;
+    width: 750px;
+    background: #ffffff;
+    border-radius: 12px;
+  }
+
+  /*当浏览器的可视区域小于620px*/
+  @media screen and (max-width: 620px) {
+    .notice .content {
+      width: 90%;
+      max-height: 550px;
+        overflow: scroll;
+    }
+  }
+
+  /*当浏览器的可视区域小于370px*/
+  @media screen and (max-width: 370px) {
+    .notice .content {
+      max-height: 550px;
+      overflow: scroll;
+    }
+  }
+
+  .notice .content .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .notice .content .close::before {
+    content: "\2716";
+    font-size: 16px;
+    color: #333333;
+  }
+
+  .notice .content h1 {
+    padding: 65px 50px 0 50px;
+    font-size: 26px;
+    font-family: PingFangSC-Semibold;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+  }
+
+  .notice .content .start {
+    padding: 25px 50px 25px 50px;
+  }
+
+  .notice .content .start p {
+    font-size: 16px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #333333;
+    text-align: justify;
+    line-height: 26px;
+  }
+
+  .notice .content .end {
+    padding: 0 50px 35px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .notice .content .end p {
+    font-size: 16px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #333333;
+    text-align: right;
+  }
+
+    </style>
+</head>
+<body>
+<!--头部开始-->
+<style type="text/css">
+  .subnav_zi .subactive a{color:#1888fd !important;}
+  .bdsharebuttonbox{display:none;}
+  table{max-width:100%;}
+  .headfixed{background:rgba(255,255,255,0.8)}
+  .footer .foot-ul a{color: #4f7af6;}
+
+  .footer .foot-dl-bot dd a{color: rgba(246,247,249,0.6);}
+  .footer .foot-dl-bot dd a:first-child{margin-left:10px;}
+  .footer .foot-dl-bot dd a:hover{color: #4f7af6;}
+  .footer .foot-dl-bot dd img{display:inline-block;margin-left:10px;}
+    /* 适老化入口按钮 */
+	.wzall-btn{
+        margin-right: 10px;
+        padding: 2px 5px;
+        color: #282828;
+        border: 1px solid #282828;
+        font-size: 12px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    header.headerbgm .wzall-btn{
+        margin-right: 10px;
+        padding: 2px 5px;
+        color: #fff;
+        border: 1px solid #fff;
+        font-size: 12px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+	@media screen and (max-width: 1190px) { 
+		.wzall-btn {
+			display: none;
+		}
+	}
+</style>
+
+<!--头部开始-->
+<header class="headerbgm">
+    <div class="headfixed">
+        <div class="flexsb">
+		
+            <div class="logo1">
+                     <a href="https://www.evergrandelife.com.cn/index.html">
+                   
+                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-03/16227211911584028800979d1b0e36240179d1b85cf60031.png" alt="">
+                </a>
+            </div>
+            <div class="logo">
+             
+                     <a href="https://www.evergrandelife.com.cn/index.html">
+                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-10-11/16654825682368a23883382ee52fd9480183c67f322c6f5a.png" alt="">
+                </a>
+            </div>
+			
+            <div class="menu-list flexsb">
+                <ul class="flexsb">
+				
+				
+							<li class="cur">
+							<h3>
+								<a href="https://www.evergrandelife.com.cn/index.html">
+									<span>首页</span>
+								</a>
+							</h3>
+						</li>
+				
+							<li class="">
+							
+							<h3>
+								<a href="https://www.evergrandelife.com.cn/single_page/8093.html">
+									<span>关于我们</span>
+								</a>
+							</h3>
+							<div class="head-subnav">
+									<a href="https://www.evergrandelife.com.cn/single_page/8093.html">企业概况</a>
+									<a href="https://www.evergrandelife.com.cn/channel/10944.html">企业文化</a>
+									<a href="https://www.evergrandelife.com.cn/channel/10946.html">获奖及荣誉</a>
+									<a href="https://www.evergrandelife.com.cn/single_page/8216.html">社会责任</a>
+									<a href="https://www.evergrandelife.com.cn/channel/10970.html">新闻动态</a>
+
+							</div>
+						</li>
+						
+							
+				
+							<li class="">
+							
+							<h3>
+									<a class="customer_center_burying_point_khfu" href="https://eservice.harbourlife.com.cn/e-service/site/login.html" target="_blank">
+									<span>客户服务</span>
+								</a>
+							</h3>
+							<div class="head-subnav">
+										<a class="customer_center_burying_point" href="https://eservice.harbourlife.com.cn/e-service/site/login.html" target="_blank">客户中心</a>
+										<a href="https://www.evergrandelife.com.cn/single_page/8120.html">服务指南</a>
+
+							</div>
+						</li>
+						
+							
+				
+							<li class="">
+							
+							<h3>
+								<a href="https://www.evergrandelife.com.cn/channel/10952.html">
+									<span>公开信息披露</span>
+								</a>
+							</h3>
+							<div class="head-subnav">
+									<a href="https://www.evergrandelife.com.cn/channel/10952.html">基本信息</a>
+									<a href="https://www.evergrandelife.com.cn/channel/10953.html">年度信息</a>
+									<a href="https://www.evergrandelife.com.cn/channel/10954.html">重大事项</a>
+									<a href="https://www.evergrandelife.com.cn/channel/10955.html">专项信息</a>
+									<a href="https://www.evergrandelife.com.cn/channel/11134.html">消保信息</a>
+									<a href="https://www.evergrandelife.com.cn/single_page/13164.html">停售信息</a>
+
+							</div>
+						</li>
+						
+							
+                    
+                </ul>
+                <div class="btn-list flexsb">
+                    <div class="btn-right flexed">
+						<a class="wzall-btn" id="wzall-btn" href="https://www.harbourlife.com.cn/wza/index.htm">
+							无障碍浏览
+						</a>
+                        <div class="btn-search">
+                            <button id="toggle-search" class="header-button">搜索</button>
+                            <form id="search-form" action="https://www.evergrandelife.com.cn/home/search.html">
+                                <fieldset>
+                                     <input name="title" type="search" placeholder="请输入搜索内容">
+                                </fieldset>
+                                <input type="submit" value="" class="header-btn">
+                            </form>
+							
+                        </div>
+
+						<!-- 登录状态 begin -->
+                        <div class="btn-login unlogin" style="display: none;">
+                            <i class="login-img"></i>
+                            <a href="https://eservice.harbourlife.com.cn/e-service/site/login.html" class="login-link">登录</a>
+                            <span>/</span>
+                            <a href="https://eservice.harbourlife.com.cn/e-service/site/register.html" class="reg-link">注册</a>
+                        </div>
+
+                        <div class="btn-login userinfo" style="display: none;">
+                            <i class="login-img"></i>
+                            <a href="javascript:;" class="username">用户名</a>
+                            <span>/</span>
+                            <a href="javascript:;" class="loginout">登出</a>
+                        </div>
+                        <!-- 登录状态 end -->
+                    </div>
+                    <div class="btn-phone">
+                        <a href="javascript:;" class="toggle-btn toggle-btn-phone phone">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                        <!-- 手机端导航 -->
+                        <div class="mobile-nav-box">
+                            <ul>
+									<li>
+										<h3>
+											<a href="https://www.evergrandelife.com.cn/index.html">
+												<span>首页</span>
+											</a>
+										</h3>
+									</li>
+									<li class="">
+										<h3>
+												<a href="https://www.evergrandelife.com.cn/single_page/8093.html">
+												<span>关于我们</span>
+											</a>
+											
+												<i></i>
+											
+										</h3>
+										<div class="head-subnav">
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/single_page/8093.html">企业概况</a>
+													
+                                               
+												
+												</dd>
+											</dl>
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/channel/10944.html">企业文化</a>
+													
+                                               
+												
+												</dd>
+											</dl>
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/channel/10946.html">获奖及荣誉</a>
+													
+                                               
+												
+												</dd>
+											</dl>
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/single_page/8216.html">社会责任</a>
+													
+                                               
+												
+												</dd>
+											</dl>
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/channel/10970.html">新闻动态</a>
+													
+                                               
+												
+												</dd>
+											</dl>
+
+										</div>
+									</li>
+									<li class="">
+										<h3>
+												<a href="https://eservice.harbourlife.com.cn/e-service/site/login.html" target="_blank">
+												<span>客户服务</span>
+											</a>
+											
+												<i></i>
+											
+										</h3>
+										<div class="head-subnav">
+											<dl>
+												<dd>
+														<a href="https://eservice.harbourlife.com.cn/e-service/site/login.html" target="_blank">客户中心</a>
+													
+                                               
+												
+												</dd>
+											</dl>
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/single_page/8120.html">服务指南</a>
+													
+														<i></i>
+														<div class="zi_nav_list">
+															<dl>
+															
+																<dd>
+																			<a href="https://www.evergrandelife.com.cn/single_page/8120.html">
+																		  服务指南</a>
+																	
+																
+																	
+																	
+																</dd>
+																<dd>
+                                                                  			<a href="http://eservice.harbourlife.com.cn/eservice/cont/html/contVerify.html">
+																		  电子保单验真</a>
+																	
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/single_page/8124.html">保全服务</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/single_page/8124.html">保全服务简介</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8126.html">保全服务流程</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8128.html">保全服务邮箱</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/10994.html">官微满期金领取操作指引</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+																			<a href="https://www.evergrandelife.com.cn/single_page/8135.html">
+																		  保险服务承诺</a>
+																	
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/single_page/8136.html">投保服务</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/single_page/8136.html">人身保险投保提示书-江苏</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8137.html">人身保险投保提示书-湖南</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8142.html">职业分类表</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/12301.html">职业分类表B</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8139.html">投保服务简介</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8140.html">投保服务流程</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8141.html">人身保险投保提示书(通用版)</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+																			<a href="https://www.evergrandelife.com.cn/single_page/8145.html">
+																		  续期服务</a>
+																	
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/single_page/13051.html">理赔服务</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/single_page/13051.html">理赔服务简介</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8147.html">理赔申请材料清单</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8148.html">理赔服务流程</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8149.html">理赔服务时效</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11061.html">伤残评定标准</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8150.html">理赔医院提示</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8151.html">特殊医疗机构</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11013.html">特药险信息披露</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/12932.html">理赔服务咨询电话</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/single_page/8157.html">贵宾服务</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/single_page/8157.html">VIP客户层级</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8158.html">VIP客户尊享礼遇</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/channel/11067.html">自助服务</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/channel/11067.html">投保单证</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11068.html">保全单证</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11069.html">理赔单证</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11070.html">其他单证</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/channel/11056.html">交流园地</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/channel/11056.html">投保解答</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11057.html">保全解答</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11058.html">续期解答</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11059.html">理赔解答</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+                                                                  			<a href="https://giiqs.harbourlife.com.cn/#/login">
+																		  询价系统</a>
+																	
+																
+																	
+																	
+																</dd>
+																
+															</dl>
+														</div>
+                                               
+												
+												</dd>
+											</dl>
+
+										</div>
+									</li>
+									<li class="">
+										<h3>
+												<a href="https://www.evergrandelife.com.cn/channel/10952.html">
+												<span>公开信息披露</span>
+											</a>
+											
+												<i></i>
+											
+										</h3>
+										<div class="head-subnav">
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/channel/10952.html">基本信息</a>
+													
+														<i></i>
+														<div class="zi_nav_list">
+															<dl>
+															
+																<dd>
+																			<a href="https://www.evergrandelife.com.cn/single_page/8167.html">
+																		  公司概况</a>
+																	
+																
+																	
+																	
+																</dd>
+																<dd>
+																			<a href="https://www.evergrandelife.com.cn/single_page/8168.html">
+																		  公司治理概要</a>
+																	
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/channel/11075.html">产品基本信息</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/channel/11075.html">产品目录、条款</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11142.html">产品费率表</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/13940.html">产品现金价值</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11076.html">产品说明书</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																
+															</dl>
+														</div>
+                                               
+												
+												</dd>
+											</dl>
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/channel/10953.html">年度信息</a>
+													
+                                               
+												
+												</dd>
+											</dl>
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/channel/10954.html">重大事项</a>
+													
+                                               
+												
+												</dd>
+											</dl>
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/channel/10955.html">专项信息</a>
+													
+														<i></i>
+														<div class="zi_nav_list">
+															<dl>
+															
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/channel/10957.html">关联交易</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/channel/10957.html">关联交易临时信息</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/10958.html">关联交易季度信息</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+																			<a href="https://www.evergrandelife.com.cn/channel/10981.html">
+																		  股东股权</a>
+																	
+																
+																	
+																	
+																</dd>
+																<dd>
+																			<a href="https://www.evergrandelife.com.cn/channel/10959.html">
+																		  偿付能力</a>
+																	
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/single_page/8171.html">互联网保险</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/single_page/8171.html">公司信息</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8172.html">互联网保险产品信息</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/10104.html">网络平台信息</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/10106.html">客户服务</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/single_page/8176.html">新型产品</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/single_page/8176.html">万能利率公告</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/10108.html">分红保险盈余计算方法信息</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11051.html">投资连结险信息</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/8177.html">投连价格公告</a>
+																					<a href="https://www.evergrandelife.com.cn/channel/11141.html">分红型保险产品红利实现率</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/channel/11077.html">资金运用</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/channel/11077.html">资金运用</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/channel/11053.html">个人短期健康保险</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/channel/11053.html">产品停售情况及有效保单数量</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/10112.html">综合赔付率指标</a>
+																					<a href="https://www.evergrandelife.com.cn/single_page/10114.html">产品停售公告</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+																		<a href="https://www.evergrandelife.com.cn/channel/11078.html">健康管理服务</a>
+																	
+																			<i></i>
+																			<div class="zi_nav_list">
+																			
+																					<a href="https://www.evergrandelife.com.cn/channel/11078.html">健康管理服务</a>
+																				
+																			</div>
+																
+																	
+																	
+																</dd>
+																<dd>
+																			<a href="https://www.evergrandelife.com.cn/single_page/10116.html">
+																		  长期医疗保险</a>
+																	
+																
+																	
+																	
+																</dd>
+																<dd>
+																			<a href="https://www.evergrandelife.com.cn/single_page/13162.html">
+																		  年度个人意外险业务经营情况</a>
+																	
+																
+																	
+																	
+																</dd>
+																<dd>
+																			<a href="https://www.evergrandelife.com.cn/channel/10966.html">
+																		  其他信息</a>
+																	
+																
+																	
+																	
+																</dd>
+																<dd>
+																			<a href="https://www.evergrandelife.com.cn/single_page/13220.html">
+																		  转保信息</a>
+																	
+																
+																	
+																	
+																</dd>
+																
+															</dl>
+														</div>
+                                               
+												
+												</dd>
+											</dl>
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/channel/11134.html">消保信息</a>
+													
+                                               
+												
+												</dd>
+											</dl>
+											<dl>
+												<dd>
+														<a href="https://www.evergrandelife.com.cn/single_page/13164.html">停售信息</a>
+													
+                                               
+												
+												</dd>
+											</dl>
+
+										</div>
+									</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header><!--头部结束-->
+<!--主体开始-->
+<div class="mainer">
+    <!--    banner轮播图-->
+    <div class="banner">
+        <div class="banner-img">
+            <!-- banner轮播大图 -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+				
+  
+                  
+							<div class="swiper-slide">
+								<div class="swiper-img">
+                                  
+                                  
+                                
+                                  		<img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-23/16244346355888a23daac7a32a52d624017a37d973442b1c.jpg" alt="" class="bannerimg01 bannerimg">
+                                      	<img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-25/16245921967138a23daac7a411577853017a413da469013a.jpg" alt="" class="bannerimg02 bannerimg">
+									  <!-- 显示视频 -->
+                                  <video width="100%" class="indexvideo"  autoplay="" loop="" preload="" muted=""  poster="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-23/16244346355888a23daac7a32a52d624017a37d973442b1c.jpg"
+                                x-webkit-airplay="true" airplay="allow" webkit-playsinline="true" playsinline="true"
+                                x5-video-player-fullscreen="true" x5-video-player-type="h5"
+                                x5-video-player-type="h5-page" x5-video-orientation="portraint"
+                                src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/video/2021-07-19/16266887911138a2388337a529cd0883017abe3522497bea.mp4" videoUrl="https://hdrscloud-pub-test.evergrandelife.com.cn/public/ebiz_site/video/qyxcp.mp4"></video>
+          
+                                  
+								</div>
+							</div>
+                  
+                  
+                  
+  
+                  
+							<div class="swiper-slide">
+								<div class="swiper-img">
+                                  
+									<a href="javascript:void(0);">
+										<img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-03-25/16481704907728a2388337dd75d6f567017fbe9ddb941a5b.png" alt="" class="bannerimg01 bannerimg">
+                                      	<img src="" alt="" class="bannerimg02 bannerimg">
+									</a>
+                                  
+                                  
+								</div>
+							</div>
+                  
+                  
+                  
+  
+                  
+           
+							<div class="swiper-slide">
+								<div class="swiper-img">   
+                                  
+									<a href="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-07-08/imgResize16257139965148a2388337a529cd07017a841af2e23bdc.png">
+										<img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-23/16244300131988a23daac7a32a52d935017a3792eb0e259e.jpg" alt="" class="bannerimg01 bannerimg">
+                                      	<img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-23/16244300271798a23daac7a32a52d450017a379321ab25a1.jpg" alt="" class="bannerimg02 bannerimg">
+									</a>   
+                                  
+								</div>
+							</div>
+                  
+                  
+
+                </div>
+				
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next swp1-next"></div>
+                <div class="swiper-button-prev swp1-prev"></div>
+            </div>
+        </div>
+    </div>
+
+  
+    <!-- 产品 -->
+    <!-- <div class="cp-list">
+        <div class="w1200">
+            <div class="cp-list-btn flexsb">
+                <div class="cp-list-tit">
+                    <h3>您对我们哪一款产品</h3>
+                    <h3>比较感兴趣呢</h3>
+                </div>
+                <ul class="cp-list-btn flexed">
+                  
+							<li class="active">   
+                              <a href="https://www.evergrandelife.com.cn/channel/11144.html">个险渠道</a>					
+							</li>
+
+							<li>
+                              <a href="https://www.evergrandelife.com.cn/channel/10933.html">银行渠道</a>
+							</li>
+
+							<li>
+                              <a href="https://www.evergrandelife.com.cn/channel/10968.html">团险渠道</a>
+							</li>
+
+							<li>
+                              <a href="https://www.evergrandelife.com.cn/channel/10969.html">经代渠道</a>
+							</li>
+
+							<li>
+                              <a href="https://www.evergrandelife.com.cn/channel/11131.html">创新渠道</a>
+							</li>
+
+                  
+                  
+                </ul>
+            </div>
+            <div class="cp-list-cont">
+                <ul>
+				
+                 
+                    <li>
+                        <div class="swiper-container">
+							<div class="swiper-wrapper">
+							
+			
+                                <div class="swiper-slide">
+                                    <div class="cp-slide flexlf">
+	
+                                        <div class="cp-slide-left">
+                                         
+                                          		<a href="https://www.evergrandelife.com.cn/content/14165.html">
+                                          
+                                                <div class="cp-slide-img">
+                                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-22/16926952165768a2388338954dcd9231018a1c7f41c069cf.jpg" alt="">
+                                                </div>
+                                                
+                                            </a>
+                                        </div>
+										
+                                        <div class="cp-slide-right">
+                                            <ul>
+											
+                                                <li>
+                                                  
+                                                            <a href="https://www.evergrandelife.com.cn/content/14163.html">
+                                                        <div class="cp-slide-img">
+                                                            <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-22/16926952405858a2388338954dcd9413018a1c7f9f8969d7.jpg" alt="">
+                                                        </div>
+                                                       
+                                                    </a>
+                                                </li>
+										
+                                                <li>
+                                                            <a href="https://www.evergrandelife.com.cn/content/14161.html">
+                                                        <div class="cp-slide-img">
+                                                            <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-22/16926952704798a2388338954dcd9405018a1c80144f69dd.jpg" alt="">
+                                                        </div>
+                                                       
+                                                    </a>
+                                                   
+                                                </li>
+                                            </ul>
+                                        </div>
+									
+                                    </div>
+                                </div>
+					
+			
+                                <div class="swiper-slide">
+                                    <div class="cp-slide flexlf">
+	
+                                        <div class="cp-slide-left">
+                                         
+                                          		<a href="https://www.evergrandelife.com.cn/content/10039.html">
+                                          
+                                                <div class="cp-slide-img">
+                                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-24/16928662574658a2388328954dcf9270018a26b1223967e7.jpg" alt="">
+                                                </div>
+                                                
+                                            </a>
+                                        </div>
+										
+                                        <div class="cp-slide-right">
+                                            <ul>
+											
+                                                <li>
+                                                  
+                                                            <a href="https://www.evergrandelife.com.cn/content/14168.html">
+                                                        <div class="cp-slide-img">
+                                                            <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-24/16928662487578a2388328954dcf9926018a26b1003567df.jpg" alt="">
+                                                        </div>
+                                                       
+                                                    </a>
+                                                </li>
+										
+                                                <li>
+                                                            <a href="https://www.evergrandelife.com.cn/content/14170.html">
+                                                        <div class="cp-slide-img">
+                                                            <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-24/16928662640498a2388328954dcf936018a26b13bf167ef.jpg" alt="">
+                                                        </div>
+                                                       
+                                                    </a>
+                                                   
+                                                </li>
+                                            </ul>
+                                        </div>
+									
+                                    </div>
+                                </div>
+					
+			
+                                <div class="swiper-slide">
+                                    <div class="cp-slide flexlf">
+	
+                                        <div class="cp-slide-left">
+                                         
+                                          		<a href="https://www.evergrandelife.com.cn/content/10041.html">
+                                          
+                                                <div class="cp-slide-img">
+                                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-21/16242666750368a23daac7a1e5774303017a2dd6935c1e57.jpg" alt="">
+                                                </div>
+                                                
+                                            </a>
+                                        </div>
+										
+									
+                                    </div>
+                                </div>
+					
+			
+                                <div class="swiper-slide">
+                                    <div class="cp-slide flexlf">
+	
+                                        <div class="cp-slide-left">
+                                         
+                                          		<a href="https://www.evergrandelife.com.cn/content/14145.html">
+                                          
+                                                <div class="cp-slide-img">
+                                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-10/16916288002018a2388338954dcd96990189dcef08c9238c.jpg" alt="">
+                                                </div>
+                                                
+                                            </a>
+                                        </div>
+										
+                                        <div class="cp-slide-right">
+                                            <ul>
+											
+                                                <li>
+                                                  
+                                                            <a href="https://www.evergrandelife.com.cn/content/14173.html">
+                                                        <div class="cp-slide-img">
+                                                            <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-25/16929283468858a2388328a2700db303018a2a648b0503e1.jpg" alt="">
+                                                        </div>
+                                                       
+                                                    </a>
+                                                </li>
+										
+                                                <li>
+                                                            <a href="https://www.evergrandelife.com.cn/content/10065.html">
+                                                        <div class="cp-slide-img">
+                                                            <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-10/16916288578248a2388338954dcd97570189dcefe9e02399.jpg" alt="">
+                                                        </div>
+                                                       
+                                                    </a>
+                                                   
+                                                </li>
+                                            </ul>
+                                        </div>
+									
+                                    </div>
+                                </div>
+					
+			
+                                <div class="swiper-slide">
+                                    <div class="cp-slide flexlf">
+	
+                                        <div class="cp-slide-left">
+                                         
+                                          		<a href="https://www.evergrandelife.com.cn/content/12930.html">
+                                          
+                                                <div class="cp-slide-img">
+                                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-01-13/16735909188908a23883384f134325740185a9caceea4b43.jpg" alt="">
+                                                </div>
+                                                
+                                            </a>
+                                        </div>
+										
+                                        <div class="cp-slide-right">
+                                            <ul>
+											
+                                                <li>
+                                                  
+                                                            <a href="https://www.evergrandelife.com.cn/content/13175.html">
+                                                        <div class="cp-slide-img">
+                                                            <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-05-06/16833589749448a23883386c624565930187f00383e049bf.png" alt="">
+                                                        </div>
+                                                       
+                                                    </a>
+                                                </li>
+										
+                                                <li>
+                                                            <a href="https://www.evergrandelife.com.cn/content/14188.html">
+                                                        <div class="cp-slide-img">
+                                                            <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-28/16932098435748a2388338a27015c889018a3b2bd776164b.png" alt="">
+                                                        </div>
+                                                       
+                                                    </a>
+                                                   
+                                                </li>
+                                            </ul>
+                                        </div>
+									
+                                    </div>
+                                </div>
+					
+                              
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </li>
+           
+				
+                </ul>
+            </div>
+        </div>
+    </div> -->
+    <!-- 新闻资讯 -->
+    <div class="yd-list">
+        <div class="flexlf w1200">
+            <div class="yd-list-left">
+                <div class="cp-list-tit">
+                    <h3>即刻阅读恒大人寿</h3>
+                    <h3>价值资讯</h3>
+                </div>
+                <h3 class="yd-tit">新闻动态</h3>
+            </div>
+            <div class="yd-list-right">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+					
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/14200.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-09-15/16947719692898a2388328a98363b219018a9847fd090037.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        关于海港人寿保险股份有限公司与恒大人寿保险有限公司保险业务转让的公告
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Sep 15, 2023 5:59:34 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/14191.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-31/16934751033238a2388328a2700db221018a4afb625b27f2.png" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿积极开展2023年“7·8全国保险公众宣传日”系列活动
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Jul 11, 2023 4:48:17 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/14193.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-08-31/16934751981648a2388328a2700db11018a4afcd4d42801.png" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿2023年“3.15”消费者权益保护教育宣传周活动圆满成功
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Apr 3, 2023 4:38:58 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12996.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-02-21/16769643242688a23883284f133bf758018672dce3ac294c.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿旗下产品获评“中国网2022年度第五届中国鼎保险业优秀案例”
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Feb 21, 2023 3:25:56 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12922.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-02-21/16769644531488a23883284f133bf55018672dedb1c2972.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿荣获第20届中国财经风云榜“年度值得关注养老险产品 ”奖
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Jan 5, 2023 5:50:24 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12890.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2023-01-10/16733222782708a23883284f133bf742018599c7ad7e3aab.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿获评“2022今日保年度保险+康养生态典范”奖项
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Dec 9, 2022 3:35:34 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12886.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-12-16/16711730374198a23883284f133bf343018519acdd6b2d8e.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿斩获“第十七届中国保险创新大奖”多个奖项
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Nov 28, 2022 3:29:46 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12860.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-11-28/16696202612208a23883284612142670184bd1f61646539.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿荣膺“2022卓越竞争力综合服务保险公司”
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Nov 24, 2022 10:27:51 AM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12858.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-11-28/16696200425678a238832846121421860184bd1c0b476525.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿助力西安城墙门楣标识修复工作
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Oct 1, 2022 9:52:25 AM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12715.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-09-05/16623657169968a23883282ee529241201830cb7d20422aa.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿为四川37个乡村振兴重点帮扶村脱贫老年群体赠送意外险
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Aug 5, 2022 3:35:01 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12391.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-09-06/16624289868288a23883382ee52fd8050183107d3dcc2588.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿向重庆市梁平区村民捐赠3.49亿元保险保障
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Jul 14, 2022 5:53:31 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12713.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-09-05/16623655448728a23883282ee529274601830cb531a82299.png" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿7.8全国保险公众宣传日活动全面启动！
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Jun 24, 2022 3:24:50 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12626.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-08-03/16595122473768a2388328249710d808018262a354502771.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿荣获“年度保险产品供应商”奖项
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>May 24, 2022 3:36:47 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12283.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-07-14/16577930502618a23883381fc1e7c6770181fc2a76950083.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        乡村振兴丨察右中旗专项消费帮扶
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>May 7, 2022 10:31:24 AM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12109.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-01-10/16417981497048a2388327dd75cf956017e42cba6487718.jpg" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿斩获“中国客户联络中心奖”两大奖项
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Jan 10, 2022 3:01:16 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12082.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2022-01-14/16421231200578a2388327dd75cf9596017e562a4db90d70.png" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿荣获第19届财经风云榜“年度值得关注保险服务品牌”奖项
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Dec 31, 2021 2:54:08 PM</time>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.evergrandelife.com.cn/content/12080.html">
+                                <div class="yd-img">
+                                    <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-12-31/16409334746468a2388327dd75cf9340017e0f41c1563d9c.png" alt="">
+                                </div>
+                                <div class="yd-font">
+                                    <h3 class="yd-font-tit dot2">
+                                        恒大人寿荣膺第四届中国企业责任先锋论坛“年度乡村振兴先锋企业”奖
+                                    </h3>
+                                    <div class="yd-font-dec dot">
+                                        
+                                    </div>
+                                    <time>Dec 31, 2021 2:51:20 PM</time>
+                                </div>
+                            </a>
+                        </div>
+						
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="yd-slide-btn">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 客户服务 -->
+    <div class="kh-list">
+        <div class="w1200">
+            <div class="cp-list-tit">
+                <h3>客户服务</h3>
+            </div>
+            <ul class="kh-list-ul flexlf">
+			
+				<li>
+                    <a href="https://eservice.harbourlife.com.cn/e-service/site/login.html">
+                        <div class="kh-cont">
+                            <div class="kh-icon">
+                                <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-10/16232995439274028800979f4076d5770179f43153770073.png" alt="">
+                            </div>
+                            <h3>保单管理</h3>
+                        </div>
+                        <div class="kh-font">
+                            <h3>保单管理</h3>
+                            <h4></h4>
+                            <div class="kh-dec">
+                                电子保单服务、信息查询、
+基本信息变更、续期交费
+账号变更
+                            </div>
+                            <i class="hk-more"></i>
+                        </div>
+                    </a>
+                </li>
+				<li>
+                    <a href="https://eservice.harbourlife.com.cn/e-service/site/login.html">
+                        <div class="kh-cont">
+                            <div class="kh-icon">
+                                <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-10/16232995933294028800979f4076d6790179f43214710088.png" alt="">
+                            </div>
+                            <h3>查询服务</h3>
+                        </div>
+                        <div class="kh-font">
+                            <h3>查询服务</h3>
+                            <h4></h4>
+                            <div class="kh-dec">
+                                电子保单服务、信息查询、
+基本信息变更、续期交费
+账号变更
+                            </div>
+                            <i class="hk-more"></i>
+                        </div>
+                    </a>
+                </li>
+				<li>
+                    <a href="https://eservice.harbourlife.com.cn/e-service/site/login.html">
+                        <div class="kh-cont">
+                            <div class="kh-icon">
+                                <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-10/16232996246234028800979f4076d9180179f4328eaf0091.png" alt="">
+                            </div>
+                            <h3>业务办理</h3>
+                        </div>
+                        <div class="kh-font">
+                            <h3>业务办理</h3>
+                            <h4></h4>
+                            <div class="kh-dec">
+                                电子保单服务、信息查询、
+基本信息变更、续期交费
+账号变更
+                            </div>
+                            <i class="hk-more"></i>
+                        </div>
+                    </a>
+                </li>
+				<li>
+                    <a href="https://eservice.harbourlife.com.cn/e-service/site/login.html">
+                        <div class="kh-cont">
+                            <div class="kh-icon">
+                                <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-12/1623498781578402880097a00082b510017a0011738a0022.png" alt="">
+                            </div>
+                            <h3>团险服务</h3>
+                        </div>
+                        <div class="kh-font">
+                            <h3>团险服务</h3>
+                            <h4></h4>
+                            <div class="kh-dec">
+                                电子保单服务、信息查询、
+基本信息变更、续期交费
+账号变更
+                            </div>
+                            <i class="hk-more"></i>
+                        </div>
+                    </a>
+                </li>
+				<li>
+                    <a href="https://eservice.harbourlife.com.cn/e-service/site/login.html">
+                        <div class="kh-cont">
+                            <div class="kh-icon">
+                                <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-12/1623498808906402880097a00082b755017a0011de4a0029.png" alt="">
+                            </div>
+                            <h3>保单理赔</h3>
+                        </div>
+                        <div class="kh-font">
+                            <h3>保单理赔</h3>
+                            <h4></h4>
+                            <div class="kh-dec">
+                                电子保单服务、信息查询、
+基本信息变更、续期交费
+账号变更
+                            </div>
+                            <i class="hk-more"></i>
+                        </div>
+                    </a>
+                </li>
+				
+  
+            </ul>
+        </div>
+    </div>
+    <!-- 加入我们 -->
+  <!-- 
+    <a class="jr-list" href="https://www.evergrandelife.com.cn/single_page/8074.html" style="display:block">
+        <div class="jr-bgm">
+				<img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-10-11/16339403886888a2388327b822a6f712017c6e6fbb50036a.jpg" alt="">
+        </div>
+        <div class="jr-font">
+            <h3>人才理念</h3>
+            <div class="jr-font-dec">
+               <p>人才是企业发展的根本。恒大人寿重视人才队伍建设</p><p>从人才引进及培养等多个方面提升团队战斗力，推动企业发展</p>
+            </div>
+           
+        </div>
+    </a>
+   -->
+  
+</div>
+<!--主体结束-->
+  <div class="notice-box" id="notice">
+    <div class="notice">
+      <div class="content">
+        <div class="close" id="closeNotice"></div>
+        <h1>关于海港人寿保险股份有限公司与恒大人寿保险有限公司保险业务转让的公告</h1>
+        <div class="start">
+          <p style="text-indent:28px;">
+            根据《国家金融监督管理总局深圳监管局关于海港人寿保险股份有限公司受让恒大人寿保险有限公司保险业务的批复》（深金复〔2023〕94号），海港人寿保险股份有限公司整体受让恒大人寿保险有限公司的保险业务及相应的资产、负债。海港人寿保险股份有限公司将履行以恒大人寿保险有限公司名义签署的保险合同义务，切实保护保险消费者的合法权益。
+          </p>
+          <p style="text-indent:28px;">如保险消费者对本次保险业务转让有任何疑问，请通过以下方式与海港人寿保险股份有限公司联系。</p>
+          <p style="text-indent:28px;">专线服务电话：956010。</p>
+          <p style="text-indent:28px;">特此公告</p>
+        </div>
+        <div class="end">
+          <p>恒大人寿保险有限公司</p>
+          <p class="time">2023年9月15日</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--尾部开始-->
+<div class="footer">
+    <div class=" w1200 ">
+        <div class="clearfloat">
+
+                    <div class="foot-left fl">
+
+                        <div class="foot-tel">
+                            <span>全国统一客服热线</span>
+                            <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/image/index/in-telicon.png" alt="">
+                            <p>956010 / 400 636 8888</p>
+                        </div>
+                        <ul class="foot-ul flexlf">
+                                <li><a href="https://www.evergrandelife.com.cn/channel/10973.html">联系我们</a></li>
+
+                                    <li><a href="https://www.evergrandelife.com.cn/single_page/8109.html">法律声明</a></li>
+                                    <li><a href="https://www.evergrandelife.com.cn/single_page/8112.html">投诉与反馈</a></li>
+                                    <li><a href="https://www.evergrandelife.com.cn/single_page/8113.html">反欺诈举报</a></li>
+                                    <li><a href="https://www.evergrandelife.com.cn/single_page/8114.html">商务合作</a></li>
+
+                        </ul>
+                        <div class="foot-dizhi">
+                            <dl class="foot-dl-top">
+                                <dd>地址：重庆市北部新区星光大道92号22-27楼</dd>
+                            </dl>
+                            <dl class="foot-dl-bot">
+                                <dd>恒大人寿保险有限公司 版权所有
+                                    <a href="https://beian.miit.gov.cn"  target="_blank"
+                                         rel="nofollow">粤ICP备2023109598号-3</a>
+                                    <!-- <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/image/beianico.png" alt="" /> -->
+                                    <span>  </span>
+                                </dd>
+                                <dd>COPYRIGHT © 2016 EVERGRANDE LIFE ASSURANCE CO.,LTD. ALL RIGHTS RESERVED</dd>
+                                <dd>本网站支持IPV6访问</dd>
+                            </dl>
+                        </div>
+
+                    </div>
+                    <div class="foot-right fr">
+                        <div class="footitem_erweima">
+                            <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-08/16231410429864028800979ea25f29120179eabecb2a02ef.jpg" alt="">
+                            <p>微信服务号</p>
+                        </div>
+                        <div class="footitem_erweima">
+                            <img src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com/website/upload/2021-06-08/16231410466814028800979ea25f24770179eabed99902f1.jpg" alt="">
+                            <p>微信订阅号</p>
+                        </div>
+                    </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/dist/js/jquery.min.js"></script>
+<!-- e化登录相关 begin (注意：登录注册html处有结构变化) -->
+<!-- 客户服务连接是需要做到后台管理的，因为这块的连接是跳转到e化系统的，链接由e化那边提供 -->
+<!-- 登录注册连接也是需要做到后台的，因为目前用户登录系统在更新，后面连接会换 -->
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/elogin/json2.js"></script>
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/elogin/hdsdk.js"></script>
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/elogin/BeanDefines.js"></script>
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/elogin/html5media.min.js"></script>
+
+<!-- <script type="text/javascript" src="https://wx-test-uat.harbourlife.com.cn/e-service-uat1/Public/GetCurrentAccount?callback=getCurrent"></script> -->
+<script type="text/javascript">
+    $(function () {
+
+        //初始判断用户的登录状态
+        $.ajax({
+            url: "https://eservice.harbourlife.com.cn/e-service/Public/GetCurrentAccount?callback=getCurrent",
+            // url: "https://wx-test-uat.harbourlife.com.cn/e-service-uat1/Public/GetCurrentAccount?callback=getCurrent",
+            dataType: "script",
+            success: function (response, status) {
+                if (flag) {
+                    if (username != null) {
+                        $(".btn-login.userinfo .username").html("您好," + username);
+                    }
+                    else {
+                        $(".btn-login.userinfo .username").html("个人中心");
+                    }
+                    $(".btn-login.userinfo").show();
+                    $(".btn-login.unlogin").hide();
+                }
+                else {
+                    $(".btn-login.userinfo").hide();
+                    $(".btn-login.unlogin").show();
+                }
+            }
+        });
+
+        //登出
+        $(".btn-login.userinfo .loginout").on("click", function () {
+            $(".btn-login.userinfo").hide();
+            $(".btn-login.unlogin").show();
+            $.getScript("https://eservice.harbourlife.com.cn/e-service/Public/LoginOutServlet?callback=getCurrent");
+            // $.getScript("https://wx-test-uat.harbourlife.com.cn/e-service-uat1/Public/LoginOutServlet?callback=getCurrent");
+            //如果需要回调则使用下面到代码
+            //  $.ajax({
+            //     url: "https://wx-test-uat.harbourlife.com.cn/e-service-uat1/Public/LoginOutServlet?callback=getCurrent",
+            //     dataType: "script",
+            //     success: function(response,status){
+            //     }
+            //  });
+        });
+        //设置登录注册链接
+        var elogin = "https://eservice.harbourlife.com.cn/e-service/site/login.html";
+        var ereg = "https://eservice.harbourlife.com.cn/e-service/site/register.html";
+        $(".btn-login.unlogin .login-link").attr("href", elogin);
+        $(".btn-login.unlogin .reg-link").attr("href", ereg);
+    });
+</script>
+
+<!-- e化登录相关 end -->
+
+
+
+<!-- 神策埋点 begin -->
+<script charset="UTF-8" src="https://hdrs-pub-cdn.cn-shenzhen.oss.aliyuncs.com/sensors_prod/sensorsdata.min.js"></script>
+<script charset="UTF-8">
+    var sensors = window['sensorsDataAnalytic201505'];
+    sensors.init({
+        // 测试上报地址：https://maidian.harbourlife.com.cn:8106/sa?project=evergrandelife
+        // 正式上报地址：https://maidian-cloud.harbourlife.com.cn/sa?project=evergrandelife
+        server_url: 'https://maidian-cloud.harbourlife.com.cn/sa?project=evergrandelife',
+        use_client_time: true,
+        send_type: 'beacon',
+        heatmap: {
+            scroll_notice_map: 'not_collect'
+        }
+    });
+    sensors.quick('autoTrack');
+    try {
+        sensors.use('PageLoad');
+        sensors.use('PageLeave');
+    } catch (err) {
+        console.log('神策POC err===>', err)
+    }
+    // 客户服务/客户中心点击埋点
+    $('.customer_center_burying_point_khfu').on('click', function () {
+        sensors.track('custom_click', { 'first_model': '客户服务' });
+    });
+    $('.customer_center_burying_point').on('click', function () {
+        sensors.track('custom_click', { 'first_model': '客户服务_客户中心' });
+    });
+    // 无障碍浏览按钮埋点
+    $('.wzall-btn').on('click', function () {
+        sensors.track('custom_click', { 'first_model': '无障碍浏览' });
+    });
+
+    
+</script>
+<!-- 神策埋点 end -->  
+  <!-- 视屏弹框 -->
+<div class="popvideobg">
+    <div class="popvideobox">
+      <div class="popvideo">
+        <div class="close-video-btn"></div>
+        <div id="videoPlayer"></div>
+      </div>
+    </div>
+  </div>
+  <!-- 机器人 -->
+<!-- <div class="robot_tips donghua" id="tips">
+    <div class="onlineimga"><div class="on_imgbox"></div></div>
+    <div class="text">Hi，我是智能机器人大海，<br>快进来聊聊吧！</div>
+</div> -->
+<!--尾部结束-->
+<!--    引入jq-->
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/js/jquery-1.11.3.min.js"></script>
+<!-- 引入轮播图js样式-->
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/js/swiper.min.js"></script>
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/js/swiper.js"></script>
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/js/wow.min.js"></script>
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/js/webjs.js"></script>
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/js/public.js"></script>
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/js/social-share.min.js"></script>
+<script src="https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/js/qrcode.js"></script>
+ <script>
+       $(function(){ 
+      $(".yd-list .swiper-slide").each(function(){
+            var text=$(this).find(" .yd-font time").text();
+        $(this).find(" .yd-font time").text(timeFormat(text))
+        });
+    	
+    });
+  function timeFormat(time){
+        var date= new Date(time)
+        var dateTime = date.getFullYear()+'.'+checkTime(date.getMonth()+1)+'.'+checkTime(date.getDate()); 
+        return dateTime;
+    }
+    function checkTime(i){
+        if(i<10){
+            i = '0'+i
+        }
+        return i
+    }
+</script>
+  
+<style type="text/css">
+    .on_imgbox{width: 100px;height: 94px;background: url(https://hdrs-website.cn-shenzhen-finance.oss.aliyuncs.com//style/image/onlineribt.png) no-repeat;background-size: 100%;margin: 0 auto;}
+    .robot_tips{position: fixed;z-index: 999;right: -52px;top: 100px;text-align: center;width: 193px;cursor: pointer;}
+    .robot_tips .onlineimga img{width: 100px;}
+    .robot_tips .text{color: deepskyblue;font-size: 16px;margin-top: 10px;display: none;position: absolute;top: 80px;}
+    .donghua {
+  transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -moz-transition: tall 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+</style>
+<script>
+    $('#closeNotice').click(function () {
+      $('#notice').hide()
+    })
+// 图标拖拽
+window.onload = function(){
+            var box = document.getElementById("tips"),iscilck=0;
+            function drag (ele){
+                ele.onmousedown = function(e){
+                    iscilck =0
+                  console.log(iscilck)
+                   console.log("点击了")
+                    var e = e || window.event;  
+                    //此处是为了兼容IE，因为IE中事件对象是作为全局对象( window.event )存在的；
+                    var pageX = e.pageX || e.clientX + document.documentElement.scrollLeft;
+                    var pageY = e.pageY || e.clientY + document.documentElement.scrollTop;
+                    //获取鼠标相对盒子的位置；
+                    var boxX = pageX - box.offsetLeft;
+                    var boxY = pageY - box.offsetTop;
+                    ele.onmousemove = function(e){
+                     iscilck =1
+                         console.log("被拖拽了aaa ",iscilck )
+                        var e = e || window.event;
+                        var pageX = e.pageX || e.clientX + document.documentElement.scrollLeft;
+                        var pageY = e.pageY || e.clientY + document.documentElement.scrollTop;
+                      //将鼠标当前的坐标值减去鼠标相对盒子的位置，得到盒子当时的位置并将其赋值给盒子，实现移动效果
+                        box.style.left = pageX - boxX +'px';
+                        box.style.top = pageY - boxY + 'px';
+                    }
+                };
+                ele.onmouseup = function () {
+                    //清除盒子的移动事件;
+                     if( iscilck ===0){
+                   console.log("123213")
+                     window.open( "https://onlineservice.harbourlife.com.cn/webchat/interfacePools.do?urlFrom=web&device=pc&userId=uerId&queue=242&from=web&labels=web")
+                   ele.onmousemove = null;
+                   }else{
+                       console.log("aaaaewew ")
+                      ele.onmousemove = null;
+                    }   
+                };
+            } ;
+            drag(box)
+
+            console.log('清除二')
+            // 清理滚动监听
+            $(window).off('scroll');
+            // 取消hover绑定
+            $('header').removeClass('headerbgm');
+            $(".menu-list>ul>li").mouseenter(function(){
+                $('header').removeClass('headerbgm');
+            })
+            $(".menu-list>ul>li").mouseleave(function(){
+                $('header').removeClass('headerbgm');
+            })
+            //下滑头部出现背景
+            function onScroll() {
+                var index_top = $(window).scrollTop();
+                if (index_top > $('.headfixed').outerHeight() && $(window).width() > 1260) {
+                    $('header').removeClass('headerbgm');
+                } else {
+                    $('header').removeClass('headerbgm');
+                }
+            }
+            // 添加滚动监听
+            $(window).on('scroll', onScroll);
+        }
+
+$(".on_imgbox").mouseover(function(){
+
+  $(".robot_tips .text").css("display","block");
+})
+$(".on_imgbox").mouseout(function(){
+  $(".robot_tips .text").css("display","none");
+})
+
+$(function(){
+    var rightjuli=$(".robot_tips").css("right");
+    if(rightjuli=="-52px"){
+        $(".on_imgbox").hover(function(){
+            $(".robot_tips").css({"right":"0"})
+            if(rightjuli=="-52px"){
+                $(".robot_tips").removeClass("donghua");
+            }
+        });
+    }
+
+    // 清理滚动监听
+    $(window).off('scroll');
+    $('header').removeClass('headerbgm');
+});
+</script>
+
+  
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</body>
+</html>
