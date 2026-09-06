@@ -20,7 +20,7 @@ Go Nav 既可以作为带登录后台的 Node.js 应用运行，也可以打包�
 
 - 官网：[https://www.gotab.cn](https://www.gotab.cn)
 - 项目预览：[https://nav.gotab.cn](https://nav.gotab.cn)
-- GitHub：[https://github.com/zhujin910/go-nav-main](https://github.com/zhujin910/go-nav-main)
+- GitHub：[https://github.com/dengxiwang/go-nav](https://github.com/dengxiwang/go-nav)
 
 ## 功能特性
 
@@ -157,6 +157,7 @@ pnpm build:static
 ```
 
 如果需要使用本地图片，把文件放入 `uploads/`，配置中填写：
+如果需要本地图片，请将文件放入 `uploads/` 并在配置文件中填写：
 
 ```text
 /uploads/图片文件名.png
@@ -208,15 +209,15 @@ server {
 
     location / {
         try_files $uri $uri/ /index.html;
-    }
+    }  }"
 
     location = /nav.json {
         add_header Cache-Control "no-cache, no-store, must-revalidate" always;
-    }
+    }  }"
 
     location = /website.json {
         add_header Cache-Control "no-cache, no-store, must-revalidate" always;
-    }
+    }  }"
 }
 ```
 
@@ -260,6 +261,7 @@ pnpm build:html
 ## Server 模式
 
 Server 模式包含完整后台、API、登录、上传和备份功能。
+服务器模式包含完整的后台、API、登录、上传和备份功能。
 
 ### 本地开发
 
@@ -396,7 +398,7 @@ data/
 ├── nav.json
 ├── website.json
 ├── submissions.json
-└── uploads/
+└── uploads/  └── 上传/
 ```
 
 ### `nav.json`
@@ -464,8 +466,10 @@ data/
 | `ADMIN_PASS`           | `admin123`           | Server 模式后台密码                    |
 | `SESSION_SECRET`       | 自动生成或运行时生成 | 登录 Session 密钥                      |
 | `DATA_DIR`             | `./data`             | Server 模式和构建时的数据目录          |
+| `DATA_DIR`             | `./data`             | 服务器模式和构建时的数据目录          |
 | `DATA_FILE_FORMAT`     | `json`               | 配置文件优先格式，可选 `json` / `yaml` |
 | `NEXT_PUBLIC_SITE_URL` | -                    | 用于生成 sitemap 的网站地址            |
+| `NEXT_PUBLIC_SITE_URL` | -                    | 用于生成 sitemap 的网站地址          |
 | `PORT`                 | `3000`               | Docker Compose 宿主机映射端口          |
 
 HTML 和 Static 模式没有服务端登录与请求校验能力，因此后台登录和前台访问密码保护均不可用，`ADMIN_USER`、`ADMIN_PASS` 和 `SESSION_SECRET` 对它们无效。
@@ -551,6 +555,5 @@ HTML 模式是纯静态网站，浏览器没有服务器文件系统写入权限
 如果这个项目帮到了你，欢迎扫码支持。
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; width: fit-content; gap: 16px;">
-  <img src="https://www.gotab.cn/images/wxpay.JPG" alt="微信捐赠二维码" width="180">
-  <img src="https://www.gotab.cn/images/alipay.JPG" alt="支付宝捐赠二维码" width="180">
+
 </div>
