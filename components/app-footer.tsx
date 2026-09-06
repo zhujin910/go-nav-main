@@ -95,7 +95,7 @@ export const AppFooter = memo(function AppFooter({
 						<span className="inline-flex items-center gap-1 text-xs">
 							Powered by
 							<Link
-								href="https://github.com/dengxiwang/go-nav"
+								href="https://github.com/zhujin910/go-nav-main"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-xs font-semibold no-underline [@media(hover:hover)]:hover:underline [@media(hover:hover)]:hover:text-primary"

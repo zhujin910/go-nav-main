@@ -135,10 +135,10 @@ export function LoginForm({
 			<p className="text-center text-xs mt-6 font-medium">
 				基于开源项目：
 				<Link
-					href="https://github.com/dengxiwang/go-nav"
+						href="https://github.com/zhujin910/go-nav-main"
 					className="text-xs text-primary"
 				>
-					github.com/dengxiwang/go-nav
+						github.com/zhujin910/go-nav-main
 					<Link.Icon />
 				</Link>
 			</p>

@@ -110,10 +110,10 @@ export default async function AdminLoginPage() {
 					{/* 3. 底部 */}
 					<div className="relative z-10 flex items-center justify-between text-xs text-default-500">
 						<Link
-							href="https://github.com/dengxiwang/go-nav"
+							href="https://github.com/zhujin910/go-nav-main"
 							className="inline-flex items-center text-xs text-default-600 hover:text-default-900"
 						>
-							github.com/dengxiwang/go-nav
+							github.com/zhujin910/go-nav-main
 						</Link>
 						<span>{nav.copyright}</span>
 					</div>

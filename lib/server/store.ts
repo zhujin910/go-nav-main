@@ -42,7 +42,7 @@ export const DEFAULT_NAV: NavConfig = {
 		},
 		{
 			label: "作者 GitHub",
-			href: "https://github.com/dengxiwang/go-nav",
+			href: "https://github.com/zhujin910/go-nav-main",
 		},
 		{
 			label: " GoTab 新标签页",

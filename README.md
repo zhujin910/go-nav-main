@@ -20,7 +20,7 @@ Go Nav 既可以作为带登录后台的 Node.js 应用运行，也可以打包�
 
 - 官网：[https://www.gotab.cn](https://www.gotab.cn)
 - 项目预览：[https://nav.gotab.cn](https://nav.gotab.cn)
-- GitHub：[https://github.com/dengxiwang/go-nav](https://github.com/dengxiwang/go-nav)
+- GitHub：[https://github.com/zhujin910/go-nav-main](https://github.com/zhujin910/go-nav-main)
 
 ## 功能特性
 
@@ -49,6 +49,22 @@ Go Nav 既可以作为带登录后台的 Node.js 应用运行，也可以打包�
 
 > `build:html` 和 `build:static` 都会生成纯静态文件，但两者的数据加载方式不同：HTML 模式在浏览器运行时读取 JSON；Static 模式把数据固化在构建产物中。
 
+### 安装环境要求
+
+构建和 Server 模式需要：
+
+- Node.js `22.13.0` 或更高版本
+- pnpm `11.20.0`（项目已通过 `packageManager` 固定）
+- Docker 部署需要 Docker Desktop 或 Docker Engine
+
+Windows、macOS 和 Linux 可以使用 Corepack 启用项目指定的 pnpm：
+
+```bash
+corepack enable
+corepack prepare pnpm@11.20.0 --activate
+pnpm install --frozen-lockfile
+```
+
 ## HTML 运行时配置模式（推荐）
 
 HTML 模式是面向静态分发的新打包方式。构建者需要 Node.js 和 pnpm，但生成的 `web/` 不再依赖 Node.js；拿到成品的使用者只需要一个普通静态文件服务器。
@@ -56,8 +72,8 @@ HTML 模式是面向静态分发的新打包方式。构建者需要 Node.js 和
 ### 1. 构建可分发成品
 
 ```bash
-git clone https://github.com/dengxiwang/go-nav.git
-cd go-nav
+git clone https://github.com/zhujin910/go-nav-main.git
+cd go-nav-main
 pnpm install
 pnpm build:html
 ```
@@ -248,8 +264,8 @@ Server 模式包含完整后台、API、登录、上传和备份功能。
 ### 本地开发
 
 ```bash
-git clone https://github.com/dengxiwang/go-nav.git
-cd go-nav
+git clone https://github.com/zhujin910/go-nav-main.git
+cd go-nav-main
 pnpm install
 cp .env.example .env.local
 pnpm dev
@@ -413,10 +429,10 @@ data/
 			"icon": "⚙️",
 			"description": "常用工具集合",
 			"sites": [
-				{
-					"title": "Go Nav",
-					"description": "导航站项目",
-					"url": "https://github.com/dengxiwang/go-nav",
+        {
+          "title": "Go Nav",
+          "description": "导航站项目",
+          "url": "https://github.com/zhujin910/go-nav-main",
 					"icon": "/images/logo.svg",
 					"previewImage": "/uploads/go-nav-cover.webp",
 					"previewImages": [

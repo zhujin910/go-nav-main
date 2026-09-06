@@ -3,6 +3,9 @@
   "version": "2.2.2",
   "private": true,
   "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=22.13.0"
+  },
   "scripts": {
     "dev": "next dev",
     "dev:static": "BUILD_MODE=static next dev",

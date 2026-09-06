@@ -28,7 +28,7 @@
     },
     {
       "label": "作者 GitHub",
-      "href": "https://github.com/dengxiwang/go-nav"
+      "href": "https://github.com/zhujin910/go-nav-main"
     },
     {
       "label": " GoTab 新标签页",
@@ -382,7 +382,7 @@
         "title": "欢迎使用 Go Nav",
         "description": "简洁高效的网址导航站，支持多种部署方式",
         "image": "https://picsum.photos/1200/400?random=1",
-        "url": "https://github.com/dengxiwang/go-nav",
+        "url": "https://github.com/zhujin910/go-nav-main",
         "buttonText": "了解更多",
         "textColor": "light",
         "overlay": 0.4,
@@ -411,7 +411,7 @@
         "title": "完全开源免费",
         "description": "基于 MIT 协议开源，可自由使用、修改和商用",
         "image": "https://picsum.photos/1200/400?random=3",
-        "url": "https://github.com/dengxiwang/go-nav",
+        "url": "https://github.com/zhujin910/go-nav-main",
         "buttonText": "GitHub 仓库",
         "textColor": "dark",
         "overlay": 0.2,
