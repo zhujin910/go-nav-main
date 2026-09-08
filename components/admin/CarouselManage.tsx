@@ -32,8 +32,8 @@ export default function CarouselManage() {
 			const url = await uploadImageWithCompression(file, {
 				maxEdge: 1920,
 				quality: 0.84,
-				compress: config.imageUpload?.compress === true,
-				forceWebp: config.imageUpload?.convertToWebp === true,
+				compress: config.imageUpload?.compress !== false,
+				forceWebp: config.imageUpload?.convertToWebp !== false,
 				fileNamePrefix: "carousel",
 			});
 			updateItem(index, "image", url);

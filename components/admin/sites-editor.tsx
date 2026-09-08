@@ -607,9 +607,10 @@ function PreviewImagePicker({
 		setUploading(true);
 		try {
 			const url = await uploadImageWithCompression(f, {
+							maxEdge: 1600,
 				quality: 0.84,
-				compress: nav.imageUpload?.compress === true,
-				forceWebp: nav.imageUpload?.convertToWebp === true,
+							compress: nav.imageUpload?.compress !== false,
+							forceWebp: nav.imageUpload?.convertToWebp !== false,
 				fileNamePrefix: "preview",
 			});
 			onChange(url);
@@ -747,9 +748,10 @@ function DetailPreviewImagesPicker({
 		try {
 			for (const file of selectedFiles) {
 				const url = await uploadImageWithCompression(file, {
+								maxEdge: 1600,
 					quality: 0.84,
-					compress: nav.imageUpload?.compress === true,
-					forceWebp: nav.imageUpload?.convertToWebp === true,
+								compress: nav.imageUpload?.compress !== false,
+								forceWebp: nav.imageUpload?.convertToWebp !== false,
 					fileNamePrefix: "detail-preview",
 				});
 				uploaded.push(url);

@@ -40,7 +40,7 @@ export const SiteGrid = memo(function SiteGrid({
 			style={{ padding: `8px ${cards.padding}` }}
 		>
 			<div
-				className="site-card-grid grid gap-3"
+				className={`site-card-grid grid gap-3 ${isSubcategory ? "site-card-grid--subcategory" : ""}`}
 				style={{
 					gridTemplateColumns: columns
 						? `repeat(${columns}, minmax(0, 1fr))`

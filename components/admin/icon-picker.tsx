@@ -88,8 +88,8 @@ export function IconPicker({
 			const url = await uploadImageWithCompression(f, {
 				maxEdge: 512,
 				quality: 0.82,
-				compress: nav.imageUpload?.compress === true,
-				forceWebp: nav.imageUpload?.convertToWebp === true,
+					compress: nav.imageUpload?.compress !== false,
+					forceWebp: nav.imageUpload?.convertToWebp !== false,
 				fileNamePrefix: uploadPrefix,
 			});
 			onChange(url);

@@ -1507,6 +1507,19 @@ body::after {
 	.site-card-grid-shell {
 		padding-inline: 0.25rem !important;
 	}
+
+	.site-card-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+		gap: 0.6rem;
+	}
+
+	.site-card-grid > * {
+		min-width: 0;
+	}
+
+	.site-card-surface {
+		max-width: 100%;
+	}
 }
 
 .site-home-theme--glass .site-layout-content,
@@ -1857,6 +1870,19 @@ svg:not([height]) {
 
 .hero-banner .swiper-slide-active .carousel-banner__image--dynamic {
 	animation: carousel-banner-image-drift 5s ease-out both;
+}
+
+@media (max-width: 639px) {
+	.hero-banner {
+		height: auto !important;
+		aspect-ratio: 2 / 1;
+	}
+
+	.hero-banner .swiper,
+	.hero-banner .swiper-wrapper,
+	.hero-banner .swiper-slide {
+		height: 100%;
+	}
 }
 
 @media (prefers-reduced-motion: reduce) {

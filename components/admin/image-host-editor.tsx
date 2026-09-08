@@ -744,7 +744,7 @@ export function ImageHostEditor() {
 										<span className="text-sm">上传时压缩图片</span>
 									</AdminSwitch>
 									<p className="text-xs text-default-500">
-										默认关闭。开启后会对图标、预览图和自动抓取的图片执行尺寸与体积优化；关闭时保留原始文件内容。
+										默认开启。会对图标、预览图和自动抓取的图片执行尺寸与体积优化；关闭时保留原始文件内容。
 									</p>
 								</div>
 								<div className="flex flex-col gap-2">

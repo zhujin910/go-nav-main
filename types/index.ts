@@ -138,13 +138,13 @@ export type HomeThemeStyle =
 export interface ImageUploadConfig {
 	/**
 	 * 是否压缩可安全重编码的图片
-	 * - 默认关闭：保留上传文件的原始内容
+	 * - 默认开启：按场景缩放并优化体积；显式设置为 false 时保留原始内容
 	 * - 开启后：图标、预览图与远程抓取图片会按场景缩放并优化体积
 	 */
 	compress?: boolean;
 	/**
 	 * 是否尽量统一转换成 WebP
-	 * - 开启后：手动上传、远程抓取 favicon 等场景会优先转为 webp
+	 * - 默认开启：手动上传、远程抓取 favicon 等场景会优先转为 webp
 	 * - 适用于 png / jpg / webp / svg
 	 */
 	convertToWebp?: boolean;
