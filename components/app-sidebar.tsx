@@ -38,7 +38,7 @@ export const AppSidebar = memo(function AppSidebar({
 
 	return (
 		<aside
-			className="sticky top-16 hidden h-[calc(100dvh-4rem)] shrink-0 overflow-y-auto overscroll-none md:flex md:flex-col"
+			className="sticky top-16 hidden h-[calc(100dvh-4rem)] shrink-0 overflow-y-auto overscroll-none lg:flex lg:flex-col"
 			style={{ width }}
 		>
 			<div className="flex-1 min-h-0 overflow-y-auto">

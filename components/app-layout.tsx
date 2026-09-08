@@ -124,8 +124,8 @@ export function AppLayout({
 				)}
 
 				<div
-					className={`site-layout-content mx-auto flex min-w-0 flex-1 flex-col w-full px-(--content-pad-mobile) md:pl-(--content-pad-left) md:pr-(--content-pad-right) ${
-						!layout.showSearch && hasDesktopSidebar ? "md:-mt-12" : ""
+					className={`site-layout-content mx-auto flex min-w-0 flex-1 flex-col w-full px-(--content-pad-mobile) lg:pl-(--content-pad-left) lg:pr-(--content-pad-right) ${
+						!layout.showSearch && hasDesktopSidebar ? "lg:-mt-12" : ""
 					}`}
 					style={appShellStyle}
 				>

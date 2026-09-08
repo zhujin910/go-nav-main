@@ -1474,6 +1474,41 @@ body::after {
 	.floating-actions--rail { right: 0.35rem; }
 }
 
+@media (max-width: 1023px) {
+	.site-layout-content {
+		padding-inline: clamp(0.75rem, 3vw, 1.5rem) !important;
+	}
+
+	.site-layout-main {
+		padding-bottom: max(2rem, env(safe-area-inset-bottom));
+	}
+
+	.category-anchor {
+		border-radius: 0.9rem;
+	}
+}
+
+@media (max-width: 639px) {
+	.site-layout-header {
+		gap: 0.5rem;
+		padding-inline: 0.75rem;
+	}
+
+	.site-layout-header .search-bar,
+	.site-layout-header [data-search-bar] {
+		min-width: 0;
+	}
+
+	.site-home-theme--classic .category-anchor,
+	.site-home-theme--editorial .category-anchor {
+		padding-inline: 0.75rem;
+	}
+
+	.site-card-grid-shell {
+		padding-inline: 0.25rem !important;
+	}
+}
+
 .site-home-theme--glass .site-layout-content,
 .site-home-theme--glass-aurora .site-layout-content,
 .site-home-theme--glass-ice .site-layout-content,

@@ -56,12 +56,12 @@ export const AppHeader = memo(function AppHeader({
 					isIconOnly
 					aria-label="打开菜单"
 					aria-haspopup="dialog"
-					className="shrink-0 touch-manipulation select-none shadow bg-(--primary-foreground) md:hidden"
+					className="shrink-0 touch-manipulation select-none shadow bg-(--primary-foreground) lg:hidden"
 					onPressStart={onMenuOpen}
 				>
 					<BiMenuAltLeft className="scale-150" />
 				</Button>
-				<div className={`max-md:hidden relative flex min-w-0 items-center gap-2 ${brandShellClass}`}>
+				<div className={`max-[639px]:hidden relative flex min-w-0 items-center gap-2 ${brandShellClass}`}>
 					{logoSrc ? (
 						// eslint-disable-next-line @next/next/no-img-element
 						<img
