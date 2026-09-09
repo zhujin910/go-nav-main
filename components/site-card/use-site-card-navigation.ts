@@ -1,8 +1,7 @@
 "use client";
 
 import { useCallback, useMemo, type MouseEvent } from "react";
-import type { LayoutConfig, NavSite } from "@/types";
-import { recordVisit } from "@/hooks/use-recent-visits";
+import type { LayoutConfig } from "@/types";
 import {
 	getPreferredSiteHref,
 	openSiteWithPreference,
@@ -15,13 +14,11 @@ import type { SiteCardData, SiteCardNavigationModel } from "./site-card.types";
 
 export function useSiteCardNavigation({
 	site,
-	trackVisit,
 	categoryId,
 	layout,
 	siteLinkMode,
 }: {
 	site: SiteCardData;
-	trackVisit: boolean;
 	categoryId?: string;
 	layout?: Required<LayoutConfig>;
 	siteLinkMode: SiteLinkMode;
@@ -53,14 +50,10 @@ export function useSiteCardNavigation({
 				event.metaKey || event.ctrlKey || event.shiftKey || event.altKey;
 
 			if (isModifiedClick) {
-				if (trackVisit) recordVisit(site as NavSite);
 				return;
 			}
 
 			event.preventDefault();
-			if (trackVisit) {
-				recordVisit(site as NavSite);
-			}
 			void openSiteWithPreference(site, {
 				linkTarget: layout?.linkTarget,
 				autoUseIntranet: layout?.autoUseIntranet,
@@ -70,7 +63,6 @@ export function useSiteCardNavigation({
 			layout?.autoUseIntranet,
 			layout?.linkTarget,
 			site,
-			trackVisit,
 			categoryId,
 			useDetailPage,
 		],
@@ -84,9 +76,6 @@ export function useSiteCardNavigation({
 			event.preventDefault();
 			trackAnalyticsVisit(site.url, site.title, categoryId);
 			void fetch("/api/stats", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ type: "click", websiteId: site.url }) }).catch(() => undefined);
-			if (trackVisit) {
-				recordVisit(site as NavSite);
-			}
 			void openSiteWithPreference(
 				site,
 				{
@@ -100,7 +89,6 @@ export function useSiteCardNavigation({
 			layout?.autoUseIntranet,
 			layout?.linkTarget,
 			site,
-			trackVisit,
 			categoryId,
 			useDetailPage,
 		],

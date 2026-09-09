@@ -5,7 +5,6 @@ import { useCallback } from "react";
 import { BiArrowBack, BiLinkExternal } from "react-icons/bi";
 import { useRouter } from "next/navigation";
 import type { LayoutConfig } from "@/types";
-import { recordVisit } from "@/hooks/use-recent-visits";
 import { openSiteWithPreference } from "@/lib/client/site-link";
 import { requestHomeRestore } from "@/lib/client/home-restore";
 import { withAuthorBaiduTracking } from "@/lib/external-url";
@@ -37,7 +36,6 @@ export function SiteDetailPage({
 	}, [router]);
 
 	const handleVisit = useCallback(() => {
-		recordVisit(site);
 		void openSiteWithPreference(site, {
 			linkTarget: layout.linkTarget,
 			autoUseIntranet: layout.autoUseIntranet,

@@ -2,12 +2,12 @@ const DONATION_QR_CODES = [
 	{
 		title: "微信",
 		subtitle: "微信支付",
-		src: "https://www.gotab.cn/images/wxpay.JPG",
+		src: "",
 	},
 	{
 		title: "支付宝",
 		subtitle: "支付宝",
-		src: "https://www.gotab.cn/images/alipay.JPG",
+		src: "",
 	},
 ] as const;
 
@@ -16,7 +16,7 @@ export function DonationEditor() {
 		<div className="mx-auto flex w-full max-w-2xl flex-col items-center gap-8 py-6">
 			<div className="text-center">
 				<h3 className="text-lg font-semibold text-gray-950 dark:text-neutral-50">
-					支持 Go Nav 持续维护
+					支持 项目 持续维护
 				</h3>
 				<p className="mt-2 text-sm text-gray-500 dark:text-neutral-400">
 					如果这个项目节省了你的时间，欢迎打赏支持。每一份支持都会变成继续迭代的动力。

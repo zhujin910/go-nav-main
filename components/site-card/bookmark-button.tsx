@@ -17,7 +17,12 @@ export function BookmarkButton({ site }: { site: SiteCardData }) {
 		return () => window.removeEventListener("go-nav-bookmarks-update", handleUpdate);
 	}, [site]);
 
-	const handlePress = () => {
+	const handleClick = (event: {
+		preventDefault: () => void;
+		stopPropagation: () => void;
+	}) => {
+		event.preventDefault();
+		event.stopPropagation();
 		const nextSaved = toggleBookmark(site);
 		setSaved(nextSaved);
 	};
@@ -30,10 +35,11 @@ export function BookmarkButton({ site }: { site: SiteCardData }) {
 			variant="tertiary"
 			aria-label={saved ? "已收藏" : "未收藏"}
 			aria-pressed={saved}
-			className="pointer-events-auto absolute top-2 right-2 z-20 size-8 rounded-full border border-white/60 bg-white/85 text-zinc-600 opacity-80 shadow-sm backdrop-blur transition hover:scale-105 hover:bg-white hover:text-primary focus-visible:opacity-100 dark:border-white/15 dark:bg-zinc-900/80 dark:text-zinc-300 dark:hover:bg-zinc-800"
-			onPress={handlePress}
+			className="pointer-events-auto absolute top-2 right-2 z-30 flex size-9 items-center justify-center rounded-full border border-zinc-200/90 bg-white/95 text-zinc-700 opacity-100 shadow-[0_3px_10px_rgba(15,23,42,0.16)] backdrop-blur transition hover:scale-105 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500 dark:border-white/20 dark:bg-zinc-900/95 dark:text-zinc-200 dark:hover:border-amber-400/60 dark:hover:bg-amber-950/60 dark:hover:text-amber-300"
+			onPointerDown={(event) => event.stopPropagation()}
+			onClick={handleClick}
 		>
-			<BiBookmark className={`size-4 ${saved ? "fill-current text-primary" : ""}`} />
+			<BiBookmark className={`size-5 ${saved ? "fill-current text-amber-500" : ""}`} />
 		</Button>
 	);
 }

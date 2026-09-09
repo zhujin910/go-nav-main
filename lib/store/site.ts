@@ -232,13 +232,6 @@ export const homeAdsMobileVisibleCountAtom = atom((get) =>
 export const homeAdsMobileGapAtom = atom((get) =>
 	resolveHomeAdsMobileGap(get(siteNavAtom).homeAdsMobileGap),
 );
-export const showRecentVisitsAtom = atom(
-	(get) => get(siteNavAtom).showRecentVisits !== false,
-);
-export const recentVisitsMaxAtom = atom(
-	(get) => get(siteNavAtom).recentVisitsMax ?? 20,
-);
-
 export const widgetsAtom = atom((get) => get(siteNavAtom).widgets ?? {});
 
 export const showSubcategoryTabsAtom = atom(

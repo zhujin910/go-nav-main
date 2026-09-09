@@ -1,11 +1,9 @@
 "use client";
 
 import {
-	useEffect,
 	useLayoutEffect,
 	useMemo,
 	useRef,
-	useState,
 	type SetStateAction,
 } from "react";
 import type { NavCategory } from "@/types";
@@ -33,8 +31,6 @@ export function useHomeRouteState({
 	detailSlugOverride?: string | null;
 	setActiveId: (value: SetStateAction<string | undefined>) => void;
 }) {
-	const [disableRecentVisitsEntrance, setDisableRecentVisitsEntrance] =
-		useState(false);
 	const restoredFromDetailRef = useRef(false);
 
 	const detailSlug = useMemo(() => {
@@ -78,7 +74,6 @@ export function useHomeRouteState({
 		}
 
 		restoredFromDetailRef.current = true;
-		setDisableRecentVisitsEntrance(true);
 
 		const snapshot = readHomeSnapshot();
 		if (!snapshot) return;
@@ -173,14 +168,7 @@ export function useHomeRouteState({
 		}
 	}, [categories, isHomeRoute, setActiveId]);
 
-	useEffect(() => {
-		if (!isHomeRoute) {
-			setDisableRecentVisitsEntrance(false);
-		}
-	}, [isHomeRoute]);
-
 	return {
-		disableRecentVisitsEntrance,
 		isDetailRoute,
 		selectedEntry,
 	};

@@ -668,10 +668,6 @@ export interface NavConfig {
 	sidebarAdsVisibleCount?: number;
 	/** @deprecated 旧版全局广告开关，仅用于兼容已有配置 */
 	showAds?: boolean;
-	/** 是否显示最近访问 */
-	showRecentVisits?: boolean;
-	/** 最近访问最大显示条数 */
-	recentVisitsMax?: number;
 	/** 图片上传处理策略 */
 	imageUpload?: ImageUploadConfig;
 	/** 自定义代码插件列表（自定义 CSS / JS 注入） */

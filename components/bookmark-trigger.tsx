@@ -17,7 +17,8 @@ export function BookmarkTrigger({ compact = false }: { compact?: boolean }) {
 			aria-label={`打开收藏${bookmarks.length > 0 ? `，${bookmarks.length} 个收藏` : ""}`}
 			aria-expanded={open}
 			className={compact ? "w-full justify-start gap-2 rounded-xl px-3" : "relative"}
-			onPress={() => setOpen(true)}
+			type="button"
+			onClick={() => setOpen(true)}
 		>
 			<BiBookmarkHeart className="size-5 shrink-0" />
 			{compact ? <span className="flex-1 text-left">我的收藏</span> : null}

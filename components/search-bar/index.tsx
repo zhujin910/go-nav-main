@@ -3,7 +3,6 @@
 import type { Key } from "@heroui/react";
 import { Label, SearchField } from "@heroui/react";
 import { useState, type CSSProperties } from "react";
-import { recordVisit } from "@/hooks/use-recent-visits";
 import { openSiteWithPreference } from "@/lib/client/site-link";
 import { withAuthorBaiduTracking } from "@/lib/external-url";
 import type { HeaderEngineState, HeaderSearchConfig } from "../header.types";
@@ -98,7 +97,6 @@ export function SearchBar({
 	};
 
 	const openLocalResult = (site: (typeof results)[number]) => {
-		recordVisit(site);
 		void openSiteWithPreference(site, {
 			linkTarget: layout?.linkTarget,
 			autoUseIntranet: layout?.autoUseIntranet,

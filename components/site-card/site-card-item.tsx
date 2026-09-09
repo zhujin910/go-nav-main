@@ -184,20 +184,17 @@ function MosaicSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 
 export const SiteCard = memo(function SiteCard({
 	site,
-	trackVisit = true,
 	categoryId,
 	layout,
 	siteLinkMode,
 }: {
 	site: SiteCardData;
-	trackVisit?: boolean;
 	categoryId?: string;
 	layout?: Required<LayoutConfig>;
 	siteLinkMode: SiteLinkMode;
 }) {
 	const navigation = useSiteCardNavigation({
 		site,
-		trackVisit,
 		categoryId,
 		layout,
 		siteLinkMode,

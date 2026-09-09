@@ -41,7 +41,16 @@ function appendToCategory(categories: NavCategory[], categoryId: string, sites: 
 	return categories.map((category) => {
 		if (category.id === categoryId) {
 			const existing = new Set((category.sites ?? []).map((site) => site.url));
-			const additions: NavSite[] = sites.filter((site) => !existing.has(site.url)).map(({ categoryId: _id, categoryName: _name, selected: _selected, importError: _error, ...site }) => site);
+			const additions: NavSite[] = sites
+				.filter((site) => !existing.has(site.url))
+				.map((site) => {
+					const cleanSite = { ...site } as SiteImportCandidate & Partial<NavSite>;
+					delete cleanSite.categoryId;
+					delete cleanSite.categoryName;
+					delete cleanSite.selected;
+					delete cleanSite.importError;
+					return cleanSite as NavSite;
+				});
 			return { ...category, sites: [...(category.sites ?? []), ...additions] };
 		}
 		return { ...category, children: category.children ? appendToCategory(category.children, categoryId, sites) : category.children };

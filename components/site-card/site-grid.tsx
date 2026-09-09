@@ -9,7 +9,6 @@ import { useSiteGridBatch } from "./use-site-grid-batch";
 export const SiteGrid = memo(function SiteGrid({
 	sites,
 	cards,
-	trackVisit = true,
 	categoryId,
 	layout,
 	isSubcategory = false,
@@ -52,7 +51,6 @@ export const SiteGrid = memo(function SiteGrid({
 					<SiteCard
 						key={displayedKeys[index]}
 						site={site}
-						trackVisit={trackVisit}
 						categoryId={categoryId}
 						layout={layout}
 						siteLinkMode={siteLinkMode}

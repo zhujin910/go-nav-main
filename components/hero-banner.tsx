@@ -153,7 +153,7 @@ export function HeroBanner({
 				onActiveIndexChange={updateActiveIndex}
 				onRealIndexChange={updateActiveIndex}
 			>
-				{slides.map((slide, index) => (
+				{slides.map((slide) => (
 					<SwiperSlide key={slide.id} className="h-full">
 						<HeroSlideCard slide={slide} />
 					</SwiperSlide>

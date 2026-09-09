@@ -22,7 +22,6 @@ import type {
 	BrandStyle,
 	CardStyle,
 	CategoryListStyle,
-	CustomThemeConfig,
 	FloatingActionStyle,
 	FloatingActionLayout,
 	HomeThemeStyle,
@@ -38,7 +37,6 @@ import type {
 import {
 	THEME_BACKGROUND_PRESETS,
 	THEME_GRADIENT_PRESETS,
-	resolveThemeBackgroundValue,
 } from "@/lib/theme-presets";
 import { useAtom, useSetAtom } from "jotai";
 import { useEffect, useState } from "react";
@@ -55,7 +53,6 @@ export type WebsiteSection =
 	| "access"
 	| "ai";
 
-const DEFAULT_RECENT_VISITS_MAX = 10;
 
 const THEME_TEXT_PRESETS = [
 	{ id: "executive", name: "商务典藏", fontFamily: "Microsoft YaHei, sans-serif", titleFontFamily: "Georgia, serif", color: "#1e293b", titleColor: "#0f172a", mutedColor: "#64748b", linkColor: "#1d4ed8", fontSize: 14, titleSize: 24, mutedSize: 12, fontWeight: 400, titleWeight: 700, lineHeight: 1.6, letterSpacing: 0, titleLetterSpacing: 2, textShadow: "none", titleShadow: "0 2px 10px rgba(15,23,42,0.12)" },
@@ -78,8 +75,6 @@ export function WebsiteEditor({
 }) {
 	const [value, setValue] = useAtom(navAtom);
 	const setLayout = useSetAtom(navFieldAtom("layout"));
-	const setShowRecentVisits = useSetAtom(navFieldAtom("showRecentVisits"));
-	const setRecentVisitsMax = useSetAtom(navFieldAtom("recentVisitsMax"));
 	const patch = (p: Partial<NavConfig>) => {
 		setValue({ ...value, ...p });
 	};
@@ -89,10 +84,6 @@ export function WebsiteEditor({
 			<LayoutEditor
 				layout={value.layout}
 				onChange={setLayout}
-				showRecentVisits={value.showRecentVisits}
-				onShowRecentVisitsChange={setShowRecentVisits}
-				recentVisitsMax={value.recentVisitsMax}
-				onRecentVisitsMaxChange={setRecentVisitsMax}
 			/>
 		);
 	}
@@ -777,7 +768,9 @@ function ThemeEditor({
 					});
 				};
 				const applyTextPreset = (preset: (typeof THEME_TEXT_PRESETS)[number]) => {
-					const { id: _id, name: _name, ...presetStyle } = preset;
+					const presetStyle = Object.fromEntries(
+						Object.entries(preset).filter(([key]) => key !== "id" && key !== "name"),
+					);
 					onPatch({
 						customTheme: {
 							...(value.customTheme ?? {}),
@@ -1458,17 +1451,9 @@ function FooterEditor({
 function LayoutEditor({
 	layout,
 	onChange,
-	showRecentVisits,
-	onShowRecentVisitsChange,
-	recentVisitsMax,
-	onRecentVisitsMaxChange,
 }: {
 	layout?: LayoutConfig;
 	onChange: (v: LayoutConfig) => void;
-	showRecentVisits?: boolean;
-	onShowRecentVisitsChange: (value: boolean) => void;
-	recentVisitsMax?: number;
-	onRecentVisitsMaxChange: (value: number | undefined) => void;
 }) {
 	const l = layout ?? {};
 	const patch = (p: Partial<LayoutConfig>) => onChange({ ...l, ...p });
@@ -1524,11 +1509,8 @@ function LayoutEditor({
 	type ToggleItem = {
 		label: string;
 		disabled?: boolean;
-	} &
-		(
-			| { kind?: "layout"; key: keyof LayoutConfig }
-			| { kind: "recentVisits"; key: "showRecentVisits" }
-		);
+		key: keyof LayoutConfig;
+	};
 
 	const displayToggleItems: ToggleItem[] = [
 		{ label: "显示左侧侧边栏（桌面端）", key: "showSidebar" },
@@ -1560,11 +1542,6 @@ function LayoutEditor({
 			label: "浮动按钮显示二维码入口",
 			key: "showFloatingQrCode",
 			disabled: !getLayoutValue("showFloatingActions"),
-		},
-		{
-			kind: "recentVisits",
-			label: "显示最近访问",
-			key: "showRecentVisits",
 		},
 	];
 
@@ -1662,20 +1639,13 @@ function LayoutEditor({
 	) => (
 		<div className="grid grid-cols-1 gap-4 md:grid-cols-2">
 			{items.map((item) => {
-				const isRecentVisits = item.kind === "recentVisits";
-				const cur = isRecentVisits
-					? showRecentVisits !== false
-					: getToggleValue(item.key);
+				const cur = getToggleValue(item.key);
 				return (
 					<AdminSwitch
 						key={item.key}
 						isSelected={cur}
 						isDisabled={item.disabled}
 						onChange={(value) => {
-							if (isRecentVisits) {
-								onShowRecentVisitsChange(value);
-								return;
-							}
 							patchToggle(item.key, value);
 						}}
 					>
@@ -1845,36 +1815,6 @@ function LayoutEditor({
 					显示项
 				</h4>
 				{renderToggleGroup(displayToggleItems)}
-
-				<div className="flex flex-wrap items-center gap-3">
-					<span className="text-sm">最近访问最大条数</span>
-					<TextField
-						className="w-28"
-						value={
-							recentVisitsMax === undefined ? "" : String(recentVisitsMax)
-						}
-						onChange={(value) => {
-							const digits = value.replace(/\D/g, "");
-							if (!digits) {
-								onRecentVisitsMaxChange(undefined);
-								return;
-							}
-							const parsed = Number.parseInt(digits, 10);
-							onRecentVisitsMaxChange(
-								Number.isFinite(parsed) && parsed > 0 ? parsed : undefined,
-							);
-						}}
-					>
-						<Label className="sr-only">recentVisitsMax</Label>
-						<Input
-							inputMode="numeric"
-							placeholder={String(DEFAULT_RECENT_VISITS_MAX)}
-						/>
-					</TextField>
-					<span className="text-xs text-default-500">
-						留空或 0 使用默认值 {DEFAULT_RECENT_VISITS_MAX}
-					</span>
-				</div>
 			</div>
 
 			<Separator />

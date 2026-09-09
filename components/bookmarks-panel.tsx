@@ -3,6 +3,8 @@
 import { Button } from "@heroui/react";
 import { useAtom } from "jotai";
 import { BiBookmark, BiX } from "react-icons/bi";
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { bookmarksPanelOpenAtom } from "@/lib/store/site";
 import { useBookmarks } from "@/hooks/use-bookmarks";
 import { SiteIcon } from "./site-icon";
@@ -10,18 +12,24 @@ import { SiteIcon } from "./site-icon";
 export function BookmarksPanel() {
 	const [open, setOpen] = useAtom(bookmarksPanelOpenAtom);
 	const { bookmarks, mounted, remove } = useBookmarks();
+	const [portalReady, setPortalReady] = useState(false);
 
-	if (!open) return null;
+	useEffect(() => {
+		setPortalReady(true);
+	}, []);
 
-	return (
+	if (!open || !portalReady) return null;
+
+	return createPortal(
+		(
 		<div className="fixed inset-0 z-[120]" role="dialog" aria-modal="true" aria-label="我的收藏">
 			<button
 				type="button"
 				aria-label="关闭收藏面板"
-				className="absolute inset-0 cursor-default bg-black/20 backdrop-blur-[2px]"
+				className="absolute inset-0 z-0 cursor-default bg-black/20 backdrop-blur-[2px]"
 				onClick={() => setOpen(false)}
 			/>
-			<aside className="absolute top-0 right-0 flex h-full w-full max-w-md flex-col border-l border-black/8 bg-(--primary-foreground) shadow-2xl dark:border-white/10">
+			<aside className="absolute top-0 right-0 z-10 flex h-full w-full max-w-md flex-col border-l border-black/8 bg-(--primary-foreground) shadow-2xl dark:border-white/10">
 				<header className="flex items-center justify-between border-b border-divider px-5 py-4">
 					<div>
 						<h2 className="text-base font-semibold">我的收藏</h2>
@@ -47,7 +55,7 @@ export function BookmarksPanel() {
 										<span className="min-w-0 flex-1 truncate text-sm font-medium">{site.title}</span>
 									</a>
 									<Button isIconOnly size="sm" variant="tertiary" aria-label={`取消收藏 ${site.title}`} onPress={() => remove(site)}>
-										<BiBookmark className="size-4 fill-current text-primary" />
+										<BiBookmark className="size-4 fill-current text-amber-500" />
 									</Button>
 								</div>
 							))}
@@ -56,5 +64,7 @@ export function BookmarksPanel() {
 				</div>
 			</aside>
 		</div>
+		),
+		document.body,
 	);
 }

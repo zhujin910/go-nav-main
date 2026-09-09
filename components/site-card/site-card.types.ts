@@ -38,7 +38,6 @@ export interface SiteGridProps {
 		height: string;
 		padding: string;
 	};
-	trackVisit?: boolean;
 	categoryId?: string;
 	layout?: Required<LayoutConfig>;
 	isSubcategory?: boolean;
