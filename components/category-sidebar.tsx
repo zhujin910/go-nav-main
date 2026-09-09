@@ -29,6 +29,7 @@ import {
 } from "@/lib/store/site";
 import { IconView } from "./icon-view";
 import { SubmissionSidebarButton } from "./submission-trigger";
+import { BookmarkTrigger } from "./bookmark-trigger";
 
 function countSites(category: NavCategory): number {
 	let count = category.sites?.length ?? 0;
@@ -349,6 +350,9 @@ export const CategorySidebar = memo(function CategorySidebar({
 					</SearchField>
 				</div>
 			)}
+			<div className="shrink-0 px-2 pb-2">
+				<BookmarkTrigger compact />
+			</div>
 			<div ref={listRef} className="flex-1 overflow-y-auto">
 				{filteredCategories.length === 0 ? (
 					<div className="flex items-center justify-center p-8">

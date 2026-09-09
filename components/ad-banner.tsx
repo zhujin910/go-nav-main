@@ -3,6 +3,7 @@
 import {
 	memo,
 	useCallback,
+	useEffect,
 	useRef,
 	useState,
 	type CSSProperties,
@@ -30,6 +31,9 @@ interface AdBannerProps {
 	aspectRatio?: string;
 	visibleCount?: number;
 	autoplayInterval?: number;
+	mobileAutoplayInterval?: number;
+	mobileVisibleCount?: number;
+	mobileGap?: number;
 	gap?: number;
 	placement?: AdDisplayPosition;
 	cardStyle?: CardStyle;
@@ -185,17 +189,28 @@ function AdBannerImpl({
 	aspectRatio = "16/9",
 	visibleCount = 1,
 	autoplayInterval = DEFAULT_AD_AUTOPLAY_INTERVAL,
+	mobileAutoplayInterval = DEFAULT_AD_AUTOPLAY_INTERVAL,
+	mobileVisibleCount = 1,
+	mobileGap = DEFAULT_HOME_AD_GAP,
 	gap: configuredGap = DEFAULT_HOME_AD_GAP,
 	placement = "sidebar",
 	cardStyle = "compact",
 }: AdBannerProps) {
 	const swiperRef = useRef<SwiperClass | null>(null);
 	const [activeIndex, setActiveIndex] = useState(0);
+	const [isMobile, setIsMobile] = useState(false);
+	useEffect(() => {
+		const media = window.matchMedia("(max-width: 767px)");
+		const sync = () => setIsMobile(media.matches);
+		sync();
+		media.addEventListener("change", sync);
+		return () => media.removeEventListener("change", sync);
+	}, []);
 	const total = ads.length;
 	const requestedVisibleCount =
 		placement === "sidebar"
 			? 1
-			: resolveAdVisibleCount(visibleCount);
+			: resolveAdVisibleCount(isMobile ? mobileVisibleCount : visibleCount);
 	const actualVisibleCount = Math.max(
 		1,
 		Math.min(requestedVisibleCount, total),
@@ -203,7 +218,10 @@ function AdBannerImpl({
 	const canNavigate = total > actualVisibleCount;
 	const initialVisibleStart = 0;
 	const initialVisibleEnd = actualVisibleCount;
-	const gap = placement === "sidebar" ? 8 : configuredGap;
+	const gap = placement === "sidebar" ? 10 : isMobile ? mobileGap : configuredGap;
+	const activeAutoplayInterval = isMobile
+		? mobileAutoplayInterval
+		: autoplayInterval;
 	const cardSurfaceClass =
 		cardStyle === "preview"
 			? PREVIEW_CARD_SURFACE_CLASS
@@ -235,6 +253,70 @@ function AdBannerImpl({
 	if (total === 0) return null;
 
 	if (placement === "home-top") {
+		if (isMobile) {
+			return (
+				<div
+					className="ad-carousel ad-carousel--home-mobile relative overflow-hidden rounded-xl"
+					data-gap={gap}
+					data-placement={placement}
+					data-visible-count={actualVisibleCount}
+					role="region"
+					aria-roledescription="carousel"
+					aria-label="推荐广告"
+				>
+					<Swiper
+						modules={[Autoplay, Keyboard]}
+						className="ad-carousel__swiper"
+						slidesPerView={actualVisibleCount}
+						spaceBetween={gap}
+						loop={canNavigate}
+						speed={500}
+						watchOverflow
+						grabCursor={canNavigate}
+						keyboard={{ enabled: true, onlyInViewport: true }}
+						autoplay={
+							canNavigate
+								? {
+									delay: activeAutoplayInterval,
+										disableOnInteraction: false,
+										pauseOnMouseEnter: true,
+									}
+								: false
+						}
+						onSwiper={(instance) => {
+							swiperRef.current = instance;
+							updateActiveIndex(instance);
+						}}
+						onActiveIndexChange={updateActiveIndex}
+						onRealIndexChange={updateActiveIndex}
+					>
+						{ads.map((ad, index) => (
+							<SwiperSlide key={`${ad.id}-${index}`}>
+								<AdCard
+									ad={ad}
+									aspectRatio={aspectRatio}
+									cardSurfaceClass={cardSurfaceClass}
+									imageRadiusClass={imageRadiusClass}
+									hasHoverShadow={false}
+									isAccessible
+									isEager={index === 0}
+									originalIndex={index}
+									total={total}
+								/>
+							</SwiperSlide>
+						))}
+					</Swiper>
+					{canNavigate ? (
+						<AdCarouselControls
+							activeIndex={activeIndex}
+							placement={placement}
+							swiperRef={swiperRef}
+							total={total}
+						/>
+					) : null}
+				</div>
+			);
+		}
 		return (
 			<div
 				className="ad-carousel ad-carousel--home-grid grid w-full"

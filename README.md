@@ -377,6 +377,37 @@ docker run -d \
 SESSION_SECRET=change-this-to-a-long-random-string
 ```
 
+### HTTPS 反向代理加速
+
+生产环境建议不要直接把容器的 `3000` 端口暴露给公网，而是在 Nginx 或云负载均衡上终止 HTTPS，再转发到 Go Nav。项目提供了可直接修改的配置模板：
+
+```text
+deploy/nginx/go-nav.conf.example
+```
+
+该模板已包含：
+
+- HTTP/2
+- gzip 压缩
+- TCP/HTTP keepalive
+- TLS session cache
+- OCSP Stapling
+- `/_next/static/` 一年不可变缓存
+
+使用时需要将 `example.com`、证书路径替换为实际值，并保证 Nginx 与 `go-nav` 容器位于同一 Docker network。证书可以挂载到模板中的 `/etc/nginx/certs/`。例如：
+
+```bash
+docker run -d --name go-nav-nginx \
+  --network <go-nav-network> \
+  -p 80:80 -p 443:443 \
+  -v "$PWD/deploy/nginx/go-nav.conf:/etc/nginx/conf.d/default.conf:ro" \
+  -v /etc/letsencrypt/live/example.com/fullchain.pem:/etc/nginx/certs/fullchain.pem:ro \
+  -v /etc/letsencrypt/live/example.com/privkey.pem:/etc/nginx/certs/privkey.pem:ro \
+  nginx:alpine
+```
+
+`compress: true` 已在 `next.config.ts` 中启用，直接运行 Node.js 或 Docker 时也会压缩动态响应。TLS session cache、OCSP Stapling 和 HTTP/2 必须由 HTTPS 反向代理提供，Next.js 应用自身的 `3000` 端口不负责 TLS。
+
 ## Static 模式
 
 Static 模式只导出前台页面：

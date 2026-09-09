@@ -4,7 +4,6 @@ import type { AdConfig, HomeNoticeConfig, LayoutConfig, WidgetStyle } from "@/ty
 import { AdBanner } from "../ad-banner";
 import { HeroBanner } from "../hero-banner";
 import { CategorySection } from "../category-section";
-import { RecentVisits } from "../recent-visits";
 import { PageEmptyState } from "../ui/empty-state-blocks";
 import { NewsSection } from "../news-section";
 import { SiteWidgets } from "../site-widgets";
@@ -39,31 +38,30 @@ function HomeNotice({
 export function AppLayoutHomeContent({
 	displayCategories,
 	layout,
-	recentVisitsMax,
-	showRecentVisits,
-	disableRecentVisitsEntrance,
-	cardGrid,
 	categorySectionView,
 	sectionsStyle,
 	ads,
 	adsAspectRatio,
 	adsGap,
 	adsVisibleCount,
+	adsMobileAutoplayInterval,
+	adsMobileGap,
+	adsMobileVisibleCount,
 	autoplayInterval,
 	showHomeAds,
 }: Pick<
-	AppLayoutViewModel,
-	"displayCategories" | "cardGrid" | "categorySectionView" | "sectionsStyle"
+		AppLayoutViewModel,
+		"displayCategories" | "categorySectionView" | "sectionsStyle"
 > & {
 	layout: Required<LayoutConfig>;
-	recentVisitsMax: number;
-	showRecentVisits: boolean;
-	disableRecentVisitsEntrance: boolean;
 	ads: AdConfig[];
 	adsAspectRatio?: string;
 	adsGap: number;
 	adsVisibleCount: number;
 	autoplayInterval: number;
+	adsMobileAutoplayInterval: number;
+	adsMobileGap: number;
+	adsMobileVisibleCount: number;
 	showHomeAds: boolean;
 }) {
 	const heroBanner = useAtomValue(heroBannerAtom);
@@ -90,6 +88,9 @@ export function AppLayoutHomeContent({
 					gap={adsGap}
 					visibleCount={adsVisibleCount}
 					autoplayInterval={autoplayInterval}
+					mobileAutoplayInterval={adsMobileAutoplayInterval}
+					mobileGap={adsMobileGap}
+					mobileVisibleCount={adsMobileVisibleCount}
 					cardStyle={layout.cardStyle}
 					placement="home-top"
 				/>
@@ -181,14 +182,6 @@ export function AppLayoutHomeContent({
 			</div>
 			<SiteWidgets />
 			{homeTheme === "compact" ? null : beforeCategories}
-			{showRecentVisits ? (
-				<RecentVisits
-					maxItems={recentVisitsMax}
-					cards={cardGrid}
-					disableEntranceAnimation={disableRecentVisitsEntrance}
-					layout={layout}
-				/>
-			) : null}
 			{homeTheme === "compact" ? beforeCategories : null}
 
 			<div className={categorySectionClass} style={sectionsStyle}>

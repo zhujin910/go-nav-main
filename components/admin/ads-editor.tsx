@@ -37,6 +37,9 @@ import {
 	resolveHomeAdsAutoplayInterval,
 	resolveHomeAdsEnabled,
 	resolveHomeAdsGap,
+	resolveHomeAdsMobileAutoplayInterval,
+	resolveHomeAdsMobileGap,
+	resolveHomeAdsMobileVisibleCount,
 	resolveHomeAdsVisibleCount,
 	resolveSidebarAdsAutoplayInterval,
 	resolveSidebarAdsEnabled,
@@ -89,6 +92,9 @@ export function AdsEditor() {
 	const homeVisibleCount = resolveHomeAdsVisibleCount(value);
 	const homeGap = resolveHomeAdsGap(value.homeAdsGap);
 	const homeAutoplayInterval = resolveHomeAdsAutoplayInterval(value);
+	const homeMobileAutoplayInterval = resolveHomeAdsMobileAutoplayInterval(value);
+	const homeMobileVisibleCount = resolveHomeAdsMobileVisibleCount(value);
+	const homeMobileGap = resolveHomeAdsMobileGap(value.homeAdsMobileGap);
 	const sidebarAutoplayInterval = resolveSidebarAdsAutoplayInterval(value);
 
 	const setAds = (ads: AdConfig[]) => onChange({ ...value, ads });
@@ -153,6 +159,18 @@ export function AdsEditor() {
 	const setHomeGap = (homeAdsGap: number) => {
 		onChange({ ...value, homeAdsGap: resolveHomeAdsGap(homeAdsGap) });
 	};
+	const setHomeMobileAutoplayInterval = (homeAdsMobileAutoplayInterval: number) => {
+		onChange({ ...value, homeAdsMobileAutoplayInterval });
+	};
+	const setHomeMobileVisibleCount = (homeAdsMobileVisibleCount: number) => {
+		onChange({
+			...value,
+			homeAdsMobileVisibleCount: resolveAdVisibleCount(homeAdsMobileVisibleCount),
+		});
+	};
+	const setHomeMobileGap = (homeAdsMobileGap: number) => {
+		onChange({ ...value, homeAdsMobileGap: resolveHomeAdsMobileGap(homeAdsMobileGap) });
+	};
 
 	const deletingAd = value.ads.find((ad) => ad.id === deleteConfirm);
 
@@ -196,6 +214,12 @@ export function AdsEditor() {
 						onRatioChange={(ratio) => setRatio("home-top", ratio)}
 						onGapChange={setHomeGap}
 						onVisibleCountChange={setVisibleCount}
+						mobileAutoplayInterval={homeMobileAutoplayInterval}
+						mobileVisibleCount={homeMobileVisibleCount}
+						mobileGap={homeMobileGap}
+						onMobileAutoplayIntervalChange={setHomeMobileAutoplayInterval}
+						onMobileVisibleCountChange={setHomeMobileVisibleCount}
+						onMobileGapChange={setHomeMobileGap}
 						onAdd={() => addAd("home-top")}
 						onChange={(ad) => updateAd(ad.id, ad)}
 						onDelete={setDeleteConfirm}
@@ -281,6 +305,12 @@ function AdPlacementPanel({
 	onRatioChange,
 	onGapChange,
 	onVisibleCountChange,
+	mobileAutoplayInterval,
+	mobileVisibleCount,
+	mobileGap,
+	onMobileAutoplayIntervalChange,
+	onMobileVisibleCountChange,
+	onMobileGapChange,
 	onAdd,
 	onChange,
 	onDelete,
@@ -299,6 +329,12 @@ function AdPlacementPanel({
 	onRatioChange: (ratio: string | undefined) => void;
 	onGapChange?: (gap: number) => void;
 	onVisibleCountChange?: (count: number) => void;
+	mobileAutoplayInterval?: number;
+	mobileVisibleCount?: number;
+	mobileGap?: number;
+	onMobileAutoplayIntervalChange?: (interval: number) => void;
+	onMobileVisibleCountChange?: (count: number) => void;
+	onMobileGapChange?: (gap: number) => void;
 	onAdd: () => void;
 	onChange: (ad: AdConfig) => void;
 	onDelete: (id: string) => void;
@@ -438,6 +474,85 @@ function AdPlacementPanel({
 						/>
 					</div>
 				</div>
+
+				{placement === "home-top" &&
+					mobileAutoplayInterval != null &&
+					mobileVisibleCount != null &&
+					mobileGap != null &&
+					onMobileAutoplayIntervalChange &&
+					onMobileVisibleCountChange &&
+					onMobileGapChange ? (
+					<div className="grid gap-3 rounded-xl border border-default/50 bg-default/5 p-3 md:grid-cols-3">
+						<div className="md:col-span-3">
+							<h4 className="text-sm font-semibold">移动端单独设置</h4>
+							<p className="mt-1 text-xs text-default-500">
+								仅在手机屏幕生效，与桌面端的数量、间距和切换速度互不影响。
+							</p>
+						</div>
+						<Select
+							fullWidth
+							variant="secondary"
+							value={String(mobileAutoplayInterval)}
+							onChange={(key) => {
+								if (key != null) onMobileAutoplayIntervalChange(Number(key));
+							}}
+						>
+							<Label>移动端切换速度</Label>
+							<Select.Trigger>
+								<Select.Value />
+								<Select.Indicator />
+							</Select.Trigger>
+							<Select.Popover>
+								<ListBox>
+									{AD_AUTOPLAY_INTERVAL_OPTIONS.map((interval) => (
+										<ListBox.Item
+											key={interval}
+											id={String(interval)}
+											textValue={AUTOPLAY_INTERVAL_LABELS[interval]}
+										>
+											{AUTOPLAY_INTERVAL_LABELS[interval]}
+											<ListBox.ItemIndicator />
+										</ListBox.Item>
+									))}
+								</ListBox>
+							</Select.Popover>
+						</Select>
+						<NumberField
+							fullWidth
+							variant="secondary"
+							value={mobileVisibleCount}
+							minValue={1}
+							maxValue={3}
+							step={1}
+							formatOptions={{ maximumFractionDigits: 0, useGrouping: false }}
+							onChange={(next) => next != null && onMobileVisibleCountChange(next)}
+						>
+							<Label>移动端每排最多显示数量</Label>
+							<NumberField.Group>
+								<NumberField.DecrementButton />
+								<NumberField.Input />
+								<NumberField.IncrementButton />
+							</NumberField.Group>
+						</NumberField>
+						<NumberField
+							fullWidth
+							variant="secondary"
+							value={mobileGap}
+							minValue={0}
+							maxValue={48}
+							step={1}
+							formatOptions={{ maximumFractionDigits: 0, useGrouping: false }}
+							onChange={(next) => next != null && onMobileGapChange(next)}
+						>
+							<Label>移动端广告间距（px）</Label>
+							<NumberField.Group>
+								<NumberField.DecrementButton />
+								<NumberField.Input />
+								<NumberField.IncrementButton />
+							</NumberField.Group>
+						</NumberField>
+					</div>
+				) : null}
 
 				{placement === "home-top" && visibleCount != null ? (
 					<p className="text-xs text-default-500">

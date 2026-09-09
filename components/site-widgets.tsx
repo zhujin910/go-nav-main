@@ -32,10 +32,22 @@ function Widget({ title, children, className = "", styleVariant = "default" }: {
 }
 
 function Clock({ world }: { world?: boolean }) {
-	const [now, setNow] = useState(new Date());
-	useEffect(() => { const timer = window.setInterval(() => setNow(new Date()), 1000); return () => window.clearInterval(timer); }, []);
-	const value = world ? now.toLocaleTimeString("zh-CN", { timeZone: "Asia/Shanghai", hour: "2-digit", minute: "2-digit", second: "2-digit" }) : now.toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", second: "2-digit" });
-	return <section className={`widget-clock ${world ? "widget-world-clock" : "widget-digital-clock"}`}><div className="mb-3 text-xs uppercase tracking-[0.16em] text-muted">{world ? "世界时钟 · 北京" : "数字时钟"}</div><div className="font-mono text-3xl font-semibold tracking-wider text-primary">{value}</div><p className="mt-2 text-xs text-muted">{now.toLocaleDateString("zh-CN", { weekday: "long", month: "long", day: "numeric" })}</p></section>;
+	const [now, setNow] = useState<Date | null>(null);
+	useEffect(() => {
+		const update = () => setNow(new Date());
+		update();
+		const timer = window.setInterval(update, 1000);
+		return () => window.clearInterval(timer);
+	}, []);
+	const value = now
+		? world
+			? now.toLocaleTimeString("zh-CN", { timeZone: "Asia/Shanghai", hour: "2-digit", minute: "2-digit", second: "2-digit" })
+			: now.toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", second: "2-digit" })
+		: "--:--:--";
+	const date = now
+		? now.toLocaleDateString("zh-CN", { weekday: "long", month: "long", day: "numeric" })
+		: "正在读取时间";
+	return <section className={`widget-clock ${world ? "widget-world-clock" : "widget-digital-clock"}`}><div className="mb-3 text-xs uppercase tracking-[0.16em] text-muted">{world ? "世界时钟 · 北京" : "数字时钟"}</div><div className="font-mono text-3xl font-semibold tracking-wider text-primary">{value}</div><p className="mt-2 text-xs text-muted">{date}</p></section>;
 }
 
 function ProgressWidgets({ workStart = "09:00", workEnd = "18:00" }: { workStart?: string; workEnd?: string }) {

@@ -26,6 +26,7 @@ export function CompactSiteCard({
 			ariaLabel={site.title}
 			className={COMPACT_CARD_HIT_AREA_CLASS}
 			navigation={navigation}
+			site={site}
 		>
 			<div className={COMPACT_CARD_CLASS}>
 				<SiteIcon

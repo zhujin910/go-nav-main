@@ -34,6 +34,7 @@ function GlassSiteCard({ site, layout, navigation, variant }: SiteCardVisualProp
 			ariaLabel={site.title}
 			className="group block h-full rounded-2xl outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
 			navigation={navigation}
+			site={site}
 		>
 			<div className={`site-card-surface site-card-glass site-card-glass--${variant ?? "default"} pointer-events-none flex h-full flex-col justify-between overflow-hidden rounded-2xl border p-3 backdrop-blur-xl ${paletteClass} dark:border-white/10`}>
 				<div className="flex items-center gap-3">
@@ -53,6 +54,7 @@ function FeatureSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 			ariaLabel={site.title}
 			className="group block h-full rounded-2xl outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
 			navigation={navigation}
+			site={site}
 		>
 			<div className="site-card-surface site-card-feature pointer-events-none flex h-full flex-col overflow-hidden rounded-2xl border border-primary/10 bg-gradient-to-br from-primary/5 via-white to-primary/10 shadow-[0_16px_32px_rgba(37,99,235,0.08)] dark:from-primary/15 dark:via-zinc-900 dark:to-primary/10">
 				<div className="flex items-center justify-between gap-3 p-3">
@@ -75,6 +77,7 @@ function ListSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 			ariaLabel={site.title}
 			className="group block h-full rounded-xl outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
 			navigation={navigation}
+			site={site}
 		>
 			<div className="site-card-surface site-card-list pointer-events-none flex h-full items-center gap-3 rounded-xl border border-divider bg-surface px-3 py-2.5 shadow-sm transition-colors duration-200 group-hover:bg-default-100 dark:bg-zinc-900">
 				<SiteIcon site={site} layout={layout} size={32} className="text-base!" initialClassName="text-sm!" />
@@ -94,6 +97,7 @@ function OutlineSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 			ariaLabel={site.title}
 			className="group block h-full rounded-2xl outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
 			navigation={navigation}
+			site={site}
 		>
 			<div className="site-card-surface site-card-outline pointer-events-none flex h-full flex-col rounded-2xl border border-dashed border-primary/25 bg-transparent p-3 transition-colors duration-200 group-hover:border-primary/40 group-hover:bg-primary/[0.03]">
 				<div className="flex items-center gap-3">
@@ -109,7 +113,7 @@ function OutlineSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 function SplitSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 	const showDescription = layout?.showCardDescription !== false;
 	return (
-		<SiteCardLinkShell ariaLabel={site.title} className="site-card-hover-region group block h-full rounded-xl outline-none focus-visible:outline-2 focus-visible:outline-primary" navigation={navigation}>
+		<SiteCardLinkShell ariaLabel={site.title} className="site-card-hover-region group block h-full rounded-xl outline-none focus-visible:outline-2 focus-visible:outline-primary" navigation={navigation} site={site}>
 			<div className="site-card-surface site-card-split pointer-events-none flex h-full items-stretch overflow-hidden rounded-xl border">
 				<div className="flex w-16 shrink-0 items-center justify-center bg-primary text-primary-foreground">
 					<SiteIcon site={site} layout={layout} size={38} className="text-xl!" initialClassName="text-sm!" />
@@ -126,7 +130,7 @@ function SplitSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 function NeonSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 	const showDescription = layout?.showCardDescription !== false;
 	return (
-		<SiteCardLinkShell ariaLabel={site.title} className="site-card-hover-region group block h-full rounded-xl outline-none focus-visible:outline-2 focus-visible:outline-primary" navigation={navigation}>
+		<SiteCardLinkShell ariaLabel={site.title} className="site-card-hover-region group block h-full rounded-xl outline-none focus-visible:outline-2 focus-visible:outline-primary" navigation={navigation} site={site}>
 			<div className="site-card-surface site-card-neon pointer-events-none flex h-full flex-col justify-between rounded-xl border p-3">
 				<div className="flex items-center gap-3">
 					<SiteIcon site={site} layout={layout} size={38} className="text-lg!" initialClassName="text-sm!" />
@@ -141,7 +145,7 @@ function NeonSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 function PaperSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 	const showDescription = layout?.showCardDescription !== false;
 	return (
-		<SiteCardLinkShell ariaLabel={site.title} className="site-card-hover-region group block h-full rounded-lg outline-none focus-visible:outline-2 focus-visible:outline-primary" navigation={navigation}>
+		<SiteCardLinkShell ariaLabel={site.title} className="site-card-hover-region group block h-full rounded-lg outline-none focus-visible:outline-2 focus-visible:outline-primary" navigation={navigation} site={site}>
 			<div className="site-card-surface site-card-paper pointer-events-none flex h-full flex-col justify-between border p-3">
 				<div className="flex items-center gap-3">
 					<SiteIcon site={site} layout={layout} size={36} className="text-lg!" initialClassName="text-sm!" />
@@ -156,7 +160,7 @@ function PaperSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 function TerminalSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 	const showDescription = layout?.showCardDescription !== false;
 	return (
-		<SiteCardLinkShell ariaLabel={site.title} className="site-card-hover-region group block h-full rounded-md outline-none focus-visible:outline-2 focus-visible:outline-primary" navigation={navigation}>
+		<SiteCardLinkShell ariaLabel={site.title} className="site-card-hover-region group block h-full rounded-md outline-none focus-visible:outline-2 focus-visible:outline-primary" navigation={navigation} site={site}>
 			<div className="site-card-surface site-card-terminal pointer-events-none flex h-full flex-col overflow-hidden rounded-md border">
 				<div className="flex items-center gap-1.5 border-b px-3 py-1.5 text-[10px] uppercase tracking-[0.18em]"><span className="size-1.5 rounded-full bg-emerald-400" /> nav://site</div>
 				<div className="flex items-center gap-3 p-3"><SiteIcon site={site} layout={layout} size={32} className="text-base!" initialClassName="text-sm!" /><div className="min-w-0 flex-1 truncate text-sm font-bold">{site.title}</div></div>
@@ -169,7 +173,7 @@ function TerminalSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 function MosaicSiteCard({ site, layout, navigation }: SiteCardVisualProps) {
 	const showDescription = layout?.showCardDescription !== false;
 	return (
-		<SiteCardLinkShell ariaLabel={site.title} className="site-card-hover-region group block h-full rounded-2xl outline-none focus-visible:outline-2 focus-visible:outline-primary" navigation={navigation}>
+		<SiteCardLinkShell ariaLabel={site.title} className="site-card-hover-region group block h-full rounded-2xl outline-none focus-visible:outline-2 focus-visible:outline-primary" navigation={navigation} site={site}>
 			<div className="site-card-surface site-card-mosaic pointer-events-none flex h-full flex-col justify-between overflow-hidden rounded-2xl border p-3">
 				<div className="flex items-start justify-between gap-3"><div className="min-w-0 flex-1"><div className="truncate text-sm font-black uppercase tracking-wide">{site.title}</div>{showDescription && <div className="mt-1 line-clamp-2 text-xs opacity-75">{site.description}</div>}</div><SiteIcon site={site} layout={layout} size={42} className="text-xl!" initialClassName="text-sm!" /></div>
 				<div className="mt-4 h-1.5 w-2/3 rounded-full bg-current opacity-35" />

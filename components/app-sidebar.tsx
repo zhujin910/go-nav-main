@@ -52,7 +52,7 @@ export const AppSidebar = memo(function AppSidebar({
 			</div>
 
 			{showAds && ads.length > 0 ? (
-				<div className="shrink-0 p-2 pt-3">
+				<div className="ad-sidebar-shell shrink-0 p-2 pt-3">
 					<AdBanner
 						ads={ads}
 						aspectRatio={adsAspectRatio}

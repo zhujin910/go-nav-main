@@ -123,7 +123,7 @@ function MobileNavDrawerContent({
 	const layout = useAtomValue(layoutAtom);
 	const sidebarAdFooter =
 		sidebarAdsEnabled && sidebarAds.length > 0 ? (
-			<div className="shrink-0 p-2">
+			<div className="ad-sidebar-shell shrink-0 p-2">
 				<AdBanner
 					ads={sidebarAds}
 					aspectRatio={sidebarAdsAspectRatio}

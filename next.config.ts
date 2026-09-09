@@ -38,6 +38,8 @@ const nextConfig: NextConfig = {
 				: "server",
 	},
 	trailingSlash: true,
+	// 压缩 HTML、JSON、JavaScript 和 CSS；HTTPS 入口仍可进一步启用 Brotli。
+	compress: true,
 	reactCompiler: true,
 	productionBrowserSourceMaps: false,
 	outputFileTracingExcludes: {

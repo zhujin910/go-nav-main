@@ -15,6 +15,9 @@ import {
 	resolveHomeAdsAutoplayInterval,
 	resolveHomeAdsEnabled,
 	resolveHomeAdsGap,
+	resolveHomeAdsMobileAutoplayInterval,
+	resolveHomeAdsMobileVisibleCount,
+	resolveHomeAdsMobileGap,
 	resolveHomeAdsVisibleCount,
 	resolveSidebarAdsAspectRatio,
 	resolveSidebarAdsAutoplayInterval,
@@ -120,6 +123,7 @@ const EMPTY_NAV: NavConfig = {
 
 export const siteNavAtom = atom<NavConfig>(EMPTY_NAV);
 export const siteWebsiteDataAtom = atom<WebsiteData>(EMPTY_WEBSITE);
+export const bookmarksPanelOpenAtom = atom(false);
 
 // ─── 派生原子 ────────────────────────────────────────────────────────────
 
@@ -218,6 +222,15 @@ export const homeAdsVisibleCountAtom = atom((get) =>
 );
 export const homeAdsGapAtom = atom((get) =>
 	resolveHomeAdsGap(get(siteNavAtom).homeAdsGap),
+);
+export const homeAdsMobileAutoplayIntervalAtom = atom((get) =>
+	resolveHomeAdsMobileAutoplayInterval(get(siteNavAtom)),
+);
+export const homeAdsMobileVisibleCountAtom = atom((get) =>
+	resolveHomeAdsMobileVisibleCount(get(siteNavAtom)),
+);
+export const homeAdsMobileGapAtom = atom((get) =>
+	resolveHomeAdsMobileGap(get(siteNavAtom).homeAdsMobileGap),
 );
 export const showRecentVisitsAtom = atom(
 	(get) => get(siteNavAtom).showRecentVisits !== false,

@@ -3,8 +3,10 @@ import type { AdConfig, AdDisplayPosition, NavConfig } from "@/types";
 export const DEFAULT_HOME_AD_ASPECT_RATIO = "16/9";
 export const DEFAULT_SIDEBAR_AD_ASPECT_RATIO = "4/3";
 export const DEFAULT_HOME_AD_VISIBLE_COUNT = 3;
+export const DEFAULT_HOME_AD_MOBILE_VISIBLE_COUNT = 1;
 export const DEFAULT_SIDEBAR_AD_VISIBLE_COUNT = 1;
 export const DEFAULT_HOME_AD_GAP = 6;
+export const DEFAULT_HOME_AD_MOBILE_GAP = 8;
 export const DEFAULT_AD_AUTOPLAY_INTERVAL = 5000;
 export const AD_AUTOPLAY_INTERVAL_OPTIONS = [3000, 5000, 8000, 10000] as const;
 
@@ -68,6 +70,12 @@ export function resolveHomeAdsGap(value: unknown): number {
 	return Math.min(48, Math.max(0, Math.round(parsed)));
 }
 
+export function resolveHomeAdsMobileGap(value: unknown): number {
+	const parsed = typeof value === "number" ? value : Number(value);
+	if (!Number.isFinite(parsed)) return DEFAULT_HOME_AD_MOBILE_GAP;
+	return Math.min(48, Math.max(0, Math.round(parsed)));
+}
+
 export function resolveAdAspectRatio(value: unknown, fallback: string): string {
 	if (typeof value !== "string") return fallback;
 	const match = value.trim().match(/^(\d+(?:\.\d+)?)\s*[/:]\s*(\d+(?:\.\d+)?)$/);
@@ -108,5 +116,18 @@ export function resolveHomeAdsVisibleCount(nav: NavConfig): number {
 	return resolveAdVisibleCount(
 		nav.homeAdsVisibleCount ?? legacyCount,
 		DEFAULT_HOME_AD_VISIBLE_COUNT,
+	);
+}
+
+export function resolveHomeAdsMobileVisibleCount(nav: NavConfig): number {
+	return resolveAdVisibleCount(
+		nav.homeAdsMobileVisibleCount,
+		DEFAULT_HOME_AD_MOBILE_VISIBLE_COUNT,
+	);
+}
+
+export function resolveHomeAdsMobileAutoplayInterval(nav: NavConfig): number {
+	return resolveAdsAutoplayInterval(
+		nav.homeAdsMobileAutoplayInterval ?? nav.homeAdsAutoplayInterval ?? nav.adsAutoplayInterval,
 	);
 }

@@ -16,17 +16,18 @@ import {
     homeAdsAspectRatioAtom,
     homeAdsAtom,
     homeAdsAutoplayIntervalAtom,
+	homeAdsMobileAutoplayIntervalAtom,
+	homeAdsMobileGapAtom,
+	homeAdsMobileVisibleCountAtom,
     homeAdsEnabledAtom,
     homeAdsGapAtom,
     homeAdsVisibleCountAtom,
     layoutAtom,
 	aiChatAtom,
-    recentVisitsMaxAtom,
     sidebarAdsAspectRatioAtom,
     sidebarAdsAtom,
     sidebarAdsAutoplayIntervalAtom,
     sidebarAdsEnabledAtom,
-    showRecentVisitsAtom,
     showSubcategoryTabsAtom,
 	submissionConfigAtom,
 } from "@/lib/store/site";
@@ -35,6 +36,7 @@ import { SiteDetailPage } from "./app-layout/site-detail-page";
 import { useAppLayoutView } from "./app-layout/use-app-layout-view";
 import { useHomeRouteState } from "./app-layout/use-home-route-state";
 import { PageEmptyState } from "./ui/empty-state-blocks";
+import { BookmarksPanel } from "./bookmarks-panel";
 
 /**
  * 顶层布局组件（Jotai 订阅版）。
@@ -58,6 +60,11 @@ export function AppLayout({
 	const homeAds = useAtomValue(homeAdsAtom);
 	const sidebarAds = useAtomValue(sidebarAdsAtom);
 	const homeAdsAutoplayInterval = useAtomValue(homeAdsAutoplayIntervalAtom);
+	const homeAdsMobileAutoplayInterval = useAtomValue(
+		homeAdsMobileAutoplayIntervalAtom,
+	);
+	const homeAdsMobileGap = useAtomValue(homeAdsMobileGapAtom);
+	const homeAdsMobileVisibleCount = useAtomValue(homeAdsMobileVisibleCountAtom);
 	const sidebarAdsAutoplayInterval = useAtomValue(
 		sidebarAdsAutoplayIntervalAtom,
 	);
@@ -67,8 +74,6 @@ export function AppLayout({
 	const sidebarAdsEnabled = useAtomValue(sidebarAdsEnabledAtom);
 	const homeAdsGap = useAtomValue(homeAdsGapAtom);
 	const homeAdsVisibleCount = useAtomValue(homeAdsVisibleCountAtom);
-	const showRecentVisits = useAtomValue(showRecentVisitsAtom);
-	const recentVisitsMax = useAtomValue(recentVisitsMaxAtom);
 	const showSubcategoryTabs = useAtomValue(showSubcategoryTabsAtom);
 	const submission = useAtomValue(submissionConfigAtom);
 	const setActiveId = useSetAtom(activeIdAtom);
@@ -77,7 +82,6 @@ export function AppLayout({
 	useActiveSectionWriter();
 	const {
 		appShellStyle,
-		cardGrid,
 		categorySectionView,
 		displayCategories,
 		mainStyle,
@@ -88,7 +92,7 @@ export function AppLayout({
 		categories,
 		showSubcategoryTabs,
 	});
-	const { disableRecentVisitsEntrance, isDetailRoute, selectedEntry } =
+	const { isDetailRoute, selectedEntry } =
 		useHomeRouteState({
 			pathname,
 			categories,
@@ -144,10 +148,6 @@ export function AppLayout({
 							<AppLayoutHomeContent
 								displayCategories={displayCategories}
 								layout={layout}
-								recentVisitsMax={recentVisitsMax}
-								showRecentVisits={showRecentVisits}
-								disableRecentVisitsEntrance={disableRecentVisitsEntrance}
-								cardGrid={cardGrid}
 								categorySectionView={categorySectionView}
 								sectionsStyle={sectionsStyle}
 								ads={homeAds}
@@ -155,6 +155,9 @@ export function AppLayout({
 								adsGap={homeAdsGap}
 								adsVisibleCount={homeAdsVisibleCount}
 								autoplayInterval={homeAdsAutoplayInterval}
+								adsMobileAutoplayInterval={homeAdsMobileAutoplayInterval}
+								adsMobileGap={homeAdsMobileGap}
+								adsMobileVisibleCount={homeAdsMobileVisibleCount}
 								showHomeAds={hasVisibleHomeAds}
 							/>
 						)}
@@ -175,6 +178,7 @@ export function AppLayout({
 				/>
 			)}
 			<SubmissionDialogHost deploymentMode={deploymentMode} />
+			<BookmarksPanel />
 		</div>
 	);
 }

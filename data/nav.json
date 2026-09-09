@@ -79,8 +79,8 @@
         "url": "zlzyz.top"
       }
     ],
-    "keywordColor": "#453e3a",
-    "keywordHoverColor": "#2f2d2d"
+    "keywordColor": "#f95c01",
+    "keywordHoverColor": "#ff4d00"
   },
   "ads": [
     {
@@ -473,5 +473,7 @@
   "homeNotice": {
     "enabled": true,
     "content": "本站并未正式上线，仅作为临时更新站点，点击上方图片进行查看"
-  }
+  },
+  "homeAdsMobileVisibleCount": 3,
+  "homeAdsMobileGap": 6
 }

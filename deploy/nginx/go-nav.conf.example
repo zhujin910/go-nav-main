@@ -1,0 +1,67 @@
+# Copy to /etc/nginx/conf.d/go-nav.conf and replace the domain/certificate paths.
+# The go-nav container must be reachable as go-nav:3000 on the Docker network.
+
+upstream go_nav_app {
+    server go-nav:3000;
+    keepalive 32;
+}
+
+server {
+    listen 80;
+    server_name example.com;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl http2;
+    server_name example.com;
+
+    ssl_certificate /etc/nginx/certs/fullchain.pem;
+    ssl_certificate_key /etc/nginx/certs/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_session_cache shared:SSL:10m;
+    ssl_session_timeout 10m;
+    ssl_session_tickets off;
+
+    # OCSP stapling requires a publicly trusted certificate and a working DNS resolver.
+    resolver 1.1.1.1 8.8.8.8 valid=300s;
+    resolver_timeout 5s;
+    ssl_stapling on;
+    ssl_stapling_verify on;
+
+    gzip on;
+    gzip_comp_level 5;
+    gzip_min_length 1024;
+    gzip_vary on;
+    gzip_proxied any;
+    gzip_types
+        text/plain
+        text/css
+        text/xml
+        application/json
+        application/javascript
+        application/xml
+        image/svg+xml;
+
+    keepalive_timeout 65s;
+    keepalive_requests 1000;
+
+    location /_next/static/ {
+        proxy_pass http://go_nav_app;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Cache-Control "public, max-age=31536000, immutable" always;
+    }
+
+    location / {
+        proxy_pass http://go_nav_app;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Connection "";
+    }
+}

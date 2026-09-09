@@ -658,6 +658,12 @@ export interface NavConfig {
 	homeAdsVisibleCount?: number;
 	/** 主页顶部广告卡片间距（px），范围 0-48，默认 6 */
 	homeAdsGap?: number;
+	/** 主页广告移动端自动切换间隔（毫秒），默认 5000 */
+	homeAdsMobileAutoplayInterval?: number;
+	/** 主页广告移动端每屏最多展示数量，默认 1 */
+	homeAdsMobileVisibleCount?: number;
+	/** 主页广告移动端卡片间距（px），范围 0-48，默认 8 */
+	homeAdsMobileGap?: number;
 	/** @deprecated 侧边栏固定单卡展示，仅保留旧配置兼容 */
 	sidebarAdsVisibleCount?: number;
 	/** @deprecated 旧版全局广告开关，仅用于兼容已有配置 */

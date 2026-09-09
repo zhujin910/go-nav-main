@@ -5,6 +5,7 @@ import Image from "next/image";
 import { memo, useCallback, useEffect, useRef, useState } from "react";
 import { useAtomValue, useSetAtom } from "jotai";
 import { BiBookmarkPlus } from "react-icons/bi";
+import { BookmarkTrigger } from "./bookmark-trigger";
 import {
 	hasIntranetSitesAtom,
 	layoutAtom,
@@ -205,6 +206,10 @@ export const FloatingActions = memo(function FloatingActions({
 					/>
 				</svg>
 			</Button>}
+
+			{showActions && <div className={`${actionButtonClass} rounded-full`}>
+				<BookmarkTrigger />
+			</div>}
 
 			{showActions && showQrCode && qrCode && (
 				<div ref={qrContainerRef} className="group relative flex items-center">

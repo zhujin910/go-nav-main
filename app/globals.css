@@ -1877,6 +1877,46 @@ svg:not([height]) {
 	height: 100%;
 }
 
+.ad-sidebar-shell {
+	position: relative;
+	margin-inline: 4px;
+	border: 1px solid color-mix(in srgb, var(--site-text-color) 9%, transparent);
+	border-radius: 14px;
+	background: color-mix(in srgb, var(--background) 82%, white 18%);
+	box-shadow: 0 8px 24px rgb(15 23 42 / 0.07);
+}
+
+.ad-sidebar-shell::before {
+	content: "推荐";
+	position: absolute;
+	top: 8px;
+	left: 12px;
+	z-index: 2;
+	padding: 2px 7px;
+	border: 1px solid rgb(255 255 255 / 0.58);
+	border-radius: 9999px;
+	background: rgb(15 23 42 / 0.58);
+	color: white;
+	font-size: 10px;
+	line-height: 1.4;
+	letter-spacing: 0;
+	backdrop-filter: blur(8px);
+}
+
+.ad-sidebar-shell .ad-carousel {
+	border-radius: 10px;
+}
+
+.ad-sidebar-shell .ad-carousel__swiper {
+	border-radius: 10px;
+}
+
+.dark .ad-sidebar-shell {
+	border-color: rgb(255 255 255 / 0.1);
+	background: color-mix(in srgb, #18181b 88%, var(--primary) 12%);
+	box-shadow: 0 10px 28px rgb(0 0 0 / 0.22);
+}
+
 .search-bar--pill .search-field__group {
 	border-radius: 9999px;
 	box-shadow: 0 8px 24px rgb(15 23 42 / 0.08);

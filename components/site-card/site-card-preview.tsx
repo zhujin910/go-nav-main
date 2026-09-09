@@ -24,6 +24,7 @@ export function PreviewSiteCard({
 			ariaLabel={site.title}
 			className={PREVIEW_CARD_HIT_AREA_CLASS}
 			navigation={navigation}
+			site={site}
 		>
 			<div className={PREVIEW_CARD_CLASS}>
 				<div className="relative z-10 p-3">
