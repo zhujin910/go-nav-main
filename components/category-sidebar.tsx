@@ -82,11 +82,26 @@ export const CategorySidebar = memo(function CategorySidebar({
 	const [searchEntries, setSearchEntries] = useState<CategorySearchEntry[]>([]);
 	const [searchIndexReady, setSearchIndexReady] = useState(false);
 	const searchInputRef = useRef<HTMLInputElement>(null);
+	const visibleCategories = useMemo(() => {
+		const filterVisible = (items: NavCategory[]): NavCategory[] =>
+			items.flatMap((category) => {
+				if (category.hidden) return [];
+				return [{
+					...category,
+					children: category.children?.length
+						? filterVisible(category.children)
+						: category.children,
+				}];
+			});
+		return filterVisible(categories);
+	}, [categories]);
 
 	const displayCategories = useMemo(
 		() =>
-			showSubcategoryTabs ? categories : flattenCategoriesForTree(categories),
-		[categories, showSubcategoryTabs],
+			showSubcategoryTabs
+				? visibleCategories
+				: flattenCategoriesForTree(visibleCategories),
+		[showSubcategoryTabs, visibleCategories],
 	);
 
 	useEffect(() => {
@@ -145,8 +160,8 @@ export const CategorySidebar = memo(function CategorySidebar({
 	}, [displayCategories, searchEntries, searchQuery, showCategorySearch]);
 
 	const allCategoryIds = useMemo(() => {
-		const ids = new Set<string>(categories.map((c) => c.id));
-		for (const cat of categories) {
+		const ids = new Set<string>(visibleCategories.map((c) => c.id));
+		for (const cat of visibleCategories) {
 			if (cat.children) {
 				for (const child of cat.children) {
 					ids.add(child.id);
@@ -154,11 +169,11 @@ export const CategorySidebar = memo(function CategorySidebar({
 			}
 		}
 		return ids;
-	}, [categories]);
+	}, [visibleCategories]);
 
 	const parentIdByCategoryId = useMemo(() => {
 		const map = new Map<string, string>();
-		for (const cat of categories) {
+		for (const cat of visibleCategories) {
 			map.set(cat.id, cat.id);
 			if (!cat.children) continue;
 			for (const child of cat.children) {
@@ -166,26 +181,26 @@ export const CategorySidebar = memo(function CategorySidebar({
 			}
 		}
 		return map;
-	}, [categories]);
+	}, [visibleCategories]);
 
 	const inDetailPage = pathname.startsWith("/site/");
 
 	const selectedId = useMemo(() => {
 		if (inDetailPage) return null;
 		if (!activeId) {
-			return categories[0]?.id ?? null;
+			return visibleCategories[0]?.id ?? null;
 		}
 		if (showSubcategoryTabs) {
-			return parentIdByCategoryId.get(activeId) ?? (categories[0]?.id ?? null);
+			return parentIdByCategoryId.get(activeId) ?? (visibleCategories[0]?.id ?? null);
 		}
 		if (!allCategoryIds.has(activeId)) {
-			return categories[0]?.id ?? null;
+			return visibleCategories[0]?.id ?? null;
 		}
 		return activeId;
 	}, [
 		activeId,
 		allCategoryIds,
-		categories,
+		visibleCategories,
 		inDetailPage,
 		parentIdByCategoryId,
 		showSubcategoryTabs,
@@ -197,22 +212,22 @@ export const CategorySidebar = memo(function CategorySidebar({
 	}, [selectedId]);
 
 	const hasAnyIcon = useMemo(
-		() => categories.some((c) => !!c.icon),
-		[categories],
+		() => visibleCategories.some((c) => !!c.icon),
+		[visibleCategories],
 	);
 
 	const siteCounts = useMemo(() => {
 		const map = new Map<string, number>();
-		const cats = showSubcategoryTabs ? categories : displayCategories;
+		const cats = showSubcategoryTabs ? visibleCategories : displayCategories;
 		for (const c of cats) {
 			map.set(c.id, countSites(c));
 		}
 		return map;
-	}, [categories, displayCategories, showSubcategoryTabs]);
+	}, [displayCategories, showSubcategoryTabs, visibleCategories]);
 
 	const childIds = useMemo(() => {
 		const ids = new Set<string>();
-		for (const cat of categories) {
+		for (const cat of visibleCategories) {
 			if (cat.children) {
 				for (const child of cat.children) {
 					ids.add(child.id);
@@ -220,7 +235,7 @@ export const CategorySidebar = memo(function CategorySidebar({
 			}
 		}
 		return ids;
-	}, [categories]);
+	}, [visibleCategories]);
 
 	const jumpTo = useCallback(
 		(key: Key) => {

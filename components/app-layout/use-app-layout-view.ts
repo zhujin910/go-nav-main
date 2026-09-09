@@ -42,6 +42,20 @@ export function useAppLayoutView({
 		[layout.showCategoryDescription, layout.showCategoryTitle],
 	);
 
+	const visibleCategories = useMemo(() => {
+		const filterVisible = (items: NavCategory[]): NavCategory[] =>
+			items.flatMap((category) => {
+				if (category.hidden) return [];
+				return [{
+					...category,
+					children: category.children?.length
+						? filterVisible(category.children)
+						: category.children,
+				}];
+			});
+		return filterVisible(categories);
+	}, [categories]);
+
 	const categorySectionView = useMemo<CategorySectionModel>(
 		() => ({
 			cards: cardGrid,
@@ -53,11 +67,11 @@ export function useAppLayoutView({
 
 	const displayCategories = useMemo<DisplayCategoryItem[]>(() => {
 		if (showSubcategoryTabs) {
-			return categories.map((category) => ({ category, isChild: false }));
+			return visibleCategories.map((category) => ({ category, isChild: false }));
 		}
 
 		const flattened: DisplayCategoryItem[] = [];
-		for (const category of categories) {
+		for (const category of visibleCategories) {
 			flattened.push({ category, isChild: false });
 			if (!category.children?.length) continue;
 
@@ -67,7 +81,7 @@ export function useAppLayoutView({
 		}
 
 		return flattened;
-	}, [categories, showSubcategoryTabs]);
+	}, [showSubcategoryTabs, visibleCategories]);
 
 	const appShellStyle = useMemo(
 		() =>

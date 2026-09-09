@@ -76,7 +76,7 @@ export const AppHeader = memo(function AppHeader({
 				</div>
 			</div>
 			{search && (
-				<div className="ml-auto w-full flex-1 max-w-xl pt-2 min-[860px]:col-start-2 min-[860px]:max-w-none">
+				<div className="ml-auto w-full flex-1 max-w-xl pt-6 min-[860px]:col-start-2 min-[860px]:max-w-none">
 					<SearchBar config={search.config} engineState={search.engineState} />
 				</div>
 			)}

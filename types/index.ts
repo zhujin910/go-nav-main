@@ -427,6 +427,8 @@ export interface NavCategory {
 	icon?: string;
 	/** 分类描述 (可选，展示在分类标题下方) */
 	description?: string;
+	/** 是否在前台隐藏该分类及其子分类 */
+	hidden?: boolean;
 	/** 该分类下的网站列表 */
 	sites?: NavSite[];
 	/** 子分类 (支持无限级嵌套) */

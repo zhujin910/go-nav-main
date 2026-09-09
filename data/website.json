@@ -222,7 +222,8 @@
           "tags": [],
           "icon": "/uploads/favicon-www-doubao-com-8df5225f7c3f.ico"
         }
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": "krfcj1",
@@ -3683,7 +3684,8 @@
               "previewImage": "/uploads/preview-www-123pan-com-975c47cf09d3.png"
             }
           ],
-          "icon": "📁"
+          "icon": "📁",
+          "hidden": true
         },
         {
           "id": "cloud-docs",
@@ -3761,10 +3763,12 @@
               "previewImage": "/uploads/preview-www-yuque-com-83b98f5e7f95.png"
             }
           ],
-          "icon": "📁"
+          "icon": "📁",
+          "hidden": true
         }
       ],
-      "sites": []
+      "sites": [],
+      "hidden": true
     },
     {
       "id": "toolsdar-e7949fe6b4bb",
@@ -13304,7 +13308,8 @@
             }
           ]
         }
-      ]
+      ],
+      "hidden": true
     },
     {
       "id": "toolsdar-e5ae9ee794a8",

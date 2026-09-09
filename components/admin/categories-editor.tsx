@@ -29,6 +29,8 @@ import {
 	BiChevronUp,
 	BiChevronDown,
 	BiDotsVerticalRounded,
+	BiHide,
+	BiShow,
 } from "react-icons/bi";
 import type { NavCategory } from "@/types";
 import { useAtom } from "jotai";
@@ -166,6 +168,7 @@ const CategoryRow = memo(function CategoryRow({
 	onMove,
 	onEdit,
 	onAddChild,
+	onToggleHidden,
 	onDelete,
 	children,
 }: {
@@ -176,6 +179,7 @@ const CategoryRow = memo(function CategoryRow({
 	onMove: (categoryId: string, direction: "up" | "down") => void;
 	onEdit: (category: NavCategory, path: string[]) => void;
 	onAddChild: (parentId: string) => void;
+	onToggleHidden: (categoryId: string) => void;
 	onDelete: (categoryId: string) => void;
 	children?: React.ReactNode;
 }) {
@@ -293,6 +297,16 @@ const CategoryRow = memo(function CategoryRow({
 							isIconOnly
 							size="sm"
 							variant="outline"
+							className="h-9 w-9"
+							aria-label={category.hidden ? "Show category" : "Hide category"}
+							onPress={() => onToggleHidden(category.id)}
+						>
+							{category.hidden ? <BiShow /> : <BiHide />}
+						</Button>
+						<Button
+							isIconOnly
+							size="sm"
+							variant="outline"
 							className="h-9 w-9 text-danger"
 							aria-label="删除"
 							onPress={() => onDelete(category.id)}
@@ -312,6 +326,18 @@ export function CategoriesEditor() {
 	const value = { categories };
 	const onChange = (v: { categories: NavCategory[] }) =>
 		setCategories(v.categories);
+	const toggleCategoryHidden = (categoryId: string) => {
+			const update = (items: NavCategory[]): NavCategory[] =>
+				items.map((category) => {
+					if (category.id === categoryId) {
+						return { ...category, hidden: !category.hidden };
+					}
+					return category.children?.length
+						? { ...category, children: update(category.children) }
+						: category;
+				});
+		setCategories(update(categories));
+	};
 	const [isClientReady, setIsClientReady] = useState(false);
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const [editingCategory, setEditingCategory] = useState<{
@@ -587,6 +613,7 @@ export function CategoriesEditor() {
 			name: formState.name.trim(),
 			icon: formState.icon.trim() || undefined,
 			description: formState.description.trim() || undefined,
+			hidden: editingCategory?.category.hidden,
 			sites: editingCategory?.category.sites,
 			children: editingCategory?.category.children,
 		};
@@ -690,6 +717,7 @@ export function CategoriesEditor() {
 					onMove={moveCategory}
 					onEdit={handleOpenEdit}
 					onAddChild={handleOpenAdd}
+					onToggleHidden={toggleCategoryHidden}
 					onDelete={openDeleteDialog}
 				>
 					{canHostChildren ? (
@@ -755,6 +783,7 @@ export function CategoriesEditor() {
 									onMove={moveCategory}
 									onEdit={handleOpenEdit}
 									onAddChild={handleOpenAdd}
+									onToggleHidden={toggleCategoryHidden}
 									onDelete={openDeleteDialog}
 								/>
 							))}

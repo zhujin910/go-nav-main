@@ -155,6 +155,7 @@ export const flatSitesAtom = atom((get) => {
 		[];
 	const walk = (cats: NavCategory[]) => {
 		for (const cat of cats) {
+			if (cat.hidden) continue;
 			if (cat.sites) {
 				for (const s of cat.sites) {
 					result.push({

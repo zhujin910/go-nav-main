@@ -70,6 +70,8 @@ import {
     BiGlobe,
     BiDotsVerticalRounded,
     BiImage,
+	BiHide,
+	BiShow,
 } from "react-icons/bi";
 import type { NavCategory, WebsiteData, NavSite } from "@/types";
 import { useAtom, useAtomValue } from "jotai";
@@ -475,6 +477,7 @@ function DroppableCategoryButton({
 	isLeaf,
 	toggleExpand,
 	handleSelectCategory,
+	toggleCategoryHidden,
 	renderIcon,
 	flatCategories,
 	renderTreeItem,
@@ -486,6 +489,7 @@ function DroppableCategoryButton({
 	isLeaf: boolean;
 	toggleExpand: (id: string) => void;
 	handleSelectCategory: (id: string) => void;
+	toggleCategoryHidden: (id: string) => void;
 	renderIcon: (icon?: string) => React.ReactNode;
 	flatCategories: FlatCategory[];
 	renderTreeItem: (cat: FlatCategory, dropScope: string) => React.ReactNode;
@@ -545,6 +549,17 @@ function DroppableCategoryButton({
 				</span>
 				{renderIcon(cat.icon)}
 				<span className="truncate flex-1">{cat.name}</span>
+				<Button
+					isIconOnly
+					size="sm"
+					variant="ghost"
+					className="size-7 shrink-0"
+									aria-label={cat.category.hidden ? "Show category" : "Hide category"}
+					onClick={(event) => event.stopPropagation()}
+					onPress={() => toggleCategoryHidden(cat.id)}
+				>
+					{cat.category.hidden ? <BiShow /> : <BiHide />}
+				</Button>
 				{cat.siteCount > 0 && (
 					<Chip
 						size="sm"
@@ -1502,6 +1517,22 @@ export function SitesEditor() {
 		mobileDrawerState.close();
 	};
 
+	const toggleCategoryHidden = (categoryId: string) => {
+		const update = (cats: NavCategory[]): NavCategory[] =>
+			cats.map((category) => {
+				if (category.id === categoryId) {
+					return { ...category, hidden: !category.hidden };
+				}
+				if (category.children?.length) {
+					return { ...category, children: update(category.children) };
+				}
+				return category;
+			});
+		const category = flatCategories.find((item) => item.id === categoryId);
+		onChange({ ...value, categories: update(value.categories) });
+			toast.success(category?.category.hidden ? "Category shown" : "Category hidden");
+	};
+
 	const toggleExpand = (catId: string) => {
 		setExpandedKeys((prev) => {
 			const next = new Set(prev);
@@ -1545,6 +1576,7 @@ export function SitesEditor() {
 				isLeaf={isLeaf}
 				toggleExpand={toggleExpand}
 				handleSelectCategory={handleSelectCategory}
+				toggleCategoryHidden={toggleCategoryHidden}
 				renderIcon={renderIcon}
 				flatCategories={flatCategories}
 				renderTreeItem={renderTreeItem}
