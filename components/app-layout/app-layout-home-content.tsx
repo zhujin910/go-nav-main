@@ -6,13 +6,10 @@ import { HeroBanner } from "../hero-banner";
 import { CategorySection } from "../category-section";
 import { RecentVisits } from "../recent-visits";
 import { PageEmptyState } from "../ui/empty-state-blocks";
-import { AIRecommendSection } from "../ai-recommend-section";
 import { NewsSection } from "../news-section";
 import { SiteWidgets } from "../site-widgets";
 import type { AppLayoutViewModel } from "./app-layout.types";
 import {
-	aiRecommendAtom,
-	aiRecommendSitesAtom,
 	heroBannerAtom,
 	newsAggregationAtom,
 } from "@/lib/store/site";
@@ -49,8 +46,6 @@ export function AppLayoutHomeContent({
 	showHomeAds: boolean;
 }) {
 	const heroBanner = useAtomValue(heroBannerAtom);
-	const aiRecommend = useAtomValue(aiRecommendAtom);
-	const allSites = useAtomValue(aiRecommendSitesAtom);
 	const newsConfig = useAtomValue(newsAggregationAtom);
 	const homeTheme = layout.homeTheme ?? "classic";
 	const hero = heroBanner.enabled && heroBanner.slides.length > 0 ? (
@@ -93,18 +88,6 @@ export function AppLayoutHomeContent({
 				homeTheme === "glass-minimal"
 				? "site-home-hero-stack site-home-hero-stack--editorial"
 				: "site-home-hero-stack";
-	const recommendation =
-		aiRecommend.enabled && aiRecommend.showOnHome && allSites.length > 0 ? (
-			<AIRecommendSection
-				allSites={allSites}
-				title={aiRecommend.title}
-				count={aiRecommend.count}
-				algorithm={aiRecommend.algorithm}
-				coldStartUrls={aiRecommend.coldStartUrls}
-				cardGrid={cardGrid}
-				layout={layout}
-			/>
-		) : null;
 	const news = newsConfig.enabled && newsConfig.showOnHome && newsConfig.sources.length > 0 ? (
 		<NewsSection
 			sources={newsConfig.sources}
@@ -123,7 +106,6 @@ export function AppLayoutHomeContent({
 					{homeAds}
 				</div>
 				<SiteWidgets />
-				{recommendation}
 				{news}
 				<PageEmptyState
 					title="开始使用 Go Nav"
@@ -151,20 +133,17 @@ export function AppLayoutHomeContent({
 		homeTheme === "glass-minimal"
 			? (
 				<>
-					{recommendation}
 					{news}
 				</>
 			)
 			: homeTheme === "portal" || homeTheme === "resource"
 				? (
 					<div className="grid gap-4 md:grid-cols-2">
-						{recommendation}
 						{news}
 					</div>
 				)
 				: (
 					<>
-						{recommendation}
 						{news}
 					</>
 				);

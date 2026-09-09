@@ -172,10 +172,6 @@ export const flatSitesAtom = atom((get) => {
 	return result;
 });
 
-export const aiRecommendSitesAtom = atom((get) =>
-	get(aiRecommendAtom).enabled ? get(flatSitesAtom) : [],
-);
-
 export const aiChatSitesAtom = atom((get) =>
 	get(aiChatAtom).enabled ? get(flatSitesAtom) : [],
 );
@@ -243,19 +239,6 @@ export const showCategorySearchAtom = atom(
 export const submissionConfigAtom = atom((get) =>
 	resolveSubmissionConfig(get(siteNavAtom).submission),
 );
-
-/** AI 智能推荐配置 */
-export const aiRecommendAtom = atom((get) => {
-	const config = get(siteNavAtom).aiRecommend;
-	return {
-		enabled: config?.enabled ?? false,
-		title: config?.title ?? "为你推荐",
-		count: config?.count ?? 6,
-		algorithm: config?.algorithm ?? "hybrid",
-		showOnHome: config?.showOnHome ?? true,
-		coldStartUrls: config?.coldStartUrls ?? [],
-	};
-});
 
 export const aiChatAtom = atom((get) => {
 	const config = get(siteNavAtom).aiChat;

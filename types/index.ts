@@ -676,8 +676,6 @@ export interface NavConfig {
 	analytics?: AnalyticsConfig;
 	/** 首页轻量组件配置 */
 	widgets?: WidgetsConfig;
-	/** AI 智能推荐配置 */
-	aiRecommend?: AIRecommendConfig;
 	/** AI 对话搜索配置 */
 	aiChat?: AIChatConfig;
 	/** 链接有效性检测配置 */
@@ -785,22 +783,6 @@ export interface WidgetsConfig {
 }
 
 /**
- * AI 智能推荐配置（纯前端算法，不调用外部 AI API）
- */
-export interface AIRecommendConfig {
-	/** 是否启用智能推荐 */
-	enabled?: boolean;
-	/** 推荐区域标题 */
-	title?: string;
-	/** 推荐数量，默认 6 */
-	count?: number;
-	/** 推荐算法 */
-	algorithm?: "hybrid" | "tags" | "popular";
-	/** 是否在首页显示推荐区域 */
-	showOnHome?: boolean;
-	/** 冷启动时显示的推荐网站 URL 列表 */
-	coldStartUrls?: string[];
-}
 
 /** AI 对话搜索配置 */
 export interface AIChatConfig {
