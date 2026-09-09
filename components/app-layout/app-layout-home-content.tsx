@@ -1,6 +1,6 @@
 "use client";
 
-import type { AdConfig, LayoutConfig } from "@/types";
+import type { AdConfig, HomeNoticeConfig, LayoutConfig, WidgetStyle } from "@/types";
 import { AdBanner } from "../ad-banner";
 import { HeroBanner } from "../hero-banner";
 import { CategorySection } from "../category-section";
@@ -14,6 +14,27 @@ import {
 	newsAggregationAtom,
 } from "@/lib/store/site";
 import { useAtomValue } from "jotai";
+import { siteNavAtom } from "@/lib/store/site";
+
+function HomeNotice({
+	notice,
+	style,
+}: {
+	notice?: HomeNoticeConfig;
+	style: WidgetStyle;
+}) {
+	if (notice?.enabled !== true || !notice.content?.trim()) return null;
+	const styleClass = style === "outline" ? "border" : style === "soft" ? "soft" : style;
+	return (
+		<section className={`home-notice home-notice--${styleClass} flex items-start gap-3`} aria-label={notice.title || "网站通知"}>
+			<div className="home-notice__mark mt-0.5 shrink-0" aria-hidden="true" />
+			<div className="min-w-0">
+				{notice.title?.trim() ? <h2 className="text-sm font-semibold">{notice.title}</h2> : null}
+				<p className="mt-1 whitespace-pre-wrap text-sm leading-6 text-muted">{notice.content.trim()}</p>
+			</div>
+		</section>
+	);
+}
 
 export function AppLayoutHomeContent({
 	displayCategories,
@@ -46,6 +67,7 @@ export function AppLayoutHomeContent({
 	showHomeAds: boolean;
 }) {
 	const heroBanner = useAtomValue(heroBannerAtom);
+	const homeNotice = useAtomValue(siteNavAtom).homeNotice;
 	const newsConfig = useAtomValue(newsAggregationAtom);
 	const homeTheme = layout.homeTheme ?? "classic";
 	const hero = heroBanner.enabled && heroBanner.slides.length > 0 ? (
@@ -73,6 +95,7 @@ export function AppLayoutHomeContent({
 				/>
 			</section>
 		) : null;
+	const notice = <HomeNotice notice={homeNotice} style={layout.widgetStyle} />;
 	const heroShellClass =
 		homeTheme === "portal" || homeTheme === "resource"
 			? "site-home-hero-grid"
@@ -104,6 +127,7 @@ export function AppLayoutHomeContent({
 				<div className="w-full space-y-3">
 					{hero}
 					{homeAds}
+					{notice}
 				</div>
 				<SiteWidgets />
 				{news}
@@ -153,6 +177,7 @@ export function AppLayoutHomeContent({
 			<div className={`w-full ${heroShellClass}`}>
 				{hero}
 				{homeAds}
+				{notice}
 			</div>
 			<SiteWidgets />
 			{homeTheme === "compact" ? null : beforeCategories}

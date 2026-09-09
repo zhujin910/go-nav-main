@@ -469,5 +469,9 @@
     "placename": "PYP导航"
   },
   "homeAdsVisibleCount": 7,
-  "sidebarAdsAspectRatio": "1/1"
+  "sidebarAdsAspectRatio": "1/1",
+  "homeNotice": {
+    "enabled": true,
+    "content": "本站并未正式上线，仅作为临时更新站点，点击上方图片进行查看"
+  }
 }

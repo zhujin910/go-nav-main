@@ -1469,6 +1469,34 @@ body::after {
 .site-card-grid > * { min-width: 0; min-height: 0; }
 .site-card-surface { min-width: 0; overflow-wrap: anywhere; }
 .site-card-surface .line-clamp-2 { min-height: 0; }
+.home-notice {
+	margin-bottom: 0.75rem;
+	padding: 0.75rem 1rem;
+	border-radius: 0.75rem;
+	border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+	background: color-mix(in srgb, var(--surface) 88%, var(--primary) 4%);
+	box-shadow: 0 6px 18px color-mix(in srgb, var(--primary) 8%, transparent);
+}
+.home-notice__mark {
+	width: 0.25rem;
+	min-height: 1.5rem;
+	border-radius: 999px;
+	background: var(--primary);
+}
+.home-notice--card { border-radius: 0.75rem; background: var(--surface); }
+.home-notice--border { background: transparent; box-shadow: none; }
+.home-notice--soft { border-color: transparent; background: color-mix(in srgb, var(--primary) 8%, var(--surface)); box-shadow: none; }
+.home-notice--glass,
+.home-notice--glass-pill,
+.home-notice--glass-rail,
+.home-notice--glass-split,
+.home-notice--glass-tech,
+.home-notice--glass-accent,
+.home-notice--glass-mesh {
+	border-color: color-mix(in srgb, var(--primary) 18%, transparent);
+	background: color-mix(in srgb, var(--surface) 54%, transparent);
+	backdrop-filter: blur(16px);
+}
 @media (max-width: 640px) {
 	.floating-actions--dock { max-width: calc(100vw - 1rem); overflow-x: auto; }
 	.floating-actions--rail { right: 0.35rem; }

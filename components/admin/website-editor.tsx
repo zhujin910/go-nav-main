@@ -193,6 +193,31 @@ function BasicEditor({
 				</TextField>
 			</div>
 
+			<div className="md:col-span-2 rounded-2xl border border-default-200 bg-default-50/60 p-4">
+				<div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+					<div>
+						<h3 className="text-sm font-semibold">首页通知栏</h3>
+						<p className="mt-1 text-xs text-default-500">显示在首页广告图下方，可根据网站需要隐藏。</p>
+					</div>
+					<AdminSwitch
+						isSelected={value.homeNotice?.enabled === true}
+						onChange={(enabled) => onPatch({ homeNotice: { ...(value.homeNotice ?? {}), enabled } })}
+					>
+						{value.homeNotice?.enabled ? "已显示" : "已隐藏"}
+					</AdminSwitch>
+				</div>
+				<div className="mt-4 grid gap-4 md:grid-cols-2">
+					<TextField value={value.homeNotice?.title ?? "网站通知"} onChange={(title) => onPatch({ homeNotice: { ...(value.homeNotice ?? {}), title } })}>
+						<Label>通知标题</Label>
+						<Input placeholder="网站通知" />
+					</TextField>
+					<TextField value={value.homeNotice?.content ?? ""} onChange={(content) => onPatch({ homeNotice: { ...(value.homeNotice ?? {}), content } })}>
+						<Label>通知内容</Label>
+						<Input placeholder="输入首页通知内容" />
+					</TextField>
+				</div>
+			</div>
+
 			<div className="flex flex-col gap-2 md:col-span-2">
 				<Label className="text-sm font-medium">关键词</Label>
 				<TextField

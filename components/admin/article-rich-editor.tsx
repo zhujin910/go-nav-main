@@ -253,10 +253,45 @@ export function ArticleRichEditor({ value, onChange, height, onHeightChange }: A
 		}
 	};
 
+	const sanitizePastedHtml = (html: string) => {
+		const documentFragment = new DOMParser().parseFromString(html, "text/html");
+		documentFragment.querySelectorAll("script, style, noscript").forEach((node) => node.remove());
+		documentFragment.querySelectorAll<HTMLElement>("*").forEach((element) => {
+			Array.from(element.attributes).forEach((attribute) => {
+				if (/^on/i.test(attribute.name)) element.removeAttribute(attribute.name);
+			});
+			["href", "src"].forEach((attributeName) => {
+				const value = element.getAttribute(attributeName);
+				if (value && /^(javascript|vbscript):/i.test(value.trim())) {
+					element.removeAttribute(attributeName);
+				}
+			});
+		});
+		return documentFragment.body.innerHTML;
+	};
+
 	const handlePaste = (event: React.ClipboardEvent<HTMLDivElement>) => {
 		event.preventDefault();
+		const editor = editorRef.current;
+		if (!editor) return;
+		editor.focus();
+		if (!restoreSelection()) {
+			const selection = window.getSelection();
+			const range = document.createRange();
+			range.selectNodeContents(editor);
+			range.collapse(false);
+			selection?.removeAllRanges();
+			selection?.addRange(range);
+		}
+
+		const html = event.clipboardData.getData("text/html");
 		const text = event.clipboardData.getData("text/plain");
-		document.execCommand("insertText", false, text);
+		if (html.trim()) {
+			document.execCommand("insertHTML", false, sanitizePastedHtml(html));
+		} else {
+			document.execCommand("insertText", false, text);
+		}
+		keepSelection();
 		handleInput();
 	};
 

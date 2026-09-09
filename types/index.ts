@@ -672,6 +672,8 @@ export interface NavConfig {
 	plugins?: PluginConfig[];
 	/** 首页轮播图配置 */
 	heroBanner?: HeroBannerConfig;
+	/** 首页广告下方通知栏配置 */
+	homeNotice?: HomeNoticeConfig;
 	/** 访问统计配置 */
 	analytics?: AnalyticsConfig;
 	/** 首页轻量组件配置 */
@@ -697,6 +699,15 @@ export interface HeroBannerConfig {
 	autoplayInterval?: number;
 	/** 轮播图列表 */
 	slides?: HeroSlide[];
+}
+
+export interface HomeNoticeConfig {
+	/** 是否显示通知栏 */
+	enabled?: boolean;
+	/** 通知栏标题 */
+	title?: string;
+	/** 通知栏正文 */
+	content?: string;
 }
 
 /**
