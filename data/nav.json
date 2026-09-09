@@ -92,46 +92,10 @@
       "enabled": true
     },
     {
-      "id": "ad-1784451057682",
-      "title": "云服务器首购优惠",
-      "description": "云服务器、云数据库、COS、CDN、短信等云产品特惠热卖中",
-      "image": "/uploads/home-ad-vjwbzt.png",
-      "url": "https://www.rainyun.com/gotab_",
-      "enabled": true,
-      "placement": "home-top"
-    },
-    {
-      "id": "ad-1784455424365",
-      "title": "必应搜索积分兑换福利",
-      "description": "欢迎使用 Microsoft Rewards，你可以在其中赚取积分、兑换礼品卡等",
-      "image": "/uploads/home-ad-h47yxm.png",
-      "url": "https://rewards.bing.com/welcome?rh=F4889091&ref=rafsrchae",
-      "enabled": true,
-      "placement": "home-top"
-    },
-    {
-      "id": "ad-1784455091300",
-      "title": "领券中心",
-      "description": "领取优惠券，购物更优惠！",
-      "image": "/uploads/home-ad-5ulsl3.png",
-      "url": "https://s.click.taobao.com/a0cbkBk",
-      "enabled": true,
-      "placement": "home-top"
-    },
-    {
-      "id": "ad-1788614433092",
-      "title": "新主页广告",
-      "description": "",
-      "image": "/uploads/home-ad-h47yxm.png",
-      "url": "https://前端主页轮播图中“标题”“描述”的",
-      "enabled": true,
-      "placement": "home-top"
-    },
-    {
       "id": "ad-1788614458765",
       "title": "新主页广告",
       "description": "",
-      "image": "/uploads/home-ad-h47yxm.png",
+      "image": "/uploads/home-ad-2x62vc.webp",
       "url": "https:///uploads/home-ad-h47yxm.png",
       "enabled": true,
       "placement": "home-top"
@@ -140,7 +104,7 @@
       "id": "ad-1788614542991",
       "title": "新主页广告",
       "description": "",
-      "image": "/uploads/home-ad-h47yxm.png",
+      "image": "/uploads/home-ad-2cu3sy.webp",
       "url": "https://https:///uploads/home-ad-h47yxm.png",
       "enabled": true,
       "placement": "home-top"
@@ -149,7 +113,7 @@
       "id": "ad-1788615088463",
       "title": "新主页广告",
       "description": "",
-      "image": "/uploads/home-ad-h47yxm.png",
+      "image": "/uploads/home-ad-9zmo4s.webp",
       "url": "https://",
       "enabled": true,
       "placement": "home-top"
@@ -241,7 +205,7 @@
       "id": "1787324814555",
       "title": "01",
       "desc": "前端主页轮播图中“标题”放置调整到左下方，白色文字（描边黑色半透明）",
-      "image": "/uploads/carousel-m9h42x.png",
+      "image": "/uploads/carousel-mhthap.webp",
       "link": "www.zlxapp.top",
       "enable": true,
       "dynamicEffect": true
@@ -250,7 +214,7 @@
       "id": "1787324973036",
       "title": "02",
       "desc": "前端主页轮播图中“标题”放置调整到左下方，白色文字（描边黑色半透明）",
-      "image": "/uploads/carousel-qvw2er.png",
+      "image": "/uploads/carousel-2uq4ar.webp",
       "link": "www.zlzyz.top",
       "enable": true,
       "dynamicEffect": true
@@ -259,7 +223,7 @@
       "id": "1788612386104",
       "title": "03",
       "desc": "前端主页轮播图中“标题”放置调整到左下方，白色文字（描边黑色半透明）",
-      "image": "/uploads/carousel-drduro.png",
+      "image": "/uploads/carousel-x62pot.webp",
       "link": "",
       "enable": true,
       "dynamicEffect": true
@@ -268,7 +232,7 @@
       "id": "1788612390075",
       "title": "04",
       "desc": "前端主页轮播图中“标题”放置调整到左下方，白色文字（描边黑色半透明）",
-      "image": "/uploads/carousel-xc31fr.png",
+      "image": "/uploads/carousel-hmwiyi.webp",
       "link": "",
       "enable": true,
       "dynamicEffect": true
@@ -468,7 +432,7 @@
     "city": "广州",
     "placename": "PYP导航"
   },
-  "homeAdsVisibleCount": 7,
+  "homeAdsVisibleCount": 3,
   "sidebarAdsAspectRatio": "1/1",
   "homeNotice": {
     "enabled": true,
