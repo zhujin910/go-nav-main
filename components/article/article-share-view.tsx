@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getArticleByKey, isArticlePublic } from "@/lib/server/articles";
-import { getNav, getWebsiteData } from "@/lib/config";
+import { getNav } from "@/lib/config";
 import { FloatingActions } from "@/components/floating-actions";
 import { SiteStoreProvider } from "@/lib/store/hydrate";
 import { ThemeRuntime } from "@/components/theme-runtime";
@@ -39,10 +39,9 @@ export default async function ArticleShareView({
 		notFound();
 	}
 	const nav = getNav();
-	const websiteData = getWebsiteData();
 
 	return (
-		<SiteStoreProvider initial={{ websiteData, nav }}>
+		<SiteStoreProvider initial={{ websiteData: { categories: [] }, nav }}>
 			<ThemeRuntime />
 			<main className="article-share-page min-h-screen px-4 pb-12 pt-4 text-[var(--site-text-color)] sm:px-6 lg:px-8">
 			<div className="article-share-frame mx-auto max-w-7xl">
