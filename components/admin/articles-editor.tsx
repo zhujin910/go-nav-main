@@ -21,6 +21,9 @@ import {
 	BiTrash,
 } from "react-icons/bi";
 import type { ArticleRecord } from "@/types";
+import { useAtomValue } from "jotai";
+import { navAtom } from "@/lib/store/admin";
+import { uploadImageWithCompression } from "@/lib/client/image-upload";
 import { ArticleRichEditor } from "./article-rich-editor";
 
 type ArticleForm = {
@@ -68,6 +71,7 @@ function sanitizeEditableHtml(value: string) {
 }
 
 export function ArticlesEditor() {
+	const nav = useAtomValue(navAtom);
 	const [articles, setArticles] = useState<ArticleRecord[]>([]);
 	const [search, setSearch] = useState("");
 	const [loading, setLoading] = useState(true);
@@ -173,19 +177,21 @@ export function ArticlesEditor() {
 		if (!file) return;
 		setUploadingCover(true);
 		try {
-			const formData = new FormData();
-			formData.append("file", file);
-			const response = await fetch("/api/articles/upload", { method: "POST", body: formData });
-			const data = (await response.json().catch(() => ({}))) as { url?: string; error?: string };
-			if (!response.ok || !data.url) throw new Error(data.error || "封面上传失败");
-			setForm((prev) => ({ ...prev, cover: data.url ?? "" }));
+			const url = await uploadImageWithCompression(file, {
+				maxEdge: 1920,
+				quality: 0.84,
+				compress: nav.imageUpload?.compress !== false,
+				forceWebp: nav.imageUpload?.convertToWebp !== false,
+				fileNamePrefix: "article-cover",
+			});
+			setForm((prev) => ({ ...prev, cover: url }));
 			toast.success("封面图已上传");
 		} catch (error) {
 			toast.danger((error as Error).message || "封面上传失败");
 		} finally {
 			setUploadingCover(false);
 		}
-	}, []);
+	}, [nav.imageUpload]);
 
 	const handleSave = useCallback(
 		async (saveAsDraft = form.is_draft) => {
