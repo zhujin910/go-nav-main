@@ -183,8 +183,9 @@ export function SearchBar({
 								onClick={() => {
 									const label = keyword.label.trim();
 									if (!label) return;
-									if (keyword.url?.trim()) {
-										const url = keyword.url.replace("{query}", encodeURIComponent(label));
+									const customUrl = keyword.url?.trim();
+									if (customUrl) {
+										const url = customUrl.replaceAll("{query}", encodeURIComponent(label));
 										if (layout?.linkTarget === "current") window.location.href = url;
 										else window.open(url, "_blank", "noopener,noreferrer");
 										return;

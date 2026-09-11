@@ -10,6 +10,7 @@ const MIME: Record<string, string> = {
 	".jpeg": "image/jpeg",
 	".png": "image/png",
 	".gif": "image/gif",
+	".webp": "image/webp",
 	".mp4": "video/mp4",
 };
 
