@@ -4,8 +4,9 @@ import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 import { SESSION_COOKIE, verifySession } from "@/lib/server/auth";
 import { DATA_DIR, UPLOADS_DIR } from "@/lib/server/paths";
-import { readNav, readWebsiteData } from "@/lib/server/store";
+import { clearStructuredCache, readNav, readWebsiteData } from "@/lib/server/store";
 import { ARTICLES_FILE } from "@/lib/server/articles";
+import { revalidateFrontendPaths } from "@/lib/server/revalidate-frontend";
 
 const LOG_DIRECTORIES = [path.join(process.cwd(), "logs"), path.join(DATA_DIR, "logs")];
 const TEMP_DIRECTORIES = [path.join(process.cwd(), ".next", "cache"), path.join(DATA_DIR, ".cache")];
@@ -228,7 +229,9 @@ export async function POST(request: Request) {
 		}
 		if (body.action === "clear-cache") {
 			const removed = TEMP_DIRECTORIES.reduce((total, directory) => total + clearDirectory(directory), 0);
-			return NextResponse.json({ ok: true, action: body.action, removed });
+			clearStructuredCache();
+			revalidateFrontendPaths();
+			return NextResponse.json({ ok: true, action: body.action, removed, memoryCacheCleared: true, frontendCacheRevalidated: true });
 		}
 		if (body.action === "clean-orphans") {
 			return NextResponse.json({ ok: true, action: body.action, ...cleanOrphanUploads() });

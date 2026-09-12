@@ -177,6 +177,11 @@ function isMissingFileError(e: unknown): boolean {
 
 const structuredCache = new Map<string, { stamp: string; value: unknown }>();
 
+/** 清理进程内的配置解析缓存；配置文件本身不会被修改。 */
+export function clearStructuredCache() {
+	structuredCache.clear();
+}
+
 function cloneJson<T>(value: T): T {
 	return JSON.parse(JSON.stringify(value)) as T;
 }

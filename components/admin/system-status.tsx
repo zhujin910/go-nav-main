@@ -46,6 +46,7 @@ export function SystemStatus() {
 			const data = (await response.json()) as { error?: string; deleted?: number; bytes?: number; removed?: number };
 			if (!response.ok) throw new Error(data.error || "操作失败");
 			toast.success(action === "clear-cache" ? `已清理 ${data.removed ?? 0} 项缓存` : `已删除 ${data.deleted ?? 0} 个无用文件，释放 ${formatBytes(data.bytes ?? 0)}`);
+			if (action === "clear-cache") await loadLogs();
 		} catch (reason) {
 			toast.danger(reason instanceof Error ? reason.message : "操作失败");
 		} finally { setBusy(false); }
