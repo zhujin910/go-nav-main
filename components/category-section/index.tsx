@@ -16,6 +16,11 @@ export const CategorySection = memo(function CategorySection({
 	view: CategorySectionModel;
 	isChild?: boolean;
 }) {
+	const onlyChild = category.children?.length === 1 ? category.children[0] : null;
+	if (onlyChild && !(category.sites && category.sites.length > 0)) {
+		return <CategorySection category={onlyChild} view={view} isChild={isChild} />;
+	}
+
 	const { display, layout } = view;
 	const hasMultipleChildren = (category.children?.length ?? 0) > 1;
 	const hasAnyChildren = (category.children?.length ?? 0) > 0;

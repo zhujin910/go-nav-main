@@ -11,10 +11,10 @@ export async function fetchRuntimeJson<T>(
 	signal: AbortSignal,
 ): Promise<T> {
 	const response = await fetch(url, {
-		cache: "no-store",
+		// 允许浏览器/CDN 使用条件请求；配置变化时仍会通过 304/200 正确更新。
+		cache: "no-cache",
 		headers: {
 			Accept: "application/json",
-			"Cache-Control": "no-cache",
 		},
 		signal,
 	});
@@ -56,14 +56,13 @@ export function useRuntimeConfig<TNav = NavConfig>(
 
 	useEffect(() => {
 		const controller = new AbortController();
-		const cacheBuster = Date.now().toString(36);
 
 		const navPromise = fetchRuntimeJson<NavConfig>(
-			`/nav.json?v=${cacheBuster}`,
+			"/nav.json",
 			controller.signal,
 		);
 		const websitePromise = fetchRuntimeJson<WebsiteData>(
-			`/website.json?v=${cacheBuster}`,
+			"/website.json",
 			controller.signal,
 		);
 

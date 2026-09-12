@@ -1,6 +1,6 @@
 "use client";
 
-import { memo } from "react";
+import { memo, useState } from "react";
 import { useSiteLinkMode } from "@/lib/client/site-link";
 import type { SiteGridProps } from "./site-card.types";
 import { SiteCard } from "./site-card-item";
@@ -15,6 +15,7 @@ export const SiteGrid = memo(function SiteGrid({
 }: SiteGridProps) {
 	const siteLinkMode = useSiteLinkMode();
 	const { containerRef, total, visibleKeys, visibleSites } = useSiteGridBatch(sites);
+	const [expanded, setExpanded] = useState(false);
 	if (total === 0) return null;
 
 	const effectiveCardHeight =
@@ -29,8 +30,9 @@ export const SiteGrid = memo(function SiteGrid({
 			: null;
 	const maxItems =
 		maxRows && columns ? maxRows * columns : null;
-	const displayedSites = maxItems ? visibleSites.slice(0, maxItems) : visibleSites;
-	const displayedKeys = maxItems ? visibleKeys.slice(0, maxItems) : visibleKeys;
+	const hasMore = Boolean(maxItems && maxItems < visibleSites.length);
+	const displayedSites = !expanded && maxItems ? visibleSites.slice(0, maxItems) : visibleSites;
+	const displayedKeys = !expanded && maxItems ? visibleKeys.slice(0, maxItems) : visibleKeys;
 
 	return (
 		<div
@@ -56,6 +58,15 @@ export const SiteGrid = memo(function SiteGrid({
 						siteLinkMode={siteLinkMode}
 					/>
 				))}
+				{hasMore && !expanded ? (
+					<button
+						type="button"
+						className="site-card-surface flex h-full min-h-16 items-center justify-center rounded-xl border border-dashed border-primary/35 bg-primary/[0.04] px-3 text-sm font-medium text-primary transition-colors hover:bg-primary/[0.1] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+						onClick={() => setExpanded(true)}
+					>
+						查看更多
+					</button>
+				) : null}
 			</div>
 		</div>
 	);

@@ -1,8 +1,11 @@
 import os from "node:os";
+import fs from "node:fs";
+import path from "node:path";
 import { statfs } from "node:fs/promises";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 import { SESSION_COOKIE, verifySession } from "@/lib/server/auth";
+import { DATA_DIR } from "@/lib/server/paths";
 
 function memoryUsage() {
 	const total = os.totalmem();
@@ -32,6 +35,10 @@ export async function GET() {
 		disk = { total, used: total - free, percent: total ? Math.round(((total - free) / total) * 100) : 0 };
 	} catch {
 	}
+	const processMemory = process.memoryUsage();
+	const dataFiles = fs.existsSync(DATA_DIR)
+		? fs.readdirSync(DATA_DIR, { withFileTypes: true }).filter((entry) => entry.isFile()).length
+		: 0;
 	return NextResponse.json({
 		hostname: os.hostname(),
 		platform: `${os.platform()} ${os.arch()}`,
@@ -41,5 +48,14 @@ export async function GET() {
 		memory: memoryUsage(),
 		disk,
 		uptime: os.uptime(),
+		nodeVersion: process.version,
+		pid: process.pid,
+		processMemory: {
+			rss: processMemory.rss,
+			heapUsed: processMemory.heapUsed,
+			heapTotal: processMemory.heapTotal,
+		},
+		dataDirectory: path.basename(DATA_DIR),
+		dataFiles,
 	});
 }

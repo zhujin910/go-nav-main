@@ -74,12 +74,10 @@ export default function RootLayout({
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
-	const themeMode = isHtmlDeployment
-		? "system"
-		: (getNav().themeMode ?? "light");
-	const nav = getNav();
+	const nav = isHtmlDeployment ? null : getNav();
+	const themeMode = isHtmlDeployment ? "system" : (nav?.themeMode ?? "light");
 	const origin = resolveSiteOrigin();
-	const jsonLd = JSON.stringify(buildSeoJsonLd(nav, origin));
+	const jsonLd = nav ? JSON.stringify(buildSeoJsonLd(nav, origin)) : "";
 	return (
 		<html lang="zh-CN" className="h-full antialiased" suppressHydrationWarning>
 			<head>
@@ -89,10 +87,12 @@ export default function RootLayout({
 				<script
 					dangerouslySetInnerHTML={{ __html: getThemeScript(themeMode) }}
 				/>
-				<script
-					type="application/ld+json"
-					dangerouslySetInnerHTML={{ __html: jsonLd }}
-				/>
+				{jsonLd ? (
+					<script
+						type="application/ld+json"
+						dangerouslySetInnerHTML={{ __html: jsonLd }}
+					/>
+				) : null}
 			</head>
 			<body className="min-h-full flex flex-col">
 				<ThemeProvider mode={themeMode}>
