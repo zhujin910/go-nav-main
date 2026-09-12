@@ -1,7 +1,7 @@
 "use client";
 
 import { Button, Card, toast } from "@heroui/react";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 interface Status { hostname: string; platform: string; cpus: number; loadPercent: number; memory: { used: number; total: number; percent: number }; disk: { used: number; total: number; percent: number }; uptime: number; nodeVersion: string; pid: number; processMemory: { rss: number; heapUsed: number; heapTotal: number }; dataDirectory: string; dataFiles: number; }
 interface LogFile { id: string; name: string; size: number; modifiedAt: string; }
@@ -19,7 +19,7 @@ export function SystemStatus() {
 	const [schedule, setSchedule] = useState<MaintenanceSchedule>({ enabled: false, intervalHours: 24, clearCache: true, cleanOrphans: true, lastRunAt: null });
 	const [busy, setBusy] = useState(false);
 	useEffect(() => { let cancelled = false; const load = () => fetch("/api/system/status", { cache: "no-store" }).then((response) => { if (!response.ok) throw new Error("无法读取系统状态"); return response.json() as Promise<Status>; }).then((data) => { if (!cancelled) setStatus(data); }).catch((reason: unknown) => { if (!cancelled) setError(reason instanceof Error ? reason.message : "读取失败"); }); load(); const timer = window.setInterval(load, 10000); return () => { cancelled = true; window.clearInterval(timer); }; }, []);
-	const loadLogs = async () => {
+	const loadLogs = useCallback(async () => {
 		const response = await fetch("/api/system/maintenance", { cache: "no-store" });
 		const data = (await response.json()) as { logs?: LogFile[]; schedule?: MaintenanceSchedule; candidates?: CleanupCandidate[]; error?: string };
 		if (!response.ok) throw new Error(data.error || "日志读取失败");
@@ -27,7 +27,12 @@ export function SystemStatus() {
 		if (data.schedule) setSchedule(data.schedule);
 		setCandidates(data.candidates ?? []);
 		setSelectedCandidates((current) => current.filter((id) => (data.candidates ?? []).some((candidate) => candidate.id === id)));
-	};
+	}, []);
+	useEffect(() => {
+		void loadLogs().catch((reason: unknown) => {
+			setError(reason instanceof Error ? reason.message : "日志读取失败");
+		});
+	}, [loadLogs]);
 	const saveSchedule = async (next: MaintenanceSchedule) => {
 		setSchedule(next);
 		const response = await fetch("/api/system/maintenance", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ action: "set-schedule", schedule: next }) });
