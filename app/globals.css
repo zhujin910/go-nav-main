@@ -1550,6 +1550,73 @@ body::after {
 	}
 }
 
+@media (max-width: 639px) {
+	.dark body {
+		background-color: var(--theme-bg-color, var(--background));
+		background-attachment: scroll;
+	}
+
+	.dark body::before {
+		filter: blur(var(--theme-bg-blur, 8px)) saturate(1.05) brightness(0.72);
+		opacity: min(var(--theme-bg-opacity, 0.72), 0.58);
+	}
+
+	.dark body::after {
+		background:
+			radial-gradient(circle at top left, color-mix(in srgb, var(--primary) 18%, transparent), transparent 36%),
+			radial-gradient(circle at bottom right, color-mix(in srgb, var(--primary) 14%, transparent), transparent 40%),
+			linear-gradient(135deg, rgb(15 23 42 / 0.16), rgb(2 6 23 / 0.2));
+		opacity: min(var(--theme-liquid-opacity, 0.42), 0.34);
+	}
+
+	.dark .site-layout[class*="site-home-theme--"] .site-layout-content,
+	.dark .site-home-theme--glass .site-layout-content,
+	.dark .site-home-theme--glass-aurora .site-layout-content,
+	.dark .site-home-theme--glass-ice .site-layout-content,
+	.dark .site-home-theme--glass-frost .site-layout-content,
+	.dark .site-home-theme--glass-tech .site-layout-content,
+	.dark .site-home-theme--glass-luxury .site-layout-content,
+	.dark .site-home-theme--glass-minimal .site-layout-content {
+		background: rgb(15 23 42 / 0.24);
+		backdrop-filter: blur(2px);
+	}
+
+	.dark .site-home-theme--glass .category-anchor,
+	.dark .site-home-theme--glass-aurora .category-anchor,
+	.dark .site-home-theme--glass-ice .category-anchor,
+	.dark .site-home-theme--glass-frost .category-anchor,
+	.dark .site-home-theme--glass-tech .category-anchor,
+	.dark .site-home-theme--glass-luxury .category-anchor,
+	.dark .site-home-theme--glass-minimal .category-anchor,
+	.dark .site-home-theme--glass .site-home-hero-stack > *,
+	.dark .site-home-theme--glass-aurora .site-home-hero-stack > *,
+	.dark .site-home-theme--glass-ice .site-home-hero-stack > *,
+	.dark .site-home-theme--glass-frost .site-home-hero-stack > *,
+	.dark .site-home-theme--glass-tech .site-home-hero-stack > *,
+	.dark .site-home-theme--glass-luxury .site-home-hero-stack > *,
+	.dark .site-home-theme--glass-minimal .site-home-hero-stack > * {
+		background: color-mix(in srgb, var(--surface) 86%, var(--primary) 4%) !important;
+		border-color: color-mix(in srgb, var(--border) 88%, white 8%);
+		box-shadow: 0 10px 24px rgb(2 6 23 / 0.24), inset 0 1px 0 rgb(255 255 255 / 0.06);
+	}
+
+	.dark .site-home-theme--glass .site-card-surface,
+	.dark .site-home-theme--glass-aurora .site-card-surface,
+	.dark .site-home-theme--glass-ice .site-card-surface,
+	.dark .site-home-theme--glass-frost .site-card-surface,
+	.dark .site-home-theme--glass-tech .site-card-surface,
+	.dark .site-home-theme--glass-luxury .site-card-surface,
+	.dark .site-home-theme--glass-minimal .site-card-surface {
+		background: color-mix(in srgb, var(--surface) 92%, var(--primary) 3%) !important;
+		border-color: color-mix(in srgb, var(--border) 88%, white 8%) !important;
+		box-shadow: 0 8px 18px rgb(2 6 23 / 0.2), inset 0 1px 0 rgb(255 255 255 / 0.05) !important;
+	}
+
+	.dark .search-bar--minimal .search-field__group {
+		background: color-mix(in srgb, var(--surface) 88%, transparent);
+	}
+}
+
 .site-home-theme--glass .site-layout-content,
 .site-home-theme--glass-aurora .site-layout-content,
 .site-home-theme--glass-ice .site-layout-content,

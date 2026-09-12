@@ -6,15 +6,20 @@ import { resolveThemeBackgroundValue } from "@/lib/theme-presets";
 
 function applyTheme(background?: CustomThemeConfig["themeBackground"], textStyle?: CustomThemeConfig["textStyle"]): void {
 	const root = document.documentElement;
+	const isDark = root.classList.contains("dark");
+	const defaultTextColor = isDark ? "#e5eefc" : "#0f172a";
+	const defaultMutedColor = isDark ? "#94a3b8" : "#64748b";
+	const defaultTitleColor = isDark ? "#f8fafc" : "#0f172a";
+	const defaultLinkColor = isDark ? "#93c5fd" : "#2563eb";
 	root.style.setProperty("--theme-bg-image", resolveThemeBackgroundValue(background) ?? "none");
 	root.style.setProperty("--theme-bg-color", background?.mode === "solid" && background.solidColor ? background.solidColor : "var(--background)");
 	root.style.setProperty("--theme-bg-blur", `${Math.min(30, Math.max(0, background?.blur ?? 8))}px`);
 	root.style.setProperty("--theme-bg-opacity", `${Math.min(1, Math.max(0, background?.opacity ?? 0.72))}`);
 	root.style.setProperty("--theme-liquid-opacity", `${Math.min(1, Math.max(0, background?.liquid ?? 0.42))}`);
-	root.style.setProperty("--site-text-color", textStyle?.color ?? "#0f172a");
-	root.style.setProperty("--site-muted-color", textStyle?.mutedColor ?? "#64748b");
-	root.style.setProperty("--site-title-color", textStyle?.titleColor ?? textStyle?.color ?? "#0f172a");
-	root.style.setProperty("--site-link-color", textStyle?.linkColor ?? "#2563eb");
+	root.style.setProperty("--site-text-color", textStyle?.color ?? defaultTextColor);
+	root.style.setProperty("--site-muted-color", textStyle?.mutedColor ?? defaultMutedColor);
+	root.style.setProperty("--site-title-color", textStyle?.titleColor ?? textStyle?.color ?? defaultTitleColor);
+	root.style.setProperty("--site-link-color", textStyle?.linkColor ?? defaultLinkColor);
 	root.style.setProperty("--site-text-size", `${Math.min(28, Math.max(12, textStyle?.fontSize ?? 14))}px`);
 	root.style.setProperty("--site-title-size", `${Math.min(48, Math.max(16, textStyle?.titleSize ?? 20))}px`);
 	root.style.setProperty("--site-muted-size", `${Math.min(24, Math.max(10, textStyle?.mutedSize ?? 12))}px`);
