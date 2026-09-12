@@ -37,6 +37,11 @@ export default function CarouselBanner({ list }: Props) {
           <img
             src={item.image}
             alt={item.title}
+            width={1280}
+            height={360}
+            loading={idx === 0 ? "eager" : "lazy"}
+            fetchPriority={idx === 0 ? "high" : "auto"}
+            decoding="async"
             className={`size-full object-cover ${idx === current && item.dynamicEffect === true ? "carousel-banner__image--dynamic" : ""}`}
           />
           <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 p-4 text-white">

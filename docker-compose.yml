@@ -12,3 +12,8 @@ services:
       # SESSION_SECRET: ${SESSION_SECRET}
     volumes:
       - ./go-nav-data:/app/data
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

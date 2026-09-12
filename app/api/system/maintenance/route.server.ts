@@ -12,6 +12,12 @@ const TEMP_DIRECTORIES = [path.join(process.cwd(), ".next", "cache"), path.join(
 const ARTICLE_UPLOADS_DIR = path.join(DATA_DIR, "article-uploads");
 const SCHEDULE_FILE = path.join(DATA_DIR, "maintenance.json");
 const DEFAULT_SCHEDULE = { enabled: false, intervalHours: 24, clearCache: true, cleanOrphans: true, lastRunAt: null as string | null };
+const CLEANUP_ROOTS = [
+	{ id: "next-cache", directory: path.join(process.cwd(), ".next", "cache"), label: "Next 构建缓存" },
+	{ id: "project-logs", directory: path.join(process.cwd(), "logs"), label: "项目日志" },
+	{ id: "data-logs", directory: path.join(DATA_DIR, "logs"), label: "数据日志" },
+];
+type CleanupCandidate = { id: string; name: string; label: string; size: number; kind: "directory" | "file" };
 
 async function authorized() {
 	const store = await cookies();
@@ -70,6 +76,66 @@ function clearDirectory(directory: string) {
 		}
 	}
 	return removed;
+}
+
+function getDirectorySize(directory: string): number {
+	if (!fs.existsSync(directory)) return 0;
+	return fs.readdirSync(directory, { withFileTypes: true }).reduce((total, entry) => {
+		const target = path.join(directory, entry.name);
+		return total + (entry.isDirectory() ? getDirectorySize(target) : fs.statSync(target).size);
+	}, 0);
+}
+
+function listCleanupCandidates(): CleanupCandidate[] {
+	const candidates: CleanupCandidate[] = CLEANUP_ROOTS
+		.filter(({ directory }) => fs.existsSync(directory))
+		.map(({ id, directory, label }) => ({
+			id,
+			name: path.relative(process.cwd(), directory) || directory,
+			label,
+			size: getDirectorySize(directory),
+			kind: "directory" as const,
+		}))
+		.filter((item) => item.size > 0);
+
+	if (fs.existsSync(DATA_DIR)) {
+		for (const entry of fs.readdirSync(DATA_DIR, { withFileTypes: true })) {
+			if (!entry.isFile() || !/(?:\.bak|\.tmp-[A-Za-z0-9_-]+)$/.test(entry.name)) continue;
+			const filePath = path.join(DATA_DIR, entry.name);
+			candidates.push({
+				id: `data-file:${entry.name}`,
+				name: path.relative(process.cwd(), filePath),
+				label: "旧配置/临时文件",
+				size: fs.statSync(filePath).size,
+				kind: "file" as const,
+			});
+		}
+	}
+	return candidates;
+}
+
+function deleteCleanupCandidates(ids: string[]) {
+	const allowed = new Map(listCleanupCandidates().map((item) => [item.id, item]));
+	let deleted = 0;
+	let bytes = 0;
+	for (const id of ids) {
+		const item = allowed.get(id);
+		if (!item) continue;
+		const root = item.kind === "directory"
+			? CLEANUP_ROOTS.find((candidate) => candidate.id === id)?.directory
+			: path.join(DATA_DIR, id.slice("data-file:".length));
+		if (!root) continue;
+		const safeRelative = path.relative(item.kind === "directory" ? root : DATA_DIR, root);
+		if (safeRelative.startsWith("..") || path.isAbsolute(safeRelative)) continue;
+		if (item.kind === "directory") {
+			clearDirectory(root);
+		} else {
+			fs.rmSync(root, { force: true });
+		}
+		deleted += 1;
+		bytes += item.size;
+	}
+	return { deleted, bytes };
 }
 
 function cleanOrphanUploads() {
@@ -137,13 +203,19 @@ export async function GET(request: Request) {
 		});
 	}
 	runScheduledMaintenance();
-	return NextResponse.json({ logs: listLogs(), schedule: readSchedule() });
+	return NextResponse.json({ logs: listLogs(), schedule: readSchedule(), candidates: listCleanupCandidates() });
 }
 
 export async function POST(request: Request) {
 	if (!(await authorized())) return NextResponse.json({ error: "未登录" }, { status: 401 });
-	const body = (await request.json().catch(() => ({}))) as { action?: string; schedule?: Partial<typeof DEFAULT_SCHEDULE> };
+	const body = (await request.json().catch(() => ({}))) as { action?: string; schedule?: Partial<typeof DEFAULT_SCHEDULE>; ids?: string[] };
 	try {
+		if (body.action === "delete-selected") {
+			if (!Array.isArray(body.ids) || body.ids.some((id) => typeof id !== "string")) {
+				return NextResponse.json({ error: "清理文件列表无效" }, { status: 400 });
+			}
+			return NextResponse.json({ ok: true, action: body.action, ...deleteCleanupCandidates(body.ids) });
+		}
 		if (body.action === "set-schedule" && body.schedule) {
 			const current = readSchedule();
 			const intervalHours = Number(body.schedule.intervalHours);

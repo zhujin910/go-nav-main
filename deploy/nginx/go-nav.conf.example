@@ -43,6 +43,9 @@ server {
         application/xml
         text/x-component
         application/vnd.turbo-stream.html
+        application/wasm
+        font/woff
+        font/woff2
         image/svg+xml;
 
     keepalive_timeout 65s;
