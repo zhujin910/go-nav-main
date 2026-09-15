@@ -74,6 +74,19 @@ export const THEME_GRADIENT_PRESETS = [
 	{ id: "gradient-30", name: "兰花深夜", value: "linear-gradient(135deg, #18181b 0%, #581c87 44%, #0e7490 100%)" },
 ];
 
+export const THEME_SOLID_PRESETS = [
+	{ id: "sky", name: "晴空蓝", value: "#dbeafe" },
+	{ id: "mint", name: "薄荷绿", value: "#d1fae5" },
+	{ id: "vanilla", name: "香草黄", value: "#fef3c7" },
+	{ id: "rose", name: "玫瑰粉", value: "#fbcfe8" },
+	{ id: "mist", name: "雾霭灰", value: "#e2e8f0" },
+	{ id: "lavender", name: "薰衣草紫", value: "#e9d5ff" },
+	{ id: "periwinkle", name: "长春花蓝", value: "#c7d2fe" },
+	{ id: "frost", name: "冰霜蓝", value: "#bfdbfe" },
+	{ id: "night", name: "深夜蓝", value: "#172554" },
+	{ id: "graphite", name: "石墨灰", value: "#27272a" },
+];
+
 export function resolveThemeBackgroundValue(background?: ThemeBackgroundConfig): string {
 	if (!background || background.mode === "none") return "none";
 	if (background.mode === "upload" && background.image) return `url("${background.image}")`;

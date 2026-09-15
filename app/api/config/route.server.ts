@@ -1,6 +1,7 @@
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 import type { NavConfig, WebsiteData } from "@/types";
+import { validateFrontendCategoryTree } from "@/lib/category-tree";
 import { SESSION_COOKIE, verifySession } from "@/lib/server/auth";
 import { revalidateFrontendPaths } from "@/lib/server/revalidate-frontend";
 import {
@@ -77,6 +78,7 @@ export async function PUT(req: Request) {
 			);
 		}
 		const currentNav = readNav();
+		if (body.websiteData) validateFrontendCategoryTree(body.websiteData);
 		const savedNav = body.nav
 			? prepareNavForWrite(body.nav, currentNav)
 			: undefined;

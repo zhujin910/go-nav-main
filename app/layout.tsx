@@ -63,7 +63,7 @@ function getScrollRestorationScript() {
 	return `(function(){
   try{
     if("scrollRestoration" in window.history){
-      window.history.scrollRestoration="manual";
+			window.history.scrollRestoration="auto";
     }
   }catch(_e){}
 })()`;

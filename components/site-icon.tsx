@@ -128,8 +128,11 @@ export function SiteIcon({
 	showDefaultBackgroundColor?: boolean;
 }) {
 	const iconSrc = getIconImageSrc(site.icon, site.url);
+	const isImageIcon = Boolean(iconSrc);
 	const [imageSrc, setImageSrc] = useState(iconSrc);
-	useEffect(() => setImageSrc(iconSrc), [iconSrc]);
+	useEffect(() => {
+		setImageSrc(iconSrc);
+	}, [iconSrc]);
 	const style = resolveSiteIconStyle({
 		site,
 		layout,
@@ -140,35 +143,37 @@ export function SiteIcon({
 	return (
 		<span
 			aria-hidden
-			className={`flex shrink-0 items-center justify-center overflow-hidden text-center leading-none ${className}`.trim()}
+			className={`relative flex shrink-0 items-center justify-center overflow-hidden text-center leading-none ${className}`.trim()}
 			style={style}
 		>
 			{site.icon ? (
-				imageSrc ? (
+				<>
+					<span
+						className={
+							isImageIcon
+								? `font-semibold text-muted ${initialClassName}`.trim()
+								: textClassName
+						}
+					>
+						{isImageIcon
+							? site.title.charAt(0)
+							: site.icon}
+					</span>
+					{imageSrc ? (
 					// eslint-disable-next-line @next/next/no-img-element
 					<img
 						alt=""
 						src={imageSrc}
 						width={size}
 						height={size}
-						className={`h-full w-full object-contain ${imageClassName}`.trim()}
+						className={`absolute inset-0 h-full w-full object-contain transition-opacity duration-150 ${imageClassName}`.trim()}
 						loading={loading}
+						fetchPriority={loading === "eager" ? "high" : "auto"}
 						decoding="async"
 						onError={() => setImageSrc(null)}
 					/>
-				) : (
-					<span
-						className={
-							site.icon.startsWith("http")
-								? `font-semibold text-muted ${initialClassName}`.trim()
-								: textClassName
-						}
-					>
-						{site.icon.startsWith("http")
-							? site.title.charAt(0)
-							: site.icon}
-					</span>
-				)
+					) : null}
+				</>
 			) : (
 				<span className={`font-semibold text-muted ${initialClassName}`.trim()}>
 					{site.title.charAt(0)}

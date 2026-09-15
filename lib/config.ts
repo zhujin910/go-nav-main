@@ -1,5 +1,6 @@
 import type { NavCategory, NavConfig, NavSite, WebsiteData } from "@/types";
 import { readNav, readWebsiteData } from "@/lib/server/store";
+import { getFrontendCategories } from "@/lib/category-tree";
 
 /**
  * 读取最新的网站数据（分类和网址）（每次调用都会重新读文件）。
@@ -7,7 +8,8 @@ import { readNav, readWebsiteData } from "@/lib/server/store";
  * - server 模式下：server 组件渲染时调用，配合 revalidatePath 做热更新。
  */
 export function getWebsiteData(): WebsiteData {
-	return readWebsiteData();
+	const websiteData = readWebsiteData();
+	return { ...websiteData, categories: getFrontendCategories(websiteData) };
 }
 
 /**

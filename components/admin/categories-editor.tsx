@@ -183,8 +183,7 @@ const CategoryRow = memo(function CategoryRow({
 	onDelete: (categoryId: string) => void;
 	children?: React.ReactNode;
 }) {
-	const siteCount = category.sites?.length ?? 0;
-	const canAddChild = depth === 0 && siteCount === 0;
+	const canAddChild = depth === 0;
 	const siblingIdx = siblings.findIndex((c) => c.id === category.id);
 	const siblingCount = siblings.length;
 	const isFirst = siblingIdx <= 0;
@@ -385,7 +384,6 @@ export function CategoriesEditor() {
 
 	const parentOptions = useMemo(() => {
 		return value.categories
-			.filter((category) => (category.sites?.length ?? 0) === 0)
 			.map((category) => ({
 				id: category.id,
 				name: category.name,
@@ -607,6 +605,17 @@ export function CategoriesEditor() {
 
 	const handleSave = () => {
 		if (!formState.name.trim()) return;
+		if (formState.parentId) {
+			const parent = flatCategories.find(
+				(item) => item.category.id === formState.parentId,
+			);
+			if (!parent || parent.level !== 0) {
+				toast.danger("分类层级无效", {
+					description: "前台分类只支持母分类和子分类两级结构。",
+				});
+				return;
+			}
+		}
 
 		const updatedCategory: NavCategory = {
 			id: formState.id,

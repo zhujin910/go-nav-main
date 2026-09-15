@@ -17,6 +17,8 @@ export function SubcategoryTabs({
 	const tabs = useMemo(() => category.children ?? [], [category.children]);
 	const scrollerRef = useRef<HTMLDivElement>(null);
 	const tabButtonRefs = useRef<Array<HTMLButtonElement | null>>([]);
+	const dragStateRef = useRef({ active: false, startX: 0, startScrollLeft: 0, moved: false });
+	const suppressClickRef = useRef(false);
 	const firstTabId = tabs[0]?.id ?? "";
 	const [selectedTabId, setSelectedTabId] = useState(firstTabId);
 
@@ -32,6 +34,37 @@ export function SubcategoryTabs({
 		return index >= 0 ? index : 0;
 	}, [selectedTabId, tabs]);
 	const activeTab = tabs[selectedIndex] ?? tabs[0];
+
+	const handlePointerDown = useCallback((event: React.PointerEvent<HTMLDivElement>) => {
+		const element = scrollerRef.current;
+		if (!element || element.scrollWidth <= element.clientWidth) return;
+		dragStateRef.current = {
+			active: true,
+			startX: event.clientX,
+			startScrollLeft: element.scrollLeft,
+			moved: false,
+		};
+		element.setPointerCapture(event.pointerId);
+	}, []);
+
+	const handlePointerMove = useCallback((event: React.PointerEvent<HTMLDivElement>) => {
+		const element = scrollerRef.current;
+		const state = dragStateRef.current;
+		if (!element || !state.active) return;
+		const deltaX = event.clientX - state.startX;
+		if (Math.abs(deltaX) > 4) state.moved = true;
+		element.scrollLeft = state.startScrollLeft - deltaX;
+	}, []);
+
+	const stopDragging = useCallback((event: React.PointerEvent<HTMLDivElement>) => {
+		const element = scrollerRef.current;
+		const state = dragStateRef.current;
+		if (element?.hasPointerCapture(event.pointerId)) {
+			element.releasePointerCapture(event.pointerId);
+		}
+		suppressClickRef.current = state.moved;
+		dragStateRef.current.active = false;
+	}, []);
 
 	const focusTab = useCallback((index: number) => {
 		requestAnimationFrame(() => {
@@ -114,12 +147,23 @@ export function SubcategoryTabs({
 		<div className="w-full">
 			<div
 				ref={scrollerRef}
-				className="w-full overflow-x-auto px-2 scrollbar-none [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
+				className="w-full cursor-grab touch-pan-x overflow-x-auto px-2 pb-1 scrollbar-none [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden active:cursor-grabbing"
+				onPointerDown={handlePointerDown}
+				onPointerMove={handlePointerMove}
+				onPointerUp={stopDragging}
+				onPointerCancel={stopDragging}
+				onClickCapture={(event) => {
+					if (suppressClickRef.current) {
+						event.preventDefault();
+						event.stopPropagation();
+						suppressClickRef.current = false;
+					}
+				}}
 			>
 				<div
 					role="tablist"
 					aria-label={`${category.name}的子分类`}
-					className="inline-flex min-w-max items-center gap-1 rounded-2xl bg-black/4 p-1 dark:bg-white/8"
+					className="inline-flex min-w-max items-center gap-1 rounded-2xl bg-black/4 p-1 pr-3 dark:bg-white/8"
 					onKeyDown={handleTabKeyDown}
 				>
 					{tabs.map((tab, index) => {

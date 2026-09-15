@@ -37,6 +37,7 @@ import type {
 import {
 	THEME_BACKGROUND_PRESETS,
 	THEME_GRADIENT_PRESETS,
+	THEME_SOLID_PRESETS,
 } from "@/lib/theme-presets";
 import { useAtom, useSetAtom } from "jotai";
 import { useEffect, useState } from "react";
@@ -789,7 +790,6 @@ function ThemeEditor({
 							: background.mode === "upload" && background.image
 								? { backgroundImage: `url("${background.image}")` }
 								: { backgroundImage: `url("${currentPreset.image}")` };
-				const solidColorPresets = ["#dbeafe", "#d1fae5", "#fef3c7", "#fbcfe8", "#e2e8f0", "#e9d5ff", "#dbeafe", "#f5d0fe", "#c7d2fe", "#bfdbfe"];
 				return (
 					<>
 						<div className={`${panelClass} flex flex-col gap-4`}>
@@ -872,43 +872,27 @@ function ThemeEditor({
 								<span className="text-sm font-medium">纯色背景</span>
 								<button
 									type="button"
-									onClick={() => patchBackground({ mode: "solid", solidColor: "#dbeafe" })}
+									onClick={() => patchBackground({ mode: "solid", solidColor: THEME_SOLID_PRESETS[0].value })}
 									className="rounded-lg border border-default-200 px-2 py-1 text-xs text-default-600 hover:border-default-300"
 								>
-									选择纯色
+									使用内置色板
 								</button>
 							</div>
 							<div className="grid grid-cols-5 gap-2 lg:grid-cols-10">
-								{solidColorPresets.map((color) => (
+								{THEME_SOLID_PRESETS.map((preset) => (
 									<button
-										key={color}
+										key={preset.id}
 										type="button"
-										onClick={() => patchBackground({ mode: "solid", solidColor: color })}
-										className={`h-10 rounded-lg border-2 ${background.mode === "solid" && background.solidColor === color ? "border-slate-900 dark:border-white" : "border-transparent"}`}
-										style={{ background: color }}
-										aria-label={`选择纯色 ${color}`}
-									/>
+										onClick={() => patchBackground({ mode: "solid", solidColor: preset.value })}
+										className={`group relative h-10 rounded-lg border-2 ${background.mode === "solid" && background.solidColor === preset.value ? "border-slate-900 dark:border-white" : "border-transparent"}`}
+										style={{ background: preset.value }}
+										aria-label={`选择内置纯色 ${preset.name}`}
+									>
+										<span className="sr-only">{preset.name}</span>
+									</button>
 								))}
 							</div>
-							<div className="mt-3 flex items-center gap-3">
-								<label className="flex items-center gap-2 text-xs text-default-600">
-									<span>自定义</span>
-									<input
-										type="color"
-										value={background.mode === "solid" && background.solidColor ? background.solidColor : "#dbeafe"}
-										onChange={(event) => patchBackground({ mode: "solid", solidColor: event.target.value })}
-										className="h-8 w-14 rounded-md border border-default-200 bg-transparent p-0"
-									/>
-								</label>
-								<input
-									type="text"
-									value={background.mode === "solid" && background.solidColor ? background.solidColor : "#dbeafe"}
-									onChange={(event) => patchBackground({ mode: "solid", solidColor: event.target.value })}
-									placeholder="#dbeafe"
-									className="h-8 w-28 rounded-md border border-default-200 bg-transparent px-2 text-xs uppercase"
-									aria-label="背景颜色值"
-								/>
-							</div>
+							<p className="mt-3 text-xs text-default-500">颜色由系统内置，选择后无需加载外部资源。</p>
 						</div>
 
 						<div className="rounded-2xl border border-dashed border-default-200 bg-default-50/60 p-4">

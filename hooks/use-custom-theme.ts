@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import type { CustomThemeConfig } from "@/types";
-import { resolveThemeBackgroundValue } from "@/lib/theme-presets";
+import { resolveThemeBackgroundValue } from "@/lib/theme-background-runtime";
 
 function applyTheme(background?: CustomThemeConfig["themeBackground"], textStyle?: CustomThemeConfig["textStyle"]): void {
 	const root = document.documentElement;

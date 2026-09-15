@@ -152,22 +152,6 @@ export function useHomeRouteState({
 		};
 	}, [isHomeRoute, setActiveId]);
 
-	useLayoutEffect(() => {
-		if (!isHomeRoute) return;
-		if (restoredFromDetailRef.current) return;
-
-		const navEntry = performance.getEntriesByType("navigation")[0] as
-			| PerformanceNavigationTiming
-			| undefined;
-		if (navEntry?.type !== "reload") return;
-
-		window.scrollTo({ top: 0, behavior: "auto" });
-		const firstParentId = categories[0]?.id;
-		if (firstParentId) {
-			setActiveId((prev) => (prev === firstParentId ? prev : firstParentId));
-		}
-	}, [categories, isHomeRoute, setActiveId]);
-
 	return {
 		isDetailRoute,
 		selectedEntry,
