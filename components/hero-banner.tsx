@@ -19,7 +19,7 @@ function resolveSlideUrl(rawUrl?: string): string | undefined {
 	return `https://${value}`;
 }
 
-function HeroSlideCard({ slide }: { slide: HeroSlide }) {
+function HeroSlideCard({ slide, priority = false }: { slide: HeroSlide; priority?: boolean }) {
 	const slideUrl = resolveSlideUrl(slide.url);
 	const textColor = slide.textColor ?? "light";
 	const overlay = slide.overlay ?? 0.3;
@@ -33,7 +33,8 @@ function HeroSlideCard({ slide }: { slide: HeroSlide }) {
 				src={slide.image}
 				alt={slide.title}
 				className={`absolute inset-0 h-full w-full object-cover ${slide.dynamicEffect === true ? "carousel-banner__image--dynamic" : ""}`}
-				loading="eager"
+				loading={priority ? "eager" : "lazy"}
+				fetchPriority={priority ? "high" : "auto"}
 			/>
 			{/* 遮罩层 */}
 			<div
@@ -153,9 +154,9 @@ export function HeroBanner({
 				onActiveIndexChange={updateActiveIndex}
 				onRealIndexChange={updateActiveIndex}
 			>
-				{slides.map((slide) => (
+				{slides.map((slide, index) => (
 					<SwiperSlide key={slide.id} className="h-full">
-						<HeroSlideCard slide={slide} />
+						<HeroSlideCard slide={slide} priority={index === 0} />
 					</SwiperSlide>
 				))}
 			</Swiper>

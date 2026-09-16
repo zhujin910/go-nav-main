@@ -5,6 +5,7 @@ import type { BotProtectionConfig } from "@/types";
 
 const recentRequests = new Map<string, { startedAt: number; count: number }>();
 const KNOWN_BOT_KEYWORDS = ["bot", "crawler", "spider", "scrapy", "headless", "curl", "wget", "python-requests"];
+let cachedProtection: { value: BotProtectionConfig; expiresAt: number } | null = null;
 
 function getIp(request: NextRequest) {
 	return getClientIp(request);
@@ -37,12 +38,16 @@ function isBlocked(request: NextRequest, config: BotProtectionConfig) {
 }
 
 function shouldLog(pathname: string) {
-	return pathname === "/" || pathname.startsWith("/site/") || pathname.startsWith("/api/");
+	return pathname === "/" || pathname.startsWith("/site/");
 }
 
 export function proxy(request: NextRequest) {
 	if ((process.env.BUILD_MODE || "server").toLowerCase() !== "server") return NextResponse.next();
-	const config = readNav().botProtection ?? {};
+	const now = Date.now();
+	if (!cachedProtection || cachedProtection.expiresAt <= now) {
+		cachedProtection = { value: readNav().botProtection ?? {}, expiresAt: now + 2000 };
+	}
+	const config = cachedProtection.value;
 	const ip = getIp(request);
 	const blocked = isBlocked(request, config);
 	if (blocked) {

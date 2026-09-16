@@ -30,6 +30,7 @@ export type SecurityLogs = {
 
 const MAX_RECORDS = 5000;
 const getFile = () => path.join(process.env.DATA_DIR || path.join(process.cwd(), "data"), "security-logs.json");
+let accessWriteQueue = Promise.resolve();
 
 export function getClientIp(request: Request) {
 	const headers = [
@@ -74,16 +75,19 @@ function writeLogs(logs: SecurityLogs) {
 const trimText = (value: string, max: number) => value.slice(0, max);
 
 export function appendAccessLog(input: Omit<AccessLog, "id" | "time">) {
-	const logs = readSecurityLogs();
-	logs.access.push({
+	const record: AccessLog = {
 		...input,
 		id: crypto.randomUUID(),
 		time: new Date().toISOString(),
 		path: trimText(input.path, 300),
 		userAgent: trimText(input.userAgent, 4096),
-	});
-	logs.access = logs.access.slice(-MAX_RECORDS);
-	writeLogs(logs);
+	};
+	accessWriteQueue = accessWriteQueue.then(() => {
+		const logs = readSecurityLogs();
+		logs.access.push(record);
+		logs.access = logs.access.slice(-MAX_RECORDS);
+		writeLogs(logs);
+	}).catch(() => undefined);
 }
 
 export function appendSearchLog(input: Omit<SearchLog, "id" | "time">) {
