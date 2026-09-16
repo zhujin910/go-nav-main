@@ -21,7 +21,7 @@ type CleanupPreview = {
 };
 
 type RestoreResponse = {
-	restored?: { disabledJsPlugins?: number };
+	restored?: { disabledJsPlugins?: number; categoryCount?: number };
 };
 
 async function readImportError(res: Response): Promise<string> {
@@ -143,10 +143,11 @@ export function BackupEditor() {
 			setImportSuccess(true);
 			setPickedFile(null);
 			const disabledJsPlugins = restored.restored?.disabledJsPlugins ?? 0;
+			const categoryCount = restored.restored?.categoryCount;
 			toast.success(
 				disabledJsPlugins > 0
 					? `数据已还原，已默认禁用 ${disabledJsPlugins} 个脚本类插件`
-					: "数据已还原，页面即将刷新",
+					: `数据已还原${categoryCount === undefined ? "" : `，已覆盖 ${categoryCount} 个母分类`}，页面即将刷新`,
 			);
 			setTimeout(() => {
 				window.location.reload();

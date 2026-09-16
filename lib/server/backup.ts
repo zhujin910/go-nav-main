@@ -12,6 +12,7 @@ import {
 } from "@/lib/server/submissions";
 import {
 	parseStructuredContent,
+	clearStructuredCache,
 	readNav,
 	readWebsiteData,
 	stringifyStructuredContent,
@@ -37,6 +38,8 @@ const MAX_BACKUP_UNCOMPRESSED_BYTES = 512 * 1024 * 1024;
 export interface BackupRestoreResult {
 	website: boolean;
 	nav: boolean;
+	categoryCount?: number;
+	categoryNames?: string[];
 	uploads: number;
 	submissions?: number;
 	disabledJsPlugins: number;
@@ -168,6 +171,7 @@ export function restoreDataBackupZip(buf: Buffer): BackupRestoreResult {
 	if (websiteData) writeWebsiteData(websiteData);
 	if (nav) writeNav(nav);
 	if (submissionData) writeSubmissionData(submissionData);
+	clearStructuredCache();
 	if (uploads.length > 0) {
 		fs.mkdirSync(UPLOADS_DIR, { recursive: true });
 		for (const u of uploads) {
@@ -178,6 +182,8 @@ export function restoreDataBackupZip(buf: Buffer): BackupRestoreResult {
 	return {
 		website: !!websiteData,
 		nav: !!nav,
+		categoryCount: websiteData?.categories.length ?? 0,
+		categoryNames: websiteData?.categories.map((category) => category.name) ?? [],
 		uploads: uploads.length,
 		submissions: submissionData?.submissions.length ?? 0,
 		disabledJsPlugins,

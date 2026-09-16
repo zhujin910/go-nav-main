@@ -21719,3 +21719,534 @@ Import trace:
     ./instrumentation.ts
 
 
+2026-09-16T10:32:33.989Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:10:14
+[1m[33mWarning[39m: A Node.js API is used (process.cwd at line: 10) which is not supported in the Edge Runtime.
+    Learn more: https://nextjs.org/docs/api-reference/edge-runtime[22m
+  [90m 8 |[0m [36mexport[0m [36mconst[0m [33mDATA_DIR[0m = process.env.[33mDATA_DIR[0m
+  [90m 9 |[0m 	? path.resolve(process.env.[33mDATA_DIR[0m)
+[33m[1m>[0m [90m10 |[0m 	: path.join(process.cwd(), [32m"data"[0m);
+  [90m   |[0m             [33m[1m^^^^^^^^^^^[0m
+  [90m11 |[0m
+  [90m12 |[0m [36mconst[0m [33mSTRUCTURED_FILE_EXTENSIONS[0m = [[32m".yaml"[0m, [32m".yml"[0m, [32m".json"[0m] [36mas[0m [36mco...[0m
+  [90m13 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T10:32:33.995Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:52:50
+[1m[33mWarning[39m: A Node.js API is used (process.pid at line: 52) which is not supported in the Edge Runtime.
+    Learn more: https://nextjs.org/docs/api-reference/edge-runtime[22m
+  [90m50 |[0m ...ues);
+  [90m51 |[0m ...
+[33m[1m>[0m [90m52 |[0m ...[32mer logger started"[0m, [32m`pid=[0m${process.pid[32m}`[0m]);
+  [90m   |[0m                               [33m[1m^^^^^^^^^^^[0m
+  [90m53 |[0m ...
+  [90m54 |[0m ...
+  [90m55 |[0m ...untimeError(error: unknown, requestPath?: string) {
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T10:32:34.000Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:1:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:fs' at line 1) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+[33m[1m>[0m [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m3 |[0m
+  [90m4 |[0m /**
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T10:32:34.008Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:1:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:fs' at line 1) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+[33m[1m>[0m [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m3 |[0m [36mimport[0m { [33mDATA_DIR[0m } [36mfrom[0m [32m"./paths"[0m;
+  [90m4 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T10:32:34.014Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:2:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:path' at line 2) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+  [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+[33m[1m>[0m [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m /**
+  [90m5 |[0m  * 数据目录（便于 [33mDocker[0m 映射）。
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T10:32:34.020Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:2:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:path' at line 2) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+  [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+[33m[1m>[0m [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { [33mDATA_DIR[0m } [36mfrom[0m [32m"./paths"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m [33mLOG_DIR[0m = path.join([33mDATA_DIR[0m, [32m"logs"[0m);
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:22.354Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:10:14
+[1m[33mWarning[39m: A Node.js API is used (process.cwd at line: 10) which is not supported in the Edge Runtime.
+    Learn more: https://nextjs.org/docs/api-reference/edge-runtime[22m
+  [90m 8 |[0m [36mexport[0m [36mconst[0m [33mDATA_DIR[0m = process.env.[33mDATA_DIR[0m
+  [90m 9 |[0m 	? path.resolve(process.env.[33mDATA_DIR[0m)
+[33m[1m>[0m [90m10 |[0m 	: path.join(process.cwd(), [32m"data"[0m);
+  [90m   |[0m             [33m[1m^^^^^^^^^^^[0m
+  [90m11 |[0m
+  [90m12 |[0m [36mconst[0m [33mSTRUCTURED_FILE_EXTENSIONS[0m = [[32m".yaml"[0m, [32m".yml"[0m, [32m".json"[0m] [36mas[0m [36mco...[0m
+  [90m13 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:22.364Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:52:50
+[1m[33mWarning[39m: A Node.js API is used (process.pid at line: 52) which is not supported in the Edge Runtime.
+    Learn more: https://nextjs.org/docs/api-reference/edge-runtime[22m
+  [90m50 |[0m ...ues);
+  [90m51 |[0m ...
+[33m[1m>[0m [90m52 |[0m ...[32mer logger started"[0m, [32m`pid=[0m${process.pid[32m}`[0m]);
+  [90m   |[0m                               [33m[1m^^^^^^^^^^^[0m
+  [90m53 |[0m ...
+  [90m54 |[0m ...
+  [90m55 |[0m ...untimeError(error: unknown, requestPath?: string) {
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:22.370Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:1:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:fs' at line 1) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+[33m[1m>[0m [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m3 |[0m
+  [90m4 |[0m /**
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:22.383Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:1:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:fs' at line 1) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+[33m[1m>[0m [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m3 |[0m [36mimport[0m { [33mDATA_DIR[0m } [36mfrom[0m [32m"./paths"[0m;
+  [90m4 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:22.392Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:2:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:path' at line 2) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+  [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+[33m[1m>[0m [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m /**
+  [90m5 |[0m  * 数据目录（便于 [33mDocker[0m 映射）。
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:22.402Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:2:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:path' at line 2) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+  [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+[33m[1m>[0m [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { [33mDATA_DIR[0m } [36mfrom[0m [32m"./paths"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m [33mLOG_DIR[0m = path.join([33mDATA_DIR[0m, [32m"logs"[0m);
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:26.398Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:10:14
+[1m[33mWarning[39m: A Node.js API is used (process.cwd at line: 10) which is not supported in the Edge Runtime.
+    Learn more: https://nextjs.org/docs/api-reference/edge-runtime[22m
+  [90m 8 |[0m [36mexport[0m [36mconst[0m [33mDATA_DIR[0m = process.env.[33mDATA_DIR[0m
+  [90m 9 |[0m 	? path.resolve(process.env.[33mDATA_DIR[0m)
+[33m[1m>[0m [90m10 |[0m 	: path.join(process.cwd(), [32m"data"[0m);
+  [90m   |[0m             [33m[1m^^^^^^^^^^^[0m
+  [90m11 |[0m
+  [90m12 |[0m [36mconst[0m [33mSTRUCTURED_FILE_EXTENSIONS[0m = [[32m".yaml"[0m, [32m".yml"[0m, [32m".json"[0m] [36mas[0m [36mco...[0m
+  [90m13 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:26.404Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:52:50
+[1m[33mWarning[39m: A Node.js API is used (process.pid at line: 52) which is not supported in the Edge Runtime.
+    Learn more: https://nextjs.org/docs/api-reference/edge-runtime[22m
+  [90m50 |[0m ...ues);
+  [90m51 |[0m ...
+[33m[1m>[0m [90m52 |[0m ...[32mer logger started"[0m, [32m`pid=[0m${process.pid[32m}`[0m]);
+  [90m   |[0m                               [33m[1m^^^^^^^^^^^[0m
+  [90m53 |[0m ...
+  [90m54 |[0m ...
+  [90m55 |[0m ...untimeError(error: unknown, requestPath?: string) {
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:26.409Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:1:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:fs' at line 1) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+[33m[1m>[0m [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m3 |[0m
+  [90m4 |[0m /**
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:26.419Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:1:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:fs' at line 1) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+[33m[1m>[0m [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m3 |[0m [36mimport[0m { [33mDATA_DIR[0m } [36mfrom[0m [32m"./paths"[0m;
+  [90m4 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:26.462Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:2:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:path' at line 2) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+  [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+[33m[1m>[0m [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m /**
+  [90m5 |[0m  * 数据目录（便于 [33mDocker[0m 映射）。
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:26.477Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:2:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:path' at line 2) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+  [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+[33m[1m>[0m [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { [33mDATA_DIR[0m } [36mfrom[0m [32m"./paths"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m [33mLOG_DIR[0m = path.join([33mDATA_DIR[0m, [32m"logs"[0m);
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:34.284Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:10:14
+[1m[33mWarning[39m: A Node.js API is used (process.cwd at line: 10) which is not supported in the Edge Runtime.
+    Learn more: https://nextjs.org/docs/api-reference/edge-runtime[22m
+  [90m 8 |[0m [36mexport[0m [36mconst[0m [33mDATA_DIR[0m = process.env.[33mDATA_DIR[0m
+  [90m 9 |[0m 	? path.resolve(process.env.[33mDATA_DIR[0m)
+[33m[1m>[0m [90m10 |[0m 	: path.join(process.cwd(), [32m"data"[0m);
+  [90m   |[0m             [33m[1m^^^^^^^^^^^[0m
+  [90m11 |[0m
+  [90m12 |[0m [36mconst[0m [33mSTRUCTURED_FILE_EXTENSIONS[0m = [[32m".yaml"[0m, [32m".yml"[0m, [32m".json"[0m] [36mas[0m [36mco...[0m
+  [90m13 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:34.291Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:52:50
+[1m[33mWarning[39m: A Node.js API is used (process.pid at line: 52) which is not supported in the Edge Runtime.
+    Learn more: https://nextjs.org/docs/api-reference/edge-runtime[22m
+  [90m50 |[0m ...ues);
+  [90m51 |[0m ...
+[33m[1m>[0m [90m52 |[0m ...[32mer logger started"[0m, [32m`pid=[0m${process.pid[32m}`[0m]);
+  [90m   |[0m                               [33m[1m^^^^^^^^^^^[0m
+  [90m53 |[0m ...
+  [90m54 |[0m ...
+  [90m55 |[0m ...untimeError(error: unknown, requestPath?: string) {
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:34.296Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:1:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:fs' at line 1) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+[33m[1m>[0m [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m3 |[0m
+  [90m4 |[0m /**
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:34.300Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:1:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:fs' at line 1) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+[33m[1m>[0m [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m3 |[0m [36mimport[0m { [33mDATA_DIR[0m } [36mfrom[0m [32m"./paths"[0m;
+  [90m4 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:34.307Z [WARN] [33m[1m⚠[22m[39m ./lib/server/paths.ts:2:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:path' at line 2) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+  [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+[33m[1m>[0m [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m
+  [90m4 |[0m /**
+  [90m5 |[0m  * 数据目录（便于 [33mDocker[0m 映射）。
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/paths.ts
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:34.313Z [WARN] [33m[1m⚠[22m[39m ./lib/server/runtime-logger.ts:2:1
+[1m[33mWarning[39m: A Node.js module is loaded ('node:path' at line 2) which is not supported in the Edge Runtime.
+    Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime[22m
+  [90m1 |[0m [36mimport[0m fs [36mfrom[0m [32m"node:fs"[0m;
+[33m[1m>[0m [90m2 |[0m [36mimport[0m path [36mfrom[0m [32m"node:path"[0m;
+  [90m  |[0m [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { [33mDATA_DIR[0m } [36mfrom[0m [32m"./paths"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m [33mLOG_DIR[0m = path.join([33mDATA_DIR[0m, [32m"logs"[0m);
+
+Ecmascript file had an error
+
+Import trace:
+  Edge Instrumentation:
+    ./lib/server/runtime-logger.ts
+    ./instrumentation.ts
+
+
+2026-09-16T11:29:39.089Z [ERROR] [36m[browser][39m In HTML, <button> cannot be a descendant of <button>.
+This will cause a hydration error.
+
+  ...
+    <SegmentViewNode type="page" pagePath="admin/(das...">
+      <SegmentTrieNode>
+      <SitesPage>
+        <SitesEditor>
+          <DndContext sensors={[...]} collisionDetection={function siteAwareCollisionDetection} measuring={{...}} ...>
+            <div className="flex h-[ca...">
+              <div className="flex min-h...">
+                <div className="hidden w-6...">
+                  <div>
+                  <div className="flex-1 ove...">
+                    <div className="flex flex-...">
+                      <DroppableCategoryButton cat={{category:{...}, ...}} isExpanded={true} isSelected={false} ...>
+                        <div>
+>                         <button
+>                           ref={function useNodeRef.useCallback[setNodeRef]}
+>                           type="button"
+>                           onClick={function DroppableCategoryButton[<button>.onClick]}
+>                           className="relative flex w-full cursor-pointer items-center gap-2 overflow-hidden rounded-..."
+>                         >
+                            <span>
+                            <span>
+                            <span>
+                            <ButtonRoot isIconOnly={true} size="sm" variant="ghost" className="size-7 shr..." ...>
+                              <Button className={function} data-slot="button" isDisabled={undefined} slot={undefined} ...>
+                                <bound $7230ffa83bc0c2cf$var$DOMElement data-slot="button" className="button but..." ...>
+>                                 <button
+>                                   data-slot="button"
+>                                   className="button button--icon-only button--sm button--ghost size-7 shrink-0"
+>                                   style={undefined}
+>                                   data-rac=""
+>                                   type="button"
+>                                   disabled={undefined}
+>                                   form={undefined}
+>                                   formAction={undefined}
+>                                   formEncType={undefined}
+>                                   formMethod={undefined}
+>                                   formNoValidate={undefined}
+>                                   formTarget={undefined}
+>                                   name={undefined}
+>                                   value={undefined}
+>                                   onFocus={function}
+>                                   onBlur={function}
+>                                   onKeyDown={function onKeyDown}
+>                                   onKeyUp={undefined}
+>                                   tabIndex={0}
+>                                   onClick={function onClick}
+>                                   onPointerDown={function}
+>                                   onMouseDown={function}
+>                                   onPointerUp={function}
+>                                   onPointerEnter={function}
+>                                   onPointerLeave={function}
+>                                   onDragStart={function}
+>                                   data-react-aria-pressable={true}
+>                                   aria-label="Hide category"
+>                                   aria-haspopup={undefined}
+>                                   aria-expanded={undefined}
+>                                   aria-controls={undefined}
+>                                   aria-pressed={undefined}
+>                                   aria-current={undefined}
+>                                   aria-disabled={undefined}
+>                                   id="react-aria3337356378-_r_2_"
+>                                   aria-labelledby={undefined}
+>                                   slot={undefined}
+>                                   data-disabled={undefined}
+>                                   data-pressed={undefined}
+>                                   data-hovered={undefined}
+>                                   data-focused={undefined}
+>                                   data-pending={undefined}
+>                                   data-focus-visible={undefined}
+>                                   ref={function}
+>                                 >
+                            ...
+                          ...
+                      ...
+                ...
+              ...
+            ...
+            ...
+            ...
+    ...
+ 
+2026-09-16T11:29:39.106Z [ERROR] [36m[browser][39m <button> cannot contain a nested <button>.
+See this log for the ancestor stack trace. 
