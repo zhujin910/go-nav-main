@@ -1,0 +1,158 @@
+{
+  "access": [
+    {
+      "ip": "::1",
+      "path": "/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "6e80d32d-f247-44a3-8d3a-185b27bd4e77",
+      "time": "2026-09-16T06:58:33.300Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/stats/",
+      "method": "POST",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "bf8d3d67-dea1-4e51-bc3b-607c46e0a9a5",
+      "time": "2026-09-16T06:59:05.336Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/auth/login/",
+      "method": "POST",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "e7bcb339-a492-4317-a5af-a98331ad9845",
+      "time": "2026-09-16T06:59:06.914Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/security-logs/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "5fd81404-4320-4fba-8f06-a7883696e2d5",
+      "time": "2026-09-16T06:59:41.412Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/stats/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "a4ed7996-0563-40bf-812d-d329fdbe7d10",
+      "time": "2026-09-16T07:00:04.098Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/security-logs/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "0079deb1-1b34-4640-affa-d96257300cee",
+      "time": "2026-09-16T07:00:14.475Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/system/status/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "59e21b9e-f799-4f53-863f-01a0ce309d48",
+      "time": "2026-09-16T07:00:16.152Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/system/maintenance/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "8e99670d-0068-4dd4-8bb4-34f2f0acc337",
+      "time": "2026-09-16T07:00:16.168Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/system/status/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "e97bcb1a-43e4-4d98-93d9-e3b9d0cc403b",
+      "time": "2026-09-16T07:00:26.032Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/security-logs/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "d08946f4-89b7-4322-b04b-078e2450cc8b",
+      "time": "2026-09-16T07:00:28.540Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "1f61d705-e65b-459d-9db0-c823c573aa80",
+      "time": "2026-09-16T07:05:54.544Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/security-logs/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "9bb8e388-82af-4bf0-9d70-f2a63e0728dd",
+      "time": "2026-09-16T07:15:29.824Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "eeab6ed6-fb0a-47af-b82c-197a6a6b91f3",
+      "time": "2026-09-16T07:19:31.914Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/security-logs/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "1148ae81-1f11-42ad-a804-f88be72eade3",
+      "time": "2026-09-16T07:19:32.003Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/security-logs/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "241e8134-cdb5-480f-af39-f17dab373fba",
+      "time": "2026-09-16T07:22:32.151Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "393e98b3-3640-4309-87fd-cb0c5ad8f23c",
+      "time": "2026-09-16T07:26:28.355Z"
+    },
+    {
+      "ip": "::1",
+      "path": "/api/security-logs/",
+      "method": "GET",
+      "status": 200,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",
+      "id": "614d85d0-ce68-49b3-b695-1330ee6b4cf4",
+      "time": "2026-09-16T07:26:28.594Z"
+    }
+  ],
+  "search": []
+}

@@ -519,6 +519,21 @@ export interface SiteAccessProtectionConfig {
 	confirmPassword?: string;
 }
 
+export interface BotProtectionConfig {
+	/** 是否启用 IP / UA 防护 */
+	enabled?: boolean;
+	/** 每分钟单 IP 最大请求数，默认 120 */
+	maxRequestsPerMinute?: number;
+	/** 拒绝的 IP 或 CIDR 前缀列表 */
+	blockedIps?: string[];
+	/** 放行的 IP 或 CIDR 前缀列表 */
+	allowedIps?: string[];
+	/** 命中即拒绝的 UA 关键词 */
+	blockedUserAgentKeywords?: string[];
+	/** 是否拦截常见爬虫 UA */
+	blockKnownBots?: boolean;
+}
+
 /**
  * 导航数据配置 - nav.json 的类型定义
  * 包含：网站基础信息、搜索、广告、最近访问、布局、主题、页脚等所有后台配置
@@ -603,6 +618,8 @@ export interface NavConfig {
 	themeMode?: ThemeMode;
 	/** 前台访问密码保护（仅 Server 部署模式生效） */
 	accessProtection?: SiteAccessProtectionConfig;
+	/** 爬虫、IP 与 User-Agent 防护（仅 Server 部署模式生效） */
+	botProtection?: BotProtectionConfig;
 	/** 搜索相关配置 */
 	search: {
 		/** 默认选中的搜索引擎 ID (`local` 表示本地搜索) */

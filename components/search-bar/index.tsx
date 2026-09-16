@@ -113,8 +113,22 @@ export function SearchBar({
 	const handleSubmit = (value: string) => {
 		const normalizedQuery = value.trim();
 		if (!normalizedQuery) return;
+		const searchStartedAt = performance.now();
+		const logSearch = (resultsToLog: string[], resultCount: number) => {
+			void fetch("/api/search-log/", {
+				method: "POST",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify({
+					keyword: normalizedQuery,
+					results: resultsToLog,
+					resultCount,
+					durationMs: Math.round(performance.now() - searchStartedAt),
+				}),
+			}).catch(() => undefined);
+		};
 
 		if (isLocal) {
+			logSearch(results.slice(0, 20).map((item) => item.title), results.length);
 			if (results.length > 0) {
 				openLocalResult(results[Math.max(activeIndex, 0)] ?? results[0]);
 			}
@@ -124,11 +138,13 @@ export function SearchBar({
 		if (showSuggestions && activeIndex >= 0) {
 			const selectedSuggestion = suggestions[activeIndex];
 			if (selectedSuggestion) {
+				logSearch([selectedSuggestion.label], suggestions.length);
 				openSuggestion(selectedSuggestion.label);
 				return;
 			}
 		}
 
+		logSearch(suggestions.slice(0, 20).map((item) => item.label), suggestions.length);
 		runExternalSearch(normalizedQuery);
 		setIsOpen(false);
 	};

@@ -44,6 +44,7 @@ import {
     BiMessageSquareAdd,
     BiLockAlt,
 	BiBot,
+	BiShield,
 } from "react-icons/bi";
 import {
     applyImportAtom,
@@ -82,6 +83,7 @@ type RouteKey =
 	| "carousel"
 	| "link-check"
 	| "analytics"
+	| "security-logs"
 	| "system-status"
 	| "donation"
 	| "backup"
@@ -248,6 +250,12 @@ const NAV_SECTIONS: { title: string; items: NavItem[] }[] = [
 				label: "数据统计",
 				icon: <FiBarChart2 className="size-5" />,
 				desc: "查看站点访问与使用数据",
+			},
+			{
+				key: "security-logs",
+				label: "搜索与安全日志",
+				icon: <BiShield className="size-5" />,
+				desc: "搜索耗时、访问记录与爬虫防护",
 			},
 			{
 				key: "system-status",
